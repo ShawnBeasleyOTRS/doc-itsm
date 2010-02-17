@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: cmdb.xml,v 1.10 2009-07-27 10:50:59 ub Exp $ -->
+<!-- $Id: cmdb.xml,v 1.11 2010-02-17 20:54:15 ub Exp $ -->
 
 <chapter>
 
@@ -58,7 +58,7 @@
                     <graphic fileref="screenshots/general-catalog-database.png" scale="50" srccredit="database" />
                 </screenshot>
             </para>
-            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png?revision=1.3 zu finden.</para>
+            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png?revision=2.0 zu finden.</para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
@@ -68,7 +68,7 @@
                     <graphic fileref="screenshots/itsm-core-database.png" scale="50" srccredit="database" />
                 </screenshot>
             </para>
-            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png?revision=1.3 zu finden.</para>
+            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png?revision=2.0 zu finden.</para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
@@ -78,7 +78,7 @@
                     <graphic fileref="screenshots/itsm-configuration-management-database.png" scale="50" srccredit="database" />
                 </screenshot>
             </para>
-            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png?revision=1.2 zu finden.</para>
+            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png?revision=2.0 zu finden.</para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
@@ -88,7 +88,7 @@
                     <graphic fileref="screenshots/import-export-database.png" scale="50" srccredit="database" />
                 </screenshot>
             </para>
-            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png?revision=1.2 zu finden.</para>
+            <para>Zur besseren Lesbarkeit ist das Diagramm auch unter http://cvs.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png?revision=2.0 zu finden.</para>
         </sect2>
     </sect1>
 
@@ -279,7 +279,7 @@
 
         <para>Mit OTRS 2.2 sind native Tickettypen eingeführt worden, auf die auch OTRS::ITSM zurück greift. Anhand des Typs werden Tickets in den ITIL Sub-Prozessen, die mittels der Queues abgebildet werden können, klassifiziert.</para>
 
-        <para>Auch die in OTRS::ITSM später implementierten ITIL Prozesse, z. B. Change Management werden darüber abgebildet werden. So könnte es z. B. den Ticket-Typ RfC ("Request for Change") geben.</para>
+        <para>Auch die in OTRS::ITSM später implementierten ITIL Prozesse, z. B. Change Management werden darüber abgebildet. So gibt es z. B. den Ticket-Typ RfC ("Request for Change").</para>
 
         <para>
             <screenshot>
