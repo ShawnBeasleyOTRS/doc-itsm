@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: admin-area.xml,v 1.5 2008-08-19 15:06:13 ub Exp $ -->
+<!-- $Id: admin-area.xml,v 1.6 2010-02-17 20:31:31 ub Exp $ -->
 
 <chapter>
 
@@ -30,7 +30,7 @@
                 <para>[ General Catalog ]</para>
               </listitem>
               <listitem>
-                <para>[ Criticality - Impact - Priority </para>
+                <para>[ Kritikalität - Auswirkung - Priorität ]</para>
               </listitem>
               <listitem>
                 <para>[ ConfigItem ]</para>
@@ -43,6 +43,21 @@
           <itemizedlist>
               <listitem>
                 <para>[ Import/Export ]</para>
+              </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para>ab OTRS::ITSM 2.0</para>
+          <itemizedlist>
+              <listitem>
+                <para>[ Benachrichtigung (ITSM Change Management) ]</para>
+              </listitem>
+              <listitem>
+                <para>[ Kategorie - Auswirkung - Priorität ]</para>
+              </listitem>
+              <listitem>
+                <para>[ State Machine ]</para>
               </listitem>
           </itemizedlist>
         </listitem>
