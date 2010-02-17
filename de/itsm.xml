@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: itsm.xml,v 1.14 2009-07-27 10:50:59 ub Exp $ -->
+<!-- $Id: itsm.xml,v 1.15 2010-02-17 21:26:44 ub Exp $ -->
 
 <chapter>
     <title>OTRS::ITSM - das OTRS für IT Service Management</title>
@@ -28,12 +28,28 @@ Allerdings beschreibt die ITIL nur, "was von wem" getan bzw. woran gedacht werde
     <para>OTRS::ITSM sowie OTRS sind ohne Lizenzgebühren erhältlich und unterliegen der GNU General Public License (GPL).</para>
     <sect1>
         <title>Features</title>
-        <para>Basis von OTRS::ITSM 1.3 ist das Open Ticket Request System OTRS 2.4, d.h. es stehen auch weiterhin alle Funktionalitäten zur Verfügung, die Sie von OTRS bislang kennen. Darauf aufbauend werden die Funktionalitäten zur Abbildung der ITIL Prozesse als so genannte Pakete installiert.</para>
-    <sect2>
-        <title>Neue Features in OTRS::ITSM 1.3</title>
-        <para>Basis von OTRS::ITSM 1.3 ist das Open Ticket Request System OTRS 2.4</para>
-        <para>Es bietet die selben Features wie OTRS::ITSM 1.2, aber benötigt das OTRS 2.4 framework.</para>
-    </sect2>
+        <para>Basis von OTRS::ITSM 2.0 ist das Open Ticket Request System OTRS 2.4, d.h. es stehen auch weiterhin alle Funktionalitäten zur Verfügung, die Sie von OTRS bislang kennen. Darauf aufbauend werden die Funktionalitäten zur Abbildung der ITIL Prozesse als so genannte Pakete installiert.</para>
+
+        <sect2>
+            <title>Neue Features in OTRS::ITSM 2.0</title>
+            <para>OTRS::ITSM 2.0 bietet:</para>
+            <para>
+            <itemizedlist>
+                <listitem>
+                    <para>Change Management</para>
+                    <para>
+                        Das neue OTRS::ITSM Paket "ITSMChangeManagement" implementiert die ITIL-Disziplin Change Management.
+                    </para>
+                </listitem>
+            </itemizedlist>
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Neue Features in OTRS::ITSM 1.3</title>
+            <para>Basis von OTRS::ITSM 1.3 ist das Open Ticket Request System OTRS 2.4</para>
+            <para>Es bietet die selben Features wie OTRS::ITSM 1.2, aber benötigt das OTRS 2.4 framework.</para>
+        </sect2>
         <sect2>
             <title>Neue Features in OTRS::ITSM 1.2</title>
             <para>OTRS::ITSM 1.2 bietet:</para>

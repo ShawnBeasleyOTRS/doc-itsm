@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: itsm.xml,v 1.14 2009-07-27 13:29:52 ub Exp $ --><chapter>
+<!-- $Id: itsm.xml,v 1.15 2010-02-17 21:26:44 ub Exp $ --><chapter>
     <title>OTRS::ITSM - The OTRS for IT service management</title>
     <para>IT is expected to deliver consistently high service quality in an increasingly complex field. In this context, effective and efficient incident and problem management are indispensable. However, IT service management remains a task almost impossible if there is no consistent and up-to-date database with information about the state and configuration of the IT infrastructure. </para>
     <para>The IT Infrastructure Library®, short ITIL®, is a series of books published by the United Kingdom's Office of Government Commerce (OGC), which generically combine best practice approaches to designing, providing, operating and managing IT services. ITIL does not center the technology but the services provided by the IT and comprises information on processes, roles, responsibilities, potential problem fields/resolutions and definitions of terms.</para>
@@ -14,8 +14,23 @@
     <para>OTRS::ITSM and OTRS are freely available (no license fees apply) and are subject to GNU General Public License (GPL).</para>
     <sect1>
     <title>Features</title>
-    <para>OTRS::ITSM 1.3 is based on the Open Ticket Request System OTRS 2.4. All functionalities known from OTRS continue to be available and the functionalities representing ITIL processes can be installed as packages.
-</para>
+    <para>
+        OTRS::ITSM 2.0 is based on the Open Ticket Request System OTRS 2.4. All functionalities known from OTRS continue to be available and the functionalities representing ITIL processes can be installed as packages.
+    </para>
+    <sect2>
+        <title>New OTRS::ITSM 2.0 features</title>
+        <para>OTRS::ITSM 2.0 offers:</para>
+        <para>
+        <itemizedlist>
+            <listitem>
+                <para>Change Management</para>
+                <para>
+                    The new OTRS::ITSM package "ITSMChangeManagement" implements the ITIL discipline Change Management.
+                </para>
+            </listitem>
+        </itemizedlist>
+        </para>
+    </sect2>
     <sect2>
         <title>New OTRS::ITSM 1.3 features</title>
         <para>OTRS::ITSM 1.3 is based on the Open Ticket Request System OTRS 2.4</para>
