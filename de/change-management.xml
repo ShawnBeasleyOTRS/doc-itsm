@@ -1,14 +1,749 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.2 2008-08-14 13:38:22 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.3 2010-02-18 16:32:53 ub Exp $ -->
 
 <chapter>
 
     <title>Change Management</title>
 
-    <para>Der Change Management Prozess wird in einer späteren Version von OTRS::ITSM implementiert sein. Die grundlegenden Informationen lassen sich jedoch bereits ab der Version 1.0 konfigurieren, erfassen und steuern.</para>
+    <para>
+        Das Change Management ist nach ITIL ein Prozess der Service Transition und hat zur Aufgabe Veränderungen der IT kontrolliert,
+        d. h. geplant, dokumentiert und unter Berücksichtigung erforderlicher Freigaben, durchzuführen.
+        Ziel ist die Minimierung von negativen Auswirkungen auf die IT-Landschaft, v. a. auf kritische Services,
+        resultierend aus ad hoc, respektive unkontrollierten Changes/Änderungen.
+    </para>
 
-    <para>So kann z. B. aus dem Problem Management heraus der Ticket-Status "Pending RfC" (=mittels Change zu lösender, bekannter Fehler) genutzt werden.</para>
+    <sect1>
+        <title>Change Management im Kontext OTRS::ITSM</title>
+        <para>
+            Als komplementärer Prozess zu den bereits implementierten Prozessen Incident Management, Problem Management,
+            Configuration Management, Service Level Management, steht seit 01.02.2010 Change Management in OTRS::ITSM
+            zur Verfügung.
+        </para>
+        <para>
+            Dieses Modul ist bis dato ausschließlich Investoren zugänglich, die sich an den Implementierungskosten
+            des Change Management beteiligt haben.
+        </para>
+    </sect1>
+
+
+    <sect1>
+        <title>Voraussetzungen für die Nutzung des Change Management Moduls</title>
+
+        <sect2>
+            <title>Fachliche Voraussetzungen</title>
+            <para>
+                Die Einführung von OTRS::ITSM erfordert eine ausreichend fachliche Spezifikation / Vorbereitung.
+                So gilt es im Vorfeld einer technischen Einführung den Prozess Change Management zu definieren,
+                sowie benötigte Arbeitsabläufe (Workflows), Kennzahlen / Reports auszuarbeiten.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Technische Voraussetzungen</title>
+            <para>
+                Die Nutzung des Change Management Moduls erfordert zwingend:
+            </para>
+            <para>
+                <orderedlist>
+                    <listitem>
+                        <para>
+                           das OTRS Framework in Version 2.4.5 oder höher (2.4.7 wird empfohlen)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "GeneralCatalog" in Version 2.0
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "ITSMCore" in Version 2.0
+                        </para>
+                    </listitem>
+                </orderedlist>
+            </para>
+            <para>
+                Die Nutzung der nachstehenden Pakete wird empfohlen,
+                ist jedoch aus technischer Sicht nicht zwingend erforderlich:
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "ITSMIncidentProblemManagement" Version 2.0
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "ITSMServiceLevelManagement" in Version 2.0
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "ITSMConfigurationManagement" in Version 2.0
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                           das ITSM-Paket "ImportExport" in Version 2.0
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </sect2>
+
+    </sect1>
+
+    <sect1>
+        <title>Abbildung des Change Managements in OTRS::ITSM</title>
+        <para>
+            Die Implementierung des Change Managements in OTRS::ITSM definiert einen Change als eine Veränderung
+            an der vorhandenen IT-Landschaft, z. B. die Bereitstellung eines neuen Emailservers.
+        </para>
+        <para>
+            Da diese Änderung typischerweise aus diversen Teilaufgaben besteht, bietet OTRS::ITSM die Möglichkeit
+            pro Change eine beliebige Anzahl dieser Teilaufgaben, sog. Work Orders zu definieren.
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>Verfügbare Benutzerrollen</title>
+        <para>
+            Der Zugriff auf das Change Management wird durch die Verwendung des bekannten Rollenkonzepts gesteuert.
+            Durch den OTRS-Administrator erfolgt die Anlage der benötigten Benutzerrollen, die mit entsprechenden
+            Berechtigungen auf die Benutzergruppen des Change Management bestückt werden.
+        </para>
+        <para>
+            Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
+            Tabelle aufgeführten Benutzergruppen angelegt:
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>Grundlegender Workflow</title>
+        <para>
+            Die Erstellung eines Changes inkl. aller benötigten Work Order wird über nachstehenden Workflow realisiert.
+        </para>
+        <para>
+
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>Erstellung eines Change</title>
+
+        <sect2>
+            <title>Attribute eines Change</title>
+            <para>
+                Die Erfassung eines neuen Change erfordert die Erfassung der nachstehenden Attribute.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Matrix Category - Impact - Priority</title>
+            <para>
+                Für die Ermittlung der Priorität eines Changes unterstützt OTRS::ITSM den Change Builder
+                durch eine integrierte Matrix, die nach Auswahl der Kategorie und Impact des Changes die
+                im System hinterlegte Priorität zur Auswahl anbietet, die durch den Change Builder
+                jedoch auch überschrieben werden kann.
+            </para>
+            <para>
+                Die nach der Installation vorhandenen Werte der Auswahlfelder Category, Impact und Priority
+                können durch den Administrator über den GeneralCatalog angepasst werden.
+            </para>
+            <para>
+                Hierzu muss im Administrations-Interface von OTRS::ITSM der Menüpunkt "General Catalog" selektiert werden.
+            </para>
+            <sect3>
+                <title>ITSM::ChangeManagement::Category</title>
+                <para>
+                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Category die folgenden Werte:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+            <sect3>
+                <title>ITSM::ChangeManagement::Impact</title>
+                <para>
+                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Impact die folgenden Werte:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+            <sect3>
+                <title>ITSM::ChangeManagement::Priority</title>
+                <para>
+                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Priority die folgenden Werte:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+        </sect2>
+
+        <sect2>
+            <title>Change State Machine</title>
+            <para>
+                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Change gültige Status,
+                sowie mögliche Folgestatus zu definieren. Die Standardinstallation legt hierfür folgendes
+                logisches Modell an:
+            </para>
+            <para>
+                Anpassungen an der aufgezeigten State Machine können durch den System Administrator
+                im Administrator Frontend über den Menüpunkt "State Machine" geändert werden,
+                durch die Definition von Status und möglicher Folgestatus.
+            </para>
+            <para>
+                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::Change::State" durchgeführt werden.
+                Die Abbildung in OTRS::ITSM erfolgt über eine tabellarische Darstellung:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Definition beteiligter Rollen / Personen eines Change</title>
+            <para>
+                Nach Erfassung der Grunddaten eines Change, können die an diesem Change beteiligten Personen
+                über die Funktionalität "Involved Persons" definiert werden.
+            </para>
+            <para>
+                Das System bietet hierzu komfortabel Zugriff auf alle angebundenen Kunden- und Agentenbackends,
+                z. B. SQL-Datenbanken oder LDAP-Verzeichnisdienste. Sofern definiert, kann das CAB anhand eines
+                hinterlegten CAB-Templates definiert werden.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Verknüpfung Change mit RfC</title>
+            <para>
+                Über den, aus dem OTRS Framework bekannten, Linkmechanismus unterstützt das System die Verknüpfung
+                eines Change mit Tickets. Hierdurch kann der Ursprung eines Change, z. B. RfC oder Problem,
+                kenntlich gemacht werden.
+            </para>
+            <para>
+                Zusätzlich ist es innerhalb der Prozesse Incident oder Problem Management,
+                d. h. Ausgangslage Ticketsystem, möglich aus einem Ticket heraus direkt einen Change zu eröffnen.
+                Das System erstellt in diesem Fall transparent die Verlinkung zwischen Ticket und Change.
+                Diese Funktionalität kann per Konfiguration auf Agents eingeschränkt werden,
+                die zur Erstellung von Changes berechtigt sind.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Definition von Bedingungen</title>
+            <para>
+                OTRS::ITSM ermöglicht es Bedingungen und Aktionen basierend auf den nachstehenden Attributen
+                eines Change und/oder Work Order zu definieren. Über das Admin-Frontend kann man Attribute
+                für den Change Builder ab- oder anschalten.
+            </para>
+            <para>
+                Hierdurch lassen sich Workflows definieren, sodass z. B. das canceln einer Work Order
+                den gesamten Change auf "canceled" setzt, oder eine erneute Prüfung / Freigabe zur Folge hat.
+            </para>
+            <para>
+                Es ist zu beachten, dass die definierten Bedingungen nicht in einer bestimmten Reihenfolge
+                ausgeführt werden, im Gegensatz hierzu die Aktionen in der Reihenfolge der Anlage abgearbeitet werden.
+            </para>
+
+            <sect3>
+                <title>Verfügbare Bedingungen auf Change-Ebene</title>
+                <para>
+                   Die folgenden Attribute können für die Definition von Bedingungen auf Change-Ebene verwendet werden.
+                </para>
+            </sect3>
+
+            <sect3>
+                <title>Verfügbare Bedingungen auf Work Order-Ebene</title>
+                <para>
+                   Die folgenden Attribute können für die Definition von Bedingungen auf Work Order-Ebene verwendet werden.
+                </para>
+            </sect3>
+        </sect2>
+
+        <sect2>
+            <title>Definition von Aktionen</title>
+            <para>
+                Nach Festlegung von Bedingungen erlaubt OTRS::ITSM die Definition einer beliebigen Anzahl von Aktionen
+                auf den aktuellen Change oder eine/alle Work Order des aktuellen Changes.
+            </para>
+            <sect3>
+                <title>Verfügbare Aktionen auf Change-Ebene</title>
+                <para>
+                   Die folgenden Aktionen können für Change-Objekte ausgeführt werden.
+                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
+                    wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
+                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
+                    d. h. eine manuelle Änderung ist nicht möglich.
+                </para>
+            </sect3>
+            <sect3>
+                <title>Verfügbare Aktionen auf Work Order-Ebene</title>
+                <para>
+                    Die folgenden Aktionen können für Work Order-Objekte ausgeführt werden.
+                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
+                    wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
+                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
+                    d. h. eine manuelle Änderung ist nicht möglich.
+                </para>
+            </sect3>
+        </sect2>
+
+        <sect2>
+            <title>Neuplanung (Verschieben) der Start- / Endzeit eines Change</title>
+            <para>
+                Da es in der Praxis vorkommen kann, dass geplante Start- oder Endzeiten eines Change verändert
+                werden müssen, unterstützt das System den Change Builder mit der Funktionalität "Move Timeslot".
+            </para>
+            <para>
+                Über einen Eingabedialog hat der Change Builder die Möglichkeit das geplante Zeitfenster zur
+                Durchführung des Change zu verschieben.
+            </para>
+        </sect2>
+    </sect1>
+
+    <sect1>
+        <title>Erstellung einer Work Order</title>
+        <para>
+            Innerhalb eines Change stellt das System die Funktion "Add Work Order" zur Verfügung,
+            die es ermöglicht zu dem ausgewählten Change eine beliebige Anzahl von Teilaufgaben,
+            sog. Work Orders, zu hinterlegen.
+        </para>
+        <sect2>
+            <title>Attribute einer Work Order</title>
+            <para>
+                Nach Erstellung des Change, der als Container zur Definition der Teilaufgaben,
+                i. e. Work Orders dient, werden die Work Orders durch den Change Builder definiert.
+            </para>
+            <para>
+                Neben den genannten Attributen hat der zugewiesene Work Order Agent die Möglichkeit
+                über die Funktionalität "Report", die im Kapitel "Work Order Agent Report" näher beschrieben wird,
+                Attribute zu erfassen.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Work Order Typ</title>
+            <para>
+                Die Standardinstallation des OTRS::ITSM Change Management stellt die folgenden Einträge
+                für das Attribut "Work Order Typ" zur Verfügung:
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Approval
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Work Order
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Backout
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Decision
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        PIR (Post Implementation Review)
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>
+                Die Definition und Angabe der Work Order Typen kann der Administrator frei verändern,
+                außerdem können neue Typen hinzugefügt werden.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Work Order State Machine</title>
+            <para>
+                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Work Order gültige Status,
+                sowie mögliche Folgestatus zu definieren.
+                Die Standardinstallation legt hierfür folgendes logisches Modell an:
+            </para>
+            <para>
+                Anpassungen an der aufgezeigten StateMachine könne durch den System Administrator im Administrator
+                Frontend über den Menüpunkt "StateMachine" geändert werden, durch Definition von Status und
+                möglicher Folgestatus.
+            </para>
+            <para>
+                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den den
+                Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::WorkOrder::State" durchgeführt werden.
+            </para>
+            <para>
+                Die Abbildung möglicher Statusübergänge wird in OTRS::ITSM durch eine tabellarische Darstellung realisiert:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Definition des Work Order Agent</title>
+            <para>
+                Jede Work Order kann einem sog. Word Order Agent zugewiesen werden,
+                d. h. einer Person, die für die Durchführung der Work Order verantwortlich ist.
+            </para>
+            <para>
+                Das System bietet hierfür Zugriff auf alle angebunden Agenten-Backends. Es ist zu beachten, dass
+                ausschließlich Agents angezeigt werden, die Vollberechtigung auf die Benutzergruppe "itsm-change" haben.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Work Order Agent Report</title>
+            <para>
+                Der zugewiesene Work Order Agent hat über den Dialog "Report" die Möglichkeit Kommentare, sowie den Status,
+                die tatsächliche Start- und Endzeit der Work Order und die benötigte Zeit zu dokumentieren.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Verknüpfung von Work Orders mit Configuration Items / Services</title>
+            <para>
+                Innerhalb eines Work Orders bietet OTRS::ITSM die Möglichkeit eine Work Order mit
+                anderen Objekten zu verknüpfen.
+            </para>
+            <para>
+                Die Standardinstallation bietet die Möglichkeit eine Work Order mit den folgenden Objekten zu verknüpfen:
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        CIs
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                CI-Klasse Computer
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Klasse Hardware
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Klasse Location
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Klasse Network
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Klasse Software
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+                <listitem>
+                    <para>
+                        Services
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Tickets
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>
+                Die benannten Einstellungen sind per SysConfig unter "Framework -> Core::LinkObject" definiert
+                und können bei Bedarf erweitert werden.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Speichern einer Work Order als Template</title>
+            <para>
+                Über die Funktion "Template" innerhalb einer Work Order ist es möglich diese als Vorlage zu speichern.
+            </para>
+            <para>
+                Der Dialog fordert den Change Builder auf einen Namen sowie optional ein Kommentar für das Template
+                anzugeben. Sobald der Dialog über den Button "Hinzufügen" verlassen wird,
+                steht die Work Order bei Erstellung neuer Work Order als Vorlage zur Verfügung.
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Löschen einer Work Order</title>
+            <para>
+                Der Change Builder hat die Möglichkeit eine Work Order zu löschen, solange diese nicht in einer Condition
+                (siehe "Definition von Bedingungen") verwendet wird.
+            </para>
+        </sect2>
+    </sect1>
+
+    <sect1>
+        <title>Inhaltsansicht eines Change</title>
+        <para>
+            Nach Erstellung eines Change und zugehöriger Work Order bietet das System die Möglichkeit den Change inkl.
+            aller zugehörigen Work Order sowie verknüpfter Tickets und CIs darzustellen.
+        </para>
+        <para>
+            In einer Zeitachse werden die definierten Work Order nummeriert nach der Reihenfolge der geplanten
+            Durchführung dargestellt, die Farbgebung der dargestellten Work Order in der Zeitachse werden über
+            die Art der Work Order definiert und können bei Bedarf per SysConfig
+            "ITSM Change Management -> Frontend::Agent::ViewChangeZoom" angepasst werden.
+        </para>
+        <para>
+            Pro Work Order erzeugt das System zwei Balken in der Zeitachse des Change.
+            Der obere, dunklere Balken repräsentiert die geplante Durchführungszeit der Work Order,
+            der hellere untere Balken stellt die tatsächliche Durchführungszeit der Work Order dar.
+        </para>
+        <para>
+            Der Status der einzelnen Work Order ist über eine Ampeldarstellung in dieser Ansicht erkennbar:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    Grau - Status der Work Order ist "created"
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Gelb - Status der Work Order ist "pending approval"
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Grün - Status der Work Order ist "closed"
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Rot - Status der Work Order ist "canceled"
+                </para>
+            </listitem>
+        </itemizedlist>
+    </sect1>
+
+    <sect1>
+        <title>Change Views</title>
+        <para>
+            OTRS::ITSM bietet verschiedene Sichten auf die im System hinterlegten Changes an.
+            Der Zugriff auf diese Views kann bei Bedarf deaktiviert werden.
+        </para>
+        <sect2>
+            <title>Change Overview</title>
+            <para>
+                In einer Übersicht werden alle Changes angezeigt, die anhand der angezeigten Spaltenköpfe
+                auf- oder absteigend sortiert werden können.
+            </para>
+            <para>
+                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
+                definiert werden. Die folgenden Attribute stehen hierfür zur Verfügung:
+            </para>
+            <para>
+                Zudem bietet die Change Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
+                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
+                SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview" definiert werden können:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Change Schedule</title>
+            <para>
+                In der Change Schedule Übersicht werden alle Changes angezeigt, die im Status "approved" sind,
+                d. h. zur Umsetzung anstehen. Die angezeigten Spaltenköpfe können anhand der nachstehenden
+                Attribute auf- oder absteigend sortiert werden.
+            </para>
+            <para>
+                Die angezeigten Attribute können per SysConfig
+                "ITSM Change Management -> Frontend::Agent::ViewChangeScheduleOverview" definiert werden:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>PIR - Post Implementation Review</title>
+            <para>
+                Diese Ansicht stellt Work Order vom Typ "PIR" dar, die anhand der dargestellten Spaltenköpfe
+                auf- oder absteigend sortiert werden können.
+            </para>
+            <para>
+                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
+                definiert werden:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Template</title>
+            <para>
+                Diese Ansicht stellt alle im System definierten Templates dar. Der Agent hat die Möglichkeit
+                die Darstellung anhand der angezeigten Spaltenköpfe auf- oder absteigend zu sortieren.
+            </para>
+            <para>
+                Die angezeigten Spalten können per SysConfig
+                "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert werden:
+            </para>
+            <para>
+                Nach Installation des Change Management stehen im System die folgenden Template-Typen zur Verfügung,
+                die per SysConfig "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert sind:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>Suche</title>
+            <para>
+                Zur Suche nach Changes oder Work Orders, die bestimmten Suchkriterien entsprechen,
+                bietet das System eine eigene Suchmaske, die die nachstehenden Attribute für Suchabfragen
+                zur Verfügung stellt:
+            </para>
+        </sect2>
+
+    </sect1>
+
+    <sect1>
+        <title>Change Manager</title>
+        <para>
+            OTRS::ITSM stellt einen separaten View zur Verfügung in der der aktuell angemeldete Agent Changes
+            angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
+        </para>
+        <para>
+            Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
+            Die angezeigten Spalten können per SysConfig
+            "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
+        </para>
+        <para>
+            Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
+            Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
+            die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
+            definiert werden können:
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>My Changes</title>
+        <para>
+            Die Ansicht "My Changes" stellt alle Changes dar, die vom aktuell angemeldeten Agenten erstellt wurden,
+            bzw. dieser als Change Builder hinterlegt ist.
+        </para>
+        <para>
+            Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
+            Die verwendeten Attribute können per SysConfig
+            "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
+        </para>
+        <para>
+            Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
+            darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
+            SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
+        </para>
+    </sect1>
+
+    <sect1>
+        <title></title>
+        <para>
+
+        </para>
+        <para>
+
+        </para>
+    </sect1>
+
+    <sect1>
+        <title></title>
+        <para>
+
+        </para>
+        <para>
+
+        </para>
+    </sect1>
+
+    <sect1>
+        <title></title>
+        <para>
+
+        </para>
+        <para>
+
+        </para>
+    </sect1>
+
 
 </chapter>
