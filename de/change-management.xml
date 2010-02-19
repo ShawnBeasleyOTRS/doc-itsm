@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.3 2010-02-18 16:32:53 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.4 2010-02-19 15:32:44 ub Exp $ -->
 
 <chapter>
 
@@ -119,6 +119,80 @@
             Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
             Tabelle aufgeführten Benutzergruppen angelegt:
         </para>
+
+        <table>
+            <title>Sample Table</title>
+            <tgroup cols="2">
+                <thead>
+                    <row>
+                        <entry>Benutzerrolle</entry>
+                        <entry>Beschreibung</entry>
+                    </row>
+                </thead>
+
+                <tbody>
+                    <row>
+                        <entry>itsm-change</entry>
+                        <entry>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>Mitglieder dieser Benutzergruppe haben Zugriff auf das Change Management.
+                                        Dieser Gruppe sollten alle potenziellen Work Order Agenten zugewiesen werden.
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>Alle Changes und Work Order können eingesehen werden.
+                                    </para>
+                                </listitem>
+                            </itemizedlist>
+                        </entry>
+                    </row>
+
+                    <row>
+                        <entry>itsm-change-builder</entry>
+                        <entry>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders
+                                        im System erstellen.
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>Alle Changes und Work Order können eingesehen werden.
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>Changes und Work Order die der Change Builder erstellt hat,
+                                        bzw. als Change Builder definiert ist, können editiert werden.
+                                    </para>
+                                </listitem>
+                            </itemizedlist>
+                        </entry>
+                    </row>
+
+                    <row>
+                        <entry>itsm-change-manager</entry>
+                        <entry>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders
+                                        im System erstellen.
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>Alle Changes und Work Order können eingesehen werden.
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>Alle Changes und Work Order können editiert werden.
+                                    </para>
+                                </listitem>
+                            </itemizedlist>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
     </sect1>
 
     <sect1>
@@ -609,6 +683,7 @@
             OTRS::ITSM bietet verschiedene Sichten auf die im System hinterlegten Changes an.
             Der Zugriff auf diese Views kann bei Bedarf deaktiviert werden.
         </para>
+
         <sect2>
             <title>Change Overview</title>
             <para>
@@ -676,63 +751,138 @@
             </para>
         </sect2>
 
+        <sect2>
+            <title>Change Manager</title>
+            <para>
+                OTRS::ITSM stellt einen separaten View zur Verfügung in der der aktuell angemeldete Agent Changes
+                angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
+            </para>
+            <para>
+                Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
+                Die angezeigten Spalten können per SysConfig
+                "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
+            </para>
+            <para>
+                Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
+                Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
+                die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
+                definiert werden können:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>My Changes</title>
+            <para>
+                Die Ansicht "My Changes" stellt alle Changes dar, die vom aktuell angemeldeten Agenten erstellt wurden,
+                bzw. dieser als Change Builder hinterlegt ist.
+            </para>
+            <para>
+                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
+                Die verwendeten Attribute können per SysConfig
+                "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
+            </para>
+            <para>
+                Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
+                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
+                SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>My Work Orders</title>
+            <para>
+                Analog zu der aus der OTRS-Ticketengine bekannten Ansicht "Locked Tickets" stellt OTRS::ITSM
+                die dem aktuell angemeldeten Agent zugewiesenen Work Order in einem separaten View zur Verfügung.
+            </para>
+            <para>
+                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
+                Die verwendeten Attribute können per SysConfig
+                "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview" definiert werden:
+            </para>
+            <para>
+                Zudem bietet die My Work Orders Übersicht die Möglichkeit die angezeigten Work Orders anhand
+                diverser Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
+                die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview"
+                definiert werden können:
+            </para>
+        </sect2>
     </sect1>
 
     <sect1>
-        <title>Change Manager</title>
+        <title>Change Management Statistiken</title>
         <para>
-            OTRS::ITSM stellt einen separaten View zur Verfügung in der der aktuell angemeldete Agent Changes
-            angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
+            OTRS::ITSM beinhaltet die nachstehenden Reports zur Ermittlung wichtiger Kennzahlen für die Steuerung
+            des Change Managements. Alle Reports können über den integrierten Report-Generator aufgerufen werden.
         </para>
-        <para>
-            Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
-            Die angezeigten Spalten können per SysConfig
-            "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
-        </para>
-        <para>
-            Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
-            Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
-            die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
-            definiert werden können:
-        </para>
-    </sect1>
 
-    <sect1>
-        <title>My Changes</title>
-        <para>
-            Die Ansicht "My Changes" stellt alle Changes dar, die vom aktuell angemeldeten Agenten erstellt wurden,
-            bzw. dieser als Change Builder hinterlegt ist.
-        </para>
-        <para>
-            Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
-            Die verwendeten Attribute können per SysConfig
-            "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
-        </para>
-        <para>
-            Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
-            darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
-            SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
-        </para>
-    </sect1>
+        <sect2>
+            <title>Anzahl Changes innerhalb einer definierten Zeitspanne</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
+                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die zu
+                reporteten Change-Status zu definieren.
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
 
-    <sect1>
-        <title></title>
-        <para>
+        <sect2>
+            <title>Anzahl Changes nach Change Category</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
+                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die
+                zu reporteten Change-Kategorien zu definieren.
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
 
-        </para>
-        <para>
+        <sect2>
+            <title>Anzahl zurückgewiesener Changes</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen
+                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
 
-        </para>
-    </sect1>
+        <sect2>
+            <title>Anzahl zurückgezogener Changes</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen
+                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
 
-    <sect1>
-        <title></title>
-        <para>
+        <sect2>
+            <title>Verhältnis Changes / Incidents</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen
+                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
 
-        </para>
-        <para>
-
-        </para>
+        <sect2>
+            <title>RfCs pro Requester</title>
+            <para>
+                Der Report erlaubt die Definition einer relativen
+                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+                Zusätzlich besteht die Möglichkeit die zu reporteten RfC-Requester zu definieren.
+            </para>
+            <para>
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+            </para>
+        </sect2>
     </sect1>
 
     <sect1>
