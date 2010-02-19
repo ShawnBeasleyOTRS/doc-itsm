@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.10 2010-02-19 19:25:13 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.11 2010-02-19 19:31:55 ub Exp $ -->
 
 <chapter>
 
@@ -105,6 +105,12 @@
         <para>
             Da diese Änderung typischerweise aus diversen Teilaufgaben besteht, bietet OTRS::ITSM die Möglichkeit
             pro Change eine beliebige Anzahl dieser Teilaufgaben, sog. Work Orders zu definieren.
+        </para>
+        <para>
+            <screenshot>
+                <screeninfo>change_workorder_schema</screeninfo>
+                <graphic srccredit="change_workorder_schema - screenshot" scale="50" fileref="screenshots/change_workorder_schema.png"></graphic>
+            </screenshot>
         </para>
     </sect1>
 
