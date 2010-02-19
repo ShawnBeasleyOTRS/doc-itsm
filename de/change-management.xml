@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.6 2010-02-19 18:15:59 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.7 2010-02-19 19:03:53 ub Exp $ -->
 
 <chapter>
 
@@ -1552,6 +1552,158 @@
                 bietet das System eine eigene Suchmaske, die die nachstehenden Attribute für Suchabfragen
                 zur Verfügung stellt:
             </para>
+
+            <table>
+                <title>Template</title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Change#</entry>
+                            <entry>
+                                Suche anhand der Change-Nummer, als Wildcard kann ein Asterisk ("*") verwendet werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Suche anhand des Titels eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order Title</entry>
+                            <entry>Suche anhand des Titels einer Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>CABAgent</entry>
+                            <entry>
+                                Suche anhand eines CAB-Mitglieds, der im System als Agent definiert ist.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>CABCustomer</entry>
+                            <entry>
+                                Suche anhand eines CAB-Mitglieds,
+                                der im System als Kunde definiert ist. Die Angabe eines CABCustomers kann mit Hilfe
+                                der Autovervollständigung erfolgen.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Change Description</entry>
+                            <entry>Suche in der textuellen Beschreibung eines Change.</entry>
+                        </row>
+                        <row>
+                            <entry>Change Justification</entry>
+                            <entry>Suche in der Begründung / Justification eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order Instruction</entry>
+                            <entry>Suche in der Anweisung einer Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order Report</entry>
+                            <entry>Suche im Report einer Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>Change Priority</entry>
+                            <entry>Suche anhand der Priorität eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Change Impact</entry>
+                            <entry>Suche anhand der Auswirkung eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Change Category</entry>
+                            <entry>Suche anhand der Kategorie eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Change State</entry>
+                            <entry>Suche anhand eines Change-Status</entry>
+                        </row>
+                        <row>
+                            <entry>Change Manager</entry>
+                            <entry>Suche anhand eines Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>Change Builder</entry>
+                            <entry>Suche anhand eines Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>Created by Agent</entry>
+                            <entry>Suche anhand des Ersteller eines Change</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order State</entry>
+                            <entry>Suche anhand des Status einer Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order Agent</entry>
+                            <entry>Suche anhand des hinterlegten Work Order Agent</entry>
+                        </row>
+                        <row>
+                            <entry>Requested (by customer) Date</entry>
+                            <entry>
+                                Suche anhand des vom Kunden angefragten Realisierungsdatums. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Planned Start Time</entry>
+                            <entry>
+                                Suche anhand der geplanten Startzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Planned End Time</entry>
+                            <entry>
+                                Suche anhand der geplanten Endzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Actual Start Time</entry>
+                            <entry>
+                                Suche anhand der tatsächlichen Startzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Actual End Time</entry>
+                            <entry>
+                                Suche anhand der tatsächlichen Endzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Create Time</entry>
+                            <entry>
+                                Suche anhand des Erstellzeitpunktes eines Change. Es kann nach absoluten Zeitwerten,
+                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
+                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Change Time</entry>
+                            <entry>
+                                Suche anhand des Änderungsdatums eines Change.
+                                Es kann nach absoluten Zeitwerten, d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ),
+                                oder auch nach relativen Zeitwerten, z. B. Changes erstellt innerhalb der letzen
+                                x Tage / Wochen, gesucht werden.
+                            </entry>
+                        </row>
+
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1565,12 +1717,140 @@
                 Die angezeigten Spalten können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
             </para>
+            <table>
+                <title>Change Manager</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ActualStartTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change begonnen wurde</entry>
+                        </row>
+                        <row>
+                            <entry>ActualEndTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change beendet wurde</entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Nein</entry>
+                            <entry>Kategorie des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeBuilder</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeManager</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeNumber</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom System erzeugte Change-Nummer</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeState</entry>
+                            <entry>Ja</entry>
+                            <entry>Status des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeStateSignal</entry>
+                            <entry>Ja</entry>
+                            <entry>Statusanzeige des Change per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Erstellzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Nein</entry>
+                            <entry>Auswirkung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedStartTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Startzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedEndTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Abschlusszeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Priorität des Change</entry>
+                        </row>
+                        <row>
+                            <entry>RequestedTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Wunschtermin des Kunden</entry>
+                        </row>
+                        <row>
+                            <entry>Services</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom Change betroffene Services</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderCount</entry>
+                            <entry>Ja</entry>
+                            <entry>Anzahl der Work Order des Change</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <para>
                 Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
                 Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
                 die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
                 definiert werden können:
             </para>
+            <table>
+                <title>Change Manager Filter</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>requested</entry>
+                            <entry>Zeigt alle Changes an, die den Status "requested" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>pending approval</entry>
+                            <entry>Zeigt alle Changes an, die den Status "pending approval" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>approved</entry>
+                            <entry>Zeigt alle Changes an, die den Status "approved" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>in progress</entry>
+                            <entry>Zeigt alle Changes an, die den Status "in progress" aufweisen</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1584,11 +1864,139 @@
                 Die verwendeten Attribute können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
             </para>
+            <table>
+                <title>My Changes</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ActualStartTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change begonnen wurde</entry>
+                        </row>
+                        <row>
+                            <entry>ActualEndTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change beendet wurde</entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Nein</entry>
+                            <entry>Kategorie des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeBuilder</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeManager</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeNumber</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom System erzeugte Change-Nummer</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeState</entry>
+                            <entry>Ja</entry>
+                            <entry>Status des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeStateSignal</entry>
+                            <entry>Ja</entry>
+                            <entry>Statusanzeige des Change per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Erstellzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Nein</entry>
+                            <entry>Auswirkung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedStartTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Startzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedEndTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Abschlusszeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Priorität des Change</entry>
+                        </row>
+                        <row>
+                            <entry>RequestedTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Wunschtermin des Kunden</entry>
+                        </row>
+                        <row>
+                            <entry>Services</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom Change betroffene Services</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderCount</entry>
+                            <entry>Ja</entry>
+                            <entry>Anzahl der Work Order des Change</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <para>
                 Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
                 darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
                 SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
             </para>
+            <table>
+                <title>My Changes Filter</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>requested</entry>
+                            <entry>Zeigt alle Changes an, die den Status "requested" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>pending approval</entry>
+                            <entry>Zeigt alle Changes an, die den Status "pending approval" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>approved</entry>
+                            <entry>Zeigt alle Changes an, die den Status "approved" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>in progress</entry>
+                            <entry>Zeigt alle Changes an, die den Status "in progress" aufweisen</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1602,6 +2010,7 @@
                 Die verwendeten Attribute können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview" definiert werden:
             </para>
+
             <para>
                 Zudem bietet die My Work Orders Übersicht die Möglichkeit die angezeigten Work Orders anhand
                 diverser Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
