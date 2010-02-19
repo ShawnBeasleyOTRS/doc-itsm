@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.5 2010-02-19 17:41:39 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.6 2010-02-19 18:15:59 ub Exp $ -->
 
 <chapter>
 
@@ -1034,11 +1034,159 @@
                 Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
                 definiert werden. Die folgenden Attribute stehen hierfür zur Verfügung:
             </para>
+            <table>
+                <title>Change Overview</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ActualStartTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change begonnen wurde</entry>
+                        </row>
+                        <row>
+                            <entry>ActualEndTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change beendet wurde</entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Nein</entry>
+                            <entry>Kategorie des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeBuilder</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeManager</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeNumber</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom System erzeugte Change-Nummer</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeState</entry>
+                            <entry>Ja</entry>
+                            <entry>Status des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeStateSignal</entry>
+                            <entry>Ja</entry>
+                            <entry>Statusanzeige des Change per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Erstellzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Nein</entry>
+                            <entry>Auswirkung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedStartTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Startzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedEndTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Abschlusszeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Priorität des Change</entry>
+                        </row>
+                        <row>
+                            <entry>RequestedTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Wunschtermin des Kunden</entry>
+                        </row>
+                        <row>
+                            <entry>Services</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom Change betroffene Services</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderCount</entry>
+                            <entry>Ja</entry>
+                            <entry>Anzahl der Work Order des Change</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <para>
                 Zudem bietet die Change Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
                 darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
                 SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview" definiert werden können:
             </para>
+            <table>
+                <title>Change Overview Filter</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>requested</entry>
+                            <entry>Zeigt alle Changes an, die den Status "requested" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>pending approval</entry>
+                            <entry>Zeigt alle Changes an, die den Status "pending approval" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>rejected</entry>
+                            <entry>Zeigt alle Changes an, die den Status "rejected" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>approved</entry>
+                            <entry>Zeigt alle Changes an, die den Status "approved" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>in progress</entry>
+                            <entry>Zeigt alle Changes an, die den Status "in progress" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>successful</entry>
+                            <entry>Zeigt alle Changes an, die den Status "successful" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>failed</entry>
+                            <entry>Zeigt alle Changes an, die den Status "failed" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>canceled</entry>
+                            <entry>Zeigt alle Changes an, die den Status "canceled" aufweisen</entry>
+                        </row>
+                        <row>
+                            <entry>retracted</entry>
+                            <entry>Zeigt alle Changes an, die den Status "retracted" aufweisen</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1052,6 +1200,105 @@
                 Die angezeigten Attribute können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeScheduleOverview" definiert werden:
             </para>
+            <table>
+                <title>Change Schedule</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ActualStartTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change begonnen wurde</entry>
+                        </row>
+                        <row>
+                            <entry>ActualEndTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change beendet wurde</entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Nein</entry>
+                            <entry>Kategorie des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeBuilder</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeManager</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeNumber</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom System erzeugte Change-Nummer</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeState</entry>
+                            <entry>Ja</entry>
+                            <entry>Status des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeStateSignal</entry>
+                            <entry>Ja</entry>
+                            <entry>Statusanzeige des Change per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Erstellzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Nein</entry>
+                            <entry>Auswirkung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedStartTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Startzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedEndTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Abschlusszeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Priorität des Change</entry>
+                        </row>
+                        <row>
+                            <entry>RequestedTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Wunschtermin des Kunden</entry>
+                        </row>
+                        <row>
+                            <entry>Services</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom Change betroffene Services</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderCount</entry>
+                            <entry>Ja</entry>
+                            <entry>Anzahl der Work Order des Change</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1064,6 +1311,130 @@
                 Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
                 definiert werden:
             </para>
+            <table>
+                <title>PIR - Post Implementation Review</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ActualStartTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change begonnen wurde</entry>
+                        </row>
+                        <row>
+                            <entry>ActualEndTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt zu dem der Change beendet wurde</entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Nein</entry>
+                            <entry>Kategorie des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeBuilder</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Builders</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeManager</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Change Managers</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeNumber</entry>
+                            <entry>Nein</entry>
+                            <entry>Vom System erzeugte Change-Nummer</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeState</entry>
+                            <entry>Nein</entry>
+                            <entry>Status des Change</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeStateSignal</entry>
+                            <entry>Nein</entry>
+                            <entry>Statusanzeige des Change per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Erstellzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Nein</entry>
+                            <entry>Auswirkung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedStartTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Startzeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>PlannedEndTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Geplanter Abschlusszeitpunkt des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Priorität des Change</entry>
+                        </row>
+                        <row>
+                            <entry>RequestedTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Wunschtermin des Kunden</entry>
+                        </row>
+                        <row>
+                            <entry>Services</entry>
+                            <entry>Ja</entry>
+                            <entry>Vom Change betroffene Services</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderAgent</entry>
+                            <entry>Ja</entry>
+                            <entry>Der dem PIR zugewiesene Agent</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderNumber</entry>
+                            <entry>Ja</entry>
+                            <entry>Nummer der Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderState</entry>
+                            <entry>Ja</entry>
+                            <entry>Anzahl der Work Order des Change</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderStateSignal</entry>
+                            <entry>Nein</entry>
+                            <entry>Statusanzeige der Work Order per Ampelfunktionalität</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderTitle</entry>
+                            <entry>Ja</entry>
+                            <entry>Titel der WorkOrder</entry>
+                        </row>
+                        <row>
+                            <entry>WorkOrderType</entry>
+                            <entry>Nein</entry>
+                            <entry>Typ der Work Order</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -1076,10 +1447,102 @@
                 Die angezeigten Spalten können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert werden:
             </para>
+            <table>
+                <title>Template</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ChangeBy</entry>
+                            <entry>Nein</entry>
+                            <entry>Benutzername des Agenten, der das Template zuletzt geändert hat</entry>
+                        </row>
+                        <row>
+                            <entry>ChangeTime</entry>
+                            <entry>Nein</entry>
+                            <entry>Zeitpunkt der letzten Änderung</entry>
+                        </row>
+                        <row>
+                            <entry>Comment</entry>
+                            <entry>Ja</entry>
+                            <entry>Kommentar / Beschreibung des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>CreateBy</entry>
+                            <entry>Ja</entry>
+                            <entry>Benutzername des Erstellers des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>CreateTime</entry>
+                            <entry>Ja</entry>
+                            <entry>Erstellzeitpunkt des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>Delete</entry>
+                            <entry>Ja</entry>
+                            <entry>Möglichkeit ein Template zu löschen</entry>
+                        </row>
+                        <row>
+                            <entry>Name</entry>
+                            <entry>Ja</entry>
+                            <entry>Name des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>TemplateID</entry>
+                            <entry>Nein</entry>
+                            <entry>Interne Datenbank-ID des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>Type</entry>
+                            <entry>Ja</entry>
+                            <entry>Typ des Templates</entry>
+                        </row>
+                        <row>
+                            <entry>Valid </entry>
+                            <entry>Ja</entry>
+                            <entry>
+                                Definiert die Gültigkeit des Templates (gültig, ungültig, ungültig temporär).
+                                Ungültige / temporär ungültige Templates können von Change Buildern nicht verwendet werden.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <para>
                 Nach Installation des Change Management stehen im System die folgenden Template-Typen zur Verfügung,
                 die per SysConfig "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert sind:
             </para>
+            <table>
+                <title>Template Typen</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>ITSMChange</entry>
+                            <entry>Vorlagen für Changes</entry>
+                        </row>
+                        <row>
+                            <entry>ITSMWorkOrder</entry>
+                            <entry>Vorlagen für Work Order </entry>
+                        </row>
+                        <row>
+                            <entry>CAB</entry>
+                            <entry>Vorlagen für Change Advisory Boards</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
