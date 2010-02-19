@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.8 2010-02-19 19:09:02 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.9 2010-02-19 19:24:15 ub Exp $ -->
 
 <chapter>
 
@@ -198,7 +198,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Pflichtfeld</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -420,7 +420,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Pflichtfeld</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -741,7 +741,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Pflichtfeld</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1040,7 +1040,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1140,7 +1140,7 @@
             </para>
             <table>
                 <title>Change Overview Filter</title>
-                <tgroup cols="3">
+                <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Attribut</entry>
@@ -1206,7 +1206,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1317,7 +1317,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1453,7 +1453,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1723,7 +1723,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1824,7 +1824,7 @@
             </para>
             <table>
                 <title>Change Manager Filter</title>
-                <tgroup cols="3">
+                <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Attribut</entry>
@@ -1870,7 +1870,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -1970,7 +1970,7 @@
             </para>
             <table>
                 <title>My Changes Filter</title>
-                <tgroup cols="3">
+                <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Attribut</entry>
@@ -2016,7 +2016,7 @@
                     <thead>
                         <row>
                             <entry>Attribut</entry>
-                            <entry>Aktiv (Ja / Nein)</entry>
+                            <entry>Aktiv</entry>
                             <entry>Beschreibung</entry>
                         </row>
                     </thead>
@@ -2142,7 +2142,7 @@
             </para>
             <table>
                 <title>My Work Orders Filter</title>
-                <tgroup cols="3">
+                <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Attribut</entry>
