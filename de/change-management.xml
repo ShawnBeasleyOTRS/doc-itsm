@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.12 2010-02-19 19:53:27 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.13 2010-02-19 20:32:33 ub Exp $ -->
 
 <chapter>
 
@@ -108,8 +108,8 @@
         </para>
         <para>
             <screenshot>
-                <screeninfo>change_workorder_schema</screeninfo>
-                <graphic srccredit="change_workorder_schema - screenshot" scale="100" fileref="screenshots/change_workorder_schema.png"></graphic>
+                <screeninfo>change-workorder-schema</screeninfo>
+                <graphic srccredit="change-workorder-schema - screenshot" scale="75" fileref="screenshots/change-workorder-schema.png"></graphic>
             </screenshot>
         </para>
     </sect1>
@@ -120,6 +120,12 @@
             Der Zugriff auf das Change Management wird durch die Verwendung des bekannten Rollenkonzepts gesteuert.
             Durch den OTRS-Administrator erfolgt die Anlage der benötigten Benutzerrollen, die mit entsprechenden
             Berechtigungen auf die Benutzergruppen des Change Management bestückt werden.
+        </para>
+        <para>
+            <screenshot>
+                <screeninfo>otrs-permissions-roles</screeninfo>
+                <graphic srccredit="otrs-permissions-roles - screenshot" scale="75" fileref="screenshots/otrs-permissions-roles.png"></graphic>
+            </screenshot>
         </para>
         <para>
             Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
@@ -187,7 +193,10 @@
             Die Erstellung eines Changes inkl. aller benötigten Work Order wird über nachstehenden Workflow realisiert.
         </para>
         <para>
-
+            <screenshot>
+                <screeninfo>change-workflow</screeninfo>
+                <graphic srccredit="change-workflow - screenshot" scale="75" fileref="screenshots/change-workflow.png"></graphic>
+            </screenshot>
         </para>
     </sect1>
 
