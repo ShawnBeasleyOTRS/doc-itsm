@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.4 2010-02-19 15:32:44 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.5 2010-02-19 17:41:39 ub Exp $ -->
 
 <chapter>
 
@@ -119,9 +119,8 @@
             Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
             Tabelle aufgeführten Benutzergruppen angelegt:
         </para>
-
         <table>
-            <title>Sample Table</title>
+            <title>Benutzerrollen</title>
             <tgroup cols="2">
                 <thead>
                     <row>
@@ -129,65 +128,46 @@
                         <entry>Beschreibung</entry>
                     </row>
                 </thead>
-
                 <tbody>
                     <row>
                         <entry>itsm-change</entry>
                         <entry>
-                            <itemizedlist>
-                                <listitem>
-                                    <para>Mitglieder dieser Benutzergruppe haben Zugriff auf das Change Management.
-                                        Dieser Gruppe sollten alle potenziellen Work Order Agenten zugewiesen werden.
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>Alle Changes und Work Order können eingesehen werden.
-                                    </para>
-                                </listitem>
-                            </itemizedlist>
+                            <para>
+                                Mitglieder dieser Benutzergruppe haben Zugriff auf das Change Management.
+                                Dieser Gruppe sollten alle potenziellen Work Order Agenten zugewiesen werden.
+                            </para>
+                            <para>
+                                Alle Changes und Work Order können eingesehen werden.
+                            </para>
                         </entry>
                     </row>
-
                     <row>
                         <entry>itsm-change-builder</entry>
                         <entry>
-                            <itemizedlist>
-                                <listitem>
-                                    <para>Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders
-                                        im System erstellen.
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>Alle Changes und Work Order können eingesehen werden.
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>Changes und Work Order die der Change Builder erstellt hat,
-                                        bzw. als Change Builder definiert ist, können editiert werden.
-                                    </para>
-                                </listitem>
-                            </itemizedlist>
+                            <para>
+                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                             </para>
+                            <para>
+                                Alle Changes und Work Order können eingesehen werden.
+                            </para>
+                            <para>
+                                Changes und Work Order die der Change Builder erstellt hat, bzw.
+                                als Change Builder definiert ist, können editiert werden.
+                            </para>
                         </entry>
                     </row>
-
                     <row>
                         <entry>itsm-change-manager</entry>
                         <entry>
-                            <itemizedlist>
-                                <listitem>
-                                    <para>Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders
-                                        im System erstellen.
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>Alle Changes und Work Order können eingesehen werden.
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>Alle Changes und Work Order können editiert werden.
-                                    </para>
-                                </listitem>
-                            </itemizedlist>
+                            <para>
+                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                            </para>
+                            <para>
+                                Alle Changes und Work Order können eingesehen werden.
+                                </para>
+                            <para>
+                                Alle Changes und Work Order können editiert werden.
+                            </para>
                         </entry>
                     </row>
                 </tbody>
@@ -207,12 +187,83 @@
 
     <sect1>
         <title>Erstellung eines Change</title>
-
         <sect2>
             <title>Attribute eines Change</title>
             <para>
                 Die Erfassung eines neuen Change erfordert die Erfassung der nachstehenden Attribute.
             </para>
+            <table>
+                <title>Attribute eines Change</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Title</entry>
+                            <entry>Ja</entry>
+                            <entry>Kurzbeschreibung / Titel des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Description</entry>
+                            <entry>Nein</entry>
+                            <entry>Langtext-Beschreibung des Change</entry>
+                        </row>
+                        <row>
+                            <entry>Justification</entry>
+                            <entry>Nein</entry>
+                            <entry>
+                                Textuelle Beschreibung der "Justification" und Beantwortung der Frage
+                                "Was ist die zu erwartende Konsequenz, wenn der Change nicht durchgeführt wird?"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Kategorie des Change, z. B. "3 normal", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Auswirkung des Change, z. B. "4 hoch", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>State</entry>
+                            <entry>Ja</entry>
+                            <entry>
+                                Der Status eines Change wird bei Neuanlage automatisch gesetzt.
+                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
+                                und Change Manager möglich den Status manuell zu setzen.
+                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
+                                definiert, siehe <xref linkend="change_state_machine"/>.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Requested (by customer) Date</entry>
+                            <entry>Nein</entry>
+                            <entry>
+                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
+                                und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
+                                des Kunden dar.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Attachment</entry>
+                            <entry>Nein</entry>
+                            <entry>Ermöglicht es beliebige Dateianlagen zu hinterlegen.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -334,7 +385,7 @@
             </sect3>
         </sect2>
 
-        <sect2>
+        <sect2 id="change_state_machine">
             <title>Change State Machine</title>
             <para>
                 OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Change gültige Status,
@@ -363,6 +414,38 @@
                 z. B. SQL-Datenbanken oder LDAP-Verzeichnisdienste. Sofern definiert, kann das CAB anhand eines
                 hinterlegten CAB-Templates definiert werden.
             </para>
+            <table>
+                <title>Involved Persons</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Change Manager</entry>
+                            <entry>Ja</entry>
+                            <entry>Gibt einen Agenten mit der Funktion des Change Managers für den aktuellen Change an.</entry>
+                        </row>
+                        <row>
+                            <entry>Change Builder</entry>
+                            <entry>Ja</entry>
+                            <entry>
+                                Definiert den Agent, der den aktuellen Change bearbeitet und definiert.
+                                Bei Neuerstellung eines Change wird der aktuelle Agent automatisch eingetragen.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Change Advisory Board</entry>
+                            <entry>Nein</entry>
+                            <entry>Definiert eine Personengruppe, die sich aus Agents und Kunden zusammenstellen kann.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </sect2>
 
         <sect2>
@@ -402,6 +485,73 @@
                 <para>
                    Die folgenden Attribute können für die Definition von Bedingungen auf Change-Ebene verwendet werden.
                 </para>
+                <table>
+                    <title>Verfügbare Bedingungen auf Change-Ebene</title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Change Attribut</entry>
+                                <entry>Logischer Operator</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>AccountedTime</para>
+                                    <para>PlannedEffort</para>
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is empty</para>
+                                    <para>is not empty</para>
+                                    <para>is greater than</para>
+                                    <para>is less than</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>Category</para>
+                                    <para>ChangeBuilder</para>
+                                    <para>ChangeState</para>
+                                    <para>Impact</para>
+                                    <para>Priority</para>
+
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>ChangeManager</para>
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is empty</para>
+                                    <para>is not empty</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>ChangeTitle</para>
+                                </entry>
+                                <entry>
+                                    <para>begins with</para>
+                                    <para>ends with</para>
+                                    <para>contains</para>
+                                    <para>does not contain</para>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is empty</para>
+                                    <para>is not empty</para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
             </sect3>
 
             <sect3>
@@ -409,6 +559,70 @@
                 <para>
                    Die folgenden Attribute können für die Definition von Bedingungen auf Work Order-Ebene verwendet werden.
                 </para>
+                <table>
+                    <title>Verfügbare Bedingungen auf Work Order-Ebene</title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Work Order Attribut</entry>
+                                <entry>Logischer Operator</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>AccountedTime</para>
+                                    <para>PlannedEffort</para>
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is empty</para>
+                                    <para>is not empty</para>
+                                    <para>is greater than</para>
+                                    <para>is less than</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>WorkOrderNumber</para>
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is greater than</para>
+                                    <para>is less than</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>WorkOrderState</para>
+                                    <para>WorkOrderType</para>
+                                    <para>WorkOrderAgent</para>
+                                </entry>
+                                <entry>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>WorkOrderTitle</para>
+                                </entry>
+                                <entry>
+                                    <para>begins with</para>
+                                    <para>ends with</para>
+                                    <para>contains</para>
+                                    <para>does not contain</para>
+                                    <para>is</para>
+                                    <para>is not</para>
+                                    <para>is empty</para>
+                                    <para>is not empty</para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
             </sect3>
         </sect2>
 
@@ -421,12 +635,45 @@
             <sect3>
                 <title>Verfügbare Aktionen auf Change-Ebene</title>
                 <para>
-                   Die folgenden Aktionen können für Change-Objekte ausgeführt werden.
+                    Die folgenden Aktionen können für Change-Objekte ausgeführt werden.
                     Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
                     wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
                     das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
                     d. h. eine manuelle Änderung ist nicht möglich.
                 </para>
+                <table>
+                    <title>Verfügbare Aktionen auf Change-Ebene</title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Change Attribut</entry>
+                                <entry>Aktion</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>Category</para>
+                                    <para>Impact</para>
+                                    <para>Priority</para>
+
+                                </entry>
+                                <entry>
+                                    <para>set</para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>ChangeState</para>
+                                </entry>
+                                <entry>
+                                    <para>set</para>
+                                    <para>lock</para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
             </sect3>
             <sect3>
                 <title>Verfügbare Aktionen auf Work Order-Ebene</title>
@@ -437,6 +684,28 @@
                     das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
                     d. h. eine manuelle Änderung ist nicht möglich.
                 </para>
+                <table>
+                    <title>Verfügbare Aktionen auf Work Order-Ebene</title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Work Order Attribut</entry>
+                                <entry>Aktion</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>WorkOrderState</para>
+                                </entry>
+                                <entry>
+                                    <para>set</para>
+                                    <para>lock</para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
             </sect3>
         </sect2>
 
@@ -466,6 +735,77 @@
                 Nach Erstellung des Change, der als Container zur Definition der Teilaufgaben,
                 i. e. Work Orders dient, werden die Work Orders durch den Change Builder definiert.
             </para>
+            <table>
+                <title>Attribute einer Work Order</title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Attribut</entry>
+                            <entry>Pflichtfeld (Ja / Nein)</entry>
+                            <entry>Beschreibung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Title</entry>
+                            <entry>Ja</entry>
+                            <entry>Kurzbeschreibung / Titel der Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>Instruction</entry>
+                            <entry>Nein</entry>
+                            <entry>Langtext Beschreibung der Work Order</entry>
+                        </row>
+                        <row>
+                            <entry>Work Order Type</entry>
+                            <entry>Ja</entry>
+                            <entry>
+                                Auswahlliste zur Definition der Art der Work Order, z. B. Approval, Work Order, PIR, etc.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Category</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Kategorie des Change, z. B. "3 normal", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>Impact</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Auswirkung des Change, z. B. "4 hoch", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>Priority</entry>
+                            <entry>Ja</entry>
+                            <entry>Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.</entry>
+                        </row>
+                        <row>
+                            <entry>State</entry>
+                            <entry>Ja</entry>
+                            <entry>
+                                Der Status eines Change wird bei Neuanlage automatisch gesetzt.
+                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
+                                und Change Manager möglich den Status manuell zu setzen.
+                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
+                                definiert, siehe <xref linkend="change_state_machine"/>.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Requested (by customer) Date</entry>
+                            <entry>Nein</entry>
+                            <entry>
+                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
+                                und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
+                                des Kunden dar.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Attachment</entry>
+                            <entry>Nein</entry>
+                            <entry>Ermöglicht es beliebige Dateianlagen zu hinterlegen.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <para>
                 Neben den genannten Attributen hat der zugewiesene Work Order Agent die Möglichkeit
                 über die Funktionalität "Report", die im Kapitel "Work Order Agent Report" näher beschrieben wird,
