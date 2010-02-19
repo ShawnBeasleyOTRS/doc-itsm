@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.9 2010-02-19 19:24:15 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.10 2010-02-19 19:25:13 ub Exp $ -->
 
 <chapter>
 
@@ -2248,16 +2248,5 @@
             </para>
         </sect2>
     </sect1>
-
-    <sect1>
-        <title></title>
-        <para>
-
-        </para>
-        <para>
-
-        </para>
-    </sect1>
-
 
 </chapter>
