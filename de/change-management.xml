@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.15 2010-02-24 14:56:30 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.16 2010-02-24 17:54:14 ub Exp $ -->
 
 <chapter>
 
@@ -428,6 +428,12 @@
                 Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::Change::State" durchgeführt werden.
                 Die Abbildung in OTRS::ITSM erfolgt über eine tabellarische Darstellung:
             </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-state-transition</screeninfo>
+                    <graphic srccredit="change-state-transition - screenshot" scale="50" fileref="screenshots/change-state-transition.png"></graphic>
+                </screenshot>
+            </para>
         </sect2>
 
         <sect2>
@@ -435,6 +441,12 @@
             <para>
                 Nach Erfassung der Grunddaten eines Change, können die an diesem Change beteiligten Personen
                 über die Funktionalität "Involved Persons" definiert werden.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-involved-persons</screeninfo>
+                    <graphic srccredit="change-involved-persons - screenshot" scale="50" fileref="screenshots/change-involved-persons.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Das System bietet hierzu komfortabel Zugriff auf alle angebundenen Kunden- und Agentenbackends,
@@ -483,6 +495,12 @@
                 kenntlich gemacht werden.
             </para>
             <para>
+                <screenshot>
+                    <screeninfo>change-rfc-relation</screeninfo>
+                    <graphic srccredit="change-rfc-relation - screenshot" scale="50" fileref="screenshots/change-rfc-relation.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
                 Zusätzlich ist es innerhalb der Prozesse Incident oder Problem Management,
                 d. h. Ausgangslage Ticketsystem, möglich aus einem Ticket heraus direkt einen Change zu eröffnen.
                 Das System erstellt in diesem Fall transparent die Verlinkung zwischen Ticket und Change.
@@ -501,6 +519,12 @@
             <para>
                 Hierdurch lassen sich Workflows definieren, sodass z. B. das canceln einer Work Order
                 den gesamten Change auf "canceled" setzt, oder eine erneute Prüfung / Freigabe zur Folge hat.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-conditions</screeninfo>
+                    <graphic srccredit="change-conditions - screenshot" scale="50" fileref="screenshots/change-conditions.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Es ist zu beachten, dass die definierten Bedingungen nicht in einer bestimmten Reihenfolge
@@ -746,6 +770,12 @@
                 Über einen Eingabedialog hat der Change Builder die Möglichkeit das geplante Zeitfenster zur
                 Durchführung des Change zu verschieben.
             </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-move-timeslot</screeninfo>
+                    <graphic srccredit="change-move-timeslot - screenshot" scale="50" fileref="screenshots/change-move-timeslot.png"></graphic>
+                </screenshot>
+            </para>
         </sect2>
     </sect1>
 
@@ -885,6 +915,12 @@
                 OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Work Order gültige Status,
                 sowie mögliche Folgestatus zu definieren.
                 Die Standardinstallation legt hierfür folgendes logisches Modell an:
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-state-machine</screeninfo>
+                    <graphic srccredit="change-workorder-state-machine - screenshot" scale="50" fileref="screenshots/change-workorder-state-machine.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Anpassungen an der aufgezeigten StateMachine könne durch den System Administrator im Administrator
