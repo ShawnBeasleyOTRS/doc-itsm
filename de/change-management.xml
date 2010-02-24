@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.17 2010-02-24 18:39:29 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.18 2010-02-24 18:47:47 ub Exp $ -->
 
 <chapter>
 
@@ -1075,7 +1075,7 @@
         <para>
             <screenshot>
                 <screeninfo>change-zoom</screeninfo>
-                <graphic srccredit="change-zoom - screenshot" scale="50" fileref="screenshots/change-zoom.png"></graphic>
+                <graphic srccredit="change-zoom - screenshot" scale="35" fileref="screenshots/change-zoom.png"></graphic>
             </screenshot>
         </para>
         <para>
@@ -1138,7 +1138,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-overview</screeninfo>
-                    <graphic srccredit="change-overview - screenshot" scale="50" fileref="screenshots/change-overview.png"></graphic>
+                    <graphic srccredit="change-overview - screenshot" scale="35" fileref="screenshots/change-overview.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -1310,7 +1310,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-schedule</screeninfo>
-                    <graphic srccredit="change-schedule - screenshot" scale="50" fileref="screenshots/change-schedule.png"></graphic>
+                    <graphic srccredit="change-schedule - screenshot" scale="35" fileref="screenshots/change-schedule.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -1427,7 +1427,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-pir</screeninfo>
-                    <graphic srccredit="change-pir - screenshot" scale="50" fileref="screenshots/change-pir.png"></graphic>
+                    <graphic srccredit="change-pir - screenshot" scale="35" fileref="screenshots/change-pir.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -1569,7 +1569,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-template</screeninfo>
-                    <graphic srccredit="change-template - screenshot" scale="50" fileref="screenshots/change-template.png"></graphic>
+                    <graphic srccredit="change-template - screenshot" scale="35" fileref="screenshots/change-template.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -1684,7 +1684,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-search</screeninfo>
-                    <graphic srccredit="change-search - screenshot" scale="50" fileref="screenshots/change-search.png"></graphic>
+                    <graphic srccredit="change-search - screenshot" scale="35" fileref="screenshots/change-search.png"></graphic>
                 </screenshot>
             </para>
             <table>
@@ -1849,7 +1849,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-changemanager</screeninfo>
-                    <graphic srccredit="change-changemanager - screenshot" scale="50" fileref="screenshots/change-changemanager.png"></graphic>
+                    <graphic srccredit="change-changemanager - screenshot" scale="35" fileref="screenshots/change-changemanager.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -2002,7 +2002,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-mychanges</screeninfo>
-                    <graphic srccredit="change-mychanges - screenshot" scale="50" fileref="screenshots/change-mychanges.png"></graphic>
+                    <graphic srccredit="change-mychanges - screenshot" scale="35" fileref="screenshots/change-mychanges.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -2154,7 +2154,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-myworkorders</screeninfo>
-                    <graphic srccredit="change-myworkorders - screenshot" scale="50" fileref="screenshots/change-myworkorders.png"></graphic>
+                    <graphic srccredit="change-myworkorders - screenshot" scale="35" fileref="screenshots/change-myworkorders.png"></graphic>
                 </screenshot>
             </para>
             <para>
