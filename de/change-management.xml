@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.13 2010-02-19 20:32:33 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.14 2010-02-24 14:16:22 ub Exp $ -->
 
 <chapter>
 
@@ -292,6 +292,12 @@
             <para>
                 Die nach der Installation vorhandenen Werte der Auswahlfelder Category, Impact und Priority
                 können durch den Administrator über den GeneralCatalog angepasst werden.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-matrix</screeninfo>
+                    <graphic srccredit="change-matrix - screenshot" scale="75" fileref="screenshots/change-matrix.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Hierzu muss im Administrations-Interface von OTRS::ITSM der Menüpunkt "General Catalog" selektiert werden.
