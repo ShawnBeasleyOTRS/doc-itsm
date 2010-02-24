@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.14 2010-02-24 14:16:22 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.15 2010-02-24 14:56:30 ub Exp $ -->
 
 <chapter>
 
@@ -296,7 +296,7 @@
             <para>
                 <screenshot>
                     <screeninfo>change-matrix</screeninfo>
-                    <graphic srccredit="change-matrix - screenshot" scale="75" fileref="screenshots/change-matrix.png"></graphic>
+                    <graphic srccredit="change-matrix - screenshot" scale="50" fileref="screenshots/change-matrix.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -412,6 +412,12 @@
                 OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Change gültige Status,
                 sowie mögliche Folgestatus zu definieren. Die Standardinstallation legt hierfür folgendes
                 logisches Modell an:
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-state-machine</screeninfo>
+                    <graphic srccredit="change-state-machine - screenshot" scale="50" fileref="screenshots/change-state-machine.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Anpassungen an der aufgezeigten State Machine können durch den System Administrator
