@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.16 2010-02-24 17:54:14 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.17 2010-02-24 18:39:29 ub Exp $ -->
 
 <chapter>
 
@@ -934,6 +934,12 @@
             <para>
                 Die Abbildung möglicher Statusübergänge wird in OTRS::ITSM durch eine tabellarische Darstellung realisiert:
             </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-state-transition</screeninfo>
+                    <graphic srccredit="change-workorder-state-transition - screenshot" scale="50" fileref="screenshots/change-workorder-state-transition.png"></graphic>
+                </screenshot>
+            </para>
         </sect2>
 
         <sect2>
@@ -946,6 +952,12 @@
                 Das System bietet hierfür Zugriff auf alle angebunden Agenten-Backends. Es ist zu beachten, dass
                 ausschließlich Agents angezeigt werden, die Vollberechtigung auf die Benutzergruppe "itsm-change" haben.
             </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-agent</screeninfo>
+                    <graphic srccredit="change-workorder-agent - screenshot" scale="50" fileref="screenshots/change-workorder-agent.png"></graphic>
+                </screenshot>
+            </para>
         </sect2>
 
         <sect2>
@@ -953,6 +965,12 @@
             <para>
                 Der zugewiesene Work Order Agent hat über den Dialog "Report" die Möglichkeit Kommentare, sowie den Status,
                 die tatsächliche Start- und Endzeit der Work Order und die benötigte Zeit zu dokumentieren.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-agent-report</screeninfo>
+                    <graphic srccredit="change-workorder-agent-report - screenshot" scale="50" fileref="screenshots/change-workorder-agent-report.png"></graphic>
+                </screenshot>
             </para>
         </sect2>
 
@@ -1025,6 +1043,12 @@
                 anzugeben. Sobald der Dialog über den Button "Hinzufügen" verlassen wird,
                 steht die Work Order bei Erstellung neuer Work Order als Vorlage zur Verfügung.
             </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-template</screeninfo>
+                    <graphic srccredit="change-workorder-template - screenshot" scale="50" fileref="screenshots/change-workorder-template.png"></graphic>
+                </screenshot>
+            </para>
         </sect2>
 
         <sect2>
@@ -1032,6 +1056,12 @@
             <para>
                 Der Change Builder hat die Möglichkeit eine Work Order zu löschen, solange diese nicht in einer Condition
                 (siehe "Definition von Bedingungen") verwendet wird.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-workorder-delete</screeninfo>
+                    <graphic srccredit="change-workorder-delete - screenshot" scale="35" fileref="screenshots/change-workorder-delete.png"></graphic>
+                </screenshot>
             </para>
         </sect2>
     </sect1>
@@ -1041,6 +1071,12 @@
         <para>
             Nach Erstellung eines Change und zugehöriger Work Order bietet das System die Möglichkeit den Change inkl.
             aller zugehörigen Work Order sowie verknüpfter Tickets und CIs darzustellen.
+        </para>
+        <para>
+            <screenshot>
+                <screeninfo>change-zoom</screeninfo>
+                <graphic srccredit="change-zoom - screenshot" scale="50" fileref="screenshots/change-zoom.png"></graphic>
+            </screenshot>
         </para>
         <para>
             In einer Zeitachse werden die definierten Work Order nummeriert nach der Reihenfolge der geplanten
@@ -1078,6 +1114,12 @@
                 </para>
             </listitem>
         </itemizedlist>
+        <para>
+            <screenshot>
+                <screeninfo>change-timeline</screeninfo>
+                <graphic srccredit="change-timeline - screenshot" scale="50" fileref="screenshots/change-timeline.png"></graphic>
+            </screenshot>
+        </para>
     </sect1>
 
     <sect1>
@@ -1092,6 +1134,12 @@
             <para>
                 In einer Übersicht werden alle Changes angezeigt, die anhand der angezeigten Spaltenköpfe
                 auf- oder absteigend sortiert werden können.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-overview</screeninfo>
+                    <graphic srccredit="change-overview - screenshot" scale="50" fileref="screenshots/change-overview.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
@@ -1260,6 +1308,12 @@
                 Attribute auf- oder absteigend sortiert werden.
             </para>
             <para>
+                <screenshot>
+                    <screeninfo>change-schedule</screeninfo>
+                    <graphic srccredit="change-schedule - screenshot" scale="50" fileref="screenshots/change-schedule.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
                 Die angezeigten Attribute können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeScheduleOverview" definiert werden:
             </para>
@@ -1369,6 +1423,12 @@
             <para>
                 Diese Ansicht stellt Work Order vom Typ "PIR" dar, die anhand der dargestellten Spaltenköpfe
                 auf- oder absteigend sortiert werden können.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-pir</screeninfo>
+                    <graphic srccredit="change-pir - screenshot" scale="50" fileref="screenshots/change-pir.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
@@ -1507,6 +1567,12 @@
                 die Darstellung anhand der angezeigten Spaltenköpfe auf- oder absteigend zu sortieren.
             </para>
             <para>
+                <screenshot>
+                    <screeninfo>change-template</screeninfo>
+                    <graphic srccredit="change-template - screenshot" scale="50" fileref="screenshots/change-template.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
                 Die angezeigten Spalten können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert werden:
             </para>
@@ -1615,7 +1681,12 @@
                 bietet das System eine eigene Suchmaske, die die nachstehenden Attribute für Suchabfragen
                 zur Verfügung stellt:
             </para>
-
+            <para>
+                <screenshot>
+                    <screeninfo>change-search</screeninfo>
+                    <graphic srccredit="change-search - screenshot" scale="50" fileref="screenshots/change-search.png"></graphic>
+                </screenshot>
+            </para>
             <table>
                 <title>Template</title>
                 <tgroup cols="2">
@@ -1776,6 +1847,12 @@
                 angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
             </para>
             <para>
+                <screenshot>
+                    <screeninfo>change-changemanager</screeninfo>
+                    <graphic srccredit="change-changemanager - screenshot" scale="50" fileref="screenshots/change-changemanager.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
                 Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
                 Die angezeigten Spalten können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
@@ -1923,6 +2000,12 @@
                 bzw. dieser als Change Builder hinterlegt ist.
             </para>
             <para>
+                <screenshot>
+                    <screeninfo>change-mychanges</screeninfo>
+                    <graphic srccredit="change-mychanges - screenshot" scale="50" fileref="screenshots/change-mychanges.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
                 Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
                 Die verwendeten Attribute können per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
@@ -2067,6 +2150,12 @@
             <para>
                 Analog zu der aus der OTRS-Ticketengine bekannten Ansicht "Locked Tickets" stellt OTRS::ITSM
                 die dem aktuell angemeldeten Agent zugewiesenen Work Order in einem separaten View zur Verfügung.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>change-myworkorders</screeninfo>
+                    <graphic srccredit="change-myworkorders - screenshot" scale="50" fileref="screenshots/change-myworkorders.png"></graphic>
+                </screenshot>
             </para>
             <para>
                 Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
