@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.21 2010-03-23 10:35:25 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.22 2010-05-24 08:52:36 mb Exp $ -->
 
 <chapter>
 
@@ -15,22 +15,6 @@
         Ziel ist die Minimierung von negativen Auswirkungen auf die IT-Landschaft, v. a. auf kritische Services,
         resultierend aus ad hoc, respektive unkontrollierten Changes/Änderungen.
     </para>
-
-    <sect1>
-        <title>
-            Change Management im Kontext OTRS::ITSM
-        </title>
-        <para>
-            Als komplementärer Prozess zu den bereits implementierten Prozessen Incident Management, Problem Management,
-            Configuration Management, Service Level Management, steht seit 01.02.2010 Change Management in OTRS::ITSM
-            zur Verfügung.
-        </para>
-        <para>
-            Dieses Modul ist bis dato ausschließlich Investoren zugänglich, die sich an den Implementierungskosten
-            des Change Management beteiligt haben.
-        </para>
-    </sect1>
-
 
     <sect1>
         <title>

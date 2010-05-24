@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
 ]>
-<!-- $Id: change-management.xml,v 1.3 2010-03-23 10:24:41 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.4 2010-05-24 08:52:36 mb Exp $ -->
 
 <chapter>
     <title>
@@ -10,17 +10,6 @@
     <para>
         Change Management, according to ITIL, is a Service Transition process whose purpose is to manage IT changes, including planning, documentation and implementation upon approval and clearance. The objective is to minimize negative effects on the IT infrastructure, particularly on critical services, resulting from ad-hoc or poorly-managed changes or amendments.
     </para>
-    <sect1>
-        <title>
-            Change Management in the Context of OTRS::ITSM
-        </title>
-        <para>
-            As a complementary process to existing Incident Management, Problem Management, Configuration Management and Service Level Management processes, Change Management has been available in OTRS::ITSM since 1 February 2010.
-        </para>
-        <para>
-            This module is currently only available to investors who have financed the initial Change Management implementation into OTRS::ITSM.
-        </para>
-    </sect1>
     <sect1>
         <title>
             Change Management Module Requirements
