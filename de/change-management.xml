@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.22 2010-05-24 08:52:36 mb Exp $ -->
+<!-- $Id: change-management.xml,v 1.23 2010-05-25 13:13:55 ub Exp $ -->
 
 <chapter>
 
@@ -632,6 +632,25 @@
                 Das System erstellt in diesem Fall transparent die Verlinkung zwischen Ticket und Change.
                 Diese Funktionalität kann per Konfiguration auf Agents eingeschränkt werden,
                 die zur Erstellung von Changes berechtigt sind.
+                Ausserdem ist es möglich, die Verwendung des Ticket-Typs "RfC" nur den Agenten zu gestatten,
+                die Zugriff auf den Change Management Bereich haben. Bitte sehen Sie sich dazu auch die folgenden Sysconfig-Optionen an:
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange - ITSMChange::AddChangeLinkTicketTypes
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange - ITSMChange::RestrictTicketTypes::Groups
+                        </para>
+                    </listitem>
+                </itemizedlist>
             </para>
         </sect2>
 

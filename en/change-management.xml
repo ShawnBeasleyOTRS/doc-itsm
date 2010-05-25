@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
 ]>
-<!-- $Id: change-management.xml,v 1.4 2010-05-24 08:52:36 mb Exp $ -->
+<!-- $Id: change-management.xml,v 1.5 2010-05-25 13:14:15 ub Exp $ -->
 
 <chapter>
     <title>
@@ -575,7 +575,27 @@
                 </screenshot>
             </para>
             <para>
-                Furthermore, it is possible to open the corresponding Change directly from a ticket within the Incident or Problem Management process ie. the ticket system from which it originated. In this case, the system creates a transparent link between the ticket and Change. In the configuration, this feature can be restricted to only those agents who are permitted to create Changes.
+                Furthermore, it is possible to open the corresponding Change directly from a ticket within the Incident or Problem Management process ie. the ticket system from which it originated.
+                In this case, the system creates a transparent link between the ticket and Change. In the configuration, this feature can be restricted to only those agents who are permitted to create Changes.
+                It is also possible to resctrict the usage of the ticket type "RfC" to only those agents who have access to the Change Management area.
+                Please have a look at the following sysconfig options:
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange - ITSMChange::AddChangeLinkTicketTypes
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange - ITSMChange::RestrictTicketTypes::Groups
+                        </para>
+                    </listitem>
+                </itemizedlist>
             </para>
         </sect2>
         <sect2>
