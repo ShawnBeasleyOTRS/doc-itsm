@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: installation.xml,v 1.10 2010-06-15 14:45:19 mb Exp $ --><chapter>
+<!-- $Id: installation.xml,v 1.11 2010-06-15 14:49:59 mb Exp $ --><chapter>
     <title>Installing OTRS::ITSM</title>
     <para>OTRS framework 2.4 must be installed prior to the installation of OTRS::ITSM. All necessary information, options and installation procedures are depicted in the OTRS Admin Manual.
 </para>
@@ -47,11 +47,11 @@
 
         </itemizedlist>
 
-        <para>You can find further information about the installation process here: http://ftp.otrs.org/pub/otrs/itsm/INSTALL-2.0.ITSM</para>
+        <para>You can find further information about the installation process here: <ulink url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-2.0.ITSM">INSTALL-20.ITSM</ulink></para>
         <para>
         <screenshot>
             <screeninfo>index.pl - Admin Package Manager</screeninfo>
-            <graphic fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin Paket Manager - screenshot" />
+            <graphic fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin Package Manager - screenshot" />
         </screenshot>
         </para>
 
