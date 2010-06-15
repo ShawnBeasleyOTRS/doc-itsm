@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: installation.xml,v 1.9 2009-07-27 10:51:00 ub Exp $ --><chapter>
+<!-- $Id: installation.xml,v 1.10 2010-06-15 14:45:19 mb Exp $ --><chapter>
     <title>Installing OTRS::ITSM</title>
     <para>OTRS framework 2.4 must be installed prior to the installation of OTRS::ITSM. All necessary information, options and installation procedures are depicted in the OTRS Admin Manual.
 </para>
@@ -12,7 +12,7 @@
 
         <title>Installation</title>
 
-        <para>As soon as OTRS 2.4 or later is ready, sign on as administrator. Using the package manager in the admin area or via ftp://ftp.otrs.org/pub/otrs/itsm/packages13/ and install the ITSM packages in the following order: </para>
+        <para>As soon as OTRS 2.4 or later is installed, sign on as administrator. Using the package manager in the admin area or via ftp://ftp.otrs.org/pub/otrs/itsm/packages20/ and install the ITSM packages in the following order: </para>
         <itemizedlist>
         <listitem>
             <para>GeneralCatalog</para>
@@ -21,7 +21,7 @@
             <para>ITSMCore</para>
         </listitem>
         </itemizedlist>
-        <para>If you have internet access from OTRS, use the online repository [--OTRS::ITSM 1.3 Master--] to install the packages below. Otherwise download the packages and use the package manager to install the packages:</para>
+        <para>If you have internet access from OTRS, use the online repository [--OTRS::ITSM 2.0 Master--] to install the packages below. Otherwise download the packages and use the package manager to install the packages:</para>
 
         <itemizedlist>
 
@@ -34,6 +34,10 @@
             </listitem>
 
             <listitem>
+                <para>ITSMChangeManagement</para>
+            </listitem>
+
+            <listitem>
                 <para>ITSMServiceLevelManagement</para>
             </listitem>
 
@@ -43,10 +47,10 @@
 
         </itemizedlist>
 
-        <para>You can find further information about the installation process here: http://ftp.otrs.org/pub/otrs/itsm/INSTALL-1.3.ITSM</para>
+        <para>You can find further information about the installation process here: http://ftp.otrs.org/pub/otrs/itsm/INSTALL-2.0.ITSM</para>
         <para>
         <screenshot>
-            <screeninfo>index.pl - Admin Paket Manager</screeninfo>
+            <screeninfo>index.pl - Admin Package Manager</screeninfo>
             <graphic fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin Paket Manager - screenshot" />
         </screenshot>
         </para>
@@ -78,7 +82,7 @@
         </para>
         <para>
             To upgrade an already installed OTRS::ITSM 1.3, use the package manager in the admin area.
-            If you have internet access from OTRS, use the online repository [--OTRS::ITSM 1.3 Master--]
+            If you have internet access from OTRS, use the online repository [--OTRS::ITSM 2.0 Master--]
             to install newer packages. An 'upgrade' link next to the package name indicates if a newer package
             is available.
          </para>
