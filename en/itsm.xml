@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'ISO-8859-1'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: itsm.xml,v 1.15 2010-02-17 21:26:44 ub Exp $ --><chapter>
+<!-- $Id: itsm.xml,v 1.16 2011-02-11 12:47:54 mb Exp $ --><chapter>
     <title>OTRS::ITSM - The OTRS for IT service management</title>
     <para>IT is expected to deliver consistently high service quality in an increasingly complex field. In this context, effective and efficient incident and problem management are indispensable. However, IT service management remains a task almost impossible if there is no consistent and up-to-date database with information about the state and configuration of the IT infrastructure. </para>
     <para>The IT Infrastructure Library®, short ITIL®, is a series of books published by the United Kingdom's Office of Government Commerce (OGC), which generically combine best practice approaches to designing, providing, operating and managing IT services. ITIL does not center the technology but the services provided by the IT and comprises information on processes, roles, responsibilities, potential problem fields/resolutions and definitions of terms.</para>
@@ -11,7 +11,7 @@
     <para>OTRS::ITSM 1.0 was the first real-world ITIL compliant IT service management solution on open-source basis, built on the solid fundament of over 55,000 known OTRS installations and the related active community (information dating from April 2007). OTRS::ITSM is under permanent development and new ITIL topics are added continously.</para>
     <para>Core objective of the development of OTRS::ITSM is a strong praxis orientation. This aim can be accomplished by the close development collaboration with Enterprise Consulting GmbH from Bad Homburg, which is very experienced in the practical application of ITIL. Additionally to providing ITSM consulting services and solutions, Enterprise operates complete ITIL compliant IT organizations for renowned customers. </para>
     <para>The service-desk and ticket system solution OTRS forms the basis for the operation of the ITIL compliant IT service management solution OTRS::ITSM, its incident management, problem management, service level management and configuration management modules and the integrated CMDB.</para>
-    <para>OTRS::ITSM and OTRS are freely available (no license fees apply) and are subject to GNU General Public License (GPL).</para>
+    <para>OTRS::ITSM and OTRS are freely available (no license fees apply) and are subject to GNU Affero General Public License (AGPL).</para>
     <sect1>
     <title>Features</title>
     <para>
