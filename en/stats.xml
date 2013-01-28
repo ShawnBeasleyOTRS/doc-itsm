@@ -1,49 +1,59 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: stats.xml,v 1.3 2008-08-19 15:06:13 ub Exp $ --><chapter>
+<!-- $Id: stats.xml,v 1.4 2013-01-28 16:11:53 ub Exp $ -->
+<chapter>
     <title>Service Level Management</title>
-    <para>The OTRS stats framework has been completely revised for version 2.1 and nearly every type of ticket report can be created in the web interface. Generation and view of stats and charts can be activated for users, groups and/or roles. It is possible to import or export existing or new stats and further use can be made of stats modules from previous OTRS versions.
-          With the installation of the ITSMServiceLevelManagement package, additional ITSM relevant statistics are available.
+    <para>
+        The OTRS stats framework has been completely revised for version
+        2.1 and nearly every type of ticket report can be created in the web
+        interface. Generation and view of stats and charts can be activated
+        for users, groups and/or roles. It is possible to import or export
+        existing or new stats and further use can be made of stats modules
+        from previous OTRS versions.
+        With the installation of the ITSMServiceLevelManagement package,
+        additional ITSM relevant statistics are available.
     </para>
     <para>Example of a report overview:</para>
     <para>
-    <screenshot>
-        <screeninfo>agent-ticket-stats</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-stats.png" scale="50" srccredit="agent-ticket-stats - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>agent-ticket-stats</screeninfo>
+            <graphic fileref="screenshots/agent-ticket-stats.png" scale="50" srccredit="agent-ticket-stats - screenshot" />
+        </screenshot>
     </para>
     <para>XML export of report settings:</para>
     <para>
-    <screenshot>
-        <screeninfo>agent-stats-export-import</screeninfo>
-        <graphic fileref="screenshots/agent-stats-export-import.png" scale="50" srccredit="agent-stats-export-import - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>agent-stats-export-import</screeninfo>
+            <graphic fileref="screenshots/agent-stats-export-import.png" scale="50" srccredit="agent-stats-export-import - screenshot" />
+        </screenshot>
     </para>
     <para>Dialog-based creation of a new report template:</para>
     <para>
-    <screenshot>
-        <screeninfo>agent-stats-template</screeninfo>
-        <graphic fileref="screenshots/agent-stats-template.png" scale="50" srccredit="agent-stats-template - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>agent-stats-template</screeninfo>
+            <graphic fileref="screenshots/agent-stats-template.png" scale="50" srccredit="agent-stats-template - screenshot" />
+        </screenshot>
     </para>
-    <para>A PDF generator is incorporated too, which facilitates the export of the print view of tickets, stats and search results in PDF files:</para>
-    <para>
-    <screenshot>
-        <screeninfo>pdf-doc-view</screeninfo>
-        <graphic fileref="screenshots/pdf-doc-view.png" scale="50" srccredit="pdf-doc-view - screenshot" />
-    </screenshot>
+    <para>A PDF generator is incorporated too, which facilitates the export
+        of the print view of tickets, stats and search results in PDF files:
     </para>
     <para>
-    <screenshot>
-        <screeninfo>pdf-doc-overview</screeninfo>
-        <graphic fileref="screenshots/pdf-doc-overview.png" scale="50" srccredit="pdf-doc-overview - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>pdf-doc-view</screeninfo>
+            <graphic fileref="screenshots/pdf-doc-view.png" scale="50" srccredit="pdf-doc-view - screenshot" />
+        </screenshot>
+    </para>
+    <para>
+        <screenshot>
+            <screeninfo>pdf-doc-overview</screeninfo>
+            <graphic fileref="screenshots/pdf-doc-overview.png" scale="50" srccredit="pdf-doc-overview - screenshot" />
+        </screenshot>
     </para>
     <para>Example of a graphical ticket overview:</para>
     <para>
-    <screenshot>
-        <screeninfo>ticket-graphic-overview</screeninfo>
-        <graphic fileref="screenshots/ticket-graphic-overview.png" scale="50" srccredit="ticket-graphic-overview - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>ticket-graphic-overview</screeninfo>
+            <graphic fileref="screenshots/ticket-graphic-overview.png" scale="50" srccredit="ticket-graphic-overview - screenshot" />
+        </screenshot>
     </para>
 </chapter>

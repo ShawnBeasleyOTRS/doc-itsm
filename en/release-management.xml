@@ -1,8 +1,16 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: release-management.xml,v 1.2 2008-08-14 13:38:22 ub Exp $ --><chapter>
+<!-- $Id: release-management.xml,v 1.3 2013-01-28 16:11:53 ub Exp $ -->
+<chapter>
     <title>Release Management</title>
-    <para>The release management process will be implemented in a later OTRS::ITSM version.
-Basic information, however, can be configured, captured and controlled since version 1.0 too. </para>
-    <para>As an example, approval rules or overviews from DSL (Definitive Software Library) can be configured and used. </para>
+    <para>
+        The release management process will be implemented in a later
+        OTRS::ITSM version.
+        Basic information, however, can be configured, captured and controlled
+        since version 1.0 too.
+    </para>
+    <para>
+        As an example, approval rules or overviews from DSL (Definitive
+        Software Library) can be configured and used.
+    </para>
 </chapter>

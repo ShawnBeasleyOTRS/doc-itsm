@@ -1,20 +1,30 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: calendar.xml,v 1.4 2009-07-27 10:51:00 ub Exp $ --><chapter>
+<!-- $Id: calendar.xml,v 1.5 2013-01-28 16:11:53 ub Exp $ -->
+<chapter>
     <title>Additional OTRS applications - calendar</title>
-    <para>In OTRS 2.4, 9 calendars can directly be configurated graphically by default. This number can be extended to 99. Calendar configuration is effected in the admin interface using the SysConfig framework calendar 1 etc. links:</para>
     <para>
-    <screenshot>
-        <screeninfo>admin-sys-config</screeninfo>
-        <graphic fileref="screenshots/admin-sys-config.png" scale="50" srccredit="admin-sys-config - screenshot" />
-    </screenshot>
+        In OTRS 3.2, 9 calendars can directly be configurated graphically
+        by default. This number can be extended to 99. Calendar configuration
+        is effected in the admin interface using the SysConfig framework
+        calendar 1 etc. links:
     </para>
-    <para>&quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define so-called &quot;service level windows&quot; time frames in which certain service levels are guaranteed, if applicable monitored and/or evaluated to secure service level compliance.
-</para>
     <para>
-    <screenshot>
-        <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
-        <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50" srccredit="admin-sysconfig-timeworkinghours - screenshot" />
-    </screenshot>
+        <screenshot>
+            <screeninfo>admin-sys-config</screeninfo>
+            <graphic fileref="screenshots/admin-sys-config.png" scale="50" srccredit="admin-sys-config - screenshot" />
+        </screenshot>
+    </para>
+    <para>
+        &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define
+        so-called &quot;service level windows&quot; time frames in which
+        certain service levels are guaranteed, if applicable monitored and/or
+        evaluated to secure service level compliance.
+    </para>
+    <para>
+        <screenshot>
+            <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
+            <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50" srccredit="admin-sysconfig-timeworkinghours - screenshot" />
+        </screenshot>
     </para>
 </chapter>

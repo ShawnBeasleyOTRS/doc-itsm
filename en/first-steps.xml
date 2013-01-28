@@ -1,28 +1,42 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: first-steps.xml,v 1.3 2009-07-27 10:51:00 ub Exp $ --><chapter>
+<!-- $Id: first-steps.xml,v 1.4 2013-01-28 16:11:53 ub Exp $ -->
+<chapter>
     <title>First steps in OTRS::ITSM</title>
-    <para>OTRS::ITSM completely uses the agent and customer interfaces (customer frontend) implemented in OTRS. If OTRS has been used before, all features and steps such as login, queue configuration, user preferences, filters, rules, user permissions etc. can continually be used without any modifications. </para>
-    <para>The manual at hand will therefore only discuss differences to OTRS and new aspects of OTRS::ITSM and will focus particularly on: </para>
-    <itemizedlist>
-    <listitem>
-        <para>IT services and SLAs</para>
-    </listitem>
-    <listitem>
-        <para>the CMDB</para>
-    </listitem>
-    <listitem>
-        <para>new ticket fields and functions</para>
-    </listitem>
-    <listitem>
-        <para>ITIL compliant terminology</para>
-    </listitem>
-    </itemizedlist>
-    <para>Detailed information on the settings and proceedings identical in OTRS and OTRS::ITSM are provided at http://doc.otrs.org/2.4/en/html/ in the OTRS Admin Manual, which is constantly being revised. </para>
     <para>
-    <screenshot>
-        <screeninfo>Admin-Manual</screeninfo>
-        <graphic fileref="screenshots/admin-manual.png" scale="50" srccredit="Admin Manual - screenshot" />
-    </screenshot>
+       OTRS::ITSM completely uses the agent and customer interfaces
+        (customer frontend) implemented in OTRS. If OTRS has been used before,
+        all features and steps such as login, queue configuration, user
+        preferences, filters, rules, user permissions etc. can continually be
+        used without any modifications.
+    </para>
+    <para>
+        The manual at hand will therefore only discuss differences to
+        OTRS and new aspects of OTRS::ITSM and will focus particularly on:
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>IT services and SLAs</para>
+        </listitem>
+        <listitem>
+            <para>the CMDB</para>
+        </listitem>
+        <listitem>
+            <para>new ticket fields and functions</para>
+        </listitem>
+        <listitem>
+            <para>ITIL compliant terminology</para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        Detailed information on the settings and proceedings identical in
+        OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.2/en/html/
+        in the OTRS Admin Manual, which is constantly being revised.
+    </para>
+    <para>
+        <screenshot>
+            <screeninfo>Admin-Manual</screeninfo>
+            <graphic fileref="screenshots/admin-manual.png" scale="50" srccredit="Admin Manual - screenshot" />
+        </screenshot>
     </para>
 </chapter>

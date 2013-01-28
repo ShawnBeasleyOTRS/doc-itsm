@@ -1,24 +1,31 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: api.xml,v 1.3 2010-02-17 20:36:48 ub Exp $ --><chapter>
+<!-- $Id: api.xml,v 1.4 2013-01-28 16:11:53 ub Exp $ -->
+<chapter>
     <title>OTRS::ITSM interfaces</title>
-    <para>The following, partly generic, interfaces can be used for data exchange between OTRS::ITSM and other (ITSM) software products:</para>
+    <para>
+        The following, partly generic, interfaces can be used for data
+        exchange between OTRS::ITSM and other (ITSM) software products:
+    </para>
     <itemizedlist>
-    <listitem>
-        <para>NAGIOS</para>
-    </listitem>
-    <listitem>
-        <para>SOAP</para>
-    </listitem>
-    <listitem>
-        <para>LDAP</para>
-    </listitem>
-    <listitem>
-        <para>E-mail (POP3, IMAP, SMTP)</para>
-    </listitem>
-    <listitem>
-        <para>CSV Import/Export</para>
-    </listitem>
+        <listitem>
+            <para>NAGIOS</para>
+        </listitem>
+        <listitem>
+            <para>SOAP</para>
+        </listitem>
+        <listitem>
+            <para>LDAP</para>
+        </listitem>
+        <listitem>
+            <para>E-mail (POP3, IMAP, SMTP)</para>
+        </listitem>
+        <listitem>
+            <para>CSV Import/Export</para>
+        </listitem>
     </itemizedlist>
-    <para>OTRS AG will gladly create additional interfaces on request or members of the community can develop them.</para>
+    <para>
+        OTRS AG will gladly create additional interfaces on request or
+        members of the community can develop them.
+    </para>
 </chapter>
