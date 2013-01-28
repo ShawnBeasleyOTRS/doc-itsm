@@ -1,27 +1,33 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: calendar.xml,v 1.4 2009-07-27 10:50:59 ub Exp $ -->
+<!-- $Id: calendar.xml,v 1.5 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
-    <title>Zusätzliche OTRS-Applikationen - Kalender</title>
-
-    <para>In OTRS 2.4 sind standardmäßig 9 Kalender direkt grafisch konfigurierbar. Die Anzahl lässt sich bis auf 99 erweitern. Die Konfiguration der Kalender erfolgt im Admin-Interface über den Link SysConfig - Framework - Calendar1 usw.:</para>
+    <title>ZusÃ¤tzliche OTRS-Applikationen - Kalender</title>
 
     <para>
+        In OTRS 3.2 sind standardmÃ¤ÃŸig 9 Kalender direkt grafisch konfigurierbar. Die Anzahl lÃ¤sst sich bis auf 99 erweitern.
+        Die Konfiguration der Kalender erfolgt im Admin-Interface Ã¼ber den Link SysConfig - Framework - Calendar1 usw.:
+    </para>
+    <para>
         <screenshot>
-        <screeninfo>admin-sys-config</screeninfo>
-        <graphic srccredit="admin-sys-config - screenshot" scale="50" fileref="screenshots/admin-sys-config.png"></graphic>
+            <screeninfo>
+               admin-sys-config
+            </screeninfo>
+            <graphic srccredit="admin-sys-config - screenshot" scale="50" fileref="screenshots/admin-sys-config.png" />
         </screenshot>
     </para>
 
-    <para>Die "TimeWorkingHours" können in OTRS::ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den Zeiträumen, in denen der entsprechende Service Level garantiert, ggfs. überwacht bzw. für die Service Level Einhaltung bewertet, wird.</para>
-
+    <para>
+        Die "TimeWorkingHours" kÃ¶nnen in OTRS::ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den ZeitrÃ¤umen,
+        in denen der entsprechende Service Level garantiert, ggfs. Ã¼berwacht bzw. fÃ¼r die Service Level Einhaltung bewertet, wird.
+    </para>
     <para>
         <screenshot>
-        <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
-        <graphic srccredit="admin-sysconfig-timeworkinghours - screenshot" scale="50" fileref="screenshots/admin-sysconfig-timeworkinghours.png"></graphic>
+            <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
+            <graphic srccredit="admin-sysconfig-timeworkinghours - screenshot" scale="50" fileref="screenshots/admin-sysconfig-timeworkinghours.png" />
         </screenshot>
     </para>
 

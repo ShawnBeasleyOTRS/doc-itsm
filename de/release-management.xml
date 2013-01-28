@@ -1,14 +1,21 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: release-management.xml,v 1.2 2008-08-14 13:38:22 ub Exp $ -->
+<!-- $Id: release-management.xml,v 1.3 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
     <title>Release Management</title>
 
-    <para>Der Release Management Prozess wird in einer späteren Version von OTRS::ITSM implementiert sein. Die grundlegenden Informationen lassen sich jedoch bereits ab der Version 1.0 konfigurieren, erfassen und steuern.</para>
-
-    <para>Es können z. B. Genehmigungs-Regeln oder Übersichten der DSL (Definitive Software Library) konfiguriert und genutzt werden.</para>
+    <para>
+        Der Release Management Prozess wird in einer spÃ¤teren Version von
+        OTRS::ITSM implementiert sein. Die grundlegenden Informationen lassen
+        sich jedoch bereits ab der Version 1.0 konfigurieren, erfassen und
+        steuern.
+    </para>
+    <para>
+        Es kÃ¶nnen z. B. Genehmigungs-Regeln oder Ãœbersichten der DSL
+        (Definitive Software Library) konfiguriert und genutzt werden.
+    </para>
 
 </chapter>

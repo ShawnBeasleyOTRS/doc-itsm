@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: change-management.xml,v 1.23 2010-05-25 13:13:55 ub Exp $ -->
+<!-- $Id: change-management.xml,v 1.24 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
@@ -10,15 +10,15 @@
     </title>
 
     <para>
-        Das Change Management ist nach ITIL ein Prozess der Service Transition und hat zur Aufgabe Veränderungen der IT kontrolliert,
-        d. h. geplant, dokumentiert und unter Berücksichtigung erforderlicher Freigaben, durchzuführen.
+        Das Change Management ist nach ITIL ein Prozess der Service Transition und hat zur Aufgabe VerÃ¤nderungen der IT kontrolliert,
+        d. h. geplant, dokumentiert und unter BerÃ¼cksichtigung erforderlicher Freigaben, durchzufÃ¼hren.
         Ziel ist die Minimierung von negativen Auswirkungen auf die IT-Landschaft, v. a. auf kritische Services,
-        resultierend aus ad hoc, respektive unkontrollierten Changes/Änderungen.
+        resultierend aus ad hoc, respektive unkontrollierten Changes/Ã„nderungen.
     </para>
 
     <sect1>
         <title>
-            Voraussetzungen für die Nutzung des Change Management Moduls
+            Voraussetzungen fÃ¼r die Nutzung des Change Management Moduls
         </title>
 
         <sect2>
@@ -26,9 +26,9 @@
                 Fachliche Voraussetzungen
             </title>
             <para>
-                Die Einführung von OTRS::ITSM erfordert eine ausreichend fachliche Spezifikation / Vorbereitung.
-                So gilt es im Vorfeld einer technischen Einführung den Prozess Change Management zu definieren,
-                sowie benötigte Arbeitsabläufe (Workflows), Kennzahlen / Reports auszuarbeiten.
+                Die EinfÃ¼hrung von OTRS::ITSM erfordert eine ausreichend fachliche Spezifikation / Vorbereitung.
+                So gilt es im Vorfeld einer technischen EinfÃ¼hrung den Prozess Change Management zu definieren,
+                sowie benÃ¶tigte ArbeitsablÃ¤ufe (Workflows), Kennzahlen / Reports auszuarbeiten.
             </para>
         </sect2>
 
@@ -43,17 +43,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            das OTRS Framework in Version 2.4.5 oder höher (2.4.7 wird empfohlen)
+                            das OTRS Framework in Version 3.2.1 oder hÃ¶her
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "GeneralCatalog" in Version 2.0
+                            das ITSM-Paket "GeneralCatalog" in Version 3.2
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMCore" in Version 2.0
+                            das ITSM-Paket "ITSMCore" in Version 3.2
                         </para>
                     </listitem>
                 </orderedlist>
@@ -66,22 +66,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMIncidentProblemManagement" Version 2.0
+                            das ITSM-Paket "ITSMIncidentProblemManagement" Version 3.2
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMServiceLevelManagement" in Version 2.0
+                            das ITSM-Paket "ITSMServiceLevelManagement" in Version 3.2
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMConfigurationManagement" in Version 2.0
+                            das ITSM-Paket "ITSMConfigurationManagement" in Version 3.2
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ImportExport" in Version 2.0
+                            das ITSM-Paket "ImportExport" in Version 3.2
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -95,11 +95,11 @@
             Abbildung des Change Managements in OTRS::ITSM
         </title>
         <para>
-            Die Implementierung des Change Managements in OTRS::ITSM definiert einen Change als eine Veränderung
+            Die Implementierung des Change Managements in OTRS::ITSM definiert einen Change als eine VerÃ¤nderung
             an der vorhandenen IT-Landschaft, z. B. die Bereitstellung eines neuen Emailservers.
         </para>
         <para>
-            Da diese Änderung typischerweise aus diversen Teilaufgaben besteht, bietet OTRS::ITSM die Möglichkeit
+            Da diese Ã„nderung typischerweise aus diversen Teilaufgaben besteht, bietet OTRS::ITSM die MÃ¶glichkeit
             pro Change eine beliebige Anzahl dieser Teilaufgaben, sog. Work Orders zu definieren.
         </para>
         <para>
@@ -114,12 +114,12 @@
 
     <sect1>
         <title>
-            Verfügbare Benutzerrollen
+            VerfÃ¼gbare Benutzerrollen
         </title>
         <para>
             Der Zugriff auf das Change Management wird durch die Verwendung des bekannten Rollenkonzepts gesteuert.
-            Durch den OTRS-Administrator erfolgt die Anlage der benötigten Benutzerrollen, die mit entsprechenden
-            Berechtigungen auf die Benutzergruppen des Change Management bestückt werden.
+            Durch den OTRS-Administrator erfolgt die Anlage der benÃ¶tigten Benutzerrollen, die mit entsprechenden
+            Berechtigungen auf die Benutzergruppen des Change Management bestÃ¼ckt werden.
         </para>
         <para>
             <screenshot>
@@ -131,7 +131,7 @@
         </para>
         <para>
             Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
-            Tabelle aufgeführten Benutzergruppen angelegt:
+            Tabelle aufgefÃ¼hrten Benutzergruppen angelegt:
         </para>
         <table>
             <title>
@@ -159,7 +159,7 @@
                                 Dieser Gruppe sollten alle potenziellen Work Order Agenten zugewiesen werden.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                Alle Changes und Work Order kÃ¶nnen eingesehen werden.
                             </para>
                         </entry>
                     </row>
@@ -169,14 +169,14 @@
                         </entry>
                         <entry>
                             <para>
-                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                                Mitglieder dieser Benutzergruppe kÃ¶nnen neue Changes sowie Work Orders im System erstellen.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                Alle Changes und Work Order kÃ¶nnen eingesehen werden.
                             </para>
                             <para>
                                 Changes und Work Order die der Change Builder erstellt hat, bzw.
-                                als Change Builder definiert ist, können editiert werden.
+                                als Change Builder definiert ist, kÃ¶nnen editiert werden.
                             </para>
                         </entry>
                     </row>
@@ -186,13 +186,13 @@
                         </entry>
                         <entry>
                             <para>
-                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                                Mitglieder dieser Benutzergruppe kÃ¶nnen neue Changes sowie Work Orders im System erstellen.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                Alle Changes und Work Order kÃ¶nnen eingesehen werden.
                             </para>
                             <para>
-                                Alle Changes und Work Order können editiert werden.
+                                Alle Changes und Work Order kÃ¶nnen editiert werden.
                             </para>
                         </entry>
                     </row>
@@ -206,7 +206,7 @@
             Grundlegender Workflow
         </title>
         <para>
-            Die Erstellung eines Changes inkl. aller benötigten Work Order wird über nachstehenden Workflow realisiert.
+            Die Erstellung eines Changes inkl. aller benÃ¶tigten Work Order wird Ã¼ber nachstehenden Workflow realisiert.
         </para>
         <para>
             <screenshot>
@@ -279,7 +279,7 @@
                             </entry>
                             <entry>
                                 Textuelle Beschreibung der "Justification" und Beantwortung der Frage
-                                "Was ist die zu erwartende Konsequenz, wenn der Change nicht durchgeführt wird?"
+                                "Was ist die zu erwartende Konsequenz, wenn der Change nicht durchgefÃ¼hrt wird?"
                             </entry>
                         </row>
                         <row>
@@ -312,7 +312,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.
+                                Definiert die PrioritÃ¤t des Change, z. B. "5 sehr hoch", "3 normal", etc.
                             </entry>
                         </row>
                         <row>
@@ -324,9 +324,9 @@
                             </entry>
                             <entry>
                                 Der Status eines Change wird bei Neuanlage automatisch gesetzt.
-                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
-                                und Change Manager möglich den Status manuell zu setzen.
-                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
+                                Bei Ã„nderungen an einem bestehenden Change ist es dem Change Builder
+                                und Change Manager mÃ¶glich den Status manuell zu setzen.
+                                VerfÃ¼gbare Status und Folgestatus werden Ã¼ber die integrierte StateMachine
                                 definiert, siehe<xref linkend="change_state_machine"/>.
                             </entry>
                         </row>
@@ -338,7 +338,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
+                                Dieses Attribut kann per SysConfig fÃ¼r die Masken "ChangeEdit", "ChangeAdd"
                                 und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
                                 des Kunden dar.
                             </entry>
@@ -351,7 +351,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Ermöglicht es beliebige Dateianlagen zu hinterlegen.
+                                ErmÃ¶glicht es beliebige Dateianlagen zu hinterlegen.
                             </entry>
                         </row>
                     </tbody>
@@ -364,14 +364,14 @@
                 Matrix Category - Impact - Priority
             </title>
             <para>
-                Für die Ermittlung der Priorität eines Changes unterstützt OTRS::ITSM den Change Builder
+                FÃ¼r die Ermittlung der PrioritÃ¤t eines Changes unterstÃ¼tzt OTRS::ITSM den Change Builder
                 durch eine integrierte Matrix, die nach Auswahl der Kategorie und Impact des Changes die
-                im System hinterlegte Priorität zur Auswahl anbietet, die durch den Change Builder
-                jedoch auch überschrieben werden kann.
+                im System hinterlegte PrioritÃ¤t zur Auswahl anbietet, die durch den Change Builder
+                jedoch auch Ã¼berschrieben werden kann.
             </para>
             <para>
                 Die nach der Installation vorhandenen Werte der Auswahlfelder Category, Impact und Priority
-                können durch den Administrator über den GeneralCatalog angepasst werden.
+                kÃ¶nnen durch den Administrator Ã¼ber den GeneralCatalog angepasst werden.
             </para>
             <para>
                 <screenshot>
@@ -382,14 +382,14 @@
                 </screenshot>
             </para>
             <para>
-                Hierzu muss im Administrations-Interface von OTRS::ITSM der Menüpunkt "General Catalog" selektiert werden.
+                Hierzu muss im Administrations-Interface von OTRS::ITSM der MenÃ¼punkt "General Catalog" selektiert werden.
             </para>
             <sect3>
                 <title>
                     ITSM::ChangeManagement::Category
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Die Installation des OTRS::ITSM Change Managements erstellt fÃ¼r das Auswahlfeld
                     Category die folgenden Werte:
                 </para>
                 <itemizedlist>
@@ -425,7 +425,7 @@
                     ITSM::ChangeManagement::Impact
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Die Installation des OTRS::ITSM Change Managements erstellt fÃ¼r das Auswahlfeld
                     Impact die folgenden Werte:
                 </para>
                 <itemizedlist>
@@ -461,7 +461,7 @@
                     ITSM::ChangeManagement::Priority
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
+                    Die Installation des OTRS::ITSM Change Managements erstellt fÃ¼r das Auswahlfeld
                     Priority die folgenden Werte:
                 </para>
                 <itemizedlist>
@@ -499,8 +499,8 @@
                 Change State Machine
             </title>
             <para>
-                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Change gültige Status,
-                sowie mögliche Folgestatus zu definieren. Die Standardinstallation legt hierfür folgendes
+                OTRS::ITSM stellt eine State Machine bereit, die es ermÃ¶glicht fÃ¼r eine Change gÃ¼ltige Status,
+                sowie mÃ¶gliche Folgestatus zu definieren. Die Standardinstallation legt hierfÃ¼r folgendes
                 logisches Modell an:
             </para>
             <para>
@@ -512,13 +512,13 @@
                 </screenshot>
             </para>
             <para>
-                Anpassungen an der aufgezeigten State Machine können durch den System Administrator
-                im Administrator Frontend über den Menüpunkt "State Machine" geändert werden,
-                durch die Definition von Status und möglicher Folgestatus.
+                Anpassungen an der aufgezeigten State Machine kÃ¶nnen durch den System Administrator
+                im Administrator Frontend Ã¼ber den MenÃ¼punkt "State Machine" geÃ¤ndert werden,
+                durch die Definition von Status und mÃ¶glicher Folgestatus.
             </para>
             <para>
-                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::Change::State" durchgeführt werden.
-                Die Abbildung in OTRS::ITSM erfolgt über eine tabellarische Darstellung:
+                Sofern es erforderlich ist zusÃ¤tzliche Status zu definieren, kann dies Ã¼ber den MenÃ¼punkt "General Catalog" -> "ITSM::ChangeManagement::Change::State" durchgefÃ¼hrt werden.
+                Die Abbildung in OTRS::ITSM erfolgt Ã¼ber eine tabellarische Darstellung:
             </para>
             <para>
                 <screenshot>
@@ -535,8 +535,8 @@
                 Definition beteiligter Rollen / Personen eines Change
             </title>
             <para>
-                Nach Erfassung der Grunddaten eines Change, können die an diesem Change beteiligten Personen
-                über die Funktionalität "Involved Persons" definiert werden.
+                Nach Erfassung der Grunddaten eines Change, kÃ¶nnen die an diesem Change beteiligten Personen
+                Ã¼ber die FunktionalitÃ¤t "Involved Persons" definiert werden.
             </para>
             <para>
                 <screenshot>
@@ -578,7 +578,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Gibt einen Agenten mit der Funktion des Change Managers für den aktuellen Change an.
+                                Gibt einen Agenten mit der Funktion des Change Managers fÃ¼r den aktuellen Change an.
                             </entry>
                         </row>
                         <row>
@@ -611,10 +611,10 @@
 
         <sect2>
             <title>
-                Verknüpfung Change mit RfC
+                VerknÃ¼pfung Change mit RfC
             </title>
             <para>
-                Über den, aus dem OTRS Framework bekannten, Linkmechanismus unterstützt das System die Verknüpfung
+                Ãœber den, aus dem OTRS Framework bekannten, Linkmechanismus unterstÃ¼tzt das System die VerknÃ¼pfung
                 eines Change mit Tickets. Hierdurch kann der Ursprung eines Change, z. B. RfC oder Problem,
                 kenntlich gemacht werden.
             </para>
@@ -627,12 +627,12 @@
                 </screenshot>
             </para>
             <para>
-                Zusätzlich ist es innerhalb der Prozesse Incident oder Problem Management,
-                d. h. Ausgangslage Ticketsystem, möglich aus einem Ticket heraus direkt einen Change zu eröffnen.
+                ZusÃ¤tzlich ist es innerhalb der Prozesse Incident oder Problem Management,
+                d. h. Ausgangslage Ticketsystem, mÃ¶glich aus einem Ticket heraus direkt einen Change zu erÃ¶ffnen.
                 Das System erstellt in diesem Fall transparent die Verlinkung zwischen Ticket und Change.
-                Diese Funktionalität kann per Konfiguration auf Agents eingeschränkt werden,
+                Diese FunktionalitÃ¤t kann per Konfiguration auf Agents eingeschrÃ¤nkt werden,
                 die zur Erstellung von Changes berechtigt sind.
-                Ausserdem ist es möglich, die Verwendung des Ticket-Typs "RfC" nur den Agenten zu gestatten,
+                Ausserdem ist es mÃ¶glich, die Verwendung des Ticket-Typs "RfC" nur den Agenten zu gestatten,
                 die Zugriff auf den Change Management Bereich haben. Bitte sehen Sie sich dazu auch die folgenden Sysconfig-Optionen an:
                 <itemizedlist>
                     <listitem>
@@ -659,13 +659,13 @@
                 Definition von Bedingungen
             </title>
             <para>
-                OTRS::ITSM ermöglicht es Bedingungen und Aktionen basierend auf den nachstehenden Attributen
-                eines Change und/oder Work Order zu definieren. Über das Admin-Frontend kann man Attribute
-                für den Change Builder ab- oder anschalten.
+                OTRS::ITSM ermÃ¶glicht es Bedingungen und Aktionen basierend auf den nachstehenden Attributen
+                eines Change und/oder Work Order zu definieren. Ãœber das Admin-Frontend kann man Attribute
+                fÃ¼r den Change Builder ab- oder anschalten.
             </para>
             <para>
                 Hierdurch lassen sich Workflows definieren, sodass z. B. das canceln einer Work Order
-                den gesamten Change auf "canceled" setzt, oder eine erneute Prüfung / Freigabe zur Folge hat.
+                den gesamten Change auf "canceled" setzt, oder eine erneute PrÃ¼fung / Freigabe zur Folge hat.
             </para>
             <para>
                 <screenshot>
@@ -677,19 +677,19 @@
             </para>
             <para>
                 Es ist zu beachten, dass die definierten Bedingungen nicht in einer bestimmten Reihenfolge
-                ausgeführt werden, im Gegensatz hierzu die Aktionen in der Reihenfolge der Anlage abgearbeitet werden.
+                ausgefÃ¼hrt werden, im Gegensatz hierzu die Aktionen in der Reihenfolge der Anlage abgearbeitet werden.
             </para>
 
             <sect3>
                 <title>
-                    Verfügbare Bedingungen auf Change-Ebene
+                    VerfÃ¼gbare Bedingungen auf Change-Ebene
                 </title>
                 <para>
-                    Die folgenden Attribute können für die Definition von Bedingungen auf Change-Ebene verwendet werden.
+                    Die folgenden Attribute kÃ¶nnen fÃ¼r die Definition von Bedingungen auf Change-Ebene verwendet werden.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Bedingungen auf Change-Ebene
+                        VerfÃ¼gbare Bedingungen auf Change-Ebene
                     </title>
                     <tgroup cols="2">
                         <thead>
@@ -822,14 +822,14 @@
 
             <sect3>
                 <title>
-                    Verfügbare Bedingungen auf Work Order-Ebene
+                    VerfÃ¼gbare Bedingungen auf Work Order-Ebene
                 </title>
                 <para>
-                    Die folgenden Attribute können für die Definition von Bedingungen auf Work Order-Ebene verwendet werden.
+                    Die folgenden Attribute kÃ¶nnen fÃ¼r die Definition von Bedingungen auf Work Order-Ebene verwendet werden.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Bedingungen auf Work Order-Ebene
+                        VerfÃ¼gbare Bedingungen auf Work Order-Ebene
                     </title>
                     <tgroup cols="2">
                         <thead>
@@ -964,18 +964,18 @@
             </para>
             <sect3>
                 <title>
-                    Verfügbare Aktionen auf Change-Ebene
+                    VerfÃ¼gbare Aktionen auf Change-Ebene
                 </title>
                 <para>
-                    Die folgenden Aktionen können für Change-Objekte ausgeführt werden.
-                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
+                    Die folgenden Aktionen kÃ¶nnen fÃ¼r Change-Objekte ausgefÃ¼hrt werden.
+                    Der Operator "set" erlaubt es, das gewÃ¤hlte Attribut auf einen bestimmten Wert zu setzen,
                     wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
-                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
-                    d. h. eine manuelle Änderung ist nicht möglich.
+                    das gewÃ¤hlte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
+                    d. h. eine manuelle Ã„nderung ist nicht mÃ¶glich.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Aktionen auf Change-Ebene
+                        VerfÃ¼gbare Aktionen auf Change-Ebene
                     </title>
                     <tgroup cols="2">
                         <thead>
@@ -1029,18 +1029,18 @@
             </sect3>
             <sect3>
                 <title>
-                    Verfügbare Aktionen auf Work Order-Ebene
+                    VerfÃ¼gbare Aktionen auf Work Order-Ebene
                 </title>
                 <para>
-                    Die folgenden Aktionen können für Work Order-Objekte ausgeführt werden.
-                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
+                    Die folgenden Aktionen kÃ¶nnen fÃ¼r Work Order-Objekte ausgefÃ¼hrt werden.
+                    Der Operator "set" erlaubt es, das gewÃ¤hlte Attribut auf einen bestimmten Wert zu setzen,
                     wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
-                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
-                    d. h. eine manuelle Änderung ist nicht möglich.
+                    das gewÃ¤hlte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
+                    d. h. eine manuelle Ã„nderung ist nicht mÃ¶glich.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Aktionen auf Work Order-Ebene
+                        VerfÃ¼gbare Aktionen auf Work Order-Ebene
                     </title>
                     <tgroup cols="2">
                         <thead>
@@ -1080,12 +1080,12 @@
                 Neuplanung (Verschieben) der Start- / Endzeit eines Change
             </title>
             <para>
-                Da es in der Praxis vorkommen kann, dass geplante Start- oder Endzeiten eines Change verändert
-                werden müssen, unterstützt das System den Change Builder mit der Funktionalität "Move Timeslot".
+                Da es in der Praxis vorkommen kann, dass geplante Start- oder Endzeiten eines Change verÃ¤ndert
+                werden mÃ¼ssen, unterstÃ¼tzt das System den Change Builder mit der FunktionalitÃ¤t "Move Timeslot".
             </para>
             <para>
-                Über einen Eingabedialog hat der Change Builder die Möglichkeit das geplante Zeitfenster zur
-                Durchführung des Change zu verschieben.
+                Ãœber einen Eingabedialog hat der Change Builder die MÃ¶glichkeit das geplante Zeitfenster zur
+                DurchfÃ¼hrung des Change zu verschieben.
             </para>
             <para>
                 <screenshot>
@@ -1103,8 +1103,8 @@
             Erstellung einer Work Order
         </title>
         <para>
-            Innerhalb eines Change stellt das System die Funktion "Add Work Order" zur Verfügung,
-            die es ermöglicht zu dem ausgewählten Change eine beliebige Anzahl von Teilaufgaben,
+            Innerhalb eines Change stellt das System die Funktion "Add Work Order" zur VerfÃ¼gung,
+            die es ermÃ¶glicht zu dem ausgewÃ¤hlten Change eine beliebige Anzahl von Teilaufgaben,
             sog. Work Orders, zu hinterlegen.
         </para>
         <sect2>
@@ -1197,7 +1197,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.
+                                Definiert die PrioritÃ¤t des Change, z. B. "5 sehr hoch", "3 normal", etc.
                             </entry>
                         </row>
                         <row>
@@ -1209,9 +1209,9 @@
                             </entry>
                             <entry>
                                 Der Status eines Change wird bei Neuanlage automatisch gesetzt.
-                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
-                                und Change Manager möglich den Status manuell zu setzen.
-                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
+                                Bei Ã„nderungen an einem bestehenden Change ist es dem Change Builder
+                                und Change Manager mÃ¶glich den Status manuell zu setzen.
+                                VerfÃ¼gbare Status und Folgestatus werden Ã¼ber die integrierte StateMachine
                                 definiert, siehe<xref linkend="change_state_machine"/>.
                             </entry>
                         </row>
@@ -1223,7 +1223,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
+                                Dieses Attribut kann per SysConfig fÃ¼r die Masken "ChangeEdit", "ChangeAdd"
                                 und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
                                 des Kunden dar.
                             </entry>
@@ -1236,15 +1236,15 @@
                                 Nein
                             </entry>
                             <entry>
-                                Ermöglicht es beliebige Dateianlagen zu hinterlegen.
+                                ErmÃ¶glicht es beliebige Dateianlagen zu hinterlegen.
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Neben den genannten Attributen hat der zugewiesene Work Order Agent die Möglichkeit
-                über die Funktionalität "Report", die im Kapitel "Work Order Agent Report" näher beschrieben wird,
+                Neben den genannten Attributen hat der zugewiesene Work Order Agent die MÃ¶glichkeit
+                Ã¼ber die FunktionalitÃ¤t "Report", die im Kapitel "Work Order Agent Report" nÃ¤her beschrieben wird,
                 Attribute zu erfassen.
             </para>
         </sect2>
@@ -1254,8 +1254,8 @@
                 Work Order Typ
             </title>
             <para>
-                Die Standardinstallation des OTRS::ITSM Change Management stellt die folgenden Einträge
-                für das Attribut "Work Order Typ" zur Verfügung:
+                Die Standardinstallation des OTRS::ITSM Change Management stellt die folgenden EintrÃ¤ge
+                fÃ¼r das Attribut "Work Order Typ" zur VerfÃ¼gung:
             </para>
             <itemizedlist>
                 <listitem>
@@ -1285,8 +1285,8 @@
                 </listitem>
             </itemizedlist>
             <para>
-                Die Definition und Angabe der Work Order Typen kann der Administrator frei verändern,
-                außerdem können neue Typen hinzugefügt werden.
+                Die Definition und Angabe der Work Order Typen kann der Administrator frei verÃ¤ndern,
+                auÃŸerdem kÃ¶nnen neue Typen hinzugefÃ¼gt werden.
             </para>
         </sect2>
 
@@ -1295,9 +1295,9 @@
                 Work Order State Machine
             </title>
             <para>
-                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Work Order gültige Status,
-                sowie mögliche Folgestatus zu definieren.
-                Die Standardinstallation legt hierfür folgendes logisches Modell an:
+                OTRS::ITSM stellt eine State Machine bereit, die es ermÃ¶glicht fÃ¼r eine Work Order gÃ¼ltige Status,
+                sowie mÃ¶gliche Folgestatus zu definieren.
+                Die Standardinstallation legt hierfÃ¼r folgendes logisches Modell an:
             </para>
             <para>
                 <screenshot>
@@ -1308,16 +1308,16 @@
                 </screenshot>
             </para>
             <para>
-                Anpassungen an der aufgezeigten StateMachine könne durch den System Administrator im Administrator
-                Frontend über den Menüpunkt "StateMachine" geändert werden, durch Definition von Status und
-                möglicher Folgestatus.
+                Anpassungen an der aufgezeigten StateMachine kÃ¶nne durch den System Administrator im Administrator
+                Frontend Ã¼ber den MenÃ¼punkt "StateMachine" geÃ¤ndert werden, durch Definition von Status und
+                mÃ¶glicher Folgestatus.
             </para>
             <para>
-                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den den
-                Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::WorkOrder::State" durchgeführt werden.
+                Sofern es erforderlich ist zusÃ¤tzliche Status zu definieren, kann dies Ã¼ber den den
+                MenÃ¼punkt "General Catalog" -> "ITSM::ChangeManagement::WorkOrder::State" durchgefÃ¼hrt werden.
             </para>
             <para>
-                Die Abbildung möglicher Statusübergänge wird in OTRS::ITSM durch eine tabellarische Darstellung realisiert:
+                Die Abbildung mÃ¶glicher StatusÃ¼bergÃ¤nge wird in OTRS::ITSM durch eine tabellarische Darstellung realisiert:
             </para>
             <para>
                 <screenshot>
@@ -1335,11 +1335,11 @@
             </title>
             <para>
                 Jede Work Order kann einem sog. Word Order Agent zugewiesen werden,
-                d. h. einer Person, die für die Durchführung der Work Order verantwortlich ist.
+                d. h. einer Person, die fÃ¼r die DurchfÃ¼hrung der Work Order verantwortlich ist.
             </para>
             <para>
-                Das System bietet hierfür Zugriff auf alle angebunden Agenten-Backends. Es ist zu beachten, dass
-                ausschließlich Agents angezeigt werden, die Vollberechtigung auf die Benutzergruppe "itsm-change" haben.
+                Das System bietet hierfÃ¼r Zugriff auf alle angebunden Agenten-Backends. Es ist zu beachten, dass
+                ausschlieÃŸlich Agents angezeigt werden, die Vollberechtigung auf die Benutzergruppe "itsm-change" haben.
             </para>
             <para>
                 <screenshot>
@@ -1356,8 +1356,8 @@
                 Work Order Agent Report
             </title>
             <para>
-                Der zugewiesene Work Order Agent hat über den Dialog "Report" die Möglichkeit Kommentare, sowie den Status,
-                die tatsächliche Start- und Endzeit der Work Order und die benötigte Zeit zu dokumentieren.
+                Der zugewiesene Work Order Agent hat Ã¼ber den Dialog "Report" die MÃ¶glichkeit Kommentare, sowie den Status,
+                die tatsÃ¤chliche Start- und Endzeit der Work Order und die benÃ¶tigte Zeit zu dokumentieren.
             </para>
             <para>
                 <screenshot>
@@ -1371,14 +1371,14 @@
 
         <sect2>
             <title>
-                Verknüpfung von Work Orders mit Configuration Items / Services
+                VerknÃ¼pfung von Work Orders mit Configuration Items / Services
             </title>
             <para>
-                Innerhalb eines Work Orders bietet OTRS::ITSM die Möglichkeit eine Work Order mit
-                anderen Objekten zu verknüpfen.
+                Innerhalb eines Work Orders bietet OTRS::ITSM die MÃ¶glichkeit eine Work Order mit
+                anderen Objekten zu verknÃ¼pfen.
             </para>
             <para>
-                Die Standardinstallation bietet die Möglichkeit eine Work Order mit den folgenden Objekten zu verknüpfen:
+                Die Standardinstallation bietet die MÃ¶glichkeit eine Work Order mit den folgenden Objekten zu verknÃ¼pfen:
             </para>
             <itemizedlist>
                 <listitem>
@@ -1426,7 +1426,7 @@
             </itemizedlist>
             <para>
                 Die benannten Einstellungen sind per SysConfig unter "Framework -> Core::LinkObject" definiert
-                und können bei Bedarf erweitert werden.
+                und kÃ¶nnen bei Bedarf erweitert werden.
             </para>
         </sect2>
 
@@ -1435,12 +1435,12 @@
                 Speichern einer Work Order als Template
             </title>
             <para>
-                Über die Funktion "Template" innerhalb einer Work Order ist es möglich diese als Vorlage zu speichern.
+                Ãœber die Funktion "Template" innerhalb einer Work Order ist es mÃ¶glich diese als Vorlage zu speichern.
             </para>
             <para>
-                Der Dialog fordert den Change Builder auf einen Namen sowie optional ein Kommentar für das Template
-                anzugeben. Sobald der Dialog über den Button "Hinzufügen" verlassen wird,
-                steht die Work Order bei Erstellung neuer Work Order als Vorlage zur Verfügung.
+                Der Dialog fordert den Change Builder auf einen Namen sowie optional ein Kommentar fÃ¼r das Template
+                anzugeben. Sobald der Dialog Ã¼ber den Button "HinzufÃ¼gen" verlassen wird,
+                steht die Work Order bei Erstellung neuer Work Order als Vorlage zur VerfÃ¼gung.
             </para>
             <para>
                 <screenshot>
@@ -1454,10 +1454,10 @@
 
         <sect2>
             <title>
-                Löschen einer Work Order
+                LÃ¶schen einer Work Order
             </title>
             <para>
-                Der Change Builder hat die Möglichkeit eine Work Order zu löschen, solange diese nicht in einer Condition
+                Der Change Builder hat die MÃ¶glichkeit eine Work Order zu lÃ¶schen, solange diese nicht in einer Condition
                 (siehe "Definition von Bedingungen") verwendet wird.
             </para>
             <para>
@@ -1476,8 +1476,8 @@
             Inhaltsansicht eines Change
         </title>
         <para>
-            Nach Erstellung eines Change und zugehöriger Work Order bietet das System die Möglichkeit den Change inkl.
-            aller zugehörigen Work Order sowie verknüpfter Tickets und CIs darzustellen.
+            Nach Erstellung eines Change und zugehÃ¶riger Work Order bietet das System die MÃ¶glichkeit den Change inkl.
+            aller zugehÃ¶rigen Work Order sowie verknÃ¼pfter Tickets und CIs darzustellen.
         </para>
         <para>
             <screenshot>
@@ -1489,17 +1489,17 @@
         </para>
         <para>
             In einer Zeitachse werden die definierten Work Order nummeriert nach der Reihenfolge der geplanten
-            Durchführung dargestellt, die Farbgebung der dargestellten Work Order in der Zeitachse werden über
-            die Art der Work Order definiert und können bei Bedarf per SysConfig
+            DurchfÃ¼hrung dargestellt, die Farbgebung der dargestellten Work Order in der Zeitachse werden Ã¼ber
+            die Art der Work Order definiert und kÃ¶nnen bei Bedarf per SysConfig
             "ITSM Change Management -> Frontend::Agent::ViewChangeZoom" angepasst werden.
         </para>
         <para>
             Pro Work Order erzeugt das System zwei Balken in der Zeitachse des Change.
-            Der obere, dunklere Balken repräsentiert die geplante Durchführungszeit der Work Order,
-            der hellere untere Balken stellt die tatsächliche Durchführungszeit der Work Order dar.
+            Der obere, dunklere Balken reprÃ¤sentiert die geplante DurchfÃ¼hrungszeit der Work Order,
+            der hellere untere Balken stellt die tatsÃ¤chliche DurchfÃ¼hrungszeit der Work Order dar.
         </para>
         <para>
-            Der Status der einzelnen Work Order ist über eine Ampeldarstellung in dieser Ansicht erkennbar:
+            Der Status der einzelnen Work Order ist Ã¼ber eine Ampeldarstellung in dieser Ansicht erkennbar:
         </para>
         <itemizedlist>
             <listitem>
@@ -1514,7 +1514,7 @@
             </listitem>
             <listitem>
                 <para>
-                    Grün - Status der Work Order ist "closed"
+                    GrÃ¼n - Status der Work Order ist "closed"
                 </para>
             </listitem>
             <listitem>
@@ -1547,8 +1547,8 @@
                 Change Overview
             </title>
             <para>
-                In einer Übersicht werden alle Changes angezeigt, die anhand der angezeigten Spaltenköpfe
-                auf- oder absteigend sortiert werden können.
+                In einer Ãœbersicht werden alle Changes angezeigt, die anhand der angezeigten SpaltenkÃ¶pfe
+                auf- oder absteigend sortiert werden kÃ¶nnen.
             </para>
             <para>
                 <screenshot>
@@ -1559,8 +1559,8 @@
                 </screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
-                definiert werden. Die folgenden Attribute stehen hierfür zur Verfügung:
+                Die angezeigten Spalten kÃ¶nnen per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
+                definiert werden. Die folgenden Attribute stehen hierfÃ¼r zur VerfÃ¼gung:
             </para>
             <table>
                 <title>
@@ -1666,7 +1666,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -1732,7 +1732,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -1772,9 +1772,9 @@
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die Change Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
-                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
-                SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview" definiert werden können:
+                Zudem bietet die Change Ãœbersicht die MÃ¶glichkeit die angezeigten Changes anhand diverser Filter
+                darzustellen. HierfÃ¼r stehen im System die folgenden Filter zur VerfÃ¼gung, die bei Bedarf per
+                SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview" definiert werden kÃ¶nnen:
             </para>
             <table>
                 <title>
@@ -1874,8 +1874,8 @@
                 Change Schedule
             </title>
             <para>
-                In der Change Schedule Übersicht werden alle Changes angezeigt, die im Status "approved" sind,
-                d. h. zur Umsetzung anstehen. Die angezeigten Spaltenköpfe können anhand der nachstehenden
+                In der Change Schedule Ãœbersicht werden alle Changes angezeigt, die im Status "approved" sind,
+                d. h. zur Umsetzung anstehen. Die angezeigten SpaltenkÃ¶pfe kÃ¶nnen anhand der nachstehenden
                 Attribute auf- oder absteigend sortiert werden.
             </para>
             <para>
@@ -1887,7 +1887,7 @@
                 </screenshot>
             </para>
             <para>
-                Die angezeigten Attribute können per SysConfig
+                Die angezeigten Attribute kÃ¶nnen per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeScheduleOverview" definiert werden:
             </para>
             <table>
@@ -1994,7 +1994,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -2060,7 +2060,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -2106,8 +2106,8 @@
                 PIR - Post Implementation Review
             </title>
             <para>
-                Diese Ansicht stellt Work Order vom Typ "PIR" dar, die anhand der dargestellten Spaltenköpfe
-                auf- oder absteigend sortiert werden können.
+                Diese Ansicht stellt Work Order vom Typ "PIR" dar, die anhand der dargestellten SpaltenkÃ¶pfe
+                auf- oder absteigend sortiert werden kÃ¶nnen.
             </para>
             <para>
                 <screenshot>
@@ -2118,7 +2118,7 @@
                 </screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
+                Die angezeigten Spalten kÃ¶nnen per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
                 definiert werden:
             </para>
             <table>
@@ -2225,7 +2225,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -2291,7 +2291,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -2357,7 +2357,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Statusanzeige der Work Order per Ampelfunktionalität
+                                Statusanzeige der Work Order per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -2392,8 +2392,8 @@
                 Template
             </title>
             <para>
-                Diese Ansicht stellt alle im System definierten Templates dar. Der Agent hat die Möglichkeit
-                die Darstellung anhand der angezeigten Spaltenköpfe auf- oder absteigend zu sortieren.
+                Diese Ansicht stellt alle im System definierten Templates dar. Der Agent hat die MÃ¶glichkeit
+                die Darstellung anhand der angezeigten SpaltenkÃ¶pfe auf- oder absteigend zu sortieren.
             </para>
             <para>
                 <screenshot>
@@ -2404,7 +2404,7 @@
                 </screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig
+                Die angezeigten Spalten kÃ¶nnen per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert werden:
             </para>
             <table>
@@ -2434,7 +2434,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Benutzername des Agenten, der das Template zuletzt geändert hat
+                                Benutzername des Agenten, der das Template zuletzt geÃ¤ndert hat
                             </entry>
                         </row>
                         <row>
@@ -2445,7 +2445,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Zeitpunkt der letzten Änderung
+                                Zeitpunkt der letzten Ã„nderung
                             </entry>
                         </row>
                         <row>
@@ -2489,7 +2489,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Möglichkeit ein Template zu löschen
+                                MÃ¶glichkeit ein Template zu lÃ¶schen
                             </entry>
                         </row>
                         <row>
@@ -2533,15 +2533,15 @@
                                 Ja
                             </entry>
                             <entry>
-                                Definiert die Gültigkeit des Templates (gültig, ungültig, ungültig temporär).
-                                Ungültige / temporär ungültige Templates können von Change Buildern nicht verwendet werden.
+                                Definiert die GÃ¼ltigkeit des Templates (gÃ¼ltig, ungÃ¼ltig, ungÃ¼ltig temporÃ¤r).
+                                UngÃ¼ltige / temporÃ¤r ungÃ¼ltige Templates kÃ¶nnen von Change Buildern nicht verwendet werden.
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Nach Installation des Change Management stehen im System die folgenden Template-Typen zur Verfügung,
+                Nach Installation des Change Management stehen im System die folgenden Template-Typen zur VerfÃ¼gung,
                 die per SysConfig "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert sind:
             </para>
             <table>
@@ -2565,7 +2565,7 @@
                                 ITSMChange
                             </entry>
                             <entry>
-                                Vorlagen für Changes
+                                Vorlagen fÃ¼r Changes
                             </entry>
                         </row>
                         <row>
@@ -2573,7 +2573,7 @@
                                 ITSMWorkOrder
                             </entry>
                             <entry>
-                                Vorlagen für Work Order
+                                Vorlagen fÃ¼r Work Order
                             </entry>
                         </row>
                         <row>
@@ -2581,7 +2581,7 @@
                                 CAB
                             </entry>
                             <entry>
-                                Vorlagen für Change Advisory Boards
+                                Vorlagen fÃ¼r Change Advisory Boards
                             </entry>
                         </row>
                     </tbody>
@@ -2595,8 +2595,8 @@
             </title>
             <para>
                 Zur Suche nach Changes oder Work Orders, die bestimmten Suchkriterien entsprechen,
-                bietet das System eine eigene Suchmaske, die die nachstehenden Attribute für Suchabfragen
-                zur Verfügung stellt:
+                bietet das System eine eigene Suchmaske, die die nachstehenden Attribute fÃ¼r Suchabfragen
+                zur VerfÃ¼gung stellt:
             </para>
             <para>
                 <screenshot>
@@ -2661,7 +2661,7 @@
                             <entry>
                                 Suche anhand eines CAB-Mitglieds,
                                 der im System als Kunde definiert ist. Die Angabe eines CABCustomers kann mit Hilfe
-                                der Autovervollständigung erfolgen.
+                                der AutovervollstÃ¤ndigung erfolgen.
                             </entry>
                         </row>
                         <row>
@@ -2677,7 +2677,7 @@
                                 Change Justification
                             </entry>
                             <entry>
-                                Suche in der Begründung / Justification eines Change
+                                Suche in der BegrÃ¼ndung / Justification eines Change
                             </entry>
                         </row>
                         <row>
@@ -2701,7 +2701,7 @@
                                 Change Priority
                             </entry>
                             <entry>
-                                Suche anhand der Priorität eines Change
+                                Suche anhand der PrioritÃ¤t eines Change
                             </entry>
                         </row>
                         <row>
@@ -2803,7 +2803,7 @@
                                 Actual Start Time
                             </entry>
                             <entry>
-                                Suche anhand der tatsächlichen Startzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                Suche anhand der tatsÃ¤chlichen Startzeit eines Change. Es kann nach absoluten Zeitwerten,
                                 d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
                                 z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
                             </entry>
@@ -2813,7 +2813,7 @@
                                 Actual End Time
                             </entry>
                             <entry>
-                                Suche anhand der tatsächlichen Endzeit eines Change. Es kann nach absoluten Zeitwerten,
+                                Suche anhand der tatsÃ¤chlichen Endzeit eines Change. Es kann nach absoluten Zeitwerten,
                                 d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
                                 z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
                             </entry>
@@ -2833,7 +2833,7 @@
                                 Change Time
                             </entry>
                             <entry>
-                                Suche anhand des Änderungsdatums eines Change.
+                                Suche anhand des Ã„nderungsdatums eines Change.
                                 Es kann nach absoluten Zeitwerten, d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ),
                                 oder auch nach relativen Zeitwerten, z. B. Changes erstellt innerhalb der letzen
                                 x Tage / Wochen, gesucht werden.
@@ -2850,7 +2850,7 @@
                 Change Manager
             </title>
             <para>
-                OTRS::ITSM stellt einen separaten View zur Verfügung in der der aktuell angemeldete Agent Changes
+                OTRS::ITSM stellt einen separaten View zur VerfÃ¼gung in der der aktuell angemeldete Agent Changes
                 angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
             </para>
             <para>
@@ -2862,8 +2862,8 @@
                 </screenshot>
             </para>
             <para>
-                Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
-                Die angezeigten Spalten können per SysConfig
+                Die angezeigten SpaltenkÃ¶pfe kÃ¶nnen anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
+                Die angezeigten Spalten kÃ¶nnen per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
             </para>
             <table>
@@ -2970,7 +2970,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -3036,7 +3036,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -3076,10 +3076,10 @@
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
-                Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
+                Zudem bietet die Change Manager Ãœbersicht die MÃ¶glichkeit die angezeigten Changes anhand diverser
+                Filter darzustellen. HierfÃ¼r stehen im System die folgenden Filter zur VerfÃ¼gung,
                 die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
-                definiert werden können:
+                definiert werden kÃ¶nnen:
             </para>
             <table>
                 <title>
@@ -3151,8 +3151,8 @@
                 </screenshot>
             </para>
             <para>
-                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
-                Die verwendeten Attribute können per SysConfig
+                Die Darstellung kann anhand der angezeigten SpaltenkÃ¶pfe auf- oder absteigend sortiert werden.
+                Die verwendeten Attribute kÃ¶nnen per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
             </para>
             <table>
@@ -3259,7 +3259,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -3325,7 +3325,7 @@
                                 Ja
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -3365,9 +3365,9 @@
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
-                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
-                SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
+                Zudem bietet die My Changes Ãœbersicht die MÃ¶glichkeit die angezeigten Changes anhand diverser Filter
+                darzustellen. HierfÃ¼r stehen im System die folgenden Filter zur VerfÃ¼gung, die bei Bedarf per
+                SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden kÃ¶nnen:
             </para>
             <table>
                 <title>
@@ -3428,7 +3428,7 @@
             </title>
             <para>
                 Analog zu der aus der OTRS-Ticketengine bekannten Ansicht "Locked Tickets" stellt OTRS::ITSM
-                die dem aktuell angemeldeten Agent zugewiesenen Work Order in einem separaten View zur Verfügung.
+                die dem aktuell angemeldeten Agent zugewiesenen Work Order in einem separaten View zur VerfÃ¼gung.
             </para>
             <para>
                 <screenshot>
@@ -3439,8 +3439,8 @@
                 </screenshot>
             </para>
             <para>
-                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
-                Die verwendeten Attribute können per SysConfig
+                Die Darstellung kann anhand der angezeigten SpaltenkÃ¶pfe auf- oder absteigend sortiert werden.
+                Die verwendeten Attribute kÃ¶nnen per SysConfig
                 "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview" definiert werden:
             </para>
             <table>
@@ -3547,7 +3547,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Statusanzeige des Change per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -3613,7 +3613,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Priorität des Change
+                                PrioritÃ¤t des Change
                             </entry>
                         </row>
                         <row>
@@ -3679,7 +3679,7 @@
                                 Nein
                             </entry>
                             <entry>
-                                Statusanzeige der Work Order per Ampelfunktionalität
+                                Statusanzeige der Work Order per AmpelfunktionalitÃ¤t
                             </entry>
                         </row>
                         <row>
@@ -3708,10 +3708,10 @@
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die My Work Orders Übersicht die Möglichkeit die angezeigten Work Orders anhand
-                diverser Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
+                Zudem bietet die My Work Orders Ãœbersicht die MÃ¶glichkeit die angezeigten Work Orders anhand
+                diverser Filter darzustellen. HierfÃ¼r stehen im System die folgenden Filter zur VerfÃ¼gung,
                 die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview"
-                definiert werden können:
+                definiert werden kÃ¶nnen:
             </para>
             <table>
                 <title>
@@ -3772,8 +3772,8 @@
             Change Management Statistiken
         </title>
         <para>
-            OTRS::ITSM beinhaltet die nachstehenden Reports zur Ermittlung wichtiger Kennzahlen für die Steuerung
-            des Change Managements. Alle Reports können über den integrierten Report-Generator aufgerufen werden.
+            OTRS::ITSM beinhaltet die nachstehenden Reports zur Ermittlung wichtiger Kennzahlen fÃ¼r die Steuerung
+            des Change Managements. Alle Reports kÃ¶nnen Ã¼ber den integrierten Report-Generator aufgerufen werden.
         </para>
 
         <sect2>
@@ -3782,11 +3782,11 @@
             </title>
             <para>
                 Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
-                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die zu
+                oder absoluten Zeitspanne (Datum 1 - Datum 2). ZusÃ¤tzlich besteht die MÃ¶glichkeit die zu
                 reporteten Change-Status zu definieren.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
 
@@ -3796,50 +3796,50 @@
             </title>
             <para>
                 Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
-                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die
+                oder absoluten Zeitspanne (Datum 1 - Datum 2). ZusÃ¤tzlich besteht die MÃ¶glichkeit die
                 zu reporteten Change-Kategorien zu definieren.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
 
         <sect2>
             <title>
-                Anzahl zurückgewiesener Changes
+                Anzahl zurÃ¼ckgewiesener Changes
             </title>
             <para>
                 Der Report erlaubt die Definition einer relativen
                 (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
 
         <sect2>
             <title>
-                Anzahl zurückgezogener Changes
+                Anzahl zurÃ¼ckgezogener Changes
             </title>
             <para>
                 Der Report erlaubt die Definition einer relativen
                 (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
 
         <sect2>
             <title>
-                Verhältnis Changes / Incidents
+                VerhÃ¤ltnis Changes / Incidents
             </title>
             <para>
                 Der Report erlaubt die Definition einer relativen
                 (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
 
@@ -3850,10 +3850,10 @@
             <para>
                 Der Report erlaubt die Definition einer relativen
                 (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
-                Zusätzlich besteht die Möglichkeit die zu reporteten RfC-Requester zu definieren.
+                ZusÃ¤tzlich besteht die MÃ¶glichkeit die zu reporteten RfC-Requester zu definieren.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur VerfÃ¼gung.
             </para>
         </sect2>
     </sect1>

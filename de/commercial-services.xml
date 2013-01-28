@@ -1,83 +1,140 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: commercial-services.xml,v 1.2 2008-08-14 17:06:36 ub Exp $ -->
+<!-- $Id: commercial-services.xml,v 1.3 2013-01-28 13:25:46 ub Exp $ -->
 
 
 <chapter>
-    <title>Commercial Services für OTRS::ITSM</title>
+    <title>Commercial Services fÃ¼r OTRS::ITSM</title>
 
-    <para>Die OTRS AG ist sowohl Hersteller und Source Code Owner von OTRS bzw. der darauf bauenden Module (z. B. OTRS::ITSM), als auch professioneller Dienstleister. Das Geschäftsmodell der OTRS AG baut, anders als bei Anbietern proprietärer Software, nicht auf Lizenzgebühren auf, denn OTRS und auch OTRS::ITSM sind lizenzgebührenfrei erhältlich. Um die Software-Anwendungen herum bieten wir stattdessen Commercial Services.</para>
+    <para>
+        Die OTRS AG ist sowohl Hersteller und Source Code Owner von OTRS
+        bzw. der darauf bauenden Module (z. B. OTRS::ITSM), als auch
+        professioneller Dienstleister. Das GeschÃ¤ftsmodell der OTRS AG baut,
+        anders als bei Anbietern proprietÃ¤rer Software, nicht auf
+        LizenzgebÃ¼hren auf, denn OTRS und auch OTRS::ITSM sind
+        lizenzgebÃ¼hrenfrei erhÃ¤ltlich. Um die Software-Anwendungen herum
+        bieten wir stattdessen Commercial Services.
+    </para>
 
-    <para>Unser Serviceangebot zielt darauf ab, Sie als leistungsstarker Partner in allen Phasen Ihres OTRS Projektes, also Planung, Realisierung und Betrieb optimal zu unterstützen. Wir legen dabei großen Wert auf den Einsatz modernster Methoden und eine State-of-the-art Ausbildung unserer Mitarbeiter. Neben der hohen Anerkennung für leistungsstarke Geschäftsanwendungen sichert uns diese Philosophie bewiesenermaßen die Zufriedenheit unserer Kunden (http://www.otrs.com/de/referenzen/) in Bezug auf unsere Servicequalität.</para>
+    <para>
+        Unser Serviceangebot zielt darauf ab, Sie als leistungsstarker
+        Partner in allen Phasen Ihres OTRS Projektes, also Planung,
+        Realisierung und Betrieb optimal zu unterstÃ¼tzen. Wir legen dabei
+        groÃŸen Wert auf den Einsatz modernster Methoden und eine
+        State-of-the-art Ausbildung unserer Mitarbeiter. Neben der hohen
+        Anerkennung fÃ¼r leistungsstarke GeschÃ¤ftsanwendungen sichert uns diese
+        Philosophie bewiesenermaÃŸen die Zufriedenheit unserer Kunden
+        (http://www.otrs.com/de/referenzen/) in Bezug auf unsere
+        ServicequalitÃ¤t.
+    </para>
 
     <sect1>
-
         <title>OTRS::ITSM Consulting und Implementierung</title>
-        <para>Sie planen OTRS::ITSM einzusetzen, sind bei einem Produkt-Screening auf OTRS::ITSM gestoßen und möchten das System auf seine Eignung zur Erfüllung Ihrer Anforderungen hin überprüfen? Oder aber, Sie haben OTRS::ITSM bereits evauliert und möchten unsere Consulting Services in Anspruch nehmen, um Ihr Projekt effizient zum Erfolg zu führen.</para>
+        <para>
+            Sie planen OTRS::ITSM einzusetzen, sind bei einem
+            Produkt-Screening auf OTRS::ITSM gestoÃŸen und mÃ¶chten das System auf
+            seine Eignung zur ErfÃ¼llung Ihrer Anforderungen hin Ã¼berprÃ¼fen? Oder
+            aber, Sie haben OTRS::ITSM bereits evauliert und mÃ¶chten unsere
+            Consulting Services in Anspruch nehmen, um Ihr Projekt effizient zum
+            Erfolg zu fÃ¼hren.
+        </para>
 
-        <para>Zu unseren Services zählen:</para>
+        <para>Zu unseren Services zÃ¤hlen:</para>
 
         <para>
-        <itemizedlist>
+            <itemizedlist>
 
-            <listitem>
-                <para>Qualifizierung Ihrer Anforderungen und Unterstützung bei der Produktevaluierung</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Qualifizierung Ihrer Anforderungen und UnterstÃ¼tzung bei der
+                        Produktevaluierung
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Beratung in Bezug auf die Erarbeitung und Umsetzung der abzubildenden ITSM Prozess- und Organisationsstrukturen</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Beratung in Bezug auf die Erarbeitung und Umsetzung der
+                        abzubildenden ITSM Prozess- und Organisationsstrukturen
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>ITIL Assessments und ISO 20000 Zertifizierungsbegeleitung</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        ITIL Assessments und ISO 20000 Zertifizierungsbegeleitung
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>ITIL Trainings und Coaching</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        ITIL Trainings und Coaching
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>ITIL Implementierung</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        ITIL Implementierung
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Erstellung von IT Service-Katalogen</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Erstellung von IT Service-Katalogen
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>CMDB Design</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        CMDB Design
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Installation &amp; Konfiguration inklusive Integration von OTRS::ITSM in Ihre bestehende Systemlandschaft</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Installation &amp; Konfiguration inklusive Integration von
+                        OTRS::ITSM in Ihre bestehende Systemlandschaft
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Review &amp; Optimierung bestehender OTRS::ITSM Installationen</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Review &amp; Optimierung bestehender OTRS::ITSM Installationen
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Prozess- und Datenmigration aus Vorgängersystemen</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Prozess- und Datenmigration aus VorgÃ¤ngersystemen
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Release Updates</para>
-            </listitem>
+                <listitem>
+                    <para>Release Updates</para>
+                </listitem>
 
-            <listitem>
-                <para>Fachliche und technische Spezifikation von Anforderungen und Features, die den gegebenen Funktionsumfang von OTRS::ITSM übersteigen</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Fachliche und technische Spezifikation von Anforderungen und
+                        Features, die den gegebenen Funktionsumfang von OTRS::ITSM
+                        Ã¼bersteigen
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Planung und Durchführung Projekt begleitender Trainings für Administratoren und Service Agenten</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Planung und DurchfÃ¼hrung Projekt begleitender Trainings fÃ¼r
+                        Administratoren und Service Agenten
+                    </para>
+                </listitem>
 
-            <listitem>
-                <para>Beratung in Bezug auf gemanagten Betrieb (ASP/SaaS) von OTRS::ITSM sowie zum Applikationssupport</para>
-            </listitem>
+                <listitem>
+                    <para>
+                        Beratung in Bezug auf gemanagten Betrieb (ASP/SaaS) von
+                        OTRS::ITSM sowie zum Applikationssupport
+                    </para>
+                </listitem>
 
-        </itemizedlist>
+            </itemizedlist>
         </para>
 
     </sect1>
@@ -86,38 +143,104 @@
 
         <title>Software-Entwicklung</title>
 
-        <para>Ein entscheidender Vorteil der Open Source Software OTRS::ITSM ist ihre Flexibilität in Bezug auf mögliche Erweiterungen. Ein typischerweise bei proprietären Systemen in Kauf zu nehmender "Vendor Lock-in" und langwierige Verhandlungen mit dem Hersteller zur Erweiterung des Funktionsumfangs oder der Erstellung von Schnittstellen entfallen bei OTRS::ITSM.</para>
+        <para>
+            Ein entscheidender Vorteil der Open Source Software OTRS::ITSM
+            ist ihre FlexibilitÃ¤t in Bezug auf mÃ¶gliche Erweiterungen. Ein
+            typischerweise bei proprietÃ¤ren Systemen in Kauf zu nehmender "Vendor
+            Lock-in" und langwierige Verhandlungen mit dem Hersteller zur
+            Erweiterung des Funktionsumfangs oder der Erstellung von
+            Schnittstellen entfallen bei OTRS::ITSM.
+        </para>
 
-        <para>Erfahrene Projektmanager und Entwickler stehen Ihnen jederzeit gerne zur Verfügung, um Ihre Anforderungen, sofern sie über den gegebenen Funktionsumfang von OTRS::ITSM hinaus gehen, in fachliche und technische Spezifikationen umzusetzen. Wir entwickeln Ihre Features, programmieren Schnittstellen oder erweitern vorhandene Funktionalitäten gemäß Ihren Vorstellungen.</para>
+        <para>
+            Erfahrene Projektmanager und Entwickler stehen Ihnen jederzeit
+            gerne zur VerfÃ¼gung, um Ihre Anforderungen, sofern sie Ã¼ber den
+            gegebenen Funktionsumfang von OTRS::ITSM hinaus gehen, in fachliche
+            und technische Spezifikationen umzusetzen. Wir entwickeln Ihre
+            Features, programmieren Schnittstellen oder erweitern vorhandene
+            FunktionalitÃ¤ten gemÃ¤ÃŸ Ihren Vorstellungen.
+        </para>
 
-        <para>Erweiterungen, die auch für andere Kunden von Vorteil sind, nehmen wir bei zukünftigen Releases in den Standard auf. So profitieren alle Seiten, die von Ihnen und anderen Kunden "geborenen" Features machen OTRS::ITSM noch leistungsfähiger und Sie sparen die Kosten der Portierung Ihrer Features auf neue Release-Stände.</para>
-
+        <para>
+            Erweiterungen, die auch fÃ¼r andere Kunden von Vorteil sind,
+            nehmen wir bei zukÃ¼nftigen Releases in den Standard auf. So
+            profitieren alle Seiten, die von Ihnen und anderen Kunden "geborenen"
+            Features machen OTRS::ITSM noch leistungsfÃ¤higer und Sie sparen die
+            Kosten der Portierung Ihrer Features auf neue Release-StÃ¤nde.
+       </para>
     </sect1>
 
     <sect1>
-
         <title>Application Support</title>
 
-        <para>Die Entscheidung zur Einführung einer IT Service Management Lösung ist auch im Fall von Open Source Software eine nicht zu unterschätzende Investition in die Zukunft. Für den Erfolg eines solchen Einführungsprojektes ist ein kompetenter Beratungspartner unabdingbar. Mindestens ebenso wichtig ist eine geplante und erfolgreiche Überführung in den laufenden Betrieb der Lösung sowie die nachhaltige Unterstützung eines verlässlichen Partners bei der Sicherstellung eines einwandfrei funktionierenden Application Services.</para>
+        <para>
+            Die Entscheidung zur EinfÃ¼hrung einer IT Service Management
+            LÃ¶sung ist auch im Fall von Open Source Software eine nicht zu
+            unterschÃ¤tzende Investition in die Zukunft. FÃ¼r den Erfolg eines
+            solchen EinfÃ¼hrungsprojektes ist ein kompetenter Beratungspartner
+            unabdingbar. Mindestens ebenso wichtig ist eine geplante und
+            erfolgreiche ÃœberfÃ¼hrung in den laufenden Betrieb der LÃ¶sung sowie
+            die nachhaltige UnterstÃ¼tzung eines verlÃ¤sslichen Partners bei der
+            Sicherstellung eines einwandfrei funktionierenden Application
+            Services.
+        </para>
 
-        <para>Wir bieten Ihnen diese durchgängige Unterstützung und haben unsere Service Pakete flexibel auf Ihre Bedürfnisse abgestimmt. Für Sie heißt das, differenzierte Reaktionszeiten je nach vereinbartem Service Level Agreement bis hin zu 24/7/365 Support, 24/7/365 Zugriff auf unser Support Portal, auf Wunsch ergänzt um die Option des Telefonsupports. Alle Details unter http://www.otrs.com/de/support/ bzw. mittels Email an sales@otrs.com.</para>
+        <para>
+            Wir bieten Ihnen diese durchgÃ¤ngige UnterstÃ¼tzung und haben
+            unsere Service Pakete flexibel auf Ihre BedÃ¼rfnisse abgestimmt. FÃ¼r
+            Sie heiÃŸt das, differenzierte Reaktionszeiten je nach vereinbartem
+            Service Level Agreement bis hin zu 24/7/365 Support, 24/7/365 Zugriff
+            auf unser Support Portal, auf Wunsch ergÃ¤nzt um die Option des
+            Telefonsupports. Alle Details unter http://www.otrs.com/de/support/
+            bzw. mittels Email an sales@otrs.com.
+        </para>
 
-        <para>Sie zahlen dabei nur die Leistung, die Sie wirklich benötigen. Optionale Zusatzpakete, z. B. der Support via Remote-Login oder die Ausdehnung der Application Support Services auf weitere OTRS::ITSM Instanzen können bei Bedarf einfach hinzugebucht werden.</para>
+        <para>
+            Sie zahlen dabei nur die Leistung, die Sie wirklich benÃ¶tigen.
+            Optionale Zusatzpakete, z. B. der Support via Remote-Login oder die
+            Ausdehnung der Application Support Services auf weitere OTRS::ITSM
+            Instanzen kÃ¶nnen bei Bedarf einfach hinzugebucht werden.
+        </para>
 
-        <para>Unser ITIL konform arbeitendes Application Support Team optimiert kontinuierlich die eigenen Prozesse und Leistungen. In regelmäßigen Abständen ist daher ein Statusanruf unseres Service Managers vorgesehen, um Ihre Wünsche und Anforderungen in Bezug auf die Leistungsgestaltung mit Ihnen zu besprechen. Als Grundlage dient hierzu das monatliche Status Reporting im Service Paket Ihrer Wahl.</para>
-
+        <para>
+            Unser ITIL konform arbeitendes Application Support Team
+            optimiert kontinuierlich die eigenen Prozesse und Leistungen. In
+            regelmÃ¤ÃŸigen AbstÃ¤nden ist daher ein Statusanruf unseres Service
+            Managers vorgesehen, um Ihre WÃ¼nsche und Anforderungen in Bezug auf
+            die Leistungsgestaltung mit Ihnen zu besprechen. Als Grundlage dient
+            hierzu das monatliche Status Reporting im Service Paket Ihrer Wahl.
+        </para>
     </sect1>
 
     <sect1>
-
         <title>Managed Application Services (ASP/SaaS)</title>
 
-        <para>OTRS bzw. OTRS::ITSM müssen nicht zwingend selbst betrieben werden. Die Produkte können im so genannten "ASP" Modell (Application Service Provisioning) bzw. "SaaS" (Software as a Service) bei darauf spezialisierten Unternehmen gemietet werden.</para>
+        <para>
+            OTRS bzw. OTRS::ITSM mÃ¼ssen nicht zwingend selbst betrieben
+            werden. Die Produkte kÃ¶nnen im so genannten "ASP" Modell (Application
+            Service Provisioning) bzw. "SaaS" (Software as a Service) bei darauf
+            spezialisierten Unternehmen gemietet werden.
+        </para>
 
-        <para>Der Kunde (Nutzer der Software) erhält zum monatlichen Fixpreis Zugang und Zugriff per Internet auf ein exklusiv gemietetes OTRS-System sowie ggfs. auf funktionalen Applikations-Support (siehe vorheriger Abschnitt) und darf die Applikation im vertraglich vereinbarten Umfang im eigenen Unternehmen einsetzen. Da ausschließlich Open Source Produkte eingesetzt werden, fallen für den ASP-Kunden keine zusätzlichen Lizenzgebühren an.</para>
+        <para>
+            Der Kunde (Nutzer der Software) erhÃ¤lt zum monatlichen Fixpreis
+            Zugang und Zugriff per Internet auf ein exklusiv gemietetes
+            OTRS-System sowie ggfs. auf funktionalen Applikations-Support (siehe
+            vorheriger Abschnitt) und darf die Applikation im vertraglich
+            vereinbarten Umfang im eigenen Unternehmen einsetzen. Da
+            ausschlieÃŸlich Open Source Produkte eingesetzt werden, fallen fÃ¼r den
+            ASP-Kunden keine zusÃ¤tzlichen LizenzgebÃ¼hren an.
+        </para>
 
-        <para>Der Application Service Provider betreibt die IT Infrastruktur, Systeme und Software ITIL konform und stellt die Servicegüte entsprechend der vertraglich vereinbarten Service-Levels sicher. Zudem wartet der Provider das Applikationssystem (z. B. Patches, Backup, Monitoring) und unterstützt den Kunden bei Incidents (Störungen) bzw. Service Requests, z. B. bei Anfragen nach Beratung, Software-Ergänzungen oder Konfigurationswünschen.</para>
-
+        <para>
+            Der Application Service Provider betreibt die IT Infrastruktur,
+            Systeme und Software ITIL konform und stellt die ServicegÃ¼te
+            entsprechend der vertraglich vereinbarten Service-Levels sicher.
+            Zudem wartet der Provider das Applikationssystem (z. B. Patches,
+            Backup, Monitoring) und unterstÃ¼tzt den Kunden bei Incidents
+            (StÃ¶rungen) bzw. Service Requests, z. B. bei Anfragen nach Beratung,
+            Software-ErgÃ¤nzungen oder KonfigurationswÃ¼nschen.
+        </para>
     </sect1>
 
 </chapter>

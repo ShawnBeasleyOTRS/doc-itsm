@@ -1,27 +1,42 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: preface.xml,v 1.2 2008-08-14 14:57:14 ub Exp $ -->
+<!-- $Id: preface.xml,v 1.3 2013-01-28 13:25:46 ub Exp $ -->
 
 <preface id="preface">
+
     <title>Vorwort</title>
-
-    <para>Das vorliegende Dokument richtet sich an OTRS::ITSM Anwender und Administratoren und beschreibt die     grundlegende Benutzung von OTRS::ITSM durch IT Service Manager, IT Service-Personal (Agent) und End-User (Customer). Auf Installation, Konfiguration und Administration wird insoweit eingegangen, als gegenüber dem Kernprodukt OTRS Abweichungen bestehen oder Funktionen nur in OTRS::ITSM existieren.</para>
-
-    <para>Obwohl viele Arbeitsstunden, noch mehr Kaffee und so manche "Wurscht mit Brezn und süßem Senf" in die Erstellung     der folgenden Abschnitte investiert wurden, erhebt das Handbuch keinen Anspruch auf Vollständigkeit. Die Kapitel werden     - im Sinne kontinuierlicher Verbesserung - regelmäßig überarbeitet beziehungsweise ergänzt werden.</para>
-
-    <para>Um die Qualität der folgenden Kapitel und des Produktes so hoch als möglich zu halten, sind wir auf Ihr Feedback angewiesen. Bitte teilen Sie uns mit, wenn Sie Vorschläge haben, Abschnitte in diesem Buch vermissen oder wenn Aspekte unverständlich erscheinen. Jede Art von Rückmeldung (<ulink url="http://otrs.org/"><citetitle>http://otrs.org</citetitle></ulink>) ist ausdrücklich erwünscht.</para>
-
-    <para>Stolz über das vorliegende Produkt bedanken wir uns bei den ITIL Experten der Enterprise Consulting GmbH und     unseren erstklassigen OTRS-Entwicklern, die gemeinsam durch ihren unermüdlichen Einsatz maßgeblich zur erfolgreichen Erstellung von OTRS::ITSM beigetragen haben.</para>
-
-    <para>Bei Ihnen, den Anwendern und der Community von OTRS::ITSM bedanken wir uns schon heute für jede Art von Mithilfe und Feedback und wünschen viel Spaß bei der Nutzung von OTRS::ITSM.</para>
-
-    <para>André Mindermann,
+    <para>
+        Das vorliegende Dokument richtet sich an OTRS::ITSM Anwender und Administratoren und beschreibt die
+        grundlegende Benutzung von OTRS::ITSM durch IT Service Manager, IT Service-Personal (Agent) und End-User (Customer).
+        Auf Installation, Konfiguration und Administration wird insoweit eingegangen, als gegenÃ¼ber dem Kernprodukt OTRS Abweichungen bestehen oder Funktionen nur in OTRS::ITSM existieren.
+    </para>
+    <para>
+        Obwohl viele Arbeitsstunden, noch mehr Kaffee und so manche "Wurscht mit Brezn und sÃ¼ÃŸem Senf" in die Erstellung
+        der folgenden Abschnitte investiert wurden, erhebt das Handbuch keinen Anspruch auf VollstÃ¤ndigkeit.
+        Die Kapitel werden - im Sinne kontinuierlicher Verbesserung - regelmÃ¤ÃŸig Ã¼berarbeitet beziehungsweise ergÃ¤nzt werden.
+    </para>
+    <para>
+        Um die QualitÃ¤t der folgenden Kapitel und des Produktes so hoch als mÃ¶glich zu halten, sind wir auf Ihr Feedback angewiesen.
+        Bitte teilen Sie uns mit, wenn Sie VorschlÃ¤ge haben, Abschnitte in diesem Buch vermissen oder wenn Aspekte unverstÃ¤ndlich erscheinen.
+        Jede Art von RÃ¼ckmeldung (<ulink url="http://otrs.org/"><citetitle>http://otrs.org</citetitle></ulink>) ist ausdrÃ¼cklich erwÃ¼nscht.
+    </para>
+    <para>
+        Stolz Ã¼ber das vorliegende Produkt bedanken wir uns bei den ITIL Experten der Enterprise Consulting GmbH und unseren erstklassigen OTRS-Entwicklern,
+        die gemeinsam durch ihren unermÃ¼dlichen Einsatz maÃŸgeblich zur erfolgreichen Erstellung von OTRS::ITSM beigetragen haben.
+    </para>
+    <para>
+        Bei Ihnen, den Anwendern und der Community von OTRS::ITSM bedanken wir uns schon heute fÃ¼r jede Art von Mithilfe und Feedback und wÃ¼nschen viel SpaÃŸ bei der Nutzung von OTRS::ITSM.
+    </para>
+    <para>
+        AndrÃ© Mindermann,
         Managing Partner
-        OTRS AG</para>
-
-    <para>Bad Homburg im Mai 2007</para>
-
-    <para>((enjoy))</para>
-
+        OTRS AG
+    </para>
+    <para>
+        Bad Homburg im Mai 2007
+    </para>
+    <para>
+        ((enjoy))
+    </para>
 </preface>

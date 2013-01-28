@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: fdl.xml,v 1.1.1.1 2008-08-14 13:17:47 mh Exp $ -->
+<!-- $Id: fdl.xml,v 1.2 2013-01-28 13:25:46 ub Exp $ -->
 
 <appendix id="gfdl">
 <title>GNU Free Documentation License</title>
@@ -10,7 +10,7 @@
 
   <!-- sect1>
     <title>GNU Free Documentation License</title -->
-    <para>Eine deutsche Übersetzung der GNU Free Documentation License finden Sie unter folgender Adresse: <ulink url="http://www.gnu.de/">http://www.gnu.de/</ulink></para>
+    <para>Eine deutsche Ãœbersetzung der GNU Free Documentation License finden Sie unter folgender Adresse: <ulink url="http://www.gnu.de/">http://www.gnu.de/</ulink></para>
     <para></para>
     <para>Version 1.1, March 2000</para>
 

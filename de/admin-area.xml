@@ -1,101 +1,119 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: admin-area.xml,v 1.6 2010-02-17 20:31:31 ub Exp $ -->
+<!-- $Id: admin-area.xml,v 1.7 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
     <title>Der Administrationsbereich von OTRS::ITSM</title>
 
-    <para>Der Administrationsbereich ist die zentrale Anlaufstelle für den Administrator des Ticket Systems. Innerhalb dieses Bereiches können alle wichtigen Einstellungen der Systemkonfiguration eingesehen bzw. geändert und das System auf die eigenen Bedürfnisse angepasst werden.</para>
-
-    <para>Die Administrationsoberfläche kann über den Link "Admin" innerhalb der Navigationsleiste des Agent-Interfaces geladen werden. Damit dieser Link in der Navigationsleiste überhaupt sichtbar ist, müssen Sie als OTRS::ITSM-Administrator am System angemeldet sein bzw. über Administrationsrechte im System verfügen. Nach einer Standardinstallation können Sie sich mit dem Benutzernamen "root@localhost" und dem Kennwort "root" als OTRS-Admin am System anmelden.</para>
-
-    <warning>
-
-    <para>Bitte ändern Sie schnellstmöglich nach der Installation über die Benutzereinstellungen das Kennwort für root@localhost, da es sich hierbei um ein standardmäßig vergebenes Kennwort handelt, das allgemein bekannt ist.</para>
-
-    </warning>
-
-    <para>In OTRS::ITSM sind die folgenden Konfigurations-Links neu im Administrations-Bereich verfügbar:</para>
+    <para>
+        Der Administrationsbereich ist die zentrale Anlaufstelle fÃ¼r den
+        Administrator des Ticket Systems. Innerhalb dieses Bereiches kÃ¶nnen
+        alle wichtigen Einstellungen der Systemkonfiguration eingesehen bzw.
+        geÃ¤ndert und das System auf die eigenen BedÃ¼rfnisse angepasst werden.
+    </para>
 
     <para>
-    <itemizedlist>
+        Die AdministrationsoberflÃ¤che kann Ã¼ber den Link "Admin"
+        innerhalb der Navigationsleiste des Agent-Interfaces geladen werden.
+        Damit dieser Link in der Navigationsleiste Ã¼berhaupt sichtbar ist,
+        mÃ¼ssen Sie als OTRS::ITSM-Administrator am System angemeldet sein bzw.
+        Ã¼ber Administrationsrechte im System verfÃ¼gen. Nach einer
+        Standardinstallation kÃ¶nnen Sie sich mit dem Benutzernamen
+        "root@localhost" und dem Kennwort "root" als OTRS-Admin am System
+        anmelden.
+    </para>
 
+    <warning>
+        <para>
+            Bitte Ã¤ndern Sie schnellstmÃ¶glich nach der Installation Ã¼ber die
+            Benutzereinstellungen das Kennwort fÃ¼r root@localhost, da es sich
+            hierbei um ein standardmÃ¤ÃŸig vergebenes Kennwort handelt, das
+            allgemein bekannt ist.
+       </para>
+    </warning>
 
-        <listitem>
-          <para>ab OTRS::ITSM 1.0</para>
-          <itemizedlist>
-              <listitem>
-                <para>[ General Catalog ]</para>
-              </listitem>
-              <listitem>
-                <para>[ Kritikalität - Auswirkung - Priorität ]</para>
-              </listitem>
-              <listitem>
-                <para>[ ConfigItem ]</para>
-              </listitem>
-          </itemizedlist>
-        </listitem>
+    <para>
+        In OTRS::ITSM sind die folgenden Konfigurations-Links neu im
+        Administrations-Bereich verfÃ¼gbar:
+    </para>
 
-        <listitem>
-          <para>ab OTRS::ITSM 1.1</para>
-          <itemizedlist>
-              <listitem>
-                <para>[ Import/Export ]</para>
-              </listitem>
-          </itemizedlist>
-        </listitem>
+    <para>
+        <itemizedlist>
+            <listitem>
+                <para>ab OTRS::ITSM 1.0</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ General Catalog ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ KritikalitÃ¤t - Auswirkung - PrioritÃ¤t ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ ConfigItem ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
 
-        <listitem>
-          <para>ab OTRS::ITSM 2.0</para>
-          <itemizedlist>
-              <listitem>
-                <para>[ Benachrichtigung (ITSM Change Management) ]</para>
-              </listitem>
-              <listitem>
-                <para>[ Kategorie - Auswirkung - Priorität ]</para>
-              </listitem>
-              <listitem>
-                <para>[ State Machine ]</para>
-              </listitem>
-          </itemizedlist>
-        </listitem>
+            <listitem>
+                <para>ab OTRS::ITSM 1.1</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Import/Export ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
 
-        <listitem>
-            <para>ab OTRS 2.2</para>
-            <itemizedlist>
-                <listitem>
-                  <para>[ Type ]</para>
-                </listitem>
-                <listitem>
-                    <para>[ Status ]</para>
-                </listitem>
-                <listitem>
-                    <para>[ Service ]</para>
-                </listitem>
-                <listitem>
-                    <para>[ SLA ]</para>
-                </listitem>
-            </itemizedlist>
-        </listitem>
+            <listitem>
+                <para>ab OTRS::ITSM 2.0</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Benachrichtigung (ITSM Change Management) ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Kategorie - Auswirkung - PrioritÃ¤t ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ State Machine ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
 
-        <listitem>
-            <para>ab OTRS 2.3</para>
-            <itemizedlist>
-              <listitem>
-                <para>[ Priority ]</para>
-              </listitem>
-            </itemizedlist>
-        </listitem>
+            <listitem>
+                <para>ab OTRS 2.2</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Type ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Status ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Service ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ SLA ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
 
-    </itemizedlist>
+            <listitem>
+                <para>ab OTRS 2.3</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Priority ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+        </itemizedlist>
     </para>
 
     <para>
         <screenshot>
-        <screeninfo>index.pl - Admin Area</screeninfo>
-        <graphic srccredit="Admin Area - screenshot" scale="50" fileref="screenshots/admin-area.png"></graphic>
+            <screeninfo>index.pl - Admin Area</screeninfo>
+            <graphic srccredit="Admin Area - screenshot" scale="50" fileref="screenshots/admin-area.png" />
         </screenshot>
     </para>
 
@@ -103,84 +121,115 @@
 
         <title>Der General Catalog</title>
 
-        <para>Im General Catalog werden, wie der Name vermuten lässt, die grundsätzlichen, ITSM relevanten Konfigurationen für OTRS::ITSM vorgenommen.</para>
+        <para>Im General Catalog werden, wie der Name vermuten lÃ¤sst, die
+            grundsÃ¤tzlichen, ITSM relevanten Konfigurationen fÃ¼r OTRS::ITSM
+            vorgenommen.</para>
 
         <para>
             <screenshot>
-            <screeninfo>index.pl - Admin General Catalog</screeninfo>
-            <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management.png"></graphic>
+                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management.png" />
             </screenshot>
         </para>
 
-        <para>Beispielsweise lassen sich die hier die Referenztabellen-Einträge für Dropdown-Felder editieren:</para>
+        <para>Beispielsweise lassen sich die hier die
+            Referenztabellen-EintrÃ¤ge fÃ¼r Dropdown-Felder editieren:</para>
 
         <para>
             <screenshot>
-            <screeninfo>index.pl - Admin General Catalog</screeninfo>
-            <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-edit.png"></graphic>
+                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-edit.png" />
             </screenshot>
         </para>
-
     </sect1>
 
     <sect1>
-
         <title>Konfiguration der Configuration Item Klassen</title>
 
-        <para>OTRS::ITSM bietet standardmäßig fünf CI-Klassen, mit denen sich grundsätzlich alle relevanten IT Elemente abbilden lassen:</para>
-
-
         <para>
-        <itemizedlist>
-
-        <listitem>
-            <para>[ Computer ]</para>
-            <para>hierunter fallen alle CIs, die man klassischerweise als Computer bezeichnet, also Desktop PCs oder Laptops. Zusätzlich alle "intelligenten, konfigurierbaren und nicht peripheren" Geräte, wie z. B. Switches, Router, oder sonstige aktive Netzwerkkomponenten.</para>
-        </listitem>
-
-        <listitem>
-            <para>[ Hardware ]</para>
-            <para>alle nicht unter Computer fallenden Hardware-Komponenten. Die Spanne reicht vom "Blade Center" Chassis über Drucker bis zum USB-Stick, je nach Detailtiefe der Erfassung.</para>
-        </listitem>
-
-        <listitem>
-            <para>[ Network ]</para>
-            <para>logische Netze (LAN, WLAN, WAN etc.), die IP-Adressbereiche überspannen.</para>
-        </listitem>
-
-        <listitem>
-            <para>[ Software ]</para>
-            <para>alle Softwareprodukte und Lizenzen</para>
-        </listitem>
-
-        <listitem>
-            <para>[ Locations ]</para>
-            <para>alle Lokationen, wie z. B. Büro, Gebäude, IT Facility.</para>
-        </listitem>
-
-        </itemizedlist>
+            OTRS::ITSM bietet standardmÃ¤ÃŸig fÃ¼nf CI-Klassen, mit denen sich
+            grundsÃ¤tzlich alle relevanten IT Elemente abbilden lassen:
         </para>
 
-        <para>Sollten die fünf Klassen zur Abbildung der eigenen IT Umgebung wider Erwarten nicht ausreichen, können weitere Klassen über den Link "General Catalog" im OTRS::ITSM Administrations-Bereich hinzugefügt werden. Hierbei ist zu beachten, dass nach Erzeugung einer neue CI-Klasse im General Catalog eine Definition unter "ConfigItem" für diese neue Klasse eingetragen werden muss.</para>
+        <para>
+            <itemizedlist>
+
+                <listitem>
+                    <para>[ Computer ]</para>
+                    <para>
+                        hierunter fallen alle CIs, die man klassischerweise als
+                        Computer bezeichnet, also Desktop PCs oder Laptops. ZusÃ¤tzlich
+                        alle "intelligenten, konfigurierbaren und nicht peripheren"
+                        GerÃ¤te, wie z. B. Switches, Router, oder sonstige aktive
+                        Netzwerkkomponenten.
+                    </para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Hardware ]</para>
+                    <para>
+                        alle nicht unter Computer fallenden Hardware-Komponenten. Die
+                        Spanne reicht vom "Blade Center" Chassis Ã¼ber Drucker bis zum
+                        USB-Stick, je nach Detailtiefe der Erfassung.
+                    </para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Network ]</para>
+                    <para>
+                        logische Netze (LAN, WLAN, WAN etc.), die IP-Adressbereiche
+                        Ã¼berspannen.
+                    </para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Software ]</para>
+                    <para>alle Softwareprodukte und Lizenzen</para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Locations ]</para>
+                    <para>alle Lokationen, wie z. B. BÃ¼ro, GebÃ¤ude, IT Facility.</para>
+                </listitem>
+
+            </itemizedlist>
+        </para>
+
+        <para>
+            Sollten die fÃ¼nf Klassen zur Abbildung der eigenen IT Umgebung
+            wider Erwarten nicht ausreichen, kÃ¶nnen weitere Klassen Ã¼ber den Link
+            "General Catalog" im OTRS::ITSM Administrations-Bereich hinzugefÃ¼gt
+            werden. Hierbei ist zu beachten, dass nach Erzeugung einer neue
+            CI-Klasse im General Catalog eine Definition unter "ConfigItem" fÃ¼r
+            diese neue Klasse eingetragen werden muss.
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>index.pl - Admin General Catalog</screeninfo>
-            <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-class.png"></graphic>
+                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-class.png" />
             </screenshot>
         </para>
 
         <warning>
-
-        <para>Erfahrungsgemäß stellt das Design des CMDB-Datenmodells und der darin zu verwaltenden CIs eine nicht zu unterschätzende Aufgabe dar. Es wird daher dringend empfohlen, die konzeptionellen Gedanken gegen die IT Infrastruktur "im Trockenen" zu validieren. Erst danach sollten Änderungen am OTRS::ITSM Standard-Datenmodell bzw. an CI-Klassen vorgenommen werden. Es hat sich bewährt, für das CMDB-Design auf externe Unterstützung, z. B. durch ITIL Praxis-Experten
-        zurückzugreifen.</para>
-
+            <para>
+                ErfahrungsgemÃ¤ÃŸ stellt das Design des CMDB-Datenmodells und der
+                darin zu verwaltenden CIs eine nicht zu unterschÃ¤tzende Aufgabe dar.
+                Es wird daher dringend empfohlen, die konzeptionellen Gedanken gegen
+                die IT Infrastruktur "im Trockenen" zu validieren. Erst danach
+                sollten Ã„nderungen am OTRS::ITSM Standard-Datenmodell bzw. an
+                CI-Klassen vorgenommen werden. Es hat sich bewÃ¤hrt, fÃ¼r das
+                CMDB-Design auf externe UnterstÃ¼tzung, z. B. durch ITIL Praxis-Experten
+                zurÃ¼ckzugreifen.
+           </para>
         </warning>
 
-        <para>Nachfolgend ein Ausschnitt aus der selbsterklärenden Standard-Konfiguration für die CI Klasse "Computer":</para>
-
         <para>
-        <screen>
+            Nachfolgend ein Ausschnitt aus der selbsterklÃ¤renden
+            Standard-Konfiguration fÃ¼r die CI Klasse "Computer":
+        </para>
+        <para>
+            <screen>
 [
     {
         Key => 'Description',
@@ -253,63 +302,88 @@
         CountDefault => 1,
     },
 ];
-        </screen>
+            </screen>
         </para>
 
-        <para>Attribut-Änderungen und Ergänzungen können direkt im grafischen Konfigurationsbereich über "Change Definition" vorgenommen werden:</para>
+        <para>
+            Attribut-Ã„nderungen und ErgÃ¤nzungen kÃ¶nnen direkt im grafischen
+            Konfigurationsbereich Ã¼ber "Change Definition" vorgenommen werden:
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-configitem-management-change</screeninfo>
-            <graphic srccredit="admin-configitem-management-change - screenshot" scale="50" fileref="screenshots/admin-configitem-management-change.png"></graphic>
+                <screeninfo>admin-configitem-management-change</screeninfo>
+                <graphic srccredit="admin-configitem-management-change - screenshot" scale="50" fileref="screenshots/admin-configitem-management-change.png" />
             </screenshot>
         </para>
 
         <warning>
-
-            <para>Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu stellen, können im Admin-Bereich des Systems angelegte Informationen grundsätzlich nicht entfernt werden. Um diese trotzdem zu deaktivieren, setzen Sie in den Einstellungen der entsprechenden Anrede in der Listbox für "Gültig" den Wert entweder auf "ungültig" bzw. "ungültig-temporär".</para>
-
+            <para>
+                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                stellen, kÃ¶nnen im Admin-Bereich des Systems angelegte Informationen
+                grundsÃ¤tzlich nicht entfernt werden. Um diese trotzdem zu
+                deaktivieren, setzen Sie in den Einstellungen der entsprechenden
+                Anrede in der Listbox fÃ¼r "GÃ¼ltig" den Wert entweder auf "ungÃ¼ltig"
+                bzw. "ungÃ¼ltig-temporÃ¤r".
+            </para>
         </warning>
-
     </sect1>
 
     <sect1>
-
         <title>Versionsverwaltung der CI-Klassen</title>
-
-        <para>Für alle CI-Klassen ist eine Versionsverwaltung im System integriert. Die jeweils letzte Version wird für die in OTRS::ITSM abgebildeten Prozesse herangezogen.</para>
+        <para>
+            FÃ¼r alle CI-Klassen ist eine Versionsverwaltung im System
+            integriert. Die jeweils letzte Version wird fÃ¼r die in OTRS::ITSM
+            abgebildeten Prozesse herangezogen.
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-configitem-management</screeninfo>
-            <graphic srccredit="admin-configitem-management - screenshot" scale="50" fileref="screenshots/admin-configitem-management.png"></graphic>
+                <screeninfo>admin-configitem-management</screeninfo>
+                <graphic srccredit="admin-configitem-management - screenshot" scale="50" fileref="screenshots/admin-configitem-management.png" />
             </screenshot>
         </para>
-
     </sect1>
 
     <sect1>
-
         <title>Anpassen der Ticket-Status</title>
-
-        <para>Im Incident Management nach ITIL werden Incidents entweder erfolgreich gelöst oder per so genanntem "Workaround", einer meist temporären Behelfslösung geschlossen. Hierfür ist im OTRS::ITSM Standard der Ticket-Status "closed with workaround" vorhanden.</para>
+        <para>
+            Im Incident Management nach ITIL werden Incidents entweder
+            erfolgreich gelÃ¶st oder per so genanntem "Workaround", einer meist
+            temporÃ¤ren BehelfslÃ¶sung geschlossen. HierfÃ¼r ist im OTRS::ITSM
+            Standard der Ticket-Status "closed with workaround" vorhanden.
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-state-management</screeninfo>
-            <graphic srccredit="admin-state-management - screenshot" scale="50" fileref="screenshots/admin-state-management.png"></graphic>
+                <screeninfo>admin-state-management</screeninfo>
+                <graphic srccredit="admin-state-management - screenshot" scale="50" fileref="screenshots/admin-state-management.png" />
             </screenshot>
         </para>
 
-        <para>OTRS::ITSM erlaubt es Ihnen, die Ticket-Status zu verändern oder neue Status hinzuzufügen. Hierbei gibt es zwei wichtige Optionen. Zum Einen den Namen des Status "state-name" und zum Zweiten den Typ des Status "state-type". Alle standardmäßig verfügbaren Status und Typen sind oben abgebildet.</para>
-
-        <para>Im Admin-Interface können Sie innerhalb der Einstellungen für "Status" neue Status für die vorhandenen Statustypen hinzufügen oder
-        ändern.</para>
-
-        <para>Beachten Sie, dass Sie bei Änderungen am Status "neu - new" auch die entsprechenden Änderungen in der Konfigurationsdatei Kernel/Config.pm bzw. mit Hilfe des grafischen Konfigurations-Front-End vornehmen müssen.</para>
+        <para>
+            OTRS::ITSM erlaubt es Ihnen, die Ticket-Status zu verÃ¤ndern oder
+            neue Status hinzuzufÃ¼gen. Hierbei gibt es zwei wichtige Optionen. Zum
+            Einen den Namen des Status "state-name" und zum Zweiten den Typ des
+            Status "state-type". Alle standardmÃ¤ÃŸig verfÃ¼gbaren Status und Typen
+            sind oben abgebildet.
+        </para>
 
         <para>
-        <screen>
+            Im Admin-Interface kÃ¶nnen Sie innerhalb der Einstellungen fÃ¼r
+            "Status" neue Status fÃ¼r die vorhandenen Statustypen hinzufÃ¼gen oder
+            Ã¤ndern.
+        </para>
+
+        <para>
+            Beachten Sie, dass Sie bei Ã„nderungen am Status "neu - new" auch
+            die entsprechenden Ã„nderungen in der Konfigurationsdatei
+            Kernel/Config.pm bzw. mit Hilfe des grafischen
+            Konfigurations-Front-End vornehmen mÃ¼ssen.
+        </para>
+
+        <para>
+            <screen>
     [...]
     # PostmasterDefaultState
     # (The default state of new tickets.) [default: new]
@@ -319,13 +393,17 @@
     # (default state of new customer tickets)
     $Self->{CustomerDefaultState} = 'new';
     [...]
-        </screen>
+            </screen>
         </para>
 
-        <para>Auch bei Änderungen am Status "offen - open" sind Änderungen in Kernel/Config.pm bzw. mit Hilfe des grafischen Konfigurations-Front-End erforderlich.</para>
+        <para>
+            Auch bei Ã„nderungen am Status "offen - open" sind Ã„nderungen in
+            Kernel/Config.pm bzw. mit Hilfe des grafischen
+            Konfigurations-Front-End erforderlich.
+        </para>
 
         <para>
-        <screen>
+            <screen>
     [...]
     # default phone new state
     $Self->{'Ticket::Frontend::PhoneNextState'} = 'open';
@@ -335,85 +413,121 @@
 
     $Self->{PostmasterFollowUpState} = 'open';
     [...]
-        </screen>
+            </screen>
         </para>
 
-
         <warning>
-        <para>Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu stellen, können im Admin-Bereich des Systems angelegte Informationen grundsätzlich nicht entfernt werden. Um diese trotzdem zu deaktivieren, setzen Sie in den Einstellungen der entsprechenden Anrede in der Listbox für "Gültig" den Wert entweder auf "ungültig" bzw.  "ungültig-temporär".</para>
+            <para>
+                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                stellen, kÃ¶nnen im Admin-Bereich des Systems angelegte Informationen
+                grundsÃ¤tzlich nicht entfernt werden. Um diese trotzdem zu
+                deaktivieren, setzen Sie in den Einstellungen der entsprechenden
+                Anrede in der Listbox fÃ¼r "GÃ¼ltig" den Wert entweder auf "ungÃ¼ltig"
+                bzw. "ungÃ¼ltig-temporÃ¤r".
+            </para>
         </warning>
-
     </sect1>
 
     <sect1>
-
         <title>Die Criticality-Impact-Priority-Matrix</title>
-
-        <para>OTRS::ITSM bietet je fünf Stufen zur Abbildung bzw. Priorisierung von Tickets:</para>
-
         <para>
-        <itemizedlist>
-
-            <listitem>
-                <para>[ Criticality ]</para>
-                <para>Bedeutung ("Kritikalität") des Services für den/die IT Anwender bzw. -Kunden</para>
-            </listitem>
-
-            <listitem>
-                <para>[ Impact ]</para>
-                <para>Auswirkung von Störungen des betroffenen Service auf den oder die Anwender bzw. Kunden</para>
-            </listitem>
-
-            <listitem>
-                <para>[ Priority ]</para>
-                <para>die, sich aus Criticality und Impact ergebende, Priorität innerhalb OTRS::ITSM</para>
-            </listitem>
-        </itemizedlist>
+            OTRS::ITSM bietet je fÃ¼nf Stufen zur Abbildung bzw.
+            Priorisierung von Tickets:
         </para>
 
-        <para>Die Ticket-Priorität wird in OTRS::ITSM gemäß nachstehender Matrix festegelegt und das so priorisierte Ticket in den Queue-Ansichten eingeordnet.</para>
+        <para>
+            <itemizedlist>
+
+                <listitem>
+                    <para>[ Criticality ]</para>
+                    <para>
+                        Bedeutung ("KritikalitÃ¤t") des Services fÃ¼r den/die IT Anwender bzw. -Kunden
+                    </para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Impact ]</para>
+                    <para>
+                        Auswirkung von StÃ¶rungen des betroffenen Service auf den oder die Anwender bzw. Kunden
+                    </para>
+                </listitem>
+
+                <listitem>
+                    <para>[ Priority ]</para>
+                    <para>
+                        die, sich aus Criticality und Impact ergebende, PrioritÃ¤t innerhalb OTRS::ITSM
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </para>
+
+        <para>
+            Die Ticket-PrioritÃ¤t wird in OTRS::ITSM gemÃ¤ÃŸ nachstehender
+            Matrix festegelegt und das so priorisierte Ticket in den
+            Queue-Ansichten eingeordnet.
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-priority-allocation</screeninfo>
-            <graphic srccredit="admin-priority-allocation - screenshot" scale="50" fileref="screenshots/admin-priority-allocation.png"></graphic>
+                <screeninfo>admin-priority-allocation</screeninfo>
+                <graphic srccredit="admin-priority-allocation - screenshot" scale="50" fileref="screenshots/admin-priority-allocation.png" />
             </screenshot>
         </para>
 
-        <para>Die Stufen-Anzahl, Beschreibungen und Gültigkeit lassen sich im Admin-Interface über den Link "General Catalog" einsehen und ändern:</para>
+        <para>
+            Die Stufen-Anzahl, Beschreibungen und GÃ¼ltigkeit lassen sich im
+            Admin-Interface Ã¼ber den Link "General Catalog" einsehen und Ã¤ndern:
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-general-catalog-management-priority</screeninfo>
-            <graphic srccredit="admin-general-catalog-management-priority - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-priority.png"></graphic>
+                <screeninfo>admin-general-catalog-management-priority</screeninfo>
+                <graphic srccredit="admin-general-catalog-management-priority - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-priority.png" />
             </screenshot>
         </para>
-
     </sect1>
 
     <sect1>
-
-        <title>Anpassen der Ticket-Prioritäten</title>
-
-        <para>Anhand der Ticket-Prioritäten werden Tickets in OTRS::ITSM "geordnet". d. h., Tickets mit höherer Priorität werden in den Queue-Ansichten weiter oben angeordnet und umgekehrt. Prioritäten können über das grafische Administrations-Frontend angepasst, umbenannt und ergänzt werden.</para>
+        <title>Anpassen der Ticket-PrioritÃ¤ten</title>
+        <para>
+            Anhand der Ticket-PrioritÃ¤ten werden Tickets in OTRS::ITSM
+            "geordnet". d. h., Tickets mit hÃ¶herer PrioritÃ¤t werden in den
+            Queue-Ansichten weiter oben angeordnet und umgekehrt. PrioritÃ¤ten
+            kÃ¶nnen Ã¼ber das grafische Administrations-Frontend angepasst,
+            umbenannt und ergÃ¤nzt werden.
+        </para>
 
         <para>
             <screenshot>
-            <screeninfo>admin-priority-management</screeninfo>
-            <graphic srccredit="admin-priority-management" scale="50" fileref="screenshots/admin-priority-management.png"></graphic>
+                <screeninfo>admin-priority-management</screeninfo>
+                <graphic srccredit="admin-priority-management" scale="50" fileref="screenshots/admin-priority-management.png" />
             </screenshot>
         </para>
 
-        <para>Im OTRS Admin-Handbuch finden sich weiter gehende Hinweise.</para>
+        <para>
+            Im OTRS Admin-Handbuch finden sich weiter gehende Hinweise.
+        </para>
 
         <warning>
-        <para>Das Attribut "id" bestimmt OTRS::ITSM-intern die Reihenfolge der Prioritäten. => 1 entspricht dem Minimum und 5 (oder höher) repräsentiert das Maximum. Die Nummer im Namen der Priorität wird für die Umsetzung der korrekten Reihenfolge innerhalb der Prioritäten verwendet.</para>
+            <para>
+                Das Attribut "id" bestimmt OTRS::ITSM-intern die Reihenfolge
+                der PrioritÃ¤ten. => 1 entspricht dem Minimum und 5 (oder hÃ¶her)
+                reprÃ¤sentiert das Maximum. Die Nummer im Namen der PrioritÃ¤t wird
+                fÃ¼r die Umsetzung der korrekten Reihenfolge innerhalb der
+                PrioritÃ¤ten verwendet.
+            </para>
         </warning>
 
         <warning>
-        <para>Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu stellen, können im Admin-Bereich des Systems angelegte Informationen grundsätzlich nicht entfernt werden. Um diese trotzdem zu deaktivieren, setzen Sie in den Einstellungen der entsprechenden Anrede in der Listbox für "Gültig" den Wert entweder auf "ungültig" bzw. "ungültig-temporär".</para>
+            <para>
+                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                stellen, kÃ¶nnen im Admin-Bereich des Systems angelegte Informationen
+                grundsÃ¤tzlich nicht entfernt werden. Um diese trotzdem zu
+                deaktivieren, setzen Sie in den Einstellungen der entsprechenden
+                Anrede in der Listbox fÃ¼r "GÃ¼ltig" den Wert entweder auf "ungÃ¼ltig"
+                bzw. "ungÃ¼ltig-temporÃ¤r".
+            </para>
         </warning>
-
     </sect1>
 
 </chapter>

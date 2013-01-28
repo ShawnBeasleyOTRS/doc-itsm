@@ -1,87 +1,67 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: book.xml,v 1.10 2010-02-17 20:37:24 ub Exp $ -->
+<!-- $Id: book.xml,v 1.11 2013-01-28 13:25:46 ub Exp $ -->
 
 <book lang='de'>
 
-<bookinfo>
-<title>OTRS::ITSM 2.0 - Grundlagen</title>
-<edition>Whitehaven Beach</edition>
+    <bookinfo>
 
-<copyright>
-<year>2003-2010</year>
-<holder>OTRS AG</holder>
-</copyright>
+        <title>
+          OTRS::ITSM 3.2 - Grundlagen
+        </title>
 
-<date>2010-02-01</date>
+        <copyright>
+           <year>2003-2013</year>
+           <holder>OTRS AG</holder>
+        </copyright>
 
-<legalnotice>
-<para>
-René Bakker, Hauke Böttcher, Jens Bothe, Udo Bretz, Martin Edenhofer, Manuel Hecht, Christopher Kuhn, André Mindermann, Henning Oschwald, Thomas Raith, Stefan Rother, Burchard Steinbild, Marco Romann, Werner Siebecke
-</para>
+        <date>01.02.2013</date>
 
-<para>
-Dieses Werk ist geistiges Eigentum der OTRS AG.
-Es darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt,
-dieser Copyright-Vermerk befindet sich auf jeder Kopie.
-</para>
+        <legalnotice>
+            <para>
+                Dieses Werk ist geistiges Eigentum der OTRS AG.
+                Es darf als Ganzes oder in AuszÃ¼gen kopiert werden, vorausgesetzt,
+                dieser Copyright-Vermerk befindet sich auf jeder Kopie.
+            </para>
+            <para>
+                UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited.
+                Linux ist ein eingetragenes Warenzeichen von Linus Torvalds.
+                MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows XP
+                und Windows 2003 sind eingetragene Warenzeichen der Microsoft Corporation.
+                Andere Warenzeichen oder registrierte Warenzeichen: SUSE und YaST von SUSE
+                GmbH, Red Hat und Fedora von Red Hat Inc., Debian von Software in the
+                Public Interest, Inc., Mandrake von MandrakeSoft, SA.
+                MySQL und das MySQL Logo sind eingetragene Warenzeichen von MySQL AB.
+                Alle Warennamen werden ohne GewÃ¤hrleistung der freien Verwendbarkeit benutzt und sind mÃ¶glicherweise eingetragene Warenzeichen.
+                Die Firma OTRS AG richtet sich im Wesentlichen
+                nach den Schreibweisen der Hersteller. Andere hier genannte Produkte
+                kÃ¶nnen Warenzeichen des jeweiligen Herstellers sein.
+            </para>
+        </legalnotice>
 
-<para>
-UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited.
-Linux ist ein eingetragenes Warenzeichen von Linus Torvalds.
-MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows XP
-und Windows 2003 sind eingetragene Warenzeichen der Microsoft Corporation.
-Andere Warenzeichen oder registrierte Warenzeichen: SUSE und YaST von SUSE
-GmbH, Red Hat und Fedora von Red Hat Inc., Debian von Software in the
-Public Interest, Inc., Mandrake von MandrakeSoft, SA.
-MySQL und das MySQL Logo sind eingetragene Warenzeichen von MySQL AB.
-Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt und sind möglicherweise eingetragene Warenzeichen.
-Die Firma OTRS AG richtet sich im Wesentlichen
-nach den Schreibweisen der Hersteller. Andere hier genannte Produkte
-können Warenzeichen des jeweiligen Herstellers sein.
-</para>
-</legalnotice>
+        <revhistory>
+          <revision>
+            <revnumber>3.2.1</revnumber>
+            <date>01.02.2013</date>
+          </revision>
+        </revhistory>
 
-<revhistory>
-  <revision>
-    <revnumber>2.0.1</revnumber>
-    <date>01.02.2010</date>
-  </revision>
-</revhistory>
+    </bookinfo>
 
-
-
-</bookinfo>
-
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="preface.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="itsm.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="commercial-services.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="installation.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="first-steps.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="service-desk.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="cmdb.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="incident-problem.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="change-management.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="release-management.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="stats.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="admin-area.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="calendar.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="api.xml" />
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="fdl.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="preface.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="itsm.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="commercial-services.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="installation.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="first-steps.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="service-desk.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cmdb.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="incident-problem.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="change-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="release-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="stats.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="admin-area.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="calendar.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="api.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="fdl.xml" />
 </book>
