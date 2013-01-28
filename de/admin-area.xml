@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: admin-area.xml,v 1.7 2013-01-28 13:25:46 ub Exp $ -->
+<!-- $Id: admin-area.xml,v 1.8 2013-01-28 15:39:39 ub Exp $ -->
 
 <chapter>
 
@@ -112,7 +112,7 @@
 
     <para>
         <screenshot>
-            <screeninfo>index.pl - Admin Area</screeninfo>
+            <screeninfo>Admin Area</screeninfo>
             <graphic srccredit="Admin Area - screenshot" scale="50" fileref="screenshots/admin-area.png" />
         </screenshot>
     </para>
@@ -127,7 +127,7 @@
 
         <para>
             <screenshot>
-                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <screeninfo>Admin General Catalog</screeninfo>
                 <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management.png" />
             </screenshot>
         </para>
@@ -137,7 +137,7 @@
 
         <para>
             <screenshot>
-                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <screeninfo>Admin General Catalog</screeninfo>
                 <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-edit.png" />
             </screenshot>
         </para>
@@ -206,7 +206,7 @@
 
         <para>
             <screenshot>
-                <screeninfo>index.pl - Admin General Catalog</screeninfo>
+                <screeninfo>Admin General Catalog</screeninfo>
                 <graphic srccredit="Admin General Catalog - screenshot" scale="50" fileref="screenshots/admin-general-catalog-management-class.png" />
             </screenshot>
         </para>
