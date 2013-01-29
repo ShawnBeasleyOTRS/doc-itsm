@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: itsm.xml,v 1.17 2013-01-28 16:11:53 ub Exp $ -->
+<!-- $Id: itsm.xml,v 1.18 2013-01-29 10:25:18 ub Exp $ -->
 
 <chapter>
     <title>
@@ -107,20 +107,31 @@
             <para>OTRS::ITSM 3.2 bietet:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>
                             Portierung des Codes auf das OTRS 3.2 Framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Verbesserung des Import/Export Dialogs um eine Zusammenfassung nach dem Import anzuzeigen.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Neue Möglichkeit zur Verwendung von Attachments im Configuration-Management.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Neue optionale Sysconfig-Option um zu überprüfen ob Configuration-Items einen eindeutigen Namen haben.
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
@@ -132,17 +143,25 @@
             <para>OTRS::ITSM 3.1 bietet:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>
                             Portierung des Codes auf das OTRS 3.1 Framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Bessere Performance durch die Verwendung von Caching-Technologien im Condition-Backend des Change-Managements.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Neue Möglichkeit zur Verwendung einer Mirror-Datenbank in der Such-Funktion im Change-Management.
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
@@ -154,18 +173,29 @@
             <para>OTRS::ITSM 3.0 bietet:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>Neues User-Interface - OTRS 3.0 Look &amp; Feel</para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Portierung des Codes auf das OTRS 3.0 Framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Neue Generische Suchdialoge
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Neue Suchergebnistypen (Drucken, PDF und CSV)
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>

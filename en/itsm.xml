@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: itsm.xml,v 1.17 2013-01-28 16:11:53 ub Exp $ -->
+<!-- $Id: itsm.xml,v 1.18 2013-01-29 10:25:18 ub Exp $ -->
 <chapter>
     <title>OTRS::ITSM - The OTRS for IT service management</title>
     <para>
@@ -92,20 +92,31 @@
             <para>OTRS::ITSM 3.2 offers:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>
                             Ported code to the OTRS 3.2 framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Enhanced Import/Export screen to show a summary after importing.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Added attachment support for ITSM config items.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Added new optional sysconfig option to check if config item names are unique.
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
@@ -117,17 +128,25 @@
             <para>OTRS::ITSM 3.1 offers:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>
                             Ported code to the OTRS 3.1 framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Added caching to speed up the condition / action backends in change management.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Added possibility to use a mirror database for change and workorder searches in change management.
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
@@ -139,20 +158,31 @@
             <para>OTRS::ITSM 3.0 offers:</para>
             <para>
                 <itemizedlist>
+
                     <listitem>
                         <para>
                             Brand New Interface - OTRS 3.0 Look &amp; Feel
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             Ported code to the OTRS 3.0 framework.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             New Generic Search Dialogs.
                         </para>
+                    </listitem>
+
+                    <listitem>
                         <para>
                             New Search result types (Print, PDF and CSV).
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
