@@ -1,6 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: incident-problem.xml,v 1.3 2013-01-28 16:11:53 ub Exp $ --><chapter>
     <title>Service desk, incident &amp; problem management</title>
     <para>The service desk (which, according to ITIL, is not a process but a function) is usually the ticket system's main field of application. All user messages and notifications from system monitoring and internal IT organization meet here. The ITIL service management process describes, closely interweaved with the service desk, which work steps, information, escalations and/or interfaces are relevant in connection with the processing of incidents or service requests. </para>
     <para>The incident and problem management processes within OTRS::ITSM are based on ITIL recommendations and ITIL terminology. At the same time, user comfort was a main consideration and terms known from OTRS have been retained as far as possible.</para>
