@@ -289,11 +289,8 @@
                     <listitem>
                         <para>Improved speed</para>
                         <para>
-                            The improvement to faster access the Configuration Items (CI)
-                            database
-                            has been achieved by switching database access technology to SQL
-                            bind
-                            parameters.
+                            Changing database access technology to using SQL bind parameters made it possible to 
+                            access the Configuration Items (CI) database faster than previously.
                         </para>
                     </listitem>
 
@@ -309,7 +306,7 @@
                     <listitem>
                         <para>SLA-Service multi-assignments</para>
                         <para>
-                            It is now possible to assign an SLA to multiple Services.
+                            It is now possible to assign a SLA to multiple Services.
                         </para>
                     </listitem>
 
@@ -516,7 +513,7 @@
 
                     <listitem>
                         <para>
-                            A huge variety of additional reports have been created, e.g.:
+                            A huge variety of additional reports has been created, e.g.:
                         </para>
                         <para>
                             Basic reports for tickets and configuration items (CIs):
@@ -567,7 +564,7 @@
                         </itemizedlist>
 
                         <para>
-                            Much more reports have been added providing specific data regarding
+                            Many more reports have been added providing specific data regarding
                             first time solution rate and average resolution time:
                         </para>
                         <itemizedlist>
@@ -985,7 +982,7 @@
     <sect1>
         <title>Community</title>
         <para>
-            A large community evolved around OTRS in the past years. Users
+            A large community has evolved around OTRS throughout the past years. Users
             and developers use mailing lists to share their insights about a wide
             variety of issues connected with the trouble ticket system. They
             address questions about installation, configuration, use,
