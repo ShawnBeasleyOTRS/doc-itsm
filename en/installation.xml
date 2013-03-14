@@ -15,8 +15,8 @@
         <para>
             As soon as OTRS 3.2 or later is installed, sign on as
             administrator. Using the package manager in the admin area or via
-            ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ and install the ITSM
-            packages in the following order:
+            ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ obtain the ITSM packages and install them
+            in the following order:
         </para>
         <itemizedlist>
             <listitem>
@@ -77,7 +77,7 @@
             to the latest version 1.1 first.
         </para>
         <para>
-            If OTRS::ITSM 1.1 is installed already, update your OTRS 2.2 framework
+            If OTRS::ITSM 1.1 is already installed, update your OTRS 2.2 framework
             to version 2.3 BEFORE you
             update OTRS:ITSM. To do so, download the latest OTRS 2.3 framework and
             follow the instructions in the file UPGRADING.
@@ -94,7 +94,7 @@
             process once it is running!
         </para>
         <para>
-            If OTRS::ITSM 1.2 is installed already, update your OTRS 2.3 framework
+            If OTRS::ITSM 1.2 is already installed, update your OTRS 2.3 framework
             to version 2.4 BEFORE you
             update OTRS:ITSM. To do so, download the latest OTRS 2.4 framework and
             follow the instructions in the file UPGRADING.

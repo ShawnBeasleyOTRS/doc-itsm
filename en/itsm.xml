@@ -3,7 +3,7 @@
 <chapter>
     <title>OTRS::ITSM - The OTRS for IT service management</title>
     <para>
-        IT is expected to deliver consistently high service quality in an
+        IT is expected to consistently deliver high service quality in an
         increasingly complex field. In this context, effective and efficient
         incident and problem management are indispensable. However, IT service
         management remains a task almost impossible if there is no consistent
@@ -14,7 +14,7 @@
         The IT Infrastructure Library®, short ITIL®, is a series of books
         published by the United Kingdom's Office of Government Commerce (OGC),
         which generically combine best practice approaches to designing,
-        providing, operating and managing IT services. ITIL does not center
+        providing, operating and managing IT services. ITIL does not focus on   
         the technology but the services provided by the IT and comprises
         information on processes, roles, responsibilities, potential problem
         fields/resolutions and definitions of terms.
@@ -288,11 +288,8 @@
                     <listitem>
                         <para>Improved speed</para>
                         <para>
-                            The improvement to faster access the Configuration Items (CI)
-                            database
-                            has been achieved by switching database access technology to SQL
-                            bind
-                            parameters.
+                            Changing database access technology to using SQL bind parameters made it possible to 
+                            access the Configuration Items (CI) database faster than previously.
                         </para>
                     </listitem>
 
@@ -308,7 +305,7 @@
                     <listitem>
                         <para>SLA-Service multi-assignments</para>
                         <para>
-                            It is now possible to assign an SLA to multiple Services.
+                            It is now possible to assign a SLA to multiple Services.
                         </para>
                     </listitem>
 
@@ -515,7 +512,7 @@
 
                     <listitem>
                         <para>
-                            A huge variety of additional reports have been created, e.g.:
+                            A huge variety of additional reports has been created, e.g.:
                         </para>
                         <para>
                             Basic reports for tickets and configuration items (CIs):
@@ -566,7 +563,7 @@
                         </itemizedlist>
 
                         <para>
-                            Much more reports have been added providing specific data regarding
+                            Many more reports have been added providing specific data regarding
                             first time solution rate and average resolution time:
                         </para>
                         <itemizedlist>
@@ -984,7 +981,7 @@
     <sect1>
         <title>Community</title>
         <para>
-            A large community evolved around OTRS in the past years. Users
+            A large community has evolved around OTRS throughout the past years. Users
             and developers use mailing lists to share their insights about a wide
             variety of issues connected with the trouble ticket system. They
             address questions about installation, configuration, use,

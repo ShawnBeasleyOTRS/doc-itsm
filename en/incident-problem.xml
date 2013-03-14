@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
     <title>Service desk, incident &amp; problem management</title>
-    <para>The service desk (which, according to ITIL, is not a process but a function) is usually the ticket system's main field of application. All user messages and notifications from system monitoring and internal IT organization meet here. The ITIL service management process describes, closely interweaved with the service desk, which work steps, information, escalations and/or interfaces are relevant in connection with the processing of incidents or service requests. </para>
+    <para>The service desk (which, according to ITIL, is not a process but a function) is usually the ticket system's main field of application. All user messages and notifications from system monitoring and internal IT organization converge here. The ITIL service management process describes, closely interweaved with the service desk, which work steps, information, escalations and/or interfaces are relevant in connection with the processing of incidents or service requests. </para>
     <para>The incident and problem management processes within OTRS::ITSM are based on ITIL recommendations and ITIL terminology. At the same time, user comfort was a main consideration and terms known from OTRS have been retained as far as possible.</para>
     <para>
     <screenshot>
@@ -11,8 +11,8 @@
     </para>
     <para>Source: ILX Group (www.ilxgroup.com)</para>
     <sect1>
-    <title>Ticket generation, classification and prioritization</title>
-    <para>At ticket generation in our case a phone ticket the following information can be registered additionally to the information implemented in OTRS:</para>
+    <title>Ticket creation, classification and prioritization</title>
+    <para>At ticket creation -in our case a phone ticket- the following information can be registered additionally to the information implemented in OTRS:</para>
     <itemizedlist>
         <listitem>
         <para>ticket type</para>
@@ -30,7 +30,7 @@
         <para>priority</para>
         </listitem>
     </itemizedlist>
-    <para>Depending on the service selected, impact and priority are automatically submitted from the criticality impact priority matrix but can be overwritten. Requests can thus be prioritized higher or lower, which corresponds to  real day-to-day IT business requirements. </para>
+    <para>Depending on the service selected, impact and priority are automatically submitted from the criticality impact priority matrix but can be set manually as well. Requests can thus be prioritized higher or lower, which corresponds to  real day-to-day IT business requirements. </para>
     <para>Surely every IT service staff member knows a so called VIP customer who wants to be treated more equal than others and can be, this way. </para>
     <para>
         <screenshot>
@@ -38,7 +38,7 @@
         <graphic fileref="screenshots/agent-ticket-create.png" scale="50" srccredit="agent-ticket-create - screenshot" />
         </screenshot>
     </para>
-    <para>By following the ticket content (zoom) link, detailed information about the ticket can be called up. All data relevant for IT support is consolidated in the right hand section:</para>
+    <para>By following the ticket content (zoom) link, detailed information about the ticket can be accessed. All data relevant for IT support is consolidated in the right hand section:</para>
     <para>
         <screenshot>
         <screeninfo>agent-ticket-data-change</screeninfo>
@@ -107,7 +107,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     </sect1>
     <sect1>
     <title>Processing of service requests</title>
-    <para>Service requests are incidents, too and are processed equally. They are distinguishable from disruptions because of the ticket type Incident::Service Request.</para>
+    <para>Within OTRS, service requests and incidents are both regarded as tickets and intially processed equally. They are distinguishable from disruptions because of the ticket type Incident::Service Request.</para>
     <para>Another difference, the SLA relevant times, is explained in greater detail in the service levels and service level agreements section.</para>
     <para>
         <screenshot>

@@ -6,12 +6,12 @@
        OTRS::ITSM completely uses the agent and customer interfaces
         (customer frontend) implemented in OTRS. If OTRS has been used before,
         all features and steps such as login, queue configuration, user
-        preferences, filters, rules, user permissions etc. can continually be
+        preferences, filters, rules, user permissions etc. can continued to be
         used without any modifications.
     </para>
     <para>
         The manual at hand will therefore only discuss differences to
-        OTRS and new aspects of OTRS::ITSM and will focus particularly on:
+        OTRS and new aspects of OTRS::ITSM, paying particular attention to:
     </para>
     <itemizedlist>
         <listitem>
