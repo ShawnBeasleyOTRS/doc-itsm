@@ -4,16 +4,13 @@
 <chapter>
     <title>The CMDB - the central IT repository</title>
     <para>
-       The configuration management database (CMDB) is not a database in
-        the technical sense but a conceptual IT model, which is indispensable
-        for efficient IT service management. All IT components and inventories
-        are managed in the CMDB. Configuration management exceeds asset
-        management, often incorrectly used as a synonym, as it does not only
-        document assets from a financial point of view, but captures
-        information regarding the relationship between components,
-        specifications or their location. Thus IT support can quickly access
-        information on the interdependence of IT services and the IT
-        components (= configuration items = CIs) necessary for them.
+       The configuration management database (CMDB) is not a database in the technical sense, 
+       but a conceptual IT model, which is indispensable for efficient IT service management. 
+       All IT components and inventories are managed in the CMDB. Configuration management exceeds asset management, 
+       often incorrectly used as a synonym, as it does not only document assets from a financial point of view, 
+       but captures information regarding the relationship between components, specifications or their location. 
+       Thus IT support can quickly access information on the interdependence of IT services 
+       and the IT components (= configuration items = CIs) necessary for them.
     </para>
     <para>
         According to ITIL, a CMDB must feature the following functionalities:
@@ -78,7 +75,7 @@
                 </screenshot>
             </para>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png
              </para>
         </sect2>
@@ -91,7 +88,7 @@
                 </screenshot>
             </para>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png
             </para>
         </sect2>
@@ -104,7 +101,7 @@
                 </screenshot>
             </para>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png
             </para>
         </sect2>
@@ -117,7 +114,7 @@
                 </screenshot>
             </para>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
             </para>
         </sect2>
@@ -130,7 +127,7 @@
                 </screenshot>
             </para>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
             </para>
         </sect2>
@@ -140,19 +137,17 @@
         <title>Services, at the core of everything</title>
         <para>
             Services such as &quot;standard IT workstation&quot;,
-            &quot;e-mail&quot; or &quot;web access are IT products and should at
-            all costs be compiled in a so called IT service catalog prior to the
-            adoption of OTRS::ITSM. Such service catalogs are usually customer or
-            company specific, can be structured hierarchically and should be
-            formulated in a user friendly, i.e. easily understood, language, as
-            they can be accessed by IT personnel (agents) and IT users
-            (customers).
+            &quot;e-mail&quot; or &quot;web access are IT products and should be compiled 
+            in a so called IT service catalog prior to the adoption of OTRS::ITSM. 
+            Such a service catalog is usually customer or company specific and can be structured hierarchically. 
+            Furthermore it should be formulated in a user friendly, meaning easily understood, language, 
+            as both IT personnel (agents) and IT users (customers) are among its audience.
         </para>
         <warning>
             <para>
                 Service catalog design is a task which should not be
                 underestimated. Our experience shows that it is highly recommendable
-                to validate conceptual thoughts in a dry run first and transfer the
+                to validate conceptual thoughts in a dry run first and to transfer the
                 service structures to OTRS::ITSM in a second step. It has proven of
                 value to resort to external assistance, e.g. of ITIL practice
                 experts.
@@ -197,7 +192,7 @@
             </screenshot>
         </para>
         <para>
-            OTRS::ITSM offers up to 99 different calendars by default to
+            OTRS::ITSM offers by default up to 99 different calendars to
             describe the various time zones for work or service times. The SLAs
             can be allocated to them (&quot;service level window&quot;). Various
             time spans can be entered (in minutes) which OTRS::ITSM uses to
@@ -260,7 +255,7 @@
         <warning>
             <para>
                 If no values for the above-named times are entered in the SLAs,
-                escalation is effected according to the time fields "response time",
+                escalation is affected according to the time fields "response time",
                 "update time" and "solution time" assigned to all queues!
             </para>
         </warning>
@@ -300,7 +295,7 @@
             </screenshot>
         </para>
         <para>
-            The graphic exemplarily shows the links between CIs. OTRS
+            The graphic exemplifies the links between CIs. OTRS
             differentiates between bidirectional and nondirectional links.
             Whenever a CI is linked to another CMDB object, OTRS::ITSM
             automatically creates the respective reverse link.
@@ -347,10 +342,10 @@
         <warning>
             <para>
                 The design of a CMDB data model and the CIs to be managed
-                within it is a task which should not be underestimated. Our
+                within it, is a task which should not be underestimated. Our
                 experience shows that it is highly recommendable to validate
                 conceptual thoughts in a dry run against the existing IT
-                infrastructure first and change the OTRS::ITSM default data model
+                infrastructure first and to change the OTRS::ITSM default data model
                 and CI classes only afterwards. It has proven of value to resort to
                 external assistance, e.g. of ITIL practice experts for CMDB design.
             </para>
