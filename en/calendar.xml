@@ -4,9 +4,9 @@
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
-        In OTRS 3.2, 9 calendars can directly be configurated graphically
+        In OTRS 3.2, 9 calendars can be configured graphically
         by default. This number can be extended to 99. Calendar configuration
-        is effected in the admin interface using the SysConfig framework
+        is done in the admin interface using the SysConfig framework
         calendar 1 etc. links:
     </para>
     <para>
