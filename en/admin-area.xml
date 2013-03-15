@@ -4,10 +4,9 @@
 <chapter>
     <title>The admin area of OTRS::ITSM</title>
     <para>
-        The admin area is the central interface for the ticket system
-        administrator. All important settings of the system configuration can
-        be checked and/or changed here, and the system can be adapted to
-        individual needs.
+        The admin area is the central interface for the administrator of the ticket system. 
+        All important settings of the system configuration canbe checked and/or changed here,
+        and the system can be adapted to individual needs.
     </para>
     <para>
         The admin area can be accessed via the "admin" link in the agent
@@ -178,7 +177,7 @@
         </para>
         <warning>
             <para>
-                The design of a CMDB data model and the CIs to be managed in it
+                The design of a CMDB data model and the CIs to be managed by it
                 is a task which should not be underestimated. Our experience shows
                 that it is highly recommendable to validate conceptual thoughts in a
                 dry run against the existing IT infrastructure before changing the
