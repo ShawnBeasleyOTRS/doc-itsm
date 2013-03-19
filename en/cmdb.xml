@@ -3,12 +3,12 @@
 <chapter>
     <title>The CMDB - the central IT repository</title>
     <para>
-       The configuration management database (CMDB) is not a database in the technical sense, 
-       but a conceptual IT model, which is indispensable for efficient IT service management. 
-       All IT components and inventories are managed in the CMDB. Configuration management exceeds asset management, 
-       often incorrectly used as a synonym, as it does not only document assets from a financial point of view, 
-       but captures information regarding the relationship between components, specifications or their location. 
-       Thus IT support can quickly access information on the interdependence of IT services 
+       The configuration management database (CMDB) is not a database in the technical sense,
+       but a conceptual IT model, which is indispensable for efficient IT service management.
+       All IT components and inventories are managed in the CMDB. Configuration management exceeds asset management,
+       often incorrectly used as a synonym, as it does not only document assets from a financial point of view,
+       but captures information regarding the relationship between components, specifications or their location.
+       Thus IT support can quickly access information on the interdependence of IT services
        and the IT components (= configuration items = CIs) necessary for them.
     </para>
     <para>
@@ -53,7 +53,7 @@
             The modular architecture of OTRS::ITSM and the ability to install single
             OTRS::ITSM packages independently,
             make it difficult to display a complete database model in a single
-            graphic. For this reaeon, separate
+            graphic. For this reason, separate
             graphics will be provided for the OTRS framework and for ITSM packages which
             change or extend the database
             scheme.
@@ -68,24 +68,12 @@
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/general-catalog-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
-            <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-core-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
             <para>
                 For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png
@@ -94,12 +82,6 @@
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-configuration-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png
             </para>
@@ -107,24 +89,12 @@
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-change-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
-            <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/import-export-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
             <para>
                 For better readability, this diagram can be found at
                 http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
@@ -136,10 +106,10 @@
         <title>Services, at the core of everything</title>
         <para>
             Services such as &quot;standard IT workstation&quot;,
-            &quot;e-mail&quot; or &quot;web access are IT products and should be compiled 
-            in a so called IT service catalog prior to the adoption of OTRS::ITSM. 
-            Such a service catalog is usually customer or company specific and can be structured hierarchically. 
-            Furthermore it should be formulated in a user friendly, meaning easily understood, language, 
+            &quot;e-mail&quot; or &quot;web access are IT products and should be compiled
+            in a so called IT service catalog prior to the adoption of OTRS::ITSM.
+            Such a service catalog is usually customer or company specific and can be structured hierarchically.
+            Furthermore it should be formulated in a user friendly, meaning easily understood, language,
             as both IT personnel (agents) and IT users (customers) are among its audience.
         </para>
         <warning>

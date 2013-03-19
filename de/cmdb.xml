@@ -82,24 +82,12 @@
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/general-catalog-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
-            <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-core-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png zu finden.
@@ -108,12 +96,6 @@
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-configuration-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png zu finden.
             </para>
@@ -121,29 +103,15 @@
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-change-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
-                zu finden.
+                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/import-export-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
-                zu finden.
+                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png zu finden.
             </para>
         </sect2>
     </sect1>
