@@ -15,7 +15,7 @@
         </screenshot>
     </para>
     <para>
-        &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define
+        &quot;TimeWorkingHours&quot; can be used in OTRS ITSM to define
         so-called &quot;service level windows&quot; time frames in which
         certain service levels are guaranteed, if applicable monitored and/or
         evaluated to secure service level compliance.

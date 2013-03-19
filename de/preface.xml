@@ -6,9 +6,9 @@
 
     <title>Vorwort</title>
     <para>
-        Das vorliegende Dokument richtet sich an OTRS::ITSM Anwender und Administratoren und beschreibt die
-        grundlegende Benutzung von OTRS::ITSM durch IT Service Manager, IT Service-Personal (Agent) und End-User (Customer).
-        Auf Installation, Konfiguration und Administration wird insoweit eingegangen, als gegenüber dem Kernprodukt OTRS Abweichungen bestehen oder Funktionen nur in OTRS::ITSM existieren.
+        Das vorliegende Dokument richtet sich an OTRS ITSM Anwender und Administratoren und beschreibt die
+        grundlegende Benutzung von OTRS ITSM durch IT Service Manager, IT Service-Personal (Agent) und End-User (Customer).
+        Auf Installation, Konfiguration und Administration wird insoweit eingegangen, als gegenüber dem Kernprodukt OTRS Abweichungen bestehen oder Funktionen nur in OTRS ITSM existieren.
     </para>
     <para>
         Obwohl viele Arbeitsstunden, noch mehr Kaffee und so manche "Wurscht mit Brezn und süßem Senf" in die Erstellung
@@ -22,10 +22,10 @@
     </para>
     <para>
         Stolz über das vorliegende Produkt bedanken wir uns bei den ITIL Experten der Enterprise Consulting GmbH und unseren erstklassigen OTRS-Entwicklern,
-        die gemeinsam durch ihren unermüdlichen Einsatz maßgeblich zur erfolgreichen Erstellung von OTRS::ITSM beigetragen haben.
+        die gemeinsam durch ihren unermüdlichen Einsatz maßgeblich zur erfolgreichen Erstellung von OTRS ITSM beigetragen haben.
     </para>
     <para>
-        Bei Ihnen, den Anwendern und der Community von OTRS::ITSM bedanken wir uns schon heute für jede Art von Mithilfe und Feedback und wünschen viel Spaß bei der Nutzung von OTRS::ITSM.
+        Bei Ihnen, den Anwendern und der Community von OTRS ITSM bedanken wir uns schon heute für jede Art von Mithilfe und Feedback und wünschen viel Spaß bei der Nutzung von OTRS ITSM.
     </para>
     <para>
         André Mindermann,

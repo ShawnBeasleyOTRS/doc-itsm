@@ -5,17 +5,17 @@
 <chapter>
 
     <title>
-        ITIL konformer Service Support mit OTRS::ITSM
+        ITIL konformer Service Support mit OTRS ITSM
     </title>
 
     <para>
-        Ebenso wenig wie ITIL erhebt auch OTRS::ITSM keinen Anspruch, "Out-of-the-box"-Lösung für alle im IT Service Management anstehenden Aufgaben und Fragestellungen zu sein.
+        Ebenso wenig wie ITIL erhebt auch OTRS ITSM keinen Anspruch, "Out-of-the-box"-Lösung für alle im IT Service Management anstehenden Aufgaben und Fragestellungen zu sein.
         Vielmehr soll es als flexible, stabile und vor allem einfach verständliche Informationsdrehscheibe dienen.
     </para>
 
     <para>
         Ohne durchdachte Ausgestaltung, d. h. Adaption der generischen ITIL
-        Prozesse an die eigenen Unternehmensbedingungen wird auch OTRS::ITSM
+        Prozesse an die eigenen Unternehmensbedingungen wird auch OTRS ITSM
         keine merkliche Verbesserung - also des Kernziels von IT Service
         Management - für die IT Organisation oder die IT Kunden leisten
         können.
@@ -25,7 +25,7 @@
         Deshalb sei an dieser Stelle der erhobene Zeigefinger gestattet:
         erst wenn die Prozesse, Menschen und Produkte (IT Services) ITIL
         konform ausgerichtet sind, macht der Einsatz eines ITIL konformen
-        Service Management Tools, wie OTRS::ITSM wirklich Sinn!
+        Service Management Tools, wie OTRS ITSM wirklich Sinn!
     </para>
 
     <para>
@@ -36,14 +36,14 @@
     </para>
 
     <para>
-        Die Version 3.2 von OTRS::ITSM deckt die Prozesse Incident
+        Die Version 3.2 von OTRS ITSM deckt die Prozesse Incident
         und Problem Management, Service Level Management, die Configuration Management DB, sowie Change Management ab,
         die bei ITIL Implementierungen in der Regel zuerst gestaltet werden. Die Nutzung und Anpassung des Systems wird in den folgenden
         Abschnitten näher beschrieben. Die Paketaufteilung entspricht den gleichnamigen ITIL-Disziplinen, jedes Paket kann unabhängig installiert werden.
     </para>
 
     <para>
-        Basis für die Implementierung von OTRS::ITSM ist die ITIL v3.
+        Basis für die Implementierung von OTRS ITSM ist die ITIL v3.
     </para>
 
 </chapter>

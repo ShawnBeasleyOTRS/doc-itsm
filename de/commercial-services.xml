@@ -4,14 +4,14 @@
 
 
 <chapter>
-    <title>Commercial Services für OTRS::ITSM</title>
+    <title>Commercial Services für OTRS ITSM</title>
 
     <para>
         Die OTRS AG ist sowohl Hersteller und Source Code Owner von OTRS
-        bzw. der darauf bauenden Module (z. B. OTRS::ITSM), als auch
+        bzw. der darauf bauenden Module (z. B. OTRS ITSM), als auch
         professioneller Dienstleister. Das Geschäftsmodell der OTRS AG baut,
         anders als bei Anbietern proprietärer Software, nicht auf
-        Lizenzgebühren auf, denn OTRS und auch OTRS::ITSM sind
+        Lizenzgebühren auf, denn OTRS und auch OTRS ITSM sind
         lizenzgebührenfrei erhältlich. Um die Software-Anwendungen herum
         bieten wir stattdessen Commercial Services.
     </para>
@@ -29,12 +29,12 @@
     </para>
 
     <sect1>
-        <title>OTRS::ITSM Consulting und Implementierung</title>
+        <title>OTRS ITSM Consulting und Implementierung</title>
         <para>
-            Sie planen OTRS::ITSM einzusetzen, sind bei einem
-            Produkt-Screening auf OTRS::ITSM gestoßen und möchten das System auf
+            Sie planen OTRS ITSM einzusetzen, sind bei einem
+            Produkt-Screening auf OTRS ITSM gestoßen und möchten das System auf
             seine Eignung zur Erfüllung Ihrer Anforderungen hin überprüfen? Oder
-            aber, Sie haben OTRS::ITSM bereits evauliert und möchten unsere
+            aber, Sie haben OTRS ITSM bereits evauliert und möchten unsere
             Consulting Services in Anspruch nehmen, um Ihr Projekt effizient zum
             Erfolg zu führen.
         </para>
@@ -91,13 +91,13 @@
                 <listitem>
                     <para>
                         Installation &amp; Konfiguration inklusive Integration von
-                        OTRS::ITSM in Ihre bestehende Systemlandschaft
+                        OTRS ITSM in Ihre bestehende Systemlandschaft
                     </para>
                 </listitem>
 
                 <listitem>
                     <para>
-                        Review &amp; Optimierung bestehender OTRS::ITSM Installationen
+                        Review &amp; Optimierung bestehender OTRS ITSM Installationen
                     </para>
                 </listitem>
 
@@ -114,7 +114,7 @@
                 <listitem>
                     <para>
                         Fachliche und technische Spezifikation von Anforderungen und
-                        Features, die den gegebenen Funktionsumfang von OTRS::ITSM
+                        Features, die den gegebenen Funktionsumfang von OTRS ITSM
                         übersteigen
                     </para>
                 </listitem>
@@ -129,7 +129,7 @@
                 <listitem>
                     <para>
                         Beratung in Bezug auf gemanagten Betrieb (ASP/SaaS) von
-                        OTRS::ITSM sowie zum Applikationssupport
+                        OTRS ITSM sowie zum Applikationssupport
                     </para>
                 </listitem>
 
@@ -143,18 +143,18 @@
         <title>Software-Entwicklung</title>
 
         <para>
-            Ein entscheidender Vorteil der Open Source Software OTRS::ITSM
+            Ein entscheidender Vorteil der Open Source Software OTRS ITSM
             ist ihre Flexibilität in Bezug auf mögliche Erweiterungen. Ein
             typischerweise bei proprietären Systemen in Kauf zu nehmender "Vendor
             Lock-in" und langwierige Verhandlungen mit dem Hersteller zur
             Erweiterung des Funktionsumfangs oder der Erstellung von
-            Schnittstellen entfallen bei OTRS::ITSM.
+            Schnittstellen entfallen bei OTRS ITSM.
         </para>
 
         <para>
             Erfahrene Projektmanager und Entwickler stehen Ihnen jederzeit
             gerne zur Verfügung, um Ihre Anforderungen, sofern sie über den
-            gegebenen Funktionsumfang von OTRS::ITSM hinaus gehen, in fachliche
+            gegebenen Funktionsumfang von OTRS ITSM hinaus gehen, in fachliche
             und technische Spezifikationen umzusetzen. Wir entwickeln Ihre
             Features, programmieren Schnittstellen oder erweitern vorhandene
             Funktionalitäten gemäß Ihren Vorstellungen.
@@ -164,7 +164,7 @@
             Erweiterungen, die auch für andere Kunden von Vorteil sind,
             nehmen wir bei zukünftigen Releases in den Standard auf. So
             profitieren alle Seiten, die von Ihnen und anderen Kunden "geborenen"
-            Features machen OTRS::ITSM noch leistungsfähiger und Sie sparen die
+            Features machen OTRS ITSM noch leistungsfähiger und Sie sparen die
             Kosten der Portierung Ihrer Features auf neue Release-Stände.
        </para>
     </sect1>
@@ -197,7 +197,7 @@
         <para>
             Sie zahlen dabei nur die Leistung, die Sie wirklich benötigen.
             Optionale Zusatzpakete, z. B. der Support via Remote-Login oder die
-            Ausdehnung der Application Support Services auf weitere OTRS::ITSM
+            Ausdehnung der Application Support Services auf weitere OTRS ITSM
             Instanzen können bei Bedarf einfach hinzugebucht werden.
         </para>
 
@@ -215,7 +215,7 @@
         <title>Managed Application Services (ASP/SaaS)</title>
 
         <para>
-            OTRS bzw. OTRS::ITSM müssen nicht zwingend selbst betrieben
+            OTRS bzw. OTRS ITSM müssen nicht zwingend selbst betrieben
             werden. Die Produkte können im so genannten "ASP" Modell (Application
             Service Provisioning) bzw. "SaaS" (Software as a Service) bei darauf
             spezialisierten Unternehmen gemietet werden.

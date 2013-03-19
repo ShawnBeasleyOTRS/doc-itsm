@@ -18,7 +18,7 @@
     </para>
 
     <para>
-       Die in OTRS::ITSM abgebildeten Prozesse Incident und Problem
+       Die in OTRS ITSM abgebildeten Prozesse Incident und Problem
         Management orientieren sich sowohl an den ITIL Empfehlungen als auch
         an der ITIL Terminologie. Zugleich wurde auf Nutzer von OTRS Rücksicht
         genommen, indem aus OTRS bekannte Begriffe soweit als möglich
@@ -123,7 +123,7 @@
         <title>Tickets zuweisen (Queues)</title>
 
         <para>
-            Queues sind in OTRS::ITSM flexibel an die eigenen
+            Queues sind in OTRS ITSM flexibel an die eigenen
             organisatorischen Strukturen anpassbar. Sie können dem im IT Service
             Support häufig genutzten vertikalen Schema Service Desk, First,
             Second und Third Level Support folgen oder Prozess orientiert, d. h.
@@ -133,7 +133,7 @@
 
         <para>
             Im Gegensatz zu OTRS bis einschließlich Version 2.1 erfolgt die
-            Eskalation von Tickets in OTRS::ITSM zunächst über die SLAs, präzise
+            Eskalation von Tickets in OTRS ITSM zunächst über die SLAs, präzise
             über die dort hinterlegten Zeiten Response, Update und Recovery Time.
             Sind dort keine Werte hinterlegt, erfolgt die Eskalation mittels
             Queues und der dort hinterlegten Zeitwerte.
@@ -155,7 +155,7 @@
             <para>
                 Erfahrungsgemäß stellt das Design der Queue-Struktur eine nicht
                 zu unterschätzende Aufgabe dar. Es wird daher dringend empfohlen,
-                die konzeptionellen Gedanken vor der Konfiguration von OTRS::ITSM
+                die konzeptionellen Gedanken vor der Konfiguration von OTRS ITSM
                 gegen die IT Organisation "im Trockenen" zu validieren. Es hat sich
                 bewährt, für das Queue-Design auf externe Unterstützung, z. B. durch
                 OTRS bzw. ITIL Praxis-Experten zurückzugreifen.
@@ -197,7 +197,7 @@
         </para>
 
         <para>
-            In OTRS::ITSM werden Genehmigungen bzw. Ablehnungen über den
+            In OTRS ITSM werden Genehmigungen bzw. Ablehnungen über den
             Link Entscheidung (Decision) abgebildet und dauerhaft beim Ticket
             gespeichert:
         </para>
@@ -234,7 +234,7 @@
         <title>Tickets schließen</title>
 
         <para>
-            Gegenüber dem OTRS-Standard können in OTRS::ITSM Tickets ITIL
+            Gegenüber dem OTRS-Standard können in OTRS ITSM Tickets ITIL
             konform auch mit Workaround geschlossen werden.
         </para>
 

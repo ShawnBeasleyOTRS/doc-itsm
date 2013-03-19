@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>First steps in OTRS::ITSM</title>
+    <title>First steps in OTRS ITSM</title>
     <para>
-       OTRS::ITSM completely uses the agent and customer interfaces
+       OTRS ITSM completely uses the agent and customer interfaces
         (customer frontend) implemented in OTRS. If OTRS has been used before,
         all features and steps such as login, queue configuration, user
         preferences, filters, rules, user permissions etc. can continued to be
@@ -11,7 +11,7 @@
     </para>
     <para>
         The manual at hand will therefore only discuss differences to
-        OTRS and new aspects of OTRS::ITSM, paying particular attention to:
+        OTRS and new aspects of OTRS ITSM, paying particular attention to:
     </para>
     <itemizedlist>
         <listitem>
@@ -29,7 +29,7 @@
     </itemizedlist>
     <para>
         Detailed information on the settings and proceedings identical in
-        OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.2/en/html/
+        OTRS and OTRS ITSM are provided at http://doc.otrs.org/3.2/en/html/
         in the OTRS Admin Manual, which is constantly being revised.
     </para>
     <para>

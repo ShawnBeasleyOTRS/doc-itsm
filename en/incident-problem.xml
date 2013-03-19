@@ -2,7 +2,7 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
     <title>Service desk, incident &amp; problem management</title>
     <para>The service desk (which, according to ITIL, is not a process but a function) is usually the ticket system's main field of application. All user messages and notifications from system monitoring and internal IT organization converge here. The ITIL service management process describes, closely interweaved with the service desk, which work steps, information, escalations and/or interfaces are relevant in connection with the processing of incidents or service requests. </para>
-    <para>The incident and problem management processes within OTRS::ITSM are based on ITIL recommendations and ITIL terminology. At the same time, user comfort was a main consideration and terms known from OTRS have been retained as far as possible.</para>
+    <para>The incident and problem management processes within OTRS ITSM are based on ITIL recommendations and ITIL terminology. At the same time, user comfort was a main consideration and terms known from OTRS have been retained as far as possible.</para>
     <para>
     <screenshot>
         <screeninfo>process-schema</screeninfo>
@@ -59,8 +59,8 @@
     </sect1>
     <sect1>
     <title>Allocate tickets (queues)</title>
-    <para>The OTRS::ITSM queues can be adapted flexibly to your organizational structures. They can follow the vertical scheme of service desk, first, second and third level support often used in IT service support or be configured in a process oriented manner based on the ticket life cycle of generation, processing, closure and post-processing. </para>
-    <para>Contrary to OTRS versions prior to version 2.2, ticket escalation in OTRS::ITSM is based first of all on the response, update and recovery times provided in the SLA.
+    <para>The OTRS ITSM queues can be adapted flexibly to your organizational structures. They can follow the vertical scheme of service desk, first, second and third level support often used in IT service support or be configured in a process oriented manner based on the ticket life cycle of generation, processing, closure and post-processing. </para>
+    <para>Contrary to OTRS versions prior to version 2.2, ticket escalation in OTRS ITSM is based first of all on the response, update and recovery times provided in the SLA.
 If no values are provided in the SLA, escalation is effected based on the queues and time information stored in them.  </para>
     <para>Tickets can be moved by choosing a new queue in the bottom right corner of the ticket view.</para>
     <para>
@@ -70,7 +70,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
         </screenshot>
     </para>
     <warning>
-        <para>The design of a queue structure is a task which should not be underestimated. Our experience shows that it is highly recommendable to validate conceptual thoughts in a dry run against the existing IT infrastructure before configuring OTRS::ITSM. It has proven of value to resort to external assistance, e.g. of OTRS or ITIL practice experts for the queue design.
+        <para>The design of a queue structure is a task which should not be underestimated. Our experience shows that it is highly recommendable to validate conceptual thoughts in a dry run against the existing IT infrastructure before configuring OTRS ITSM. It has proven of value to resort to external assistance, e.g. of OTRS or ITIL practice experts for the queue design.
 </para>
     </warning>
     </sect1>
@@ -87,7 +87,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     <sect1>
     <title>Approvals and decisions</title>
     <para>In many cases, especially with service requests, decisions have to be taken before requests can be implemented. Depending on the competence framework, decisions are either taken directly by the service staff (standard changes) or the approval of a supervising manager must be obtained first. This is primarily the case with permission changes (a user wants to access a restricted file system directory) or cost generating requests (new laptop).</para>
-    <para>In OTRS::ITSM approvals and refusals are shown via the decision link and are permanently saved with the ticket:</para>
+    <para>In OTRS ITSM approvals and refusals are shown via the decision link and are permanently saved with the ticket:</para>
     <para>
         <screenshot>
         <screeninfo>agent-ticket-decision</screeninfo>
@@ -103,7 +103,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     </sect1>
     <sect1>
     <title>Ticket closure</title>
-    <para>Unlike the OTRS standard, OTRS::ITSM facilitates ITIL compliant ticket closure with a workaround.</para>
+    <para>Unlike the OTRS standard, OTRS ITSM facilitates ITIL compliant ticket closure with a workaround.</para>
     </sect1>
     <sect1>
     <title>Processing of service requests</title>

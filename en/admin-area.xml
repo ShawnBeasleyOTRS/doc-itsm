@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>The admin area of OTRS::ITSM</title>
+    <title>The admin area of OTRS ITSM</title>
     <para>
         The admin area is the central interface for the administrator of the ticket system. 
         All important settings of the system configuration canbe checked and/or changed here,
@@ -10,7 +10,7 @@
     <para>
         The admin area can be accessed via the "admin" link in the agent
         interface navigation bar. The link is only shown to users logged on to
-        the system as OTRS::ITSM administrators or having administrator
+        the system as OTRS ITSM administrators or having administrator
         permissions in the system. After a default installation you can log on
         to the system as OTRS admin using the user name
         &quot;root@localhost&quot; and the password &quot;root&quot;.
@@ -27,7 +27,7 @@
         <itemizedlist>
 
             <listitem>
-                <para>from OTRS::ITSM 1.0 on</para>
+                <para>from OTRS ITSM 1.0 on</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ General Catalog ]</para>
@@ -42,7 +42,7 @@
             </listitem>
 
             <listitem>
-                <para>from OTRS::ITSM 1.1 on</para>
+                <para>from OTRS ITSM 1.1 on</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Import/Export ]</para>
@@ -51,7 +51,7 @@
             </listitem>
 
             <listitem>
-                <para>from OTRS::ITSM 2.0 on</para>
+                <para>from OTRS ITSM 2.0 on</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Notification (ITSM Change Management) ]</para>
@@ -105,7 +105,7 @@
         <title>The general catalog</title>
         <para>
             As the name indicates, the general catalog serves for basic ITSM
-            relevant configurations in OTRS::ITSM.
+            relevant configurations in OTRS ITSM.
         </para>
         <para>
             <screenshot>
@@ -125,7 +125,7 @@
     <sect1>
         <title>Configurating configuration item classes</title>
         <para>
-            By default OTRS::ITSM provides five CI classes to represent all
+            By default OTRS ITSM provides five CI classes to represent all
             relevant IT elements:
         </para>
         <itemizedlist>
@@ -164,7 +164,7 @@
         <para>
             If the five classes do not suffice to describe your IT
             environment, further classes can be added via the "general catalog"
-            link in the OTRS::ITSM admin area. After creating a new CI class in
+            link in the OTRS ITSM admin area. After creating a new CI class in
             the general catalog, a definition must be entered in
             ConfigItem&quot;.
         </para>
@@ -180,7 +180,7 @@
                 is a task which should not be underestimated. Our experience shows
                 that it is highly recommendable to validate conceptual thoughts in a
                 dry run against the existing IT infrastructure before changing the
-                OTRS::ITSM standard data model and/or CI classes. It has proven of
+                OTRS ITSM standard data model and/or CI classes. It has proven of
                 value to resort to external assistance, e.g. of ITIL practice
                 experts for the CMDB design.
             </para>
@@ -283,7 +283,7 @@
         <warning>
             <para>
                 In order to assure the consistency of the data managed in
-                OTRS::ITSM, information created in the admin area of the system
+                OTRS ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
                 from "valid" to "invalid" or "invalid-temporarily".
@@ -295,7 +295,7 @@
         <para>
             Version management for all CI classes is integrated into the
             system. The latest versions are used for the processes represented in
-            OTRS::ITSM.
+            OTRS ITSM.
         </para>
         <para>
             <screenshot>
@@ -309,7 +309,7 @@
         <para>
             In ITIL compliant incident management, incidents are either
             resolved successfully or closed with a workaround. For such cases,
-            OTRS::ITSM standard provides the ticket state &quot;closed with
+            OTRS ITSM standard provides the ticket state &quot;closed with
             workaround&quot;.</para>
         <para>
             <screenshot>
@@ -318,7 +318,7 @@
             </screenshot>
         </para>
         <para>
-            With OTRS::ITSM you can change ticket states or add new ones.
+            With OTRS ITSM you can change ticket states or add new ones.
             There are two important options: the name of the state
             &quot;state-name&quot; and the type of it &quot;state-type&quot;. All
             states and types available by default are pictured above.
@@ -370,7 +370,7 @@
         <warning>
             <para>
                 In order to assure the consistency of the data managed in
-                OTRS::ITSM, information created in the admin area of the system
+                OTRS ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
                 from "valid" to "invalid" or "invalid-temporarily".
@@ -379,7 +379,7 @@
     </sect1>
     <sect1>
         <title>The criticality impact priority matrix</title>
-        <para>OTRS::ITSM provides five ticket priority levels:</para>
+        <para>OTRS ITSM provides five ticket priority levels:</para>
         <itemizedlist>
             <listitem>
                 <para>[ Criticality ]</para>
@@ -396,12 +396,12 @@
             <listitem>
                 <para>[ Priority ]</para>
                 <para>
-                    Priority within OTRS::ITSM as resulting from criticality and impact
+                    Priority within OTRS ITSM as resulting from criticality and impact
                 </para>
             </listitem>
         </itemizedlist>
         <para>
-            The OTRS::ITSM ticket priority is determined with the matrix
+            The OTRS ITSM ticket priority is determined with the matrix
             shown below and the prioritized ticket is integrated in the queue
             views.
          </para>
@@ -425,7 +425,7 @@
     <sect1>
         <title>Adjustment of ticket priorities</title>
         <para>
-            Tickets are arranged within OTRS::ITSM on the basis of ticket
+            Tickets are arranged within OTRS ITSM on the basis of ticket
             priorities, i.e. tickets with a higher priority are displayed further
             up in the queue views and lower priority ones in lower positions.
             Priorities can be adjusted, re-named and amended in the graphical
@@ -441,7 +441,7 @@
         </para>
         <warning>
             <para>
-                The &quot;id&quot; attribute decides the OTRS::ITSM internal
+                The &quot;id&quot; attribute decides the OTRS ITSM internal
                 sequence of priorities. => 1 corresponds to the minimum and 5 (or
                 higher) to the maximum. The number in the priority name is used to
                 implement the correct sequence within the priorities.
@@ -450,7 +450,7 @@
         <warning>
             <para>
                 In order to assure the consistency of the data managed in
-                OTRS::ITSM, information created in the admin area of the system
+                OTRS ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
                 from "valid" to "invalid" or "invalid-temporarily".

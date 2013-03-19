@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>ITIL compliant service support with OTRS::ITSM</title>
+    <title>ITIL compliant service support with OTRS ITSM</title>
     <para>
-        Just as ITIL, OTRS::ITSM does not claim to be an
+        Just as ITIL, OTRS ITSM does not claim to be an
         &quot;out-of-the-box&quot; solution for all tasks and questions
         arising in IT service management. It is in fact supposed to serve as a
         flexible, stable and easy to understand information platform.
     </para>
     <para>
         Without the thoughtful tailoring of generic ITIL processes to suit the individual
-        business scenario, OTRS::ITSM will not achieve a discernible improvement of the key performance indicators
+        business scenario, OTRS ITSM will not achieve a discernible improvement of the key performance indicators
         of IT service management for the IT organization or its customers..</para>
     <para>
         Therefore please excuse us for bringing the following to your attention: The use of an ITIL
-        compliant tool such as OTRS::ITSM only makes sense if processes,
+        compliant tool such as OTRS ITSM only makes sense if processes,
         people and products (IT services) are truly ITIL compliant. </para>
     <para>
 
@@ -23,7 +23,7 @@
         and money though, as the process support of the tool supports and
         accelerates the process of organizational realignment. </para>
     <para>
-        OTRS::ITSM 2.0 supports the incident and problem management processes, service
+        OTRS ITSM 2.0 supports the incident and problem management processes, service
         level management, and the configuration management database as well as change
         management which usually are designed in the first phase of ITIL
         implementation.
@@ -33,5 +33,5 @@
         package can be installed independently.
     </para>
     <para>
-        Implementation of OTRS::ITSM is based on ITIL v3.</para>
+        Implementation of OTRS ITSM is based on ITIL v3.</para>
 </chapter>
