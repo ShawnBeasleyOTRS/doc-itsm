@@ -2892,7 +2892,7 @@
                 Change Manager
             </title>
             <para>
-                OTRS::ITSM offers a separate view to agents currently logged in, which
+                OTRS::ITSM offers a separate view to currently logged in agents, which
                 displays the Changes for which they are registered as the Change
                 Manager.
             </para>

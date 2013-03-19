@@ -5,10 +5,10 @@
     <para>
         The OTRS stats framework has been completely revised for version
         2.1 and nearly every type of ticket report can be created in the web
-        interface. Generation and view of stats and charts can be activated
+        interface. Generation and the display of stats and charts can be activated
         for users, groups and/or roles. It is possible to import or export
-        existing or new stats and further use can be made of stats modules
-        from previous OTRS versions.
+        existing or new stats and stats modules from previous OTRS versions
+        can be continued to be used.
         With the installation of the ITSMServiceLevelManagement package,
         additional ITSM relevant statistics are available.
     </para>

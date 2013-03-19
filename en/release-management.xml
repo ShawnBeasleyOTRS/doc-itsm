@@ -3,7 +3,7 @@
 <chapter>
     <title>Release Management</title>
     <para>
-        The release management process will be implemented in a later
+        The release management process will be implemented in a future
         OTRS::ITSM version.
         Basic information, however, can be configured, captured and controlled
         since version 1.0 too.
