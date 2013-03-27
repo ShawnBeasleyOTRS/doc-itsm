@@ -4,14 +4,14 @@
 <chapter>
     <title>Service Level Management</title>
     <para>
-        The OTRS stats framework has been completely revised for version
-        2.1 and nearly every type of ticket report can be created in the web
-        interface. Generation and the display of stats and charts can be activated
+        OTRS version 2.1 marks a complete revision of the stats framework
+        and nearly every type of ticket report can be created in the web
+        interface. Generation and the display of statistics and charts can be activated
         for users, groups and/or roles. It is possible to import or export
-        existing or new stats and stats modules from previous OTRS versions
+        existing or new stats. Please note that stats modules from previous OTRS versions
         can be continued to be used.
-        With the installation of the ITSMServiceLevelManagement package,
-        additional ITSM relevant statistics are available.
+        Furthermore additional statistics that are relevant to ITSM become available with the installation of the ITSMServiceLevelManagement package.
+        
     </para>
     <para>Example of a report overview:</para>
     <para>
@@ -34,8 +34,8 @@
             <graphic fileref="screenshots/agent-stats-template.png" scale="50" srccredit="agent-stats-template - screenshot" />
         </screenshot>
     </para>
-    <para>A PDF generator is incorporated too, which facilitates the export
-        of the print view of tickets, stats and search results in PDF files:
+    <para>A PDF generator is incorporated too, which enables you to export
+        the print view of your previously generated tickets, stats and search results in PDF format:
     </para>
     <para>
         <screenshot>
