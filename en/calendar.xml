@@ -4,10 +4,9 @@
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
-        In OTRS 3.2, 9 calendars can be configured graphically
-        by default. This number can be extended to 99. Calendar configuration
-        is done in the admin interface using the SysConfig framework
-        calendar 1 etc. links:
+        OTRS 3.2 initially supports up to 9 calendars, which can be configured   
+        graphically. Using the SysConfig framework found in the admin interface, 
+        this number can be increased to 99, by using the calendar 1 etc. links:
     </para>
     <para>
         <screenshot>
@@ -18,8 +17,9 @@
     <para>
         &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define
         so-called &quot;service level windows&quot; time frames in which
-        certain service levels are guaranteed, if applicable monitored and/or
-        evaluated to secure service level compliance.
+        your organization guarantees certain service levels to your customers, if 
+        applicable monitored and/or evaluated to ensure compliance with any 
+        possible Service Level Agreements.
     </para>
     <para>
         <screenshot>
