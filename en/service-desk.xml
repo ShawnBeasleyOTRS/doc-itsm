@@ -12,16 +12,18 @@
     <para>
         Without the thoughtful tailoring of generic ITIL processes to suit the individual
         business scenario, OTRS::ITSM will not achieve a discernible improvement of the key performance indicators
-        of IT service management for the IT organization or its customers..</para>
+        of IT service management for the IT organization or its customers.</para>
     <para>
         Therefore please excuse us for bringing the following to your attention: The use of an ITIL
-        compliant tool such as OTRS::ITSM only makes sense if processes,
-        people and products (IT services) are truly ITIL compliant. </para>
+        compliant tool such as OTRS::ITSM only makes sense if the processes,
+        people and products (IT services) found in your organization are truly aligned with the concepts of
+        the ITIL framework. </para>
     <para>
 
-        Successful ITIL implementation projects typically take up to a year and longer.
-        However, a neatly implemented ITIL compliant ITSM tool can help to save time
-        and money though, as the process support of the tool supports and
+        You should also be aware of the fact that successful ITIL implementation projects 
+        typically take up to a year and longer. Their scope and impact on the organization is not to be underestimated.
+        However,we would like to mention that a neatly implemented ITIL compliant ITSM tool can help to save time
+        and money, as the process support of the tool aids and
         accelerates the process of organizational realignment. </para>
     <para>
         OTRS::ITSM 2.0 supports the incident and problem management processes, service
