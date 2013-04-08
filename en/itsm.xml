@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>OTRS ITSM - The OTRS for IT service management</title>
+    <title>OTRS ITSM - OTRS for IT service management</title>
     <para>
         IT is expected to consistently deliver high service quality in an
         increasingly complex field. In this context, effective and efficient
@@ -26,7 +26,7 @@
         terminology for IT service management. However, ITIL only describes
         &quot;who should do what&quot; and what should be considered along the
         way. In order to cover as wide a user group as possible, it does not
-        or only rudimentarily address the issue of how to do things.
+        or to a little extent address the issue of how to do things.
         Therefore, no implementable information is given for particular
         industries, companies or manufacturers.
     </para>
@@ -43,32 +43,28 @@
         companies and effective in large IT departments.
     </para>
     <para>
-        The development of OTRS ITSM was initiated as a logical
-        consequence of the great success of the Open Ticket Request System
-        OTRS in order to combine the globally accepted, public ITIL
-        recommendations with the benefits of open-source software.
+        The development of OTRS ITSM was started as a consequence of the 
+        great success of the OTRS framework in order to combine the 
+        globally accepted, public ITIL recommendations with the benefits 
+        of open-source software.
     </para>
     <para>
         OTRS ITSM 1.0 was the first real-world ITIL compliant IT service
-        management solution on open-source basis, built on the solid fundament
-        of over 55,000 known OTRS installations and the related active
+        management solution on open-source basis, built on the solid basis
+        of OTRS with its over 55,000 known OTRS installations and its
         community (information dating from April 2007). OTRS ITSM is under
-        permanent development and new ITIL topics are added continously.
+        active development and new features are added continuously.
     </para>
     <para>
-        Core objective of the development of OTRS ITSM is a strong
-        praxis orientation. This aim can be accomplished by the close
-        development collaboration with Enterprise Consulting GmbH from Bad
-        Homburg, which is very experienced in the practical application of
-        ITIL. Additionally to providing ITSM consulting services and
-        solutions, Enterprise operates complete ITIL compliant IT
-        organizations for renowned customers.
+        OTRS ITSM is practically oriented. This was accomplished this by 
+        developing it in collaboration with ITIL consultants and with
+        some of OTRS Groups' customers.
     </para>
     <para>
-        The service-desk and ticket system solution OTRS forms the basis
-        for the operation of the ITIL compliant IT service management solution
+        The service-desk and ticket system solution OTRS is the basis
+        for the ITIL compliant IT service management solution
         OTRS ITSM, its incident management, problem management, service level
-        management and configuration management modules and the integrated
+        management, change and configuration management modules and integrated
         CMDB.
     </para>
     <para>
@@ -78,7 +74,7 @@
     <sect1>
         <title>Features</title>
         <para>
-            OTRS ITSM 3.2 is based on the Open Ticket Request System OTRS 3.2.
+            OTRS ITSM 3.2 is based on OTRS 3.2.
             All functionalities known from OTRS continue to be available and the
             functionalities representing ITIL processes can be installed as
             packages.
@@ -233,7 +229,7 @@
         <sect2>
             <title>New OTRS ITSM 1.3 features</title>
             <para>
-                OTRS ITSM 1.3 is based on the Open Ticket Request System OTRS 2.4
+                OTRS ITSM 1.3 is based on OTRS 2.4
             </para>
             <para>
                 It offers the same features as OTRS ITSM 1.2, but runs on the OTRS 2.4 framework.
@@ -243,7 +239,7 @@
         <sect2>
             <title>New OTRS ITSM 1.2 features</title>
             <para>
-                OTRS ITSM 1.2 is based on the Open Ticket Request System OTRS 2.3
+                OTRS ITSM 1.2 is based on OTRS 2.3
             </para>
             <para>OTRS ITSM 1.2 offers:</para>
             <para>
