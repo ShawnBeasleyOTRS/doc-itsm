@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: first-steps.xml,v 1.4 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
-    <title>Erste Schritte in OTRS::ITSM</title>
+    <title>Erste Schritte in OTRS ITSM</title>
 
     <para>
-       OTRS::ITSM setzt komplett auf die in OTRS implementierten
+       OTRS ITSM setzt komplett auf die in OTRS implementierten
         Oberflächen für Agenten und Kunden (Customer-Frontend). Sofern OTRS
         bereits eingesetzt wurde oder wird, können alle bekannten Features und
         Schritte von Anmeldung, Queue-Konfiguration, Benutzereinstellungen,
@@ -17,7 +16,7 @@
 
     <para>
         Im vorliegenden Handbuch werden daher nur Abweichungen zu OTRS
-        bzw. mit OTRS::ITSM hinzu gekommene Aspekte behandelt. Hierzu zählen
+        bzw. mit OTRS ITSM hinzu gekommene Aspekte behandelt. Hierzu zählen
         insbesondere
     </para>
 
@@ -44,7 +43,7 @@
     </para>
 
     <para>
-        Detaillierte Informationen zu den in OTRS und OTRS::ITSM
+        Detaillierte Informationen zu den in OTRS und OTRS ITSM
         identischen Einstellungen und Verfahren sind im OTRS
         Administrations-Handbuch beschrieben, das ständig aktualisiert wird.
         Es ist unter http://doc.otrs.org/3.2/de/html/ zu finden.

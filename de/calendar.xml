@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: calendar.xml,v 1.5 2013-01-28 13:25:46 ub Exp $ -->
 
 <chapter>
 
@@ -21,7 +20,7 @@
     </para>
 
     <para>
-        Die "TimeWorkingHours" können in OTRS::ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den Zeiträumen,
+        Die "TimeWorkingHours" können in OTRS ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den Zeiträumen,
         in denen der entsprechende Service Level garantiert, ggfs. überwacht bzw. für die Service Level Einhaltung bewertet, wird.
     </para>
     <para>

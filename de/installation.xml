@@ -1,16 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: installation.xml,v 1.13 2013-01-28 16:11:53 ub Exp $ -->
 
 
 
 <chapter>
 
-    <title>Installation / Upgrade von OTRS::ITSM</title>
+    <title>Installation / Upgrade von OTRS ITSM</title>
 
     <para>
-        Zur Nutzung von OTRS::ITSM muss das OTRS Framework 3.2
+        Zur Nutzung von OTRS ITSM muss das OTRS Framework 3.2
         installiert sein. Alle dazu notwendigen Informationen, Optionen und
         Installationsschritte sind im "OTRS Admin Manual" beschrieben.
     </para>
@@ -41,7 +40,7 @@
         <para>
             Sofern für OTRS eine Verbindung mit dem Internet besteht, können
             Sie das Online Repository
-            [--OTRS::ITSM 3.2 Master--] nutzen, um die nachstehenden Pakete zu installieren.
+            [--OTRS ITSM 3.2 Master--] nutzen, um die nachstehenden Pakete zu installieren.
             Bei fehlender Internetverbindung sind die Pakete zu downloaden und
             per Paket-Manager zu installieren:
         </para>
@@ -80,23 +79,23 @@
     <sect1>
         <title>Upgrade</title>
         <para>
-            Sollte auf Ihrem System bereits eine ältere Version als OTRS::ITSM 1.1
+            Sollte auf Ihrem System bereits eine ältere Version als OTRS ITSM 1.1
             installiert sein,
             so aktualisieren Sie Ihr System zunächst mit Hilfe des Paketmanagers
             auf die aktuellste
-            OTRS::ITSM 1.1 Version.
+            OTRS ITSM 1.1 Version.
         </para>
         <para>
-            Sollte OTRS::ITSM 1.1 bereits installiert sein, aktualisieren Sie Ihren
+            Sollte OTRS ITSM 1.1 bereits installiert sein, aktualisieren Sie Ihren
             OTRS 2.2 Framework
-            auf die Version 2.3 BEVOR Sie OTRS::ITSM upgraden. Laden Sie dazu den
+            auf die Version 2.3 BEVOR Sie OTRS ITSM upgraden. Laden Sie dazu den
             aktuellen OTRS 2.3
             Framework herunter und folgen Sie den Anweisungen in der Datei UPGRADING.
             Melden Sie sich danach in Ihrem System an, und verwenden Sie den
             Paket-Manager um das Paket
             ITSMUpgradeTo12 zu installieren. Sie können es manuell hier herunterladen:
             ftp://ftp.otrs.org/pub/otrs/itsm/packages12/ oder das Online
-            Repository [--OTRS::ITSM 1.2 Master--]
+            Repository [--OTRS ITSM 1.2 Master--]
             verwenden. Ignorieren Sie im Paket-Manager alle Fehlermeldungen zu nicht
             korrekt installierten älteren Paketen.
             Das Paket ITSMUpgradeTo12 installiert alle benötigten Pakete um Ihr
@@ -108,9 +107,9 @@
             Vorgang nicht ab!
         </para>
         <para>
-            Sollte OTRS::ITSM 1.2 bereits installiert sein, aktualisieren Sie Ihren
+            Sollte OTRS ITSM 1.2 bereits installiert sein, aktualisieren Sie Ihren
             OTRS 2.3 Framework
-            auf die Version 2.4 BEVOR Sie OTRS::ITSM upgraden. Laden Sie dazu den
+            auf die Version 2.4 BEVOR Sie OTRS ITSM upgraden. Laden Sie dazu den
             aktuellen OTRS 2.4
             Framework herunter und folgen Sie den Anweisungen in der Datei UPGRADING.
             Melden Sie sich danach in Ihrem System an, und verwenden Sie den
@@ -118,11 +117,11 @@
             wie im Abschnitt "Installation" beschrieben zu installieren.
         </para>
         <para>
-            Um ein bereits installiertes OTRS::ITSM 1.3 auf eine neuere Version
+            Um ein bereits installiertes OTRS ITSM 1.3 auf eine neuere Version
             upzugraden, benutzen Sie den Paket-Manager im Admin-Bereich.
             Sofern für OTRS eine Verbindung mit dem Internet besteht, können Sie das
             Online Repository
-            [--OTRS::ITSM 1.3 Master--] nutzen, um die aktualisierten Pakete zu installieren.
+            [--OTRS ITSM 1.3 Master--] nutzen, um die aktualisierten Pakete zu installieren.
             Falls eine aktuellere Version für ein
             Paket verfügbar ist, erscheint rechts neben dem Paketnamen ein
             'Erneuern'-Link.

@@ -1,6 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: calendar.xml,v 1.5 2013-01-28 16:11:53 ub Exp $ -->
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
@@ -15,7 +14,7 @@
         </screenshot>
     </para>
     <para>
-        &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define
+        &quot;TimeWorkingHours&quot; can be used in OTRS ITSM to define
         so-called &quot;service level windows&quot; time frames in which
         your organization guarantees certain service levels to your customers, if 
         applicable monitored and/or evaluated to ensure compliance with any 

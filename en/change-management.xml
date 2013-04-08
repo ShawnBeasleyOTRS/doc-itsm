@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
 ]>
-<!-- $Id: change-management.xml,v 1.6 2013-01-28 16:11:53 ub Exp $ -->
 
 <chapter>
     <title>
@@ -24,7 +23,7 @@
                 Required Expertise
             </title>
             <para>
-                The implementation of OTRS::ITSM requires significant technical
+                The implementation of OTRS ITSM requires significant technical
                 specification and preparation. Prior to a technical implementation,
                 key elements of the Change Management process, such as required
                 workflows, metrics or reports, must be defined.
@@ -89,15 +88,15 @@
     </sect1>
     <sect1>
         <title>
-            Diagram of Change Management in OTRS::ITSM
+            Diagram of Change Management in OTRS ITSM
         </title>
         <para>
-            The Change Management implementation in OTRS::ITSM defines a Change as
+            The Change Management implementation in OTRS ITSM defines a Change as
             an alteration of the existing IT landscape, such as the installation
             of a new mail server.
         </para>
         <para>
-            As Changes typically consist of several sub-tasks, OTRS::ITSM allows
+            As Changes typically consist of several sub-tasks, OTRS ITSM allows
             any number of sub-tasks to be defined per change. These are known as
             Work Orders.
         </para>
@@ -369,7 +368,7 @@
                 Category - Impact - Priority Matrix
             </title>
             <para>
-                To determine the priority of a Change, OTRS::ITSM supports the Change
+                To determine the priority of a Change, OTRS ITSM supports the Change
                 Builder through an integrated matrix which suggests a priority for
                 selection, based on the chosen category and change impact entered in
                 the system. This suggested priority can always be overridden by the
@@ -390,14 +389,14 @@
             </para>
             <para>
                 Here, the menu item &quot;General Catalog&quot; should be selected in the
-                OTRS::ITSM Administration interface.
+                OTRS ITSM Administration interface.
             </para>
             <sect3>
                 <title>
                     ITSM::Change Management::Category
                 </title>
                 <para>
-                    Upon installation, OTRS::ITSM Change Management generates the following
+                    Upon installation, OTRS ITSM Change Management generates the following
                     values for the Category selection field:
                 </para>
                 <itemizedlist>
@@ -433,7 +432,7 @@
                     ITSM::Change Management::Impact
                 </title>
                 <para>
-                    Upon installation, OTRS::ITSM Change Management generates the following
+                    Upon installation, OTRS ITSM Change Management generates the following
                     values for the Impact selection field:
                 </para>
                 <itemizedlist>
@@ -469,7 +468,7 @@
                     ITSM::Change Management::Priority
                 </title>
                 <para>
-                    Upon installation, OTRS::ITSM Change Management generates the following
+                    Upon installation, OTRS ITSM Change Management generates the following
                     values for the Priority selection field:
                 </para>
                 <itemizedlist>
@@ -506,7 +505,7 @@
                 Change State Machine
             </title>
             <para>
-                OTRS::ITSM features a State Machine which defines valid statuses and possible
+                OTRS ITSM features a State Machine which defines valid statuses and possible
                 result statuses for a Change. The standard installation generates
                 suggestions based on the following logic model:
             </para>
@@ -527,7 +526,7 @@
             <para>
                 Where necessary, additional statuses can be defined under the menu option
                 &quot;General Catalog&quot; -&gt; &quot;ITSM::Change
-                Management::Change::State&quot;. In OTRS::ITSM, this is illustrated
+                Management::Change::State&quot;. In OTRS ITSM, this is illustrated
                 as a table:
             </para>
             <para>
@@ -677,7 +676,7 @@
                 Defining Conditions
             </title>
             <para>
-                OTRS::ITSM allows conditions and actions to be defined based on the attributes
+                OTRS ITSM allows conditions and actions to be defined based on the attributes
                 of a Change and/or Work Order. Through the administration front-end,
                 these attributes can be activated or deactivated for the Change
                 Builder.
@@ -979,7 +978,7 @@
                 Defining Actions
             </title>
             <para>
-                After the conditions have been established, OTRS::ITSM allows you to
+                After the conditions have been established, OTRS ITSM allows you to
                 define any number of actions to be executed on the current Change or
                 all / one of the Work Orders of the current change.
             </para>
@@ -1283,7 +1282,7 @@
             </title>
             <para>
                 The following entries for the &quot;Work Order Type&quot; attribute are
-                available in the standard installation of OTRS::ITSM Change
+                available in the standard installation of OTRS ITSM Change
                 Management:
             </para>
             <itemizedlist>
@@ -1323,7 +1322,7 @@
                 Work Order State Machine
             </title>
             <para>
-                OTRS::ITSM features a State Machine which defines valid statuses and possible
+                OTRS ITSM features a State Machine which defines valid statuses and possible
                 result statuses for a Work Order. The standard installation
                 generates suggestions based on the following logic model:
             </para>
@@ -1347,7 +1346,7 @@
                 &quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
             </para>
             <para>
-                In OTRS::ITSM, this is illustrated as a table:
+                In OTRS ITSM, this is illustrated as a table:
             </para>
             <para>
                 <screenshot>
@@ -1406,7 +1405,7 @@
                 Linking Work Orders to Configuration Items / Services
             </title>
             <para>
-                Within a Work Order, OTRS::ITSM allows linking to other objects.
+                Within a Work Order, OTRS ITSM allows linking to other objects.
             </para>
             <para>
                 In the standard installation, a Work Order can be linked to the
@@ -1573,7 +1572,7 @@
             Change Views
         </title>
         <para>
-            OTRS::ITSM offers a variety of ways to view the Changes saved in the system.
+            OTRS ITSM offers a variety of ways to view the Changes saved in the system.
             Access to these views can be disabled where desired.
         </para>
         <sect2>
@@ -2893,7 +2892,7 @@
                 Change Manager
             </title>
             <para>
-                OTRS::ITSM offers a separate view to currently logged in agents, which
+                OTRS ITSM offers a separate view to currently logged in agents, which
                 displays the Changes for which they are registered as the Change
                 Manager.
             </para>
@@ -3471,7 +3470,7 @@
             </title>
             <para>
                 Similar to the OTRS Ticket Engine's &quot;Locked Tickets&quot; view,
-                OTRS::ITSM offers the currently logged-in agent a separate view of
+                OTRS ITSM offers the currently logged-in agent a separate view of
                 the Work Orders assigned to him / her.
             </para>
             <para>
@@ -3817,7 +3816,7 @@
             Change Management Statistics
         </title>
         <para>
-            OTRS::ITSM provides the following reports for the evaluation of key indicators
+            OTRS ITSM provides the following reports for the evaluation of key indicators
             in supervising Change Management. All reports can be accessed through
             the integrated report generator.
         </para>

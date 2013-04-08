@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: cmdb.xml,v 1.15 2013-02-07 14:58:53 ub Exp $ -->
 
 <chapter>
 
@@ -59,15 +58,15 @@
     </para>
 
     <para>
-        OTRS::ITSM erfüllt all diese Forderungen und stellt viele
+        OTRS ITSM erfüllt all diese Forderungen und stellt viele
         zusätzliche IT Unterstützungsfunktionen in der CMDB bereit.
     </para>
 
     <sect1>
-        <title>Das OTRS::ITSM Datenbankmodell</title>
+        <title>Das OTRS ITSM Datenbankmodell</title>
         <para>
-            Durch den modularen Aufbau von OTRS::ITSM und die Fähigkeit nur einzelne
-            OTRS::ITSM Pakete zu installieren, ist eine
+            Durch den modularen Aufbau von OTRS ITSM und die Fähigkeit nur einzelne
+            OTRS ITSM Pakete zu installieren, ist eine
             Darstellung des Datenbankmodells in einer Grafik nur schwer möglich. Aus diesem
             Grund werden separate Grafiken für
             den OTRS Framework und die ITSM-Pakete bereitgestellt, die
@@ -83,24 +82,12 @@
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/general-catalog-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
-            <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-core-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png zu finden.
@@ -109,12 +96,6 @@
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-configuration-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
                 http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png zu finden.
             </para>
@@ -122,29 +103,15 @@
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/itsm-change-management-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
-                zu finden.
+                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                <screenshot>
-                    <screeninfo>database</screeninfo>
-                    <graphic fileref="screenshots/import-export-database.png" scale="50" srccredit="database" />
-                </screenshot>
-            </para>
-            <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
-                zu finden.
+                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png zu finden.
             </para>
         </sect2>
     </sect1>
@@ -169,14 +136,14 @@
                 Erfahrungsgemäß stellt das Design eines Service-Kataloges eine
                 nicht zu unterschätzende Aufgabe dar. Es wird daher dringend
                 empfohlen, die konzeptionellen Gedanken "im Trockenen" zu
-                validieren. Erst danach sollten die Servicestrukturen in OTRS::ITSM
+                validieren. Erst danach sollten die Servicestrukturen in OTRS ITSM
                 erfasst werden. Es hat sich bewährt, auf externe Unterstützung,
                 z. B. durch ITIL Praxis-Experten zurückzugreifen.
             </para>
         </warning>
 
         <para>
-            Beispiel für einen in OTRS::ITSM hinterlegten, hierarchischen IT
+            Beispiel für einen in OTRS ITSM hinterlegten, hierarchischen IT
             Service-Katalog (Ausschnitt), wie er bei der Anlage eines Tickets
         </para>
 
@@ -226,11 +193,11 @@
         </para>
 
         <para>
-            OTRS::ITSM bietet zur Abbildung unterschiedlicher
+            OTRS ITSM bietet zur Abbildung unterschiedlicher
             Arbeits-Zeitzonen oder Servicezeiten standardmäßig bis zu 99
             verschiedene Kalender an, denen die SLAs zugewiesen werden können
             ("Service Level Window"). Es können diverse Zeiten (in Minuten)
-            erfasst werden, nach denen OTRS::ITSM die Benachrichtigung und
+            erfasst werden, nach denen OTRS ITSM die Benachrichtigung und
             Eskalation steuert:
         </para>
 
@@ -302,7 +269,7 @@
         </warning>
 
         <para>
-            OTRS::ITSM orientiert sich bei wichtigen Zeitwerten am so
+            OTRS ITSM orientiert sich bei wichtigen Zeitwerten am so
             genannten "ITIL Incident 'lifecycle":
          </para>
 
@@ -351,12 +318,12 @@
             Aus der Abbildung sind exemplarisch die Verknüpfungen (Links)
             zwischen CIs ersichtlich. OTRS unterscheidet dabei zwischen
             beiderseitig gerichteten und ungerichteten Verknüpfungen. Wird ein CI
-            mit einem anderen CMDB-Objekt verknüpft, so erzeugt OTRS::ITSM die
+            mit einem anderen CMDB-Objekt verknüpft, so erzeugt OTRS ITSM die
             jeweils passende, umgekehrte Verknüpfung automatisch.
         </para>
 
         <para>
-            Im OTRS::ITSM Standard sind sieben Verknüpfungsarten möglich:
+            Im OTRS ITSM Standard sind sieben Verknüpfungsarten möglich:
         </para>
 
         <para>
@@ -403,7 +370,7 @@
         <para>
             Das Datenmodell ist flexibel anpassbar und erweiterbar um
             Datentypen, Attribute und sogar Klassen. Detailinformationen finden
-            sich im Abschnitt "Der Administrationsbereich in OTRS::ITSM" in
+            sich im Abschnitt "Der Administrationsbereich in OTRS ITSM" in
             diesem Dokument bzw. unter "Der Administrationsbereich in OTRS" im
             OTRS Admin Manual.
         </para>
@@ -414,7 +381,7 @@
                 darin zu verwaltenden CIs eine nicht zu unterschätzende Aufgabe dar.
                 Es wird daher dringend empfohlen, die konzeptionellen Gedanken gegen
                 die IT Infrastruktur "im Trockenen" zu validieren. Erst danach
-                sollten Änderungen am OTRS::ITSM Standard-Datenmodell bzw. an
+                sollten Änderungen am OTRS ITSM Standard-Datenmodell bzw. an
                 CI-Klassen vorgenommen werden. Es hat sich bewährt, für das
                 CMDB-Design aufexterne Unterstützung, z. B. auf ITIL Praxis-Experten
                 zurückzugreifen.
@@ -427,13 +394,13 @@
 
         <para>
             Mit OTRS 2.2 sind native Tickettypen eingeführt worden, auf die
-            auch OTRS::ITSM zurück greift. Anhand des Typs werden Tickets in den
+            auch OTRS ITSM zurück greift. Anhand des Typs werden Tickets in den
             ITIL Sub-Prozessen, die mittels der Queues abgebildet werden können,
             klassifiziert.
         </para>
 
         <para>
-            Auch die in OTRS::ITSM später implementierten ITIL Prozesse, z.
+            Auch die in OTRS ITSM später implementierten ITIL Prozesse, z.
             B. Change Management werden darüber abgebildet. So gibt es z. B. den
             Ticket-Typ RfC ("Request for Change").
         </para>
@@ -446,7 +413,7 @@
         </para>
 
         <warning>
-            <para>Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+            <para>Um die Konsistenz der in OTRS ITSM verwalteten Daten sicher zu
                 stellen, können im Admin-Bereich des Systems angelegte Informationen
                 grundsätzlich nicht entfernt werden. Um diese trotzdem zu
                 deaktivieren, setzen Sie in den Einstellungen der entsprechenden

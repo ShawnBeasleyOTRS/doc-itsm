@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: admin-area.xml,v 1.8 2013-01-28 15:39:39 ub Exp $ -->
 
 <chapter>
 
-    <title>Der Administrationsbereich von OTRS::ITSM</title>
+    <title>Der Administrationsbereich von OTRS ITSM</title>
 
     <para>
         Der Administrationsbereich ist die zentrale Anlaufstelle für den
@@ -18,7 +17,7 @@
         Die Administrationsoberfläche kann über den Link "Admin"
         innerhalb der Navigationsleiste des Agent-Interfaces geladen werden.
         Damit dieser Link in der Navigationsleiste überhaupt sichtbar ist,
-        müssen Sie als OTRS::ITSM-Administrator am System angemeldet sein bzw.
+        müssen Sie als OTRS ITSM-Administrator am System angemeldet sein bzw.
         über Administrationsrechte im System verfügen. Nach einer
         Standardinstallation können Sie sich mit dem Benutzernamen
         "root@localhost" und dem Kennwort "root" als OTRS-Admin am System
@@ -35,14 +34,14 @@
     </warning>
 
     <para>
-        In OTRS::ITSM sind die folgenden Konfigurations-Links neu im
+        In OTRS ITSM sind die folgenden Konfigurations-Links neu im
         Administrations-Bereich verfügbar:
     </para>
 
     <para>
         <itemizedlist>
             <listitem>
-                <para>ab OTRS::ITSM 1.0</para>
+                <para>ab OTRS ITSM 1.0</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ General Catalog ]</para>
@@ -57,7 +56,7 @@
             </listitem>
 
             <listitem>
-                <para>ab OTRS::ITSM 1.1</para>
+                <para>ab OTRS ITSM 1.1</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Import/Export ]</para>
@@ -66,7 +65,7 @@
             </listitem>
 
             <listitem>
-                <para>ab OTRS::ITSM 2.0</para>
+                <para>ab OTRS ITSM 2.0</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Benachrichtigung (ITSM Change Management) ]</para>
@@ -122,7 +121,7 @@
         <title>Der General Catalog</title>
 
         <para>Im General Catalog werden, wie der Name vermuten lässt, die
-            grundsätzlichen, ITSM relevanten Konfigurationen für OTRS::ITSM
+            grundsätzlichen, ITSM relevanten Konfigurationen für OTRS ITSM
             vorgenommen.</para>
 
         <para>
@@ -147,7 +146,7 @@
         <title>Konfiguration der Configuration Item Klassen</title>
 
         <para>
-            OTRS::ITSM bietet standardmäßig fünf CI-Klassen, mit denen sich
+            OTRS ITSM bietet standardmäßig fünf CI-Klassen, mit denen sich
             grundsätzlich alle relevanten IT Elemente abbilden lassen:
         </para>
 
@@ -198,7 +197,7 @@
         <para>
             Sollten die fünf Klassen zur Abbildung der eigenen IT Umgebung
             wider Erwarten nicht ausreichen, können weitere Klassen über den Link
-            "General Catalog" im OTRS::ITSM Administrations-Bereich hinzugefügt
+            "General Catalog" im OTRS ITSM Administrations-Bereich hinzugefügt
             werden. Hierbei ist zu beachten, dass nach Erzeugung einer neue
             CI-Klasse im General Catalog eine Definition unter "ConfigItem" für
             diese neue Klasse eingetragen werden muss.
@@ -217,7 +216,7 @@
                 darin zu verwaltenden CIs eine nicht zu unterschätzende Aufgabe dar.
                 Es wird daher dringend empfohlen, die konzeptionellen Gedanken gegen
                 die IT Infrastruktur "im Trockenen" zu validieren. Erst danach
-                sollten Änderungen am OTRS::ITSM Standard-Datenmodell bzw. an
+                sollten Änderungen am OTRS ITSM Standard-Datenmodell bzw. an
                 CI-Klassen vorgenommen werden. Es hat sich bewährt, für das
                 CMDB-Design auf externe Unterstützung, z. B. durch ITIL Praxis-Experten
                 zurückzugreifen.
@@ -319,7 +318,7 @@
 
         <warning>
             <para>
-                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                Um die Konsistenz der in OTRS ITSM verwalteten Daten sicher zu
                 stellen, können im Admin-Bereich des Systems angelegte Informationen
                 grundsätzlich nicht entfernt werden. Um diese trotzdem zu
                 deaktivieren, setzen Sie in den Einstellungen der entsprechenden
@@ -333,7 +332,7 @@
         <title>Versionsverwaltung der CI-Klassen</title>
         <para>
             Für alle CI-Klassen ist eine Versionsverwaltung im System
-            integriert. Die jeweils letzte Version wird für die in OTRS::ITSM
+            integriert. Die jeweils letzte Version wird für die in OTRS ITSM
             abgebildeten Prozesse herangezogen.
         </para>
 
@@ -350,7 +349,7 @@
         <para>
             Im Incident Management nach ITIL werden Incidents entweder
             erfolgreich gelöst oder per so genanntem "Workaround", einer meist
-            temporären Behelfslösung geschlossen. Hierfür ist im OTRS::ITSM
+            temporären Behelfslösung geschlossen. Hierfür ist im OTRS ITSM
             Standard der Ticket-Status "closed with workaround" vorhanden.
         </para>
 
@@ -362,7 +361,7 @@
         </para>
 
         <para>
-            OTRS::ITSM erlaubt es Ihnen, die Ticket-Status zu verändern oder
+            OTRS ITSM erlaubt es Ihnen, die Ticket-Status zu verändern oder
             neue Status hinzuzufügen. Hierbei gibt es zwei wichtige Optionen. Zum
             Einen den Namen des Status "state-name" und zum Zweiten den Typ des
             Status "state-type". Alle standardmäßig verfügbaren Status und Typen
@@ -418,7 +417,7 @@
 
         <warning>
             <para>
-                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                Um die Konsistenz der in OTRS ITSM verwalteten Daten sicher zu
                 stellen, können im Admin-Bereich des Systems angelegte Informationen
                 grundsätzlich nicht entfernt werden. Um diese trotzdem zu
                 deaktivieren, setzen Sie in den Einstellungen der entsprechenden
@@ -431,7 +430,7 @@
     <sect1>
         <title>Die Criticality-Impact-Priority-Matrix</title>
         <para>
-            OTRS::ITSM bietet je fünf Stufen zur Abbildung bzw.
+            OTRS ITSM bietet je fünf Stufen zur Abbildung bzw.
             Priorisierung von Tickets:
         </para>
 
@@ -455,14 +454,14 @@
                 <listitem>
                     <para>[ Priority ]</para>
                     <para>
-                        die, sich aus Criticality und Impact ergebende, Priorität innerhalb OTRS::ITSM
+                        die, sich aus Criticality und Impact ergebende, Priorität innerhalb OTRS ITSM
                     </para>
                 </listitem>
             </itemizedlist>
         </para>
 
         <para>
-            Die Ticket-Priorität wird in OTRS::ITSM gemäß nachstehender
+            Die Ticket-Priorität wird in OTRS ITSM gemäß nachstehender
             Matrix festegelegt und das so priorisierte Ticket in den
             Queue-Ansichten eingeordnet.
         </para>
@@ -490,7 +489,7 @@
     <sect1>
         <title>Anpassen der Ticket-Prioritäten</title>
         <para>
-            Anhand der Ticket-Prioritäten werden Tickets in OTRS::ITSM
+            Anhand der Ticket-Prioritäten werden Tickets in OTRS ITSM
             "geordnet". d. h., Tickets mit höherer Priorität werden in den
             Queue-Ansichten weiter oben angeordnet und umgekehrt. Prioritäten
             können über das grafische Administrations-Frontend angepasst,
@@ -510,7 +509,7 @@
 
         <warning>
             <para>
-                Das Attribut "id" bestimmt OTRS::ITSM-intern die Reihenfolge
+                Das Attribut "id" bestimmt OTRS ITSM-intern die Reihenfolge
                 der Prioritäten. => 1 entspricht dem Minimum und 5 (oder höher)
                 repräsentiert das Maximum. Die Nummer im Namen der Priorität wird
                 für die Umsetzung der korrekten Reihenfolge innerhalb der
@@ -520,7 +519,7 @@
 
         <warning>
             <para>
-                Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
+                Um die Konsistenz der in OTRS ITSM verwalteten Daten sicher zu
                 stellen, können im Admin-Bereich des Systems angelegte Informationen
                 grundsätzlich nicht entfernt werden. Um diese trotzdem zu
                 deaktivieren, setzen Sie in den Einstellungen der entsprechenden

@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: book.xml,v 1.11 2013-01-28 16:11:53 ub Exp $ -->
 
 <book lang='en'>
 
     <bookinfo>
-        <title>OTRS::ITSM 3.2 - Basic</title>
+        <title>OTRS ITSM 3.2 - Basic</title>
 
         <copyright>
             <year>2003-2013</year>
