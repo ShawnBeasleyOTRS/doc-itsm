@@ -16,8 +16,8 @@
     <para>
         &quot;TimeWorkingHours&quot; can be used in OTRS ITSM to define
         so-called &quot;service level windows&quot; time frames in which
-        your organization guarantees certain service levels to your customers, if 
-        applicable monitored and/or evaluated to ensure compliance with any 
+        your organization guarantees certain service levels to your customers.
+        If required, these can then be monitored and/or evaluated to ensure compliance with any 
         possible Service Level Agreements.
     </para>
     <para>
