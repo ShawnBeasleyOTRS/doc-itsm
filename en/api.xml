@@ -3,7 +3,7 @@
 <chapter>
     <title>OTRS ITSM interfaces</title>
     <para>
-        The following partly generic interfaces can be used for data
+        The following partly-generic interfaces can be used for data
         exchange between OTRS ITSM and other (ITSM) software products:
     </para>
     <itemizedlist>
