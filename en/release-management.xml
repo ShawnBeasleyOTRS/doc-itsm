@@ -3,9 +3,10 @@
 <chapter>
     <title>Release Management</title>
     <para>
+
         Please note that the we are planning to introduce the release management process with a future
         OTRS ITSM version.
-
+		
         Basic information, however, can be configured, captured and controlled
         as of version 1.0.
     </para>

@@ -1,7 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
+<<<<<<< HEAD
     <title>ITIL aligned service support with OTRS ITSM</title>
+=======
+    <title>ITIL compliant service support with OTRS ITSM</title>
+>>>>>>> upstream/master
     <para>
         Just as ITIL, OTRS ITSM does not claim to be an
         &quot;out-of-the-box&quot; solution for all tasks and questions
@@ -16,7 +20,6 @@
         Therefore please excuse us for bringing the following to your attention: The use of an ITIL
         aligned tool such as OTRS ITSM only makes sense if processes,
         people and products (IT services) are truly ITIL aligned. </para>
-
     <para>
 
         You should also be aware of the fact that successful ITIL implementation projects 

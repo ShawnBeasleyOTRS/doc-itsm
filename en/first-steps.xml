@@ -3,8 +3,8 @@
 <chapter>
     <title>First steps in OTRS ITSM</title>
     <para>
-       The firt thing that you might notice is that OTRS ITSM completely uses the agent and customer interfaces
-        (customer frontend) implemented in OTRS. If OTRS has been used before,
+       The first thing that you might notice is that OTRS ITSM completely uses the agent and customer interfaces
+	   (customer frontend) implemented in OTRS. If OTRS has been used before,
         all features and steps such as login, queue configuration, user
         preferences, filters, rules, user permissions etc. can continued to be
         used without any modifications.
