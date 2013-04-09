@@ -4,8 +4,8 @@
     <title>The admin area of OTRS ITSM</title>
     <para>
         The admin area is the central interface for the administrator of the ticket system. 
-        All important settings of the system configuration canbe checked and/or changed here,
-        and the system can be adapted to individual needs.
+        All important settings of the system configuration can be checked and/or changed here,
+        and the system can be customized to suit individual needs.
     </para>
     <para>
         The admin area can be accessed via the "admin" link in the agent
@@ -33,7 +33,7 @@
                         <para>[ General Catalog ]</para>
                     </listitem>
                     <listitem>
-                        <para>[ Criticality - Impact - Priority </para>
+                        <para>[ Criticality - Impact - Priority ]</para>
                     </listitem>
                     <listitem>
                         <para>[ ConfigItem ]</para>
@@ -123,7 +123,7 @@
         </para>
     </sect1>
     <sect1>
-        <title>Configurating configuration item classes</title>
+        <title>Configuring configuration item classes</title>
         <para>
             By default OTRS ITSM provides five CI classes to represent all
             relevant IT elements:
@@ -271,8 +271,8 @@
             </screen>
         </para>
         <para>
-            Attribute changes and amendments can be effected in the
-            graphical configuration area selecting "change definition":
+            Attribute changes and amendments can be done in the
+            graphical configuration area by selecting "change definition":
         </para>
         <para>
             <screenshot>

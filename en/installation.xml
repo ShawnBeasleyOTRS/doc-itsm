@@ -3,7 +3,8 @@
 <chapter>
     <title>Installing OTRS ITSM</title>
     <para>
-        OTRS framework 3.2 must be installed prior to the installation of
+        Please note that the OTRS framework 3.2 must be installed prior to the installation of
+
         OTRS ITSM. All necessary information, options and installation
         procedures are depicted in the OTRS Admin Manual.
     </para>
@@ -13,7 +14,7 @@
         <title>Installation</title>
 
         <para>
-            As soon as OTRS 3.2 or later is installed, sign on as
+            After successfully insstalling OTRS 3.2 or later, proceed to sign on as
             administrator. Using the package manager in the admin area or via
             ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ obtain the ITSM packages and install them
             in the following order:
@@ -27,11 +28,11 @@
             </listitem>
         </itemizedlist>
         <para>
-            If you have internet access from OTRS, use the online repository
+            If your machine running OTRS  has internet access, use the following online repository
             [--OTRS ITSM 3.2 Master--] to install the packages below. Otherwise
-            download the packages and use the package manager to install the
-            packages:
-        </para>
+            download the packages below and use the package manager to install them:
+
+       </para>
 
         <itemizedlist>
 
@@ -73,14 +74,14 @@
         <title>Upgrade</title>
 
         <para>
-            If an older version than OTRS ITSM 1.1 is installed, update the system
+            If you are using an older version than OTRS ITSM 1.1, update the system
             to the latest version 1.1 first.
         </para>
         <para>
-            If OTRS ITSM 1.1 is already installed, update your OTRS 2.2 framework
-            to version 2.3 BEFORE you
-            update OTRS:ITSM. To do so, download the latest OTRS 2.3 framework and
-            follow the instructions in the file UPGRADING.
+            If OTRS ITSM 1.1 has already been installed, update your OTRS 2.2 framework
+            to version 2.3 BEFORE you update OTRS:ITSM. To do so, download the latest OTRS 2.3 framework and
+            follow the instructions in the file named UPGRADING.
+
             After that, log in to your system and use the package manager to install
             the package ITSMUpgradeTo12. You can download it manually or use the
             online repository. Ignore all error messages about not correctly
@@ -106,15 +107,14 @@
             To upgrade an already installed OTRS ITSM 1.3, use the package manager
             in the admin area.
             If you have internet access from OTRS, use the online repository
-            [--OTRS ITSM 1.3 Master--]
-            to install newer packages. An 'upgrade' link next to the package name
+            [--OTRS ITSM 1.3 Master--] to install newer packages. An 'upgrade' link next to the package name
             indicates if a newer package
             is available.
          </para>
         <para>
             Otherwise download the packages and use the package manager to install the
             packages.
-            Do not uninstall your current packages, or your data will get lost!
+            WARNING: Do not uninstall your current packages, or you will loose data!
         </para>
     </sect1>
 </chapter>

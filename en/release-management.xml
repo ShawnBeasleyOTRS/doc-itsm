@@ -3,10 +3,12 @@
 <chapter>
     <title>Release Management</title>
     <para>
-        The release management process will be implemented in a future
+
+        Please note that the we are planning to introduce the release management process with a future
         OTRS ITSM version.
+		
         Basic information, however, can be configured, captured and controlled
-        since version 1.0 too.
+        as of version 1.0.
     </para>
     <para>
         As an example, approval rules or overviews from DSL (Definitive
