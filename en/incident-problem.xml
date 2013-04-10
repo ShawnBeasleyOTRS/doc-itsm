@@ -31,8 +31,8 @@
         <para>priority</para>
         </listitem>
     </itemizedlist>
-    <para>Depending on the service selected, impact and priority are automatically submitted from the criticality impact priority matrix but can be set manually as well. Requests can thus be prioritized higher or lower, which corresponds to  real day-to-day IT business requirements. </para>
-    <para>Surely every IT service staff member knows a so called VIP customer who wants to be treated more equal than others and can be, this way. </para>
+    <para>Depending on the service selected, impact and priority are automatically submitted from the criticality impact priority matrix. However, every IT service staff member knows a so called VIP customer, that requires special consideration.</para>
+    <para>In order to meet this requirement of day-to-day Service Operations, we also allow you to manually adjust the priority of a request.</para>
     <para>
         <screenshot>
         <screeninfo>agent-ticket-create</screeninfo>
@@ -60,7 +60,7 @@
     </sect1>
     <sect1>
     <title>Allocate tickets (queues)</title>
-    <para>The OTRS ITSM queues can be adapted flexibly to your organizational structures. They can follow the vertical scheme of service desk, first, second and third level support often used in IT service support or be configured in a process oriented manner based on the ticket life cycle of generation, processing, closure and post-processing. </para>
+    <para>Designed with flexibility in mind, the OTRS ITSM queues can be adapted  to suit your organizational structures. They can follow the vertical scheme of service desk, first, second and third level support often used in IT service support or be configured in a process oriented manner based on the ticket life cycle of generation, processing, closure and post-processing. </para>
     <para>Contrary to OTRS versions prior to version 2.2, ticket escalation in OTRS ITSM is based first of all on the response, update and recovery times provided in the SLA.
 If no values are provided in the SLA, escalation is effected based on the queues and time information stored in them.  </para>
     <para>Tickets can be moved by choosing a new queue in the bottom right corner of the ticket view.</para>
