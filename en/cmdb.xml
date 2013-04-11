@@ -7,7 +7,7 @@
        but a conceptual IT model, which is indispensable for efficient IT service management.
        All IT components and inventories are managed in the CMDB. Configuration management exceeds asset management,
        often incorrectly used as a synonym, as it does not only document assets from a financial point of view,
-       but captures information regarding the relationship between components, specifications or their location.
+       but captures information regarding the relationship between components, specifications, or their location.
        Thus IT support can quickly access information on the interdependence of IT services
        and the IT components (= configuration items = CIs) necessary for them.
     </para>
@@ -17,28 +17,28 @@
     <itemizedlist>
         <listitem>
             <para>
-                manual and, where applicable, automatic recording and
+                Manual and, where applicable, automatic recording and
                 modification of configuration items
             </para>
         </listitem>
         <listitem>
             <para>
-                description of the relationship and/or interdependence between CIs
+                Description of the relationship and/or interdependence between CIs
             </para>
         </listitem>
         <listitem>
             <para>
-                change of CI attributes (e.g. serial numbers)
+                Change of CI attributes (e.g. serial numbers)
             </para>
         </listitem>
         <listitem>
             <para>
-                location and user management for CIs
+                Location and user management for CIs
             </para>
         </listitem>
         <listitem>
             <para>
-                integration via the ITIL processes represented in the system
+                Integration via the ITIL processes represented in the system
             </para>
         </listitem>
     </itemizedlist>
@@ -51,8 +51,8 @@
         <title>The OTRS ITSM database model</title>
         <para>
             The modular architecture of OTRS ITSM and the ability to install single
-            OTRS ITSM packages independently,
-            make it difficult to display a complete database model in a single
+            OTRS ITSM packages independently
+            makes it difficult to display a complete database model in a single
             graphic. For this reason, separate
             graphics will be provided for the OTRS framework and for ITSM packages which
             change or extend the database
@@ -61,42 +61,42 @@
         <sect2 id="otrs-database">
             <title>OTRS Framework</title>
             <para>
-                For better readability, the diagram can be found at
+                For better readability, the diagram can be found at:
                 http://ftp.otrs.org/pub/otrs/misc/otrs-3.2-database.png.
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
-                For better readability, this diagram can be found at
+                For better readability, this diagram can be found at:
                 http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
-                For better readability, this diagram can be found at
+                For better readability, this diagram can be found at:
                 http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                For better readability, this diagram can be found at
+                For better readability, this diagram can be found at:
                 http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                For better readability, this diagram can be found at
+                For better readability, this diagram can be found at:
                 http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                For better readability, this diagram can be found at
+                For better readability, this diagram can be found at:
                 http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
             </para>
         </sect2>
@@ -106,10 +106,10 @@
         <title>Services, at the core of everything</title>
         <para>
             Services such as &quot;standard IT workstation&quot;,
-            &quot;e-mail&quot; or &quot;web access are IT products and should be compiled
-            in a so called IT service catalog prior to the adoption of OTRS ITSM.
+            &quot;e-mail&quot; or &quot;web access&quot; are IT products and should be compiled
+            in a &quot;IT service catalog&quot; prior to the adoption of OTRS ITSM.
             Such a service catalog is usually customer or company specific and can be structured hierarchically.
-            Furthermore it should be formulated in a user friendly, meaning easily understood, language,
+            Furthermore, it should be formulated in a user friendly, meaning easily understood, language,
             as both IT personnel (agents) and IT users (customers) are among its audience.
         </para>
         <warning>
@@ -324,8 +324,8 @@
         <title>Ticket types and attributes</title>
         <para>
             With OTRS 2.2, native ticket types were introduced, which are
-            used in OTRS ITSM, too. In the ITIL sub-processes which can be
-            structured in queues, tickets are classified on their ticket types.
+            used in OTRS ITSM, too. In the ITIL sub-processes, which can be
+            structured in queues, tickets are classified by their ticket types.
         </para>
         <para>
             All ITIL processes to be implemented in later versions of
