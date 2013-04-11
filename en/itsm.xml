@@ -17,18 +17,18 @@
         providing, operating and managing IT services. ITIL does not focus on   
         the technology but the services provided by the IT and comprises
         information on processes, roles, responsibilities, potential problem
-        fields/resolutions and definitions of terms.
+        fields/resolutions, and definitions of terms.
     </para>
     <para>
         ITIL has established itself as de facto standard over the past
-        years and its circulation in IT organizations contributed considerably
+        years and its circulation in IT organizations has contributed considerably
         to the development of a collective awareness and consistent
         terminology for IT service management. However, ITIL only describes
         &quot;who should do what&quot; and what should be considered along the
         way. In order to cover as wide a user group as possible, it does not
         or to a little extent address the issue of how to do things.
         Therefore, no implementable information is given for particular
-        industries, companies or manufacturers.
+        industries, companies, or manufacturers.
     </para>
     <para>
         In December 2005, the ITIL based ISO/IEC 20000 industry standard
@@ -43,7 +43,7 @@
         companies and effective in large IT departments.
     </para>
     <para>
-        The development of OTRS ITSM was started as a consequence of the 
+        The development of OTRS ITSM was started as a result of the 
         great success of the OTRS framework in order to combine the 
         globally accepted, public ITIL recommendations with the benefits 
         of open-source software.
@@ -56,7 +56,7 @@
         active development and new features are added continuously.
     </para>
     <para>
-        OTRS ITSM is practically oriented. This was accomplished this by 
+        OTRS ITSM is practically-oriented. This was accomplished by 
         developing it in collaboration with ITIL consultants and with
         some of OTRS Groups' customers.
     </para>
@@ -64,7 +64,7 @@
         The service-desk and ticket system solution OTRS is the basis
         for the ITIL compliant IT service management solution
         OTRS ITSM, its incident management, problem management, service level
-        management, change and configuration management modules and integrated
+        management, change and configuration management modules, and integrated
         CMDB.
     </para>
     <para>
@@ -251,10 +251,10 @@
                             covering single ITIL disciplines like incident management / problem
                             management, configuration management, service level management,
                             can be
-                            installed independently from each other. To you as a user that means
+                            installed independently from one another. To you as a user, that means
                             that you neither have to install the packages in a certain
                             installation
-                            order nor that you have to install them all to use OTRS ITSM.
+                            order nor do you have to install them all in order to use OTRS ITSM.
                         </para>
                     </listitem>
 
@@ -265,7 +265,7 @@
                             impact)
                             have been reimplemented in AJAX technology to reduce necessary
                             reloads.
-                            That leads to an increased speed using OTRS ITSM.
+                            This leads to an increased speed using OTRS ITSM.
                         </para>
                     </listitem>
 
@@ -276,7 +276,7 @@
                             were designed based on an own extended Object-Link mechanism.
                             As a consequence, the Object-Link functionality of OTRS couldn't
                             be used in OTRS ITSM. A joint Object-Link mechanism has now
-                            been implemented, which covers all the features from both former
+                            been implemented, which covers all of the features from both former
                             Link object mechanisms.
                         </para>
                     </listitem>
@@ -315,7 +315,7 @@
                     <listitem>
                         <para>Refresh-Mechanism</para>
                         <para>
-                            Added a refresh mechanism to refresh the service overview
+                            A refresh mechanism was added to refresh the service overview
                             and the config item overview screens automatically.
                         </para>
                     </listitem>
@@ -332,9 +332,9 @@
                     <listitem>
                         <para>Authorization concept</para>
                         <para>
-                            Each object like Service/SLA, Location, CI, Linkobject now creates an
-                            own group,
-                            so the agents rights can be assigned more granulary.
+                            Each object like Service/SLA, Location, CI, Linkobject now creates a
+                            corresponding group,
+                            so the agents rights can be assigned with more granularity.
                         </para>
                     </listitem>
 
@@ -350,14 +350,14 @@
                     <listitem>
                         <para>Service/CI view</para>
                         <para>
-                            A view on services and CIs including information
-                            on each objects current state allows to analyze an incident
-                            and calculate the incidents impact on affected services and
+                            A view on services and CIs, including information
+                            on each object's current state, allows you to analyze an incident
+                            and calculate the incident's impact on affected services and
                             customers.
 
                             As an enhancement of the service view, now SLAs and linked CIs are
-                            displayed too.
-                            For each CI the current incident state is shown. Also, the incident
+                            also displayed.
+                            For each CI, the current incident state is shown. In addition, the incident
                             state
                             will be propagated for dependent SLAs and CIs.
 
@@ -381,7 +381,7 @@
                         </itemizedlist>
 
                         <para>
-                            For each state type any number of states can be registered.
+                            For each state type, any number of states can be registered.
                             The state of a CI affects the service state, which will be
                             dynamically calculated, and can
                             have one of the following three values:
@@ -405,14 +405,14 @@
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    If a CI is dependent from another CI, which is in the state
+                                    If a CI is dependent on another CI, which is in the state
                                     'Incident', the dependent CI gets the state 'Warning'.
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    If a service is dependent from CIs, and one of these CIs has a
+                                    If a service is dependent on CIs, and one of these CIs has a
                                     state 'Incident', the service will also get the state
                                     'Incident'.
                                 </para>
@@ -420,7 +420,7 @@
 
                             <listitem>
                                 <para>
-                                    If a service is dependent from CIs, and one of these CIs has the
+                                    If a service is dependent on CIs, and one of these CIs has the
                                     state 'Warning', the service will also get the state 'Warning'.
                                 </para>
                             </listitem>
@@ -442,7 +442,7 @@
                             </listitem>
                         </itemizedlist>
                         <para>
-                            The states of the respective services, sub-services and CIs will be
+                            The states of the respective services, sub-services, and CIs will be
                             shown in the view.
                         </para>
                     </listitem>
@@ -450,7 +450,7 @@
                     <listitem>
                         <para>CI search and linking from agent interface</para>
                         <para>
-                            A service agent may search, select and assign any of a customers
+                            A service agent may search, select, and assign any of a customer's
                             configuration items (CIs) or existing tickets while recording a
                             new incident ticket.
                         </para>
@@ -488,13 +488,13 @@
                             respectively.
                         </para>
                         <para>
-                            The automatic import is carried out via a script, which needs the
+                            The automatic import is carried out via a script, which requires the
                             name of the ImEx definition and the name of the CSV file as
                             arguments. During the script based export, the CIs that were
-                            given the script as arguments, will be saved in a CSV file.
+                            given the script as arguments will be saved in a CSV file.
                             Before the execution of the import or export, the selected ImEx
                             definition will be compared with the current CI definition. If
-                            inconsistencies were found, the process will be cancelled. Also,
+                            inconsistencies are found, the process will be cancelled. Also,
                             during import, restrictions in the CI definition (e.g. mandatory
                             fields) will be checked. If applicable, the data record is
                             rejected, but the import process continues. An import protocol
@@ -516,13 +516,13 @@
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Total of all ever created tickets per ticket-type and priority
+                                    Total of all tickets ever created per ticket-type and priority
                                     (state, queue, service).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Monthly overview of all ever created tickets of a previous month per
+                                    Monthly overview of all tickets ever created of a previous month per
                                     ticket-type (priority, state, queue, service).
                                 </para>
                             </listitem>
@@ -559,14 +559,14 @@
                         </itemizedlist>
 
                         <para>
-                            Many more reports have been added providing specific data regarding
+                            Many more reports have been added which provide specific data regarding
                             first time solution rate and average resolution time:
                         </para>
                         <itemizedlist>
 
                             <listitem>
                                 <para>
-                                    First time solution rate of all ever created tickets per ticket-type
+                                    First time solution rate of all tickets ever created per ticket-type
                                     and priority (queue, service).
                                 </para>
                             </listitem>
@@ -587,7 +587,7 @@
 
                             <listitem>
                                 <para>
-                                    Average resolution time of all ever created tickets per ticket-type
+                                    Average resolution time of all tickets ever created per ticket-type
                                     and priority (queue, service).
                                 </para>
                             </listitem>
@@ -648,7 +648,7 @@
                 </listitem>
                 <listitem>
                     <para>
-                        ITIL compliant role, responsibility and permission model
+                        ITIL compliant role, responsibility, and permission model
                     </para>
                 </listitem>
                 <listitem>
@@ -660,12 +660,12 @@
                 <listitem>
                     <para>
                         flexible stats functions for (trend) analyses; reporting,
-                        planning and controlling based on performance figures
+                        planning, and controlling based on performance figures
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        flexible configuration, customization and upgrade to meet individual requirements
+                        flexible configuration, customization, and upgrade to meet individual requirements
                     </para>
                 </listitem>
                 <listitem>
@@ -683,9 +683,9 @@
             <para>Configuration management &amp; integrated CMDB:</para>
             <para>
                 OTRS ITSM is based on an integrated configuration management
-                data base (CMDB), which serves as the fundament for the
+                data base (CMDB), which serves as the foundation for the
                 comprehensive control of the service management processes. It
-                represents the configuration items (CI), their complex relationships
+                represents the configuration items (CI), their complex relationships,
                 and interdependencies with each other and with other components of
                 the service chain.
             </para>
@@ -693,7 +693,7 @@
                 <listitem>
                     <para>Comprehensive recording and management of ITSM relevant
                         configuration items (CIs) such as computers, hardware, software,
-                        networks, documents and services, SLAs and organizational
+                        networks, documents and services, SLAs, and organizational
                         structures.
                     </para>
                 </listitem>
@@ -704,7 +704,7 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Recording, management and illustration of technical and
+                        Recording, management, and illustration of technical and
                         service related relationships and interdependences among CMDB
                         data, e.g. a service with all necessary, alternative or relevant
                         CIs
@@ -712,7 +712,7 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Management of historic, current and future CI states, e.g.
+                        Management of historic, current, and future CI states, e.g.
                         for problem diagnosis, server maintenance or planned changes
                     </para>
                 </listitem>
@@ -808,8 +808,8 @@
                 </listitem>
                 <listitem>
                     <para>
-                        complete integration of OTRS role, group and queue mechanisms
-                        for incident ticket allocation, tracking, escalation and
+                        Complete integration of OTRS role, group, and queue mechanisms
+                        for incident ticket allocation, tracking, escalation, and
                         interpretation
                     </para>
                 </listitem>
@@ -820,18 +820,18 @@
                 </listitem>
                 <listitem>
                     <para>
-                        practical ticket handling (merge, split), allows to merge similar incidents and/or split complicated ones
+                        Practical ticket handling (merge, split), allows to merge similar incidents and/or split complicated ones
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        planning, proactive control and monitoring of service request
+                        Planning, proactive control, and monitoring of service request
                         activities (work packages, work plans, service lead times, due dates)
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        generation and tracking of problem tickets from incidents
+                        Generation and tracking of problem tickets from incidents
                     </para>
                 </listitem>
             </itemizedlist>
@@ -839,56 +839,56 @@
             <itemizedlist>
                 <listitem>
                     <para>
-                        comprehensive support of IT organization processes in problem
+                        Comprehensive support of IT organization processes in problem
                         identification, recording, classification, prioritization, problem
                         origin diagnosis, resolution coordination, e.g. workaround or
-                        request for change, closure and documentation</para>
+                        request for change, closure, and documentation</para>
                 </listitem>
                 <listitem>
-                    <para>provision of relevant information for subprocesses</para>
+                    <para>Provision of relevant information for subprocesses</para>
                     <itemizedlist>
                         <listitem>
                             <para>
-                                problem control (trouble-shooting),
+                                Problem control (trouble-shooting),
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                error control (error processing),
+                                Error control (error processing),
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                proactive problem management (e.g. ticket trend analyses) and
+                                Proactive problem management (e.g. ticket trend analyses) and
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                management information (on incidents, problems and known errors)
+                                Management information (on incidents, problems and known errors)
                             </para>
                         </listitem>
                     </itemizedlist>
                 </listitem>
                 <listitem>
                     <para>
-                        current/historic incidents, knowledge base (FAQs) and CMDB are constantly available
+                        Current/historic incidents, knowledge base (FAQs), and CMDB are constantly available
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        complete integration of OTRS role, group and queue mechanisms
-                        to allocate, track, escalate and evaluate incident tickets
+                        Complete integration of OTRS role, group and queue mechanisms
+                        to allocate, track, escalate, and evaluate incident tickets
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        systematic automated notifications on the problem resolution
+                        Systematic automated notifications on the problem resolution
                         progress for users (user groups) concerned or the management
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        incident management receives ready signal for resolved problems
+                        Incident management receives ready signal for resolved problems
                     </para>
                 </listitem>
             </itemizedlist>
@@ -900,47 +900,47 @@
             <itemizedlist>
                 <listitem>
                     <para>
-                        persons, organizations
+                        Persons, organizations
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        time stamp
+                        Time stamp
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        priority, impact, severity
+                        Priority, impact, severity
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        associations to IT service catalog and projects
+                        Associations to IT service catalog and projects
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        activities, e.g. note about a call with time accounting
+                        Activities, e.g. note about a call with time accounting
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        objects, e.g. CIs, including relations
+                        Objects, e.g. CIs, including relations
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        (sub)tickets, e.g. a problem with the underlying incidents
+                        (Sub)Tickets, e.g. a problem with the underlying incidents
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        notes and attachments, e.g. scanned service request forms
+                        Notes and attachments, e.g. scanned service request forms
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        work packages, i.e. planned, allocated tasks
+                        Work packages, i.e. planned, allocated tasks
                     </para>
                 </listitem>
                 <listitem>
@@ -950,17 +950,17 @@
                 </listitem>
                 <listitem>
                     <para>
-                        thresholds and escalation data
+                        Thresholds and escalation data
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        ticket history (all changes)
+                        Ticket history (all changes)
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        accounting information (time accounting).
+                        Accounting information (time accounting).
                     </para>
                 </listitem>
             </itemizedlist>
@@ -981,14 +981,14 @@
             and developers use mailing lists to share their insights about a wide
             variety of issues connected with the trouble ticket system. They
             address questions about installation, configuration, use,
-            localization and development. Bugs can be reported using the bug
+            localization, and development. Bugs can be reported using the bug
             tracking system at http://bugs.otrs.org (http://bugs.otrs.org/). They
             directly reach the developers responsible and fixes can be provided
             quickly.
         </para>
         <para>
             The above mentioned community channels are open for OTRS ITSM
-            users, too, to constantly improve the product's quality. You can join
+            users also, to constantly improve the product's quality. You can join
             the community at our homepage http://otrs.org (http://otrs.org/).
         </para>
         <para>
