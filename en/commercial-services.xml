@@ -2,21 +2,21 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
     <title>Commercial services for OTRS ITSM</title>
-    <para>OTRS AG is manufacturer and source code owner of OTRS and all
+    <para>OTRS AG is the manufacturer and source code owner of OTRS and all
         modules based upon it (e.g. OTRS ITSM) and a professional service
         provider. Unlike those of proprietary software providers, OTRS AG's
         business model is not based on license fees: OTRS and OTRS ITSM are
         available free of cost and we offer commercial services associated
         with the software applications instead. </para>
     <para>As your capable partner, we provide optimal support in all phases
-        of your OTRS project design, realization and operation. We believe in
-        deploying the most modern methods and our staff are highly skilled
-        experts. This philosophy guarantees credit for powerful business
+        of your OTRS project design, realization, and operation. Our staff are
+        highly skilled experts and we believe in deploying the most modern
+        methods. This philosophy guarantees credit for powerful business
         applications and happy customers lauding our service quality
         (http://www.otrs.com/en/references/). </para>
     <sect1>
         <title>OTRS ITSM consulting and implementation</title>
-        <para>Are you planning to use OTRS ITSM or have found out about
+        <para>Are you planning to use OTRS ITSM or have you found out about
             OTRS ITSM in a new product screening and want to assess the system's
             eligibility for your requirements? Or is your OTRS ITSM evaluation
             completed and you want to make use of our consulting services to
@@ -29,15 +29,15 @@
         <para>Our services include:</para>
         <itemizedlist>
             <listitem>
-                <para>identification of your requirements and assistance with
+                <para>Identification of your requirements and assistance with
                     product evaluation</para>
             </listitem>
             <listitem>
-                <para>guidance on design and implementation of ITSM process and
+                <para>Guidance on design and implementation of ITSM process and
                     organizational structures</para>
             </listitem>
             <listitem>
-                <para> ITIL assessments and support with ISO 20000 certification
+                <para>ITIL assessments and support with ISO 20000 certification
                 </para>
             </listitem>
             <listitem>
@@ -47,35 +47,35 @@
                 <para>ITIL implementation</para>
             </listitem>
             <listitem>
-                <para>compilation of IT service catalogs</para>
+                <para>Compilation of IT service catalogs</para>
             </listitem>
             <listitem>
                 <para>CMDB design</para>
             </listitem>
             <listitem>
-                <para>installation &amp; configuration of OTRS ITSM including
+                <para>Installation &amp; configuration of OTRS ITSM including
                     integration with your existing system environment</para>
             </listitem>
             <listitem>
-                <para>review &amp; optimization of existing OTRS ITSM installations
+                <para>Review &amp; optimization of existing OTRS ITSM installations
                 </para>
             </listitem>
             <listitem>
-                <para>process and data migration from predecessor systems</para>
+                <para>Process and data migration from predecessor systems</para>
             </listitem>
             <listitem>
-                <para>release updates</para>
+                <para>Release updates</para>
             </listitem>
             <listitem>
-                <para>specification of business and IT requirements and features,
+                <para>Specification of business and IT requirements and features,
                     which exceed the given functional range of OTRS ITSM </para>
             </listitem>
             <listitem>
-                <para>design and realization of project complimentary administrator
+                <para>Design and realization of project complimentary administrator
                     and service agent trainings </para>
             </listitem>
             <listitem>
-                <para>advisory services regarding managed operations (ASP/SaaS) of
+                <para>Advisory services regarding managed operations (ASP/SaaS) of
                     OTRS ITSM and application support</para>
             </listitem>
         </itemizedlist>
@@ -90,7 +90,7 @@
         <para>Experienced project managers and developers are at your disposal
             at any time to translate your requirements exceeding the functional
             range of OTRS ITSM into business and IT specifications. We develop
-            your features, program interfaces or upgrade existent functionalities
+            your features, program interfaces, or upgrade existent functionalities
             according to your conception. </para>
         <para>Extensions, which are useful for other customers too, will be
             added to the standard in later releases. All parties involved
@@ -115,7 +115,7 @@
             support portal, and optional phone support. Please visit
             http://www.otrs.com/en/support/ for all details or contact our sales
             team at sales@otrs.com.</para>
-        <para>You will only pay for the services you really need. Optional
+        <para>You will only pay for the services you absolutely need. Optional
             add-on packages, e.g. support via remote control or an extension of
             the application support services to other OTRS ITSM instances can be
             booked if required.</para>
@@ -143,7 +143,7 @@
             according to the agreed service levels. The provider maintains the
             application system, (e.g. patches, backup, monitoring), and supports
             the customer with incidents and/or service requests such as
-            consultation requests, software extensions or configuration requests.
+            consultation requests, software extensions, or configuration requests.
         </para>
     </sect1>
 </chapter>

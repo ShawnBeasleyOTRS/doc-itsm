@@ -25,8 +25,8 @@ of this license document, but changing it is not allowed.</para>
     or other written document "free" in the sense of freedom: to
     assure everyone the effective freedom to copy and redistribute it,
     with or without modifying it, either commercially or
-    noncommercially.  Secondarily, this License preserves for the
-    author and publisher a way to get credit for their work, while not
+    noncommercially.  Secondly, this License preserves a way for the
+    author and publisher to get credit for their work, while not
     being considered responsible for modifications made by
     others.</para>
 
@@ -36,7 +36,7 @@ of this license document, but changing it is not allowed.</para>
     is a copyleft license designed for free software.</para>
 
     <para>We have designed this License in order to use it for manuals
-    for free software, because free software needs free documentation:
+    for free software, because free software needs free documentation;
     a free program should come with manuals providing the same
     freedoms that the software does.  But this License is not limited
     to software manuals; it can be used for any textual work,
@@ -71,8 +71,8 @@ of this license document, but changing it is not allowed.</para>
     philosophical, ethical or political position regarding
     them.</para>
 
-    <para>The "Invariant Sections" are certain Secondary Sections
-    whose titles are designated, as being those of Invariant Sections,
+    <para>The "Invariant Sections" are certain Secondary Sections,
+    whose titles are designated as being those of Invariant Sections,
     in the notice that says that the Document is released under this
     License.</para>
 
@@ -388,7 +388,7 @@ of this license document, but changing it is not allowed.</para>
 
     <para>You may not copy, modify, sublicense, or distribute the
     Document except as expressly provided for under this License.  Any
-    other attempt to copy, modify, sublicense or distribute the
+    other attempt to copy, modify, sublicense, or distribute the
     Document is void, and will automatically terminate your rights
     under this License.  However, parties who have received copies, or
     rights, from you under this License will not have their licenses

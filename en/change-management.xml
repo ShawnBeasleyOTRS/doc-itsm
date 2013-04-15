@@ -8,7 +8,7 @@
     </title>
     <para>
         Change Management, according to ITIL, is a Service Transition process whose
-        purpose is to manage IT changes, including planning, documentation and
+        purpose is to manage IT changes, including planning, documentation, and
         implementation upon approval and clearance. The objective is to
         minimize negative effects on the IT infrastructure, particularly on
         critical services, resulting from ad-hoc or poorly-managed changes or
@@ -26,7 +26,7 @@
                 The implementation of OTRS ITSM requires significant technical
                 specification and preparation. Prior to a technical implementation,
                 key elements of the Change Management process, such as required
-                workflows, metrics or reports, must be defined.
+                workflows, metrics, or reports, must be defined.
             </para>
         </sect2>
         <sect2>
@@ -58,7 +58,7 @@
             </para>
             <para>
                 The following packages are recommended, but from a technical
-                perspective not absolutely necessary:
+                perspective they are not completely necessary:
             </para>
             <para>
                 <itemizedlist>
@@ -520,7 +520,7 @@
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
-                administration front end, under menu option State Machine. The
+                administration front end, under menu option &quot;State Machine&quot;. The
                 statuses and possible result statuses should be defined here.
             </para>
             <para>
@@ -642,7 +642,7 @@
             <para>
                 Furthermore, it is possible to open the corresponding Change
                 directly from a ticket within the Incident or Problem Management
-                process ie. the ticket system from which it originated.
+                process i.e., the ticket system from which it originated.
                 In this case, the system creates a transparent link between the ticket
                 and Change. In the configuration, this feature can be restricted to
                 only those agents who are permitted to create Changes.
@@ -682,7 +682,7 @@
                 Builder.
             </para>
             <para>
-                Workflows can be defined here.For example, a workflow to set the entire
+                Workflows can be defined here. For example, a workflow to set the entire
                 Change to &quot;canceled&quot; or request review / approval
                 clearance when a Work Order is canceled.
             </para>
@@ -1363,7 +1363,7 @@
                 Defining the Work Order Agent
             </title>
             <para>
-                Each Work Order can be assigned to a so-called Work Order agent, ie. a
+                Each Work Order can be assigned to a &quot;Work Order agent&quot;, i.e. a
                 person responsible for the execution of the Work Order.
             </para>
             <para>
@@ -2424,7 +2424,7 @@
             </title>
             <para>
                 This view displays all the defined templates in the system. The agent
-                can sort the displayed information in ascending or descending order,
+                can sort the displayed information in ascending or descending order
                 by the given column headings.
             </para>
             <para>

@@ -10,16 +10,15 @@
     <para>
         The admin area can be accessed via the "admin" link in the agent
         interface navigation bar. The link is only shown to users logged on to
-        the system as OTRS ITSM administrators or having administrator
-        permissions in the system. After a default installation you can log on
-        to the system as OTRS admin using the user name
-        &quot;root@localhost&quot; and the password &quot;root&quot;.
+        the system that have been granted administrator priviliges.
+        After the completion of a default installation you can log on to the system as 
+        OTRS admin using the user name &quot;root@localhost&quot; and the password &quot;root&quot;.
     </para>
     <warning>
         <para>
-            Make sure to change the password of root@localhost in the user
-            preferences as quickly as possible after the installation as it is
-            the default password and commonly known.
+            WARNING: Make sure to change the password of root@localhost in the user
+            preferences as quickly as possible. Using the widely known default password is not
+            recommended!
         </para>
     </warning>
 
@@ -133,7 +132,7 @@
                 <para>[ Computer ]</para>
                 <para>
                     All CIs, which are classically referred to as computers, e.g.
-                    desktop PCs or laptops, and all intelligent, configurable and
+                    desktop PCs or laptops as well as all other intelligent, configurable and
                     non-peripheral appliances such as switches, routers or other active
                     network components.
                 </para>
@@ -141,15 +140,15 @@
             <listitem>
                 <para>[ Hardware ]</para>
                 <para>
-                    All hardware components not being considered as computers,
-                    ranging from "blade center" chassis, to printers and USB sticks
-                    depending on the level of detailedness of the listing.
+                    All hardware components not classified as computers,
+                    possibly ranging from a "blade center" chassis to printers and USB sticks,
+                    depending on the level of granularity of your CI structure.
                 </para>
             </listitem>
             <listitem>
                 <para>[ Network ]</para>
                 <para>
-                    Logical nets (LAN, WLAN, WAN etc.), which span IP address spaces.
+                    Logical networks (LAN, WLAN, WAN etc.), which span IP address spaces.
                 </para>
             </listitem>
             <listitem>
@@ -176,11 +175,11 @@
         </para>
         <warning>
             <para>
-                The design of a CMDB data model and the CIs to be managed by it
+                The design of a CMDB data model and of the associated CIs
                 is a task which should not be underestimated. Our experience shows
                 that it is highly recommendable to validate conceptual thoughts in a
-                dry run against the existing IT infrastructure before changing the
-                OTRS ITSM standard data model and/or CI classes. It has proven of
+                dry run against the existing IT infrastructure, before changing the
+                OTRS ITSM standard data model and/or CI classes. It has proven to be of
                 value to resort to external assistance, e.g. of ITIL practice
                 experts for the CMDB design.
             </para>
@@ -286,7 +285,7 @@
                 OTRS ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
-                from "valid" to "invalid" or "invalid-temporarily".
+                from "valid" to "invalid" or to "invalid-temporarily".
             </para>
         </warning>
     </sect1>
@@ -307,9 +306,9 @@
     <sect1>
         <title>Adjustment of ticket state</title>
         <para>
-            In ITIL compliant incident management, incidents are either
-            resolved successfully or closed with a workaround. For such cases,
-            OTRS ITSM standard provides the ticket state &quot;closed with
+            In ITIL aligned incident management, incidents are either
+            resolved successfully or closed with a workaround. To address the latter closure category,
+            OTRS ITSM by default includes the ticket state &quot;closed with
             workaround&quot;.</para>
         <para>
             <screenshot>
@@ -318,7 +317,7 @@
             </screenshot>
         </para>
         <para>
-            With OTRS ITSM you can change ticket states or add new ones.
+            With OTRS ITSM you can change existing ticket states or add new ones.
             There are two important options: the name of the state
             &quot;state-name&quot; and the type of it &quot;state-type&quot;. All
             states and types available by default are pictured above.
@@ -329,8 +328,8 @@
             state types.
         </para>
         <para>
-            Please consider that changes to the "new" state require changes
-            in the configuration file kernel/config.pm or in the graphical
+            Please consider that changes made to the "new" state require changes
+            to be made in the configuration file kernel/config.pm or in the graphical
             configuration front-end.
         </para>
         <para>
@@ -348,7 +347,7 @@
             </screen>
         </para>
         <para>
-            The same applies to changes to the "open" state: changes in the
+            The same applies to changes made to the "open" state: changes in the
             kernel/Config.pm or in the graphical configuration frontend are
             necessary.
         </para>
@@ -442,7 +441,7 @@
         <warning>
             <para>
                 The &quot;id&quot; attribute decides the OTRS ITSM internal
-                sequence of priorities. => 1 corresponds to the minimum and 5 (or
+                sequence of priorities. 1 corresponds to the minimum and 5 (or
                 higher) to the maximum. The number in the priority name is used to
                 implement the correct sequence within the priorities.
             </para>

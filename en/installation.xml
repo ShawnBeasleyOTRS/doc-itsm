@@ -5,7 +5,7 @@
     <para>
         Please note that the OTRS framework 3.2 must be installed prior to the installation of
 
-        OTRS ITSM. All necessary information, options and installation
+        OTRS ITSM. All necessary information, options, and installation
         procedures are depicted in the OTRS Admin Manual.
     </para>
 
@@ -14,7 +14,7 @@
         <title>Installation</title>
 
         <para>
-            After successfully insstalling OTRS 3.2 or later, proceed to sign on as
+            After successfully insstalling OTRS 3.2 or a later version, proceed to sign on as
             administrator. Using the package manager in the admin area or via
             ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ obtain the ITSM packages and install them
             in the following order:
@@ -28,7 +28,7 @@
             </listitem>
         </itemizedlist>
         <para>
-            If your machine running OTRS  has internet access, use the following online repository
+            If your machine running OTRS has internet access, use the following online repository
             [--OTRS ITSM 3.2 Master--] to install the packages below. Otherwise
             download the packages below and use the package manager to install them:
 
@@ -74,7 +74,7 @@
         <title>Upgrade</title>
 
         <para>
-            If you are using an older version than OTRS ITSM 1.1, update the system
+            If you are using a version older than OTRS ITSM 1.1, please update the system
             to the latest version 1.1 first.
         </para>
         <para>
@@ -88,7 +88,7 @@
             installed
             old ITSM packages. This package will install all needed packages to
             update your system to an
-            OTRS ITSM 1.2 version, and it will migrate all your data.
+            OTRS ITSM 1.2 version, and it will migrate all of your data.
         </para>
         <para>
             Note: The upgrade can take several minutes! Please do not stop the upgrade
@@ -112,9 +112,9 @@
             is available.
          </para>
         <para>
-            Otherwise download the packages and use the package manager to install the
+            Otherwise, download the packages and use the package manager to install the
             packages.
-            WARNING: Do not uninstall your current packages, or you will loose data!
+            WARNING: Do not uninstall your current packages, or you will lose data!
         </para>
     </sect1>
 </chapter>
