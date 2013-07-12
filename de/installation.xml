@@ -9,7 +9,7 @@
     <title>Installation / Upgrade von OTRS ITSM</title>
 
     <para>
-        Zur Nutzung von OTRS ITSM muss das OTRS Framework 3.2
+        Zur Nutzung von OTRS ITSM muss das OTRS Framework 3.3
         installiert sein. Alle dazu notwendigen Informationen, Optionen und
         Installationsschritte sind im "OTRS Admin Manual" beschrieben.
     </para>
@@ -19,7 +19,7 @@
         <title>Installation</title>
 
         <para>
-            Nachdem OTRS 3.2 bereit steht, melden Sie sich als Administrator
+            Nachdem OTRS 3.3 bereit steht, melden Sie sich als Administrator
             in OTRS an. Mit Hilfe des Paket-Managers im Admin-Bereich bzw. von
             ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ sind die ITSM-Pakete in
             der folgenden Reihenfolge zu installieren:
@@ -40,7 +40,7 @@
         <para>
             Sofern für OTRS eine Verbindung mit dem Internet besteht, können
             Sie das Online Repository
-            [--OTRS ITSM 3.2 Master--] nutzen, um die nachstehenden Pakete zu installieren.
+            [--OTRS ITSM 3.3 Master--] nutzen, um die nachstehenden Pakete zu installieren.
             Bei fehlender Internetverbindung sind die Pakete zu downloaden und
             per Paket-Manager zu installieren:
         </para>
@@ -66,7 +66,7 @@
         </itemizedlist>
         <para>
             Weitere Informationen zur Installation können Sie hier finden:
-            http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.2.ITSM
+            http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM
         </para>
         <para>
             <screenshot>

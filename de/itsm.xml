@@ -92,8 +92,8 @@
             Features
         </title>
         <para>
-            Basis von OTRS ITSM 3.2 ist das Open Ticket Request System OTRS
-            3.2, d.h. es stehen auch weiterhin alle Funktionalitäten zur
+            Basis von OTRS ITSM 3.3 ist das Open Ticket Request System OTRS
+            3.3, d.h. es stehen auch weiterhin alle Funktionalitäten zur
             Verfügung, die Sie von OTRS bislang kennen. Darauf aufbauend werden
             die Funktionalitäten zur Abbildung der ITIL Prozesse als so genannte
             Pakete installiert.
@@ -101,15 +101,15 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 3.2
+                Neue Features in OTRS ITSM 3.3
             </title>
-            <para>OTRS ITSM 3.2 bietet:</para>
+            <para>OTRS ITSM 3.3 bietet:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Portierung des Codes auf das OTRS 3.2 Framework.
+                            Portierung des Codes auf das OTRS 3.3 Framework.
                         </para>
                     </listitem>
 

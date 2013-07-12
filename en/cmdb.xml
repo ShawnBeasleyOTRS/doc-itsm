@@ -62,7 +62,7 @@
             <title>OTRS Framework</title>
             <para>
                 For better readability, the diagram can be found at:
-                http://ftp.otrs.org/pub/otrs/misc/otrs-3.2-database.png.
+                http://ftp.otrs.org/pub/otrs/misc/otrs-3.3-database.png.
             </para>
         </sect2>
         <sect2 id="general-catalog-database">

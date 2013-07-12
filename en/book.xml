@@ -5,7 +5,7 @@
 <book lang='en'>
 
     <bookinfo>
-        <title>OTRS ITSM 3.2</title>
+        <title>OTRS ITSM 3.3</title>
         <copyright>
             <year>2003-2013</year>
             <holder>OTRS AG</holder>
@@ -51,7 +51,7 @@
 
         <revhistory>
             <revision>
-                <revnumber>3.2.1</revnumber>
+                <revnumber>3.3.1</revnumber>
                 <date>02/01/2013</date>
             </revision>
         </revhistory>

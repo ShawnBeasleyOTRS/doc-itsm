@@ -42,17 +42,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            das OTRS Framework in Version 3.2.1 oder höher
+                            das OTRS Framework in Version 3.3.1 oder höher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "GeneralCatalog" in Version 3.2
+                            das ITSM-Paket "GeneralCatalog" in Version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMCore" in Version 3.2
+                            das ITSM-Paket "ITSMCore" in Version 3.3
                         </para>
                     </listitem>
                 </orderedlist>
@@ -65,22 +65,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMIncidentProblemManagement" Version 3.2
+                            das ITSM-Paket "ITSMIncidentProblemManagement" Version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMServiceLevelManagement" in Version 3.2
+                            das ITSM-Paket "ITSMServiceLevelManagement" in Version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMConfigurationManagement" in Version 3.2
+                            das ITSM-Paket "ITSMConfigurationManagement" in Version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ImportExport" in Version 3.2
+                            das ITSM-Paket "ImportExport" in Version 3.3
                         </para>
                     </listitem>
                 </itemizedlist>

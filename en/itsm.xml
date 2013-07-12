@@ -74,7 +74,7 @@
     <sect1>
         <title>Features</title>
         <para>
-            OTRS ITSM 3.2 is based on OTRS 3.2.
+            OTRS ITSM 3.3 is based on OTRS 3.3.
             All functionalities known from OTRS continue to be available and the
             functionalities representing ITIL processes can be installed as
             packages.
@@ -82,15 +82,15 @@
 
         <sect2>
             <title>
-                New OTRS ITSM 3.2 features
+                New OTRS ITSM 3.3 features
             </title>
-            <para>OTRS ITSM 3.2 offers:</para>
+            <para>OTRS ITSM 3.3 offers:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 3.2 framework.
+                            Ported code to the OTRS 3.3 framework.
                         </para>
                     </listitem>
 

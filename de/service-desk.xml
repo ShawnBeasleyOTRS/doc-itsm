@@ -36,7 +36,7 @@
     </para>
 
     <para>
-        Die Version 3.2 von OTRS ITSM deckt die Prozesse Incident
+        Die Version 3.3 von OTRS ITSM deckt die Prozesse Incident
         und Problem Management, Service Level Management, die Configuration Management DB, sowie Change Management ab,
         die bei ITIL Implementierungen in der Regel zuerst gestaltet werden. Die Nutzung und Anpassung des Systems wird in den folgenden
         Abschnitten näher beschrieben. Die Paketaufteilung entspricht den gleichnamigen ITIL-Disziplinen, jedes Paket kann unabhängig installiert werden.

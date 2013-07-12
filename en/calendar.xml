@@ -3,7 +3,7 @@
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
-        OTRS 3.2 initially supports up to 9 calendars, which can be configured   
+        OTRS 3.3 initially supports up to 9 calendars, which can be configured   
         graphically. Using the SysConfig framework found in the admin interface, 
         this number can be increased to 99, by using the calendar 1 etc. links:
     </para>
