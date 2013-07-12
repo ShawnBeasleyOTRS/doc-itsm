@@ -7,7 +7,7 @@
     <title>Zusätzliche OTRS-Applikationen - Kalender</title>
 
     <para>
-        In OTRS 3.2 sind standardmäßig 9 Kalender direkt grafisch konfigurierbar. Die Anzahl lässt sich bis auf 99 erweitern.
+        In OTRS 3.3 sind standardmäßig 9 Kalender direkt grafisch konfigurierbar. Die Anzahl lässt sich bis auf 99 erweitern.
         Die Konfiguration der Kalender erfolgt im Admin-Interface über den Link SysConfig - Framework - Calendar1 usw.:
     </para>
     <para>
