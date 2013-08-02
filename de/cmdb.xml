@@ -76,42 +76,42 @@
             <title>OTRS Framework</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm unter
-                http://ftp.otrs.org/pub/otrs/misc/otrs-3.3-database.png zu finden.
+                https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png zu finden.
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png zu finden.
+                https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png zu finden.
+                https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png zu finden.
+                https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png zu finden.
+                https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png zu finden.
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
                 Zur besseren Lesbarkeit ist das Diagramm auch unter
-                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png zu finden.
+                https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png zu finden.
             </para>
         </sect2>
     </sect1>

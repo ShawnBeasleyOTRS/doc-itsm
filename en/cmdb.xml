@@ -62,42 +62,42 @@
             <title>OTRS Framework</title>
             <para>
                 For better readability, the diagram can be found at:
-                http://ftp.otrs.org/pub/otrs/misc/otrs-3.3-database.png.
+                https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
                 For better readability, this diagram can be found at:
-                http://source.otrs.org/viewvc.cgi/GeneralCatalog/doc/general-catalog-database.png
+                https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
                 For better readability, this diagram can be found at:
-                http://source.otrs.org/viewvc.cgi/ITSMCore/doc/itsm-core-database.png
+                https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
                 For better readability, this diagram can be found at:
-                http://source.otrs.org/viewvc.cgi/ITSMConfigurationManagement/doc/itsm-configuration-management-database.png
+                https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
                 For better readability, this diagram can be found at:
-                http://source.otrs.org/viewvc.cgi/ITSMChangeManagement/doc/itsm-change-management-database.png
+                https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
                 For better readability, this diagram can be found at:
-                http://source.otrs.org/viewvc.cgi/ImportExport/doc/import-export-database.png
+                https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png
             </para>
         </sect2>
     </sect1>
