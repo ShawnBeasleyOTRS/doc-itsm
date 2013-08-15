@@ -115,6 +115,41 @@
 
                     <listitem>
                         <para>
+
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Neue Features in OTRS ITSM 3.2
+            </title>
+            <para>OTRS ITSM 3.2 bietet:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Portierung des Codes auf das OTRS 3.2 Framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
                             Verbesserung des Import/Export Dialogs um eine Zusammenfassung nach dem Import anzuzeigen.
                         </para>
                     </listitem>

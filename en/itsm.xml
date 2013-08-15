@@ -14,7 +14,7 @@
         The IT Infrastructure Library®, short ITIL®, is a series of books
         published by the United Kingdom's Office of Government Commerce (OGC),
         which generically combine best practice approaches to designing,
-        providing, operating and managing IT services. ITIL does not focus on   
+        providing, operating and managing IT services. ITIL does not focus on
         the technology but the services provided by the IT and comprises
         information on processes, roles, responsibilities, potential problem
         fields/resolutions, and definitions of terms.
@@ -43,9 +43,9 @@
         companies and effective in large IT departments.
     </para>
     <para>
-        The development of OTRS ITSM was started as a result of the 
-        great success of the OTRS framework in order to combine the 
-        globally accepted, public ITIL recommendations with the benefits 
+        The development of OTRS ITSM was started as a result of the
+        great success of the OTRS framework in order to combine the
+        globally accepted, public ITIL recommendations with the benefits
         of open-source software.
     </para>
     <para>
@@ -56,7 +56,7 @@
         active development and new features are added continuously.
     </para>
     <para>
-        OTRS ITSM is practically-oriented. This was accomplished by 
+        OTRS ITSM is practically-oriented. This was accomplished by
         developing it in collaboration with ITIL consultants and with
         some of OTRS Groups' customers.
     </para>
@@ -91,6 +91,41 @@
                     <listitem>
                         <para>
                             Ported code to the OTRS 3.3 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                New OTRS ITSM 3.2 features
+            </title>
+            <para>OTRS ITSM 3.2 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 3.2 framework.
                         </para>
                     </listitem>
 
@@ -284,7 +319,7 @@
                     <listitem>
                         <para>Improved speed</para>
                         <para>
-                            Changing database access technology to using SQL bind parameters made it possible to 
+                            Changing database access technology to using SQL bind parameters made it possible to
                             access the Configuration Items (CI) database faster than previously.
                         </para>
                     </listitem>
