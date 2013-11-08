@@ -96,19 +96,61 @@
 
                     <listitem>
                         <para>
-
+                            Integrated Feature AddOn "OTRSServiceIncidentState" into OTRS ITSM.
+                            It shows the current incident state of a selected service in the ticket zoom, and in all agent frontends where
+                            a service can be selected (can be disabled on a per screen basis).
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-
+                            Integrated Feature AddOn "OTRSCIColumns" into OTRS ITSM.
+                            This feature makes it possible to configure the shown CI-Attributes individually for each ConfigItem class.
+                            This is possible for the CI-Overview, the CI-Search-Overview and the Linked-CI view in the agent interface.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
+                            Integrated Feature AddOn "OTRSWorkOrderTimeDependency" into OTRS ITSM.
+                            If this feature is enabled and you change the planned end date of a workorder, all following workorders will also be moved accordingly, so that the time differences between the workorders will still be the same.
+                        </para>
+                    </listitem>
 
+                    <listitem>
+                        <para>
+                            Integrated Feature AddOn "OTRSCIAttributeSyntaxCheck" into OTRS ITSM.
+                            This feature makes it possible to check the syntax of CI attributes with a regular expression while adding or editing CIs via the agent interface (not while importing CIs with the Import/Export module).
+                            CI attributes of the type "Text" and "TextArea", as well as the CI name can be checked with individual regular expressions.
+                            An individual error message is shown if the attribute does not match the defined pattern.
+                            With this feature it can be enforced that for example a CI attribute must start with "ABC" or must end with a number.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature "WorkOrder Report Attachments" into OTRS ITSM.
+                            This feature adds support for attachment uploads in the workorder report screen.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            The toolbar icons now use an icon font which makes it easier to create custom skins with different base colors.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Migrated ITSMCriticality and ITSMImpact values from general catalog to dynamic fields.
+                            Renamed ITSM releated dynamic fields to nicer names, prefixed with ITSM.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            In ITSMChangeManagement the frontends to create changes / workorders have been splitted in 2 screens each.
+                            One to create a new change / workorder from scratch, and one to create it from a template.
                         </para>
                     </listitem>
 

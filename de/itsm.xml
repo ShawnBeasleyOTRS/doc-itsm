@@ -109,25 +109,62 @@
 
                     <listitem>
                         <para>
-                            Portierung des Codes auf das OTRS 3.3 Framework.
+                            Integration des Feature AddOns "OTRSServiceIncidentState" in OTRS ITSM.
+                            Es zeigt den aktuellen Incident-Status eines gewählten Services im Ticket-Zoom, und in allen Agenten-Frontends
+                            in denen ein Service ausgewählt werden kann.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-
+                            Integration des Feature AddOns "OTRSCIColumns" in OTRS ITSM.
+                            Das Feature ermöglicht es die angezeigten CI-Attribute individuell pro Config-Item-Klasse zu konfigurieren.
+                            Dieses kann in der CI-Übersicht, der CI-Such-Übersicht und in der Verlinkten CI-Übersicht konfiguriert werden.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-
+                            Integration des Feature AddOns "OTRSWorkOrderTimeDependency" in OTRS ITSM.
+                            Wenn dieses Feature aktiviert ist, kann die gelante End-Zeit einer Workorder geändert werden,
+                            und alle nachfolgenden Workorders werden entsprechend zeitlich angepasst.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
+                            Integration des Feature AddOns "OTRSCIAttributeSyntaxCheck" in OTRS ITSM.
+                            Dieses Feature ermöglicht es die Syntax von CI-Attributen mit Regulären Ausdrücken zu Überprüfen, während CI-Attribute im Agenten-Frontend bearbeitet werden (nicht möglich beim Import/Export).
+                            CI-Attribute vom Typ "Text" und "TextArea", sowie der CI-Name können mit individuellen Regulären Ausdrücken überprüft werden.
+                            Es können individuelle Fehlermeldungen angezeigt werden wenn ein Attribut nicht mit einem definerten Muster übereinstimmt.
+                            Mit Hilfe dieses Features kann z. B. erzwungen werden das ein CI-Attribut mit "ABC" beginnen, oder mit einer Zahl enden muss.
+                        </para>
+                    </listitem>
 
+                    <listitem>
+                        <para>
+                            Neues Feature "WorkOrder Report Attachments" in OTRS ITSM.
+                            Dieses Feature ermöglicht es Attachments in Workorder-Report zu verwenden.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Die Toolbar-Icons verwenden nun einen Icon-Font, was es erheblich vereinfacht individuelle Skins und Farb-Schemata zu erstellen.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Migration von ITSMCriticality und ITSMImpact vom General Catalog zu Dynamischen Feldern.
+                            Umbenennung von ITSM-Reelevanten Dynamischen Feldern zu sinnvolleren Namen (mit ITSM-Prefix).
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Im ITSMChangeManagement wurden die Masken zum Erstellen von Changes und Workordern in je 2 verschiedene Masken aufgeteilt.
+                            Je eine Maske zum Erstellen eines Changes / Workorder von Grund auf, und je eine zum Erstellen aus einem Template.
                         </para>
                     </listitem>
 
