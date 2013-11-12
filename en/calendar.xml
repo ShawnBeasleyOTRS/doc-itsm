@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
-        OTRS 3.3 initially supports up to 9 calendars, which can be configured   
-        graphically. Using the SysConfig framework found in the admin interface, 
+        OTRS 3.3 initially supports up to 9 calendars, which can be configured
+        graphically. Using the SysConfig framework found in the admin interface,
         this number can be increased to 99, by using the calendar 1 etc. links:
     </para>
     <para>
@@ -17,7 +17,7 @@
         &quot;TimeWorkingHours&quot; can be used in OTRS ITSM to define
         so-called &quot;service level windows&quot; time frames in which
         your organization guarantees certain service levels to your customers.
-        If required, these can then be monitored and/or evaluated to ensure compliance with any 
+        If required, these can then be monitored and/or evaluated to ensure compliance with any
         possible Service Level Agreements.
     </para>
     <para>

@@ -1,9 +1,9 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
     <title>The admin area of OTRS ITSM</title>
     <para>
-        The admin area is the central interface for the administrator of the ticket system. 
+        The admin area is the central interface for the administrator of the ticket system.
         All important settings of the system configuration can be checked and/or changed here,
         and the system can be customized to suit individual needs.
     </para>
@@ -11,7 +11,7 @@
         The admin area can be accessed via the "admin" link in the agent
         interface navigation bar. The link is only shown to users logged on to
         the system that have been granted administrator priviliges.
-        After the completion of a default installation you can log on to the system as 
+        After the completion of a default installation you can log on to the system as
         OTRS admin using the user name &quot;root@localhost&quot; and the password &quot;root&quot;.
     </para>
     <warning>
