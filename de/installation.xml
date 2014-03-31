@@ -21,7 +21,7 @@
         <para>
             Nachdem OTRS 3.3 bereit steht, melden Sie sich als Administrator
             in OTRS an. Mit Hilfe des Paket-Managers im Admin-Bereich bzw. von
-            ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ sind die ITSM-Pakete in
+            ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ sind die ITSM-Pakete in
             der folgenden Reihenfolge zu installieren:
         </para>
 

@@ -16,7 +16,7 @@
         <para>
             After successfully insstalling OTRS 3.3 or a later version, proceed to sign on as
             administrator. Using the package manager in the admin area or via
-            ftp://ftp.otrs.org/pub/otrs/itsm/packages32/ obtain the ITSM packages and install them
+            ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ obtain the ITSM packages and install them
             in the following order:
         </para>
         <itemizedlist>
