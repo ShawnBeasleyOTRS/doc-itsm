@@ -43,15 +43,15 @@
         </listitem>
     </itemizedlist>
     <para>
-        OTRS ITSM meets all requirements stated above and offers
+        OTRS::ITSM meets all requirements stated above and offers
         numerous additional IT support functions in the CMDB.
     </para>
 
     <sect1>
-        <title>The OTRS ITSM database model</title>
+        <title>The OTRS::ITSM database model</title>
         <para>
-            The modular architecture of OTRS ITSM and the ability to install single
-            OTRS ITSM packages independently
+            The modular architecture of OTRS::ITSM and the ability to install single
+            OTRS::ITSM packages independently
             makes it difficult to display a complete database model in a single
             graphic. For this reason, separate
             graphics will be provided for the OTRS framework and for ITSM packages which
@@ -107,7 +107,7 @@
         <para>
             Services such as &quot;standard IT workstation&quot;,
             &quot;e-mail&quot; or &quot;web access&quot; are IT products and should be compiled
-            in a &quot;IT service catalog&quot; prior to the adoption of OTRS ITSM.
+            in a &quot;IT service catalog&quot; prior to the adoption of OTRS::ITSM.
             Such a service catalog is usually customer or company specific and can be structured hierarchically.
             Furthermore, it should be formulated in a user friendly, meaning easily understood, language,
             as both IT personnel (agents) and IT users (customers) are among its audience.
@@ -117,14 +117,14 @@
                 Service catalog design is a task which should not be
                 underestimated. Our experience shows that it is highly recommendable
                 to validate conceptual thoughts in a dry run first and to transfer the
-                service structures to OTRS ITSM in a second step. It has proven of
+                service structures to OTRS::ITSM in a second step. It has proven of
                 value to resort to external assistance, e.g. of ITIL practice
                 experts.
             </para>
         </warning>
         <para>
             Example of (part of) a hierarchic IT service catalog specified
-            in OTRS ITSM as shown when a ticket is created
+            in OTRS::ITSM as shown when a ticket is created
         </para>
         <para>
             <screenshot>
@@ -161,10 +161,10 @@
             </screenshot>
         </para>
         <para>
-            OTRS ITSM offers by default up to 99 different calendars to
+            OTRS::ITSM offers by default up to 99 different calendars to
             describe the various time zones for work or service times. The SLAs
             can be allocated to them (&quot;service level window&quot;). Various
-            time spans can be entered (in minutes) which OTRS ITSM uses to
+            time spans can be entered (in minutes) which OTRS::ITSM uses to
             control notification and escalation:
         </para>
         <itemizedlist>
@@ -228,7 +228,7 @@
                 "update time" and "solution time" assigned to all queues!
             </para>
         </warning>
-        <para>Important time values of OTRS ITSM are based on the &quot;ITIL
+        <para>Important time values of OTRS::ITSM are based on the &quot;ITIL
             incident lifecycle&quot;:  </para>
         <para>
             <screenshot>
@@ -266,10 +266,10 @@
         <para>
             The graphic exemplifies the links between CIs. OTRS
             differentiates between bidirectional and nondirectional links.
-            Whenever a CI is linked to another CMDB object, OTRS ITSM
+            Whenever a CI is linked to another CMDB object, OTRS::ITSM
             automatically creates the respective reverse link.
         </para>
-        <para>The OTRS ITSM standard offers seven link types:</para>
+        <para>The OTRS::ITSM standard offers seven link types:</para>
         <para>
             <screenshot>
                 <screeninfo>agent-configitem-management-link2</screeninfo>
@@ -305,7 +305,7 @@
         <para>
             The data model can be adapted flexibly and can be extended with
             data types, attributes and even classes. Detailed information can be
-            found in the section "The admin area of OTRS ITSM" in this document
+            found in the section "The admin area of OTRS::ITSM" in this document
             or in "The admin area of OTRS" in the OTRS Admin Manual.
         </para>
         <warning>
@@ -314,7 +314,7 @@
                 within it, is a task which should not be underestimated. Our
                 experience shows that it is highly recommendable to validate
                 conceptual thoughts in a dry run against the existing IT
-                infrastructure first and to change the OTRS ITSM default data model
+                infrastructure first and to change the OTRS::ITSM default data model
                 and CI classes only afterwards. It has proven of value to resort to
                 external assistance, e.g. of ITIL practice experts for CMDB design.
             </para>
@@ -324,12 +324,12 @@
         <title>Ticket types and attributes</title>
         <para>
             With OTRS 2.2, native ticket types were introduced, which are
-            used in OTRS ITSM, too. In the ITIL sub-processes, which can be
+            used in OTRS::ITSM, too. In the ITIL sub-processes, which can be
             structured in queues, tickets are classified by their ticket types.
         </para>
         <para>
             All ITIL processes to be implemented in later versions of
-            OTRS ITSM, e.g. change management, will be implemented in such a
+            OTRS::ITSM, e.g. change management, will be implemented in such a
             way. Ticket types such as RfC (&quot;Request for Change&quot;) could
             be created.
         </para>
@@ -342,7 +342,7 @@
         <warning>
             <para>
                 In order to assure the consistency of the data managed in
-                OTRS ITSM, information created in the admin area of the system
+                OTRS::ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
                 from "valid" to "invalid" or "invalid-temporarily".

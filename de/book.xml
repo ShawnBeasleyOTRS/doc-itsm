@@ -7,15 +7,15 @@
     <bookinfo>
 
         <title>
-          OTRS ITSM 3.3 - Grundlagen
+          OTRS::ITSM 4 - Grundlagen
         </title>
 
         <copyright>
-           <year>2003-2013</year>
+           <year>2003-2014</year>
            <holder>OTRS AG</holder>
         </copyright>
 
-        <date>23.10.2013</date>
+        <date>24.10.2013</date>
 
         <legalnotice>
             <para>

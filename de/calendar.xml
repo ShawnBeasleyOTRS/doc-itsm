@@ -20,7 +20,7 @@
     </para>
 
     <para>
-        Die "TimeWorkingHours" können in OTRS ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den Zeiträumen,
+        Die "TimeWorkingHours" können in OTRS::ITSM zur Definition von so genannten "Service Level Windows" genutzt werden, also den Zeiträumen,
         in denen der entsprechende Service Level garantiert, ggfs. überwacht bzw. für die Service Level Einhaltung bewertet, wird.
     </para>
     <para>

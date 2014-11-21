@@ -4,9 +4,9 @@
 
 <chapter>
 
-    <title>OTRS ITSM Schnittstellen</title>
+    <title>OTRS::ITSM Schnittstellen</title>
 
-    <para>Zum Datenaustausch zwischen OTRS ITSM und anderen (ITSM-)Softwareprodukten existieren folgende, zum Teil generische, Schnittstellen:</para>
+    <para>Zum Datenaustausch zwischen OTRS::ITSM und anderen (ITSM-)Softwareprodukten existieren folgende, zum Teil generische, Schnittstellen:</para>
 
     <para>
         <itemizedlist>

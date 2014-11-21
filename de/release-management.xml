@@ -8,7 +8,7 @@
 
     <para>
         Der Release Management Prozess wird in einer späteren Version von
-        OTRS ITSM implementiert sein. Die grundlegenden Informationen lassen
+        OTRS::ITSM implementiert sein. Die grundlegenden Informationen lassen
         sich jedoch bereits ab der Version 1.0 konfigurieren, erfassen und
         steuern.
     </para>

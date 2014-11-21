@@ -4,7 +4,7 @@
 
 <chapter>
     <title>
-        OTRS ITSM - das OTRS für IT Service Management
+        OTRS::ITSM - das OTRS für IT Service Management
     </title>
     <para>
         Die IT ist heute zunehmend gefragt, in einem Umfeld steigender
@@ -54,21 +54,21 @@
         Abteilungen effektiv.
     </para>
     <para>
-       Die Entwicklung von OTRS ITSM wurde sozusagen als logische
+       Die Entwicklung von OTRS::ITSM wurde sozusagen als logische
         Konsequenz des großen Erfolgs des Open Ticket Request Systems OTRS
         initiiert, um die weltweit anerkannten, öffentlichen ITIL-Empfehlungen
         mit den Vorzügen quelloffener Software zu verbinden.
     </para>
     <para>
-       Mit OTRS ITSM 1.0 steht seit 2007 erstmalig eine praxistaugliche
+       Mit OTRS::ITSM 1.0 steht seit 2007 erstmalig eine praxistaugliche
         ITIL konforme IT Service Management Lösung auf Open Source Basis zur
         Verfügung, die auf dem soliden Fundament von über 110.000 bekannten
         OTRS Installationen und der sich so entwickelten, aktiven Community
-        basiert (Stand: 04/2007). OTRS ITSM wird ständig weiterentwickelt und
+        basiert (Stand: 04/2007). OTRS::ITSM wird ständig weiterentwickelt und
         um weitere ITIL-Disziplinen erweitert.
     </para>
     <para>
-        Oberstes Ziel bei der (Weiter-)Entwicklung von OTRS ITSM ist der
+        Oberstes Ziel bei der (Weiter-)Entwicklung von OTRS::ITSM ist der
         hohe Praxisbezug. Dieser Forderung wird durch die enge
         Entwicklungspartnerschaft mit der in der praktischen ITIL-Anwendung
         sehr erfahrenen Enterprise Consulting GmbH aus Bad Homburg, Rechnung
@@ -78,12 +78,12 @@
     <para>
         Die Service Desk- und Ticket-System-Lösung OTRS bildet die Basis
         für den Betrieb der ITIL konformen IT Service Management Lösung
-        OTRS ITSM und seiner Module Incident Management, Problem Management,
+        OTRS::ITSM und seiner Module Incident Management, Problem Management,
         Service Level Management und Configuration Management inklusive der
         integrierten CMDB.
     </para>
     <para>
-        OTRS ITSM sowie OTRS sind ohne Lizenzgebühren erhältlich und
+        OTRS::ITSM sowie OTRS sind ohne Lizenzgebühren erhältlich und
         unterliegen der GNU General Public License (GPL).
     </para>
 
@@ -92,7 +92,7 @@
             Features
         </title>
         <para>
-            Basis von OTRS ITSM 3.3 ist das Open Ticket Request System OTRS
+            Basis von OTRS::ITSM 3.3 ist das Open Ticket Request System OTRS
             3.3, d.h. es stehen auch weiterhin alle Funktionalitäten zur
             Verfügung, die Sie von OTRS bislang kennen. Darauf aufbauend werden
             die Funktionalitäten zur Abbildung der ITIL Prozesse als so genannte
@@ -101,15 +101,15 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 3.3
+                Neue Features in OTRS::ITSM 3.3
             </title>
-            <para>OTRS ITSM 3.3 bietet:</para>
+            <para>OTRS::ITSM 3.3 bietet:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSServiceIncidentState" in OTRS ITSM.
+                            Integration des Feature AddOns "OTRSServiceIncidentState" in OTRS::ITSM.
                             Es zeigt den aktuellen Incident-Status eines gewählten Services im Ticket-Zoom, und in allen Agenten-Frontends
                             in denen ein Service ausgewählt werden kann.
                         </para>
@@ -117,7 +117,7 @@
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSCIColumns" in OTRS ITSM.
+                            Integration des Feature AddOns "OTRSCIColumns" in OTRS::ITSM.
                             Das Feature ermöglicht es die angezeigten CI-Attribute individuell pro Config-Item-Klasse zu konfigurieren.
                             Dieses kann in der CI-Übersicht, der CI-Such-Übersicht und in der Verlinkten CI-Übersicht konfiguriert werden.
                         </para>
@@ -125,7 +125,7 @@
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSWorkOrderTimeDependency" in OTRS ITSM.
+                            Integration des Feature AddOns "OTRSWorkOrderTimeDependency" in OTRS::ITSM.
                             Wenn dieses Feature aktiviert ist, kann die gelante End-Zeit einer Workorder geändert werden,
                             und alle nachfolgenden Workorders werden entsprechend zeitlich angepasst.
                         </para>
@@ -133,7 +133,7 @@
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSCIAttributeSyntaxCheck" in OTRS ITSM.
+                            Integration des Feature AddOns "OTRSCIAttributeSyntaxCheck" in OTRS::ITSM.
                             Dieses Feature ermöglicht es die Syntax von CI-Attributen mit Regulären Ausdrücken zu Überprüfen, während CI-Attribute im Agenten-Frontend bearbeitet werden (nicht möglich beim Import/Export).
                             CI-Attribute vom Typ "Text" und "TextArea", sowie der CI-Name können mit individuellen Regulären Ausdrücken überprüft werden.
                             Es können individuelle Fehlermeldungen angezeigt werden wenn ein Attribut nicht mit einem definerten Muster übereinstimmt.
@@ -143,7 +143,7 @@
 
                     <listitem>
                         <para>
-                            Neues Feature "WorkOrder Report Attachments" in OTRS ITSM.
+                            Neues Feature "WorkOrder Report Attachments" in OTRS::ITSM.
                             Dieses Feature ermöglicht es Attachments in Workorder-Report zu verwenden.
                         </para>
                     </listitem>
@@ -173,9 +173,9 @@
         </sect2>
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 3.2
+                Neue Features in OTRS::ITSM 3.2
             </title>
-            <para>OTRS ITSM 3.2 bietet:</para>
+            <para>OTRS::ITSM 3.2 bietet:</para>
             <para>
                 <itemizedlist>
 
@@ -209,9 +209,9 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 3.1
+                Neue Features in OTRS::ITSM 3.1
             </title>
-            <para>OTRS ITSM 3.1 bietet:</para>
+            <para>OTRS::ITSM 3.1 bietet:</para>
             <para>
                 <itemizedlist>
 
@@ -239,9 +239,9 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 3.0
+                Neue Features in OTRS::ITSM 3.0
             </title>
-            <para>OTRS ITSM 3.0 bietet:</para>
+            <para>OTRS::ITSM 3.0 bietet:</para>
             <para>
                 <itemizedlist>
 
@@ -273,9 +273,9 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 2.1
+                Neue Features in OTRS::ITSM 2.1
             </title>
-            <para>OTRS ITSM 2.1 bietet:</para>
+            <para>OTRS::ITSM 2.1 bietet:</para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -302,15 +302,15 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 2.0
+                Neue Features in OTRS::ITSM 2.0
             </title>
-            <para>OTRS ITSM 2.0 bietet:</para>
+            <para>OTRS::ITSM 2.0 bietet:</para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>Change Management</para>
                         <para>
-                            Das neue OTRS ITSM Paket "ITSMChangeManagement" implementiert die
+                            Das neue OTRS::ITSM Paket "ITSMChangeManagement" implementiert die
                             ITIL-Disziplin Change Management.
                         </para>
                     </listitem>
@@ -320,28 +320,28 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 1.3
+                Neue Features in OTRS::ITSM 1.3
             </title>
             <para>
-                Basis von OTRS ITSM 1.3 ist das Open Ticket Request System OTRS 2.4
+                Basis von OTRS::ITSM 1.3 ist das Open Ticket Request System OTRS 2.4
             </para>
             <para>
-                Es bietet die selben Features wie OTRS ITSM 1.2, aber benötigt das OTRS 2.4 Framework.
+                Es bietet die selben Features wie OTRS::ITSM 1.2, aber benötigt das OTRS 2.4 Framework.
             </para>
         </sect2>
         <sect2>
             <title>
-                Neue Features in OTRS ITSM 1.2
+                Neue Features in OTRS::ITSM 1.2
             </title>
             <para>
-                OTRS ITSM 1.2 bietet:
+                OTRS::ITSM 1.2 bietet:
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>Modularisierung</para>
                         <para>
-                            Die OTRS ITSM Pakete wurden neu aufgeteilt, somit repräsentiert
+                            Die OTRS::ITSM Pakete wurden neu aufgeteilt, somit repräsentiert
                             jedes Paket eine ITIL-Disziplin,
                             wie z. B. Incident/Problem-Management, Configuration Management und
                             Service-Level Management.
@@ -353,7 +353,7 @@
                     <listitem>
                         <para>Reduzierte Seiten-Reloads</para>
                         <para>
-                            Einige OTRS ITSM Funktionalitäten (z. B. Prioritätsberechnungen
+                            Einige OTRS::ITSM Funktionalitäten (z. B. Prioritätsberechnungen
                             aufgrund der Ticket-Auswirkung) wurden mit Hilfe von
                             AJAX-Technologien neu
                             implementiert. Damit wird das erneute Laden von Seiten reduziert.
@@ -363,13 +363,13 @@
                     <listitem>
                         <para>Gemeinsamer Link-Objekt Mechanismus</para>
                         <para>
-                            Versionen vor OTRS ITSM 1.2 verwendeten einen eigenen Link-Objekt
+                            Versionen vor OTRS::ITSM 1.2 verwendeten einen eigenen Link-Objekt
                             Mechanismus.
                             Aufgrund dessen konnte der in OTRS verwendete Link-Mechanismus nicht in
-                            OTRS ITSM benutzt werden.
+                            OTRS::ITSM benutzt werden.
                             Deswegen wurde ein neuer, gemeinsamer Link-Mechnismus implementiert, der
                             nun von OTRS,
-                            als auch von OTRS ITSM verwendet wird.
+                            als auch von OTRS::ITSM verwendet wird.
                         </para>
                     </listitem>
 
@@ -421,8 +421,8 @@
         </sect2>
 
         <sect2>
-            <title>Neue Features in OTRS ITSM 1.1</title>
-            <para>OTRS ITSM 1.1 bietet:</para>
+            <title>Neue Features in OTRS::ITSM 1.1</title>
+            <para>OTRS::ITSM 1.1 bietet:</para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -722,8 +722,8 @@
         </sect2>
 
         <sect2>
-            <title>Features in OTRS ITSM 1.0</title>
-            <para>OTRS ITSM 1.0 bietet:</para>
+            <title>Features in OTRS::ITSM 1.0</title>
+            <para>OTRS::ITSM 1.0 bietet:</para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -793,7 +793,7 @@
             <para>Configuration Management &amp; Integrierte CMDB:</para>
 
             <para>
-                OTRS ITSM basiert auf einer integrierten Configuration
+                OTRS::ITSM basiert auf einer integrierten Configuration
                 Management Data Base (CMDB), die das Fundament für die durchgängige
                 Steuerung der Service Management Prozesse darstellt. Sie bildet
                 neben den Configuration Items (CI) vor allem deren komplexe
@@ -1146,7 +1146,7 @@
     <sect1>
         <title>Hard- und Software-Anforderungen</title>
 
-        <para>Die Anforderungen für OTRS ITSM unterscheiden sich nicht von
+        <para>Die Anforderungen für OTRS::ITSM unterscheiden sich nicht von
             denen für OTRS. Entsprechende Informationen sind im OTRS
             Admin-Handbuch zu finden.</para>
     </sect1>
@@ -1169,7 +1169,7 @@
         </para>
 
         <para>
-            Auch für OTRS ITSM sind diese Community-Kanäle nutzbar, um die
+            Auch für OTRS::ITSM sind diese Community-Kanäle nutzbar, um die
             Qualität des Produktes fortlaufend zu verbessern. Die Community ist
             über die Homepage
             <ulink url="http://otrs.org/">
@@ -1191,7 +1191,7 @@
         <title>Mailing Listen</title>
 
         <para>
-            Für OTRS ITSM sind eigene Mailinglisten eingerichtet. Diese sind
+            Für OTRS::ITSM sind eigene Mailinglisten eingerichtet. Diese sind
             unter
             <ulink url="http://lists.otrs.org/">
                 <citetitle>http://lists.otrs.org</citetitle>
