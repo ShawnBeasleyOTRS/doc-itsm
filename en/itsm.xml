@@ -95,7 +95,7 @@
 
                     <listitem>
                         <para>
-                            New powerful template engine based on <a href="http://www.template-toolkit.org/">Template::Toolkit</a>.
+                            New powerful template engine based on <ulink url="http://www.template-toolkit.org/">Template::Toolkit</ulink>
                         </para>
                     </listitem>
 
