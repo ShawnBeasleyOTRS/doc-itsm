@@ -1,149 +1,144 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
- "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
+]>
 
 <chapter>
-
     <title>
         Change Management
     </title>
-
     <para>
-        Das Change Management ist nach ITIL ein Prozess der Service Transition und hat zur Aufgabe Veränderungen der IT kontrolliert,
-        d. h. geplant, dokumentiert und unter Berücksichtigung erforderlicher Freigaben, durchzuführen.
-        Ziel ist die Minimierung von negativen Auswirkungen auf die IT-Landschaft, v. a. auf kritische Services,
-        resultierend aus ad hoc, respektive unkontrollierten Changes/Änderungen.
+        Change Management, according to ITIL, is a Service Transition process whose
+purpose is to manage IT changes, including planning, documentation, and
+implementation upon approval and clearance. The objective is to minimize
+negative effects on the IT infrastructure, particularly on critical
+services, resulting from ad-hoc or poorly-managed changes or amendments.
     </para>
-
     <sect1>
         <title>
-            Voraussetzungen für die Nutzung des Change Management Moduls
+            Change Management Module Requirements
         </title>
-
         <sect2>
             <title>
-                Fachliche Voraussetzungen
+                Required Expertise
             </title>
             <para>
-                Die Einführung von OTRS::ITSM erfordert eine ausreichend fachliche Spezifikation / Vorbereitung.
-                So gilt es im Vorfeld einer technischen Einführung den Prozess Change Management zu definieren,
-                sowie benötigte Arbeitsabläufe (Workflows), Kennzahlen / Reports auszuarbeiten.
+                The implementation of OTRS::ITSM requires significant technical
+specification and preparation. Prior to a technical implementation, key
+elements of the Change Management process, such as required workflows,
+metrics, or reports, must be defined.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Technische Voraussetzungen
+                Technical Requirements
             </title>
             <para>
-                Die Nutzung des Change Management Moduls erfordert zwingend:
+                The software below is necessary to implement the Change Management module:
             </para>
             <para>
                 <orderedlist>
                     <listitem>
                         <para>
-                            das OTRS Framework in Version 3.3.1 oder höher
+                            OTRS Framework, version 3.3.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "GeneralCatalog" in Version 3.3
+                            ITSM &quot;GeneralCatalog&quot; package, version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMCore" in Version 3.3
+                            ITSM &quot;ITSMCore&quot; package, version 3.3
                         </para>
                     </listitem>
                 </orderedlist>
             </para>
             <para>
-                Die Nutzung der nachstehenden Pakete wird empfohlen,
-                ist jedoch aus technischer Sicht nicht zwingend erforderlich:
+                The following packages are recommended, but from a technical perspective
+they are not completely necessary:
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMIncidentProblemManagement" Version 3.3
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMServiceLevelManagement" in Version 3.3
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ITSMConfigurationManagement" in Version 3.3
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            das ITSM-Paket "ImportExport" in Version 3.3
+                            ITSM &quot;ImportExport&quot; package, version 3.3
                         </para>
                     </listitem>
                 </itemizedlist>
             </para>
         </sect2>
-
     </sect1>
-
     <sect1>
         <title>
-            Abbildung des Change Managements in OTRS::ITSM
+            Diagram of Change Management in OTRS::ITSM
         </title>
         <para>
-            Die Implementierung des Change Managements in OTRS::ITSM definiert einen Change als eine Veränderung
-            an der vorhandenen IT-Landschaft, z. B. die Bereitstellung eines neuen Emailservers.
+            The Change Management implementation in OTRS::ITSM defines a Change as an
+alteration of the existing IT landscape, such as the installation of a new
+mail server.
         </para>
         <para>
-            Da diese Änderung typischerweise aus diversen Teilaufgaben besteht, bietet OTRS::ITSM die Möglichkeit
-            pro Change eine beliebige Anzahl dieser Teilaufgaben, sog. Work Orders zu definieren.
+            As Changes typically consist of several sub-tasks, OTRS::ITSM allows any
+number of sub-tasks to be defined per change. These are known as Work
+Orders.
         </para>
         <para>
             <screenshot>
-                <screeninfo>
-                    change-workorder-schema
-                </screeninfo>
-                <graphic srccredit="change-workorder-schema - screenshot" scale="75" fileref="screenshots/change-workorder-schema.png"/>
-            </screenshot>
+<screeninfo>
+change-workorder-schema</screeninfo> <graphic
+fileref="screenshots/change-workorder-schema.png"
+srccredit="change-workorder-schema - screenshot" scale="75" /></screenshot>
         </para>
     </sect1>
-
     <sect1>
         <title>
-            Verfügbare Benutzerrollen
+            Available User Roles
         </title>
         <para>
-            Der Zugriff auf das Change Management wird durch die Verwendung des bekannten Rollenkonzepts gesteuert.
-            Durch den OTRS-Administrator erfolgt die Anlage der benötigten Benutzerrollen, die mit entsprechenden
-            Berechtigungen auf die Benutzergruppen des Change Management bestückt werden.
+            Access to the Change Management module is managed on a role-based access
+concept. The required user roles are created via the OTRS Administrator,
+according to corresponding user group permissions in the Change Management
+module.
         </para>
         <para>
             <screenshot>
-                <screeninfo>
-                    otrs-permissions-roles
-                </screeninfo>
-                <graphic srccredit="otrs-permissions-roles - screenshot" scale="75" fileref="screenshots/otrs-permissions-roles.png"/>
-            </screenshot>
+<screeninfo>
+otrs-permissions-roles</screeninfo> <graphic
+fileref="screenshots/otrs-permissions-roles.png"
+srccredit="otrs-permissions-roles - screenshot" scale="75" /></screenshot>
         </para>
         <para>
-            Durch die Installation der unter "Technische Voraussetzungen" genannten OPMs werden die in nachstehender
-            Tabelle aufgeführten Benutzergruppen angelegt:
+            By installing the OPMs listed under &quot;Technical Requirements&quot;, the
+user groups in the table below will be created:
         </para>
         <table>
             <title>
-                Benutzerrollen
+                User roles
             </title>
             <tgroup cols="2">
                 <thead>
                     <row>
                         <entry>
-                            Benutzerrolle
+                            User role
                         </entry>
                         <entry>
-                            Beschreibung
+                            Access and privileges
                         </entry>
                     </row>
                 </thead>
@@ -154,11 +149,11 @@
                         </entry>
                         <entry>
                             <para>
-                                Mitglieder dieser Benutzergruppe haben Zugriff auf das Change Management.
-                                Dieser Gruppe sollten alle potenziellen Work Order Agenten zugewiesen werden.
+                                Members of this user group have access to the Change Management module.  All
+potential Work Order Agents should be assigned to this group.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                All Changes and Work Orders can be viewed by these users.
                             </para>
                         </entry>
                     </row>
@@ -168,14 +163,15 @@
                         </entry>
                         <entry>
                             <para>
-                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                                Members of this user group can create new Changes and Work Orders in the
+system.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                All Changes and Work Orders can be viewed by this group.
                             </para>
                             <para>
-                                Changes und Work Order die der Change Builder erstellt hat, bzw.
-                                als Change Builder definiert ist, können editiert werden.
+                                Changes and Work Orders created by the Change Builder, or that have been
+defined as accessible to the Change Builder, may be edited by these users.
                             </para>
                         </entry>
                     </row>
@@ -185,13 +181,14 @@
                         </entry>
                         <entry>
                             <para>
-                                Mitglieder dieser Benutzergruppe können neue Changes sowie Work Orders im System erstellen.
+                                Members of this user group can create new Changes and Work Orders in the
+system.
                             </para>
                             <para>
-                                Alle Changes und Work Order können eingesehen werden.
+                                All Changes and Work Orders can be viewed by this group.
                             </para>
                             <para>
-                                Alle Changes und Work Order können editiert werden.
+                                These users can edit all Changes and Work Orders.
                             </para>
                         </entry>
                     </row>
@@ -199,50 +196,48 @@
             </tgroup>
         </table>
     </sect1>
-
     <sect1>
         <title>
-            Grundlegender Workflow
+            Underlying Workflow
         </title>
         <para>
-            Die Erstellung eines Changes inkl. aller benötigten Work Order wird über nachstehenden Workflow realisiert.
+            The implementation of a change, including all required Work Orders, follows
+the underlying workflow shown below.
         </para>
         <para>
             <screenshot>
-                <screeninfo>
-                    change-workflow
-                </screeninfo>
-                <graphic srccredit="change-workflow - screenshot" scale="75" fileref="screenshots/change-workflow.png"/>
-            </screenshot>
+<screeninfo>
+change-workflow</screeninfo> <graphic
+fileref="screenshots/change-workflow.png" srccredit="change-workflow -
+screenshot" scale="75" /></screenshot>
         </para>
     </sect1>
-
     <sect1>
         <title>
-            Erstellung eines Change
+            Creating a New Change
         </title>
         <sect2>
             <title>
-                Attribute eines Change
+                Attributes of a Change
             </title>
             <para>
-                Die Erfassung eines neuen Change erfordert die Erfassung der nachstehenden Attribute.
+                To create a new Change, the following attributes must be entered.
             </para>
             <table>
                 <title>
-                    Attribute eines Change
+                    Attributes of a Change
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Pflichtfeld
+                                Required Field
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -252,10 +247,10 @@
                                 Title
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Kurzbeschreibung / Titel des Change
+                                Short description / name of Change
                             </entry>
                         </row>
                         <row>
@@ -263,10 +258,10 @@
                                 Description
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Langtext-Beschreibung des Change
+                                Longer text description of the Change
                             </entry>
                         </row>
                         <row>
@@ -274,22 +269,21 @@
                                 Justification
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Textuelle Beschreibung der "Justification" und Beantwortung der Frage
-                                "Was ist die zu erwartende Konsequenz, wenn der Change nicht durchgeführt wird?"
-                            </entry>
+                                Text explanation of the reasons behind the Change; answer to the question:
+&quot;What is the likely consequence if the Change is not implemented?&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 Category
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Kategorie des Change, z. B. "3 normal", etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
                             </entry>
                         </row>
                         <row>
@@ -297,10 +291,11 @@
                                 Impact
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Auswirkung des Change, z. B. "4 hoch", etc.
+                                Defines the effects or impact the Change will have, eg. &quot;4 high&quot;,
+etc.
                             </entry>
                         </row>
                         <row>
@@ -308,10 +303,11 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.
+                                Defines the priority of the Change, eg. &quot;5 very high&quot;, &quot;3
+normal&quot;, etc. .
                             </entry>
                         </row>
                         <row>
@@ -319,14 +315,13 @@
                                 State
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Der Status eines Change wird bei Neuanlage automatisch gesetzt.
-                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
-                                und Change Manager möglich den Status manuell zu setzen.
-                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
-                                definiert, siehe<xref linkend="change_state_machine"/>.
+                                When creating a new Change, the status is automatically set.  When modifying
+an existing Change, the Change Builder and Change Manager can manually set
+the status. Available status and result status are defined by the integrated
+State Machine, see <xref linkend="change_state_machine" /> .
                             </entry>
                         </row>
                         <row>
@@ -334,12 +329,12 @@
                                 Requested (by customer) Date
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
-                                und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
-                                des Kunden dar.
+                                If required, this attribute can be deactivated via SysConfig for the
+&apos;ChangeEdit&apos;, &apos;ChangeAdd&apos; and &apos;ChangeZoom&apos;
+templates, and display the customer&apos;s desired implementation date.
                             </entry>
                         </row>
                         <row>
@@ -347,49 +342,49 @@
                                 Attachment
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Ermöglicht es beliebige Dateianlagen zu hinterlegen.
+                                Enables related files and documents to be attached
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
-                Matrix Category - Impact - Priority
+                Category - Impact - Priority Matrix
             </title>
             <para>
-                Für die Ermittlung der Priorität eines Changes unterstützt OTRS::ITSM den Change Builder
-                durch eine integrierte Matrix, die nach Auswahl der Kategorie und Impact des Changes die
-                im System hinterlegte Priorität zur Auswahl anbietet, die durch den Change Builder
-                jedoch auch überschrieben werden kann.
+                To determine the priority of a Change, OTRS::ITSM supports the Change
+Builder through an integrated matrix which suggests a priority for
+selection, based on the chosen category and change impact entered in the
+system. This suggested priority can always be overridden by the Change
+Builder.
             </para>
             <para>
-                Die nach der Installation vorhandenen Werte der Auswahlfelder Category, Impact und Priority
-                können durch den Administrator über den GeneralCatalog angepasst werden.
+                The category, impact and priority values given upon installation can be
+customized in the General Catalog by the administrator.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-matrix
-                    </screeninfo>
-                    <graphic srccredit="change-matrix - screenshot" scale="50" fileref="screenshots/change-matrix.png"/>
-                </screenshot>
+<screeninfo>
+change-matrix</screeninfo> <graphic
+fileref="screenshots/change-matrix.png" srccredit="change-matrix -
+screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Hierzu muss im Administrations-Interface von OTRS::ITSM der Menüpunkt "General Catalog" selektiert werden.
+                Here, the menu item &quot;General Catalog&quot; should be selected in the
+OTRS::ITSM Administration interface.
             </para>
             <sect3>
                 <title>
-                    ITSM::ChangeManagement::Category
+                    ITSM::Change Management::Category
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
-                    Category die folgenden Werte:
+                    Upon installation, OTRS::ITSM Change Management generates the following
+values for the Category selection field:
                 </para>
                 <itemizedlist>
                     <listitem>
@@ -421,11 +416,11 @@
             </sect3>
             <sect3>
                 <title>
-                    ITSM::ChangeManagement::Impact
+                    ITSM::Change Management::Impact
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
-                    Impact die folgenden Werte:
+                    Upon installation, OTRS::ITSM Change Management generates the following
+values for the Impact selection field:
                 </para>
                 <itemizedlist>
                     <listitem>
@@ -457,11 +452,11 @@
             </sect3>
             <sect3>
                 <title>
-                    ITSM::ChangeManagement::Priority
+                    ITSM::Change Management::Priority
                 </title>
                 <para>
-                    Die Installation des OTRS::ITSM Change Managements erstellt für das Auswahlfeld
-                    Priority die folgenden Werte:
+                    Upon installation, OTRS::ITSM Change Management generates the following
+values for the Priority selection field:
                 </para>
                 <itemizedlist>
                     <listitem>
@@ -492,63 +487,61 @@
                 </itemizedlist>
             </sect3>
         </sect2>
-
         <sect2 id="change_state_machine">
             <title>
                 Change State Machine
             </title>
             <para>
-                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Change gültige Status,
-                sowie mögliche Folgestatus zu definieren. Die Standardinstallation legt hierfür folgendes
-                logisches Modell an:
+                OTRS::ITSM features a State Machine which defines valid statuses and
+possible result statuses for a Change. The standard installation generates
+suggestions based on the following logic model:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-state-machine
-                    </screeninfo>
-                    <graphic srccredit="change-state-machine - screenshot" scale="50" fileref="screenshots/change-state-machine.png"/>
-                </screenshot>
+<screeninfo>
+change-state-machine</screeninfo> <graphic
+fileref="screenshots/change-state-machine.png"
+srccredit="change-state-machine - screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Anpassungen an der aufgezeigten State Machine können durch den System Administrator
-                im Administrator Frontend über den Menüpunkt "State Machine" geändert werden,
-                durch die Definition von Status und möglicher Folgestatus.
+                Adjustments to the State Machine can be made by the system administrator in
+the administration front end, under menu option &quot;State
+Machine&quot;. The statuses and possible result statuses should be defined
+here.
             </para>
             <para>
-                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::Change::State" durchgeführt werden.
-                Die Abbildung in OTRS::ITSM erfolgt über eine tabellarische Darstellung:
+                Where necessary, additional statuses can be defined under the menu option
+&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
+Management::Change::State&quot;. In OTRS::ITSM, this is illustrated as a
+table:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-state-transition
-                    </screeninfo>
-                    <graphic srccredit="change-state-transition - screenshot" scale="50" fileref="screenshots/change-state-transition.png"/>
-                </screenshot>
+<screeninfo>
+change-state-transition</screeninfo> <graphic
+fileref="screenshots/change-state-transition.png"
+srccredit="change-state-transition - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Definition beteiligter Rollen / Personen eines Change
+                Defining Participant Roles / Persons Related to a Change
             </title>
             <para>
-                Nach Erfassung der Grunddaten eines Change, können die an diesem Change beteiligten Personen
-                über die Funktionalität "Involved Persons" definiert werden.
+                After entering the basic data of the Change, the persons participating in
+implementation can be defined in the Involved Persons feature.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-involved-persons
-                    </screeninfo>
-                    <graphic srccredit="change-involved-persons - screenshot" scale="50" fileref="screenshots/change-involved-persons.png"/>
-                </screenshot>
+<screeninfo>
+change-involved-persons</screeninfo> <graphic
+fileref="screenshots/change-involved-persons.png"
+srccredit="change-involved-persons - screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Das System bietet hierzu komfortabel Zugriff auf alle angebundenen Kunden- und Agentenbackends,
-                z. B. SQL-Datenbanken oder LDAP-Verzeichnisdienste. Sofern definiert, kann das CAB anhand eines
-                hinterlegten CAB-Templates definiert werden.
+                Here, the system offers convenient access to all connected client backends
+and agent backends, such as SQL databases or LDAP directory services. If
+specified, the CAB can be defined according to an existing CAB template.
             </para>
             <table>
                 <title>
@@ -558,13 +551,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Pflichtfeld
+                                Required Field
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -574,10 +567,10 @@
                                 Change Manager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Gibt einen Agenten mit der Funktion des Change Managers für den aktuellen Change an.
+                                Assigns Change Manager privileges to an agent, for the current Change.
                             </entry>
                         </row>
                         <row>
@@ -585,11 +578,12 @@
                                 Change Builder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert den Agent, der den aktuellen Change bearbeitet und definiert.
-                                Bei Neuerstellung eines Change wird der aktuelle Agent automatisch eingetragen.
+                                Defines the agent who processes and defines the current Change. When
+creating a new Change, the current agent is automatically entered as the
+Change Builder.
                             </entry>
                         </row>
                         <row>
@@ -597,42 +591,41 @@
                                 Change Advisory Board
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Definiert eine Personengruppe, die sich aus Agents und Kunden zusammenstellen kann.
+                                Defines a group of people which can include agents and customers.
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
-                Verknüpfung Change mit RfC
+                Linking a Change with a Request for Change
             </title>
             <para>
-                Über den, aus dem OTRS Framework bekannten, Linkmechanismus unterstützt das System die Verknüpfung
-                eines Change mit Tickets. Hierdurch kann der Ursprung eines Change, z. B. RfC oder Problem,
-                kenntlich gemacht werden.
+                Through the OTRS Framework&apos;s renowned linking mechanism, the system
+allows a change to be linked to a ticket. In this way, the origin of a
+change ie. the Request for Change or problem can be easily identified.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-rfc-relation
-                    </screeninfo>
-                    <graphic srccredit="change-rfc-relation - screenshot" scale="50" fileref="screenshots/change-rfc-relation.png"/>
-                </screenshot>
+<screeninfo>
+change-rfc-relation</screeninfo> <graphic
+fileref="screenshots/change-rfc-relation.png" srccredit="change-rfc-relation
+- screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Zusätzlich ist es innerhalb der Prozesse Incident oder Problem Management,
-                d. h. Ausgangslage Ticketsystem, möglich aus einem Ticket heraus direkt einen Change zu eröffnen.
-                Das System erstellt in diesem Fall transparent die Verlinkung zwischen Ticket und Change.
-                Diese Funktionalität kann per Konfiguration auf Agents eingeschränkt werden,
-                die zur Erstellung von Changes berechtigt sind.
-                Ausserdem ist es möglich, die Verwendung des Ticket-Typs "RfC" nur den Agenten zu gestatten,
-                die Zugriff auf den Change Management Bereich haben. Bitte sehen Sie sich dazu auch die folgenden Sysconfig-Optionen an:
+                Furthermore, it is possible to open the corresponding Change directly from a
+ticket within the Incident or Problem Management process i.e., the ticket
+system from which it originated.  In this case, the system creates a
+transparent link between the ticket and Change. In the configuration, this
+feature can be restricted to only those agents who are permitted to create
+Changes.  It is also possible to resctrict the usage of the ticket type
+"RfC" to only those agents who have access to the Change Management area.
+Please have a look at the following sysconfig options:
                 <itemizedlist>
                     <listitem>
                         <para>
@@ -641,63 +634,65 @@
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange - ITSMChange::AddChangeLinkTicketTypes
+                            ITSM Change Management -> Core::ITSMChange -
+ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange - ITSMChange::RestrictTicketTypes::Groups
+                            ITSM Change Management -> Core::ITSMChange -
+ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
                 </itemizedlist>
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Definition von Bedingungen
+                Defining Conditions
             </title>
             <para>
-                OTRS::ITSM ermöglicht es Bedingungen und Aktionen basierend auf den nachstehenden Attributen
-                eines Change und/oder Work Order zu definieren. Über das Admin-Frontend kann man Attribute
-                für den Change Builder ab- oder anschalten.
+                OTRS::ITSM allows conditions and actions to be defined based on the
+attributes of a Change and/or Work Order. Through the administration
+front-end, these attributes can be activated or deactivated for the Change
+Builder.
             </para>
             <para>
-                Hierdurch lassen sich Workflows definieren, sodass z. B. das canceln einer Work Order
-                den gesamten Change auf "canceled" setzt, oder eine erneute Prüfung / Freigabe zur Folge hat.
+                Workflows can be defined here. For example, a workflow to set the entire
+Change to &quot;canceled&quot; or request review / approval clearance when a
+Work Order is canceled.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-conditions
-                    </screeninfo>
-                    <graphic srccredit="change-conditions - screenshot" scale="50" fileref="screenshots/change-conditions.png"/>
-                </screenshot>
+<screeninfo>
+change-conditions</screeninfo> <graphic
+fileref="screenshots/change-conditions.png" srccredit="change-conditions -
+screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Es ist zu beachten, dass die definierten Bedingungen nicht in einer bestimmten Reihenfolge
-                ausgeführt werden, im Gegensatz hierzu die Aktionen in der Reihenfolge der Anlage abgearbeitet werden.
+                It should be noted that the defined conditions are not executed in a certain
+order; rather, actions are processed in the order they were set.
             </para>
-
             <sect3>
                 <title>
-                    Verfügbare Bedingungen auf Change-Ebene
+                    Conditions Available at the Change Level
                 </title>
                 <para>
-                    Die folgenden Attribute können für die Definition von Bedingungen auf Change-Ebene verwendet werden.
+                    The following attributes can be used to define Conditions at the Change
+level
                 </para>
                 <table>
                     <title>
-                        Verfügbare Bedingungen auf Change-Ebene
+                        Conditions available at the Change level
                     </title>
                     <tgroup cols="2">
                         <thead>
                             <row>
                                 <entry>
-                                    Change Attribut
+                                    Change Attribute
                                 </entry>
                                 <entry>
-                                    Logischer Operator
+                                    Logical Operator
                                 </entry>
                             </row>
                         </thead>
@@ -749,7 +744,6 @@
                                     <para>
                                         Priority
                                     </para>
-
                                 </entry>
                                 <entry>
                                     <para>
@@ -818,26 +812,26 @@
                     </tgroup>
                 </table>
             </sect3>
-
             <sect3>
                 <title>
-                    Verfügbare Bedingungen auf Work Order-Ebene
+                    Conditions Available at the Work Order Level
                 </title>
                 <para>
-                    Die folgenden Attribute können für die Definition von Bedingungen auf Work Order-Ebene verwendet werden.
+                    The following attributes can be used to define conditions at the Work Order
+level.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Bedingungen auf Work Order-Ebene
+                        Conditions available at the Work Order level
                     </title>
                     <tgroup cols="2">
                         <thead>
                             <row>
                                 <entry>
-                                    Work Order Attribut
+                                    Work Order Attribute
                                 </entry>
                                 <entry>
-                                    Logischer Operator
+                                    Logical Operator
                                 </entry>
                             </row>
                         </thead>
@@ -952,38 +946,38 @@
                 </table>
             </sect3>
         </sect2>
-
         <sect2>
             <title>
-                Definition von Aktionen
+                Defining Actions
             </title>
             <para>
-                Nach Festlegung von Bedingungen erlaubt OTRS::ITSM die Definition einer beliebigen Anzahl von Aktionen
-                auf den aktuellen Change oder eine/alle Work Order des aktuellen Changes.
+                After the conditions have been established, OTRS::ITSM allows you to define
+any number of actions to be executed on the current Change or all / one of
+the Work Orders of the current change.
             </para>
             <sect3>
                 <title>
-                    Verfügbare Aktionen auf Change-Ebene
+                    Actions Available at the Change Level
                 </title>
                 <para>
-                    Die folgenden Aktionen können für Change-Objekte ausgeführt werden.
-                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
-                    wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
-                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
-                    d. h. eine manuelle Änderung ist nicht möglich.
+                    The following actions can be performed for Change objects. The operator
+&quot;set&quot; enables the selected attribute to be set at a specific
+value, if the defined condition is true. On the other hand, the operator
+&quot;lock&quot; freezes the selected attribute, for as long as the defined
+condition is true ie. a manual change is not possible.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Aktionen auf Change-Ebene
+                        Actions available at the Change level
                     </title>
                     <tgroup cols="2">
                         <thead>
                             <row>
                                 <entry>
-                                    Change Attribut
+                                    Change Attribute
                                 </entry>
                                 <entry>
-                                    Aktion
+                                    Action
                                 </entry>
                             </row>
                         </thead>
@@ -999,7 +993,6 @@
                                     <para>
                                         Priority
                                     </para>
-
                                 </entry>
                                 <entry>
                                     <para>
@@ -1028,27 +1021,27 @@
             </sect3>
             <sect3>
                 <title>
-                    Verfügbare Aktionen auf Work Order-Ebene
+                    Actions Available at the Work Order Level
                 </title>
                 <para>
-                    Die folgenden Aktionen können für Work Order-Objekte ausgeführt werden.
-                    Der Operator "set" erlaubt es, das gewählte Attribut auf einen bestimmten Wert zu setzen,
-                    wenn die definierte Bedingung wahr ist. Im Gegensatz hierzu dient der Operator "lock" dazu,
-                    das gewählte Attribut einzufrieren, solange die definierte Bedingung wahr ist,
-                    d. h. eine manuelle Änderung ist nicht möglich.
+                    The following actions can be performed for Work Order objects. The operator
+&quot;set&quot; enables the selected attribute to be set at a specific
+value, if the defined condition is true. On the other hand, the operator
+&quot;lock&quot; freezes the selected attribute, for as long as the defined
+condition is true ie. a manual change is not possible.
                 </para>
                 <table>
                     <title>
-                        Verfügbare Aktionen auf Work Order-Ebene
+                        Actions available at the Work Order level
                     </title>
                     <tgroup cols="2">
                         <thead>
                             <row>
                                 <entry>
-                                    Work Order Attribut
+                                    Work Order Attribute
                                 </entry>
                                 <entry>
-                                    Aktion
+                                    Action
                                 </entry>
                             </row>
                         </thead>
@@ -1073,62 +1066,61 @@
                 </table>
             </sect3>
         </sect2>
-
         <sect2>
             <title>
-                Neuplanung (Verschieben) der Start- / Endzeit eines Change
+                Rescheduling (Postponing) the Start / End Time of a Change
             </title>
             <para>
-                Da es in der Praxis vorkommen kann, dass geplante Start- oder Endzeiten eines Change verändert
-                werden müssen, unterstützt das System den Change Builder mit der Funktionalität "Move Timeslot".
+                In practice, the planned start or end time of a Change may need to be
+revised. The system allows the Change Builder to do this with the &quot;Move
+Time Slot&quot; feature.
             </para>
             <para>
-                Über einen Eingabedialog hat der Change Builder die Möglichkeit das geplante Zeitfenster zur
-                Durchführung des Change zu verschieben.
+                Through selector fields, the Change Builder has the ability to shift the
+planned Change implementation timeframe.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-move-timeslot
-                    </screeninfo>
-                    <graphic srccredit="change-move-timeslot - screenshot" scale="50" fileref="screenshots/change-move-timeslot.png"/>
-                </screenshot>
+<screeninfo>
+change-move-timeslot</screeninfo> <graphic
+fileref="screenshots/change-move-timeslot.png"
+srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
     </sect1>
-
     <sect1>
         <title>
-            Erstellung einer Work Order
+            Creating a Work Order
         </title>
         <para>
-            Innerhalb eines Change stellt das System die Funktion "Add Work Order" zur Verfügung,
-            die es ermöglicht zu dem ausgewählten Change eine beliebige Anzahl von Teilaufgaben,
-            sog. Work Orders, zu hinterlegen.
+            Within a Change, the system offers a &quot;Add Work Order&quot; feature
+which enables any number of sub-tasks (Work Orders) related to a selected
+Change to be entered.
         </para>
         <sect2>
             <title>
-                Attribute einer Work Order
+                Attributes of a Work Order
             </title>
             <para>
-                Nach Erstellung des Change, der als Container zur Definition der Teilaufgaben,
-                i. e. Work Orders dient, werden die Work Orders durch den Change Builder definiert.
+                Once a Change is created, it effectively serves as a container for the
+definition of sub-tasks, ie. Work Orders, and these Work Orders can now be
+defined by the Change Builder.
             </para>
             <table>
                 <title>
-                    Attribute einer Work Order
+                    Attributes of a Work Order
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Pflichtfeld
+                                Required Field
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -1138,10 +1130,10 @@
                                 Title
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Kurzbeschreibung / Titel der Work Order
+                                Short description / name of Work Order.
                             </entry>
                         </row>
                         <row>
@@ -1149,10 +1141,10 @@
                                 Instruction
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Langtext Beschreibung der Work Order
+                                Longer text description of the Work Order.
                             </entry>
                         </row>
                         <row>
@@ -1160,10 +1152,11 @@
                                 Work Order Type
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Auswahlliste zur Definition der Art der Work Order, z. B. Approval, Work Order, PIR, etc.
+                                Selection list to define the type of Work Order, eg. approval, work order,
+PIR, etc.
                             </entry>
                         </row>
                         <row>
@@ -1171,10 +1164,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Kategorie des Change, z. B. "3 normal", etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
                             </entry>
                         </row>
                         <row>
@@ -1182,10 +1175,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Auswirkung des Change, z. B. "4 hoch", etc.
+                                Defines the effects or impact of the Change, eg. &quot;4 high&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1193,10 +1186,11 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Priorität des Change, z. B. "5 sehr hoch", "3 normal", etc.
+                                Defines the priority of the Change, eg. &quot;5 very high&quot;, &quot;3
+normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1204,14 +1198,13 @@
                                 State
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Der Status eines Change wird bei Neuanlage automatisch gesetzt.
-                                Bei Änderungen an einem bestehenden Change ist es dem Change Builder
-                                und Change Manager möglich den Status manuell zu setzen.
-                                Verfügbare Status und Folgestatus werden über die integrierte StateMachine
-                                definiert, siehe<xref linkend="change_state_machine"/>.
+                                When creating a new Change, the status is automatically set.  When modifying
+an existing Change the Change Builder and Change Manager can manually set
+the status. Available statuses and result statuses are defined by the
+integrated State Machine, see <xref linkend="change_state_machine" /> .
                             </entry>
                         </row>
                         <row>
@@ -1219,12 +1212,12 @@
                                 Requested (by customer) Date
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Dieses Attribut kann per SysConfig für die Masken "ChangeEdit", "ChangeAdd"
-                                und "ChangeZoom" bei Bedarf deaktiviert werden und stellt das Wunschrealisierungsdatum
-                                des Kunden dar.
+                                If required, this attribute can be deactivated via SysConfig for the
+&apos;ChangeEdit&apos;, &apos;ChangeAdd&apos; and &apos;ChangeZoom&apos;
+templates, and display the customer&apos;s desired implementation date.
                             </entry>
                         </row>
                         <row>
@@ -1232,29 +1225,28 @@
                                 Attachment
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Ermöglicht es beliebige Dateianlagen zu hinterlegen.
+                                Enables related files and documents to be attached
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Neben den genannten Attributen hat der zugewiesene Work Order Agent die Möglichkeit
-                über die Funktionalität "Report", die im Kapitel "Work Order Agent Report" näher beschrieben wird,
-                Attribute zu erfassen.
+                In addition to these attributes, the assigned Work Order agent can collect
+attributes through the &quot;Report&quot; feature, which is explained in
+detail in the &quot;Work Order Agent Report&quot; chapter.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Work Order Typ
+                Work Order Type
             </title>
             <para>
-                Die Standardinstallation des OTRS::ITSM Change Management stellt die folgenden Einträge
-                für das Attribut "Work Order Typ" zur Verfügung:
+                The following entries for the &quot;Work Order Type&quot; attribute are
+available in the standard installation of OTRS::ITSM Change Management:
             </para>
             <itemizedlist>
                 <listitem>
@@ -1284,100 +1276,95 @@
                 </listitem>
             </itemizedlist>
             <para>
-                Die Definition und Angabe der Work Order Typen kann der Administrator frei verändern,
-                außerdem können neue Typen hinzugefügt werden.
+                The administrator can freely define and specify Work Order types, as well as
+add new types.
             </para>
         </sect2>
-
         <sect2>
             <title>
                 Work Order State Machine
             </title>
             <para>
-                OTRS::ITSM stellt eine State Machine bereit, die es ermöglicht für eine Work Order gültige Status,
-                sowie mögliche Folgestatus zu definieren.
-                Die Standardinstallation legt hierfür folgendes logisches Modell an:
+                OTRS::ITSM features a State Machine which defines valid statuses and
+possible result statuses for a Work Order. The standard installation
+generates suggestions based on the following logic model:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-state-machine
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-state-machine - screenshot" scale="50" fileref="screenshots/change-workorder-state-machine.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-state-machine</screeninfo> <graphic
+fileref="screenshots/change-workorder-state-machine.png"
+srccredit="change-workorder-state-machine - screenshot" scale="50" /></screenshot>
             </para>
             <para>
-                Anpassungen an der aufgezeigten StateMachine könne durch den System Administrator im Administrator
-                Frontend über den Menüpunkt "StateMachine" geändert werden, durch Definition von Status und
-                möglicher Folgestatus.
+                Adjustments to the State Machine can be made by the system administrator in
+the administration front end, under menu option State Machine. The statuses
+and possible result statuses should be defined here.
             </para>
             <para>
-                Sofern es erforderlich ist zusätzliche Status zu definieren, kann dies über den den
-                Menüpunkt "General Catalog" -> "ITSM::ChangeManagement::WorkOrder::State" durchgeführt werden.
+                Where necessary, additional statuses can be defined under the menu option
+&quot;General Catalog&quot; -&gt;
+&quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
             </para>
             <para>
-                Die Abbildung möglicher Statusübergänge wird in OTRS::ITSM durch eine tabellarische Darstellung realisiert:
+                In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-state-transition
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-state-transition - screenshot" scale="50" fileref="screenshots/change-workorder-state-transition.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-state-transition</screeninfo> <graphic
+fileref="screenshots/change-workorder-state-transition.png"
+srccredit="change-workorder-state-transition - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Definition des Work Order Agent
+                Defining the Work Order Agent
             </title>
             <para>
-                Jede Work Order kann einem sog. Word Order Agent zugewiesen werden,
-                d. h. einer Person, die für die Durchführung der Work Order verantwortlich ist.
+                Each Work Order can be assigned to a &quot;Work Order agent&quot;, i.e. a
+person responsible for the execution of the Work Order.
             </para>
             <para>
-                Das System bietet hierfür Zugriff auf alle angebunden Agenten-Backends. Es ist zu beachten, dass
-                ausschließlich Agents angezeigt werden, die Vollberechtigung auf die Benutzergruppe "itsm-change" haben.
+                The system offers access to all connected agent back-ends here. It is
+important to note that only agents who have full access rights to the user
+group &quot;have itsm-change&quot; are displayed.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-agent
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-agent - screenshot" scale="50" fileref="screenshots/change-workorder-agent.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-agent</screeninfo> <graphic
+fileref="screenshots/change-workorder-agent.png"
+srccredit="change-workorder-agent - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
-
         <sect2>
             <title>
                 Work Order Agent Report
             </title>
             <para>
-                Der zugewiesene Work Order Agent hat über den Dialog "Report" die Möglichkeit Kommentare, sowie den Status,
-                die tatsächliche Start- und Endzeit der Work Order und die benötigte Zeit zu dokumentieren.
+                The assigned Work Order agent can document related information such as
+comments, the actual Work Order start and end times, required processing
+time and status.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-agent-report
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-agent-report - screenshot" scale="50" fileref="screenshots/change-workorder-agent-report.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-agent-report</screeninfo> <graphic
+fileref="screenshots/change-workorder-agent-report.png"
+srccredit="change-workorder-agent-report - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Verknüpfung von Work Orders mit Configuration Items / Services
+                Linking Work Orders to Configuration Items / Services
             </title>
             <para>
-                Innerhalb eines Work Orders bietet OTRS::ITSM die Möglichkeit eine Work Order mit
-                anderen Objekten zu verknüpfen.
+                Within a Work Order, OTRS::ITSM allows linking to other objects.
             </para>
             <para>
-                Die Standardinstallation bietet die Möglichkeit eine Work Order mit den folgenden Objekten zu verknüpfen:
+                In the standard installation, a Work Order can be linked to the following
+objects:
             </para>
             <itemizedlist>
                 <listitem>
@@ -1387,27 +1374,27 @@
                     <itemizedlist>
                         <listitem>
                             <para>
-                                CI-Klasse Computer
+                                CI-Class Computer
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Klasse Hardware
+                                CI-Class Hardware
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Klasse Location
+                                CI-Class Location
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Klasse Network
+                                CI-Class Network
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Klasse Software
+                                CI-Class Software
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -1424,142 +1411,134 @@
                 </listitem>
             </itemizedlist>
             <para>
-                Die benannten Einstellungen sind per SysConfig unter "Framework -> Core::LinkObject" definiert
-                und können bei Bedarf erweitert werden.
+                These settings are defined via SysConfig under &quot;Framework -&gt;
+Core::LinkObject&quot; and can be extended when desired.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Speichern einer Work Order als Template
+                Saving a Work Order as a Template
             </title>
             <para>
-                Über die Funktion "Template" innerhalb einer Work Order ist es möglich diese als Vorlage zu speichern.
+                A Work Order can be saved as a template through the &quot;Template&quot;
+feature, within the Work Order itself.
             </para>
             <para>
-                Der Dialog fordert den Change Builder auf einen Namen sowie optional ein Kommentar für das Template
-                anzugeben. Sobald der Dialog über den Button "Hinzufügen" verlassen wird,
-                steht die Work Order bei Erstellung neuer Work Order als Vorlage zur Verfügung.
+                The dialog box requires the Change Builder to give the template a name and
+an optional comment. Once the user leaves the dialog box by clicking the
+&quot;Add&quot; button, the Work Order will be available as a template when
+a new Work Order is being created.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-template
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-template - screenshot" scale="50" fileref="screenshots/change-workorder-template.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-template</screeninfo> <graphic
+fileref="screenshots/change-workorder-template.png"
+srccredit="change-workorder-template - screenshot" scale="50" /></screenshot>
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Löschen einer Work Order
+                Deleting a Work Order
             </title>
             <para>
-                Der Change Builder hat die Möglichkeit eine Work Order zu löschen, solange diese nicht in einer Condition
-                (siehe "Definition von Bedingungen") verwendet wird.
+                The Change Builder can delete a Work Order as long as it is not referred to
+in a Condition (see the &quot;Defining conditions&quot; section).
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-workorder-delete
-                    </screeninfo>
-                    <graphic srccredit="change-workorder-delete - screenshot" scale="35" fileref="screenshots/change-workorder-delete.png"/>
-                </screenshot>
+<screeninfo>
+change-workorder-delete</screeninfo> <graphic
+fileref="screenshots/change-workorder-delete.png"
+srccredit="change-workorder-delete - screenshot" scale="35" /></screenshot>
             </para>
         </sect2>
     </sect1>
-
     <sect1>
         <title>
-            Inhaltsansicht eines Change
+            Viewing the Content of a Change
         </title>
         <para>
-            Nach Erstellung eines Change und zugehöriger Work Order bietet das System die Möglichkeit den Change inkl.
-            aller zugehörigen Work Order sowie verknüpfter Tickets und CIs darzustellen.
+            After creating a Change and its associated Work Order, the system has the
+capability to display other information related to the Change, including
+corresponding Work Orders, linked tickets and CIs.
         </para>
         <para>
             <screenshot>
-                <screeninfo>
-                    change-zoom
-                </screeninfo>
-                <graphic srccredit="change-zoom - screenshot" scale="35" fileref="screenshots/change-zoom.png"/>
-            </screenshot>
+<screeninfo>
+change-zoom</screeninfo> <graphic
+fileref="screenshots/change-zoom.png" srccredit="change-zoom - screenshot"
+scale="35" /></screenshot>
         </para>
         <para>
-            In einer Zeitachse werden die definierten Work Order nummeriert nach der Reihenfolge der geplanten
-            Durchführung dargestellt, die Farbgebung der dargestellten Work Order in der Zeitachse werden über
-            die Art der Work Order definiert und können bei Bedarf per SysConfig
-            "ITSM Change Management -> Frontend::Agent::ViewChangeZoom" angepasst werden.
+            The defined Work Orders are numbered in order of their planned execution and
+displayed in a timeline. The color of the displayed Work Order in the
+timeline reflects their type, and can be customized via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewChangeZoom&quot; as required.
         </para>
         <para>
-            Pro Work Order erzeugt das System zwei Balken in der Zeitachse des Change.
-            Der obere, dunklere Balken repräsentiert die geplante Durchführungszeit der Work Order,
-            der hellere untere Balken stellt die tatsächliche Durchführungszeit der Work Order dar.
+            The system generates two bars per Work Order in the Change timeline. The
+upper, darker bar represents the planned Work Order implementation time,
+while the lower, lighter bar displays the actual Work Order implementation
+time.
         </para>
         <para>
-            Der Status der einzelnen Work Order ist über eine Ampeldarstellung in dieser Ansicht erkennbar:
+            The status of each Work Order is represented by traffic lights, as seen in
+the following view:
         </para>
         <itemizedlist>
             <listitem>
                 <para>
-                    Grau - Status der Work Order ist "created"
-                </para>
+                    Gray - Work Order is &quot;created&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Gelb - Status der Work Order ist "pending approval"
-                </para>
+                    Yellow - Work Order is &quot;pending approval&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Grün - Status der Work Order ist "closed"
-                </para>
+                    Green - Work Order is &quot;closed&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Rot - Status der Work Order ist "canceled"
-                </para>
+                    Red - Work Order is &quot;canceled&quot; </para>
             </listitem>
         </itemizedlist>
         <para>
             <screenshot>
-                <screeninfo>
-                    change-timeline
-                </screeninfo>
-                <graphic srccredit="change-timeline - screenshot" scale="50" fileref="screenshots/change-timeline.png"/>
-            </screenshot>
+<screeninfo>
+change-timeline</screeninfo> <graphic
+fileref="screenshots/change-timeline.png" srccredit="change-timeline -
+screenshot" scale="50" /></screenshot>
         </para>
     </sect1>
-
     <sect1>
         <title>
             Change Views
         </title>
         <para>
-            OTRS::ITSM bietet verschiedene Sichten auf die im System hinterlegten Changes an.
-            Der Zugriff auf diese Views kann bei Bedarf deaktiviert werden.
+            OTRS::ITSM offers a variety of ways to view the Changes saved in the
+system.  Access to these views can be disabled where desired.
         </para>
-
         <sect2>
             <title>
                 Change Overview
             </title>
             <para>
-                In einer Übersicht werden alle Changes angezeigt, die anhand der angezeigten Spaltenköpfe
-                auf- oder absteigend sortiert werden können.
+                All Changes are displayed in an overview screen, which can be sorted in
+ascending or descending order per column.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-overview
-                    </screeninfo>
-                    <graphic srccredit="change-overview - screenshot" scale="35" fileref="screenshots/change-overview.png"/>
-                </screenshot>
+<screeninfo>
+change-overview</screeninfo> <graphic
+fileref="screenshots/change-overview.png" srccredit="change-overview -
+screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview"
-                definiert werden. Die folgenden Attribute stehen hierfür zur Verfügung:
+                The columns can be defined via SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeOverview&quot; with the following available
+attributes:
             </para>
             <table>
                 <title>
@@ -1569,13 +1548,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -1585,10 +1564,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -1596,10 +1575,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change implementation ended
                             </entry>
                         </row>
                         <row>
@@ -1607,10 +1586,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -1618,10 +1597,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -1629,10 +1608,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -1640,10 +1619,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -1651,10 +1630,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -1662,10 +1641,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator, shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -1673,10 +1652,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -1684,10 +1663,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -1695,10 +1674,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect of the Change
                             </entry>
                         </row>
                         <row>
@@ -1706,10 +1685,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -1717,10 +1696,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change implementation end date and time
                             </entry>
                         </row>
                         <row>
@@ -1728,10 +1707,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -1739,10 +1718,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -1750,10 +1729,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -1761,32 +1740,33 @@
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die Change Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
-                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
-                SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeOverview" definiert werden können:
+                Additionally, the Change Overview can filter and display changes according
+to various attributes. The following filters are available and can be
+defined via SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeOverview&quot;:
             </para>
             <table>
                 <title>
-                    Change Overview Filter
+                    Change Overview Filters
                 </title>
                 <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -1796,15 +1776,14 @@
                                 requested
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "requested" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "pending approval" aufweisen
+                                Displays all changes that have the status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -1812,23 +1791,21 @@
                                 rejected
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "rejected" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;rejected&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 approved
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "approved" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "in progress" aufweisen
+                                Displays all changes that have the status &quot;in progress&quot;
                             </entry>
                         </row>
                         <row>
@@ -1836,58 +1813,53 @@
                                 successful
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "successful" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;successful&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 failed
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "failed" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;failed&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 canceled
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "canceled" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;canceled&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 retracted
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "retracted" aufweisen
-                            </entry>
+                                Displays all changes that have the status &quot;retracted&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 Change Schedule
             </title>
             <para>
-                In der Change Schedule Übersicht werden alle Changes angezeigt, die im Status "approved" sind,
-                d. h. zur Umsetzung anstehen. Die angezeigten Spaltenköpfe können anhand der nachstehenden
-                Attribute auf- oder absteigend sortiert werden.
+                In the Change Schedule view, all Changes which have the status
+&quot;approved&quot; ie. are in the queue for implementation, are
+displayed. The column titles can be sorted by the following attributes in
+ascending or descending order:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-schedule
-                    </screeninfo>
-                    <graphic srccredit="change-schedule - screenshot" scale="35" fileref="screenshots/change-schedule.png"/>
-                </screenshot>
+<screeninfo>
+change-schedule</screeninfo> <graphic
+fileref="screenshots/change-schedule.png" srccredit="change-schedule -
+screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die angezeigten Attribute können per SysConfig
-                "ITSM Change Management -> Frontend::Agent::ViewChangeScheduleOverview" definiert werden:
+                The displayed attributes can be defined via SysConfig &quot;ITSM Change
+Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
             </para>
             <table>
                 <title>
@@ -1897,13 +1869,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -1913,10 +1885,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -1924,10 +1896,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change implementation was completed
                             </entry>
                         </row>
                         <row>
@@ -1935,10 +1907,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -1946,10 +1918,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -1957,10 +1929,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -1968,10 +1940,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -1979,10 +1951,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -1990,10 +1962,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator; shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2001,10 +1973,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of the Change
                             </entry>
                         </row>
                         <row>
@@ -2012,10 +1984,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -2023,10 +1995,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect of the Change
                             </entry>
                         </row>
                         <row>
@@ -2034,10 +2006,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -2045,10 +2017,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change implementation completion date and time
                             </entry>
                         </row>
                         <row>
@@ -2056,10 +2028,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -2067,10 +2039,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -2078,10 +2050,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -2089,36 +2061,34 @@
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 PIR - Post Implementation Review
             </title>
             <para>
-                Diese Ansicht stellt Work Order vom Typ "PIR" dar, die anhand der dargestellten Spaltenköpfe
-                auf- oder absteigend sortiert werden können.
+                This view displays work orders of the &quot;PIR&quot; type, which can be
+sorted in ascending or descending order by the given column headings.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-pir
-                    </screeninfo>
-                    <graphic srccredit="change-pir - screenshot" scale="35" fileref="screenshots/change-pir.png"/>
-                </screenshot>
+<screeninfo>
+change-pir</screeninfo> <graphic
+fileref="screenshots/change-pir.png" srccredit="change-pir - screenshot"
+scale="35" /></screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig "ITSM Change Management -> Frontend::Agent::ViewPIROverview"
-                definiert werden:
+                The columns to be displayed can be defined via SysConfig &quot;ITSM Change
+Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
             </para>
             <table>
                 <title>
@@ -2128,13 +2098,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -2144,10 +2114,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -2155,10 +2125,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change implementation was completed
                             </entry>
                         </row>
                         <row>
@@ -2166,10 +2136,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -2177,10 +2147,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -2188,10 +2158,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -2199,10 +2169,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -2210,10 +2180,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -2221,10 +2191,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator; shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2232,10 +2202,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -2243,10 +2213,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -2254,10 +2224,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect of the Change
                             </entry>
                         </row>
                         <row>
@@ -2265,10 +2235,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -2276,10 +2246,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change implementation completion date and time
                             </entry>
                         </row>
                         <row>
@@ -2287,10 +2257,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -2298,10 +2268,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -2309,10 +2279,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -2320,10 +2290,10 @@
                                 WorkOrderAgent
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Der dem PIR zugewiesene Agent
+                                Agent assigned to the PIR
                             </entry>
                         </row>
                         <row>
@@ -2331,10 +2301,10 @@
                                 WorkOrderNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Nummer der Work Order
+                                Work Order number
                             </entry>
                         </row>
                         <row>
@@ -2342,10 +2312,10 @@
                                 WorkOrderState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                         <row>
@@ -2353,10 +2323,10 @@
                                 WorkOrderStateSignal
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Statusanzeige der Work Order per Ampelfunktionalität
+                                Work Order status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2364,10 +2334,10 @@
                                 WorkOrderTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel der WorkOrder
+                                Name of the Work Order
                             </entry>
                         </row>
                         <row>
@@ -2375,36 +2345,35 @@
                                 WorkOrderType
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Typ der Work Order
+                                The type of Work Order
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 Template
             </title>
             <para>
-                Diese Ansicht stellt alle im System definierten Templates dar. Der Agent hat die Möglichkeit
-                die Darstellung anhand der angezeigten Spaltenköpfe auf- oder absteigend zu sortieren.
+                This view displays all the defined templates in the system. The agent can
+sort the displayed information in ascending or descending order by the given
+column headings.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-template
-                    </screeninfo>
-                    <graphic srccredit="change-template - screenshot" scale="35" fileref="screenshots/change-template.png"/>
-                </screenshot>
+<screeninfo>
+change-template</screeninfo> <graphic
+fileref="screenshots/change-template.png" srccredit="change-template -
+screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die angezeigten Spalten können per SysConfig
-                "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert werden:
+                The columns to be displayed can be defined via SysConfig &quot;ITSM Change
+Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
             </para>
             <table>
                 <title>
@@ -2414,13 +2383,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -2430,10 +2399,10 @@
                                 ChangeBy
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Benutzername des Agenten, der das Template zuletzt geändert hat
+                                Username of the agent who last modified the template
                             </entry>
                         </row>
                         <row>
@@ -2441,10 +2410,10 @@
                                 ChangeTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt der letzten Änderung
+                                Date and time of the last modification
                             </entry>
                         </row>
                         <row>
@@ -2452,10 +2421,10 @@
                                 Comment
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Kommentar / Beschreibung des Templates
+                                Comments / description of the template
                             </entry>
                         </row>
                         <row>
@@ -2463,10 +2432,10 @@
                                 CreateBy
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Benutzername des Erstellers des Templates
+                                Username of the agent who created the template
                             </entry>
                         </row>
                         <row>
@@ -2474,10 +2443,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Templates
+                                Date and time at which the template was created
                             </entry>
                         </row>
                         <row>
@@ -2485,10 +2454,10 @@
                                 Delete
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Möglichkeit ein Template zu löschen
+                                Option to delete a chosen template
                             </entry>
                         </row>
                         <row>
@@ -2496,10 +2465,10 @@
                                 Name
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Templates
+                                Name of the template
                             </entry>
                         </row>
                         <row>
@@ -2507,10 +2476,10 @@
                                 TemplateID
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Interne Datenbank-ID des Templates
+                                The template&apos;s internal database identity
                             </entry>
                         </row>
                         <row>
@@ -2518,10 +2487,10 @@
                                 Type
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Typ des Templates
+                                Type of template
                             </entry>
                         </row>
                         <row>
@@ -2529,32 +2498,34 @@
                                 Valid
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Definiert die Gültigkeit des Templates (gültig, ungültig, ungültig temporär).
-                                Ungültige / temporär ungültige Templates können von Change Buildern nicht verwendet werden.
+                                Defines the validity of the template (valid, invalid, and temporarily
+invalid). Invalid / temporarily invalid templates cannot be used by Change
+Builders.
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Nach Installation des Change Management stehen im System die folgenden Template-Typen zur Verfügung,
-                die per SysConfig "ITSM Change Management -> Frontend::Agent::ViewTemplateOverview" definiert sind:
+                After installing the Change Management module, the following template types
+are available in the system. These can be defined via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
             </para>
             <table>
                 <title>
-                    Template Typen
+                    Template Types
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -2564,7 +2535,7 @@
                                 ITSMChange
                             </entry>
                             <entry>
-                                Vorlagen für Changes
+                                Templates for Changes
                             </entry>
                         </row>
                         <row>
@@ -2572,7 +2543,7 @@
                                 ITSMWorkOrder
                             </entry>
                             <entry>
-                                Vorlagen für Work Order
+                                Templates for Work Orders
                             </entry>
                         </row>
                         <row>
@@ -2580,30 +2551,28 @@
                                 CAB
                             </entry>
                             <entry>
-                                Vorlagen für Change Advisory Boards
+                                Templates for Change Advisory Boards
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
-                Suche
+                Search
             </title>
             <para>
-                Zur Suche nach Changes oder Work Orders, die bestimmten Suchkriterien entsprechen,
-                bietet das System eine eigene Suchmaske, die die nachstehenden Attribute für Suchabfragen
-                zur Verfügung stellt:
+                To find Changes or Work Orders which meet specific search criteria, the
+system is equipped with a separate search function based on the following
+search query attributes:
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-search
-                    </screeninfo>
-                    <graphic srccredit="change-search - screenshot" scale="35" fileref="screenshots/change-search.png"/>
-                </screenshot>
+<screeninfo>
+change-search</screeninfo> <graphic
+fileref="screenshots/change-search.png" srccredit="change-search -
+screenshot" scale="35" /></screenshot>
             </para>
             <table>
                 <title>
@@ -2613,10 +2582,10 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -2626,7 +2595,8 @@
                                 Change#
                             </entry>
                             <entry>
-                                Suche anhand der Change-Nummer, als Wildcard kann ein Asterisk ("*") verwendet werden.
+                                Search by Change number; an asterisk (&quot;*&quot;) may be used as a
+wildcard
                             </entry>
                         </row>
                         <row>
@@ -2634,7 +2604,7 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Suche anhand des Titels eines Change
+                                Search by Change title or name
                             </entry>
                         </row>
                         <row>
@@ -2642,7 +2612,7 @@
                                 Work Order Title
                             </entry>
                             <entry>
-                                Suche anhand des Titels einer Work Order
+                                Search by the title/name of a Work Order
                             </entry>
                         </row>
                         <row>
@@ -2650,7 +2620,7 @@
                                 CABAgent
                             </entry>
                             <entry>
-                                Suche anhand eines CAB-Mitglieds, der im System als Agent definiert ist.
+                                Search by CAB member, defined in the system as an agent
                             </entry>
                         </row>
                         <row>
@@ -2658,9 +2628,9 @@
                                 CABCustomer
                             </entry>
                             <entry>
-                                Suche anhand eines CAB-Mitglieds,
-                                der im System als Kunde definiert ist. Die Angabe eines CABCustomers kann mit Hilfe
-                                der Autovervollständigung erfolgen.
+                                Search by CAB member, defined in the system as a customer. Here, the
+auto-complete function can offer suggestions when typing in the CAB customer
+field
                             </entry>
                         </row>
                         <row>
@@ -2668,7 +2638,7 @@
                                 Change Description
                             </entry>
                             <entry>
-                                Suche in der textuellen Beschreibung eines Change.
+                                Search in the Change description text
                             </entry>
                         </row>
                         <row>
@@ -2676,7 +2646,7 @@
                                 Change Justification
                             </entry>
                             <entry>
-                                Suche in der Begründung / Justification eines Change
+                                Search in the reason / justification for the Change
                             </entry>
                         </row>
                         <row>
@@ -2684,7 +2654,7 @@
                                 Work Order Instruction
                             </entry>
                             <entry>
-                                Suche in der Anweisung einer Work Order
+                                Search in Work Order instructions
                             </entry>
                         </row>
                         <row>
@@ -2692,7 +2662,7 @@
                                 Work Order Report
                             </entry>
                             <entry>
-                                Suche im Report einer Work Order
+                                Search in a Work Order report
                             </entry>
                         </row>
                         <row>
@@ -2700,7 +2670,7 @@
                                 Change Priority
                             </entry>
                             <entry>
-                                Suche anhand der Priorität eines Change
+                                Search by Change priority level
                             </entry>
                         </row>
                         <row>
@@ -2708,7 +2678,7 @@
                                 Change Impact
                             </entry>
                             <entry>
-                                Suche anhand der Auswirkung eines Change
+                                Search by Change effect / impact level
                             </entry>
                         </row>
                         <row>
@@ -2716,7 +2686,7 @@
                                 Change Category
                             </entry>
                             <entry>
-                                Suche anhand der Kategorie eines Change
+                                Search by Change category or type
                             </entry>
                         </row>
                         <row>
@@ -2724,7 +2694,7 @@
                                 Change State
                             </entry>
                             <entry>
-                                Suche anhand eines Change-Status
+                                Search by Change status
                             </entry>
                         </row>
                         <row>
@@ -2732,7 +2702,7 @@
                                 Change Manager
                             </entry>
                             <entry>
-                                Suche anhand eines Change Managers
+                                Search by Change Manager
                             </entry>
                         </row>
                         <row>
@@ -2740,7 +2710,7 @@
                                 Change Builder
                             </entry>
                             <entry>
-                                Suche anhand eines Change Builders
+                                Search by Change Builder
                             </entry>
                         </row>
                         <row>
@@ -2748,7 +2718,7 @@
                                 Created by Agent
                             </entry>
                             <entry>
-                                Suche anhand des Ersteller eines Change
+                                Search by agent user name who created the Change
                             </entry>
                         </row>
                         <row>
@@ -2756,7 +2726,7 @@
                                 Work Order State
                             </entry>
                             <entry>
-                                Suche anhand des Status einer Work Order
+                                Search by the status of a Work Order
                             </entry>
                         </row>
                         <row>
@@ -2764,7 +2734,7 @@
                                 Work Order Agent
                             </entry>
                             <entry>
-                                Suche anhand des hinterlegten Work Order Agent
+                                Search by the entered Work Order agent
                             </entry>
                         </row>
                         <row>
@@ -2772,9 +2742,9 @@
                                 Requested (by customer) Date
                             </entry>
                             <entry>
-                                Suche anhand des vom Kunden angefragten Realisierungsdatums. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the customer requested Change implementation date. Search can be
+performed using absolute time values (eg. from date 1 to date 2) or in
+relative time values (eg. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2782,9 +2752,10 @@
                                 Planned Start Time
                             </entry>
                             <entry>
-                                Suche anhand der geplanten Startzeit eines Change. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the planned start date and time of a Change implementation.
+Search can be performed using absolute time values (eg. from date 1 to date
+2) or in relative time values (eg. Changes created in the last x days /
+weeks).
                             </entry>
                         </row>
                         <row>
@@ -2792,9 +2763,10 @@
                                 Planned End Time
                             </entry>
                             <entry>
-                                Suche anhand der geplanten Endzeit eines Change. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the projected end date and time of a Change implementation.
+Search can be performed using absolute time values (eg. from date 1 to date
+2) or in relative time values (eg. Changes created in the last x days /
+weeks).
                             </entry>
                         </row>
                         <row>
@@ -2802,9 +2774,9 @@
                                 Actual Start Time
                             </entry>
                             <entry>
-                                Suche anhand der tatsächlichen Startzeit eines Change. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the actual start date and time of a Change implementation.  Search
+can be performed using absolute time values (eg. from date 1 to date 2) or
+in relative time values (eg. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2812,9 +2784,9 @@
                                 Actual End Time
                             </entry>
                             <entry>
-                                Suche anhand der tatsächlichen Endzeit eines Change. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the actual end date and time of a Change implementation.  Search
+can be performed using absolute time values (eg. from date 1 to date 2) or
+in relative time values (eg. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2822,9 +2794,9 @@
                                 Create Time
                             </entry>
                             <entry>
-                                Suche anhand des Erstellzeitpunktes eines Change. Es kann nach absoluten Zeitwerten,
-                                d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ), oder auch nach relativen Zeitwerten,
-                                z. B. Changes erstellt innerhalb der letzen x Tage / Wochen, gesucht werden.
+                                Search by the Change creation date and time. Search can be performed using
+absolute time values (eg. from date 1 to date 2) or in relative time values
+(eg. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2832,38 +2804,35 @@
                                 Change Time
                             </entry>
                             <entry>
-                                Suche anhand des Änderungsdatums eines Change.
-                                Es kann nach absoluten Zeitwerten, d. h. innerhalb einer Zeitspanne (Datum 1 / Datum ),
-                                oder auch nach relativen Zeitwerten, z. B. Changes erstellt innerhalb der letzen
-                                x Tage / Wochen, gesucht werden.
+                                Search by the date and time a Change was modified. Search can be performed
+using absolute time values (eg. from date 1 to date 2)  or in relative time
+values (eg. Changes created in the last x days / weeks).
                             </entry>
                         </row>
-
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 Change Manager
             </title>
             <para>
-                OTRS::ITSM stellt einen separaten View zur Verfügung in der der aktuell angemeldete Agent Changes
-                angezeigt bekommt, bei denen er als Change Manager hinterlegt ist.
+                OTRS::ITSM offers a separate view to currently logged in agents, which
+displays the Changes for which they are registered as the Change Manager.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-changemanager
-                    </screeninfo>
-                    <graphic srccredit="change-changemanager - screenshot" scale="35" fileref="screenshots/change-changemanager.png"/>
-                </screenshot>
+<screeninfo>
+change-changemanager</screeninfo> <graphic
+fileref="screenshots/change-changemanager.png"
+srccredit="change-changemanager - screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die angezeigten Spaltenköpfe können anhand der nachstehenden Attribute auf- oder absteigend sortiert werden.
-                Die angezeigten Spalten können per SysConfig
-                "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview" definiert werden:
+                The displayed column headings can be sorted according the following
+attributes in ascending or descending order. The columns to be displayed can
+be defined via SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeManagerOverview&quot;:
             </para>
             <table>
                 <title>
@@ -2873,13 +2842,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -2889,10 +2858,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -2900,10 +2869,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change implementation was completed
                             </entry>
                         </row>
                         <row>
@@ -2911,10 +2880,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -2922,10 +2891,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -2933,10 +2902,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -2944,10 +2913,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -2955,10 +2924,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -2966,10 +2935,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2977,10 +2946,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -2988,10 +2957,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -2999,10 +2968,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect of the Change
                             </entry>
                         </row>
                         <row>
@@ -3010,10 +2979,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -3021,10 +2990,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change implementation completion date and time
                             </entry>
                         </row>
                         <row>
@@ -3032,10 +3001,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -3043,10 +3012,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -3054,10 +3023,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -3065,20 +3034,20 @@
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die Change Manager Übersicht die Möglichkeit die angezeigten Changes anhand diverser
-                Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
-                die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewChangeManagerOverview"
-                definiert werden können:
+                In addition, the Change Manager Overview can filter the displayed Changes by
+various attributes as follows These can be defined via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewChangeManagerOverview&quot; if
+desired:
             </para>
             <table>
                 <title>
@@ -3088,10 +3057,10 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -3101,15 +3070,14 @@
                                 requested
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "requested" aufweisen
-                            </entry>
+                                Displays all Changes which have status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "pending approval" aufweisen
+                                Displays all Changes which have status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3117,42 +3085,38 @@
                                 approved
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "approved" aufweisen
-                            </entry>
+                                Displays all Changes which have status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "in progress" aufweisen
-                            </entry>
+                                Displays all Changes which have status &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 My Changes
             </title>
             <para>
-                Die Ansicht "My Changes" stellt alle Changes dar, die vom aktuell angemeldeten Agenten erstellt wurden,
-                bzw. dieser als Change Builder hinterlegt ist.
+                The &quot;My Changes&quot; view displays all Changes created by the agent
+currently logged in, where the agent is registered as the Change Builder.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-mychanges
-                    </screeninfo>
-                    <graphic srccredit="change-mychanges - screenshot" scale="35" fileref="screenshots/change-mychanges.png"/>
-                </screenshot>
+<screeninfo>
+change-mychanges</screeninfo> <graphic
+fileref="screenshots/change-mychanges.png" srccredit="change-mychanges -
+screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
-                Die verwendeten Attribute können per SysConfig
-                "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden:
+                The display can be sorted by the column headings in ascending or descending
+order. The attributes can be defined via SysConfig &quot;ITSM Change
+Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3162,13 +3126,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -3178,10 +3142,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -3189,10 +3153,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change was completed
                             </entry>
                         </row>
                         <row>
@@ -3200,10 +3164,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -3211,10 +3175,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -3222,10 +3186,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -3233,10 +3197,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -3244,10 +3208,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -3255,10 +3219,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -3266,10 +3230,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -3277,10 +3241,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -3288,10 +3252,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect the Change will have
                             </entry>
                         </row>
                         <row>
@@ -3299,10 +3263,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -3310,10 +3274,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change completion date and time
                             </entry>
                         </row>
                         <row>
@@ -3321,10 +3285,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -3332,10 +3296,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -3343,10 +3307,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -3354,19 +3318,19 @@
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die My Changes Übersicht die Möglichkeit die angezeigten Changes anhand diverser Filter
-                darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung, die bei Bedarf per
-                SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyChangesOverview" definiert werden können:
+                In addition, the My Changes Overview can filter the displayed Changes by
+various attributes as below. These can be defined via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3376,10 +3340,10 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -3389,15 +3353,14 @@
                                 requested
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "requested" aufweisen
-                            </entry>
+                                Displays all Changes which have status&quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "pending approval" aufweisen
+                                Displays all Changes which have status&quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3405,42 +3368,40 @@
                                 approved
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "approved" aufweisen
-                            </entry>
+                                Displays all Changes which have status&quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Zeigt alle Changes an, die den Status "in progress" aufweisen
-                            </entry>
+                                Displays all Changes which have status&quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </sect2>
-
         <sect2>
             <title>
                 My Work Orders
             </title>
             <para>
-                Analog zu der aus der OTRS-Ticketengine bekannten Ansicht "Locked Tickets" stellt OTRS::ITSM
-                die dem aktuell angemeldeten Agent zugewiesenen Work Order in einem separaten View zur Verfügung.
+                Similar to the OTRS Ticket Engine's &quot;Locked Tickets&quot; view,
+OTRS::ITSM offers the currently logged-in agent a separate view of the Work
+Orders assigned to him / her.
             </para>
             <para>
                 <screenshot>
-                    <screeninfo>
-                        change-myworkorders
-                    </screeninfo>
-                    <graphic srccredit="change-myworkorders - screenshot" scale="35" fileref="screenshots/change-myworkorders.png"/>
-                </screenshot>
+<screeninfo>
+change-myworkorders</screeninfo> <graphic
+fileref="screenshots/change-myworkorders.png" srccredit="change-myworkorders
+- screenshot" scale="35" /></screenshot>
             </para>
             <para>
-                Die Darstellung kann anhand der angezeigten Spaltenköpfe auf- oder absteigend sortiert werden.
-                Die verwendeten Attribute können per SysConfig
-                "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview" definiert werden:
+                The displayed information can be sorted by column heading in ascending or
+descending order. The attributes used can be defined via SysConfig
+&quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3450,13 +3411,13 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Aktiv
+                                Active
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -3466,10 +3427,10 @@
                                 ActualStartTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change begonnen wurde
+                                Date and time at which the Change implementation began
                             </entry>
                         </row>
                         <row>
@@ -3477,10 +3438,10 @@
                                 ActualEndTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Zeitpunkt zu dem der Change beendet wurde
+                                Date and time at which the Change implementation was completed
                             </entry>
                         </row>
                         <row>
@@ -3488,10 +3449,10 @@
                                 Category
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Kategorie des Change
+                                Category or type of Change
                             </entry>
                         </row>
                         <row>
@@ -3499,10 +3460,10 @@
                                 ChangeBuilder
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Name des Change Builders
+                                Change Builder&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -3510,10 +3471,10 @@
                                 ChangeManager
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Name des Change Managers
+                                Change Manager&apos;s name
                             </entry>
                         </row>
                         <row>
@@ -3521,10 +3482,10 @@
                                 ChangeNumber
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Vom System erzeugte Change-Nummer
+                                System generated Change number
                             </entry>
                         </row>
                         <row>
@@ -3532,10 +3493,10 @@
                                 ChangeState
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Status des Change
+                                Change status
                             </entry>
                         </row>
                         <row>
@@ -3543,10 +3504,10 @@
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Statusanzeige des Change per Ampelfunktionalität
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -3554,10 +3515,10 @@
                                 ChangeTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel des Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -3565,10 +3526,10 @@
                                 CreateTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Erstellzeitpunkt des Change
+                                Date and time at which the Change was created
                             </entry>
                         </row>
                         <row>
@@ -3576,10 +3537,10 @@
                                 Impact
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Auswirkung des Change
+                                Expected effect the Change will have
                             </entry>
                         </row>
                         <row>
@@ -3587,10 +3548,10 @@
                                 PlannedStartTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Startzeitpunkt des Change
+                                Planned Change implementation start date and time
                             </entry>
                         </row>
                         <row>
@@ -3598,10 +3559,10 @@
                                 PlannedEndTime
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Geplanter Abschlusszeitpunkt des Change
+                                Projected Change completion date and time
                             </entry>
                         </row>
                         <row>
@@ -3609,10 +3570,10 @@
                                 Priority
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Priorität des Change
+                                Priority level of the Change
                             </entry>
                         </row>
                         <row>
@@ -3620,10 +3581,10 @@
                                 RequestedTime
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Wunschtermin des Kunden
+                                Customer&apos;s desired implementation date
                             </entry>
                         </row>
                         <row>
@@ -3631,10 +3592,10 @@
                                 Services
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Vom Change betroffene Services
+                                Services affected by the Change
                             </entry>
                         </row>
                         <row>
@@ -3642,10 +3603,10 @@
                                 WorkOrderAgent
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Der dem PIR zugewiesene Agent
+                                Agent assigned to the PIR
                             </entry>
                         </row>
                         <row>
@@ -3653,10 +3614,10 @@
                                 WorkOrderNumber
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Nummer der Work Order
+                                Work Order number
                             </entry>
                         </row>
                         <row>
@@ -3664,10 +3625,10 @@
                                 WorkOrderState
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Anzahl der Work Order des Change
+                                Number of Work Orders related to the Change
                             </entry>
                         </row>
                         <row>
@@ -3675,10 +3636,10 @@
                                 WorkOrderStateSignal
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Statusanzeige der Work Order per Ampelfunktionalität
+                                Work Order status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -3686,10 +3647,10 @@
                                 WorkOrderTitle
                             </entry>
                             <entry>
-                                Ja
+                                Yes
                             </entry>
                             <entry>
-                                Titel der WorkOrder
+                                Name of the Work Order
                             </entry>
                         </row>
                         <row>
@@ -3697,20 +3658,20 @@
                                 WorkOrderType
                             </entry>
                             <entry>
-                                Nein
+                                No
                             </entry>
                             <entry>
-                                Typ der Work Order
+                                The type of Work Order
                             </entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <para>
-                Zudem bietet die My Work Orders Übersicht die Möglichkeit die angezeigten Work Orders anhand
-                diverser Filter darzustellen. Hierfür stehen im System die folgenden Filter zur Verfügung,
-                die bei Bedarf per SysConfig "ITSM Change Management -> Frontend::Agent::ViewMyWorkOrdersOverview"
-                definiert werden können:
+                In addition, the My Work Orders Overview can filter the displayed Work
+Orders by various attributes as below, which can be defined via SysConfig
+&quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3720,10 +3681,10 @@
                     <thead>
                         <row>
                             <entry>
-                                Attribut
+                                Attribute
                             </entry>
                             <entry>
-                                Beschreibung
+                                Details
                             </entry>
                         </row>
                     </thead>
@@ -3733,7 +3694,7 @@
                                 created
                             </entry>
                             <entry>
-                                Zeigt alle Work Orders an, die den Status "created" aufweisen
+                                Displays all Work Orders which have the status &quot;created&quot;
                             </entry>
                         </row>
                         <row>
@@ -3741,7 +3702,7 @@
                                 accepted
                             </entry>
                             <entry>
-                                Zeigt alle Work Orders an, die den Status "accepted" aufweisen
+                                Displays all Work Orders which have the status &quot;accepted&quot;
                             </entry>
                         </row>
                         <row>
@@ -3749,15 +3710,14 @@
                                 ready
                             </entry>
                             <entry>
-                                Zeigt alle Work Orders an, die den Status "ready" aufweisen
-                            </entry>
+                                Displays all Work Orders which have the status &quot;ready&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Zeigt alle Work Orders an, die den Status "in progress" aufweisen
+                                Displays all Work Orders which have the status &quot;in progress&quot;
                             </entry>
                         </row>
                     </tbody>
@@ -3765,96 +3725,98 @@
             </table>
         </sect2>
     </sect1>
-
     <sect1>
         <title>
-            Change Management Statistiken
+            Change Management Statistics
         </title>
         <para>
-            OTRS::ITSM beinhaltet die nachstehenden Reports zur Ermittlung wichtiger Kennzahlen für die Steuerung
-            des Change Managements. Alle Reports können über den integrierten Report-Generator aufgerufen werden.
+            OTRS::ITSM provides the following reports for the evaluation of key
+indicators in supervising Change Management. All reports can be accessed
+through the integrated report generator.
         </para>
-
         <sect2>
             <title>
-                Anzahl Changes innerhalb einer definierten Zeitspanne
+                Number of Changes Within a Defined Period
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
-                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die zu
-                reporteten Change-Status zu definieren.
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Anzahl Changes nach Change Category
+                Number of Changes by Change Category
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen (Changes innerhalb der letzten x-Tage)
-                oder absoluten Zeitspanne (Datum 1 - Datum 2). Zusätzlich besteht die Möglichkeit die
-                zu reporteten Change-Kategorien zu definieren.
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Anzahl zurückgewiesener Changes
+                Number of Rejected Changes
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen
-                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Anzahl zurückgezogener Changes
+                Number of Withdrawn Changes
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen
-                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                Verhältnis Changes / Incidents
+                Ratio of Changes to Incidents
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen
-                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
-
         <sect2>
             <title>
-                RfCs pro Requester
+                RFCs Per Requester
             </title>
             <para>
-                Der Report erlaubt die Definition einer relativen
-                (Changes innerhalb der letzten x-Tage) oder absoluten Zeitspanne (Datum 1 - Datum 2).
-                Zusätzlich besteht die Möglichkeit die zu reporteten RfC-Requester zu definieren.
+                The report allows the definition of a relative (eg. Changes within the last
+x days) or absolute time period (eg. Changes from date1 to date 2). In
+addition, it is also possible to define the RFC Requester to be reported.
             </para>
             <para>
-                Als Ausgabeformat stellt der Report "CSV" oder "Print" (PDF) zur Verfügung.
+                Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output
+formats.
             </para>
         </sect2>
     </sect1>
-
 </chapter>

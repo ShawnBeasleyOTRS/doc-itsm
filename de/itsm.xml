@@ -1,235 +1,258 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>
-        OTRS::ITSM - das OTRS für IT Service Management
-    </title>
+    <title>OTRS::ITSM - OTRS for IT service management</title>
     <para>
-        Die IT ist heute zunehmend gefragt, in einem Umfeld steigender
-        Komplexität gleich bleibend hohe IT Service Qualität zu liefern.
-        Ein effektives und effizientes Incident- und Problem Management sind
-        hierfür notwendige Voraussetzungen.
-        Trotzdem bleibt das IT Service Management eine schier unlösbare Aufgabe,
-        sofern eine konsistente und aktuelle Datenbasis mit Informationen
-        zum Status und zur Konfiguration der IT Infrastruktur fehlt.
+        IT is expected to consistently deliver high service quality in an
+increasingly complex field. In this context, effective and efficient
+incident and problem management are indispensable. However, IT service
+management remains a task almost impossible if there is no consistent and
+up-to-date database with information about the state and configuration of
+the IT infrastructure.
     </para>
     <para>
-        Die IT Infrastructure Library ®, kurz ITIL ®, ist eine von der OGC (eine
-        Stabsstelle der britischen Regierung) heraus gegebene
-        Dokumentationsreihe,
-        welche Best-practice Empfehlungen für Planung, Bereitstellung, Betrieb und
-        Management von IT Services generisch zusammenfasst.
-        Sie orientiert sich dabei nicht an der Technik, sondern an durch die IT
-        erbrachten Services.
-        In ITIL sind unter anderem Prozesse, Rollen, Verantwortlichkeiten,
-        Begriffsdefinitionen und mögliche Problemfelder/Lösungen niedergelegt.
+        The IT Infrastructure Library®, short ITIL®, is a series of books published
+by the United Kingdom's Office of Government Commerce (OGC), which
+generically combine best practice approaches to designing, providing,
+operating and managing IT services. ITIL does not focus on the technology
+but the services provided by the IT and comprises information on processes,
+roles, responsibilities, potential problem fields/resolutions, and
+definitions of terms.
     </para>
     <para>
-        In den letzten Jahren hat sich die ITIL als De-facto Standard etabliert
-        und mit ihrer Verbreitung in IT Organisationen wesentlich dazu
-        beigetragen,
-        dass sich unter IT Verantwortlichen gemeinsames Bewusstsein und
-        einheitliche Terminologie für IT Service Management herausgebildet
-        haben.
-        Allerdings beschreibt die ITIL nur, "was von wem" getan bzw. woran gedacht
-        werden sollte. Auf das "wie" wird nicht bzw. rudimentär eingegangen,
-        um einen möglichst breiten Anwenderkreis zu erfassen. So gibt es weder
-        umsetzungsfähige Branchen-, Unternehmens- oder Hersteller-spezifische
-        Informationen.
+        ITIL has established itself as de facto standard over the past years and its
+circulation in IT organizations has contributed considerably to the
+development of a collective awareness and consistent terminology for IT
+service management. However, ITIL only describes &quot;who should do
+what&quot; and what should be considered along the way. In order to cover as
+wide a user group as possible, it does not or to a little extent address the
+issue of how to do things.  Therefore, no implementable information is given
+for particular industries, companies, or manufacturers.
     </para>
     <para>
-        Auf Basis der ITIL wurde Ende 2005 der ISO/IEC 20000 Industriestandard
-        für IT Service Management veröffentlicht, nach dem IT Organisationen
-        zertifiziert werden können,
-        um Ihre Konformität nachzuweisen.
+        In December 2005, the ITIL based ISO/IEC 20000 industry standard for IT
+service management was published. IT organizations can apply for ISO/IEC
+20000 certification and prove their conformity.
     </para>
     <para>
-       Durch den anhaltenden Boom entstand der Bedarf nach IT Service
-        Management Tools, in denen die, an ITIL ausgerichteten, Prozesse
-        abgebildet werden können. Dieser Bedarf wurde bislang durch
-        proprietäre Lösungen gedeckt. Aufgrund ihrer hohen Komplexität sind
-        sie zumeist nur für große Unternehmen erschwinglich bzw. für große IT
-        Abteilungen effektiv.
+        The continuing boom caused demand for IT service management tools, which
+could represent the ITIL-based processes. So far, only proprietary solutions
+existed. Because of their considerable complexity, most of these tools are
+only affordable for large companies and effective in large IT departments.
     </para>
     <para>
-       Die Entwicklung von OTRS::ITSM wurde sozusagen als logische
-        Konsequenz des großen Erfolgs des Open Ticket Request Systems OTRS
-        initiiert, um die weltweit anerkannten, öffentlichen ITIL-Empfehlungen
-        mit den Vorzügen quelloffener Software zu verbinden.
+        The development of OTRS::ITSM was started as a result of the great success
+of the OTRS framework in order to combine the globally accepted, public ITIL
+recommendations with the benefits of open-source software.
     </para>
     <para>
-       Mit OTRS::ITSM 1.0 steht seit 2007 erstmalig eine praxistaugliche
-        ITIL konforme IT Service Management Lösung auf Open Source Basis zur
-        Verfügung, die auf dem soliden Fundament von über 110.000 bekannten
-        OTRS Installationen und der sich so entwickelten, aktiven Community
-        basiert (Stand: 04/2007). OTRS::ITSM wird ständig weiterentwickelt und
-        um weitere ITIL-Disziplinen erweitert.
+        OTRS::ITSM 1.0 was the first real-world ITIL compliant IT service management
+solution on open-source basis, built on the solid basis of OTRS with its
+over 55,000 known OTRS installations and its community (information dating
+from April 2007). OTRS::ITSM is under active development and new features
+are added continuously.
     </para>
     <para>
-        Oberstes Ziel bei der (Weiter-)Entwicklung von OTRS::ITSM ist der
-        hohe Praxisbezug. Dieser Forderung wird durch die enge
-        Entwicklungspartnerschaft mit der in der praktischen ITIL-Anwendung
-        sehr erfahrenen Enterprise Consulting GmbH aus Bad Homburg, Rechnung
-        getragen. Neben ITSM-Beratung und -Lösungen betreibt Enterprise für
-        renommierte Kunden komplette IT Organisationen gemäß ITIL.
+        OTRS::ITSM is practically-oriented. This was accomplished by developing it
+in collaboration with ITIL consultants and with some of OTRS Groups'
+customers.
     </para>
     <para>
-        Die Service Desk- und Ticket-System-Lösung OTRS bildet die Basis
-        für den Betrieb der ITIL konformen IT Service Management Lösung
-        OTRS::ITSM und seiner Module Incident Management, Problem Management,
-        Service Level Management und Configuration Management inklusive der
-        integrierten CMDB.
+        The service-desk and ticket system solution OTRS is the basis for the ITIL
+compliant IT service management solution OTRS::ITSM, its incident
+management, problem management, service level management, change and
+configuration management modules, and integrated CMDB.
     </para>
     <para>
-        OTRS::ITSM sowie OTRS sind ohne Lizenzgebühren erhältlich und
-        unterliegen der GNU General Public License (GPL).
+        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
+subject to GNU Affero General Public License (AGPL).
     </para>
-
     <sect1>
-        <title>
-            Features
-        </title>
+        <title>Features</title>
         <para>
-            Basis von OTRS::ITSM 3.3 ist das Open Ticket Request System OTRS
-            3.3, d.h. es stehen auch weiterhin alle Funktionalitäten zur
-            Verfügung, die Sie von OTRS bislang kennen. Darauf aufbauend werden
-            die Funktionalitäten zur Abbildung der ITIL Prozesse als so genannte
-            Pakete installiert.
+            OTRS::ITSM 4 is based on OTRS 4.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
-
         <sect2>
             <title>
-                Neue Features in OTRS::ITSM 3.3
+                New OTRS::ITSM 4 features
             </title>
-            <para>OTRS::ITSM 3.3 bietet:</para>
+            <para>OTRS::ITSM 4 offers:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSServiceIncidentState" in OTRS::ITSM.
-                            Es zeigt den aktuellen Incident-Status eines gewählten Services im Ticket-Zoom, und in allen Agenten-Frontends
-                            in denen ein Service ausgewählt werden kann.
+                            Ported code to the OTRS 4 framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSCIColumns" in OTRS::ITSM.
-                            Das Feature ermöglicht es die angezeigten CI-Attribute individuell pro Config-Item-Klasse zu konfigurieren.
-                            Dieses kann in der CI-Übersicht, der CI-Such-Übersicht und in der Verlinkten CI-Übersicht konfiguriert werden.
+                            New powerful template engine based on <a href="http://www.template-toolkit.org/">Template::Toolkit</a>.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSWorkOrderTimeDependency" in OTRS::ITSM.
-                            Wenn dieses Feature aktiviert ist, kann die gelante End-Zeit einer Workorder geändert werden,
-                            und alle nachfolgenden Workorders werden entsprechend zeitlich angepasst.
+                            A central object manager makes creating and using global objects much
+easier.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integration des Feature AddOns "OTRSCIAttributeSyntaxCheck" in OTRS::ITSM.
-                            Dieses Feature ermöglicht es die Syntax von CI-Attributen mit Regulären Ausdrücken zu Überprüfen, während CI-Attribute im Agenten-Frontend bearbeitet werden (nicht möglich beim Import/Export).
-                            CI-Attribute vom Typ "Text" und "TextArea", sowie der CI-Name können mit individuellen Regulären Ausdrücken überprüft werden.
-                            Es können individuelle Fehlermeldungen angezeigt werden wenn ein Attribut nicht mit einem definerten Muster übereinstimmt.
-                            Mit Hilfe dieses Features kann z. B. erzwungen werden das ein CI-Attribut mit "ABC" beginnen, oder mit einer Zahl enden muss.
+                            OTRS::ITSM 4 includes many other small bug fixes and improvements.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neues Feature "WorkOrder Report Attachments" in OTRS::ITSM.
-                            Dieses Feature ermöglicht es Attachments in Workorder-Report zu verwenden.
+                            All OTRS::ITSM 4 translations will be now managed exclusively via Transifex:
+https://www.transifex.com/projects/p/OTRS/resources/ Please sign up for a
+free translators login on http://www.transifex.com and join one of the
+language teams if you want to contribute to OTRS::ITSM.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Die Toolbar-Icons verwenden nun einen Icon-Font, was es erheblich vereinfacht individuelle Skins und Farb-Schemata zu erstellen.
+                            Improved and more flexible incident state link propagation. It is now
+possible to add more than one link type for the incident state calculation,
+as well to define the link direction for each link type. (Take a look at the
+sysconfig option "ITSM::Core::IncidentLinkTypeDirection")
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Migration von ITSMCriticality und ITSMImpact vom General Catalog zu Dynamischen Feldern.
-                            Umbenennung von ITSM-Reelevanten Dynamischen Feldern zu sinnvolleren Namen (mit ITSM-Prefix).
+                            GenericInterface for ITSM Configuration Management. This feature contains
+operations for creating, changing, retrieving and searching configuration
+items via !GenericInterface.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Im ITSMChangeManagement wurden die Masken zum Erstellen von Changes und Workordern in je 2 verschiedene Masken aufgeteilt.
-                            Je eine Maske zum Erstellen eines Changes / Workorder von Grund auf, und je eine zum Erstellen aus einem Template.
-                        </para>
-                    </listitem>
-
-                </itemizedlist>
-            </para>
-        </sect2>
-        <sect2>
-            <title>
-                Neue Features in OTRS::ITSM 3.2
-            </title>
-            <para>OTRS::ITSM 3.2 bietet:</para>
-            <para>
-                <itemizedlist>
-
-                    <listitem>
-                        <para>
-                            Portierung des Codes auf das OTRS 3.2 Framework.
+                            Bulk actions for ITSM Configuration Management. This feature provides a
+screen to perform certain actions over a selection of ITSM Configuration
+Items.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Verbesserung des Import/Export Dialogs um eine Zusammenfassung nach dem Import anzuzeigen.
+                            New color flag for the "deployment state" in ITSM Configuration
+Management. This feature adds a flag column to the Configuration Item
+Overviews with the color of the Deployment State, it also adds a color
+picker to the General Catalog to define the color preference of each
+Deployment State.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neue Möglichkeit zur Verwendung von Attachments im Configuration-Management.
+                            Dynamic fields for ITSM Change Management. The freetext fields for changes
+and workorder have been migrated to more flexible dynamic fields.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neue optionale Sysconfig-Option um zu überprüfen ob Configuration-Items einen eindeutigen Namen haben.
+                            Improved and easier handling of templates for changes, workorders and change
+advisory boards (CAB). It is now easier to edit a template by selecting it
+from the template overview. A new change or workorder will be created, which
+can then be edited and saved back in to the same template, while the change
+or workorder will be deleted after it has been saved.
                         </para>
                     </listitem>
-
                 </itemizedlist>
             </para>
         </sect2>
 
         <sect2>
             <title>
-                Neue Features in OTRS::ITSM 3.1
+                New OTRS::ITSM 3.3 features
             </title>
-            <para>OTRS::ITSM 3.1 bietet:</para>
+            <para>OTRS::ITSM 3.3 offers:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Portierung des Codes auf das OTRS 3.1 Framework.
+                            Ported code to the OTRS 3.3 framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Bessere Performance durch die Verwendung von Caching-Technologien im Condition-Backend des Change-Managements.
+                            Integrated Feature AddOn "OTRSServiceIncidentState" into OTRS::ITSM.  It
+shows the current incident state of a selected service in the ticket zoom,
+and in all agent frontends where a service can be selected (can be disabled
+on a per screen basis).
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neue Möglichkeit zur Verwendung einer Mirror-Datenbank in der Such-Funktion im Change-Management.
+                            Integrated Feature AddOn "OTRSCIColumns" into OTRS::ITSM.  This feature
+makes it possible to configure the shown CI-Attributes individually for each
+ConfigItem class.  This is possible for the CI-Overview, the
+CI-Search-Overview and the Linked-CI view in the agent interface.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Integrated Feature AddOn "OTRSWorkOrderTimeDependency" into OTRS::ITSM.  If
+this feature is enabled and you change the planned end date of a workorder,
+all following workorders will also be moved accordingly, so that the time
+differences between the workorders will still be the same.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Integrated Feature AddOn "OTRSCIAttributeSyntaxCheck" into OTRS::ITSM.  This
+feature makes it possible to check the syntax of CI attributes with a
+regular expression while adding or editing CIs via the agent interface (not
+while importing CIs with the Import/Export module).  CI attributes of the
+type "Text" and "TextArea", as well as the CI name can be checked with
+individual regular expressions.  An individual error message is shown if the
+attribute does not match the defined pattern.  With this feature it can be
+enforced that for example a CI attribute must start with "ABC" or must end
+with a number.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature "WorkOrder Report Attachments" into OTRS::ITSM.  This
+feature adds support for attachment uploads in the workorder report screen.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            The toolbar icons now use an icon font which makes it easier to create
+custom skins with different base colors.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Migrated ITSMCriticality and ITSMImpact values from general catalog to
+dynamic fields.  Renamed ITSM releated dynamic fields to nicer names,
+prefixed with ITSM.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            In ITSMChangeManagement the frontends to create changes / workorders have
+been splitted in 2 screens each.  One to create a new change / workorder
+from scratch, and one to create it from a template.
                         </para>
                     </listitem>
 
@@ -239,31 +262,34 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS::ITSM 3.0
+                New OTRS::ITSM 3.2 features
             </title>
-            <para>OTRS::ITSM 3.0 bietet:</para>
+            <para>OTRS::ITSM 3.2 offers:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
-                        <para>Neues User-Interface - OTRS 3.0 Look &amp; Feel</para>
-                    </listitem>
-
-                    <listitem>
                         <para>
-                            Portierung des Codes auf das OTRS 3.0 Framework.
+                            Ported code to the OTRS 3.2 framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neue Generische Suchdialoge
+                            Enhanced Import/Export screen to show a summary after importing.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Neue Suchergebnistypen (Drucken, PDF und CSV)
+                            Added attachment support for ITSM config items.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new optional sysconfig option to check if config item names are
+unique.
                         </para>
                     </listitem>
 
@@ -273,27 +299,99 @@
 
         <sect2>
             <title>
-                Neue Features in OTRS::ITSM 2.1
+                New OTRS::ITSM 3.1 features
             </title>
-            <para>OTRS::ITSM 2.1 bietet:</para>
+            <para>OTRS::ITSM 3.1 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 3.1 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added caching to speed up the condition / action backends in change
+management.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added possibility to use a mirror database for change and workorder searches
+in change management.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>
+                New OTRS::ITSM 3.0 features
+            </title>
+            <para>OTRS::ITSM 3.0 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Brand New Interface - OTRS 3.0 Look &amp; Feel
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 3.0 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            New Generic Search Dialogs.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            New Search result types (Print, PDF and CSV).
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>
+                New OTRS::ITSM 2.1 features
+            </title>
+            <para>OTRS::ITSM 2.1 offers:</para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>Change Management</para>
                         <para>
-                            Bessere Performance durch die Verwendung von Caching-Technologien.
+                            Improved speed of Change Management and GeneralCatalog by implementing
+caching technology.
                         </para>
                         <para>
-                            Neue vielseitige FreiText-Felder für Changes und Workorders.
+                            New powerful FreeText fields for Changes and Workorders in Change
+Management.
                         </para>
                         <para>
-                            Neue Option um den Status eines Changes oder einer Workorder während der Speicherung als Vorlage zurückzusetzen.
+                            Implemented an option to reset the change and workorder states while saving
+as template.
                         </para>
                         <para>
-                            Neuer alternativer Checksummen-Generator zur Erzeugung der Change-Nummer.
+                            New alternative checksum generator for the change number.
                         </para>
                         <para>
-                            Neue Option um den Workorder-Titel und Status im Change-Zoom-Zeitdiagramm anzuzeigen.
+                            New option to show workorder title and workorder state in the change zoom
+timeline.
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -301,17 +399,15 @@
         </sect2>
 
         <sect2>
-            <title>
-                Neue Features in OTRS::ITSM 2.0
-            </title>
-            <para>OTRS::ITSM 2.0 bietet:</para>
+            <title>New OTRS::ITSM 2.0 features</title>
+            <para>OTRS::ITSM 2.0 offers:</para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>Change Management</para>
                         <para>
-                            Das neue OTRS::ITSM Paket "ITSMChangeManagement" implementiert die
-                            ITIL-Disziplin Change Management.
+                            The new OTRS::ITSM package "ITSMChangeManagement" implements the ITIL
+discipline Change Management.
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -319,153 +415,137 @@
         </sect2>
 
         <sect2>
-            <title>
-                Neue Features in OTRS::ITSM 1.3
-            </title>
+            <title>New OTRS::ITSM 1.3 features</title>
             <para>
-                Basis von OTRS::ITSM 1.3 ist das Open Ticket Request System OTRS 2.4
+                OTRS::ITSM 1.3 is based on OTRS 2.4
             </para>
             <para>
-                Es bietet die selben Features wie OTRS::ITSM 1.2, aber benötigt das OTRS 2.4 Framework.
+                It offers the same features as OTRS::ITSM 1.2, but runs on the OTRS 2.4
+framework.
             </para>
         </sect2>
+
         <sect2>
-            <title>
-                Neue Features in OTRS::ITSM 1.2
-            </title>
+            <title>New OTRS::ITSM 1.2 features</title>
             <para>
-                OTRS::ITSM 1.2 bietet:
+                OTRS::ITSM 1.2 is based on OTRS 2.3
             </para>
+            <para>OTRS::ITSM 1.2 offers:</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Modularisierung</para>
+                        <para>Modularization</para>
                         <para>
-                            Die OTRS::ITSM Pakete wurden neu aufgeteilt, somit repräsentiert
-                            jedes Paket eine ITIL-Disziplin,
-                            wie z. B. Incident/Problem-Management, Configuration Management und
-                            Service-Level Management.
-                            Die Pakete könnnen nun unabhängig voneinander, und in beliebiger
-                            Reihenfolge installiert werden.
+                            From now on the additional ITSM packages covering single ITIL disciplines
+like incident management / problem management, configuration management,
+service level management, can be installed independently from one
+another. To you as a user, that means that you neither have to install the
+packages in a certain installation order nor do you have to install them all
+in order to use OTRS::ITSM.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Reduzierte Seiten-Reloads</para>
+                        <para>Reduced reloads</para>
                         <para>
-                            Einige OTRS::ITSM Funktionalitäten (z. B. Prioritätsberechnungen
-                            aufgrund der Ticket-Auswirkung) wurden mit Hilfe von
-                            AJAX-Technologien neu
-                            implementiert. Damit wird das erneute Laden von Seiten reduziert.
+                            ITSM functionalities (e. g. priority calculation based on a tickets impact)
+have been reimplemented in AJAX technology to reduce necessary reloads.
+This leads to an increased speed using OTRS::ITSM.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Gemeinsamer Link-Objekt Mechanismus</para>
+                        <para>Joint Link-Object mechanism</para>
                         <para>
-                            Versionen vor OTRS::ITSM 1.2 verwendeten einen eigenen Link-Objekt
-                            Mechanismus.
-                            Aufgrund dessen konnte der in OTRS verwendete Link-Mechanismus nicht in
-                            OTRS::ITSM benutzt werden.
-                            Deswegen wurde ein neuer, gemeinsamer Link-Mechnismus implementiert, der
-                            nun von OTRS,
-                            als auch von OTRS::ITSM verwendet wird.
+                            OTRS::ITSM 1.1 and lower releases were designed based on an own extended
+Object-Link mechanism.  As a consequence, the Object-Link functionality of
+OTRS couldn't be used in OTRS::ITSM. A joint Object-Link mechanism has now
+been implemented, which covers all of the features from both former Link
+object mechanisms.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Höhere Geschwindigkeit</para>
+                        <para>Improved speed</para>
                         <para>
-                            Die Geschwindigkeit beim Zugriff auf die Configuration Item (CI)
-                            Datenbank
-                            wurde deutlich erhöht. Dies wurde erreicht, indem die
-                            Datenbank-Zugriffstechnologie
-                            auf SQL-Bind Parameter umgestellt wurde.
+                            Changing database access technology to using SQL bind parameters made it
+possible to access the Configuration Items (CI) database faster than
+previously.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>Locations</para>
                         <para>
-                            Locations sind nun kein eigenständiger Menüpunkt mehr, sondern vollständig
-                            in Configuration Items integriert. Hierdurch wird die Handhabung
-                            von Locations
-                            sehr viel flexibler als bisher.
+                            Locations are no longer a separate menu item. They are now integrated into
+the Configuration Items, which will bring a sustainable gain in flexibility.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>SLA-Service-Multizuordung</para>
+                        <para>SLA-Service multi-assignments</para>
                         <para>
-                            Es ist nun möglich einen SLA mehreren Services zuzuordnen.
+                            It is now possible to assign a SLA to multiple Services.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>SLA Übersicht</para>
+                        <para>SLA Overwiew</para>
                         <para>
-                            Im Service-Menü gibt es nun eine neue SLA-Übersicht.
+                            In the service menu, there is now a new SLA overwiew mask.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Refresh-Mechanismus</para>
+                        <para>Refresh-Mechanism</para>
                         <para>
-                            Es wurde ein Refresh-Mechanismus hinzugefügt, um die
-                            Service-Übersicht und die Config-Item-Überrsicht automatisch
-                            zu aktualisieren.
+                            A refresh mechanism was added to refresh the service overview and the config
+item overview screens automatically.
                         </para>
                     </listitem>
+
                 </itemizedlist>
             </para>
         </sect2>
 
         <sect2>
-            <title>Neue Features in OTRS::ITSM 1.1</title>
-            <para>OTRS::ITSM 1.1 bietet:</para>
+            <title>New OTRS::ITSM 1.1 features</title>
+            <para>OTRS::ITSM 1.1 offers:</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Granulares Rechtesystem</para>
+                        <para>Authorization concept</para>
                         <para>
-                            Jedes ITSM Paket legt eine entsprechende Gruppe mit an: Service/SLA,
-                            Location, CI, Link-Objekt.
-                            Für jede Gruppe können die OTRS üblichen Rechte vergeben werden,
-                            incl. Rollenfähigkeit.
-                            Die Berechtigungen, bzw. Rollenmitgliedschaft legt dann fest was die
-                            jeweiligen Agenten dürfen.
+                            Each object like Service/SLA, Location, CI, Linkobject now creates a
+corresponding group, so the agents rights can be assigned with more
+granularity.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Customer/Service Zuordnung</para>
+                        <para>Allocation of services to customers</para>
                         <para>
-                            Es wird festgelegt welcher Kunde welchen Service in Anspruch nehmen
-                            darf.
-                            Weiterhin können Services als 'Defaultservice' ausgezeichnet werden.
+                            Services can be assigned to authorized customers. Further more, services may
+be assigned as general 'default services' which are valid to use for each
+customer.
                         </para>
                     </listitem>
 
                     <listitem>
-                        <para>Service/CI-Ansicht</para>
+                        <para>Service/CI view</para>
                         <para>
-                            Erweiterung der bestehenden Service Ansicht um SLAs und der dazu verknüpften
-                            CIs.
-                            Zu den CIs wird der jeweilige Incident Status angezeigt. Bei
-                            abhängigen Services und CIs
-                            wird der Status entsprechenden propagiert. Die Ansicht startet in der
-                            bestehenden
-                            Service Ansicht (Button Service). Wenn ein Service ausgewählt
-                            (angeklickt) wird, werden
-                            die Details zum Service angezeigt. Diese Ansicht wird um eine Zeile
-                            'Current Incident State'
-                            erweitert. Dieser Incident Status errechnet sich aus den Incident Status
-                            der abhängigen
-                            Services und CIs.
-                    </para>
+                            A view on services and CIs, including information on each object's current
+state, allows you to analyze an incident and calculate the incident's impact
+on affected services and customers.  As an enhancement of the service view,
+now SLAs and linked CIs are also displayed.  For each CI, the current
+incident state is shown. In addition, the incident state will be propagated
+for dependent SLAs and CIs.  If a service is selected, the service details
+will be shown, now with the additional 'current incident state', which is
+calculated from the incident states of dependent services and CIs.
+                        </para>
                         <para>
-                            Dazu werden die Cis um den 'Current Incident State' erweitert, wobei
-                            es zwei Statustypen gibt:
+                            CIs are now enhanced with a 'current incident state', which includes two
+state types:
                         </para>
                         <itemizedlist>
                             <listitem>
@@ -477,736 +557,617 @@
                         </itemizedlist>
 
                         <para>
-                            Zu jedem Statustyp können beliebig viele Status erfasst werden.
-                            Die CI Status bestimmen den Service Status, welcher dynamisch
-                            errechnet wird,
-                            und einen der folgenden drei Werte bekommt:
+                            For each state type, any number of states can be registered.  The state of a
+CI affects the service state, which will be dynamically calculated, and can
+have one of the following three values:
                         </para>
                         <itemizedlist>
                             <listitem>
-                                <para>Operational (grün)</para>
+                                <para>Operational (green)</para>
                             </listitem>
                             <listitem>
-                                <para>Warning (gelb)</para>
+                                <para>Warning (yellow)</para>
                             </listitem>
                             <listitem>
                                 <para>Incident (red)</para>
                             </listitem>
                         </itemizedlist>
                         <para>
-                            Die Propagierung des Incident State erfolgt bei mit dem
-                            Verknüpfungstyp 'depend on' verknüpften CIs nach folgenden
-                            Regeln:
+                            The propagation of the incident state will be carried out if CIs are linked
+with the link type 'depend on'.  Here the following rules apply:
                         </para>
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Ist ein CI abhängig von anderen CIs, und ist eines dieser CIs im
-                                    Status 'Incident', so ist das abhängige CI im Status 'Warning'.
+                                    If a CI is dependent on another CI, which is in the state 'Incident', the
+dependent CI gets the state 'Warning'.
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Ist ein Service abhängig von CIs, und ist eines dieser CIs im
-                                    Status 'Incident', so ist der abhängige Service im Status
-                                    'Incident'.
+                                    If a service is dependent on CIs, and one of these CIs has a state
+'Incident', the service will also get the state 'Incident'.
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Ist ein Service abhängig von CIs, und ist eines dieser CIs im
-                                    Status 'Warning', so ist der abhängige Service im Status
-                                    'Warning'.
+                                    If a service is dependent on CIs, and one of these CIs has the state
+'Warning', the service will also get the state 'Warning'.
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Hat ein Service Unterservices, und ist einer dieser Services im
-                                    Status 'Incident', so ist der Eltern Service im Status
-                                    'Warning'.
+                                    If a service has sub-services, and one of these services has the state
+'Incident', the parent service will get the state 'Warning'.
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Hat ein Service Unterservices, und ist einer dieser Services im
-                                    Status 'Warning', so ist der Eltern Service im Status
-                                    'Warning'.
+                                    If a service has sub-services, and one of these services has the state
+'Warning', the parent service will get the state 'Warning'.
                                 </para>
                             </listitem>
                         </itemizedlist>
                         <para>
-                            In der Anzeige werden die jeweiligen Status der Services,
-                            Subservices und CIs entsprechend angezeigt.
+                            The states of the respective services, sub-services, and CIs will be shown
+in the view.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>CI search and linking from agent interface</para>
+                        <para>
+                            A service agent may search, select, and assign any of a customer's
+configuration items (CIs) or existing tickets while recording a new incident
+ticket.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            CI Suche und Verknüpfung in Ticketerstellmaske
+                            CMDB Import/Export (CSV and API)
                         </para>
                         <para>
-                            Aus der Ticketerstellmaske (Agenteninterface) heraus kann ein
-                            Popupfenster aufgerufen werden, über das ein neues Ticket direkt
-                            mit
-                            CIs oder bestehenden Tickets verknüpft werden kann.
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            CMDB Import/Export (CSV und API)
+                            This feature offers the possibility to import or update data from CSV files
+into the CMBD of OTRS::ITSM, and to export data from the CMDB to CSV files.
+Each line of the CSV file describes one CI, with the data of the CI in the
+columns.
                         </para>
                         <para>
-                            Es wird zum einen die Möglichkeit geschaffen OTRS' CMDB mit Daten
-                            aus CSV Dateien zu befüllen, bzw. zu aktualisieren und zum
-                            anderen CMDB Daten als CSV zu exportieren.
-                            Dabei wird davon ausgegangen, das je Zeile der CSV Datei ein CI
-                            beschrieben wird, und die Daten zu dem CI in den einzelnen
-                            Spalten stehen.
+                            The import and export is controlled with ImEx definitions. These definitions
+map the columns of the CSV file to the fields in the CMDB. You can create an
+ImEx definition via the admin interface in OTRS. For each available field in
+the CMDB, the corresponding column in the CSV file needs to be defined. This
+is done in a form, which represents the current CI definition. Also, a
+filter can be applied, to limit the number of the exported CIs.  Any number
+of ImEx definitions can be stored in the system, and each definition can be
+used for import and for export.
                         </para>
                         <para>
-                            Der Im- bzw. Export wird durch ImEx-Definitionen gesteuert. Diese
-                            Definitionen legen die Zuweisung der CSV Spalten zu den Feldern
-                            in der CMDB fest. Das Erstellen einer ImEx-Definition geschieht
-                            in OTRS' Admin-Interface. Dazu wird je verfügbarem Feld in der
-                            CMDB die entsprechende Spalte der CSV Datei angegeben. Die
-                            verfügbaren CMDB Felder werden in einer entsprechenden Maske
-                            vorgegeben, die der aktuellen CI Definition entspricht. Außerdem
-                            kann ein Filter definiert werden, der die zu exportierenden CIs
-                            einschränken kann.
-                            Es können beliebig viele ImEx-Definitionen im System hinterlegt
-                            werden, wobei jede Definition sowohl zum Im- als auch zum Export
-                            genutzt werden kann.
+                            To start an import (exports work the same way), two possibilities exist:
+interactive with the web interface, or automatically with a script.  Using
+the interactive way, the desired ImEx definition is selected, and then the
+CSV file is uploaded to the system. During the interactive export, the CSV
+file will be offered for download respectively.
                         </para>
                         <para>
-                            Zur Durchführung des Imports (Export erfolgt analog) stehen zwei
-                            Wege zur Verfügung: Interaktiv aus dem Web Interface heraus, oder
-                            automatisiert über ein Skript.
-                            Bei der interaktiven Variante des Imports wird zunächst die
-                            gewünschte ImEx-Definition ausgewählt und dann die CSV Datei dem
-                            System übergeben. Beim interaktiven Export wird die CSV Datei
-                            entsprechend zum Download angeboten.
-                        </para>
-                        <para>
-                            Der automatisierte Import erfolgt durch den Aufruf eines Skripts,
-                            dem der Name der betreffenden ImEx-Definition, sowie der
-                            Dateiname der CSV Datei übergeben wird. Beim skriptbasierten
-                            Export werden analog die exportierten CIs in einer Datei
-                            gespeichert, die dem Skript übergeben wurde.
-                            Vor der Durchführung des Im-/Exports wird die ausgewählte Definition
-                            mit der aktuellen CI Definition abgeglichen und der Vorgang
-                            abgebrochen, sollten Inkonsistenzen festgestellt werden. Ebenso
-                            wird während des Imports darauf geachtet, dass die in der CI
-                            Definition hinterlegten Restriktionen (Pflichtfelder, etc)
-                            eingehalten werden. Ggf. wird der CI Datensatz abgelehnt, der
-                            Importvorgang als solches aber weiter durchgeführt. Ein Protokoll
-                            des Imports wird im SysLog mitgeführt.
-                            Über das API kann der CSV basierte Im-/Export durch andere
-                            Formate/Transportwege, wie direkten Datenbankzugriff oder XML
-                            erstetzt bzw. erweitert werden. Die Implementierung der CSV
-                            Schnittstelle kann dabei als Referenz verstanden werden.
+                            The automatic import is carried out via a script, which requires the name of
+the ImEx definition and the name of the CSV file as arguments. During the
+script based export, the CIs that were given the script as arguments will be
+saved in a CSV file.  Before the execution of the import or export, the
+selected ImEx definition will be compared with the current CI definition. If
+inconsistencies are found, the process will be cancelled. Also, during
+import, restrictions in the CI definition (e.g. mandatory fields) will be
+checked. If applicable, the data record is rejected, but the import process
+continues. An import protocol can be found in the syslog.  Via the API the
+CSV based import/export can be replaced or enhanced by other
+formats/transports, like direct database access or XML.  The implementation
+of the CSV interface can be used as a reference.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Eine umfangreiche Sammlung von neuen Statistiken:
+                            A huge variety of additional reports has been created, e.g.:
                         </para>
                         <para>
-                            Grundlegende Statistiken für Tickets und Configuration Items (CIs):
+                            Basic reports for tickets and configuration items (CIs):
                         </para>
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Gesamtanzahl aller jemals erstellten Tickets pro Ticket-Typ und Priorität
-                                    (Status, Queue, Service).
+                                    Total of all tickets ever created per ticket-type and priority (state,
+queue, service).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Monatsübersicht aller erstellten Tickets pro Ticket-Typ (Priorität, Status,
-                                    Queue, Service) im vergangenen Monat.
+                                    Monthly overview of all tickets ever created of a previous month per
+ticket-type (priority, state, queue, service).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Anzahl der erstellten Tickets pro Ticket-Typ und Priorität (Status,
-                                    Queue, Service) im definierten Zeitraum.
+                                    Total of created tickets in a defined period per ticket-type and priority
+(state, queue, service).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Anzahl aller momentan offenen Tickets pro Ticket-Typ und Priorität
-                                    (Queue, Service).
+                                    Total of all open tickets per ticket-type and priority (queue, service).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Gesamtanzahl aller jemals erstellten Config Items pro Klasse und Status.
+                                    Total of all configuration items (CIs) created per class (per state).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Monatsübersicht aller erstellten Config Items pro Klasse (Status) im
-                                    vergangenen Monat.
+                                    Total of all configuration items (CIs) created in a previous month per class
+(per state).
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Anzahl der erstellten Config Items pro Klasse und Status im
-                                    definierten Zeitraum.
+                                    Total of all configuration items (CIs) created in a defined period per class
+(per state).
                                 </para>
                             </listitem>
                         </itemizedlist>
 
                         <para>
-                            Statistiken zur Auswertung der Erstlösungsrate und der durchschnittlichen
-                            Lösungszeit:
+                            Many more reports have been added which provide specific data regarding
+first time solution rate and average resolution time:
                         </para>
                         <itemizedlist>
 
                             <listitem>
                                 <para>
-                                    Erstlösungsrate pro Ticket-Typ und Priorität (Queue, Service) über alle jemals
-                                    erstellten Tickets.
-                            </para>
+                                    First time solution rate of all tickets ever created per ticket-type and
+priority (queue, service).
+                                </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Monatsübersicht der Erstlösungsrate pro Ticket-Typ (Priorität, Queue, Service)
-                                    im vergangenen Monat.
-                            </para>
+                                    First time solution rate in a previous month per ticket-type (priority,
+queue, service).
+                                </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Erstlösungsrate pro Ticket-Typ und Priorität (Queue, Service) im definierten
-                                    Zeitraum.
-                            </para>
+                                    First time solution rate in a defined period per ticket-type and priority
+(queue, service).
+                                </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Durchschnittliche Lösungszeit pro Ticket-Typ und Priorität (Queue, Service) über
-                                    alle jemals erstellten Tickets.
-                            </para>
+                                    Average resolution time of all tickets ever created per ticket-type and
+priority (queue, service).
+                                </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Monatsübersicht über die durchschnittliche Lösungszeit pro Ticket-Typ
-                                    (Priorität, Queue, Service) im vergangenen Monat.
-                            </para>
+                                    Average resolution time in a previous month per ticket-type and priority
+(queue, service).
+                                </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Durchschnittliche Lösungszeit pro Ticket-Typ und Priorität (Queue, Service) im
-                                    definierten Zeitraum.
-                            </para>
+                                    Average resolution time in a defined period per ticket-type and priority
+(queue, service).
+                                </para>
                             </listitem>
                         </itemizedlist>
                     </listitem>
                     <listitem>
                         <para>
-                            Druckfunktion für CIs, Services, SLAs, Locations.
-                    </para>
+                            Added print function for CIs, Services, SLAs, Locations.
+                        </para>
                     </listitem>
                 </itemizedlist>
             </para>
         </sect2>
 
         <sect2>
-            <title>Features in OTRS::ITSM 1.0</title>
-            <para>OTRS::ITSM 1.0 bietet:</para>
+            <title>OTRS::ITSM 1.0 features</title>
+            <para>OTRS::ITSM 1.0 offers:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>ITIL compliant representation of &quot;service support&quot; processes
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>incident management</para>
+                        </listitem>
+                        <listitem>
+                            <para>problem management</para>
+                        </listitem>
+                        <listitem>
+                            <para>configuration management</para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+                <listitem>
+                    <para>
+                        an integrated, individually extensible configuration management database
+(CMDB)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        ITIL compliant names for new functions
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        ITIL compliant role, responsibility, and permission model
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        cross-process communication management: within the IT service organization,
+with customers/users/management and suppliers/providers
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        flexible stats functions for (trend) analyses; reporting, planning, and
+controlling based on performance figures
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        flexible configuration, customization, and upgrade to meet individual
+requirements
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        native ticket types are supported (integrated in OTRS): Various ticket types
+can be managed in the admin interface.  Free-text fields are therefore no
+longer needed to specify ticket types. Installations using free-text fields
+for ticket type classification do not have to be migrated. The new feature
+is also shown in the ticket content and in the print view for agents and
+customers and can be adjusted in the agent interface.
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>Configuration management &amp; integrated CMDB:</para>
             <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>ITIL konforme Abbildung der "Service Support" Prozesse
-                        </para>
-
-                        <itemizedlist>
-                            <listitem>
-                                <para>Incident Management</para>
-                            </listitem>
-
-                            <listitem>
-                                <para>Problem Management</para>
-                            </listitem>
-
-                            <listitem>
-                                <para>Configuration Management</para>
-                            </listitem>
-                        </itemizedlist>
-
-                    </listitem>
-
-                    <listitem>
-                        <para>Integrierte, individuell erweiterbare Configuration
-                            Management Data Base (CMDB)</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>ITIL konformes Wording</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>ITIL konformes Rollen-, Verantwortlichkeits-,
-                            Berechtigungsmodell</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Prozess übergreifende Kommunikationssteuerung: innerhalb der
-                            IT Serviceorganisation, mit Kunden/Anwendern/Management und
-                            Lieferanten/Providern</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Flexible Statistik-Funktionen für (Trend-)Analysen,
-                            Kennzahlen basiertes Reporting, Planung und Controlling</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Flexible Konfigurationsmöglichkeiten, Anpassbarkeit und
-                            Erweiterbarkeit an individuelle Anforderungen</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Unterstützung nativer Tickettypen (integriert in OTRS):
-                            Verschiedene Tickettypen können nun über das Admin-Interface
-                            verwaltet werden. Die Benutzung von Freitext-Feldern für die
-                            Spezifikation von Tickettypen ist somit nicht mehr notwendig.
-                            Installationen, die Freitextfelder für die Klassifikation von
-                            Tickettypen verwenden, müssen nicht migriert werden. Dieses neue
-                            Feature wird ebenfalls im Ticketinhalt und auch in der
-                            Druckansicht für Agenten und Kunden angezeigt und kann über das
-                            Agenten-Interface angepasst werden</para>
-                    </listitem>
-                </itemizedlist>
+                OTRS::ITSM is based on an integrated configuration management data base
+(CMDB), which serves as the foundation for the comprehensive control of the
+service management processes. It represents the configuration items (CI),
+their complex relationships, and interdependencies with each other and with
+other components of the service chain.
             </para>
-
-            <para>Configuration Management &amp; Integrierte CMDB:</para>
-
+            <itemizedlist>
+                <listitem>
+                    <para>Comprehensive recording and management of ITSM relevant configuration items
+(CIs) such as computers, hardware, software, networks, documents and
+services, SLAs, and organizational structures.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Illustration of the IT service catalog and agreements in force (SLA, OLA,
+UC)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Recording, management, and illustration of technical and service related
+relationships and interdependences among CMDB data, e.g. a service with all
+necessary, alternative or relevant CIs
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Management of historic, current, and future CI states, e.g.  for problem
+diagnosis, server maintenance or planned changes
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Analysis of the potential impact of service failures or configuration
+changes
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Display of virtualized IT infrastructures, e.g. server / memory
+virtualization
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Software license management, e.g. licenses available / in use (third party
+products required)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Chronological life cycle management for CIs, from acquisition to disposal
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Reporting of all configuration changes performed on CMDB data
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Interface to company directories (e.g. LDAP, eDirectory, Active Directory)
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>Incident management:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Services and SLAs (integrated in OTRS): The new attributes "service" and
+"service level agreements (SLA)" were integrated in OTRS 2.2 on its way to
+becoming an IT service management tool.  When creating a ticket, the
+customer can select a service (e.g.  e-mail service) and a corresponding
+SLA. SLA attributes are &quot;response time&quot;, &quot;update time&quot;
+and &quot;solution time&quot;. IT service can use these attributes for
+notifications or ticket escalation in order to meet existing SLAs.  Service
+and SLA specific information in the header of new e-mails can be analyzed as
+usual with the PostMaster filter module.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Comprehensive support of IT service support organization processes with
+incident recording, classification, prioritization, direct help (1st level
+support), diagnosis, coordination (2nd/3rd level support, external partners
+etc.), service recovery, resolution, closure and documentation
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>Incidents and service requests can be recorded quickly and intuitively by
+service desk staff and users (web self-service)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Rule-based ticket generation and/or notification, e.g. in interaction with
+IT monitoring systems
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Classification and prioritization options (priority, impact, urgency)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Complete CMDB coverage, e.g. services affected by the incident,
+configuration items concerned, FAQ database, link-up between tickets and CIs
+for analyses and reporting
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        (Automatic) recording of "articles" for tickets (activity record)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Constant monitoring and evaluation of the ticket processing progress
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Complete integration of OTRS role, group, and queue mechanisms for incident
+ticket allocation, tracking, escalation, and interpretation
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Provision and storage of relevant time data, e.g. for service level
+management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Practical ticket handling (merge, split), allows to merge similar incidents
+and/or split complicated ones
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Planning, proactive control, and monitoring of service request activities
+(work packages, work plans, service lead times, due dates)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Generation and tracking of problem tickets from incidents
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>Problem management:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Comprehensive support of IT organization processes in problem
+identification, recording, classification, prioritization, problem origin
+diagnosis, resolution coordination, e.g. workaround or request for change,
+closure, and documentation</para>
+                </listitem>
+                <listitem>
+                    <para>Provision of relevant information for subprocesses</para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                Problem control (trouble-shooting),
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Error control (error processing),
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Proactive problem management (e.g. ticket trend analyses) and
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Management information (on incidents, problems and known errors)
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+                <listitem>
+                    <para>
+                        Current/historic incidents, knowledge base (FAQs), and CMDB are constantly
+available
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Complete integration of OTRS role, group and queue mechanisms to allocate,
+track, escalate, and evaluate incident tickets
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Systematic automated notifications on the problem resolution progress for
+users (user groups) concerned or the management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Incident management receives ready signal for resolved problems
+                    </para>
+                </listitem>
+            </itemizedlist>
             <para>
-                OTRS::ITSM basiert auf einer integrierten Configuration
-                Management Data Base (CMDB), die das Fundament für die durchgängige
-                Steuerung der Service Management Prozesse darstellt. Sie bildet
-                neben den Configuration Items (CI) vor allem deren komplexe
-                Beziehungen und Abhängigkeiten untereinander bzw. innerhalb der
-                Service-Kette ab.
+                Tickets are central information containers for IT service process
+management: They transport multiple possible underlying data such as:
             </para>
-
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>
-                            Umfangreiche Erfassung und Management von ITSM relevanten
-                            Configuration Items (CIs), z. B. Computer, Hardware, Software,
-                            Netze, Dokumente sowie Services, SLAs und Organisationsstrukturen
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Abbildung des IT Service-Katalogs und geltender
-                            Vereinbarungen (SLA, OLA, UC)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Erfassung, Verwaltung und Darstellung der technischen und
-                            Service bezogenen Beziehungen und Abhängigkeiten zwischen
-                            CMDB-Daten, z. B. Service mit allen erforderlichen, alternativen
-                            oder relevanten CIs
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Management historischer, aktueller und zukünftiger
-                            CI-Status, z. B. bei Problem-Diagnose, Server-Wartung oder
-                            geplanten Changes
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Analyse möglicher Auswirkungen (Impact) von Serviceausfällen
-                            bzw. vor Konfigurationsänderungen
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Abbildung virtualisierter IT Infrastrukturen, z. B.
-                            Server-/Speicher-Virtualisierung
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Software-Lizenzmanagement, z. B. verfügbare/genutzte
-                            Lizenzen (Drittprodukte erforderlich)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Chronologisches Life-Cycle-Management für CIs, von Eingang
-                            bis Entsorgung
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Protokollierung aller Konfigurations Änderungen an
-                            CMDB-Daten
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Anbindung an Unternehmens-Verzeichnisse (z. B. LDAP)
-                        </para>
-                    </listitem>
-
-                </itemizedlist>
-            </para>
-
-            <para>Incident Management:</para>
-
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>Services und SLAs (integriert in OTRS): Auf dem Weg hin zu
-                            einem IT Service Management-Werkzeug, wurden in OTRS 2.2 die
-                            neuen Attribute 'Service' und 'Service Level Agreements (SLA)'
-                            integriert. Bei der Erstellung eines neuen Tickets kann der
-                            Anfragesteller einen Service (z. B. Email-Service) und ein
-                            zugehöriges SLA auswählen. SLA Attribute sind "response time"
-                            (Antwortzeit), "update time" (Updatezeit) und "solution time"
-                            (Lösungszeit). Diese Attribute können vom IT Service für
-                            Benachrichtigungen oder für die Eskalation von Tickets
-                            herangezogen werden, um bestehende SLAs einzuhalten. Service- und
-                            SLA-spezifische Informationen innerhalb der Header neuer Emails
-                            können weiterhin mit Hilfe des PostMasterFilter-Moduls
-                            ausgewertet werden.
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Durchgängige Prozess-Unterstützung der IT
-                            Service-Support-Organisation bei Incident-Erfassung,
-                            Klassifizierung, Priorisierung, Direkthilfe (1st Level Support),
-                            Diagnose, Koordination (2nd/3rd-Level-Support, Externe Partner
-                            etc.), Service-Wiederherstellung, Lösung, Abschluss und
-                            Dokumentation
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Schnelle und intuitive Erfassung von Incidents und Service
-                            Requests, sowohl für Mitarbeiter am ServiceDesk als auch für
-                            Anwender (Web Self-Service)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Regelbasierte Ticketerzeugung und/oder Benachrichtigung, z. B. im Zusammenspiel mit IT Monitoring-Systemen
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Klassifizierungs- und Priorisierungsoptionen (Priorität,
-                            Auswirkung, Dringlichkeit)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Volle CMDB-Unterstützung, z. B. vom Incident betroffene
-                            Services, beteiligte Configuration Items, FAQ-Datenbank,
-                            Verknüpfung zw. Tickets und CIs für Analysen und Reporting
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            (Automatische) Erfassung von "Artikeln" zu Tickets
-                            (Aktivitätenprotokoll)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Stetige Überwachung und Auswertung des
-                            Bearbeitungsfortschritts von Tickets
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Vollständige Integration der OTRS Rollen-, Gruppen- und
-                            Queue-Mechanismen zur Zuweisung, Verfolgung, Eskalation und
-                            Auswertung von Incident-Tickets
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Bereitstellung und Speicherung relevanter Zeitdaten, z. B.
-                            für Service-Level-Management
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Praktisches Tickethandling (Merge, Split), z. B. zur
-                            Zusammenfassung gleichartiger Incidents bzw. Aufteilen
-                            komplexerer Vorfälle
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Planung, proaktive Steuerung und Überwachung der
-                            Service-Request-Aktivitäten (Arbeitspakete, Arbeitspläne, Service
-                            Lead Times, Fälligkeiten)
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Erzeugung und Verfolgung von Problem-Tickets aus Incidents
-                        </para>
-                    </listitem>
-
-                </itemizedlist>
-            </para>
-
-            <para>Problem Management:</para>
-
-            <para>
-                <itemizedlist>
-
-                    <listitem>
-                        <para>
-                            Durchgängige Prozess-Unterstützung der IT Organisation bei
-                            Problem-Identifizierung, Erfassung, Klassifizierung,
-                            Priorisierung, Problem-Ursprungsdiagnose, Lösungs-Koordination,
-                            z. B. Workaround oder Request for Change, Abschluss und
-                            Dokumentation
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Bereitstellung relevanter Informationen für die Teil-Prozesse
-                        </para>
-                        <itemizedlist>
-
-                            <listitem>
-                                <para>
-                                    Problem Control (Problembehandlung),
-                                </para>
-                            </listitem>
-
-                            <listitem>
-                                <para>
-                                    Error Control (Fehlerbehandlung),
-                                </para>
-                            </listitem>
-
-                            <listitem>
-                                <para>
-                                    Proaktives Problem Management (z. B. Ticket-Trendanalysen) und
-                                </para>
-                            </listitem>
-
-                            <listitem>
-                                <para>
-                                    Management Information (zu Incidents, Problemen und Known Errors)
-                                </para>
-                            </listitem>
-
-                        </itemizedlist>
-
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Stetiger Blick auf aktuelle/historische Incidents,
-                            Wissensbasis (FAQs) und CMDB
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Vollständige Integration der OTRS Rollen-, Gruppen- und
-                            Queue-Mechanismen zur Zuweisung, Verfolgung, Eskalation und
-                            Auswertung von Incident-Tickets
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Gezielte, automatische, Benachrichtigung über den
-                            Problemlösungsfortschritt an betroffene Anwender(-Gruppen) oder
-                            an das Management
-                        </para>
-                    </listitem>
-
-                    <listitem>
-                        <para>
-                            Rückmeldung gelöster Probleme an das Incident Management
-                        </para>
-                    </listitem>
-
-                </itemizedlist>
-            </para>
-
-            <para>Tickets sind die zentralen Informationscontainer für das
-                Management von IT Service-Prozessen. Sie "transportieren" eine
-                Vielzahl möglicher Basisdaten, z. B.:
-            </para>
-
-            <para>
-                <itemizedlist>
-
-                    <listitem>
-                        <para>Personen, Organisationen</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Zeitstempel</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Priorität, Impact, Severity</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Assoziationen zum IT Service-Katalog und zu Projekten</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Aktivitäten, z. B. die Notiz zu einem Anruf mit
-                            Zeitaufschreibung</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Objekte, z. B. CIs, inkl. der Relationen</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>(Sub-)Tickets, z. B. ein Problem mit den zugrunde liegenden
-                            Incidents</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Notizen und Anhänge, z. B. gescannte Service-Request
-                            Formulare</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Arbeitspakete, d.h. geplante, zugewiesene Aufgaben</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>SLA Informationen</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Schwellwerte und Eskalationsdaten</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Ticket History (aller Änderungen)</para>
-                    </listitem>
-
-                    <listitem>
-                        <para>Accounting-Informationen (Zeitaufschreibung)</para>
-                    </listitem>
-
-                </itemizedlist>
-            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Persons, organizations
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Time stamp
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Priority, impact, severity
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Associations to IT service catalog and projects
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Activities, e.g. note about a call with time accounting
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Objects, e.g. CIs, including relations
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        (Sub)Tickets, e.g. a problem with the underlying incidents
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Notes and attachments, e.g. scanned service request forms
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Work packages, i.e. planned, allocated tasks
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        SLA information
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Thresholds and escalation data
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Ticket history (all changes)
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Accounting information (time accounting).
+                    </para>
+                </listitem>
+            </itemizedlist>
         </sect2>
 
-
-
     </sect1>
-
     <sect1>
-        <title>Hard- und Software-Anforderungen</title>
-
-        <para>Die Anforderungen für OTRS::ITSM unterscheiden sich nicht von
-            denen für OTRS. Entsprechende Informationen sind im OTRS
-            Admin-Handbuch zu finden.</para>
+        <title>Hardware and software requirements</title>
+        <para>
+            The requirements for OTRS::ITSM are the same as for OTRS. More information
+can be found in the OTRS Admin Manual.
+        </para>
     </sect1>
-
     <sect1>
         <title>Community</title>
-
         <para>
-            Um OTRS hat sich in den letzten Jahren eine große Community gebildet.
-            Über Mailinglisten tauschen sich Anwender und Entwickler zu den
-            verschiedensten Themen rund um das Trouble Ticket System aus.
-            Behandelt werden Fragen rund um die Installation, Konfiguration,
-            Benutzung, Lokalisation und Entwicklung. Fehler können über ein
-            Bug-Tracking-System gemeldet werden (
-            <ulink url="http://bugs.otrs.org/">
-                <citetitle>http://bugs.otrs.org</citetitle>
-            </ulink>
-            ). Sie erreichen direkt die zuständigen Entwickler, so dass schnell
-            Fixes bereitgestellt werden können.
+            A large community has evolved around OTRS throughout the past years. Users
+and developers use mailing lists to share their insights about a wide
+variety of issues connected with the trouble ticket system. They address
+questions about installation, configuration, use, localization, and
+development. Bugs can be reported using the bug tracking system at
+http://bugs.otrs.org (http://bugs.otrs.org/). They directly reach the
+developers responsible and fixes can be provided quickly.
         </para>
-
         <para>
-            Auch für OTRS::ITSM sind diese Community-Kanäle nutzbar, um die
-            Qualität des Produktes fortlaufend zu verbessern. Die Community ist
-            über die Homepage
-            <ulink url="http://otrs.org/">
-                <citetitle>http://otrs.org</citetitle>
-            </ulink>
-            zu erreichen.
+            The above mentioned community channels are open for OTRS::ITSM users also,
+to constantly improve the product's quality. You can join the community at
+our homepage http://otrs.org (http://otrs.org/).
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>OTRS.org</screeninfo>
-                <graphic srccredit="OTRS.org - screenshot" scale="50" fileref="screenshots/otrs-org.png" />
-            </screenshot>
+<screeninfo>OTRS.org</screeninfo> <graphic scale="50"
+fileref="screenshots/otrs-org.png" srccredit="OTRS.org - screenshot" /></screenshot>
         </para>
     </sect1>
-
     <sect1>
-
-        <title>Mailing Listen</title>
-
+        <title>Mailing lists</title>
         <para>
-            Für OTRS::ITSM sind eigene Mailinglisten eingerichtet. Diese sind
-            unter
-            <ulink url="http://lists.otrs.org/">
-                <citetitle>http://lists.otrs.org</citetitle>
-            </ulink>
-            zu finden:
+            Separate mailing lists have been set up for OTRS::ITSM. Please visit
+http://lists.otrs.org (http://lists.otrs.org/):
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>lists.OTRS.org</screeninfo>
-                <graphic srccredit="lists.OTRS.org - screenshot" scale="50"
-                    fileref="screenshots/lists-otrs-org.png" />
-            </screenshot>
+<screeninfo>lists.OTRS.org</screeninfo> <graphic scale="50"
+fileref="screenshots/lists-otrs-org.png" srccredit="lists.OTRS.org -
+screenshot" /></screenshot>
         </para>
-
     </sect1>
-
 </chapter>

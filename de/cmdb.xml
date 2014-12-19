@@ -1,426 +1,349 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-
-    <title>Die CMDB - das zentrale IT Repository</title>
-
+    <title>The CMDB - the central IT repository</title>
     <para>
-        Die Configuration Management Database (CMDB) ist nicht als
-        Datenbank im technischen Sinne zu verstehen, sondern als
-        konzeptionelles Modell der IT. Sie ist die Grundlage für ein
-        funktionierendes IT Service Management. In ihr werden alle IT
-        Komponenten und Bestände verwaltet. Das Configuration Management geht
-        über das so genannte, häufig fälschlich synonym verwendete, Asset
-        Management hinaus, da es nicht nur Vermögenswerte aus finanzieller
-        Sicht dokumentiert sondern z. B. insbesondere die Beziehungen
-        einzelner Komponenten zueinander, Spezifikationen oder Standortangaben
-        erfasst und somit für den IT Support schnell darstellt, welche
-        Abhängigkeiten zwischen den IT Services und den dafür erforderlichen
-        IT Komponenten (= Configuration Items = CIs) bestehen.
+       The configuration management database (CMDB) is not a database in the
+technical sense, but a conceptual IT model, which is indispensable for
+efficient IT service management.  All IT components and inventories are
+managed in the CMDB. Configuration management exceeds asset management,
+often incorrectly used as a synonym, as it does not only document assets
+from a financial point of view, but captures information regarding the
+relationship between components, specifications, or their location.  Thus IT
+support can quickly access information on the interdependence of IT services
+and the IT components (= configuration items = CIs) necessary for them.
     </para>
-
     <para>
-       Gemäß ITIL sollten die folgenden Anforderungen von einer CMDB
-        unbedingt unterstützt werden:
+        According to ITIL, a CMDB must feature the following functionalities:
     </para>
-
+    <itemizedlist>
+        <listitem>
+            <para>
+                Manual and, where applicable, automatic recording and modification of
+configuration items
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Description of the relationship and/or interdependence between CIs
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Change of CI attributes (e.g. serial numbers)
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Location and user management for CIs
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Integration via the ITIL processes represented in the system
+            </para>
+        </listitem>
+    </itemizedlist>
     <para>
-        <itemizedlist>
-            <listitem>
-                <para>
-                    manuelle und ggf. automatische Erfassung und Änderung von
-                    Configuration Items
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    Darstellung der Verbindung bzw. Abhängigkeiten zwischen CIs
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    Änderung von Attributen (wie z. B. Seriennummern) für CIs
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    Standort- und User-Verwaltung für CIs
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    Integration über die im System abgebildeten ITIL-Prozesse
-                </para>
-            </listitem>
-        </itemizedlist>
-    </para>
-
-    <para>
-        OTRS::ITSM erfüllt all diese Forderungen und stellt viele
-        zusätzliche IT Unterstützungsfunktionen in der CMDB bereit.
+        OTRS::ITSM meets all requirements stated above and offers numerous
+additional IT support functions in the CMDB.
     </para>
 
     <sect1>
-        <title>Das OTRS::ITSM Datenbankmodell</title>
+        <title>The OTRS::ITSM database model</title>
         <para>
-            Durch den modularen Aufbau von OTRS::ITSM und die Fähigkeit nur einzelne
-            OTRS::ITSM Pakete zu installieren, ist eine
-            Darstellung des Datenbankmodells in einer Grafik nur schwer möglich. Aus diesem
-            Grund werden separate Grafiken für
-            den OTRS Framework und die ITSM-Pakete bereitgestellt, die
-            Änderungen/Erweiterungen am Datenbankschema vornehmen.
+            The modular architecture of OTRS::ITSM and the ability to install single
+OTRS::ITSM packages independently makes it difficult to display a complete
+database model in a single graphic. For this reason, separate graphics will
+be provided for the OTRS framework and for ITSM packages which change or
+extend the database scheme.
         </para>
         <sect2 id="otrs-database">
             <title>OTRS Framework</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm unter
-                https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png zu finden.
+                For better readability, the diagram can be found at: <ulink
+url="https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm auch unter
-                https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png zu finden.
-            </para>
+                For better readability, this diagram can be found at: <ulink
+url="">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
+             </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm auch unter
-                https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png zu finden.
+                For better readability, this diagram can be found at: <ulink
+url="">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm auch unter
-                https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png zu finden.
+                For better readability, this diagram can be found at: <ulink
+url="">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm auch unter
-                https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png zu finden.
+                For better readability, this diagram can be found at: <ulink
+url="">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                Zur besseren Lesbarkeit ist das Diagramm auch unter
-                https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png zu finden.
+                For better readability, this diagram can be found at: <ulink
+url="">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
             </para>
         </sect2>
     </sect1>
 
     <sect1>
-
-        <title>Services, der Kern des Ganzen</title>
-
+        <title>Services, at the core of everything</title>
         <para>
-            Services, z. B. "Standard IT Arbeitsplatz", "Email" oder
-            "Web-Zugang" sind die Produkte der IT und sollten unbedingt vor
-            Tooleinführung in einem so genannten "IT Service-Katalog"
-            zusammengefasst sein. Der Service-Katalog ist in aller Regel Kunden-
-            oder Unternehmens-spezifisch, kann hierarchisch geordnet sein und
-            sollte in kundenfreundlicher, d. h. für die Anwender verständlicher,
-            Sprache hinterlegt sein, da er sowohl für IT Personal (Agents) als
-            auch IT Anwender (Customers) zu sehen ist.
+            Services such as &quot;standard IT workstation&quot;, &quot;e-mail&quot; or
+&quot;web access&quot; are IT products and should be compiled in a &quot;IT
+service catalog&quot; prior to the adoption of OTRS::ITSM.  Such a service
+catalog is usually customer or company specific and can be structured
+hierarchically.  Furthermore, it should be formulated in a user friendly,
+meaning easily understood, language, as both IT personnel (agents) and IT
+users (customers) are among its audience.
         </para>
-
         <warning>
             <para>
-                Erfahrungsgemäß stellt das Design eines Service-Kataloges eine
-                nicht zu unterschätzende Aufgabe dar. Es wird daher dringend
-                empfohlen, die konzeptionellen Gedanken "im Trockenen" zu
-                validieren. Erst danach sollten die Servicestrukturen in OTRS::ITSM
-                erfasst werden. Es hat sich bewährt, auf externe Unterstützung,
-                z. B. durch ITIL Praxis-Experten zurückzugreifen.
+                Service catalog design is a task which should not be underestimated. Our
+experience shows that it is highly recommendable to validate conceptual
+thoughts in a dry run first and to transfer the service structures to
+OTRS::ITSM in a second step. It has proven of value to resort to external
+assistance, e.g. of ITIL practice experts.
             </para>
         </warning>
-
         <para>
-            Beispiel für einen in OTRS::ITSM hinterlegten, hierarchischen IT
-            Service-Katalog (Ausschnitt), wie er bei der Anlage eines Tickets
+            Example of (part of) a hierarchic IT service catalog specified in OTRS::ITSM
+as shown when a ticket is created
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>agent-phoneticket</screeninfo>
-                <graphic srccredit="agent-phoneticket - screenshot" scale="50" fileref="screenshots/agent-phoneticket.png" />
-            </screenshot>
+<screeninfo>agent-phoneticket</screeninfo> <graphic
+fileref="screenshots/agent-phoneticket.png" scale="50"
+srccredit="agent-phoneticket - screenshot" /></screenshot>
         </para>
-
-        <para> und im Adminstrations-Bereich angezeigt wird.</para>
-
+        <para>and in the administration area. </para>
         <para>
             <screenshot>
-                <screeninfo>admin-service-managment-overview</screeninfo>
-                <graphic srccredit="admin-service-managment-overview - screenshot" scale="50" fileref="screenshots/admin-service-managment-overview.png" />
-            </screenshot>
+<screeninfo>admin-service-managment-overview</screeninfo> <graphic
+fileref="screenshots/admin-service-managment-overview.png" scale="50"
+srccredit="admin-service-managment-overview - screenshot" /></screenshot>
         </para>
     </sect1>
-
     <sect1>
-        <title>Service Levels und Service Level Agreements</title>
-
+        <title>Service levels and service level agreements</title>
         <para>
-            Mit Service Levels bzw. in den zugehörigen Vereinbarungen
-            (Service Level Agreements, SLAs) werden Güte-Versprechen für IT
-            Services beschrieben. SLAs werden im Admin-Interface erfasst und
-            gepflegt:
+            Service levels and the respective agreements (service level agreements,
+SLAs) document quality pledges for IT services. SLAs are recorded and
+administered in the admin interface.
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>admin-sla-management-overview</screeninfo>
-                <graphic srccredit="admin-sla-management-overview - screenshot" scale="50" fileref="screenshots/admin-sla-management-overview.png" />
-            </screenshot>
+<screeninfo>admin-sla-management-overview</screeninfo> <graphic
+fileref="screenshots/admin-sla-management-overview.png" scale="50"
+srccredit="admin-sla-management-overview - screenshot" /></screenshot>
         </para>
-
-        <para>
-            Für jeden SLA können die folgend dargestellten Parameter erfasst werden:
-        </para>
-
+        <para>The following parameters can be recorded with every SLA: </para>
         <para>
             <screenshot>
-                <screeninfo>admin-sla-management-edit</screeninfo>
-                <graphic srccredit="admin-sla-management-edit - screenshot" scale="50" fileref="screenshots/admin-sla-management-edit.png" />
-            </screenshot>
+<screeninfo>admin-sla-management-edit</screeninfo> <graphic
+fileref="screenshots/admin-sla-management-edit.png" scale="50"
+srccredit="admin-sla-management-edit - screenshot" /></screenshot>
         </para>
-
         <para>
-            OTRS::ITSM bietet zur Abbildung unterschiedlicher
-            Arbeits-Zeitzonen oder Servicezeiten standardmäßig bis zu 99
-            verschiedene Kalender an, denen die SLAs zugewiesen werden können
-            ("Service Level Window"). Es können diverse Zeiten (in Minuten)
-            erfasst werden, nach denen OTRS::ITSM die Benachrichtigung und
-            Eskalation steuert:
+            OTRS::ITSM offers by default up to 99 different calendars to describe the
+various time zones for work or service times. The SLAs can be allocated to
+them (&quot;service level window&quot;). Various time spans can be entered
+(in minutes) which OTRS::ITSM uses to control notification and escalation:
         </para>
-
-        <para>
-            <itemizedlist>
-                <listitem>
-                    <para>[ Response Time ]</para>
-                    <itemizedlist>
-                        <listitem>
-                            <para>
-                                = Reaktionszeit bei Störungs-Incidents
-                            </para>
-                        </listitem>
-                        <listitem>
-                            <para>
-                                = Start der Bearbeitung von Service Requests ("Service Request Lead Time")
-                            </para>
-                        </listitem>
-                    </itemizedlist>
-                </listitem>
-
-                <listitem>
-                    <para>[ Update Time ]</para>
-                    <itemizedlist>
-                        <listitem>
-                            <para>
-                                = Benachrichtigungszeit
-                            </para>
-                        </listitem>
-                    </itemizedlist>
-                </listitem>
-
-                <listitem>
-                    <para>[ Solution Time ]</para>
-                    <itemizedlist>
-                        <listitem>
-                            <para>
-                                = Lösungszeit bei Störung-Incidents ("Maximum Time To Repair", "MTTR")
-                            </para>
-                        </listitem>
-                        <listitem>
-                            <para>
-                                = Lieferzeit bei Service Requests ("Delivery Time")
-                            </para>
-                        </listitem>
-                    </itemizedlist>
-                </listitem>
-
-                <listitem>
-                    <para>[ Min. Time Between Incidents ]</para>
-                    <itemizedlist>
-                        <listitem>
-                            <para>
-                                = "MTBI": minimale Zeitspanne zwischen Abschluss des
-                                letzten Incidents-Tickets und dem erneuten Auftreten eines
-                                Störungs-Incidents, für den der gleiche SLA gilt.
-                            </para>
-                        </listitem>
-                    </itemizedlist>
-                </listitem>
-            </itemizedlist>
-        </para>
-
+        <itemizedlist>
+            <listitem>
+                <para>[ Response Time ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = reaction time with incidents
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = start of service request procession (&quot;service request lead
+time&quot;)
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Update Time ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = notification time
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Solution Time ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = time elapsed until incidents are resolved (&quot;maximum time to
+repair&quot;, &quot;MTTR&quot;)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = delivery time for service requests (&quot;delivery time&quot;)
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Min. Time Between Incidents ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = &quot;MTBI&quot;: minimal time between closure of the last incident ticket
+and recurrence of an incident for which the same SLA applies.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
         <warning>
             <para>
-                Sind in den SLAs keine Werte für o. g. Zeiten eingetragen,
-                erfolgt die Eskalation über die jeder Queue zugewiesenen Zeitfelder
-                Response Time, Update Time und Solution Time!</para>
+                If no values for the above-named times are entered in the SLAs, escalation
+is affected according to the time fields "response time", "update time" and
+"solution time" assigned to all queues!
+            </para>
         </warning>
-
-        <para>
-            OTRS::ITSM orientiert sich bei wichtigen Zeitwerten am so
-            genannten "ITIL Incident 'lifecycle":
-         </para>
-
+        <para>Important time values of OTRS::ITSM are based on the &quot;ITIL incident
+lifecycle&quot;:  </para>
         <para>
             <screenshot>
-                <screeninfo>incident-lifecycle</screeninfo>
-                <graphic srccredit="incident-lifecycle - screenshot" scale="50" fileref="screenshots/incident-lifecycle.png" />
-            </screenshot>
+<screeninfo>incident-lifecycle</screeninfo> <graphic
+fileref="screenshots/incident-lifecycle.png" scale="50"
+srccredit="incident-lifecycle - screenshot" /></screenshot>
         </para>
-
-        <para>Quelle: OGC, ITIL Service Support Documentation</para>
-
+        <para>Source: OGC, ITIL Service Support Documentation</para>
         <para>
-            Über das OTRS Statistik-Framework lässt sich aus den
-            aufgezeichneten Incidents unter anderem die Ist-Verfügbarkeit eines
-            Services ermitteln, die häufige Kennzahl in System bezogenen SLAs
-            ist.
+            The OTRS stats framework facilitates, among other things, the definition of
+the actual availability of a service from recorded incidents, which often
+serves as a performance figure in system-oriented SLAs.
         </para>
     </sect1>
 
     <sect1>
-        <title>Configuration Items (Konfigurations-Elemente)</title>
-
+        <title>Configuration items</title>
         <para>
-            Beispiel-Übersicht über erfasste Computer CIs (Ausschnitt) mit
-            aktuellem CI-Status (State):
+            Exemplary overview of recorded computer CIs (part) with current CI state:
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>agent-configuration-items</screeninfo>
-                <graphic srccredit="agent-configuration-items - screenshot" scale="50" fileref="screenshots/agent-configuration-items.png" />
-            </screenshot>
+<screeninfo>agent-configuration-items</screeninfo> <graphic
+fileref="screenshots/agent-configuration-items.png" scale="50"
+srccredit="agent-configuration-items - screenshot" /></screenshot>
         </para>
-
-        <para>Beispiel-Einzelansicht eines CI:</para>
-
+        <para>Example of an individual CI view:</para>
         <para>
             <screenshot>
-                <screeninfo>agent-configitem-management-link</screeninfo>
-                <graphic srccredit="agent-configitem-management-link - screenshot" scale="50" fileref="screenshots/agent-configitem-management-link.png" />
-            </screenshot>
+<screeninfo>agent-configitem-management-link</screeninfo> <graphic
+fileref="screenshots/agent-configitem-management-link.png" scale="50"
+srccredit="agent-configitem-management-link - screenshot" /></screenshot>
         </para>
-
         <para>
-            Aus der Abbildung sind exemplarisch die Verknüpfungen (Links)
-            zwischen CIs ersichtlich. OTRS unterscheidet dabei zwischen
-            beiderseitig gerichteten und ungerichteten Verknüpfungen. Wird ein CI
-            mit einem anderen CMDB-Objekt verknüpft, so erzeugt OTRS::ITSM die
-            jeweils passende, umgekehrte Verknüpfung automatisch.
+            The graphic exemplifies the links between CIs. OTRS differentiates between
+bidirectional and nondirectional links.  Whenever a CI is linked to another
+CMDB object, OTRS::ITSM automatically creates the respective reverse link.
         </para>
-
-        <para>
-            Im OTRS::ITSM Standard sind sieben Verknüpfungsarten möglich:
-        </para>
-
+        <para>The OTRS::ITSM standard offers seven link types:</para>
         <para>
             <screenshot>
-                <screeninfo>agent-configitem-management-link2</screeninfo>
-                <graphic srccredit="agent-configitem-management-link2 - screenshot" scale="50" fileref="screenshots/agent-configitem-management-link2.png" />
-            </screenshot>
+<screeninfo>agent-configitem-management-link2</screeninfo> <graphic
+fileref="screenshots/agent-configitem-management-link2.png" scale="50"
+srccredit="agent-configitem-management-link2 - screenshot" /></screenshot>
         </para>
-
         <para>
-            Beim Verknüpfen von Objekten wird zunächst das Quell-Objekt
-            ausgewählt, die Verknüpfungsart festgelegt und dann das gewünschte
-            Ziel-Objekt ausgewählt. Das Ziel-Objekt kann nach diversen Kriterien
-            gesucht werden:
+            To link objects, the source object is chosen first, then the link type is
+defined and the target object chosen. The target object can be searched for
+using various criteria:
+        </para>
+    </sect1>
+
+
+    <sect1>
+        <title>Documents and knowledge database</title>
+        <para>
+            Using the FAQ system, which is an independent external module since OTRS
+2.1, a knowledge database can be designed and managed, e.g. for suggestions
+and/or procedures related to the resolution of known errors.
+        </para>
+        <para>
+            Entries can be provided for internal use only, for all customers or the
+public. They can be created and sorted according to language or
+categories. The quality of FAQ articles can be evaluated by agents. The
+number of articles last created or last revised to be displayed can be
+configured without any limitations. All articles can be indexed for an
+efficient search.
         </para>
     </sect1>
 
     <sect1>
-        <title>Dokumente und Wissensdatenbank</title>
-
+        <title>Changes and amendments to the data model</title>
         <para>
-            Mit Hilfe des FAQ-Systems, welches seit OTRS 2.1 ein eigenes
-            externes Modul ist, kann eine Knowledge Database aufgebaut und
-            verwaltet werden, zum Beispiel für Lösungsvorschläge bzw. -Prozeduren
-            für bekannte Fehler (Known Errors).
+            The data model can be adapted flexibly and can be extended with data types,
+attributes and even classes. Detailed information can be found in the
+section "The admin area of OTRS::ITSM" in this document or in "The admin
+area of OTRS" in the OTRS Admin Manual.
         </para>
-
-        <para>
-            Einträge lassen sich nur intern oder auch extern, d.h. für alle
-            Kunden oder komplett öffentlich, frei schalten. Einträge können nach
-            Sprache oder nach Kategorien erstellt und sortiert werden.
-            FAQ-Artikel können durch Agenten hinsichtlich Ihrer Qualität bzw.
-            Güte bewertet werden. Des Weiteren kann eine frei konfigurierbare
-            Anzahl der zuletzt aktualisierten, sowie der zuletzt erstellten
-            FAQ-Artikel angezeigt werden. Schließlich können Artikel zur
-            effizienten Suche verschlagwortet werden.
-       </para>
-    </sect1>
-
-    <sect1>
-
-        <title>Änderungen und Ergänzungen am Datenmodell</title>
-
-        <para>
-            Das Datenmodell ist flexibel anpassbar und erweiterbar um
-            Datentypen, Attribute und sogar Klassen. Detailinformationen finden
-            sich im Abschnitt "Der Administrationsbereich in OTRS::ITSM" in
-            diesem Dokument bzw. unter "Der Administrationsbereich in OTRS" im
-            OTRS Admin Manual.
-        </para>
-
         <warning>
             <para>
-                Erfahrungsgemäß stellt das Design des CMDB-Datenmodells und der
-                darin zu verwaltenden CIs eine nicht zu unterschätzende Aufgabe dar.
-                Es wird daher dringend empfohlen, die konzeptionellen Gedanken gegen
-                die IT Infrastruktur "im Trockenen" zu validieren. Erst danach
-                sollten Änderungen am OTRS::ITSM Standard-Datenmodell bzw. an
-                CI-Klassen vorgenommen werden. Es hat sich bewährt, für das
-                CMDB-Design aufexterne Unterstützung, z. B. auf ITIL Praxis-Experten
-                zurückzugreifen.
+                The design of a CMDB data model and the CIs to be managed within it, is a
+task which should not be underestimated. Our experience shows that it is
+highly recommendable to validate conceptual thoughts in a dry run against
+the existing IT infrastructure first and to change the OTRS::ITSM default
+data model and CI classes only afterwards. It has proven of value to resort
+to external assistance, e.g. of ITIL practice experts for CMDB design.
             </para>
         </warning>
     </sect1>
-
     <sect1>
-        <title>Ticket-Typen und Attribute</title>
-
+        <title>Ticket types and attributes</title>
         <para>
-            Mit OTRS 2.2 sind native Tickettypen eingeführt worden, auf die
-            auch OTRS::ITSM zurück greift. Anhand des Typs werden Tickets in den
-            ITIL Sub-Prozessen, die mittels der Queues abgebildet werden können,
-            klassifiziert.
+            With OTRS 2.2, native ticket types were introduced, which are used in
+OTRS::ITSM, too. In the ITIL sub-processes, which can be structured in
+queues, tickets are classified by their ticket types.
         </para>
-
         <para>
-            Auch die in OTRS::ITSM später implementierten ITIL Prozesse, z.
-            B. Change Management werden darüber abgebildet. So gibt es z. B. den
-            Ticket-Typ RfC ("Request for Change").
+            All ITIL processes to be implemented in later versions of OTRS::ITSM,
+e.g. change management, will be implemented in such a way. Ticket types such
+as RfC (&quot;Request for Change&quot;) could be created.
         </para>
-
         <para>
             <screenshot>
-                <screeninfo>admin-type-management</screeninfo>
-                <graphic srccredit="admin-type-management - screenshot" scale="50" fileref="screenshots/admin-type-management.png" />
-            </screenshot>
+<screeninfo>admin-type-management</screeninfo> <graphic
+fileref="screenshots/admin-type-management.png" scale="50"
+srccredit="admin-type-management - screenshot" /></screenshot>
         </para>
-
         <warning>
-            <para>Um die Konsistenz der in OTRS::ITSM verwalteten Daten sicher zu
-                stellen, können im Admin-Bereich des Systems angelegte Informationen
-                grundsätzlich nicht entfernt werden. Um diese trotzdem zu
-                deaktivieren, setzen Sie in den Einstellungen der entsprechenden
-                Anrede in der Listbox für "Gültig" den Wertentweder auf "ungültig"
-                oder "ungültig-temporär"
+            <para>
+                In order to assure the consistency of the data managed in OTRS::ITSM,
+information created in the admin area of the system cannot be deleted as a
+general rule. If you want to deactivate such information, change the value
+in the respective listbox settings from "valid" to "invalid" or
+"invalid-temporarily".
             </para>
         </warning>
     </sect1>
-
 </chapter>

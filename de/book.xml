@@ -1,49 +1,51 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <book lang='de'>
 
     <bookinfo>
-
-        <title>
-          OTRS::ITSM 4 - Grundlagen
-        </title>
-
-        <copyright>
-           <year>2003-2014</year>
-           <holder>OTRS AG</holder>
-        </copyright>
-
-        <date>24.10.2013</date>
+        <title>OTRS::ITSM 4</title>
+        <copyright> <year>2003-2014</year> <holder>OTRS AG</holder> </copyright>
+<date>24.11.2014</date>
 
         <legalnotice>
             <para>
                 Dieses Werk ist geistiges Eigentum der OTRS AG.
-                Es darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt,
-                dieser Copyright-Vermerk befindet sich auf jeder Kopie.
             </para>
             <para>
-                UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited.
-                Linux ist ein eingetragenes Warenzeichen von Linus Torvalds.
-                MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows XP
-                und Windows 2003 sind eingetragene Warenzeichen der Microsoft Corporation.
-                Andere Warenzeichen oder registrierte Warenzeichen: SUSE und YaST von SUSE
-                GmbH, Red Hat und Fedora von Red Hat Inc., Debian von Software in the
-                Public Interest, Inc., Mandrake von MandrakeSoft, SA.
-                MySQL und das MySQL Logo sind eingetragene Warenzeichen von MySQL AB.
-                Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt und sind möglicherweise eingetragene Warenzeichen.
-                Die Firma OTRS AG richtet sich im Wesentlichen
-                nach den Schreibweisen der Hersteller. Andere hier genannte Produkte
-                können Warenzeichen des jeweiligen Herstellers sein.
+                Es darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt, dieser
+Copyright-Vermerk befindet sich auf jeder Kopie.
+            </para>
+            <para>
+                UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited. Linux
+ist ein eingetragenes Warenzeichen von Linus Torvalds.
+            </para>
+            <para>
+                MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows
+XP, Windows 2003 und Windows Vista sind eingetragene Warenzeichen der
+Microsoft Corporation. Andere Warenzeichen oder registrierte Warenzeichen:
+SUSE und YaST von SUSE Linux GmbH, Red Hat und Fedora von Red Hat Inc.,
+Debian von Software in the Public Interest, Inc., Mandrake von MandrakeSoft,
+SA. MySQL und das MySQL Logo sind eingetragene Warenzeichen Oracle
+Corporation und/oder verbundener Unternehmen. 
+            </para>
+            <para>
+                Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt
+und sind möglicherweise eingetragene Warenzeichen.
+            </para>
+            <para>
+                Die Firma OTRS AG richtet sich im Wesentlichen nach den Schreibweisen der
+Hersteller. Andere hier genannte Produkte können Warenzeichen des jeweiligen
+Herstellers sein.
             </para>
         </legalnotice>
 
         <revhistory>
-          <revision>
-            <revnumber>4.0.1</revnumber>
-            <date>24.11.2014</date>
-          </revision>
+            <revision>
+                <revnumber>4.0.1</revnumber>
+                <date>24.11.2014</date>
+            </revision>
         </revhistory>
 
     </bookinfo>

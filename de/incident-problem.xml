@@ -1,268 +1,164 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-
-    <title>Service Desk, Incident &amp; Problem Management</title>
-
+    <title>Service desk, incident, &amp; problem management</title>
+    <para>The service desk (which, according to ITIL, is not a process but a function)
+is usually the ticket system's main field of application. All user messages
+and notifications from system monitoring and internal IT organization
+converge here. The ITIL service management process, closely interweaved with
+the service desk, describes which work steps, information, escalations,
+and/or interfaces are relevant in connection with the processing of
+incidents or service requests. </para>
+    <para>The incident and problem management processes within OTRS::ITSM are based on
+ITIL recommendations and ITIL terminology. At the same time, user comfort
+was a main consideration, and terms known from OTRS have been retained as
+much as possible.</para>
     <para>
-       Der Service Desk (laut ITIL kein Prozess, sondern eine Funktion)
-        ist in aller Regel der Haupteinsatzort für das Ticket-System. Hier
-        laufen alle Meldungen von Anwendern, System-Monitoring und der
-        internen IT Organisation zusammen. Eng verwoben mit dem Service Desk
-        ist im ITIL Incident Management Prozess beschrieben, welche
-        Arbeitsschritte, Informationen, Eskalationen bzw. Schnittstellen im
-        Zusammenhang mit der Bearbeitung von Vorfällen (Störungen oder
-        Serviceanfragen) relevant sind.
+    <screenshot>
+<screeninfo>process-schema</screeninfo> <graphic
+fileref="screenshots/process-schema.png" scale="50"
+srccredit="process-schema - screenshot" /></screenshot>
     </para>
-
-    <para>
-       Die in OTRS::ITSM abgebildeten Prozesse Incident und Problem
-        Management orientieren sich sowohl an den ITIL Empfehlungen als auch
-        an der ITIL Terminologie. Zugleich wurde auf Nutzer von OTRS Rücksicht
-        genommen, indem aus OTRS bekannte Begriffe soweit als möglich
-        beibehalten wurden.
-    </para>
-
+    <para>Source: ILX Group (www.ilxgroup.com)</para>
+    <sect1>
+    <title>Ticket creation, classification and prioritization</title>
+    <para>At ticket creation -in our case a phone ticket- the following information
+can be registered in addition to the information implemented in OTRS:</para>
+    <itemizedlist>
+        <listitem>
+        <para>ticket type</para>
+        </listitem>
+        <listitem>
+        <para>relevant service</para>
+        </listitem>
+        <listitem>
+        <para>SLA</para>
+        </listitem>
+        <listitem>
+        <para>impact</para>
+        </listitem>
+        <listitem>
+        <para>priority</para>
+        </listitem>
+    </itemizedlist>
+    <para>Depending on the service selected, impact and priority are automatically
+submitted from the criticality impact priority matrix. However, every IT
+service staff member knows a "VIP" customer requires special consideration.</para>
+    <para>In order to meet this requirement of day-to-day Service Operations, we also
+allow you to manually adjust the priority of a request.</para>
     <para>
         <screenshot>
-            <screeninfo>process-schema</screeninfo>
-            <graphic srccredit="process-schema - screenshot" scale="50" fileref="screenshots/process-schema.png" />
-        </screenshot>
+<screeninfo>agent-ticket-create</screeninfo> <graphic
+fileref="screenshots/agent-ticket-create.png" scale="50"
+srccredit="agent-ticket-create - screenshot" /></screenshot>
     </para>
-
-    <para>Quelle: ILX Group (www.ilxgroup.com)</para>
-
-    <sect1>
-        <title>Ticket Erfassung, Klassifizierung und Priorisierung</title>
-
-        <para>
-            Bei der Ticketerfassung - hier Phone Ticket - können, neben den
-            in OTRS implementierten Informationen,
-        </para>
-
-        <para>
-            <itemizedlist>
-                <listitem>
-                    <para>Tickettyp</para>
-                </listitem>
-
-                <listitem>
-                    <para>relevanter Service</para>
-                </listitem>
-
-                <listitem>
-                    <para>SLA</para>
-                </listitem>
-
-                <listitem>
-                    <para>Auswirkung (Impact)</para>
-                </listitem>
-
-                <listitem>
-                    <para>Priorität (Priority)</para>
-                </listitem>
-            </itemizedlist>
-        </para>
-
-        <para>
-            erfasst werden. Entsprechend dem ausgewählten Service werden
-            Impact und Priorität automatisch aus der
-            Criticality-Impact-Priority-Matrix vorgeschlagen, können jedoch
-            überschrieben werden. Somit können Anfragen höher oder niedriger
-            priorisiert werden, was dem realen IT Tagesgeschäft entspricht.
-        </para>
-
-        <para>
-            So kennt sicherlich jeder IT Mitarbeiter die so genannten
-            VIP-Kunden, die "gleicher als Andere" behandelt werden möchten - und
-            so auch können.
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-create</screeninfo>
-                <graphic srccredit="agent-ticket-create - screenshot" scale="50" fileref="screenshots/agent-ticket-create.png" />
-            </screenshot>
-        </para>
-
-        <para>
-            Über den Link Ticket - Inhalt (Zoom) ruft man die
-            Detailinformationen zum Ticket auf. Im rechten Bereich sind die für
-            den IT Support relevanten Angaben konsolidiert:
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-data-change</screeninfo>
-                <graphic srccredit="agent-ticket-data-change - screenshot" scale="50" fileref="screenshots/agent-ticket-data-change.png" />
-            </screenshot>
-        </para>
-    </sect1>
-
-    <sect1>
-        <title>SLA relevante Zeitinformationen</title>
-
-        <para>
-            Neben den per SLA hinterlegten Zeiten Response, Update und
-            Solution Time können einem Ticket über den Link "Zusätzliche ITSM
-            Felder" (Additional ITSM Fields) weitere Zeitinformationen
-            hinzugefügt bzw. geändert werden:
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-additional-field</screeninfo>
-                <graphic srccredit="agent-ticket-additional-field - screenshot" scale="50" fileref="screenshots/agent-ticket-additional-field.png" />
-            </screenshot>
-        </para>
-    </sect1>
-
-    <sect1>
-        <title>Tickets zuweisen (Queues)</title>
-
-        <para>
-            Queues sind in OTRS::ITSM flexibel an die eigenen
-            organisatorischen Strukturen anpassbar. Sie können dem im IT Service
-            Support häufig genutzten vertikalen Schema Service Desk, First,
-            Second und Third Level Support folgen oder Prozess orientiert, d. h.
-            gemäß dem Ticket Lebenszyklus von Öffnung über Bearbeitung und
-            Abschluss bis zur Nachbearbeitung konfiguriert werden.
-        </para>
-
-        <para>
-            Im Gegensatz zu OTRS bis einschließlich Version 2.1 erfolgt die
-            Eskalation von Tickets in OTRS::ITSM zunächst über die SLAs, präzise
-            über die dort hinterlegten Zeiten Response, Update und Recovery Time.
-            Sind dort keine Werte hinterlegt, erfolgt die Eskalation mittels
-            Queues und der dort hinterlegten Zeitwerte.
-        </para>
-
-        <para>
-            Tickets werden durch Auswahl der gewünschten Queue (rechts unten
-            in der Ticketansicht) verschoben.
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-queue</screeninfo>
-                <graphic srccredit="agent-ticket-queue - screenshot" scale="50" fileref="screenshots/agent-ticket-queue.png" />
-            </screenshot>
-        </para>
-
-        <warning>
-            <para>
-                Erfahrungsgemäß stellt das Design der Queue-Struktur eine nicht
-                zu unterschätzende Aufgabe dar. Es wird daher dringend empfohlen,
-                die konzeptionellen Gedanken vor der Konfiguration von OTRS::ITSM
-                gegen die IT Organisation "im Trockenen" zu validieren. Es hat sich
-                bewährt, für das Queue-Design auf externe Unterstützung, z. B. durch
-                OTRS bzw. ITIL Praxis-Experten zurückzugreifen.
-            </para>
-        </warning>
-
-    </sect1>
-
-    <sect1>
-
-        <title>Ticketdaten ändern</title>
-
-        <para>
-            Alle Änderungen am Ticket werden, wie auch in OTRS, über die
-            Links unterhalb der Navigationsleiste vorgenommen:
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-data-change</screeninfo>
-                <graphic srccredit="agent-ticket-data-change - screenshot" scale="50" fileref="screenshots/agent-ticket-data-change.png" />
-            </screenshot>
-        </para>
-
+    <para>By following the ticket content (zoom) link, detailed information about the
+ticket can be accessed. All data relevant for IT support is consolidated in
+the right hand section:</para>
+    <para>
+        <screenshot>
+<screeninfo>agent-ticket-data-change</screeninfo> <graphic
+fileref="screenshots/agent-ticket-data-change.png" scale="50"
+srccredit="agent-ticket-data-change - screenshot" /></screenshot>
+    </para>
     </sect1>
     <sect1>
-
-        <title>Genehmigungen und Entscheidungen</title>
-
-        <para>
-            Besonders bei Service Requests sind häufig Entscheidungen zu
-            treffen, bevor eine Anfrage umgesetzt werden darf. Je nach
-            Kompetenzrahmen werden Entscheidungen direkt von Service-Mitarbeitern
-            (bei Standard Changes) getroffen oder es muss die Genehmigung eines
-            Verantwortlichen Managers eingeholt werden. Dies trifft besonders bei
-            Berechtigungs-Änderungen (ein User möchte Zugriff auf ein
-            beschränktes Filesystem-Verzeichnis) oder Kosten erzeugenden Requests
-            (neues Laptop) auf.
-        </para>
-
-        <para>
-            In OTRS::ITSM werden Genehmigungen bzw. Ablehnungen über den
-            Link Entscheidung (Decision) abgebildet und dauerhaft beim Ticket
-            gespeichert:
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-ticket-decision</screeninfo>
-                <graphic srccredit="agent-ticket-decision - screenshot" scale="50" fileref="screenshots/agent-ticket-decision.png" />
-            </screenshot>
-        </para>
+    <title>SLA relevant time information</title>
+    <para>With the additional ITSM fields link, time information additional to the
+response, update, and solution time provided in the SLA can be recorded and
+existing information can be changed:
+</para>
+    <para>
+        <screenshot>
+<screeninfo>agent-ticket-additional-field</screeninfo> <graphic
+fileref="screenshots/agent-ticket-additional-field.png" scale="50"
+srccredit="agent-ticket-additional-field - screenshot" /></screenshot>
+    </para>
     </sect1>
-
     <sect1>
-
-        <title>Erstellen von Problem-Tickets aus Incidents</title>
-
-        <para>
-            Soll aus einem oder mehrerer Incidents ein Problem Ticket
-            erzeugt werden, so ist dies als neues Ticket anzulegen und mit den
-            relevanten Incident Tickets zu verlinken. Dadurch wird gewährleistet,
-            dass die zugrunde liegenden Incidents individuell bearbeitet, ggfs.
-            per Workaround geschlossen und später durch eine dauerhafte Lösung
-            ersetzt werden können.
-        </para>
-
-        <para>
-            Ein "Verschmelzen" (Merging) von Incident- und Problem-Tickets
-            verschleiert das Reporting und erschwert das Controlling bzw. die
-            kontinuierliche Verbesserung der IT Services.
-       </para>
+    <title>Allocate tickets (queues)</title>
+    <para>Designed with flexibility in mind, the OTRS::ITSM queues can be tailored to
+your organizational structures. They can follow the vertical scheme of
+service desk, first, second, and third level support (as often used in IT
+service support) or be configured in a process oriented manner based on the
+ticket life cycle of generation, processing, closure and post-processing. </para>
+    <para>Contrary to OTRS versions prior to version 2.2, ticket escalation in
+OTRS::ITSM is based first of all on the response, update and recovery times
+provided in the SLA.  If no values are provided in the SLA, escalation is
+effected based on the queues and time information stored in them.  </para>
+    <para>Tickets can be moved by choosing a new queue in the bottom right corner of
+the ticket view.</para>
+    <para>
+        <screenshot>
+<screeninfo>agent-ticket-queue</screeninfo> <graphic
+fileref="screenshots/agent-ticket-queue.png" scale="50"
+srccredit="agent-ticket-queue - screenshot" /></screenshot>
+    </para>
+    <warning>
+        <para>The design of a queue structure is a task which should not be
+underestimated. Our experience shows that it is highly recommendable to
+validate conceptual thoughts in a dry run against the existing IT
+infrastructure before configuring OTRS::ITSM. It has proven of value to
+resort to external assistance, e.g. of OTRS or ITIL practice experts for the
+queue design.
+</para>
+    </warning>
     </sect1>
-
     <sect1>
-        <title>Tickets schließen</title>
-
-        <para>
-            Gegenüber dem OTRS-Standard können in OTRS::ITSM Tickets ITIL
-            konform auch mit Workaround geschlossen werden.
-        </para>
-
+    <title>Change ticket data</title>
+    <para>All changes to the ticket can be effected just as in OTRS using the links
+below the navigation bar. </para>
+    <para>
+        <screenshot>
+<screeninfo>agent-ticket-data-change</screeninfo> <graphic
+fileref="screenshots/agent-ticket-data-change.png" scale="50"
+srccredit="agent-ticket-data-change - screenshot" /></screenshot>
+    </para>
     </sect1>
-
     <sect1>
-
-        <title>Service Requests bearbeiten</title>
-
-        <para>
-            Service Requests sind ebenfalls Incidents und werden
-            grundsätzlich gleich bearbeitet, wie Störungs-Incidents. Sie werden
-            maßgeblich durch den Ticket-Typ Incident::Service Request von
-            Störungen unterschieden.
-        </para>
-
-        <para>
-            Ein weiterer Unterschied, die SLA relevanten Zeiten, ist im
-            Abschnitt Service Levels und Service Level Agreements eingehender
-            erläutert.
-        </para>
-
-        <para>
-            <screenshot>
-                <screeninfo>agent-service-request</screeninfo>
-                <graphic srccredit="agent-service-request - screenshot" scale="50" fileref="screenshots/agent-service-request.png" />
-            </screenshot>
-        </para>
+    <title>Approvals and decisions</title>
+    <para>In many cases, especially with service requests, decisions have to be taken
+before requests can be implemented. Depending on the competence framework,
+decisions are either taken directly by the service staff (standard changes)
+or by the approval of a supervising manager must be obtained first. This is
+primarily the case with permission changes (a user wants to access a
+restricted file system directory) or cost generating requests (new laptop).</para>
+    <para>In OTRS::ITSM approvals and refusals are shown via the decision link and are
+permanently saved with the ticket:</para>
+    <para>
+        <screenshot>
+<screeninfo>agent-ticket-decision</screeninfo> <graphic
+fileref="screenshots/agent-ticket-decision.png" scale="50"
+srccredit="agent-ticket-decision - screenshot" /></screenshot>
+    </para>
     </sect1>
-
+    <sect1>
+    <title>Generation of problem tickets from incidents</title>
+    <para>To generate a problem ticket from one or more incidents, generate a new
+ticket and link it with the relevant incident tickets. This way, the
+underlying incidents can be processed individually, can be closed with a
+workaround if necessary, and later be substituted with a permanent solution.</para>
+    <para>A merging of incident and problem tickets obscures the reporting and
+complicates controlling and the continuous improvement of the IT services.
+</para>
+    </sect1>
+    <sect1>
+    <title>Ticket closure</title>
+    <para>Unlike the OTRS standard, OTRS::ITSM facilitates ITIL compliant ticket
+closure with a workaround.</para>
+    </sect1>
+    <sect1>
+    <title>Processing of service requests</title>
+    <para>Within OTRS, service requests and incidents are both regarded as tickets and
+intially processed equally. They are distinguishable from disruptions
+because of the ticket type Incident::Service Request.</para>
+    <para>Another difference, the SLA relevant times, is explained in greater detail
+in the service levels and service level agreements section.</para>
+    <para>
+        <screenshot>
+<screeninfo>agent-service-request</screeninfo> <graphic
+fileref="screenshots/agent-service-request.png" scale="50"
+srccredit="agent-service-request - screenshot" /></screenshot>
+    </para>
+    </sect1>
 </chapter>

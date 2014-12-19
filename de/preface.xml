@@ -1,41 +1,32 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
-<preface id="preface">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<preface>
     <title>Vorwort</title>
-    <para>
-        Das vorliegende Dokument richtet sich an OTRS::ITSM Anwender und Administratoren und beschreibt die
-        grundlegende Benutzung von OTRS::ITSM durch IT Service Manager, IT Service-Personal (Agent) und End-User (Customer).
-        Auf Installation, Konfiguration und Administration wird insoweit eingegangen, als gegenüber dem Kernprodukt OTRS Abweichungen bestehen oder Funktionen nur in OTRS::ITSM existieren.
-    </para>
-    <para>
-        Obwohl viele Arbeitsstunden, noch mehr Kaffee und so manche "Wurscht mit Brezn und süßem Senf" in die Erstellung
-        der folgenden Abschnitte investiert wurden, erhebt das Handbuch keinen Anspruch auf Vollständigkeit.
-        Die Kapitel werden - im Sinne kontinuierlicher Verbesserung - regelmäßig überarbeitet beziehungsweise ergänzt werden.
-    </para>
-    <para>
-        Um die Qualität der folgenden Kapitel und des Produktes so hoch als möglich zu halten, sind wir auf Ihr Feedback angewiesen.
-        Bitte teilen Sie uns mit, wenn Sie Vorschläge haben, Abschnitte in diesem Buch vermissen oder wenn Aspekte unverständlich erscheinen.
-        Jede Art von Rückmeldung (<ulink url="http://otrs.org/"><citetitle>http://otrs.org</citetitle></ulink>) ist ausdrücklich erwünscht.
-    </para>
-    <para>
-        Stolz über das vorliegende Produkt bedanken wir uns bei den ITIL Experten der Enterprise Consulting GmbH und unseren erstklassigen OTRS-Entwicklern,
-        die gemeinsam durch ihren unermüdlichen Einsatz maßgeblich zur erfolgreichen Erstellung von OTRS::ITSM beigetragen haben.
-    </para>
-    <para>
-        Bei Ihnen, den Anwendern und der Community von OTRS::ITSM bedanken wir uns schon heute für jede Art von Mithilfe und Feedback und wünschen viel Spaß bei der Nutzung von OTRS::ITSM.
-    </para>
-    <para>
-        André Mindermann,
-        Managing Partner
-        OTRS AG
-    </para>
-    <para>
-        Bad Homburg im Mai 2007
-    </para>
-    <para>
-        ((enjoy))
-    </para>
+    <para>The document at hand addresses OTRS::ITSM users and administrators and
+provides information on the basic use of OTRS::ITSM by IT service managers,
+IT service staff (agents) and end users (customers).  Information pertaining
+to the installation, configuration and administration of OTRS::ITSM is only
+provided if there are differences to the OTRS core product or for functions,
+which only exist in OTRS::ITSM.</para>
+    <para>In spite of the many many hours of work, even more cups of coffee and quite
+a few sausages and pretzels consumed in the course of writing the following
+sections, this manual does not claim to be complete. The chapters will be
+revised and/or amended periodically for continual improvement.
+</para>
+    <para>We welcome your feedback as a critical contribution to the best possible
+quality of the following chapters and of the product itself.  Please tell us
+if you miss information, find it difficult to understand certain aspects or
+the way they are presented, have suggestions or any other comments. Any
+feedback submitted at http://otrs.org is highly appreciated.</para>
+    <para>We are very proud of the product at hand and want to thank the ITIL experts
+of Enterprise Consulting GmbH and our top-notch OTRS developers. Their joint
+efforts have significantly contributed to the successful development of
+OTRS::ITSM.</para>
+    <para>We want to thank you, the users and OTRS::ITSM community, in advance for any
+kind of aid and feedback and hope you will have fun using OTRS::ITSM.
+
+</para>
+    <para>André Mindermann, Managing Partner OTRS AG</para>
+    <para>Bad Homburg, May 2007</para>
+    <para>((enjoy))</para>
 </preface>

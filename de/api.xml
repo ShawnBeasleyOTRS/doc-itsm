@@ -1,39 +1,30 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-
-    <title>OTRS::ITSM Schnittstellen</title>
-
-    <para>Zum Datenaustausch zwischen OTRS::ITSM und anderen (ITSM-)Softwareprodukten existieren folgende, zum Teil generische, Schnittstellen:</para>
-
+    <title>OTRS::ITSM interfaces</title>
     <para>
-        <itemizedlist>
-
+        The following partly-generic interfaces can be used for data exchange
+between OTRS::ITSM and other (ITSM) software products:
+    </para>
+    <itemizedlist>
         <listitem>
-            <para>Nagios</para>
+            <para>NAGIOS</para>
         </listitem>
-
         <listitem>
             <para>SOAP</para>
         </listitem>
-
         <listitem>
             <para>LDAP</para>
         </listitem>
-
         <listitem>
-            <para>Email (POP3, IMAP, SMTP)</para>
+            <para>E-mail (POP3, IMAP, SMTP)</para>
         </listitem>
-
         <listitem>
             <para>CSV Import/Export</para>
         </listitem>
-
-        </itemizedlist>
+    </itemizedlist>
+    <para>
+        OTRS AG will gladly create additional interfaces per request or members of
+the community may develop them.
     </para>
-
-    <para>Weitere werden gerne auf Anfrage durch die OTRS AG erstellt bzw. können von Mitgliedern der Community entwickelt werden.</para>
-
 </chapter>

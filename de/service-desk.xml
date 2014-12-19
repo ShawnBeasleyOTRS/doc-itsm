@@ -1,49 +1,44 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-    "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-
-    <title>
-        ITIL konformer Service Support mit OTRS::ITSM
-    </title>
-
+    <title>ITIL aligned service support with OTRS::ITSM</title>
     <para>
-        Ebenso wenig wie ITIL erhebt auch OTRS::ITSM keinen Anspruch, "Out-of-the-box"-Lösung für alle im IT Service Management anstehenden Aufgaben und Fragestellungen zu sein.
-        Vielmehr soll es als flexible, stabile und vor allem einfach verständliche Informationsdrehscheibe dienen.
-    </para>
+        Just like ITIL, OTRS::ITSM does not claim to be an
+&quot;out-of-the-box&quot; solution for all tasks and questions arising in
+IT service management. It is, in fact, supposed to serve as a flexible,
+stable and easy to understand information platform that can be adapted to
+meet the requirements of virtually every organization.
 
+    </para>
     <para>
-        Ohne durchdachte Ausgestaltung, d. h. Adaption der generischen ITIL
-        Prozesse an die eigenen Unternehmensbedingungen wird auch OTRS::ITSM
-        keine merkliche Verbesserung - also des Kernziels von IT Service
-        Management - für die IT Organisation oder die IT Kunden leisten
-        können.
+        Therefore, please excuse us for bringing the following to your attention:
+The use of an ITIL aligned tool such as OTRS::ITSM only makes sense if
+processes, people, and products (IT services) are truly ITIL aligned.
     </para>
-
     <para>
-        Deshalb sei an dieser Stelle der erhobene Zeigefinger gestattet:
-        erst wenn die Prozesse, Menschen und Produkte (IT Services) ITIL
-        konform ausgerichtet sind, macht der Einsatz eines ITIL konformen
-        Service Management Tools, wie OTRS::ITSM wirklich Sinn!
-    </para>
-
+        Without the thoughtful tailoring of generic ITIL processes to meet the
+requirements of the specific business scenario, OTRS::ITSM will not achieve
+a discernible improvement of the key performance indicators of IT service
+management.</para>
     <para>
-        Typischerweise dauern erfolgreiche ITIL Einführungsprojekte bis
-        zu einem Jahr und mehr. Durch ein "sauber" eingeführtes ITIL
-        konformes ITSM Tool kann jedoch Zeit - und Geld - gespart werden,
-        da die Prozessunterstützung des Tools den Umdenkprozess unterstützt bzw. beschleunigt.
+        You should also be aware of the fact that successful ITIL implementation
+projects typically take up to a year and longer. Their scope and impact on
+the organization is not to be underestimated.  However, we would like to
+mention that a neatly implemented ITIL aligned ITSM tool can help to save
+time and money, as the process support of the tool aids and accelerates the
+process of organizational realignment.
     </para>
-
     <para>
-        Die Version 3.3 von OTRS::ITSM deckt die Prozesse Incident
-        und Problem Management, Service Level Management, die Configuration Management DB, sowie Change Management ab,
-        die bei ITIL Implementierungen in der Regel zuerst gestaltet werden. Die Nutzung und Anpassung des Systems wird in den folgenden
-        Abschnitten näher beschrieben. Die Paketaufteilung entspricht den gleichnamigen ITIL-Disziplinen, jedes Paket kann unabhängig installiert werden.
+       Since version 2.0 , OTRS::ITSM supports the following features and
+processes, which are usually designed during the first phase of an ITIL
+implementation: Incident Management, Problem Management, Service Level
+Management, Change Management and the Configuration Management Database.  A
+more detailed description of use and adaptation of the system can be found
+in the following sections. Please note that the each OTRS::ITSM package can
+be installed independently and that their names correspond to their
+respective ITIL topics.
     </para>
-
     <para>
-        Basis für die Implementierung von OTRS::ITSM ist die ITIL v3.
+        The implementation of OTRS::ITSM is based on ITIL v3.
     </para>
-
 </chapter>
