@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-19 13:21+0100\n"
+"POT-Creation-Date: 2014-12-19 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -285,17 +285,9 @@ msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:98
-msgid "New powerful template engine based on"
-msgstr ""
-
-#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para><a>
-#: en/itsm.xml:98
-msgid "Template::Toolkit"
-msgstr ""
-
-#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/itsm.xml:98
-msgid "."
+msgid ""
+"New powerful template engine based on <ulink "
+"url=\"http://www.template-toolkit.org/\">Template::Toolkit</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
@@ -333,7 +325,7 @@ msgstr ""
 msgid ""
 "GenericInterface for ITSM Configuration Management. This feature contains "
 "operations for creating, changing, retrieving and searching configuration "
-"items via !GenericInterface."
+"items via GenericInterface."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>

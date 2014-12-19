@@ -126,7 +126,7 @@
 
                     <listitem>
                         <para>
-                            GenericInterface for ITSM Configuration Management. This feature contains operations for creating, changing, retrieving and searching configuration items via !GenericInterface.
+                            GenericInterface for ITSM Configuration Management. This feature contains operations for creating, changing, retrieving and searching configuration items via GenericInterface.
                         </para>
                     </listitem>
 

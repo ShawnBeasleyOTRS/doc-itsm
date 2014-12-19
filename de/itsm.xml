@@ -90,7 +90,8 @@ can be installed as packages.
 
                     <listitem>
                         <para>
-                            New powerful template engine based on <a href="http://www.template-toolkit.org/">Template::Toolkit</a>.
+                            New powerful template engine based on <ulink
+url="http://www.template-toolkit.org/">Template::Toolkit</ulink>
                         </para>
                     </listitem>
 
@@ -129,7 +130,7 @@ sysconfig option "ITSM::Core::IncidentLinkTypeDirection")
                         <para>
                             GenericInterface for ITSM Configuration Management. This feature contains
 operations for creating, changing, retrieving and searching configuration
-items via !GenericInterface.
+items via GenericInterface.
                         </para>
                     </listitem>
 
