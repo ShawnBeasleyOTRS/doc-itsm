@@ -62,42 +62,42 @@
             <title>OTRS Framework</title>
             <para>
                 For better readability, the diagram can be found at:
-                https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png
+                <ulink url="https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog</title>
             <para>
                 For better readability, this diagram can be found at:
-                https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png
+                <ulink url="">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
                 For better readability, this diagram can be found at:
-                https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png
+                <ulink url="">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
                 For better readability, this diagram can be found at:
-                https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png
+                <ulink url="">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
                 For better readability, this diagram can be found at:
-                https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png
+                <ulink url="">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
                 For better readability, this diagram can be found at:
-                https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png
+                <ulink url="">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
             </para>
         </sect2>
     </sect1>
