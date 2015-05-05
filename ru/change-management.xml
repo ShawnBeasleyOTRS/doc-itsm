@@ -1,0 +1,3840 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
+]>
+
+<chapter>
+    <title>
+        Управление Изменениями
+    </title>
+    <para>
+        Управление Изменениями, согласно ITIL, это процесс прохождения этапов
+выполнения услуги, целью которого заключается в управлении ИТ изменениями, в
+том числе планирования, документирования и реализации после утверждения и
+оформления. Целью процесса является минимизация негативных последствий для
+ИТ-инфраструктуры, в частности, на критические сервисы, в результате
+поспешных или плохо управляемых изменений или поправок.
+    </para>
+    <sect1>
+        <title>
+            Требования модуля Управления Изменениями
+        </title>
+        <sect2>
+            <title>
+                Требуемые компетенции
+            </title>
+            <para>
+                Внедрение OTRS::ITSM требует значительной технической компетенции и
+подготовки. До технической реализации, основные элементы процесса управления
+изменениями, такие, как потребные потоки работ/workflows, метрики, или
+отчеты, должны быть определены.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Технические требования
+            </title>
+            <para>
+                Следующее программное обеспечение, перечисленное ниже, необходимо для
+внедрения модуля Управления Изменениями:
+            </para>
+            <para>
+                <orderedlist>
+                    <listitem>
+                        <para>
+                            OTRS, версии 3.3.1 или выше
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;GeneralCatalog/Общий Каталог&quot; версии 3.3
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;ITSMCore&quot; версии 3.3
+                        </para>
+                    </listitem>
+                </orderedlist>
+            </para>
+            <para>
+                Следующие пакеты рекомендуются, но не обязательны, в зависимости от
+дальнейших целей по внедрению:
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;ITSMIncidentProblemManagement/Управление инцидентами и
+проблемами&quot; версии 3.3
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;ITSMServiceLevelManagement/Управление уровнями
+обслуживания&quot; версии 3.3
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;ITSMConfigurationManagement/Управление Конфигурациями&quot;
+версии 3.3
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Пакет ITSM &quot;ImportExport/ИмпортЭкспорт&quot; версии 3.3
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </sect2>
+    </sect1>
+    <sect1>
+        <title>
+            Схема Управления Изменениями в OTRS::ITSM
+        </title>
+        <para>
+            Реализация Управления Изменениями в OTRS::ITSM определяет Изменение как
+изменение существующей ИТ инфраструктуры, например, установка нового
+почтового сервера.
+        </para>
+        <para>
+            Изменение, обычно, состоит из нескольких подзаданий, OTRS::ITSM позволяет
+задать любое количество подзаданий на Изменение. Это называют Work
+Orders/Задачами.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>
+change-workorder-schema</screeninfo> <graphic
+fileref="screenshots/change-workorder-schema.png"
+srccredit="change-workorder-schema - screenshot" scale="75" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            Возможные роли пользователей
+        </title>
+        <para>
+            Доступ к модулю Управление Изменениями управляется с помощью концепции
+основанной на ролях. Требуемые роли пользователей создаются через панель
+Администратора OTRS, согласно соответствующих прав пользователей в группах в
+модуле Управления Изменениями.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>
+otrs-permissions-roles</screeninfo> <graphic
+fileref="screenshots/otrs-permissions-roles.png"
+srccredit="otrs-permissions-roles - screenshot" scale="75" /></screenshot>
+        </para>
+        <para>
+            При установке OPM пакетов перечисленных в &quot;Technical
+Requirements/Технических требованиях&quot;, создаются группы пользователей,
+перечисленные ниже в таблице:
+        </para>
+        <table>
+            <title>
+                Роли пользователей
+            </title>
+            <tgroup cols="2">
+                <thead>
+                    <row>
+                        <entry>
+                            Роль пользователя
+                        </entry>
+                        <entry>
+                            Доступ и права
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            itsm-change
+                        </entry>
+                        <entry>
+                            <para>
+                                Члены этой группы имеют доступ к модулю Управление Изменениями. Все
+потенциальные агенты исполнители задач/Work Order Agents должны быть
+назначены в эту группу.
+                            </para>
+                            <para>
+                                Все Изменения и Задачи могут просматриваться этими пользователями.
+                            </para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            itsm-change-builder
+                        </entry>
+                        <entry>
+                            <para>
+                                Члены этой группы могут создавать новые Изменения и Задачи в системе.
+                            </para>
+                            <para>
+                                Все Изменения и Задачи могут просматриваться членами этой группы.
+                            </para>
+                            <para>
+                                Изменения и Задачи созданные Создателем Изменений/Change Builder, или теми,
+кто определен имеющими доступ к созданию изменений, могут редактироваться
+этими пользователями.
+                            </para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            itsm-change-manager
+                        </entry>
+                        <entry>
+                            <para>
+                                Члены этой группы могут создавать новые Изменения и Задачи в системе.
+                            </para>
+                            <para>
+                                Все Изменения и Задачи могут просматриваться членами этой группы.
+                            </para>
+                            <para>
+                                Эти пользователи могут редактировать все Изменения и Задачи.
+                            </para>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </sect1>
+    <sect1>
+        <title>
+            Базовая последовательность работы/Workflow
+        </title>
+        <para>
+            Осуществление изменения, включая все требуемые задачи, выполняются в
+типовой/базовой последовательности работ показанной ниже.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>
+change-workflow</screeninfo> <graphic
+fileref="screenshots/change-workflow.png" srccredit="change-workflow -
+screenshot" scale="75" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            Создание нового Изменения
+        </title>
+        <sect2>
+            <title>
+                Атрибуты Изменения
+            </title>
+            <para>
+                Для создания нового Изменения должны быть введены следующие атрибуты:
+            </para>
+            <table>
+                <title>
+                    Атрибуты Изменения
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Обязательное поле
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                Название
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Краткое описание / имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Описание
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Полное текстовое описание Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Обоснование
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Текстовое пояснение причин Изменения; ответьте на вопрос: &quot;Каковы будут
+вероятные последствия, если Изменение не будет реализовано?&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает тип Изменения, например, &quot;3 normal&quot; и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает эффективность или влияние, которое окажет Изменение, например,
+&quot;4 high&quot;, и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает приоритет Изменения, например, &quot;5 very high&quot;, &quot;3
+normal&quot;, и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Состояние
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                При создании изменения, состояние устанавливается автоматически. При
+редактировании уже существующего Изменения, Создатель изменения/Change
+Builder и Менеджер изменений/Change Manager могут его выставить
+вручную. Доступные состояния и результирующие состояния определяются
+встроенной Машиной Состояний/State Machine, смотрите <xref
+linkend="change_state_machine" /> .
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Запрошенное (клиентом) время/дата
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Если необходимо, этот атрибут может быть деактивирован через SysConfig для
+&apos;ChangeEdit&apos;, &apos;ChangeAdd&apos; и &apos;ChangeZoom&apos;
+шаблонов, и показа требуемой клиентом&apos; даты выполнения.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Прикрепленный файл/Вложение
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Задает возможность прикрепления необходимого файла или документа
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Матрица - Категория - Влияние - Приоритет
+            </title>
+            <para>
+                Для определения приоритета Изменения OTRS::ITSM помогает Создателю Изменения
+выбрать приоритет на основании встроенной матрицы, базируясь на введенных
+значениях категории и влияния изменения. Предложенный приоритет всегда может
+быть скорректирован Создателем Изменения.
+            </para>
+            <para>
+                Значения Категории, Влияния и Приоритета имеющиеся в системе после
+установки, могут быть исправлены в Общем Каталоге/General Catalog
+администратором системы.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-matrix</screeninfo> <graphic
+fileref="screenshots/change-matrix.png" srccredit="change-matrix -
+screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Здесь, пункт меню &quot;General Catalog/Общий Каталог&quot; должен быть
+выбран в панели администратора OTRS::ITSM.
+            </para>
+            <sect3>
+                <title>
+                    ITSM::Change Management::Category
+                </title>
+                <para>
+                    После установки, OTRS::ITSM Change Management создает следующие значения для
+атрибута Категория, которые можно выбрать:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low - очень низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low - низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal - нормальная
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high - высокая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high - очень высокая
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+            <sect3>
+                <title>
+                    ITSM::Change Management::Impact
+                </title>
+                <para>
+                    После установки OTRS::ITSM Change Management создает следующие значения для
+выбора для атрибута Влияние:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low - очень низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low - низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal - нормальная
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high - высокая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high - очень высокая
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+            <sect3>
+                <title>
+                    ITSM::Change Management::Priority
+                </title>
+                <para>
+                    После установки OTRS::ITSM Change Management создает следующие значения для
+выбора для атрибута Приоритет:
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            1 very low - очень низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            2 low - низкая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            3 normal - нормальная
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            4 high - высокая
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            5 very high - очень высокая
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </sect3>
+        </sect2>
+        <sect2 id="change_state_machine">
+            <title>
+                Машина состояний Изменения
+            </title>
+            <para>
+                OTRS::ITSM предлагает Машину состояний, которая определяет действительные
+состояния и возможный результирующий статус Изменения. При установке системы
+создается базовый вариант, основанный на следующей логике:
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-state-machine</screeninfo> <graphic
+fileref="screenshots/change-state-machine.png"
+srccredit="change-state-machine - screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Изменения в Машине состояний могут быть выполнены администратором в его
+интерфейсе через пункт меню &quot;State Machine/Машина
+состояний&quot;. Состояния и возможные результирующие статусы могут быть
+заданы здесь.
+            </para>
+            <para>
+                При необходимости, дополнительные состояния могут быть заданы через меню
+&quot;General Catalog/Общий Каталог&quot; -&gt; &quot;ITSM::Change
+Management::Change::State&quot;.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+изменение-состояние-переход</screeninfo> <graphic
+fileref="screenshots/change-state-transition.png"
+srccredit="change-state-transition - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Определение Ролей участников / Персоны/сотрудники, связанные с Изменением
+            </title>
+            <para>
+                После ввода основных данных Изменения, в секции Involved Persons/Вовлеченные
+сотрудники должны быть определены сотрудники, принимающие участие в его
+реализации.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-involved-persons</screeninfo> <graphic
+fileref="screenshots/change-involved-persons.png"
+srccredit="change-involved-persons - screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Здесь система предлагает удобный доступ ко всем подключенным клиентских
+бэкендов и агентских бэкендов, таких как БД SQL или LDAP. Если указано,
+может быть определен CAB/Комитет по изменениям, с помощью шаблона
+встроенного CAB.
+            </para>
+            <table>
+                <title>
+                    Вовлеченные сотрудники
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Обязательное поле
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                Менеджер изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Назначает права Менеджера Изменений агенту для текущего Изменения.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Составитель изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Определяет агента, который задает и выполняет текущее Изменение. При
+создании нового Изменения, текущий агент автоматически становится
+Составителем Изменения/Change Builder.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CAB - Комитет по изменениям
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Задает группу сотрудников, которая может состоять из клиентов и агентов.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Связывание Изменения с Запросом на изменение
+            </title>
+            <para>
+                Через интерфейс OTRS, используя, известный уже, механизм связывания, система
+позволяет связать Изменение с заявкой. Таким образом, исходный источник
+Изменения, т.е. Запрос на Изменение/RfC или проблема могут быть легко
+идентифицированы.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-rfc-relation</screeninfo> <graphic
+fileref="screenshots/change-rfc-relation.png" srccredit="change-rfc-relation
+- screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Кроме того, есть возможность создать соответствующее изменение прямо из
+заявки в процессах Управления Инцидентами/Проблемами, т.е. прямо оттуда, что
+является его источником. В этом случае, система создает непосредственную
+связь между заявкой и Изменением. В настройках системы эта возможность может
+дана только тем агентам, которые имеют права на создание Изменений. Также,
+возможно ограничить использование типа заявки "RfC", дав права только тем
+агентам, которые имеют доступ к Управлению Изменениями. Обратите внимание на
+следующие параметры конфигурации:
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange -
+ITSMChange::AddChangeLinkTicketTypes
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            ITSM Change Management -> Core::ITSMChange -
+ITSMChange::RestrictTicketTypes::Groups
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Определение Условий
+            </title>
+            <para>
+                 ВOTRS::ITSM можно задавать условия и действия, основанные на атрибутах
+Изменения и/или Задачи. Через панель администратора эти возможности могут
+быть включены или отключены для Составителя Изменений.
+            </para>
+            <para>
+                Также, здесь можно задать Workflows/Рабочие процессы. Например, процесс
+перевода всего Изменения в состояние &quot;canceled/отменено&quot; или
+отмену request review / approval при отмене Задачи.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-conditions</screeninfo> <graphic
+fileref="screenshots/change-conditions.png" srccredit="change-conditions -
+screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Необходимо отметить, что заданные условия не выполняются в определенном
+порядке; скорее, действия выполняются в том порядке, в котором они были
+заданы.
+            </para>
+            <sect3>
+                <title>
+                    Условия доступные на уровне Изменений
+                </title>
+                <para>
+                    Следующие атрибуты могут быть использованы при определении Условий на уровне
+Изменений
+                </para>
+                <table>
+                    <title>
+                        Условия доступные на уровне Изменений
+                    </title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>
+                                    Атрибуты Изменения
+                                </entry>
+                                <entry>
+                                    Логические операторы
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Затраченное время
+                                    </para>
+                                    <para>
+                                        Планируемые ресурсы???
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is empty - пусто
+                                    </para>
+                                    <para>
+                                        is not empty - не пусто
+                                    </para>
+                                    <para>
+                                        is greater than - больше чем
+                                    </para>
+                                    <para>
+                                        is less than - меньше чем
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Категория
+                                    </para>
+                                    <para>
+                                        ChangeBuilder - Составитель Изменения
+                                    </para>
+                                    <para>
+                                        ChangeState - Состояние Изменения
+                                    </para>
+                                    <para>
+                                        Влияние
+                                    </para>
+                                    <para>
+                                        Приоритет
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        ChangeManager - Менеджер Изменения
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is empty - пусто
+                                    </para>
+                                    <para>
+                                        is not empty - не пусто
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        ChangeTitle - Заголовок Изменения
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        begins with - начинается с
+                                    </para>
+                                    <para>
+                                        ends with - заканчивается
+                                    </para>
+                                    <para>
+                                        contains - содержит
+                                    </para>
+                                    <para>
+                                        does not contain - не содержит
+                                    </para>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is empty - пусто
+                                    </para>
+                                    <para>
+                                        is not empty - не пусто
+                                    </para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </sect3>
+            <sect3>
+                <title>
+                    Условия доступные на уровне Задач
+                </title>
+                <para>
+                    Следующие атрибуты могут использоваться при задании Условий на уровне Задач.
+                </para>
+                <table>
+                    <title>
+                        Условия доступные на уровне Задач
+                    </title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>
+                                    Атрибут Задачи
+                                </entry>
+                                <entry>
+                                    Логические операторы
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Затраченное время
+                                    </para>
+                                    <para>
+                                        Планируемые ресурсы???
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is empty - пусто
+                                    </para>
+                                    <para>
+                                        is not empty - не пусто
+                                    </para>
+                                    <para>
+                                        is greater than - больше чем
+                                    </para>
+                                    <para>
+                                        is less than - меньше чем
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        WorkOrderNumber - Номер задачи
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is greater than - больше чем
+                                    </para>
+                                    <para>
+                                        is less than - меньше чем
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        WorkOrderState - состояние Задачи
+                                    </para>
+                                    <para>
+                                        WorkOrderType - Тип Задачи
+                                    </para>
+                                    <para>
+                                        WorkOrderAgent - Агент для задачи
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        WorkOrderTitle - Заголовок Задачи
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        begins with - начинается с
+                                    </para>
+                                    <para>
+                                        ends with - заканчивается
+                                    </para>
+                                    <para>
+                                        contains - содержит
+                                    </para>
+                                    <para>
+                                        does not contain - не содержит
+                                    </para>
+                                    <para>
+                                        is - является
+                                    </para>
+                                    <para>
+                                        is not - не является
+                                    </para>
+                                    <para>
+                                        is empty - пусто
+                                    </para>
+                                    <para>
+                                        is not empty - не пусто
+                                    </para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </sect3>
+        </sect2>
+        <sect2>
+            <title>
+                Определение действий
+            </title>
+            <para>
+                После того, как все условия заданы, OTRS::ITSM позволяет определить любое
+количество действий, которые необходимо выполнить по текущему Изменению и
+всем/одной Задаче текущего Изменения.
+            </para>
+            <sect3>
+                <title>
+                    Действия доступные на уровне Изменений
+                </title>
+                <para>
+                    Следующие действия могут быть выполнены для объектов/атрибутов
+Изменения. Оператор &quot;set&quot; позволяет установить значение выбранного
+атрибута, если заданное условие верно. С другой стороны, оператор
+&quot;lock&quot; блокирует выбранный атрибут на все время, пока условие
+верно, т.е. ручное его изменение невозможно.
+                </para>
+                <table>
+                    <title>
+                        Действия доступные на уровне Изменений
+                    </title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>
+                                    Атрибуты Изменения
+                                </entry>
+                                <entry>
+                                    Действие
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Категория
+                                    </para>
+                                    <para>
+                                        Влияние
+                                    </para>
+                                    <para>
+                                        Приоритет
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        Установить
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        ChangeState - Состояние Изменения
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        Установить
+                                    </para>
+                                    <para>
+                                        заблокировать
+                                    </para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </sect3>
+            <sect3>
+                <title>
+                    Действия допустимые на уровне Задачи
+                </title>
+                <para>
+                    Следующие действия могут быть выполнены для объектов/атрибутов
+Задачи. Оператор &quot;set&quot; позволяет установить значение выбранного
+атрибута, если заданное условие верно. С другой стороны, оператор
+&quot;lock&quot; блокирует выбранный атрибут на все время, пока условие
+верно, т.е. ручное его изменение невозможно.
+                </para>
+                <table>
+                    <title>
+                        Действия допустимые на уровне Задачи
+                    </title>
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>
+                                    Атрибут Задачи
+                                </entry>
+                                <entry>
+                                    Действие
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <para>
+                                        WorkOrderState - состояние Задачи
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        Установить
+                                    </para>
+                                    <para>
+                                        заблокировать
+                                    </para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </sect3>
+        </sect2>
+        <sect2>
+            <title>
+                Переустановка (Отсрочка) времени Начала / Окончания Изменения
+            </title>
+            <para>
+                На практике, бывает необходимо пересмотреть время начала или окончания
+Изменения. Система позволяет Составителю Изменения осуществить это с помощью
+опции &quot;Move Time Slot/Сдвинуть временНые границы&quot;
+            </para>
+            <para>
+                Используя поля выбора, Составитель Изменения имеет возможность сдвинуть
+границы планируемого временНого периода осуществления Изменения
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-move-timeslot</screeninfo> <graphic
+fileref="screenshots/change-move-timeslot.png"
+srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+    </sect1>
+    <sect1>
+        <title>
+            Создание Задачи
+        </title>
+        <para>
+            Внутри Изменения, система предлагает опцию &quot;Add Work Order/Добавить
+Задачу&quot;, позволяющую создать любое количество подзадач (Задач)
+связанных с выбранным Изменением.
+        </para>
+        <sect2>
+            <title>
+                Атрибуты Задачи
+            </title>
+            <para>
+                Будучи созданным, Изменение представляет собой контейнер для определения
+подзадач т.е. Задач, и эти задачи могут быть заданы Составителем Изменения.
+            </para>
+            <table>
+                <title>
+                    Атрибуты Задачи
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Обязательное поле
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                Название
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Краткое описание / имя Задачи.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Инструкция
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Полное текстовое описание Задачи.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Тип Задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Список выбора для задания Типа Задачи, т.е. утверждение, работа, PIR, и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает тип Изменения, например, &quot;3 normal&quot; и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает эффективность или влияние, которое окажет Изменение, например,  "4
+high", и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает приоритет Изменения, например, "5 very high", "3 normal", и т.д.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Состояние
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                При создании изменения, состояние устанавливается автоматически. При
+редактировании уже существующего Изменения, Создатель изменения/Change
+Builder и Менеджер изменений/Change Manager могут его выставить
+вручную. Доступные состояния и результирующие состояния определяются
+встроенной Машиной Состояний/State Machine, смотрите <xref
+linkend="change_state_machine" /> .
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Запрошенное (клиентом) время/дата
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Если необходимо, этот атрибут может быть деактивирован через SysConfig для
+&apos;ChangeEdit&apos;, &apos;ChangeAdd&apos; и &apos;ChangeZoom&apos;
+шаблонов, и показа требуемой клиентом&apos; даты выполнения.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Прикрепленный файл/Вложение
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Задает возможность прикрепления необходимого файла или документа
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                В дополнение к этим атрибутам, назначенный Задаче агент может собрать
+атрибуты используя возможность &quot;Report/Отчет/Рапорт&quot; которая
+подробно описана в разделе &quot;Work Order Agent Report/Отчет агента по
+Задаче&quot;.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Тип Задачи
+            </title>
+            <para>
+                Следующие значения атрибута  &quot;Work Order Type/Тип Задачи&quot; имеются
+в системе после установки OTRS::ITSM Управление Изменениями:
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Утверждение
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Задача
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        План отката
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Решение
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        PIR (Post Implementation Review/Анализ после выполнения)
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>
+                Администратор может свободно определять и задавать Типы Задач, а также
+добавлять новые.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Машина состояний Задачи
+            </title>
+            <para>
+                OTRS::ITSM предлагает Машину состояний, которая определяет действительные
+состояния и возможный результирующий статус Задачи. При установке системы
+создается базовый вариант, основанный на следующей логике:
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-state-machine</screeninfo> <graphic
+fileref="screenshots/change-workorder-state-machine.png"
+srccredit="change-workorder-state-machine - screenshot" scale="50" /></screenshot>
+            </para>
+            <para>
+                Изменения в Машине состояний могут быть выполнены администратором в его
+интерфейсе через пункт меню "State Machine/Машина состояний". Состояния и
+возможные результирующие статусы могут быть заданы здесь.
+            </para>
+            <para>
+                При необходимости, дополнительные состояния могут быть заданы через меню
+"General Catalog/Общий Каталог" -> "ITSM::Change
+Management::WorkOrder::State".
+            </para>
+            <para>
+                Как это сделано в  OTRS::ITSM это представлено в таблице:
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-state-transition</screeninfo> <graphic
+fileref="screenshots/change-workorder-state-transition.png"
+srccredit="change-workorder-state-transition - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Назначение агента Задаче
+            </title>
+            <para>
+                Каждой Задаче может быть назначен &quot;Work Order agent&quot;,
+т.е. сотрудник, ответственный за выполнение Задачи.
+            </para>
+            <para>
+                Система предлагает доступ ко всем подключенным агентам. Важно помнить, что
+отображаются только агенты имеющие полные права в группе
+&quot;itsm-change&quot;
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-agent</screeninfo> <graphic
+fileref="screenshots/change-workorder-agent.png"
+srccredit="change-workorder-agent - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Отчет агента по Задаче
+            </title>
+            <para>
+                Назначенный Задаче агент может документировать всю связанную с ее
+выполнением информацию, такую как комментарии, фактическое время начала и
+окончания Задачи, требуемое время и состояние.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-agent-report</screeninfo> <graphic
+fileref="screenshots/change-workorder-agent-report.png"
+srccredit="change-workorder-agent-report - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Связывание Задач с Конфигурационными единицами / Сервисами
+            </title>
+            <para>
+                В Задачах, OTRS::ITSM допускает связывание с другими объектами.
+            </para>
+            <para>
+                В стандартной установке, Задачи могут быть связаны со следующими объектами:
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        CIs - Конфигурационные единицы
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                CI-Класс Computer/Компьютеры
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Класс Hardware/Оборудование
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Класс Location/Местоположение
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Класс Network/Сеть
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                CI-Класс Software/Программное обеспечение
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+                <listitem>
+                    <para>
+                        Services/Сервисы
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Tickets/Заявки
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>
+                Эти настройки выполняются через SysConfig в &quot;Framework -&gt;
+Core::LinkObject&quot; и могут быть, при желании, расширены.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Сохранение Задачи как шаблон
+            </title>
+            <para>
+                Задача может быть сохранена в качестве шаблона, используя опцию
+&quot;Template&quot; внутри процесса создания Задачи.
+            </para>
+            <para>
+                Диалоговое окно потребует от Создателя Изменения присвоить имя шаблону и,
+при необходимости внести комментарий. При выходе из диалога нажатием на
+кнопку &quot;Add/Добавить&quot; Задача будет доступна как шаблон при
+создании новой Задачи.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-template</screeninfo> <graphic
+fileref="screenshots/change-workorder-template.png"
+srccredit="change-workorder-template - screenshot" scale="50" /></screenshot>
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Удаление Задачи
+            </title>
+            <para>
+                Создатель Изменения может удалить задачу пока на нее нет ссылки в Условии
+(см. раздел &quot;Defining conditions/Настройка Условий&quot;).
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-workorder-delete</screeninfo> <graphic
+fileref="screenshots/change-workorder-delete.png"
+srccredit="change-workorder-delete - screenshot" scale="35" /></screenshot>
+            </para>
+        </sect2>
+    </sect1>
+    <sect1>
+        <title>
+            Просмотр содержания Изменения
+        </title>
+        <para>
+            После создания Изменения и связанных с ним Задач, система дает возможность
+просмотра информации, связанной с Изменением, включая соответствующие
+Задачи, связанные заявки и конфигурационные единицы.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>
+change-zoom</screeninfo> <graphic
+fileref="screenshots/change-zoom.png" srccredit="change-zoom - screenshot"
+scale="35" /></screenshot>
+        </para>
+        <para>
+            Созданные Задачи нумеруются в порядке их планируемого выполнения и
+отображаются на временНом графике/диаграмме. Цвет отображаемых Задач на
+диаграмме означает их тип и может быть настроен через  SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewChangeZoom&quot; как
+пожелается.
+        </para>
+        <para>
+            Система создает две полосы на Задачу на диаграмме Изменения. Верхняя, более
+темная, отражает запланированное время реализации Задачи, тогда как нижняя,
+более светлая полоса отражает фактические затраты времени реализации Задачи.
+        </para>
+        <para>
+            Статус каждой задачи представлен "светофорами", как это видно на следующем
+рисунке:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    Серый - Задача &quot;created/создана&quot; </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Желтый - Задача &quot;pending approval/ожидает утверждения&quot; </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Зеленый - Задача &quot;closed/закрыта/завершена&quot; </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Красный - Задача &quot;canceled/отменена&quot; </para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            <screenshot>
+<screeninfo>
+change-timeline</screeninfo> <graphic
+fileref="screenshots/change-timeline.png" srccredit="change-timeline -
+screenshot" scale="50" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            Отображение Изменения
+        </title>
+        <para>
+            OTRS::ITSM предоставляет различные способы просмотра Изменений сохраненных в
+системе. Доступ к этим способам, по желанию, может быть отключен.
+        </para>
+        <sect2>
+            <title>
+                Обзор изменений
+            </title>
+            <para>
+                Все Изменения отображаются на экране обзора и могут быть отсортированы в
+убывающем или возрастающем порядке по колонкам атрибутов.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-overview</screeninfo> <graphic
+fileref="screenshots/change-overview.png" srccredit="change-overview -
+screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Перечень колонок может быть задан  в SysConfig &quot;ITSM Change Management
+-&gt; Frontend::Agent::ViewChangeOverview&quot; со следующими возможными
+атрибутами:
+            </para>
+            <table>
+                <title>
+                    Обзор изменений
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время окончания реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Индикатор состояния Изменения, отображаемый как "светофор"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderCount
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                Дополнительно, в обзоре Изменений можно фильтровать и отображать Изменения
+удовлетворяющие различным значениям атрибутов. Доступны следующие фильтры,
+которые могут быть заданы в SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Фильтры обзора Изменений
+                </title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                requested - запрошено
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;requested&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                pending approval - ожидает утверждения
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;pending approval&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                rejected - отвергнуто
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;rejected&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                approved - утверждено
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;approved&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                in progress - в работе
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;in progress&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                successful - успещно
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;successful&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                failed - неудачно
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;failed&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                canceled - отменено
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;canceled&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                retracted - отказано
+                            </entry>
+                            <entry>
+                                Отображаются все Изменения, имеющие статус &quot;retracted&quot; </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Расписание изменений
+            </title>
+            <para>
+                В обзоре расписания Изменений отображаются все Изменения, имеющие статус
+&quot;approved/утверждено&quot;, т.е. находятся в очереди на
+реализацию. Информация может быть отсортирована по значениям атрибутов в
+колонках в возрастающем или убывающем порядке:
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-schedule</screeninfo> <graphic
+fileref="screenshots/change-schedule.png" srccredit="change-schedule -
+screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
+-&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Расписание изменений
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время в которые реализация Изменения была завершена
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Индикатор статуса Изменения в виде "светофора"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderCount
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                PIR - Post Implementation Review/Анализ после выполнения
+            </title>
+            <para>
+                Этот обзор отображаает Задачи типа &quot;PIR&quot; которые могут быть
+отсортированы в убывающем или возрастающем порядке по значениям в колонках
+атрибутов.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-pir</screeninfo> <graphic
+fileref="screenshots/change-pir.png" srccredit="change-pir - screenshot"
+scale="35" /></screenshot>
+            </para>
+            <para>
+                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
+-&gt; Frontend::Agent::ViewPIROverview&quot;:
+            </para>
+            <table>
+                <title>
+                    PIR - Post Implementation Review/Анализ после выполнения
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время в которые реализация Изменения была завершена
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Индикатор статуса Изменения в виде "светофора"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderAgent - Агент для задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Агент, назначенный для PIR
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderNumber - Номер задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Номер Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderState - состояние Задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderStateSignal - индикатор состояния Задачи
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Цвет "светофора" отображающий статус Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderTitle - Заголовок Задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderType - Тип Задачи
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Тип Задачи
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Шаблон
+            </title>
+            <para>
+                Этот обзор отображает все созданные шаблоны в системе. Агент имеет
+возможность отсортировать информацию по содержимому колонок в убывающем или
+возрастающем порядке.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-template</screeninfo> <graphic
+fileref="screenshots/change-template.png" srccredit="change-template -
+screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
+-&gt; Frontend::Agent::ViewTemplateOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Шаблон
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ChangeBy - Кто изменил
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Логин агента, который последним изменил шаблон
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTime - Время изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время последнего изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Comment - Комментарий
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Комментарии / описание шаблона
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateBy - кто создал
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Логин агента, который создал шаблон
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Дата и время создания шаблона
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Удаление
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Опция удаления выбранного шаблона
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Name - Название
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя шаблона
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                TemplateID - ID шаблона
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Внутренний идентификатор шаблона в базе данных
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Type - Тип
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Тип шаблона
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Valid - действительность
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Задает значение действительности шаблона (действительный, недействительный и
+временно недействительный). Недействительный/Временно недействительный
+шаблоны не могут использоваться Создателями Изменений.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                Следующие типы шаблонов доступны в системе после установки модуля Change
+Management. Они задаются в SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewTemplateOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Типы шаблонов
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ITSMChange
+                            </entry>
+                            <entry>
+                                Шаблоны для Изменений
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ITSMWorkOrder
+                            </entry>
+                            <entry>
+                                Шаблоны для Задач
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CAB
+                            </entry>
+                            <entry>
+                                Шаблоны для Комитета по Изменениям
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Поиск
+            </title>
+            <para>
+                Для поиска Изменений и Задач, удовлетворяющих определенным критериям,
+система имеет специальную функцию поиска, основанную на следующих атрибутах
+поиска:
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-search</screeninfo> <graphic
+fileref="screenshots/change-search.png" srccredit="change-search -
+screenshot" scale="35" /></screenshot>
+            </para>
+            <table>
+                <title>
+                    Шаблон
+                </title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                Change#
+                            </entry>
+                            <entry>
+                                Поиск по номеру Изменения; знак звездочка (&quot;*&quot;) может
+использоваться как знак подстановки/wildcard
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Поиск Изменения по заголовку или имени
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Заголовок Задачи
+                            </entry>
+                            <entry>
+                                Поиск по заголовку/имени Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CABAgent
+                            </entry>
+                            <entry>
+                                Поиск по членам CAB, заданным в системе как агент
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CABCustomer
+                            </entry>
+                            <entry>
+                                Поиск по членам CAB, заданным в системе как клиент. Здесь работает функция
+автозавершения, предлагающая варианты при заполнении поля для ввода клиента
+- члена CAB
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Описание Изменения
+                            </entry>
+                            <entry>
+                                Поиск в поле описания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Обоснование Изменения
+                            </entry>
+                            <entry>
+                                Поиск по причине/обоснованию Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Инструкция по Задаче
+                            </entry>
+                            <entry>
+                                Поиск по инструкции к Задаче
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Отчет по Задаче
+                            </entry>
+                            <entry>
+                                Поиск по содержанию отчета по Задаче
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                            <entry>
+                                Поиск по приоритету Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние Изменения
+                            </entry>
+                            <entry>
+                                Поиск по значению влияния Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория Изменения
+                            </entry>
+                            <entry>
+                                Поиск по категории Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                            <entry>
+                                Поиск по статусу Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Менеджер изменения
+                            </entry>
+                            <entry>
+                                Поиск по Менеджеру Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Составитель изменения
+                            </entry>
+                            <entry>
+                                Поиск по Составителю Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Создано агентом
+                            </entry>
+                            <entry>
+                                Поиск по имени агента создавшего Изменение
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Состояние Задачи
+                            </entry>
+                            <entry>
+                                Поиск по состоянию Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Агент для Задачи
+                            </entry>
+                            <entry>
+                                Поиск по агенту, назначенному Задаче
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Запрошенное (клиентом) время/дата
+                            </entry>
+                            <entry>
+                                Поиск по запрошенному клиентом времени реализации Изменения. Поиск может
+осуществляться как по абсолютному времени (например, с даты 1 до даты 2) или
+по относительным значениям (например, Изменения созданные за последние х
+дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Запланированное время начала
+                            </entry>
+                            <entry>
+                                Поиск по планируемому времени и дате начала реализации Изменения. Поиск
+может осуществляться как по абсолютному значению времени (например, с даты 1
+до даты 2) или по относительным значениям (например, Изменения созданные за
+последние х дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Планируемое время окончания
+                            </entry>
+                            <entry>
+                                Поиск по планируемому времени и дате окончания реализации Изменения. Поиск
+может осуществляться как по абсолютному значению времени (например, с даты 1
+до даты 2) или по относительным значениям (например, Изменения созданные за
+последние х дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Фактическое время начала
+                            </entry>
+                            <entry>
+                                Поиск по фактическому времени и дате начала реализации Изменения. Поиск
+может осуществляться как по абсолютному значению времени (например, с даты 1
+до даты 2) или по относительным значениям (например, Изменения созданные за
+последние х дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Поиск по фактическому времени и дате окончания реализации Изменения. Поиск
+может осуществляться как по абсолютному значению времени (например, с даты 1
+до даты 2) или по относительным значениям (например, Изменения созданные за
+последние х дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Время создания
+                            </entry>
+                            <entry>
+                                Поиск по времени и дате создания Изменения. Поиск может осуществляться как
+по абсолютному значению времени (например, с даты 1 до даты 2) или по
+относительным значениям (например, Изменения созданные за последние х
+дней/недель).
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Время модификации
+                            </entry>
+                            <entry>
+                                Поиск по времени и дате модификации Изменения. Поиск может осуществляться
+как по абсолютному значению времени (например, с даты 1 до даты 2) или по
+относительным значениям (например, Изменения созданные за последние х
+дней/недель).
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Менеджер изменения
+            </title>
+            <para>
+                OTRS::ITSM предлагает отдельный обзор для активных агентов, который
+отображает Изменения, для которых эти агенты заданы в качестве Менеджеров
+Изменений.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-changemanager</screeninfo> <graphic
+fileref="screenshots/change-changemanager.png"
+srccredit="change-changemanager - screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Отображаемые значения могут быть отсортированы в порядке убывания или
+возрастания значений атрибутов в колонках. Колонки для отображения задаются
+в SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeManagerOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Менеджер изменения
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время в которые реализация Изменения была завершена
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Индикатор состояния Изменения, отображаемый как "светофор"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderCount
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                Дополнительно, в обзоре Менеджера Изменений можно фильтровать и отображать
+Изменения удовлетворяющие различным значениям атрибутов. Доступны следующие
+фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change Management
+-&gt; Frontend::Agent::ViewChangeManagerOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Фильтр Менеджера Изменений
+                </title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                requested - запрошено
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;requested&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                pending approval - ожидает утверждения
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;pending approval&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                approved - утверждено
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;approved&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                in progress - в работе
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;in progress&quot; </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Мои изменения
+            </title>
+            <para>
+                &quot;My Changes&quot; показывает все Изменения созданные активным агентом,
+для которых указан как Составитель Изменения
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-mychanges</screeninfo> <graphic
+fileref="screenshots/change-mychanges.png" srccredit="change-mychanges -
+screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Отображаемые значения могут быть отсортированы в порядке убывания или
+возрастания значений атрибутов в колонках. Колонки для отображения задаются
+в SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewMyChangesOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Мои изменения
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время, когда Изменение было завершено
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Индикатор состояния Изменения, отображаемый как "светофор"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения, который будет получен
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderCount
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                Дополнительно, в обзоре Мои Изменения можно фильтровать и отображать
+Изменения удовлетворяющие различным значениям атрибутов. Доступны следующие
+фильтры, которые могут быть заданы в SysConfig  &quot;ITSM Change Management
+-&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Фильтр Мои Изменения
+                </title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                requested - запрошено
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;requested&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                pending approval - ожидает утверждения
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;pending approval&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                approved - утверждено
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;approved&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                in progress - в работе
+                            </entry>
+                            <entry>
+                                Отображает все Изменения, имеющие статус &quot;in progress&quot; </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+        <sect2>
+            <title>
+                Мои Задачи
+            </title>
+            <para>
+                По аналогии с обзором OTRS &quot;Locked Tickets&quot;, OTRS::ITSM
+предоставляет для активных агентов отдельный обзор Задач назначенных ему/ей.
+            </para>
+            <para>
+                <screenshot>
+<screeninfo>
+change-myworkorders</screeninfo> <graphic
+fileref="screenshots/change-myworkorders.png" srccredit="change-myworkorders
+- screenshot" scale="35" /></screenshot>
+            </para>
+            <para>
+                Отображаемые значения могут быть отсортированы в порядке убывания или
+возрастания значений атрибутов в колонках. Колонки для отображения задаются
+в SysConfig  &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Мои Задачи
+                </title>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Активно
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                ActualStartTime - Фактическое время начала
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ActualEndTime - Фактическое время окончания
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время в которые реализация Изменения была завершена
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Категория
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Категория или тип Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeBuilder - Составитель Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Имя создателя Изменения/Change Builder&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeManager - Менеджер Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Имя Менеджера Изменения/Manager&apos;s name
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Номер изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Сгенерированный системой номер Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeState - Состояние Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Состояние Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Индикатор состояния Изменения
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Индикатор состояния Изменения, отображаемый как "светофор"
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ChangeTitle - Заголовок Изменения
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                CreateTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Дата и время создания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Влияние
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Ожидаемый эффект от Изменения, который будет получен
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedStartTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время начала реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                PlannedEndTime
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Планируемые дата и время окончания Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Приоритет
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Приоритет Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                RequestedTime
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Запрошенное клиентом время реализации Изменения
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Services/Сервисы
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Сервисы, затрагиваемые Изменением
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderAgent - Агент для задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Агент, назначенный для PIR
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderNumber - Номер задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Номер Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderState - состояние Задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Количество Задач, относящихся к Изменению
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderStateSignal - индикатор состояния Задачи
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Цвет "светофора" отображающий статус Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderTitle - Заголовок Задачи
+                            </entry>
+                            <entry>
+                                Да
+                            </entry>
+                            <entry>
+                                Имя Задачи
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrderType - Тип Задачи
+                            </entry>
+                            <entry>
+                                Нет
+                            </entry>
+                            <entry>
+                                Тип Задачи
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para>
+                Дополнительно, в обзоре Мои Задачи можно фильтровать и отображать Изменения
+удовлетворяющие различным значениям атрибутов, как показано ниже. Доступны
+следующие фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change
+Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
+            </para>
+            <table>
+                <title>
+                    Фильтр Мои Задачи
+                </title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>
+                                Атрибут
+                            </entry>
+                            <entry>
+                                Подробно
+                            </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                created - создана
+                            </entry>
+                            <entry>
+                                Отображает все Задачи, имеющие статус &quot;created&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                accepted - принята
+                            </entry>
+                            <entry>
+                                Отображает все Задачи, имеющие статус &quot;;accepted&quot;
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                ready - готова
+                            </entry>
+                            <entry>
+                                Отображает все Задачи, имеющие статус &quot;ready&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                in progress - в работе
+                            </entry>
+                            <entry>
+                                Отображает все Задачи, имеющие статус &quot;in progress&quot;
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </sect2>
+    </sect1>
+    <sect1>
+        <title>
+            Отчеты по Управлению Изменениями
+        </title>
+        <para>
+            OTRS::ITSM предоставляет следующие отчеты для для оценки ключевых
+показателей в Управлении Изменениями. Все отчеты доступны при использовании
+встроенного генератора отчетов.
+        </para>
+        <sect2>
+            <title>
+                Количество Изменений за заданный период
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Количество Изменений по категориям Изменений
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Количество отвергнутых Изменений
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Количество изъятых Изменений
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Соотношение Изменений к Инцидентам
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+        <sect2>
+            <title>
+                Количество запросов на Изменение / RFCs по запросившим
+            </title>
+            <para>
+                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
+х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
+2). Дополнительно, можно запросить указать заказчиков Изменений/RFC
+Requester, для включения в отчет.
+            </para>
+            <para>
+                Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
+форматах.
+            </para>
+        </sect2>
+    </sect1>
+</chapter>

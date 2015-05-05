@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Панель администрирования OTRS::ITSM</title>
+    <para>
+        Панель администрирования является главным интерфейсом администратора системы
+управления заявками. Все основные настройки конфигурации системы
+сосредоточены здесь и могут быть просмотрены и/или изменены для
+удовлетворения индивидуальных потребностей.
+    </para>
+    <para>
+        Переход к панели управления осуществляется через пункт меню
+Админ/Администрирование главного меню интерфейса. Этот пункт меню виден и
+доступен только агентам имеющим права администратора в системе. После
+окончания стандартной установки системы вы можете войти в нее в качестве
+администратора используя логин &quot;root@localhost&quot; и пароль
+&quot;root&quot;.
+    </para>
+    <warning>
+        <para>
+            ВНИМАНИЕ: Замените пароль пользователя root@localhost как можно
+скорее. Использование широко известных паролей по умолчанию категорически не
+рекомендуется!
+        </para>
+    </warning>
+
+    <para>
+        <itemizedlist>
+
+            <listitem>
+                <para>Начиная с версии OTRS::ITSM 1.0 </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ General Catalog ] - Общий каталог</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Criticality - Impact - Priority ] - Критичность - Влияние - Приоритет</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ ConfigItem ] - Описание учетных элементов/конфигурационных единиц</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>Начиная с версии OTRS::ITSM 1.1 </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Import/Export ] - Импорт/Экспорт</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>Начиная с версии OTRS::ITSM 2.0</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Notification (ITSM Change Management) ] - Уведомления Управление
+Изменениями</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Category - Impact - Priority ] - Категория - Влияние - Приоритет</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ State Machine ] - Машина состояний</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>Начиная с OTRS 2.2</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Type ] - Типы</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Status ] - Состояния</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Service ] - Сервисы</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ SLA ] - Соглашения об Уровне Сервиса</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>Начиная с OTRS 2.3</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Priority ] - Приоритеты</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+        </itemizedlist>
+    </para>
+
+    <para>
+        <screenshot>
+<screeninfo>Admin Area - Панель администратора</screeninfo> <graphic
+fileref="screenshots/admin-area.png" scale="50" srccredit="Admin Area -
+screenshot" /></screenshot>
+    </para>
+    <sect1>
+        <title>Общий каталог</title>
+        <para>
+            Как следует из названия, Общий каталог обслуживает связанные с ITSM основные
+настройки OTRS::ITSM.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
+fileref="screenshots/admin-general-catalog-management.png" scale="50"
+srccredit="Admin General Catalog - screenshot" /></screenshot>
+        </para>
+        <para>Например, редактирование записей в справочной таблице для выпадающих списков
+значений полей: </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
+fileref="screenshots/admin-general-catalog-management-edit.png" scale="50"
+srccredit="Admin General Catalog - screenshot" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Настройка классов конфигурационных единиц</title>
+        <para>
+            По умолчанию, OTRS::ITSM предоставляет пять основных классов
+конфигурационных единиц для описания соответствующих элементов ИТ
+инфраструктуры:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>[ Computer ] - Компьютеры</para>
+                <para>
+                    Все CI, которые принято относить к компьютерам, т.е. десктопы или ноутбуки,
+а также другие интеллектуальные, настраиваемые и не периферийные устройства,
+такие как коммутаторы, маршрутизаторы или другие активные компоненты сетевой
+инфраструктуры.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Hardware ] - Оборудование</para>
+                <para>
+                    Все оборудование, не относящееся к Компьютерам, возможно от корзины для
+blade - серверов до принтеров или USB носителей, в зависимости от уровня
+разбиения/представления вашей ИТ инфраструктуры.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Network ] - Сеть</para>
+                <para>
+                    Логические сети  (LAN, WLAN, WAN и т.д..), которые охватываются вашим IP
+адресным пространством.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Software ] - Программное обеспечение</para>
+                <para>Все программные продукты и лицензии.</para>
+            </listitem>
+            <listitem>
+                <para>[ Locations ] - Местоположение</para>
+                <para>Все места размещения, т.е. здания, рабочие места, машзалы, стойки...</para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Если этих пяти классов недостаточно для описания вашей ИТ-инфраструктуры, с
+помощью пункта меню "Общий каталог" панели администратора OTRS::ITSM можно
+добавить нужные классы. После создания нового класса CI в Общем каталоге,
+необходимо добавить его описание в меню "Описание учетных элементов"
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
+fileref="screenshots/admin-general-catalog-management-class.png" scale="50"
+srccredit="Admin General Catalog - screenshot" /></screenshot>
+        </para>
+        <warning>
+            <para>
+                Разработка модели CMDB и CI, которые будут в нее заносится и управляться в
+ней -  задача, которую не следует недооценивать. Наш опыт показывает, что
+это весьма желательно проверить концептуальные мысли, просто сформулировав
+их на первом этапе, и изменить поставляемую по умолчанию модель и набор
+классов CI  для OTRS :: ITSM на втором этапе. Было бы очень полезным
+прибегнуть к внешней помощи, например, экспертов ITIL по проектированию
+структуры CMDB.
+            </para>
+        </warning>
+        <para>
+            Ниже, вы можете рассмотреть часть описания класса "Компьютеры", структура и
+принципы которого понятны без пояснений:
+        </para>
+        <para>
+            <screen>
+[
+    {
+        Key => 'Description',
+        Name => 'Description',
+        Searchable => 1,
+        Input => {
+            Type => 'TextArea',
+        },
+    },
+    {
+        Key => 'Type',
+        Name => 'Type',
+        Searchable => 1,
+        Input => {
+            Type => 'GeneralCatalog',
+            Class => 'ITSM::ConfigItem::Computer::Type',
+        },
+    },
+    {
+        Key => 'Owner',
+        Name => 'Owner',
+        Searchable => 1,
+        Input => {
+            Type => 'Customer',
+        },
+    },
+    {
+        Key => 'AssetTag',
+        Name => 'Asset Tag',
+        Searchable => 1,
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+            Required => 1,
+        },
+        CountMin => 0,
+        CountMax => 1,
+        CountDefault => 0,
+    },
+
+            :
+            :
+            :
+
+    {
+        Key => 'Model',
+        Name => 'Model',
+        Searchable => 1,
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 50,
+        },
+    },
+    {
+        Key => 'OperatingSystem',
+        Name => 'Operating System',
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+        },
+    },
+    {
+        Key => 'CPU',
+        Name => 'CPU',
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+        },
+        CountMin => 1,
+        CountMax => 16,
+        CountDefault => 1,
+    },
+];
+
+            </screen>
+        </para>
+        <para>
+            Изменение атрибутов и поправки можно сделать в области графического
+редактора, нажав кнопку "Изменить описание":
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>admin-configitem-management-change</screeninfo> <graphic
+fileref="screenshots/admin-configitem-management-change.png" scale="50"
+srccredit="admin-configitem-management-change - screenshot" /></screenshot>
+        </para>
+        <warning>
+            <para>
+                Чтобы быть уверенным в целостности данных, в OTRS::ITSM, управляющая
+информация, однажды созданная в панели управления системы, как правило, не
+может быть удалена. Если вы желаете дезактивировать такую информацию,
+измените ее значение в соответствующем списке выбора с "valid/действительна"
+на "invalid/недействительна" или "invalid-temporarily/временно
+недействительна".
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>Управление версиями классов CI </title>
+        <para>
+            В систему встроено управление версиями описаний всех классов CI. Для текущей
+работы с процессами OTRS::ITSM  используются наиболее поздние версии.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>admin-configitem-management</screeninfo> <graphic
+fileref="screenshots/admin-configitem-management.png" scale="50"
+srccredit="admin-configitem-management - screenshot" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Корректировка состояний заявки</title>
+        <para>
+            В процессах Управления Инцидентами, построенных с учетом ITIL, инциденты
+либо разрешаются успешно, либо закрываются с обходным решением. Для учета
+этого положения в OTRS::ITSM, по умолчанию, включено дополнительное
+состояние &quot;closed with workaround/закрыто с обходным решением&quot;.</para>
+        <para>
+            <screenshot>
+<screeninfo>admin-state-management</screeninfo> <graphic
+fileref="screenshots/admin-state-management.png" scale="50"
+srccredit="admin-state-management - screenshot" /></screenshot>
+        </para>
+        <para>
+            В OTRS::ITSM  вы можете изменять существующие состояния или добавлять
+новые. Есть два основных понятия: имя состояния &quot;state-name&quot; и тип
+состояния &quot;state-type&quot;. Все состояния и их типы доступные по
+умолчанию показаны выше.
+        </para>
+        <para>
+            Имена/названия состояний можно выбирать свободно. В разделе "Состояния"
+панели администратора можно добавлять новые состояния или менять их для
+существующих типов состояний.
+        </para>
+        <para>
+            Пожалуйста, обратите внимание, что изменения сделанные для состояния "new",
+требуют изменения ряда настроек в файле kernel/config.pm или в разделе
+графического конфигуратора - Конфигурация системы/SysConfig.
+        </para>
+        <para>
+            <screen>
+    [...]
+    # PostmasterDefaultState
+    # (The default state of new tickets.) [default: new]
+    $Self->{PostmasterDefaultState} = 'new';
+
+    # CustomerDefaultState
+    # (default state of new customer tickets)
+    $Self->{CustomerDefaultState} = 'new';
+    [...]
+
+            </screen>
+        </para>
+        <para>
+            То же самое относится и к изменениям для состояния  "open": надо внести
+необходимые изменения в kernel/config.pm или в разделе графического
+конфигуратора - Конфигурация системы/SysConfig.
+        </para>
+        <para>
+            <screen>
+    [...]
+    # default phone new state
+    $Self->{'Ticket::Frontend::PhoneNextState'} = 'open';
+
+
+    # PostmasterFollowUpState
+    # (The state if a ticket got a follow up.) [default: open]
+
+    $Self->{PostmasterFollowUpState} = 'open';
+    [...]
+        </screen>
+        </para>
+
+        <warning>
+            <para>
+                Чтобы быть уверенным в целостности данных, в OTRS::ITSM, управляющая
+информация, однажды созданная в панели управления системы, как правило, не
+может быть удалена. Если вы желаете дезактивировать такую информацию,
+измените ее значение в соответствующем списке выбора с "valid/действительна"
+на "invalid/недействительна" или "invalid-temporarily/временно
+недействительна".
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>Матрица "Критичность - Влияние - Приоритет"</title>
+        <para>OTRS::ITSM предполагает пять уровней приоритета для заявок:</para>
+        <itemizedlist>
+            <listitem>
+                <para>[ Criticality ] - Критичность</para>
+                <para>
+                    Значимость ("критичность") сервиса для ИТ пользователя(ей)/клиента(ов)
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Impact ] - Влияние</para>
+                <para>
+                    Влияние сбоя соответствующего сервиса на работу пользователя(ей)/клиента(ов)
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Priority ] - Приоритеты</para>
+                <para>
+                    Приоритет в OTRS::ITSM есть результат, зависящий от пары критичность -
+влияние
+                </para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Приоритет заявки в OTRS::ITSM определяется по матрице показанной ниже и
+результат приоритезации используется в обзорах очередей.
+         </para>
+        <para>
+            <screenshot>
+<screeninfo>admin-priority-allocation</screeninfo> <graphic
+fileref="screenshots/admin-priority-allocation.png" scale="50"
+srccredit="admin-priority-allocation - screenshot" /></screenshot>
+        </para>
+        <para>
+            Номер уровня, описание и действительность можно посмотреть и изменить в
+панели администратора по ссылке "Общий каталог":
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>admin-general-catalog-management-priority</screeninfo> <graphic
+fileref="screenshots/admin-general-catalog-management-priority.png"
+scale="50" srccredit="admin-general-catalog-management-priority -
+screenshot" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Корректировка приоритетов заявки</title>
+        <para>
+            Заявки ранжируются в OTRS::ITSM на основе приоритетов заявок, т.е. заявки с
+высоким приоритетом показываются в обзоре очередей выше заявок с более
+низким значением приоритета. Приоритеты могут быть откорректированы,
+переименованы и добавлены в графическом интерфейсе администратора.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>admin-priority-management</screeninfo> <graphic
+fileref="screenshots/admin-priority-management.png" scale="50"
+srccredit="admin-priority-management" /></screenshot>
+        </para>
+        <para>Более детальную информацию вы найдете в Руководстве администратора OTRS.
+        </para>
+        <warning>
+            <para>
+                Атрибут &quot;id&quot; отражает внутреннюю последовательность приоритетов в
+OTRS::ITSM - 1 означает минимум и 5 (или выше) - максимум. Число в названии
+приоритета служит для правильного выстраивания последовательности
+приоритетов.
+            </para>
+        </warning>
+        <warning>
+            <para>
+                Чтобы быть уверенным в целостности данных, в OTRS::ITSM, управляющая
+информация, однажды созданная в панели управления системы, как правило, не
+может быть удалена. Если вы желаете дезактивировать такую информацию,
+измените ее значение в соответствующем списке выбора с "valid/действительна"
+на "invalid/недействительна" или "invalid-temporarily/временно
+недействительна".
+            </para>
+        </warning>
+    </sect1>
+</chapter>

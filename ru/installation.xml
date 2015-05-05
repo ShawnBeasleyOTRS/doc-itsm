@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Установка OTRS::ITSM</title>
+    <para>
+        Обратите внимание, что до установки OTRS::ITSM необходимо выполнить
+установку OTRS 3.3. Вся необходимая информация, варианты и процедуры
+установки описаны в руководстве администратора OTRS.
+    </para>
+
+    <sect1>
+
+        <title>Установка</title>
+
+        <para>
+            После успешной установки OTRS 3.3 или более поздней версии, войдите в
+систему в качестве администратора. Используя менеджер пакетов с панели
+администратора или с помощью ftp://ftp.otrs.org/pub/otrs/itsm/packages33/
+загрузите пакеты ITSM и установите их в следующем порядке:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>GeneralCatalog/Общий каталог</para>
+            </listitem>
+            <listitem>
+                <para>ITSMCore</para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Если ваша машина подключена к интернету, используйте следующий онлайн
+репозитарий [--OTRS::ITSM 3.3 Master--] для установки перечисленных ниже
+пакетов. Иначе, загрузите следующие пакеты и установите с помощью менеджера
+пакетов:
+
+       </para>
+
+        <itemizedlist>
+
+            <listitem>
+                <para>ITSMIncidentProblemManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMConfigurationManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMChangeManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMServiceLevelManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ImportExport</para>
+            </listitem>
+
+        </itemizedlist>
+
+        <para>
+            Дальнейшую информацию о процессе установки можно найти здесь: <ulink
+url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Менеджер пакетов</screeninfo> <graphic
+fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin
+Package Manager - screenshot" /></screenshot>
+        </para>
+
+    </sect1>
+    <sect1>
+        <title>Обновление</title>
+
+        <para>
+            Если вы используете версию более раннюю чем OTRS::ITSM 1.1, сначала,
+обновите систему до последней версии 1.1
+        </para>
+        <para>
+            Если OTRS::ITSM 1.1 уже установлена, обновите OTRS 2.2 до 2.3 ДО обновления
+OTRS::ITSM. Для этого, загрузите последнюю OTRS 2.3 и, следуйте инструкциям
+из файла с именем UPGRADING. Затем, войдите в систему и, используя менеджер
+пакетов установите пакет ITSMUpgradeTo12. Вы можете скачать его вручную или
+с использованием онлайн - репозитария. Не обращайте внимания на сообщения об
+ошибках о некорректно установленных старых ITSM пакетов. Этот пакет
+установит все необходимое для вашей системы в OTRS::ITSM 1.2 и перенесет все
+ваши данные.
+        </para>
+        <para>
+            Внимание: Процесс обновления потребует нескольких минут! Не прерывайте
+процесс обновления если он запущен!
+        </para>
+        <para>
+            If OTRS::ITSM 1.2 is already installed, update your OTRS 2.3 framework to
+version 2.4 BEFORE you update OTRS:ITSM. To do so, download the latest OTRS
+2.4 framework and follow the instructions in the file UPGRADING.  After
+that, log in to your system and use the package manager to install the
+packages as described in the section "Installation".
+        </para>
+        <para>
+            Для обновления уже установленного OTRS::ITSM 1.3, используйте менеджер
+пакетов из панели администрирования. Если есть доступ к Интернету из OTRS,
+используйте онлайновый репозитарий  [--OTRS::ITSM 1.3 Master--] для
+установки новых пакетов. Ссылка "upgrade/обновить" в строке с именем пакета
+свидетельствует о наличии/доступности более нового пакета.
+         </para>
+        <para>
+            В противном случае, скачайте пакеты к себе на диск и используйте менеджер
+пакетов для их установки. ВНИМАНИЕ: Не деинсталлируйте ранее установленные
+пакеты, так как это может привести к потере данных!
+        </para>
+    </sect1>
+</chapter>

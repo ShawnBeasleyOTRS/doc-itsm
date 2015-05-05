@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Первые шаги в OTRS::ITSM</title>
+    <para>
+        Первое, на что следует обратить внимание, это то, что OTRS::ITSM полностью
+использует интерфейсы агента и клиента (клиентский портал), реализованные  в
+OTRS. Если вы уже использовали ранее OTRS, то все его возможности и этапы,
+такие как авторизация, конфигурация очередей, личных настроек, фильтров,
+правил, прав пользователей и прочее, могут и далее использоваться без всяких
+изменений.
+    </para>
+    <para>
+        Поэтому данное руководство будет впредь, рассматривать различия между OTRS и
+новыми аспектами, привносимыми OTRS::ITSM, уделяя особое внимание
+следующему:
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>ИТ - сервисы и SLA</para>
+        </listitem>
+        <listitem>
+            <para>CMDB</para>
+        </listitem>
+        <listitem>
+            <para>Новые поля и функции заявки </para>
+        </listitem>
+        <listitem>
+            <para>Присущая  ITIL терминология</para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        Подробная информация о настройках и работе, которые идентичны в обоих OTRS и
+OTRS :: ITSM предоставлены на http://doc.otrs.org/3.3/en/html/ в руководстве
+администратора OTRS, которое постоянно обновляется.
+    </para>
+    <para>
+        <screenshot>
+<screeninfo>Руководство администратора</screeninfo> <graphic
+fileref="screenshots/admin-manual.png" scale="50" srccredit="Admin Manual -
+screenshot" /></screenshot>
+    </para>
+</chapter>

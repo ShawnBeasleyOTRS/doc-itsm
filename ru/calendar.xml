@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Дополнительные приложения OTRS - календарь</title>
+    <para>
+        OTRS 3.3 первоначально поддерживает работу с 9 календарями, которые могут
+быть настроены в SysConfig. Там же, это число может быть увеличено до 99,
+начиная с календаря 1 и т.д. ссылок:
+    </para>
+    <para>
+        <screenshot>
+<screeninfo>admin-sys-config</screeninfo> <graphic
+fileref="screenshots/admin-sys-config.png" scale="50"
+srccredit="admin-sys-config - screenshot" /></screenshot>
+    </para>
+    <para>
+        &quot;TimeWorkingHours/Рабочие часы&quot; могут использоваться в OTRS::ITSM
+для определения так называемых &quot;service level windows&quot; - отрезков
+времени в которые ваша организация гарантирует определенный уровень
+обслуживания для клиентов. Если требуется, затем они могут быть проверены и
+/ или оценены для обеспечения соблюдения каких-либо возможных соглашений об
+уровне обслуживания.
+    </para>
+    <para>
+        <screenshot>
+<screeninfo>admin-sysconfig-timeworkinghours</screeninfo> <graphic
+fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50"
+srccredit="admin-sysconfig-timeworkinghours - screenshot" /></screenshot>
+    </para>
+</chapter>

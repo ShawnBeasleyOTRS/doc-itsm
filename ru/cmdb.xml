@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>CMDB - центральный ИТ репозитарий</title>
+    <para>
+       База данных управления конфигурациями (CMDB) не база данных, в техническом
+смысле, но концептуальная модель ИТ, что является необходимым для
+эффективного управления ИТ-сервисами. Все ИТ-компоненты и запасы собраны в
+CMDB. Управление конфигурацией шире понятия "управление активами", как это
+часто неправильно используется в качестве синонима, так как это не только
+набор документов с финансовой точки зрения, но и несет информацию об
+отношениях между компонентами, спецификации, или их расположение. Таким
+образом, персонал ИТ-поддержки можеут быстро получить доступ к информации о
+взаимозависимости ИТ-услуг и ИТ-компонентов (= элементов конфигурации = CI),
+необходимых для них.
+    </para>
+    <para>
+        В соответствии с ITIL, CMDB должна поддерживать следующий функционал:
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>
+                Ручную и, где это возможно автоматическую регистрацию и модификацию
+информации о конфигурационных единицах
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Описание связи и/или взаимосвязи между CI
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Изменение атрибутов CI (например, серийных номеров)
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Расположение и управление пользователями для CI
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                Интеграцию представленных в системе ITIL процессов
+            </para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        OTRS::ITSM удовлетворяет всем требованиям представленным выше и предлагает
+много дополнительных возможностей в CMDB.
+    </para>
+
+    <sect1>
+        <title>Модель базы данных OTRS::ITSM</title>
+        <para>
+            Модульная архитектура OTRS::ITSM и возможность установки отельных модулей
+OTRS::ITSM независимо, делает затруднительным показать полную модель базы
+данных на одном рисунке. По этой причине далее, на отдельных диаграммах
+представлены схемы для OTRS и для ITSM пакетов, которые изменяют или
+расширяют схему БД.
+        </para>
+        <sect2 id="otrs-database">
+            <title>OTRS Framework</title>
+            <para>
+                For better readability, the diagram can be found at: <ulink
+url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="general-catalog-database">
+            <title>GeneralCatalog/Общий каталог</title>
+            <para>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
+             </para>
+        </sect2>
+        <sect2 id="itsm-core-database">
+            <title>ITSMCore</title>
+            <para>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="itsm-configuration-management-database">
+            <title>ITSMConfigurationManagement</title>
+            <para>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="itsm-change-management-database">
+            <title>ITSMChangeManagement</title>
+            <para>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="import-export-database">
+            <title>ImportExport</title>
+            <para>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
+            </para>
+        </sect2>
+    </sect1>
+
+    <sect1>
+        <title>Сервисы - во главе всего</title>
+        <para>
+            Сервисы, такие как &quot;Стандартная рабочая станция&quot;,
+&quot;Электронная почта&quot; or &quot;Доступ к Интернет&quot; являются ИТ
+продуктами и должны быть  занесены в  &quot;Каталог ИТ услуг&quot;,
+предварительно адаптированные к OTRS::ITSM. Подобный Каталог, обычно
+специфичен для разных клиентов или компаний и имеет иерархическую
+структуру. Кроме того, его элементы должны быть сформулированы в
+дружественной манере, доступным для понимания языком в общепринятым для
+пользователей (клиентов) и ИТ персонала (агентов).
+        </para>
+        <warning>
+            <para>
+                Разработка Каталога услуг задача, которую не следует недооценивать. Наш опыт
+показывает, что это весьма желательно проверить концептуальные мысли в
+просто сформулировав их на первом этапе, и обсудить с персоналом ИТ для OTRS
+:: ITSM на втором этапе. Было бы очень полезным прибегнуть к внешней помощи,
+например, экспертов ITIL практики.
+            </para>
+        </warning>
+        <para>
+            Пример (часть) иерархического каталога ИТ услуг заданного в OTRS::ITSM, как
+он отображается при создании заявки
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Агент-Телефонная заявка</screeninfo> <graphic
+fileref="screenshots/agent-phoneticket.png" scale="50"
+srccredit="agent-phoneticket - screenshot" /></screenshot>
+        </para>
+        <para>и в панели администрирования. </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование-Управление сервисами-Обзор</screeninfo> <graphic
+fileref="screenshots/admin-service-managment-overview.png" scale="50"
+srccredit="admin-service-managment-overview - screenshot" /></screenshot>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Уровни услуг и соглашения об уровне услуг/сервиса</title>
+        <para>
+            Уровни обслуживания и соответствующие соглашения (соглашения об уровне
+обслуживания, SLA) документально задают качественные параметры для
+ИТ-услуг. Соглашения об уровне обслуживания, записываются и вводятся в
+интерфейсе администратора.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование-SLA-Обзор</screeninfo> <graphic
+fileref="screenshots/admin-sla-management-overview.png" scale="50"
+srccredit="admin-sla-management-overview - screenshot" /></screenshot>
+        </para>
+        <para>Для каждого SLA могут быть указаны следующие параметры: </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование-SLA-Управление-Редактировать</screeninfo> <graphic
+fileref="screenshots/admin-sla-management-edit.png" scale="50"
+srccredit="admin-sla-management-edit - screenshot" /></screenshot>
+        </para>
+        <para>
+            OTRS::ITSM имеет возможность вести до 99 различных календарей для описания
+различных временных зон для рабочего времени или времени обслуживания. Они
+могут быть привязаны к SLA (&quot;Окно Уровни обслуживания&quot;). Различные
+варианты продолжительности могут быть введены (в минутах), которые OTRS ::
+ITSM использует для управления уведомлениями и эскалации:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>[ Response Time/Время реакции ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = времени реакции на инцидент
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = начало обработки запроса на услугу (&quot;время начала работы над запросом
+на услугу&quot;)
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Время до изменения заявки ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = время уведомления
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Время решения ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = время затраченное на разрешение инцидента (&quot;максимальное время
+восстановления&quot;, &quot;MTTR&quot;)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = delivery time for service requests (&quot;delivery time&quot;)
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>[ Мин. время между инцидентами ]</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = &quot;MTBI&quot;: минимальное время между закрытием последней заявки по
+инциденту и повторением инцидента, с таким же SLA.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+        <warning>
+            <para>
+                Если никакое из выше упомянутых значений времени не указано в SLA, эскалация
+производится в соответствии со значениями в полях "response time/время
+ответа", "update time/время обновления" и "solution time//время решения"
+заданных для всех очередей!
+            </para>
+        </warning>
+        <para>Важные значения времени в OTRS::ITSM основаны на понятии &quot;жизненный
+цикл ITIL&quot;:  </para>
+        <para>
+            <screenshot>
+<screeninfo>Инцидент-жизненный цикл</screeninfo> <graphic
+fileref="screenshots/incident-lifecycle.png" scale="50"
+srccredit="incident-lifecycle - screenshot" /></screenshot>
+        </para>
+        <para>Источник: OGC, ITIL Service Support Documentation</para>
+        <para>
+            Возможности статистики в OTRS, кроме всего прочего, облегчают определение
+реальных параметров доступности услуги на основании зарегистрированных
+инцидентов, которые часто служат иллюстрацией при наложении на график работы
+в системно-ориентированных SLA.
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>Конфигурационные единицы</title>
+        <para>
+            Примерный обзор зарегистрированных CI (часть) класса компьютеры с текущим
+состоянием CI:
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>agent-configuration-items</screeninfo> <graphic
+fileref="screenshots/agent-configuration-items.png" scale="50"
+srccredit="agent-configuration-items - screenshot" /></screenshot>
+        </para>
+        <para>Пример отображения отдельной CI:</para>
+        <para>
+            <screenshot>
+<screeninfo>agent-configitem-management-link</screeninfo> <graphic
+fileref="screenshots/agent-configitem-management-link.png" scale="50"
+srccredit="agent-configitem-management-link - screenshot" /></screenshot>
+        </para>
+        <para>
+            Графический пример связи между CI. OTRS различает двунаправленные и
+ненаправленные связей. Всякий раз, когда CI связан с другим объектом CMDB,
+OTRS::ITSM автоматически создает соответствующую обратную ссылку.
+        </para>
+        <para>OTRS::ITSM стандартно предлагает семь типов связи:</para>
+        <para>
+            <screenshot>
+<screeninfo>agent-configitem-management-link2</screeninfo> <graphic
+fileref="screenshots/agent-configitem-management-link2.png" scale="50"
+srccredit="agent-configitem-management-link2 - screenshot" /></screenshot>
+        </para>
+        <para>
+            Для связывания, сначала выбирается исходный объект, затем задается тип связи
+и, наконец выбирается целевой объект. Целевой объект можно искать по
+различным критериям:
+        </para>
+    </sect1>
+
+
+    <sect1>
+        <title>Документы и база знаний</title>
+        <para>
+            Система FAQ, которая, начиная с версии  OTRS 2.1, является независимым
+внешним модулем, может быть разработана и применяться, например, для
+предложения решений и/или процедур, связанных с решением известных ошибок.
+        </para>
+        <para>
+            Статьи FAQ могут быть предоставлены как для внутреннего использования, так и
+для клиентов или быть в открытом доступе. Их можно отсортировать по языку
+или категориям. Полнота и качество статей может оцениваться
+агентами. Отображение информации о количестве вновь созданных статей или
+последних измененных, может быть настроено без каких - либо
+ограничений. Статьи могут быть проиндексированы для ускорения поиска.
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>Изменения и дополнения к модели данных</title>
+        <para>
+            Модель данных может быть гибко адаптирована и может быть расширена типами
+данных, атрибутов и даже классов. Полную информацию можно найти в разделе
+"Панель администрирования OTRS::ITSM" этого руководства или "Панель
+администрирования OTRS" в Руководстве администратора OTRS.
+        </para>
+        <warning>
+            <para>
+                Разработка модели CMDB и CI, которые будут в нее заносится и управляться в
+ней -  задача, которую не следует недооценивать. Наш опыт показывает, что
+это весьма желательно проверить концептуальные мысли, просто сформулировав
+их на первом этапе, и изменить поставляемую по умолчанию модель и набор
+классов CI  для OTRS :: ITSM на втором этапе. Было бы очень полезным
+прибегнуть к внешней помощи, например, экспертов ITIL практики.
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>Атрибуты и Типы заявок </title>
+        <para>
+            Начиная с OTRS 2.2, были представлены встроенные типы заявок, которые
+используются также и в OTRS::ITSM. В подпроцессах ITIL, которые могут быть
+разбиты по очередям, заявки классифицируются по их типам.
+        </para>
+        <para>
+            All ITIL processes to be implemented in later versions of OTRS::ITSM,
+e.g. change management, will be implemented in such a way. Ticket types such
+as RfC (&quot;Request for Change&quot;) could be created.
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Администрирование - Настройки заявок - Типы</screeninfo> <graphic
+fileref="screenshots/admin-type-management.png" scale="50"
+srccredit="admin-type-management - screenshot" /></screenshot>
+        </para>
+        <warning>
+            <para>
+                Чтобы быть уверенным в целостности данных, в OTRS::ITSM, управляющая
+информация, однажды созданная в панели управления системы, как правило, не
+может быть удалена. Если вы желаете дезактивировать такую информацию,
+измените ее значение в соответствующем списке выбора с "valid/действительна"
+на "invalid/недействительна" или "invalid-temporarily/временно
+недействительна".
+            </para>
+        </warning>
+    </sect1>
+</chapter>

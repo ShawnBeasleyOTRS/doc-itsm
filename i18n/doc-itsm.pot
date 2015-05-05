@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-19 15:20+0100\n"
+"POT-Creation-Date: 2015-05-05 09:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2139,42 +2139,42 @@ msgstr ""
 #: en/cmdb.xml:64
 msgid ""
 "For better readability, the diagram can be found at: <ulink "
-"url=\"https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
+"url=\"https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:71
 msgid ""
 "For better readability, this diagram can be found at: <ulink "
-"url=\"\">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>"
+"url=\"https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png\">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:78
 msgid ""
 "For better readability, this diagram can be found at: <ulink "
-"url=\"\">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>"
+"url=\"https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png\">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:85
 msgid ""
 "For better readability, this diagram can be found at: <ulink "
-"url=\"\">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>"
+"url=\"https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png\">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:92
 msgid ""
 "For better readability, this diagram can be found at: <ulink "
-"url=\"\">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>"
+"url=\"https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png\">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:99
 msgid ""
 "For better readability, this diagram can be found at: <ulink "
-"url=\"\">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>"
+"url=\"https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png\">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Платные сервисы для OTRS::ITSM</title>
+    <para>OTRS AG является производителем и владельцем исходного кода OTRS и всех
+модулей разработанных на его основе (например, OTRS::ITSM) и является
+профессиональным поставщиком услуг. В отличие от поставщиков проприетарного
+ПО, бизнес - модель OTRS AG не основана на лицензионных отчислениях: OTRS и
+OTRS::ITSM доступны бесплатно, а мы, в свою очередь, вместо этого,
+предлагаем платные услуги связанные с применением нашего программного
+обеспечения. </para>
+    <para>Как ваш мощный партнер, мы предоставляем оптимальную поддержку на всех
+этапах проекта OTRS - проектирования, реализации и эксплуатации. Наши
+сотрудники это высококвалифицированные специалисты, и мы примененяем самые
+современные методы. Эта философия гарантирует полную отдачу от применения
+наших мощных бизнес-приложений и счастливых клиентов, воспевающих качество
+наших услуг (http://www.otrs.com/en/references/). </para>
+    <sect1>
+        <title>OTRS :: ITSM консалтинг и внедрение</title>
+        <para>Планируете ли вы использовать OTRS :: ITSM или вы узнали о OTRS :: ITSM из
+новых  обзоров продуктов и хотите оценить приемлемость системы для ваших
+требований? Или ваша оценка возможностей OTRS::ITSM завершена, и вы хотите,
+чтобы использование наших консалтинговых услуг привело ваш проект к успеху?</para>
+        <para>Мы предлагаем обширный практический опыт в области консалтинга IT-процессов,
+разработки программного обеспечения, развития ITIL совместимых ИТ-операций и
+поддержки. Безопасность и управление качеством для вашего проекта дополняют
+наш портфель услуг. Вы получаете выгоду от обширной и быстрой передачи
+знаний. </para>
+        <para>Наши услуги включают:</para>
+        <itemizedlist>
+            <listitem>
+                <para>Уточнение ваших требований и помощь в оценке продукта</para>
+            </listitem>
+            <listitem>
+                <para>Руководство в разработке и реализации ITSM - процессов и организационных
+структур</para>
+            </listitem>
+            <listitem>
+                <para>Оценка соответствия ITIL и поддержка ISO 20000 сертификации
+                </para>
+            </listitem>
+            <listitem>
+                <para>Тренинги и обучение методологии ITIL</para>
+            </listitem>
+            <listitem>
+                <para>Внедрение ITIL</para>
+            </listitem>
+            <listitem>
+                <para>Составление каталогов ИТ-услуг</para>
+            </listitem>
+            <listitem>
+                <para>Разработка структуры CMDB</para>
+            </listitem>
+            <listitem>
+                <para>Установка &amp; настройка  OTRS::ITSM, включая интеграцию в ваше системное
+окружение</para>
+            </listitem>
+            <listitem>
+                <para>Оценка &amp; оптимизация существующих развернутых систем OTRS::ITSM
+                </para>
+            </listitem>
+            <listitem>
+                <para>Перенос процессов и данных из унаследованных систем</para>
+            </listitem>
+            <listitem>
+                <para>Обновление версий</para>
+            </listitem>
+            <listitem>
+                <para>Определение требований бизнеса и требований к ИТ и возможностей для
+включения в функционал OTRS::ITSM </para>
+            </listitem>
+            <listitem>
+                <para>Разработка и реализация проекта бесплатного администратора??, а также
+тренинги для сервисного персонала </para>
+            </listitem>
+            <listitem>
+                <para>Консультативные услуги, связанные с применением моделей предоставления услуг
+(ASP / SaaS) с помощью OTRS::ITSM и поддержку приложений</para>
+            </listitem>
+        </itemizedlist>
+    </sect1>
+    <sect1>
+        <title>Разработка приложений</title>
+        <para>Одним из важных преимуществ ПО с открытым исходным кодом OTRS::ITSM является
+его гибкость в отношении потенциальных расширений функционала. Никаких
+"закрыто разработчиком" - типичный риск проприетарных систем и затянувшихся
+переговоров с производителем о расширении функциональности или разработке
+интерфейсов с OTRS::ITSM. </para>
+        <para>Опытные менеджеры проектов и разработчики находятся в вашем распоряжении в
+любое время, чтобы перевести ваши требования, превышающие функциональные
+возможности OTRS::ITSM в бизнес- и ИТ-спецификации. Мы доработаем OTRS под
+ваши особенности, создадим программные интерфейсы, или обновим существующие
+функциональные возможности в соответствии с вашей концепцией. </para>
+        <para>Доработки, которые могут быть полезны и для других клиентов тоже, будут
+добавляться с стандартный функционал в последующих релизах. Все стороны
+получат выигрыш: OTRS::ITSM станет мощнее за счет возможностей, "рожденных"
+вашими, и других наших клиентов, пожеланиями, и вы сэкономите за счет
+включения этих дополнений в новые релизы. </para>
+    </sect1>
+    <sect1>
+        <title>Поддержка приложений</title>
+        <para>The decision for an IT service management solution is an investment into the
+future which should not be underestimated, even if you opt for open-source
+software. A competent consulting partner is critical for the success of such
+an implementation project. Just as important, however, is a planned and
+successful porting of the solution to the life system and the lasting
+support of a reliable partner guaranteeing a faultless operating application
+service.
+        </para>
+        <para>We provide this continuous support and our service packages are tailored
+flexibly to meet your requirements. They offer differentiated response times
+for the various service level agreements with up to 24/7/365 support,
+24/7/365 access to our support portal, and optional phone support. Please
+visit http://www.otrs.com/en/support/ for all details or contact our sales
+team at sales@otrs.com.</para>
+        <para>You will only pay for the services you absolutely need. Optional add-on
+packages, e.g. support via remote control or an extension of the application
+support services to other OTRS::ITSM instances can be booked if required.</para>
+        <para>Our ITIL compliant operating Application Support Team is continually
+optimizing its processes and performance. Therefore, our service manager
+will contact you regularly to discuss your wishes and requirements regarding
+our services. The monthly service reporting in the service package of your
+choice serves as a base for these conversations.</para>
+    </sect1>
+    <sect1>
+        <title>Managed application services (ASP/SaaS)</title>
+        <para>You do not have to operate OTRS and/or OTRS::ITSM yourself. The products can
+be rented via the so called &quot;ASP&quot; (application service
+provisioning) resp. &quot;SaaS&quot; (software as a service)  model from
+specialized companies.</para>
+        <para>The customers (software users) are permitted internet access to exclusively
+rented OTRS systems and, where required, functional application support (see
+section above) at a fixed monthly price and can employ the application in
+their business to the contracted extent. No additional license fees apply as
+only open-source products are used.</para>
+        <para>The application service provider operates IT infrastructure, systems and
+software ITIL compliantly and guarantees service quality according to the
+agreed service levels. The provider maintains the application system,
+(e.g. patches, backup, monitoring), and supports the customer with incidents
+and/or service requests such as consultation requests, software extensions,
+or configuration requests.
+        </para>
+    </sect1>
+</chapter>
