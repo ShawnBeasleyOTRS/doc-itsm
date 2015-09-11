@@ -105,7 +105,7 @@
                 <screeninfo>
                     change-workorder-schema
                 </screeninfo>
-                <graphic fileref="screenshots/change-workorder-schema.png" srccredit="change-workorder-schema - screenshot" scale="75" />
+                <graphic fileref="screenshots/change-workorder-schema.png" scale="75" />
             </screenshot>
         </para>
     </sect1>
@@ -124,7 +124,7 @@
                 <screeninfo>
                     otrs-permissions-roles
                 </screeninfo>
-                <graphic fileref="screenshots/otrs-permissions-roles.png" srccredit="otrs-permissions-roles - screenshot" scale="75" />
+                <graphic fileref="screenshots/otrs-permissions-roles.png" scale="75" />
             </screenshot>
         </para>
         <para>
@@ -215,7 +215,7 @@
                 <screeninfo>
                     change-workflow
                 </screeninfo>
-                <graphic fileref="screenshots/change-workflow.png" srccredit="change-workflow - screenshot" scale="75" />
+                <graphic fileref="screenshots/change-workflow.png" scale="75" />
             </screenshot>
         </para>
     </sect1>
@@ -383,8 +383,7 @@
                     <screeninfo>
                         change-matrix
                     </screeninfo>
-                    <graphic fileref="screenshots/change-matrix.png" srccredit="change-matrix - screenshot"
-                        scale="50" />
+                    <graphic fileref="screenshots/change-matrix.png" scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -515,7 +514,7 @@
                         change-state-machine
                     </screeninfo>
                     <graphic fileref="screenshots/change-state-machine.png"
-                        srccredit="change-state-machine - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -535,7 +534,7 @@
                         change-state-transition
                     </screeninfo>
                     <graphic fileref="screenshots/change-state-transition.png"
-                        srccredit="change-state-transition - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -553,7 +552,7 @@
                         change-involved-persons
                     </screeninfo>
                     <graphic fileref="screenshots/change-involved-persons.png"
-                        srccredit="change-involved-persons - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -636,7 +635,7 @@
                         change-rfc-relation
                     </screeninfo>
                     <graphic fileref="screenshots/change-rfc-relation.png"
-                        srccredit="change-rfc-relation - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -692,7 +691,7 @@
                         change-conditions
                     </screeninfo>
                     <graphic fileref="screenshots/change-conditions.png"
-                        srccredit="change-conditions - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -1114,7 +1113,7 @@
                         change-move-timeslot
                     </screeninfo>
                     <graphic fileref="screenshots/change-move-timeslot.png"
-                        srccredit="change-move-timeslot - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -1332,7 +1331,7 @@
                         change-workorder-state-machine
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-state-machine.png"
-                        srccredit="change-workorder-state-machine - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
             <para>
@@ -1354,7 +1353,7 @@
                         change-workorder-state-transition
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-state-transition.png"
-                        srccredit="change-workorder-state-transition - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -1377,7 +1376,7 @@
                         change-workorder-agent
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-agent.png"
-                        srccredit="change-workorder-agent - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -1396,7 +1395,7 @@
                         change-workorder-agent-report
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-agent-report.png"
-                        srccredit="change-workorder-agent-report - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -1480,7 +1479,7 @@
                         change-workorder-template
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-template.png"
-                        srccredit="change-workorder-template - screenshot" scale="50" />
+                        scale="50" />
                 </screenshot>
             </para>
         </sect2>
@@ -1499,7 +1498,7 @@
                         change-workorder-delete
                     </screeninfo>
                     <graphic fileref="screenshots/change-workorder-delete.png"
-                        srccredit="change-workorder-delete - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
         </sect2>
@@ -1518,8 +1517,7 @@
                 <screeninfo>
                     change-zoom
                 </screeninfo>
-                <graphic fileref="screenshots/change-zoom.png" srccredit="change-zoom - screenshot"
-                    scale="35" />
+                <graphic fileref="screenshots/change-zoom.png" scale="35" />
             </screenshot>
         </para>
         <para>
@@ -1563,7 +1561,7 @@
                     change-timeline
                 </screeninfo>
                 <graphic fileref="screenshots/change-timeline.png"
-                    srccredit="change-timeline - screenshot" scale="50" />
+                    scale="50" />
             </screenshot>
         </para>
     </sect1>
@@ -1589,7 +1587,7 @@
                         change-overview
                     </screeninfo>
                     <graphic fileref="screenshots/change-overview.png"
-                        srccredit="change-overview - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -1913,7 +1911,7 @@
                         change-schedule
                     </screeninfo>
                     <graphic fileref="screenshots/change-schedule.png"
-                        srccredit="change-schedule - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -2145,8 +2143,7 @@
                     <screeninfo>
                         change-pir
                     </screeninfo>
-                    <graphic fileref="screenshots/change-pir.png" srccredit="change-pir - screenshot"
-                        scale="35" />
+                    <graphic fileref="screenshots/change-pir.png" scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -2433,7 +2430,7 @@
                         change-template
                     </screeninfo>
                     <graphic fileref="screenshots/change-template.png"
-                        srccredit="change-template - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -2639,8 +2636,7 @@
                     <screeninfo>
                         change-search
                     </screeninfo>
-                    <graphic fileref="screenshots/change-search.png" srccredit="change-search - screenshot"
-                        scale="35" />
+                    <graphic fileref="screenshots/change-search.png" scale="35" />
                 </screenshot>
             </para>
             <table>
@@ -2902,7 +2898,7 @@
                         change-changemanager
                     </screeninfo>
                     <graphic fileref="screenshots/change-changemanager.png"
-                        srccredit="change-changemanager - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -3191,7 +3187,7 @@
                         change-mychanges
                     </screeninfo>
                     <graphic fileref="screenshots/change-mychanges.png"
-                        srccredit="change-mychanges - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>
@@ -3479,7 +3475,7 @@
                         change-myworkorders
                     </screeninfo>
                     <graphic fileref="screenshots/change-myworkorders.png"
-                        srccredit="change-myworkorders - screenshot" scale="35" />
+                        scale="35" />
                 </screenshot>
             </para>
             <para>

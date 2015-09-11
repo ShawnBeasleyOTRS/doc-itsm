@@ -15,21 +15,21 @@
     <para>
         <screenshot>
             <screeninfo>agent-ticket-stats</screeninfo>
-            <graphic fileref="screenshots/agent-ticket-stats.png" scale="50" srccredit="agent-ticket-stats - screenshot" />
+            <graphic fileref="screenshots/agent-ticket-stats.png" scale="50" />
         </screenshot>
     </para>
     <para>XML export of report settings:</para>
     <para>
         <screenshot>
             <screeninfo>agent-stats-export-import</screeninfo>
-            <graphic fileref="screenshots/agent-stats-export-import.png" scale="50" srccredit="agent-stats-export-import - screenshot" />
+            <graphic fileref="screenshots/agent-stats-export-import.png" scale="50" />
         </screenshot>
     </para>
     <para>Dialog-based creation of a new report template:</para>
     <para>
         <screenshot>
             <screeninfo>agent-stats-template</screeninfo>
-            <graphic fileref="screenshots/agent-stats-template.png" scale="50" srccredit="agent-stats-template - screenshot" />
+            <graphic fileref="screenshots/agent-stats-template.png" scale="50" />
         </screenshot>
     </para>
     <para>A PDF generator is incorporated as well, which enables you to export
@@ -38,20 +38,20 @@
     <para>
         <screenshot>
             <screeninfo>pdf-doc-view</screeninfo>
-            <graphic fileref="screenshots/pdf-doc-view.png" scale="50" srccredit="pdf-doc-view - screenshot" />
+            <graphic fileref="screenshots/pdf-doc-view.png" scale="50" />
         </screenshot>
     </para>
     <para>
         <screenshot>
             <screeninfo>pdf-doc-overview</screeninfo>
-            <graphic fileref="screenshots/pdf-doc-overview.png" scale="50" srccredit="pdf-doc-overview - screenshot" />
+            <graphic fileref="screenshots/pdf-doc-overview.png" scale="50" />
         </screenshot>
     </para>
     <para>Example of a graphical ticket overview:</para>
     <para>
         <screenshot>
             <screeninfo>ticket-graphic-overview</screeninfo>
-            <graphic fileref="screenshots/ticket-graphic-overview.png" scale="50" srccredit="ticket-graphic-overview - screenshot" />
+            <graphic fileref="screenshots/ticket-graphic-overview.png" scale="50" />
         </screenshot>
     </para>
 </chapter>

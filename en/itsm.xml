@@ -1149,7 +1149,7 @@
         <para>
             <screenshot>
                 <screeninfo>OTRS.org</screeninfo>
-                <graphic scale="50" fileref="screenshots/otrs-org.png" srccredit="OTRS.org - screenshot" />
+                <graphic scale="50" fileref="screenshots/otrs-org.png" />
             </screenshot>
         </para>
     </sect1>
@@ -1162,7 +1162,7 @@
         <para>
             <screenshot>
                 <screeninfo>lists.OTRS.org</screeninfo>
-                <graphic scale="50" fileref="screenshots/lists-otrs-org.png" srccredit="lists.OTRS.org - screenshot" />
+                <graphic scale="50" fileref="screenshots/lists-otrs-org.png" />
             </screenshot>
         </para>
     </sect1>

@@ -97,7 +97,7 @@
     <para>
         <screenshot>
             <screeninfo>Admin Area</screeninfo>
-            <graphic fileref="screenshots/admin-area.png" scale="50" srccredit="Admin Area - screenshot" />
+            <graphic fileref="screenshots/admin-area.png" scale="50" />
         </screenshot>
     </para>
     <sect1>
@@ -109,7 +109,7 @@
         <para>
             <screenshot>
                 <screeninfo>Admin General Catalog</screeninfo>
-                <graphic fileref="screenshots/admin-general-catalog-management.png" scale="50" srccredit="Admin General Catalog - screenshot" />
+                <graphic fileref="screenshots/admin-general-catalog-management.png" scale="50" />
             </screenshot>
         </para>
         <para>For example the editing of reference chart entries for drop-down
@@ -117,7 +117,7 @@
         <para>
             <screenshot>
                 <screeninfo>Admin General Catalog</screeninfo>
-                <graphic fileref="screenshots/admin-general-catalog-management-edit.png" scale="50" srccredit="Admin General Catalog - screenshot" />
+                <graphic fileref="screenshots/admin-general-catalog-management-edit.png" scale="50" />
             </screenshot>
         </para>
     </sect1>
@@ -170,7 +170,7 @@
         <para>
             <screenshot>
                 <screeninfo>Admin General Catalog</screeninfo>
-                <graphic fileref="screenshots/admin-general-catalog-management-class.png" scale="50" srccredit="Admin General Catalog - screenshot" />
+                <graphic fileref="screenshots/admin-general-catalog-management-class.png" scale="50" />
             </screenshot>
         </para>
         <warning>
@@ -276,7 +276,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-configitem-management-change</screeninfo>
-                <graphic fileref="screenshots/admin-configitem-management-change.png" scale="50" srccredit="admin-configitem-management-change - screenshot" />
+                <graphic fileref="screenshots/admin-configitem-management-change.png" scale="50" />
             </screenshot>
         </para>
         <warning>
@@ -299,7 +299,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-configitem-management</screeninfo>
-                <graphic fileref="screenshots/admin-configitem-management.png" scale="50" srccredit="admin-configitem-management - screenshot" />
+                <graphic fileref="screenshots/admin-configitem-management.png" scale="50" />
             </screenshot>
         </para>
     </sect1>
@@ -313,7 +313,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-state-management</screeninfo>
-                <graphic fileref="screenshots/admin-state-management.png" scale="50" srccredit="admin-state-management - screenshot" />
+                <graphic fileref="screenshots/admin-state-management.png" scale="50" />
             </screenshot>
         </para>
         <para>
@@ -407,7 +407,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-priority-allocation</screeninfo>
-                <graphic fileref="screenshots/admin-priority-allocation.png" scale="50" srccredit="admin-priority-allocation - screenshot" />
+                <graphic fileref="screenshots/admin-priority-allocation.png" scale="50" />
             </screenshot>
         </para>
         <para>
@@ -417,7 +417,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-general-catalog-management-priority</screeninfo>
-                <graphic fileref="screenshots/admin-general-catalog-management-priority.png" scale="50" srccredit="admin-general-catalog-management-priority - screenshot" />
+                <graphic fileref="screenshots/admin-general-catalog-management-priority.png" scale="50" />
             </screenshot>
         </para>
     </sect1>
@@ -433,7 +433,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-priority-management</screeninfo>
-                <graphic fileref="screenshots/admin-priority-management.png" scale="50" srccredit="admin-priority-management" />
+                <graphic fileref="screenshots/admin-priority-management.png" scale="50" />
             </screenshot>
         </para>
         <para>More detailed information can be found in the OTRS Admin Manual.

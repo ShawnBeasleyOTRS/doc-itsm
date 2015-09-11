@@ -10,7 +10,7 @@
     <para>
         <screenshot>
             <screeninfo>admin-sys-config</screeninfo>
-            <graphic fileref="screenshots/admin-sys-config.png" scale="50" srccredit="admin-sys-config - screenshot" />
+            <graphic fileref="screenshots/admin-sys-config.png" scale="50" />
         </screenshot>
     </para>
     <para>
@@ -23,7 +23,7 @@
     <para>
         <screenshot>
             <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
-            <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50" srccredit="admin-sysconfig-timeworkinghours - screenshot" />
+            <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50" />
         </screenshot>
     </para>
 </chapter>

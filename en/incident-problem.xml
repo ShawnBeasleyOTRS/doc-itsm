@@ -7,7 +7,7 @@
     <para>
     <screenshot>
         <screeninfo>process-schema</screeninfo>
-        <graphic fileref="screenshots/process-schema.png" scale="50" srccredit="process-schema - screenshot" />
+        <graphic fileref="screenshots/process-schema.png" scale="50" />
     </screenshot>
     </para>
     <para>Source: ILX Group (www.ilxgroup.com)</para>
@@ -36,14 +36,14 @@
     <para>
         <screenshot>
         <screeninfo>agent-ticket-create</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-create.png" scale="50" srccredit="agent-ticket-create - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-create.png" scale="50" />
         </screenshot>
     </para>
     <para>By following the ticket content (zoom) link, detailed information about the ticket can be accessed. All data relevant for IT support is consolidated in the right hand section:</para>
     <para>
         <screenshot>
         <screeninfo>agent-ticket-data-change</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-data-change.png" scale="50" srccredit="agent-ticket-data-change - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-data-change.png" scale="50" />
         </screenshot>
     </para>
     </sect1>
@@ -54,7 +54,7 @@
     <para>
         <screenshot>
         <screeninfo>agent-ticket-additional-field</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-additional-field.png" scale="50" srccredit="agent-ticket-additional-field - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-additional-field.png" scale="50" />
         </screenshot>
     </para>
     </sect1>
@@ -67,7 +67,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     <para>
         <screenshot>
         <screeninfo>agent-ticket-queue</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-queue.png" scale="50" srccredit="agent-ticket-queue - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-queue.png" scale="50" />
         </screenshot>
     </para>
     <warning>
@@ -81,7 +81,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     <para>
         <screenshot>
         <screeninfo>agent-ticket-data-change</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-data-change.png" scale="50" srccredit="agent-ticket-data-change - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-data-change.png" scale="50" />
         </screenshot>
     </para>
     </sect1>
@@ -92,7 +92,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     <para>
         <screenshot>
         <screeninfo>agent-ticket-decision</screeninfo>
-        <graphic fileref="screenshots/agent-ticket-decision.png" scale="50" srccredit="agent-ticket-decision - screenshot" />
+        <graphic fileref="screenshots/agent-ticket-decision.png" scale="50" />
         </screenshot>
     </para>
     </sect1>
@@ -113,7 +113,7 @@ If no values are provided in the SLA, escalation is effected based on the queues
     <para>
         <screenshot>
         <screeninfo>agent-service-request</screeninfo>
-        <graphic fileref="screenshots/agent-service-request.png" scale="50" srccredit="agent-service-request - screenshot" />
+        <graphic fileref="screenshots/agent-service-request.png" scale="50" />
         </screenshot>
     </para>
     </sect1>

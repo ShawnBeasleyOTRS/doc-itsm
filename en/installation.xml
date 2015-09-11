@@ -65,7 +65,7 @@
         <para>
             <screenshot>
                 <screeninfo>Admin Package Manager</screeninfo>
-                <graphic fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin Package Manager - screenshot" />
+                <graphic fileref="screenshots/admin-packagemanager.png" scale="50" />
             </screenshot>
         </para>
 

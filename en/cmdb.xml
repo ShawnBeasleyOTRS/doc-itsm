@@ -129,14 +129,14 @@
         <para>
             <screenshot>
                 <screeninfo>agent-phoneticket</screeninfo>
-                <graphic fileref="screenshots/agent-phoneticket.png" scale="50" srccredit="agent-phoneticket - screenshot" />
+                <graphic fileref="screenshots/agent-phoneticket.png" scale="50" />
             </screenshot>
         </para>
         <para>and in the administration area. </para>
         <para>
             <screenshot>
                 <screeninfo>admin-service-managment-overview</screeninfo>
-                <graphic fileref="screenshots/admin-service-managment-overview.png" scale="50" srccredit="admin-service-managment-overview - screenshot" />
+                <graphic fileref="screenshots/admin-service-managment-overview.png" scale="50" />
             </screenshot>
         </para>
     </sect1>
@@ -150,14 +150,14 @@
         <para>
             <screenshot>
                 <screeninfo>admin-sla-management-overview</screeninfo>
-                <graphic fileref="screenshots/admin-sla-management-overview.png" scale="50" srccredit="admin-sla-management-overview - screenshot" />
+                <graphic fileref="screenshots/admin-sla-management-overview.png" scale="50" />
             </screenshot>
         </para>
         <para>The following parameters can be recorded with every SLA: </para>
         <para>
             <screenshot>
                 <screeninfo>admin-sla-management-edit</screeninfo>
-                <graphic fileref="screenshots/admin-sla-management-edit.png" scale="50" srccredit="admin-sla-management-edit - screenshot" />
+                <graphic fileref="screenshots/admin-sla-management-edit.png" scale="50" />
             </screenshot>
         </para>
         <para>
@@ -233,7 +233,7 @@
         <para>
             <screenshot>
                 <screeninfo>incident-lifecycle</screeninfo>
-                <graphic fileref="screenshots/incident-lifecycle.png" scale="50" srccredit="incident-lifecycle - screenshot" />
+                <graphic fileref="screenshots/incident-lifecycle.png" scale="50" />
             </screenshot>
         </para>
         <para>Source: OGC, ITIL Service Support Documentation</para>
@@ -253,14 +253,14 @@
         <para>
             <screenshot>
                 <screeninfo>agent-configuration-items</screeninfo>
-                <graphic fileref="screenshots/agent-configuration-items.png" scale="50" srccredit="agent-configuration-items - screenshot" />
+                <graphic fileref="screenshots/agent-configuration-items.png" scale="50" />
             </screenshot>
         </para>
         <para>Example of an individual CI view:</para>
         <para>
             <screenshot>
                 <screeninfo>agent-configitem-management-link</screeninfo>
-                <graphic fileref="screenshots/agent-configitem-management-link.png" scale="50" srccredit="agent-configitem-management-link - screenshot" />
+                <graphic fileref="screenshots/agent-configitem-management-link.png" scale="50" />
             </screenshot>
         </para>
         <para>
@@ -273,7 +273,7 @@
         <para>
             <screenshot>
                 <screeninfo>agent-configitem-management-link2</screeninfo>
-                <graphic fileref="screenshots/agent-configitem-management-link2.png" scale="50" srccredit="agent-configitem-management-link2 - screenshot" />
+                <graphic fileref="screenshots/agent-configitem-management-link2.png" scale="50" />
             </screenshot>
         </para>
         <para>
@@ -338,7 +338,7 @@
         <para>
             <screenshot>
                 <screeninfo>admin-type-management</screeninfo>
-                <graphic fileref="screenshots/admin-type-management.png" scale="50" srccredit="admin-type-management - screenshot" />
+                <graphic fileref="screenshots/admin-type-management.png" scale="50" />
             </screenshot>
         </para>
         <warning>

@@ -35,7 +35,7 @@
     <para>
         <screenshot>
             <screeninfo>Admin-Manual</screeninfo>
-            <graphic fileref="screenshots/admin-manual.png" scale="50" srccredit="Admin Manual - screenshot" />
+            <graphic fileref="screenshots/admin-manual.png" scale="50" />
         </screenshot>
     </para>
 </chapter>
