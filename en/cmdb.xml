@@ -279,7 +279,7 @@
         <para>
             To link objects, the source object is chosen first, then the
             link type is defined and the target object chosen. The target object
-            can be searched for using various criteria:
+            can be searched for using various criteria.
         </para>
     </sect1>
 

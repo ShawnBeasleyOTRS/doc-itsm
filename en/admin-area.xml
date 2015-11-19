@@ -10,17 +10,11 @@
     <para>
         The admin area can be accessed via the "admin" link in the agent
         interface navigation bar. The link is only shown to users logged on to
-        the system that have been granted administrator priviliges.
+        the system that have been granted administrator privileges.
         After the completion of a default installation you can log on to the system as
-        OTRS admin using the user name &quot;root@localhost&quot; and the password &quot;root&quot;.
+        OTRS admin using the user name &quot;root@localhost&quot; and the password generated in
+        the last step of the installation.
     </para>
-    <warning>
-        <para>
-            WARNING: Make sure to change the password of root@localhost in the user
-            preferences as quickly as possible. Using the widely known default password is not
-            recommended!
-        </para>
-    </warning>
 
     <para>
         <itemizedlist>
@@ -165,7 +159,7 @@
             environment, further classes can be added via the "general catalog"
             link in the OTRS::ITSM admin area. After creating a new CI class in
             the general catalog, a definition must be entered in
-            ConfigItem&quot;.
+            ConfigItem.
         </para>
         <para>
             <screenshot>
@@ -271,7 +265,7 @@
         </para>
         <para>
             Attribute changes and amendments can be done in the
-            graphical configuration area by selecting "change definition":
+            graphical configuration area by selecting "change class definition":
         </para>
         <para>
             <screenshot>
@@ -285,7 +279,7 @@
                 OTRS::ITSM, information created in the admin area of the system
                 cannot be deleted as a general rule. If you want to deactivate such
                 information, change the value in the respective listbox settings
-                from "valid" to "invalid" or to "invalid-temporarily".
+                from "valid" to "invalid" or "invalid-temporarily".
             </para>
         </warning>
     </sect1>
@@ -319,7 +313,7 @@
         <para>
             With OTRS::ITSM you can change existing ticket states or add new ones.
             There are two important options: the name of the state
-            &quot;state-name&quot; and the type of it &quot;state-type&quot;. All
+            &quot;state-name&quot; and the type of its &quot;state-type&quot;. All
             states and types available by default are pictured above.
         </para>
         <para>
@@ -329,7 +323,7 @@
         </para>
         <para>
             Please consider that changes made to the "new" state require changes
-            to be made in the configuration file kernel/config.pm or in the graphical
+            to be made in the configuration file Kernel/Config.pm or in the graphical
             configuration front-end.
         </para>
         <para>
@@ -348,7 +342,7 @@
         </para>
         <para>
             The same applies to changes made to the "open" state: changes in the
-            kernel/Config.pm or in the graphical configuration frontend are
+            Kernel/Config.pm or in the graphical configuration frontend are
             necessary.
         </para>
         <para>
@@ -377,7 +371,7 @@
         </warning>
     </sect1>
     <sect1>
-        <title>The criticality impact priority matrix</title>
+        <title>The criticality - impact - priority matrix</title>
         <para>OTRS::ITSM provides five ticket priority levels:</para>
         <itemizedlist>
             <listitem>

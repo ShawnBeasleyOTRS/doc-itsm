@@ -461,9 +461,9 @@
                     </listitem>
 
                     <listitem>
-                        <para>SLA Overwiew</para>
+                        <para>SLA Overview</para>
                         <para>
-                            In the service menu, there is now a new SLA overwiew mask.
+                            In the service menu, there is now a new SLA overview mask.
                         </para>
                     </listitem>
 
@@ -617,7 +617,7 @@
                         </para>
                         <para>
                             This feature offers the possibility to import or update data from CSV
-                            files into the CMBD of OTRS::ITSM, and to export data from the
+                            files into the CMDB of OTRS::ITSM, and to export data from the
                             CMDB to CSV files.
                             Each line of the CSV file describes one CI, with the data of the CI
                             in the columns.
@@ -849,7 +849,7 @@
                     <para>Comprehensive recording and management of ITSM relevant
                         configuration items (CIs) such as computers, hardware, software,
                         networks, documents and services, SLAs, and organizational
-                        structures.
+                        structures
                     </para>
                 </listitem>
                 <listitem>
@@ -860,7 +860,7 @@
                 <listitem>
                     <para>
                         Recording, management, and illustration of technical and
-                        service related relationships and interdependences among CMDB
+                        service related relationships and interdependencies among CMDB
                         data, e.g. a service with all necessary, alternative or relevant
                         CIs
                     </para>
@@ -964,7 +964,7 @@
                 <listitem>
                     <para>
                         Complete integration of OTRS role, group, and queue mechanisms
-                        for incident ticket allocation, tracking, escalation, and
+                        for incident ticket allocation, tracking, escalation and
                         interpretation
                     </para>
                 </listitem>
@@ -1032,7 +1032,7 @@
                 <listitem>
                     <para>
                         Complete integration of OTRS role, group and queue mechanisms
-                        to allocate, track, escalate, and evaluate incident tickets
+                        to allocate, track, escalate and evaluate incident tickets
                     </para>
                 </listitem>
                 <listitem>

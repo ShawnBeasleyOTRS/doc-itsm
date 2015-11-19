@@ -4,9 +4,8 @@
     <title>Installing OTRS::ITSM</title>
     <para>
         Please note that the OTRS framework 3.3 must be installed prior to the installation of
-
-        OTRS::ITSM. All necessary information, options, and installation
-        procedures are depicted in the OTRS Admin Manual.
+        OTRS::ITSM. All necessary information, options and installation procedures are depicted in
+        the OTRS Admin Manual.
     </para>
 
     <sect1>

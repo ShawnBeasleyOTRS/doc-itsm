@@ -26,7 +26,7 @@
                 The implementation of OTRS::ITSM requires significant technical
                 specification and preparation. Prior to a technical implementation,
                 key elements of the Change Management process, such as required
-                workflows, metrics, or reports, must be defined.
+                workflows, metrics or reports, must be defined.
             </para>
         </sect2>
         <sect2>
@@ -279,7 +279,7 @@
                                 No
                             </entry>
                             <entry>
-                                Text explanation of the reasons behind the Change; answer to the
+                                Text explanation of the reasons behind the Change. Answer to the
                                 question: &quot;What is the likely consequence if the Change is
                                 not implemented?&quot; </entry>
                         </row>
@@ -291,7 +291,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -302,7 +302,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the effects or impact the Change will have, eg. &quot;4
+                                Defines the effects or impact the Change will have, e.g. &quot;4
                                 high&quot;, etc.
                             </entry>
                         </row>
@@ -314,8 +314,8 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the priority of the Change, eg. &quot;5 very high&quot;,
-                                &quot;3 normal&quot;, etc. .
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;,
+                                &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -328,8 +328,8 @@
                             <entry>
                                 When creating a new Change, the status is automatically set.
                                 When modifying an existing Change, the Change Builder and Change
-                                Manager can manually set the status. Available status and result
-                                status are defined by the integrated State Machine, see
+                                Manager can manually set the status. Available statuses and
+                                result statuses are defined by the integrated State Machine, see
                                 <xref linkend="change_state_machine" />
                                 .
                             </entry>
@@ -626,7 +626,7 @@
             <para>
                 Through the OTRS Framework&apos;s renowned linking mechanism, the system
                 allows a change to be linked to a ticket. In this way, the origin of
-                a change ie. the Request for Change or problem can be easily
+                a change i.e. the Request for Change or problem can be easily
                 identified.
             </para>
             <para>
@@ -645,25 +645,25 @@
                 In this case, the system creates a transparent link between the ticket
                 and Change. In the configuration, this feature can be restricted to
                 only those agents who are permitted to create Changes.
-                It is also possible to resctrict the usage of the ticket type "RfC" to
+                It is also possible to restrict the usage of the ticket type "RfC" to
                 only those agents who have access to the Change Management area.
                 Please have a look at the following sysconfig options:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -> Core::TicketACL -
+                            Ticket -&gt; Core::TicketACL -
                             Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
                             ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
                             ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
@@ -701,11 +701,11 @@
             </para>
             <sect3>
                 <title>
-                    Conditions Available at the Change Level
+                    Conditions available at the Change level
                 </title>
                 <para>
                     The following attributes can be used to define Conditions at the
-                    Change level
+                    Change level.
                 </para>
                 <table>
                     <title>
@@ -840,7 +840,7 @@
             </sect3>
             <sect3>
                 <title>
-                    Conditions Available at the Work Order Level
+                    Conditions available at the Work Order level
                 </title>
                 <para>
                     The following attributes can be used to define conditions at the Work
@@ -983,14 +983,14 @@
             </para>
             <sect3>
                 <title>
-                    Actions Available at the Change Level
+                    Actions available at the Change level
                 </title>
                 <para>
                     The following actions can be performed for Change objects. The
                     operator &quot;set&quot; enables the selected attribute to be set
                     at a specific value, if the defined condition is true. On the other
                     hand, the operator &quot;lock&quot; freezes the selected attribute,
-                    for as long as the defined condition is true ie. a manual change is
+                    for as long as the defined condition is true i.e. a manual change is
                     not possible.
                 </para>
                 <table>
@@ -1055,7 +1055,7 @@
                     operator &quot;set&quot; enables the selected attribute to be set
                     at a specific value, if the defined condition is true. On the other
                     hand, the operator &quot;lock&quot; freezes the selected attribute,
-                    for as long as the defined condition is true ie. a manual change is
+                    for as long as the defined condition is true i.e. a manual change is
                     not possible.
                 </para>
                 <table>
@@ -1133,7 +1133,7 @@
             </title>
             <para>
                 Once a Change is created, it effectively serves as a container for the
-                definition of sub-tasks, ie. Work Orders, and these Work Orders can
+                definition of sub-tasks, i.e. Work Orders, and these Work Orders can
                 now be defined by the Change Builder.
             </para>
             <table>
@@ -1185,7 +1185,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Selection list to define the type of Work Order, eg. approval, work
+                                Selection list to define the type of Work Order, e.g. approval, work
                                 order, PIR, etc.
                             </entry>
                         </row>
@@ -1197,7 +1197,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1208,7 +1208,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the effects or impact of the Change, eg. &quot;4 high&quot;,
+                                Defines the effects or impact of the Change, e.g. &quot;4 high&quot;,
                                 etc.
                             </entry>
                         </row>
@@ -1220,7 +1220,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the priority of the Change, eg. &quot;5 very high&quot;,
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;,
                                 &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
@@ -1336,7 +1336,7 @@
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
-                administration front end, under menu option State Machine. The
+                administration front end, under menu option &quot;State Machine&quot;. The
                 statuses and possible result statuses should be defined here.
             </para>
             <para>
@@ -1368,7 +1368,7 @@
             <para>
                 The system offers access to all connected agent back-ends here. It is
                 important to note that only agents who have full access rights to
-                the user group &quot;have itsm-change&quot; are displayed.
+                the user group &quot;itsm-change&quot; are displayed.
             </para>
             <para>
                 <screenshot>
@@ -1699,7 +1699,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Change status indicator, shown as traffic light
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -1901,7 +1901,7 @@
             </title>
             <para>
                 In the Change Schedule view, all Changes which have the status
-                &quot;approved&quot; ie. are in the queue for implementation, are
+                &quot;approved&quot; i.e. are in the queue for implementation, are
                 displayed. The column titles can be sorted by the following
                 attributes in ascending or descending order:
             </para>
@@ -1916,8 +1916,7 @@
             </para>
             <para>
                 The displayed attributes can be defined via SysConfig &quot;ITSM Change
-                Management -&gt; Frontend:: Agent::
-                ViewChangeScheduleOverview&quot;:
+                Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
             </para>
             <table>
                 <title>
@@ -2023,7 +2022,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Change status indicator; shown as traffic light
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2034,7 +2033,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Name of the Change
+                                Name of Change
                             </entry>
                         </row>
                         <row>
@@ -2254,7 +2253,7 @@
                                 No
                             </entry>
                             <entry>
-                                Change status indicator; shown as traffic light
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
@@ -2564,7 +2563,7 @@
                                 Yes
                             </entry>
                             <entry>
-                                Defines the validity of the template (valid, invalid, and temporarily
+                                Defines the validity of the template (valid, invalid and temporarily
                                 invalid). Invalid / temporarily invalid templates cannot be used
                                 by Change Builders.
                             </entry>
@@ -2808,8 +2807,8 @@
                             </entry>
                             <entry>
                                 Search by the customer requested Change implementation date. Search
-                                can be performed using absolute time values (eg. from date 1 to
-                                date 2) or in relative time values (eg. Changes created in the
+                                can be performed using absolute time values (e.g. from date 1 to
+                                date 2) or in relative time values (e.g. Changes created in the
                                 last x days / weeks).
                             </entry>
                         </row>
@@ -2819,8 +2818,8 @@
                             </entry>
                             <entry>
                                 Search by the planned start date and time of a Change implementation.
-                                Search can be performed using absolute time values (eg. from
-                                date 1 to date 2) or in relative time values (eg. Changes
+                                Search can be performed using absolute time values (e.g. from
+                                date 1 to date 2) or in relative time values (e.g. Changes
                                 created in the last x days / weeks).
                             </entry>
                         </row>
@@ -2830,8 +2829,8 @@
                             </entry>
                             <entry>
                                 Search by the projected end date and time of a Change implementation.
-                                Search can be performed using absolute time values (eg. from
-                                date 1 to date 2) or in relative time values (eg. Changes
+                                Search can be performed using absolute time values (e.g. from
+                                date 1 to date 2) or in relative time values (e.g. Changes
                                 created in the last x days / weeks).
                             </entry>
                         </row>
@@ -2841,8 +2840,8 @@
                             </entry>
                             <entry>
                                 Search by the actual start date and time of a Change implementation.
-                                Search can be performed using absolute time values (eg. from
-                                date 1 to date 2) or in relative time values (eg. Changes
+                                Search can be performed using absolute time values (e.g. from
+                                date 1 to date 2) or in relative time values (e.g. Changes
                                 created in the last x days / weeks).
                             </entry>
                         </row>
@@ -2852,8 +2851,8 @@
                             </entry>
                             <entry>
                                 Search by the actual end date and time of a Change implementation.
-                                Search can be performed using absolute time values (eg. from
-                                date 1 to date 2) or in relative time values (eg. Changes
+                                Search can be performed using absolute time values (e.g. from
+                                date 1 to date 2) or in relative time values (e.g. Changes
                                 created in the last x days / weeks).
                             </entry>
                         </row>
@@ -2863,8 +2862,8 @@
                             </entry>
                             <entry>
                                 Search by the Change creation date and time. Search can be performed
-                                using absolute time values (eg. from date 1 to date 2) or in
-                                relative time values (eg. Changes created in the last x days /
+                                using absolute time values (e.g. from date 1 to date 2) or in
+                                relative time values (e.g. Changes created in the last x days /
                                 weeks).
                             </entry>
                         </row>
@@ -2874,8 +2873,8 @@
                             </entry>
                             <entry>
                                 Search by the date and time a Change was modified. Search can be
-                                performed using absolute time values (eg. from date 1 to date 2)
-                                or in relative time values (eg. Changes created in the last x
+                                performed using absolute time values (e.g. from date 1 to date 2)
+                                or in relative time values (e.g. Changes created in the last x
                                 days / weeks).
                             </entry>
                         </row>
@@ -3119,7 +3118,7 @@
             </table>
             <para>
                 In addition, the Change Manager Overview can filter the displayed
-                Changes by various attributes as follows These can be defined via
+                Changes by various attributes as follows. These can be defined via
                 SysConfig &quot;ITSM Change Management -&gt;
                 Frontend::Agent::ViewChangeManagerOverview&quot; if desired:
             </para>
@@ -3144,14 +3143,14 @@
                                 requested
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;requested&quot; </entry>
+                                Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;pending approval&quot;
+                                Displays all changes that have the status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3159,14 +3158,14 @@
                                 approved
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;approved&quot; </entry>
+                                Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;in progress&quot; </entry>
+                                Displays all changes that have the status &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3407,7 +3406,7 @@
             </table>
             <para>
                 In addition, the My Changes Overview can filter the displayed Changes
-                by various attributes as below. These can be defined via SysConfig
+                by various attributes as follows. These can be defined via SysConfig
                 &quot;ITSM Change Management -&gt;
                 Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
@@ -3432,14 +3431,14 @@
                                 requested
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;requested&quot; </entry>
+                                Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;pending approval&quot;
+                                Displays all changes that have the status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3447,14 +3446,14 @@
                                 approved
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;approved&quot; </entry>
+                                Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;in progress&quot; </entry>
+                                Displays all changes that have the status &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3479,7 +3478,7 @@
                 </screenshot>
             </para>
             <para>
-                The displayed information can be sorted by column heading in ascending
+                The displayed information can be sorted by column headings in ascending
                 or descending order. The attributes used can be defined via
                 SysConfig
                 &quot;ITSM Change Management -&gt;
@@ -3751,7 +3750,7 @@
             </table>
             <para>
                 In addition, the My Work Orders Overview can filter the displayed Work
-                Orders by various attributes as below, which can be defined via
+                Orders by various attributes as follows. These can be defined via
                 SysConfig &quot;ITSM Change Management -&gt;
                 Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
@@ -3776,7 +3775,7 @@
                                 created
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;created&quot;
+                                Displays all Work Orders that have the status &quot;created&quot;
                             </entry>
                         </row>
                         <row>
@@ -3784,7 +3783,7 @@
                                 accepted
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;accepted&quot;
+                                Displays all Work Orders that have the status &quot;accepted&quot;
                             </entry>
                         </row>
                         <row>
@@ -3792,14 +3791,14 @@
                                 ready
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;ready&quot; </entry>
+                                Displays all Work Orders that have the status &quot;ready&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;in progress&quot;
+                                Displays all Work Orders that have the status &quot;in progress&quot;
                             </entry>
                         </row>
                     </tbody>
@@ -3821,8 +3820,8 @@
                 Number of Changes Within a Defined Period
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the Change status to
                 be reported.
             </para>
@@ -3836,8 +3835,8 @@
                 Number of Changes by Change Category
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the Change status to
                 be reported.
             </para>
@@ -3851,8 +3850,8 @@
                 Number of Rejected Changes
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the Change status to
                 be reported.
             </para>
@@ -3866,8 +3865,8 @@
                 Number of Withdrawn Changes
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the Change status to
                 be reported.
             </para>
@@ -3881,8 +3880,8 @@
                 Ratio of Changes to Incidents
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the Change status to
                 be reported.
             </para>
@@ -3896,8 +3895,8 @@
                 RFCs Per Requester
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the
-                last x days) or absolute time period (eg. Changes from date1 to date
+                The report allows the definition of a relative (e.g. Changes within the
+                last x days) or absolute time period (e.g. Changes from date 1 to date
                 2). In addition, it is also possible to define the RFC Requester to
                 be reported.
             </para>
