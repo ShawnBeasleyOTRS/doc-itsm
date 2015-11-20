@@ -22,6 +22,14 @@
                 copyright statement.
             </para>
             <para>
+                The source code of this document can be found at
+                <ulink url="https://otrs.github.io">github</ulink>, in the repository
+                <ulink url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>.
+                Contributions are more than welcome.
+                You can also help translating it to your language at
+                <ulink url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
+            </para>
+            <para>
                 UNIX is a registered trademark of X/Open Company Limited.
                 Linux is a registered trademark of Linus Torvalds.
             </para>
