@@ -101,12 +101,12 @@
             Work Orders.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>
-                    change-workorder-schema
-                </screeninfo>
-                <graphic fileref="screenshots/change-workorder-schema.png" scale="75" />
-            </screenshot>
+            <figure>
+                <title>change-workorder-schema</title>
+                <screenshot>
+                     <graphic scale="75" fileref="screenshots/change-workorder-schema.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
     <sect1>
@@ -120,12 +120,12 @@
             the Change Management module.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>
-                    otrs-permissions-roles
-                </screeninfo>
-                <graphic fileref="screenshots/otrs-permissions-roles.png" scale="75" />
-            </screenshot>
+            <figure>
+                <title>otrs-permissions-roles</title>
+                <screenshot>
+                     <graphic scale="75" fileref="screenshots/otrs-permissions-roles.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>
             By installing the OPMs listed under &quot;Technical Requirements&quot;,
@@ -211,12 +211,12 @@
             follows the underlying workflow shown below.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>
-                    change-workflow
-                </screeninfo>
-                <graphic fileref="screenshots/change-workflow.png" scale="75" />
-            </screenshot>
+            <figure>
+                <title>change-workflow</title>
+                <screenshot>
+                     <graphic scale="75" fileref="screenshots/change-workflow.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
     <sect1>
@@ -379,12 +379,12 @@
                 customized in the General Catalog by the administrator.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-matrix
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-matrix.png" scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-matrix</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-matrix.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Here, the menu item &quot;General Catalog&quot; should be selected in the
@@ -509,13 +509,12 @@
                 suggestions based on the following logic model:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-state-machine
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-state-machine.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-state-machine</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-state-machine.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
@@ -529,13 +528,12 @@
                 as a table:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-state-transition
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-state-transition.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-state-transition</title>
+                    <screenshot>
+                         <graphic scale="75" fileref="screenshots/change-state-transition.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
         <sect2>
@@ -547,13 +545,12 @@
                 implementation can be defined in the Involved Persons feature.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-involved-persons
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-involved-persons.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-involved-persons</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-involved-persons.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Here, the system offers convenient access to all connected client
@@ -630,13 +627,12 @@
                 identified.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-rfc-relation
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-rfc-relation.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-rfc-relation</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-rfc-relation.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Furthermore, it is possible to open the corresponding Change
@@ -686,13 +682,12 @@
                 clearance when a Work Order is canceled.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-conditions
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-conditions.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-conditions</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-conditions.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 It should be noted that the defined conditions are not executed in a
@@ -1108,13 +1103,12 @@
                 planned Change implementation timeframe.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-move-timeslot
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-move-timeslot.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-move-timeslot</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-move-timeslot.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
     </sect1>
@@ -1326,13 +1320,12 @@
                 generates suggestions based on the following logic model:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-state-machine
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-state-machine.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-state-machine</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-workorder-state-machine.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
@@ -1348,13 +1341,12 @@
                 In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-state-transition
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-state-transition.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-state-transition</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-workorder-state-transition.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
         <sect2>
@@ -1371,13 +1363,12 @@
                 the user group &quot;itsm-change&quot; are displayed.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-agent
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-agent.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-agent</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-workorder-agent.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
         <sect2>
@@ -1390,13 +1381,12 @@
                 processing time and status.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-agent-report
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-agent-report.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-agent-report</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-workorder-agent-report.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
         <sect2>
@@ -1474,13 +1464,12 @@
                 available as a template when a new Work Order is being created.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-template
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-template.png"
-                        scale="50" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-template</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/change-workorder-template.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
         <sect2>
@@ -1493,13 +1482,12 @@
                 section).
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-workorder-delete
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-workorder-delete.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-workorder-delete</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-workorder-delete.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </sect2>
     </sect1>
@@ -1513,12 +1501,12 @@
             including corresponding Work Orders, linked tickets and CIs.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>
-                    change-zoom
-                </screeninfo>
-                <graphic fileref="screenshots/change-zoom.png" scale="35" />
-            </screenshot>
+            <figure>
+                <title>change-zoom</title>
+                <screenshot>
+                     <graphic scale="35" fileref="screenshots/change-zoom.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>
             The defined Work Orders are numbered in order of their planned execution
@@ -1556,13 +1544,12 @@
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-                <screeninfo>
-                    change-timeline
-                </screeninfo>
-                <graphic fileref="screenshots/change-timeline.png"
-                    scale="50" />
-            </screenshot>
+            <figure>
+                <title>change-timeline</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/change-timeline.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
     <sect1>
@@ -1582,13 +1569,12 @@
                 ascending or descending order per column.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-overview
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-overview.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-overview</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-overview.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The columns can be defined via SysConfig &quot;ITSM Change Management
@@ -1906,13 +1892,12 @@
                 attributes in ascending or descending order:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-schedule
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-schedule.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-schedule</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-schedule.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The displayed attributes can be defined via SysConfig &quot;ITSM Change
@@ -2138,12 +2123,12 @@
                 headings.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-pir
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-pir.png" scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-pir</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-pir.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The columns to be displayed can be defined via SysConfig &quot;ITSM
@@ -2424,13 +2409,12 @@
                 by the given column headings.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-template
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-template.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-template</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-template.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The columns to be displayed can be defined via SysConfig
@@ -2631,12 +2615,12 @@
                 following search query attributes:
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-search
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-search.png" scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-search</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-search.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <table>
                 <title>
@@ -2892,13 +2876,12 @@
                 Manager.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-changemanager
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-changemanager.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-changemanager</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-changemanager.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The displayed column headings can be sorted according the following
@@ -3181,13 +3164,12 @@
                 Change Builder.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-mychanges
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-mychanges.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-mychanges</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-mychanges.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The display can be sorted by the column headings in ascending or
@@ -3469,13 +3451,12 @@
                 the Work Orders assigned to him / her.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>
-                        change-myworkorders
-                    </screeninfo>
-                    <graphic fileref="screenshots/change-myworkorders.png"
-                        scale="35" />
-                </screenshot>
+                <figure>
+                    <title>change-myworkorders</title>
+                    <screenshot>
+                         <graphic scale="35" fileref="screenshots/change-myworkorders.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The displayed information can be sorted by column headings in ascending

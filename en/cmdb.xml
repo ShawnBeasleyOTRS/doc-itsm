@@ -127,17 +127,21 @@
             in OTRS::ITSM as shown when a ticket is created
         </para>
         <para>
-            <screenshot>
-                <screeninfo>agent-phoneticket</screeninfo>
-                <graphic fileref="screenshots/agent-phoneticket.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>agent-phoneticket</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>and in the administration area. </para>
         <para>
-            <screenshot>
-                <screeninfo>admin-service-managment-overview</screeninfo>
-                <graphic fileref="screenshots/admin-service-managment-overview.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>admin-service-managment-overview</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/admin-service-managment-overview.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
     <sect1>
@@ -148,17 +152,21 @@
             recorded and administered in the admin interface.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>admin-sla-management-overview</screeninfo>
-                <graphic fileref="screenshots/admin-sla-management-overview.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>admin-sla-management-overview</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/admin-sla-management-overview.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>The following parameters can be recorded with every SLA: </para>
         <para>
-            <screenshot>
-                <screeninfo>admin-sla-management-edit</screeninfo>
-                <graphic fileref="screenshots/admin-sla-management-edit.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>admin-sla-management-edit</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/admin-sla-management-edit.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>
             OTRS::ITSM offers by default up to 99 different calendars to
@@ -231,10 +239,12 @@
         <para>Important time values of OTRS::ITSM are based on the &quot;ITIL
             incident lifecycle&quot;:  </para>
         <para>
-            <screenshot>
-                <screeninfo>incident-lifecycle</screeninfo>
-                <graphic fileref="screenshots/incident-lifecycle.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>incident-lifecycle</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>Source: OGC, ITIL Service Support Documentation</para>
         <para>
@@ -251,17 +261,21 @@
             Exemplary overview of recorded computer CIs (part) with current CI state:
         </para>
         <para>
-            <screenshot>
-                <screeninfo>agent-configuration-items</screeninfo>
-                <graphic fileref="screenshots/agent-configuration-items.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>agent-configuration-items</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/agent-configuration-items.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>Example of an individual CI view:</para>
         <para>
-            <screenshot>
-                <screeninfo>agent-configitem-management-link</screeninfo>
-                <graphic fileref="screenshots/agent-configitem-management-link.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>agent-configitem-management-link</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/agent-configitem-management-link.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>
             The graphic exemplifies the links between CIs. OTRS
@@ -271,10 +285,12 @@
         </para>
         <para>The OTRS::ITSM standard offers seven link types:</para>
         <para>
-            <screenshot>
-                <screeninfo>agent-configitem-management-link2</screeninfo>
-                <graphic fileref="screenshots/agent-configitem-management-link2.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>agent-configitem-management-link2</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/agent-configitem-management-link2.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <para>
             To link objects, the source object is chosen first, then the
@@ -336,10 +352,12 @@
             be created.
         </para>
         <para>
-            <screenshot>
-                <screeninfo>admin-type-management</screeninfo>
-                <graphic fileref="screenshots/admin-type-management.png" scale="50" />
-            </screenshot>
+            <figure>
+                <title>admin-type-management</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/admin-type-management.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
         <warning>
             <para>

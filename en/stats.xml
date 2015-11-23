@@ -13,45 +13,57 @@
     </para>
     <para>Example of a report overview:</para>
     <para>
-        <screenshot>
-            <screeninfo>agent-ticket-stats</screeninfo>
-            <graphic fileref="screenshots/agent-ticket-stats.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>agent-ticket-stats</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/agent-ticket-stats.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>XML export of report settings:</para>
     <para>
-        <screenshot>
-            <screeninfo>agent-stats-export-import</screeninfo>
-            <graphic fileref="screenshots/agent-stats-export-import.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>agent-stats-export-import</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/agent-stats-export-import.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>Dialog-based creation of a new report template:</para>
     <para>
-        <screenshot>
-            <screeninfo>agent-stats-template</screeninfo>
-            <graphic fileref="screenshots/agent-stats-template.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>agent-stats-template</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/agent-stats-template.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>A PDF generator is incorporated as well, which enables you to export
         the print view of your previously generated tickets, stats and search results in PDF format:
     </para>
     <para>
-        <screenshot>
-            <screeninfo>pdf-doc-view</screeninfo>
-            <graphic fileref="screenshots/pdf-doc-view.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>pdf-doc-view</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/pdf-doc-view.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>
-        <screenshot>
-            <screeninfo>pdf-doc-overview</screeninfo>
-            <graphic fileref="screenshots/pdf-doc-overview.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>pdf-doc-overview</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/pdf-doc-overview.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>Example of a graphical ticket overview:</para>
     <para>
-        <screenshot>
-            <screeninfo>ticket-graphic-overview</screeninfo>
-            <graphic fileref="screenshots/ticket-graphic-overview.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>ticket-graphic-overview</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/ticket-graphic-overview.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
 </chapter>

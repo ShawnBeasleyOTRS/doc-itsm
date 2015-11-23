@@ -3,15 +3,17 @@
 <chapter>
     <title>Additional OTRS applications - calendar</title>
     <para>
-        OTRS 3.3 initially supports up to 9 calendars, which can be configured
+        OTRS initially supports up to 9 calendars, which can be configured
         graphically. Using the SysConfig framework found in the admin interface,
         this number can be increased to 99, by using the calendar 1 etc. links:
     </para>
     <para>
-        <screenshot>
-            <screeninfo>admin-sys-config</screeninfo>
-            <graphic fileref="screenshots/admin-sys-config.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>admin-sys-config</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/admin-sys-config.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>
         &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define
@@ -21,9 +23,11 @@
         possible Service Level Agreements.
     </para>
     <para>
-        <screenshot>
-            <screeninfo>admin-sysconfig-timeworkinghours</screeninfo>
-            <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50" />
-        </screenshot>
+        <figure>
+            <title>admin-sysconfig-timeworkinghours</title>
+            <screenshot>
+                 <graphic scale="50" fileref="screenshots/admin-sysconfig-timeworkinghours.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
 </chapter>

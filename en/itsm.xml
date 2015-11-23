@@ -74,11 +74,35 @@
     <sect1>
         <title>Features</title>
         <para>
-            OTRS::ITSM 4 is based on OTRS 4.
+            OTRS::ITSM 5 is based on OTRS 5.
             All functionalities known from OTRS continue to be available and the
             functionalities representing ITIL processes can be installed as
             packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 5 features
+            </title>
+            <para>OTRS::ITSM 5 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 5 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 5 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 New OTRS::ITSM 4 features
@@ -156,6 +180,7 @@
                 </itemizedlist>
             </para>
         </sect2>
+
 
         <sect2>
             <title>
@@ -1147,10 +1172,12 @@
             the community at our homepage http://otrs.org (http://otrs.org/).
         </para>
         <para>
-            <screenshot>
-                <screeninfo>OTRS.org</screeninfo>
-                <graphic scale="50" fileref="screenshots/otrs-org.png" />
-            </screenshot>
+            <figure>
+                <title>OTRS.org</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/otrs-org.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
     <sect1>
@@ -1160,10 +1187,12 @@
             visit http://lists.otrs.org (http://lists.otrs.org/):
         </para>
         <para>
-            <screenshot>
-                <screeninfo>lists.OTRS.org</screeninfo>
-                <graphic scale="50" fileref="screenshots/lists-otrs-org.png" />
-            </screenshot>
+            <figure>
+                <title>lists-otrs-org</title>
+                <screenshot>
+                     <graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic>
+                </screenshot>
+            </figure>
         </para>
     </sect1>
 </chapter>

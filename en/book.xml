@@ -5,13 +5,13 @@
 <book lang='en'>
 
     <bookinfo>
-        <title>OTRS::ITSM 4</title>
+        <title>OTRS::ITSM 5</title>
         <copyright>
-            <year>2003-2014</year>
+            <year>2003-2015</year>
             <holder>OTRS AG</holder>
         </copyright>
 
-        <date>2014-11-24</date>
+        <date>2015-11-24</date>
 
         <legalnotice>
             <para>
@@ -59,8 +59,8 @@
 
         <revhistory>
             <revision>
-                <revnumber>4.0.1</revnumber>
-                <date>11/24/2014</date>
+                <revnumber>5.0.1</revnumber>
+                <date>11/24/2015</date>
             </revision>
         </revhistory>
 
