@@ -8,10 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2015-05-05 09:36+0200\n"
-"PO-Revision-Date: 2015-04-27 10:56+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/OTRS/language/"
-"ru/)\n"
+"PO-Revision-Date: 2015-11-06 13:57+0000\n"
+"Last-Translator: Yuri Kolesniov <ynkolesnikov@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1297,6 +1296,8 @@ msgid ""
 "First time solution rate of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr ""
+"Скорость первого решения для всех заявок, когда либо созданных, по типам "
+"заявок и приоритетам (очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:731
@@ -1304,6 +1305,8 @@ msgid ""
 "First time solution rate in a previous month per ticket-type (priority, "
 "queue, service)."
 msgstr ""
+"Скорость первого решения за предыдущий месяц по типам заявок (приоритету, "
+"очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:738
@@ -1311,6 +1314,8 @@ msgid ""
 "First time solution rate in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr ""
+"Скорость первого решения за заданный период по типам заявок и приоритетам "
+"(очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:745
@@ -1318,6 +1323,8 @@ msgid ""
 "Average resolution time of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr ""
+"Среднее время решения для всех заявок, когда либо созданных, по типам заявок "
+"и приоритетам (очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:752
@@ -1325,6 +1332,8 @@ msgid ""
 "Average resolution time in a previous month per ticket-type and priority "
 "(queue, service)."
 msgstr ""
+"Среднее время решения за предыдущий месяц по типам заявок и приоритетам "
+"(очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:759
@@ -1332,6 +1341,8 @@ msgid ""
 "Average resolution time in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr ""
+"Среднее время решения за заданный период по типам заявок и приоритетам "
+"(очередям, сервисам)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:767
@@ -1352,6 +1363,7 @@ msgstr "OTRS::ITSM 1.0 предлагает:"
 #: en/itsm.xml:779
 msgid "ITIL compliant representation of &quot;service support&quot; processes"
 msgstr ""
+"ITIL совместимое представление &quot;поддержки сервисов&quot; процессов"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:784
@@ -2687,61 +2699,43 @@ msgstr "OTRS Framework"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:64
-#, fuzzy
-#| msgid ""
-#| "For better readability, the diagram can be found at: <ulink url=\"https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
 msgid ""
 "For better readability, the diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/otrs/blob/master/development/diagrams/Database/"
 "OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/master/"
 "development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>"
 msgstr ""
-"Для лучшей читаемости, схема представлена на:  <ulink url=\"https://github."
-"com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://github.com/"
-"OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/otrs/blob/master/development/diagrams/Database/"
+"OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/master/"
+"development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:71
-#, fuzzy
-#| msgid ""
-#| "For better readability, the diagram can be found at: <ulink url=\"https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
 msgid ""
 "For better readability, this diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png"
 "\">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-"
 "database.png</ulink>"
 msgstr ""
-"Для лучшей читаемости, схема представлена на:  <ulink url=\"https://github."
-"com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://github.com/"
-"OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png"
+"\">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-"
+"database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:78
-#, fuzzy
-#| msgid ""
-#| "For better readability, the diagram can be found at: <ulink url=\"https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
 msgid ""
 "For better readability, this diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png\">https://"
 "github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>"
 msgstr ""
-"Для лучшей читаемости, схема представлена на:  <ulink url=\"https://github."
-"com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://github.com/"
-"OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png\">https://"
+"github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:85
-#, fuzzy
-#| msgid ""
-#| "For better readability, this diagram can be found at: <ulink url="
-#| "\"\">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/"
-#| "itsm-configuration-management-database.png</ulink>"
 msgid ""
 "For better readability, this diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-"
@@ -2749,43 +2743,37 @@ msgid ""
 "ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-"
 "database.png</ulink>"
 msgstr ""
-"Лучше рассмотреть схему можно на: <ulink url=\"\">https://github.com/OTRS/"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-"
+"configuration-management-database.png\">https://github.com/OTRS/"
 "ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-"
 "database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:92
-#, fuzzy
-#| msgid ""
-#| "For better readability, this diagram can be found at: <ulink url="
-#| "\"\">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-"
-#| "change-management-database.png</ulink>"
 msgid ""
 "For better readability, this diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-"
 "database.png\">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/"
 "itsm-change-management-database.png</ulink>"
 msgstr ""
-"Лучше рассмотреть схему можно на: <ulink url=\"\">https://github.com/OTRS/"
-"ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</"
-"ulink>"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-"
+"database.png\">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/"
+"itsm-change-management-database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:99
-#, fuzzy
-#| msgid ""
-#| "For better readability, the diagram can be found at: <ulink url=\"https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://"
-#| "github.com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
 msgid ""
 "For better readability, this diagram can be found at: <ulink url=\"https://"
 "github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png"
 "\">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-"
 "database.png</ulink>"
 msgstr ""
-"Для лучшей читаемости, схема представлена на:  <ulink url=\"https://github."
-"com/OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png\">https://github.com/"
-"OTRS/otrs/blob/master/doc/OTRSDatabaseDiagram.png</ulink>"
+"В более наглядном/читаемом виде схемы можно найти в: <ulink url=\"https://"
+"github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png"
+"\">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-"
+"database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:106
@@ -2986,7 +2974,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/cmdb.xml:206
 msgid "= delivery time for service requests (&quot;delivery time&quot;)"
-msgstr ""
+msgstr "= срок решения для сервисных запросов (&quot;срок решения&quot;) "
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdb.xml:212
@@ -8705,28 +8693,3 @@ msgstr ""
 "releasing these examples in parallel under your choice of free software "
 "license, such as the GNU General Public License, to permit their use in free "
 "software."
-
-#~ msgid ""
-#~ "For better readability, this diagram can be found at: <ulink url="
-#~ "\"\">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-"
-#~ "catalog-database.png</ulink>"
-#~ msgstr ""
-#~ "Для лучшей читаемости, эта схема представлена на: <ulink url=\"\">https://"
-#~ "github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database."
-#~ "png</ulink>"
-
-#~ msgid ""
-#~ "For better readability, this diagram can be found at: <ulink url="
-#~ "\"\">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database."
-#~ "png</ulink>"
-#~ msgstr ""
-#~ "Для лучшей читаемости, схема представлена на:  <ulink url=\"\">https://"
-#~ "github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>"
-
-#~ msgid ""
-#~ "For better readability, this diagram can be found at: <ulink url="
-#~ "\"\">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-"
-#~ "database.png</ulink>"
-#~ msgstr ""
-#~ "Лучше рассмотреть схему можно на: <ulink url=\"\">https://github.com/OTRS/"
-#~ "ImportExport/blob/master/doc/import-export-database.png</ulink>"

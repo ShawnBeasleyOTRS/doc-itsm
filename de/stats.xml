@@ -15,7 +15,7 @@ previous OTRS versions could continue to be used. When used in combination
 with OTRS::ITSM, additional statistics relevant to ITSM become available
 with the installation of the ITSMServiceLevelManagement package.
     </para>
-    <para>Example of a report overview:</para>
+    <para>Beispiel einer Berichtsübersicht:</para>
     <para>
         <screenshot>
 <screeninfo>agent-ticket-stats</screeninfo> <graphic
@@ -52,7 +52,7 @@ screenshot" /></screenshot>
 fileref="screenshots/pdf-doc-overview.png" scale="50"
 srccredit="pdf-doc-overview - screenshot" /></screenshot>
     </para>
-    <para>Example of a graphical ticket overview:</para>
+    <para>Beispiel einer grafischen Ticketübersicht:</para>
     <para>
         <screenshot>
 <screeninfo>ticket-graphic-overview</screeninfo> <graphic

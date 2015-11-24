@@ -738,43 +738,43 @@ CSV может быть заменен или расширен другими ф
 
                             <listitem>
                                 <para>
-                                    First time solution rate of all tickets ever created per ticket-type and
-priority (queue, service).
+                                    Скорость первого решения для всех заявок, когда либо созданных, по типам
+заявок и приоритетам (очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    First time solution rate in a previous month per ticket-type (priority,
-queue, service).
+                                    Скорость первого решения за предыдущий месяц по типам заявок (приоритету,
+очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    First time solution rate in a defined period per ticket-type and priority
-(queue, service).
+                                    Скорость первого решения за заданный период по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time of all tickets ever created per ticket-type and
-priority (queue, service).
+                                    Среднее время решения для всех заявок, когда либо созданных, по типам заявок
+и приоритетам (очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time in a previous month per ticket-type and priority
-(queue, service).
+                                    Среднее время решения за предыдущий месяц по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time in a defined period per ticket-type and priority
-(queue, service).
+                                    Среднее время решения за заданный период по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
                         </itemizedlist>
@@ -793,7 +793,7 @@ priority (queue, service).
             <para>OTRS::ITSM 1.0 предлагает:</para>
             <itemizedlist>
                 <listitem>
-                    <para>ITIL compliant representation of &quot;service support&quot; processes
+                    <para>ITIL совместимое представление &quot;поддержки сервисов&quot; процессов
                     </para>
                     <itemizedlist>
                         <listitem>

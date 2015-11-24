@@ -27,10 +27,10 @@ is not recommended!
         <itemizedlist>
 
             <listitem>
-                <para>from OTRS::ITSM 1.0 on</para>
+                <para>von OTRS::ITSM 1.0 auf</para>
                 <itemizedlist>
                     <listitem>
-                        <para>[ General Catalog ]</para>
+                        <para>[ Allgemeiner Katalog ]</para>
                     </listitem>
                     <listitem>
                         <para>[ Criticality - Impact - Priority ]</para>
@@ -42,7 +42,7 @@ is not recommended!
             </listitem>
 
             <listitem>
-                <para>from OTRS::ITSM 1.1 on</para>
+                <para>von OTRS::ITSM 1.1 auf</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Import/Export ]</para>
@@ -51,7 +51,7 @@ is not recommended!
             </listitem>
 
             <listitem>
-                <para>from OTRS::ITSM 2.0 on</para>
+                <para>von OTRS::ITSM 2.0 auf</para>
                 <itemizedlist>
                     <listitem>
                         <para>[ Notification (ITSM Change Management) ]</para>
@@ -66,16 +66,16 @@ is not recommended!
             </listitem>
 
             <listitem>
-                <para>from OTRS 2.2 on</para>
+                <para>von OTRS 2.2 auf</para>
                 <itemizedlist>
                     <listitem>
-                        <para>[ Type ]</para>
+                        <para>[ Typ ]</para>
                     </listitem>
                     <listitem>
                         <para>[ Status ]</para>
                     </listitem>
                     <listitem>
-                        <para>[ Service ]</para>
+                        <para>[ Dienst ]</para>
                     </listitem>
                     <listitem>
                         <para>[ SLA ]</para>
@@ -84,10 +84,10 @@ is not recommended!
             </listitem>
 
             <listitem>
-                <para>from OTRS 2.3 on</para>
+                <para>von OTRS 2.3 auf</para>
                 <itemizedlist>
                     <listitem>
-                        <para>[ Priority ]</para>
+                        <para>[ Priorität ]</para>
                     </listitem>
                 </itemizedlist>
             </listitem>
@@ -102,7 +102,7 @@ fileref="screenshots/admin-area.png" scale="50" srccredit="Admin Area -
 screenshot" /></screenshot>
     </para>
     <sect1>
-        <title>The general catalog</title>
+        <title>Der allgemeine Katalog</title>
         <para>
             As the name indicates, the general catalog serves for basic ITSM relevant
 configurations in OTRS::ITSM.
@@ -145,7 +145,7 @@ granularity of your CI structure.
                 </para>
             </listitem>
             <listitem>
-                <para>[ Network ]</para>
+                <para>[ Netzwerk ]</para>
                 <para>
                     Logical networks (LAN, WLAN, WAN etc.), which span IP address spaces.
                 </para>
@@ -155,7 +155,7 @@ granularity of your CI structure.
                 <para>All software products and licenses.</para>
             </listitem>
             <listitem>
-                <para>[ Locations ]</para>
+                <para>[ Standorte ]</para>
                 <para>All Locations, e.g. building, workplace, IT facility.</para>
             </listitem>
         </itemizedlist>
@@ -301,7 +301,7 @@ srccredit="admin-configitem-management - screenshot" /></screenshot>
         </para>
     </sect1>
     <sect1>
-        <title>Adjustment of ticket state</title>
+        <title>Anpassung des Ticketstatus</title>
         <para>
             In ITIL aligned incident management, incidents are either resolved
 successfully or closed with a workaround. To address the latter closure
@@ -388,7 +388,7 @@ in the respective listbox settings from "valid" to "invalid" or
                 </para>
             </listitem>
             <listitem>
-                <para>[ Priority ]</para>
+                <para>[ Priorität ]</para>
                 <para>
                     Priority within OTRS::ITSM as resulting from criticality and impact
                 </para>
@@ -417,7 +417,7 @@ screenshot" /></screenshot>
         </para>
     </sect1>
     <sect1>
-        <title>Adjustment of ticket priorities</title>
+        <title>Anpassung von Ticketprioritäten</title>
         <para>
             Tickets are arranged within OTRS::ITSM on the basis of ticket priorities,
 i.e. tickets with a higher priority are displayed further up in the queue

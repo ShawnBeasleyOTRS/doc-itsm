@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Additional OTRS applications - calendar</title>
+    <title>Zusätzliche OTRS-Anwendungen - Kalender</title>
     <para>
         OTRS 3.3 initially supports up to 9 calendars, which can be configured
 graphically. Using the SysConfig framework found in the admin interface,

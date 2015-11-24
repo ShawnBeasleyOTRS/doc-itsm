@@ -1,29 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <preface>
-    <title>Preface</title>
-    <para>The document at hand addresses OTRS::ITSM users and administrators and
-provides information on the basic use of OTRS::ITSM by IT service managers,
-IT service staff (agents) and end users (customers).  Information pertaining
-to the installation, configuration and administration of OTRS::ITSM is only
-provided if there are differences to the OTRS core product or for functions,
-which only exist in OTRS::ITSM.</para>
-    <para>In spite of the many many hours of work, even more cups of coffee and quite
-a few sausages and pretzels consumed in the course of writing the following
-sections, this manual does not claim to be complete. The chapters will be
-revised and/or amended periodically for continual improvement.
+    <title>Vorwort</title>
+    <para>Dieses Handbuch richtet sich an OTRS::ITSM Benutzer und Administratoren. Es
+vermittelt Informationen für die grundlegende Benutzung von OTRS::ITSM durch
+IT Service Manager, IT Servicemitarbeiter (Agents) und Benutzer
+(Kunden). Informationen in Bezug auf die Installation, Konfiguration oder
+Administration von OTRS::ITSM werden nur erwähnt, wenn es Abweichungen zum
+OTRS Hauptprodukt gibt, oder wenn es um Funktionen geht, die in OTRS::ITSM
+nicht existieren.</para>
+    <para>Trotz der unendlich vielen Arbeitsstunden, den noch viel mehr Tassen Kaffee
+und doch immerhin unzähligen Würsten und Bretzeln, die im Verlaufe der
+Entsstehung der folgenden Kapitel verspeist und getrunken wurden, erhebt
+dieses Handbuch keinesfalls den Anspruch auf Vollständigkeit. Die Kapitel
+werden regelmässig überarbeitet und/oder ergänzt, um eine kontinuierliche
+Verbesserung zu gewährleisten.
 </para>
-    <para>We welcome your feedback as a critical contribution to the best possible
-quality of the following chapters and of the product itself.  Please tell us
-if you miss information, find it difficult to understand certain aspects or
-the way they are presented, have suggestions or any other comments. Any
-feedback submitted at http://otrs.org is highly appreciated.</para>
-    <para>We are very proud of the product at hand and want to thank the ITIL experts
-of Enterprise Consulting GmbH and our top-notch OTRS developers. Their joint
-efforts have significantly contributed to the successful development of
-OTRS::ITSM.</para>
-    <para>We want to thank you, the users and OTRS::ITSM community, in advance for any
-kind of aid and feedback and hope you will have fun using OTRS::ITSM.
+    <para>Um die Qualität der folgenden Kapitel und des Produktes so hoch wie möglich
+zu halten, sind wir auf Ihr Feedback angewiesen. Bitte teilen Sie uns mit,
+wenn Sie Vorschläge haben, Abschnitte in diesem Buch vermissen oder wenn
+Aspekte unverständlich erscheinen. Jede Art von Rückmeldung <ulink
+url="http://otrs.com/"><citetitle>http://otrs.com</citetitle></ulink> ist
+ausdrücklich erwünscht.</para>
+    <para>Wir sind auf das gegenwärtige Produkt sehr stolz und wir möchten den
+ITIL-Experten von Enterprise Consulting GmbH und unseren erstklassigen OTRS
+Entwicklern danken. Ihre gemeinsamen Anstrengungen haben massgeblich zur
+erfolgreichen Entwicklung von OTRS::ITSM beigetragen.</para>
+    <para>WIr möchten Ihnen, -den Benutzern und der OTRS::ITSM Gemeinschaft, im Voraus
+für jede Art von Hilfe und Feedback danken und wir hoffen, Sie haben Freude
+bei Arbeiten mit OTRS::ITSM.
 
 </para>
     <para>André Mindermann, Managing Partner OTRS AG</para>

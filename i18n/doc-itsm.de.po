@@ -3,14 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Dominik <dominik@reichardt-online.it>, 2015
+# Dr. Marko Nordquist <marko.nordquist@irix.ch>, 2015
+# Ettore Atalan <atalanttore@googlemail.com>, 2015
+# ru_otrs <robert.ullrich@otrs.com>, 2014-2015
+# Tamer Kor <tk@kor.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2015-05-05 09:36+0200\n"
-"PO-Revision-Date: 2014-12-19 13:09+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/OTRS/language/"
-"de/)\n"
+"PO-Revision-Date: 2015-11-20 14:05+0000\n"
+"Last-Translator: Dominik <dominik@reichardt-online.it>\n"
+"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,12 +24,12 @@ msgstr ""
 #. type: Attribute 'lang' of: <book>
 #: en/book.xml:5
 msgid "en"
-msgstr ""
+msgstr "de"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
 msgid "OTRS::ITSM 4"
-msgstr ""
+msgstr "OTRS::ITSM 4"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
@@ -33,11 +37,13 @@ msgid ""
 "<copyright> <year>2003-2014</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2014-11-24</date>"
 msgstr ""
+"<copyright> <year>2003-2014</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2014-11-24</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:18
 msgid "This work is copyrighted by OTRS AG."
-msgstr ""
+msgstr "Dieses Werk ist geistiges Eigentum der OTRS AG."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:21
@@ -45,6 +51,8 @@ msgid ""
 "You may copy it in whole or in part as long as the copies retain this "
 "copyright statement."
 msgstr ""
+"Es darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt, dieser "
+"Copyright-Vermerk befindet sich auf jeder Kopie."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:25
@@ -52,6 +60,8 @@ msgid ""
 "UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
 "registered trademark of Linus Torvalds."
 msgstr ""
+"UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited. Linux "
+"ist ein eingetragenes Warenzeichen von Linus Torvalds."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:29
@@ -64,6 +74,13 @@ msgid ""
 "of Software in the Public Interest, Inc.  MySQL and the MySQL Logo are "
 "registered trademarks of MySQL AB."
 msgstr ""
+"MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows "
+"XP, Windows 2003 und Windows Vista sind eingetragene Warenzeichen der "
+"Microsoft Corporation. Andere Warenzeichen oder registrierte Warenzeichen: "
+"SUSE und YaST von SUSE Linux GmbH, Red Hat und Fedora von Red Hat Inc., "
+"Debian von Software in the Public Interest, Inc., Mandrake von MandrakeSoft, "
+"SA. MySQL und das MySQL Logo sind eingetragene Warenzeichen Oracle "
+"Corporation und/oder verbundener Unternehmen. "
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:40
@@ -71,6 +88,8 @@ msgid ""
 "All trade names are used without the guarantee for their free use and are "
 "possibly registered trade marks."
 msgstr ""
+"Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt "
+"und sind möglicherweise eingetragene Warenzeichen."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:45
@@ -79,21 +98,24 @@ msgid ""
 "products mentioned in this manual may be trademarks of the respective "
 "manufacturer."
 msgstr ""
+"Die Firma OTRS AG richtet sich im Wesentlichen nach den Schreibweisen der "
+"Hersteller. Andere hier genannte Produkte können Warenzeichen des jeweiligen "
+"Herstellers sein."
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:54
 msgid "4.0.1"
-msgstr ""
+msgstr "4.0.1"
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:55
 msgid "11/24/2014"
-msgstr ""
+msgstr "11/24/2014"
 
 #. type: Content of: <preface><title>
 #: en/preface.xml:4
 msgid "Preface"
-msgstr ""
+msgstr "Vorwort"
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:5
@@ -105,6 +127,13 @@ msgid ""
 "provided if there are differences to the OTRS core product or for functions, "
 "which only exist in OTRS::ITSM."
 msgstr ""
+"Dieses Handbuch richtet sich an OTRS::ITSM Benutzer und Administratoren. Es "
+"vermittelt Informationen für die grundlegende Benutzung von OTRS::ITSM durch "
+"IT Service Manager, IT Servicemitarbeiter (Agents) und Benutzer (Kunden). "
+"Informationen in Bezug auf die Installation, Konfiguration oder "
+"Administration von OTRS::ITSM werden nur erwähnt, wenn es Abweichungen zum "
+"OTRS Hauptprodukt gibt, oder wenn es um Funktionen geht, die in OTRS::ITSM "
+"nicht existieren."
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:7
@@ -114,6 +143,12 @@ msgid ""
 "sections, this manual does not claim to be complete. The chapters will be "
 "revised and/or amended periodically for continual improvement."
 msgstr ""
+"Trotz der unendlich vielen Arbeitsstunden, den noch viel mehr Tassen Kaffee "
+"und doch immerhin unzähligen Würsten und Bretzeln, die im Verlaufe der "
+"Entsstehung der folgenden Kapitel verspeist und getrunken wurden, erhebt "
+"dieses Handbuch keinesfalls den Anspruch auf Vollständigkeit. Die Kapitel "
+"werden regelmässig überarbeitet und/oder ergänzt, um eine kontinuierliche "
+"Verbesserung zu gewährleisten."
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:9
@@ -124,6 +159,12 @@ msgid ""
 "the way they are presented, have suggestions or any other comments. Any "
 "feedback submitted at http://otrs.org is highly appreciated."
 msgstr ""
+"Um die Qualität der folgenden Kapitel und des Produktes so hoch wie möglich "
+"zu halten, sind wir auf Ihr Feedback angewiesen. Bitte teilen Sie uns mit, "
+"wenn Sie Vorschläge haben, Abschnitte in diesem Buch vermissen oder wenn "
+"Aspekte unverständlich erscheinen. Jede Art von Rückmeldung <ulink url="
+"\"http://otrs.com/\"><citetitle>http://otrs.com</citetitle></ulink> ist "
+"ausdrücklich erwünscht."
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:11
@@ -133,6 +174,10 @@ msgid ""
 "efforts have significantly contributed to the successful development of "
 "OTRS::ITSM."
 msgstr ""
+"Wir sind auf das gegenwärtige Produkt sehr stolz und wir möchten den ITIL-"
+"Experten von Enterprise Consulting GmbH und unseren erstklassigen OTRS "
+"Entwicklern danken. Ihre gemeinsamen Anstrengungen haben massgeblich zur "
+"erfolgreichen Entwicklung von OTRS::ITSM beigetragen."
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:12
@@ -140,26 +185,29 @@ msgid ""
 "We want to thank you, the users and OTRS::ITSM community, in advance for any "
 "kind of aid and feedback and hope you will have fun using OTRS::ITSM."
 msgstr ""
+"WIr möchten Ihnen, -den Benutzern und der OTRS::ITSM Gemeinschaft, im Voraus "
+"für jede Art von Hilfe und Feedback danken und wir hoffen, Sie haben Freude "
+"bei Arbeiten mit OTRS::ITSM."
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:15
 msgid "André Mindermann, Managing Partner OTRS AG"
-msgstr ""
+msgstr "André Mindermann, Managing Partner OTRS AG"
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:18
 msgid "Bad Homburg, May 2007"
-msgstr ""
+msgstr "Bad Homburg, May 2007"
 
 #. type: Content of: <preface><para>
 #: en/preface.xml:19
 msgid "((enjoy))"
-msgstr ""
+msgstr "((enjoy))"
 
 #. type: Content of: <chapter><title>
 #: en/itsm.xml:4
 msgid "OTRS::ITSM - OTRS for IT service management"
-msgstr ""
+msgstr "OTRS::ITSM - OTRS für das  IT Service-Management"
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:6
@@ -171,6 +219,13 @@ msgid ""
 "to-date database with information about the state and configuration of the "
 "IT infrastructure."
 msgstr ""
+"Es wird erwartet, dass die IT beständig qualitativ hochwertige "
+"Dienstleistungen in einem zunehmend komplexer werdenden Umfeld erbringt. In "
+"diesem Zusammenhang ist ein leistungsfähiges und wirkungsvolles Incident- "
+"und Problem Management erforderlich. IT Service Management ist jedoch eine "
+"beinahe unlösbare Aufgabe, wenn keine aktuelle und konsistente Datenbank "
+"vorhanden ist, in der Informationen über den Status und die Konfiguration "
+"der IT-Infrastruktur gepflegt werden."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:14
@@ -183,6 +238,14 @@ msgid ""
 "roles, responsibilities, potential problem fields/resolutions, and "
 "definitions of terms."
 msgstr ""
+"Die IT Infrastructure Library®, kurz ITIL®, ist eine Buchreihe, "
+"herausgegeben vom United Kingdom's Office of Government Commerce (OGC), die "
+"generisch Best-Practice-Ansätze für das Design, die Bereitstellung, den "
+"Betrieb und das Management von IT Dienstleistungen beschreibt. ITIL® "
+"fokussiert nicht auf die Technologie selbst, sondern auf die "
+"Dienstleistungen der IT und umfasst Informationen über Prozesse, Rollen, "
+"Verantwortlichkeiten, potenzielle Problembereiche/Lösungsansätze und "
+"Definitionen von Ausdrucksweisen."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:23
@@ -196,6 +259,15 @@ msgid ""
 "issue of how to do things.  Therefore, no implementable information is given "
 "for particular industries, companies, or manufacturers."
 msgstr ""
+"ITIL® hat sich in den vergangenen Jahre als de facto Standard durchgesetzt. "
+"Die Verbreitung in IT Organisationen hat zur Entwicklung einer kollektiven "
+"Wahrnehmung des IT Service Management und zur Schaffung einer einheitlichen "
+"Terminologie beigetragen. ITIL® beschreibt jedoch lediglich &quot;wer etwas "
+"tun sollte und was er tun sollte&quot; und was man während dieser Tätigkeit "
+"bedenken sollte. Um so viele Benutzergruppen wie möglich abzudecken, geht es "
+"nicht, oder meistens nur zu einem geringen Anteil, darum, zu beschreiben, "
+"was im Einzelfall getan werden muss. Aus diesem Grund gibt es keine direkt "
+"anwendbaren Informationen für spezielle Branchen, Firmen oder Hersteller."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:34
@@ -204,6 +276,9 @@ msgid ""
 "service management was published. IT organizations can apply for ISO/IEC "
 "20000 certification and prove their conformity."
 msgstr ""
+"Im Dezember 2005 wurde der ITIL®-basierte ISO/IEC 20000 Industriestandard "
+"veröffentlicht. IT-Organisationen können sich zur ISO/IEC 20000 "
+"Zertifizierung anmelden und ihre Konformität unter Beweis stellen."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:39
@@ -213,6 +288,12 @@ msgid ""
 "existed. Because of their considerable complexity, most of these tools are "
 "only affordable for large companies and effective in large IT departments."
 msgstr ""
+"Die ständige Weiterverbreitung verursachte eine Nachfrage nach IT Service "
+"Management Lösungen, die in der Lage waren, die  ITIL®-basierten Prozesse "
+"abzubilden. Bis dahin gabe es lediglich proprietäre Lösungen, die sich, "
+"aufgrund ihrer ausserordentlichen Komplexität, nur grosse Unternehmungen "
+"leisten konnten, und die nur in grossen Abteilungen wirkungsvoll einsetzbar "
+"waren."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:46
@@ -221,6 +302,9 @@ msgid ""
 "of the OTRS framework in order to combine the globally accepted, public ITIL "
 "recommendations with the benefits of open-source software."
 msgstr ""
+"Die Entwicklung von OTRS::ITSM wurde aufgrund des grossen Erfolges des OTRS "
+"Frameworks gestartet, um die global anerkannten, öffentlichen  ITIL®-"
+"Empfehlungen mit den Vorzügen von Open-Source Software zu vereinigen."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:52
@@ -231,6 +315,11 @@ msgid ""
 "from April 2007). OTRS::ITSM is under active development and new features "
 "are added continuously."
 msgstr ""
+"OTRS::ITSM 1.0 war die erste wirklich ITIL®-konforme Lösung für IT Service "
+"Management, die auf Open-Source basierte, aufgebaut auf Basis des stabilen "
+"OTRS mit seinen 55'000 bekannten Installationen und seiner "
+"Benutzergemeinschaft (Informationsstand: April 2007). OTRS::ITSM wird aktiv "
+"weiterentwickelt und es werden fortlaufend neue Funktionen hinzugefügt."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:59
@@ -239,6 +328,8 @@ msgid ""
 "in collaboration with ITIL consultants and with some of OTRS Groups' "
 "customers."
 msgstr ""
+"OTRS::ITSM ist praxisorientiert. Die Entwicklung findet unter Teilnahme von "
+"ITIL®-Beratern und einigen Kunden aus OTRS-Gruppen statt."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:64
@@ -248,6 +339,10 @@ msgid ""
 "management, problem management, service level management, change and "
 "configuration management modules, and integrated CMDB."
 msgstr ""
+"Die Service-Desk und Ticket System Lösung OTRS ist die Basis für die  ITIL®-"
+"konforme IT Service Management Lösung OTRS::ITSM, deren Incident Management, "
+"Problem Management, Service Level Management, Change- und Configuration "
+"Management Modulen und der integrierten CMDB."
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:71
@@ -255,11 +350,13 @@ msgid ""
 "OTRS::ITSM and OTRS are freely available (no license fees apply)  and are "
 "subject to GNU Affero General Public License (AGPL)."
 msgstr ""
+"OTRS::ITSM und OTRS sind frei verfügbar (frei von Lizenzgebühren) und sind "
+"Gegenstand der GNU Affero General Public License (AGPL)."
 
 #. type: Content of: <chapter><sect1><title>
 #: en/itsm.xml:75
 msgid "Features"
-msgstr ""
+msgstr "Features"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/itsm.xml:77
@@ -268,21 +365,24 @@ msgid ""
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
+"OTRS::ITSM 4 basiert auf OTRS 4. Alle von OTRS bekannten Funktionen sind "
+"weiterhin verfügbar. Funktionen, welche die ITIL®-Prozesse repräsentieren, "
+"können als Paket installiert werden."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:84
 msgid "New OTRS::ITSM 4 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 4 Features"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:86
 msgid "OTRS::ITSM 4 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 4 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:92
 msgid "Ported code to the OTRS 4 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 4 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:98
@@ -290,17 +390,22 @@ msgid ""
 "New powerful template engine based on <ulink url=\"http://www.template-"
 "toolkit.org/\">Template::Toolkit</ulink>"
 msgstr ""
+"Einen neuen leistungsfähigen Template-Generator, basierend auf <ulink url="
+"\"http://www.template-toolkit.org/\">Template::Toolkit</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:104
 msgid ""
 "A central object manager makes creating and using global objects much easier."
 msgstr ""
+"Ein zentraler Objekt-Manager erleichtert das Erstellen und Nutzen von "
+"globalen Objekten."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:110
 msgid "OTRS::ITSM 4 includes many other small bug fixes and improvements."
 msgstr ""
+"OTRS::ITSM 4 beinhaltet viele andere kleinere Bugfixes und Verbesserungen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:116
@@ -310,6 +415,11 @@ msgid ""
 "free translators login on http://www.transifex.com and join one of the "
 "language teams if you want to contribute to OTRS::ITSM."
 msgstr ""
+"Alle OTRS::ITSM 4 Übersetzungen werden zukünftig ausschliesslich über "
+"Transifex gemanaged: https://www.transifex.com/projects/p/OTRS/resources/. "
+"Melden Sie sich für ein kostenloses Übersetzer-Login an: http://www."
+"transifex.com und treten Sie einem Sprachteam bei, wenn Sie OTRS::ITSM "
+"unterstützen wollen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:123
@@ -319,6 +429,10 @@ msgid ""
 "as well to define the link direction for each link type. (Take a look at the "
 "sysconfig option \"ITSM::Core::IncidentLinkTypeDirection\")"
 msgstr ""
+"Verbesserte und flexiblere Propagierung der Incident-Statuslinks. Es ist "
+"jetzt möglich, mehr als einen Link-Typ für die Incident-Statusberechnung "
+"hinzuzufügen und ebenfalls die Link-Direction pro Linktyp festzulegen. "
+"(Siehe Sysconfig Option \"ITSM::Core::IncidentLinkTypeDirection\")."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:129
@@ -327,6 +441,9 @@ msgid ""
 "operations for creating, changing, retrieving and searching configuration "
 "items via GenericInterface."
 msgstr ""
+"GenericInterface für ITSM Configuration Management. Dieses Feature "
+"beinhaltet Funktionsweisen, um CIs über das GenericInterface zu erstellen, "
+"zu ändern, zu suchen und abzurufen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:135
@@ -335,6 +452,9 @@ msgid ""
 "screen to perform certain actions over a selection of ITSM Configuration "
 "Items."
 msgstr ""
+"Massen-Aktionen für ITSM Configuration Management. Dieses Feature bietet ein "
+"Raster, um ausgewählte Aktionen bei der Auswahl mehrerer ITSM Configuration "
+"Items durchzuführen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:141
@@ -345,6 +465,9 @@ msgid ""
 "picker to the General Catalog to define the color preference of each "
 "Deployment State."
 msgstr ""
+"Neue farbliche Kennzeichnung im ITSM Configuration Management. Dieses "
+"Feature fügt eine Kennzeichnungs-Kolumne in die Configuration-Item Übersicht "
+"ein, mit der man die Farbe jedes Bereitstellungs-Status definieren kann."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:147
@@ -352,6 +475,8 @@ msgid ""
 "Dynamic fields for ITSM Change Management. The freetext fields for changes "
 "and workorder have been migrated to more flexible dynamic fields."
 msgstr ""
+"Dynamische Felder für ITSM Change Management. Die Freitext-Felder für "
+"Changes und Workorder wurden in flexiblere dynamische Felder umgewandelt."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:153
@@ -362,21 +487,27 @@ msgid ""
 "can then be edited and saved back in to the same template, while the change "
 "or workorder will be deleted after it has been saved."
 msgstr ""
+"Verbesserte und einfachere Handhabung von Templates für Changes, Workorders "
+"und Change Advisory Boards (CAB). Ein Template kann einfach editiert werden, "
+"indem man es in der Template-Übersicht selektiert. Dadurch wird ein neuer "
+"Change oder eine Workorder erstellt, die dann editiert werden und in "
+"dasselbe Template zurückgespeichert werden kann, während der Change oder die "
+"Workorder gelöscht wird, sobald sie gespeichert werden."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:162
 msgid "New OTRS::ITSM 3.3 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 3.3 Features"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:164
 msgid "OTRS::ITSM 3.3 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 3.3 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:170
 msgid "Ported code to the OTRS 3.3 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 3.3 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:176
@@ -386,6 +517,10 @@ msgid ""
 "and in all agent frontends where a service can be selected (can be disabled "
 "on a per screen basis)."
 msgstr ""
+"Feature AddOn \"OTRSServiceIncidentState\" in OTRS::ITSM integriert. \n"
+"Es zeigt den aktuellen Incident-Status eines ausgewählten Services im Ticket-"
+"Zoom und bei allen Agenten in den Frontends in denen Services selektiert "
+"werden können (kann pro Monitor deaktiviert werden)."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:184
@@ -395,6 +530,10 @@ msgid ""
 "ConfigItem class.  This is possible for the CI-Overview, the CI-Search-"
 "Overview and the Linked-CI view in the agent interface."
 msgstr ""
+"Feature AddOn \"OTRSCIColumns\" in OTRS::ITSM integriert.\n"
+"Dieses Feature ermöglicht es, die angezeigten CI-Attribute individuell für "
+"jede ConfigItem-Class zu konfigurieren. Dies funktioniert im CI-Overview, CI-"
+"Search-Overview und in der Linked-CI Ansicht im Interface der Agenten."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:192
@@ -404,6 +543,10 @@ msgid ""
 "workorder, all following workorders will also be moved accordingly, so that "
 "the time differences between the workorders will still be the same."
 msgstr ""
+"Feature AddOn \"OTRSWorkOrderTimeDependency\" in OTRS::ITSM integriert. Ist "
+"dieses Feature aktiviert, dann kann das geplante Enddatum einer Workorder "
+"geändert werden. Alle nachfolgenden Workorders werden ebenfalls entsprechend "
+"angepasst, sodass die Zeitabstände zwischen den Workorders gleich bleiben."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:199
@@ -418,6 +561,16 @@ msgid ""
 "enforced that for example a CI attribute must start with \"ABC\" or must end "
 "with a number."
 msgstr ""
+"Feature AddOn \"OTRSCIAttributeSyntaxCheck\" in OTRS::ITSM integriert. "
+"Dieses Feature ermöglicht es, den Syntax von CI-Attributen mit einem "
+"regulären Ausdruck zu kontrollieren, während man über das Agenten-Interface "
+"CIs hinzufügt oder editiert (funktioniert nicht bei Importieren von CIs mit "
+"dem Import/Export Modul). Die CI-Attribute vom Typ \"Text\" und \"TextArea\" "
+"sowie der CI-Name können mit regulären, individuellen Ausdrücken überprüft "
+"werden. Eine individuelle Fehlermeldung wird angezeigt, wenn das Attribut "
+"nicht dem abgefragten Ausdruck entspricht. Mit diesem Feature kann z.B. "
+"erzwungen werden, dass das Attribut eines CIs mit \"ABC\" starten und/oder "
+"mit einer Nummer enden muss."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:209
@@ -425,6 +578,9 @@ msgid ""
 "Added new feature \"WorkOrder Report Attachments\" into OTRS::ITSM.  This "
 "feature adds support for attachment uploads in the workorder report screen."
 msgstr ""
+"Neues Feature \"WorkOrder Report Attachments\" zu OTRS::ITSM hinzugefügt. "
+"Dieses Feature unterstützt den Upload von Anhängen im Workorder Report "
+"Screen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:216
@@ -432,6 +588,8 @@ msgid ""
 "The toolbar icons now use an icon font which makes it easier to create "
 "custom skins with different base colors."
 msgstr ""
+"Die Icons der Toolbar benutzen jetzt einen Icon-Font, der das Erstellen "
+"eigener Skins mit verschiedenen Basisfarben vereinfacht."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:222
@@ -440,6 +598,9 @@ msgid ""
 "dynamic fields.  Renamed ITSM releated dynamic fields to nicer names, "
 "prefixed with ITSM."
 msgstr ""
+"Die Werte von ITSMCriticality und ITSMImpact wurden vom generellen Katalog "
+"zu dynamischen Feldern migriert. Den ITSM-bezogenen Feldern wurden "
+"verständlichere Namen gegeben, die zudem mit dem Prefix ITSM beginnen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:229
@@ -448,31 +609,37 @@ msgid ""
 "been splitted in 2 screens each.  One to create a new change / workorder "
 "from scratch, and one to create it from a template."
 msgstr ""
+"In ITSMChangeManagement wurden die Frontends, die dazu dienen Changes oder "
+"Workorders zu erstellen, je in 2 Screens aufgeteilt. Ein Screen dient zum "
+"Erstellen von neuen Changes/Workorders, der andere, um sie von einem "
+"Template zu erstellen."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:240
 msgid "New OTRS::ITSM 3.2 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 3.2 Features"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:242
 msgid "OTRS::ITSM 3.2 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 3.2 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:248
 msgid "Ported code to the OTRS 3.2 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 3.2 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:254
 msgid "Enhanced Import/Export screen to show a summary after importing."
 msgstr ""
+"Erweiterter Import/Export-Screen zum Anzeigen einer Zusammenfassung nach "
+"Abschluss des Imports."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:260
 msgid "Added attachment support for ITSM config items."
-msgstr ""
+msgstr "Unterstützung für Anhänge an ITSM CIs."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:266
@@ -483,17 +650,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:276
 msgid "New OTRS::ITSM 3.1 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 3.1 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:278
 msgid "OTRS::ITSM 3.1 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 3.1 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:284
 msgid "Ported code to the OTRS 3.1 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 3.1 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:290
@@ -512,12 +679,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:306
 msgid "New OTRS::ITSM 3.0 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 3.0 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:308
 msgid "OTRS::ITSM 3.0 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 3.0 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:314
@@ -527,7 +694,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:320
 msgid "Ported code to the OTRS 3.0 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 3.0 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:326
@@ -537,22 +704,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:332
 msgid "New Search result types (Print, PDF and CSV)."
-msgstr ""
+msgstr "Neue Suchergebnis Typen (Drucken, PDF und CSV)."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:342
 msgid "New OTRS::ITSM 2.1 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 2.1 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:344
 msgid "OTRS::ITSM 2.1 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 2.1 bringt:"
 
 #. type: Content of: <chapter><title>
 #: en/itsm.xml:348 en/itsm.xml:375 en/change-management.xml:7
 msgid "Change Management"
-msgstr ""
+msgstr "Change Management"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:350
@@ -589,12 +756,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:370
 msgid "New OTRS::ITSM 2.0 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 2.0 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:371
 msgid "OTRS::ITSM 2.0 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 2.0 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:377
@@ -606,12 +773,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:385
 msgid "New OTRS::ITSM 1.3 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 1.3 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:387
 msgid "OTRS::ITSM 1.3 is based on OTRS 2.4"
-msgstr ""
+msgstr "OTRS::ITSM 1.3 basiert auf OTRS 2.4"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:390
@@ -623,22 +790,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:395
 msgid "New OTRS::ITSM 1.2 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 1.2 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:397
 msgid "OTRS::ITSM 1.2 is based on OTRS 2.3"
-msgstr ""
+msgstr "OTRS::ITSM 1.2 basiert auf OTRS 2.3"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:399
 msgid "OTRS::ITSM 1.2 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 1.2 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:403
 msgid "Modularization"
-msgstr ""
+msgstr "Modularisierung"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:405
@@ -682,7 +849,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:440
 msgid "Improved speed"
-msgstr ""
+msgstr "Verbesserte Geschwindigkeit"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:442
@@ -695,7 +862,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:448
 msgid "Locations"
-msgstr ""
+msgstr "Standorte"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:450
@@ -717,7 +884,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:464
 msgid "SLA Overwiew"
-msgstr ""
+msgstr "SLA-Übersicht"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:466
@@ -739,17 +906,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:483
 msgid "New OTRS::ITSM 1.1 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 1.1 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:484
 msgid "OTRS::ITSM 1.1 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 1.1 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:488
 msgid "Authorization concept"
-msgstr ""
+msgstr "Berechtigungskonzept"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:490
@@ -775,7 +942,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:506
 msgid "Service/CI view"
-msgstr ""
+msgstr "Dienst/CI-Ansicht"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:508
@@ -800,12 +967,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:531
 msgid "Operational"
-msgstr ""
+msgstr "Operativ"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:534
 msgid "Incident"
-msgstr ""
+msgstr "Vorfall"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:539
@@ -818,17 +985,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:546
 msgid "Operational (green)"
-msgstr ""
+msgstr "Operativ (grün)"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:549
 msgid "Warning (yellow)"
-msgstr ""
+msgstr "Warnung (gelb)"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:552
 msgid "Incident (red)"
-msgstr ""
+msgstr "Vorfall (rot)"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:556
@@ -895,7 +1062,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:616
 msgid "CMDB Import/Export (CSV and API)"
-msgstr ""
+msgstr "CMDB-Import/Export (CSV und API)"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/itsm.xml:619
@@ -1059,12 +1226,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/itsm.xml:775
 msgid "OTRS::ITSM 1.0 features"
-msgstr ""
+msgstr "OTRS::ITSM 1.0 Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:776
 msgid "OTRS::ITSM 1.0 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 1.0 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:779
@@ -1074,17 +1241,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:784
 msgid "incident management"
-msgstr ""
+msgstr "Vorfallsverwaltung"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:787
 msgid "problem management"
-msgstr ""
+msgstr "Problemverwaltung"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/itsm.xml:790
 msgid "configuration management"
-msgstr ""
+msgstr "Konfigurationsverwaltung"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:796
@@ -1219,7 +1386,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:905
 msgid "Incident management:"
-msgstr ""
+msgstr "Vorfallsverwaltung:"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:909
@@ -1317,7 +1484,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/itsm.xml:993
 msgid "Problem management:"
-msgstr ""
+msgstr "Problemverwaltung:"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:997
@@ -1389,17 +1556,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1058
 msgid "Persons, organizations"
-msgstr ""
+msgstr "Personen, Organisationen"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1063
 msgid "Time stamp"
-msgstr ""
+msgstr "Zeitstempel"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1068
 msgid "Priority, impact, severity"
-msgstr ""
+msgstr "Priorität, Auswirkung, Härte"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1073
@@ -1434,7 +1601,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1103
 msgid "SLA information"
-msgstr ""
+msgstr "SLA-Information"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1108
@@ -1444,7 +1611,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1113
 msgid "Ticket history (all changes)"
-msgstr ""
+msgstr "Ticketchronik (alle Änderungen)"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/itsm.xml:1118
@@ -1454,7 +1621,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/itsm.xml:1126
 msgid "Hardware and software requirements"
-msgstr ""
+msgstr "Hardware und Software-Anforderungen"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/itsm.xml:1128
@@ -1466,7 +1633,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/itsm.xml:1133
 msgid "Community"
-msgstr ""
+msgstr "Community"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/itsm.xml:1135
@@ -1491,7 +1658,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/itsm.xml:1151
 msgid "OTRS.org"
-msgstr ""
+msgstr "OTRS.org"
 
 #. type: Content of: <chapter><sect1><para><screenshot>
 #: en/itsm.xml:1151
@@ -1499,6 +1666,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic scale=\"50\" fileref="
 "\"screenshots/otrs-org.png\" srccredit=\"OTRS.org - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic scale=\"50\" fileref="
+"\"screenshots/otrs-org.png\" srccredit=\"OTRS.org - screenshot\" />"
 
 #. type: Content of: <chapter><para>
 #: en/itsm.xml:1150 en/itsm.xml:1163 en/installation.xml:66
@@ -1528,12 +1697,12 @@ msgstr ""
 #: en/admin-area.xml:314 en/admin-area.xml:408 en/admin-area.xml:418
 #: en/admin-area.xml:434 en/calendar.xml:11 en/calendar.xml:24
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
-msgstr ""
+msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/itsm.xml:1157
 msgid "Mailing lists"
-msgstr ""
+msgstr "Mailinglisten"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/itsm.xml:1159
@@ -1545,7 +1714,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/itsm.xml:1164
 msgid "lists.OTRS.org"
-msgstr ""
+msgstr "lists.OTRS.org"
 
 #. type: Content of: <chapter><sect1><para><screenshot>
 #: en/itsm.xml:1164
@@ -1558,7 +1727,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/commercial-services.xml:4
 msgid "Commercial services for OTRS::ITSM"
-msgstr ""
+msgstr "Kommerzielle Dienste für OTRS::ITSM"
 
 #. type: Content of: <chapter><para>
 #: en/commercial-services.xml:5
@@ -1607,7 +1776,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para>
 #: en/commercial-services.xml:29
 msgid "Our services include:"
-msgstr ""
+msgstr "Unsere Dienste beinhalten:"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/commercial-services.xml:32
@@ -1635,7 +1804,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/commercial-services.xml:47
 msgid "ITIL implementation"
-msgstr ""
+msgstr "ITIL-Implementation"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/commercial-services.xml:50
@@ -1693,7 +1862,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/commercial-services.xml:84
 msgid "Software development"
-msgstr ""
+msgstr "Softwareentwicklung"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/commercial-services.xml:85
@@ -1726,7 +1895,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/commercial-services.xml:102
 msgid "Application support"
-msgstr ""
+msgstr "Anwendungsunterstützung"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/commercial-services.xml:103
@@ -1807,7 +1976,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/installation.xml:4
 msgid "Installing OTRS::ITSM"
-msgstr ""
+msgstr "OTRS::ITSM installieren"
 
 #. type: Content of: <chapter><para>
 #: en/installation.xml:6
@@ -1820,7 +1989,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/installation.xml:14
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/installation.xml:17
@@ -1839,7 +2008,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/installation.xml:27 en/cmdb.xml:76
 msgid "ITSMCore"
-msgstr ""
+msgstr "ITSMCore"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/installation.xml:31
@@ -1853,27 +2022,27 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/installation.xml:40
 msgid "ITSMIncidentProblemManagement"
-msgstr ""
+msgstr "ITSMVorfallProblemVerwaltung"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/installation.xml:44 en/cmdb.xml:83
 msgid "ITSMConfigurationManagement"
-msgstr ""
+msgstr "ITSMKonfigurationsVerwaltung"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/installation.xml:48 en/cmdb.xml:90
 msgid "ITSMChangeManagement"
-msgstr ""
+msgstr "ITSMChangeManagement"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/installation.xml:52
 msgid "ITSMServiceLevelManagement"
-msgstr ""
+msgstr "ITSMServiceLevelManagement"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/installation.xml:56 en/cmdb.xml:97
 msgid "ImportExport"
-msgstr ""
+msgstr "ImportExport"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/installation.xml:62
@@ -1886,7 +2055,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/installation.xml:67
 msgid "Admin Package Manager"
-msgstr ""
+msgstr "Paket-Verwaltung"
 
 #. type: Content of: <chapter><sect1><para><screenshot>
 #: en/installation.xml:67
@@ -1895,11 +2064,14 @@ msgid ""
 "admin-packagemanager.png\" scale=\"50\" srccredit=\"Admin Package Manager - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-packagemanager.png\" scale=\"50\" srccredit=\"Admin Package Manager - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/installation.xml:74
 msgid "Upgrade"
-msgstr ""
+msgstr "Erneuern"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/installation.xml:77
@@ -1959,7 +2131,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/first-steps.xml:4
 msgid "First steps in OTRS::ITSM"
-msgstr ""
+msgstr "Erste Schritte in OTRS::ITSM"
 
 #. type: Content of: <chapter><para>
 #: en/first-steps.xml:6
@@ -1982,22 +2154,22 @@ msgstr ""
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/first-steps.xml:18
 msgid "IT services and SLAs"
-msgstr ""
+msgstr "IT Services und SLAs"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/first-steps.xml:21
 msgid "The CMDB"
-msgstr ""
+msgstr "Die CMDB"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/first-steps.xml:24
 msgid "New ticket fields and functions"
-msgstr ""
+msgstr "Neue Ticketfelder und Funktionen"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/first-steps.xml:27
 msgid "ITIL compliant terminology"
-msgstr ""
+msgstr "ITIL konforme Terminologie"
 
 #. type: Content of: <chapter><para>
 #: en/first-steps.xml:31
@@ -2010,7 +2182,7 @@ msgstr ""
 #. type: Content of: <chapter><para><screenshot><screeninfo>
 #: en/first-steps.xml:37
 msgid "Admin-Manual"
-msgstr ""
+msgstr "Administratorhandbuch"
 
 #. type: Content of: <chapter><para><screenshot>
 #: en/first-steps.xml:37
@@ -2141,7 +2313,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:51
 msgid "The OTRS::ITSM database model"
-msgstr ""
+msgstr "Das OTRS::ITSM-Datenbankmodell"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:53
@@ -2156,7 +2328,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdb.xml:62
 msgid "OTRS Framework"
-msgstr ""
+msgstr "OTRS Framework"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdb.xml:64
@@ -2258,6 +2430,9 @@ msgid ""
 "agent-phoneticket.png\" scale=\"50\" srccredit=\"agent-phoneticket - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-phoneticket.png\" scale=\"50\" srccredit=\"agent-phoneticket - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:135
@@ -2276,6 +2451,9 @@ msgid ""
 "admin-service-managment-overview.png\" scale=\"50\" srccredit=\"admin-"
 "service-managment-overview - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-service-managment-overview.png\" scale=\"50\" srccredit=\"admin-"
+"service-managment-overview - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:144
@@ -2302,6 +2480,9 @@ msgid ""
 "admin-sla-management-overview.png\" scale=\"50\" srccredit=\"admin-sla-"
 "management-overview - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-sla-management-overview.png\" scale=\"50\" srccredit=\"admin-sla-"
+"management-overview - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:156
@@ -2320,6 +2501,9 @@ msgid ""
 "admin-sla-management-edit.png\" scale=\"50\" srccredit=\"admin-sla-"
 "management-edit - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-sla-management-edit.png\" scale=\"50\" srccredit=\"admin-sla-"
+"management-edit - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:164
@@ -2333,12 +2517,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdb.xml:172
 msgid "[ Response Time ]"
-msgstr ""
+msgstr "[ Antwortzeit ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/cmdb.xml:176
 msgid "= reaction time with incidents"
-msgstr ""
+msgstr "= Reaktionszeit mit Vorfällen"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/cmdb.xml:181
@@ -2349,17 +2533,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdb.xml:187
 msgid "[ Update Time ]"
-msgstr ""
+msgstr "[ Aktualisierungszeit ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/cmdb.xml:191
 msgid "= notification time"
-msgstr ""
+msgstr "= Benachrichtigungszeit"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdb.xml:197
 msgid "[ Solution Time ]"
-msgstr ""
+msgstr "[ Lösungszeit ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/cmdb.xml:201
@@ -2412,11 +2596,14 @@ msgid ""
 "incident-lifecycle.png\" scale=\"50\" srccredit=\"incident-lifecycle - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"incident-lifecycle.png\" scale=\"50\" srccredit=\"incident-lifecycle - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:239
 msgid "Source: OGC, ITIL Service Support Documentation"
-msgstr ""
+msgstr "Quelle: OGC, ITIL Service Support Documentation"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:241
@@ -2429,7 +2616,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:249
 msgid "Configuration items"
-msgstr ""
+msgstr "Konfigurationselemente"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:251
@@ -2449,11 +2636,14 @@ msgid ""
 "agent-configuration-items.png\" scale=\"50\" srccredit=\"agent-configuration-"
 "items - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-configuration-items.png\" scale=\"50\" srccredit=\"agent-configuration-"
+"items - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:259
 msgid "Example of an individual CI view:"
-msgstr ""
+msgstr "Beispiel einer individuellen CI-Ansicht:"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/cmdb.xml:262
@@ -2467,6 +2657,9 @@ msgid ""
 "agent-configitem-management-link.png\" scale=\"50\" srccredit=\"agent-"
 "configitem-management-link - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-configitem-management-link.png\" scale=\"50\" srccredit=\"agent-"
+"configitem-management-link - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:267
@@ -2493,6 +2686,9 @@ msgid ""
 "agent-configitem-management-link2.png\" scale=\"50\" srccredit=\"agent-"
 "configitem-management-link2 - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-configitem-management-link2.png\" scale=\"50\" srccredit=\"agent-"
+"configitem-management-link2 - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:280
@@ -2505,7 +2701,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:288
 msgid "Documents and knowledge database"
-msgstr ""
+msgstr "Dokumente und Wissensdatenbank"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:290
@@ -2553,7 +2749,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/cmdb.xml:326
 msgid "Ticket types and attributes"
-msgstr ""
+msgstr "Tickettypen und Attribute"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/cmdb.xml:328
@@ -2583,6 +2779,9 @@ msgid ""
 "admin-type-management.png\" scale=\"50\" srccredit=\"admin-type-management - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-type-management.png\" scale=\"50\" srccredit=\"admin-type-management - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><warning><para>
 #: en/cmdb.xml:346 en/admin-area.xml:371 en/admin-area.xml:451
@@ -2632,16 +2831,19 @@ msgid ""
 "process-schema.png\" scale=\"50\" srccredit=\"process-schema - screenshot\" /"
 ">"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"process-schema.png\" scale=\"50\" srccredit=\"process-schema - screenshot\" /"
+">"
 
 #. type: Content of: <chapter><para>
 #: en/incident-problem.xml:13
 msgid "Source: ILX Group (www.ilxgroup.com)"
-msgstr ""
+msgstr "Quelle: ILX Group (www.ilxgroup.com)"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:15
 msgid "Ticket creation, classification and prioritization"
-msgstr ""
+msgstr "Ticketerstellung, Klassifizierung und Priorisierung"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/incident-problem.xml:16
@@ -2653,27 +2855,27 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/incident-problem.xml:19
 msgid "ticket type"
-msgstr ""
+msgstr "Tickettyp"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/incident-problem.xml:22
 msgid "relevant service"
-msgstr ""
+msgstr "relevanter Dienst"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/incident-problem.xml:25
 msgid "SLA"
-msgstr ""
+msgstr "SLA"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/incident-problem.xml:28
 msgid "impact"
-msgstr ""
+msgstr "Auswirkung"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/incident-problem.xml:31
 msgid "priority"
-msgstr ""
+msgstr "Priorität"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/incident-problem.xml:34
@@ -2702,6 +2904,9 @@ msgid ""
 "agent-ticket-create.png\" scale=\"50\" srccredit=\"agent-ticket-create - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-create.png\" scale=\"50\" srccredit=\"agent-ticket-create - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/incident-problem.xml:42
@@ -2723,6 +2928,9 @@ msgid ""
 "agent-ticket-data-change.png\" scale=\"50\" srccredit=\"agent-ticket-data-"
 "change - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-data-change.png\" scale=\"50\" srccredit=\"agent-ticket-data-"
+"change - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:51
@@ -2749,6 +2957,9 @@ msgid ""
 "agent-ticket-additional-field.png\" scale=\"50\" srccredit=\"agent-ticket-"
 "additional-field - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-additional-field.png\" scale=\"50\" srccredit=\"agent-ticket-"
+"additional-field - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:62
@@ -2793,6 +3004,9 @@ msgid ""
 "agent-ticket-queue.png\" scale=\"50\" srccredit=\"agent-ticket-queue - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-queue.png\" scale=\"50\" srccredit=\"agent-ticket-queue - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><warning><para>
 #: en/incident-problem.xml:74
@@ -2808,7 +3022,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:79
 msgid "Change ticket data"
-msgstr ""
+msgstr "Ticketdaten ändern"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/incident-problem.xml:80
@@ -2820,7 +3034,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:89
 msgid "Approvals and decisions"
-msgstr ""
+msgstr "Genehmigungen und Entscheidungen"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/incident-problem.xml:90
@@ -2852,6 +3066,9 @@ msgid ""
 "agent-ticket-decision.png\" scale=\"50\" srccredit=\"agent-ticket-decision - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-decision.png\" scale=\"50\" srccredit=\"agent-ticket-decision - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/incident-problem.xml:100
@@ -2918,6 +3135,9 @@ msgid ""
 "agent-service-request.png\" scale=\"50\" srccredit=\"agent-service-request - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-service-request.png\" scale=\"50\" srccredit=\"agent-service-request - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><para>
 #: en/change-management.xml:10
@@ -2951,7 +3171,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:34
 msgid "Technical Requirements"
-msgstr ""
+msgstr "Technische Anforderungen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:37
@@ -2962,22 +3182,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/change-management.xml:44
 msgid "OTRS Framework, version 3.3.1 or higher"
-msgstr ""
+msgstr "OTRS Framework, Version 3.3. oder höher"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/change-management.xml:49
 msgid "ITSM &quot;GeneralCatalog&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;GeneralCatalog&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/change-management.xml:54
 msgid "ITSM &quot;ITSMCore&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;ITSMCore&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:41
 msgid "<placeholder type=\"orderedlist\" id=\"0\"/>"
-msgstr ""
+msgstr "<placeholder type=\"orderedlist\" id=\"0\"/>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:60
@@ -2989,27 +3209,27 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/change-management.xml:67
 msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/change-management.xml:72
 msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/change-management.xml:77
 msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/change-management.xml:82
 msgid "ITSM &quot;ImportExport&quot; package, version 3.3"
-msgstr ""
+msgstr "ITSM &quot;ImportExport&quot; package, version 3.3"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:91
 msgid "Diagram of Change Management in OTRS::ITSM"
-msgstr ""
+msgstr "Digramm des Change Managements in ITRS::ITSM"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/change-management.xml:94
@@ -3038,11 +3258,14 @@ msgid ""
 "change-workorder-schema.png\" srccredit=\"change-workorder-schema - "
 "screenshot\" scale=\"75\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-schema.png\" srccredit=\"change-workorder-schema - "
+"screenshot\" scale=\"75\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:114
 msgid "Available User Roles"
-msgstr ""
+msgstr "Verfügbare Benutzer-Rollen"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/change-management.xml:117
@@ -3065,6 +3288,9 @@ msgid ""
 "otrs-permissions-roles.png\" srccredit=\"otrs-permissions-roles - screenshot"
 "\" scale=\"75\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"otrs-permissions-roles.png\" srccredit=\"otrs-permissions-roles - screenshot"
+"\" scale=\"75\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/change-management.xml:131
@@ -3076,22 +3302,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><table><title>
 #: en/change-management.xml:136
 msgid "User roles"
-msgstr ""
+msgstr "Benutzer-Rollen"
 
 #. type: Content of: <chapter><sect1><table><tgroup><thead><row><entry>
 #: en/change-management.xml:142
 msgid "User role"
-msgstr ""
+msgstr "Benutzer-Rolle"
 
 #. type: Content of: <chapter><sect1><table><tgroup><thead><row><entry>
 #: en/change-management.xml:145
 msgid "Access and privileges"
-msgstr ""
+msgstr "Zugriff und Privilegien"
 
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:152
 msgid "itsm-change"
-msgstr ""
+msgstr "itsm-change"
 
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:156
@@ -3108,7 +3334,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:167
 msgid "itsm-change-builder"
-msgstr ""
+msgstr "itsm-change-builder"
 
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:171 en/change-management.xml:190
@@ -3132,7 +3358,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:186
 msgid "itsm-change-manager"
-msgstr ""
+msgstr "itsm-change-manager"
 
 #. type: Content of: <chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:197
@@ -3163,16 +3389,19 @@ msgid ""
 "change-workflow.png\" srccredit=\"change-workflow - screenshot\" scale="
 "\"75\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workflow.png\" srccredit=\"change-workflow - screenshot\" scale="
+"\"75\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:224
 msgid "Creating a New Change"
-msgstr ""
+msgstr "Einen neuen Change erstellen"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:228 en/change-management.xml:235
 msgid "Attributes of a Change"
-msgstr ""
+msgstr "Attribute eines Changes"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:231
@@ -3189,13 +3418,13 @@ msgstr ""
 #: en/change-management.xml:3211 en/change-management.xml:3426
 #: en/change-management.xml:3500 en/change-management.xml:3770
 msgid "Attribute"
-msgstr ""
+msgstr "Attribut"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: en/change-management.xml:244 en/change-management.xml:576
 #: en/change-management.xml:1151
 msgid "Required Field"
-msgstr ""
+msgstr "Erforderliches Feld"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: en/change-management.xml:247 en/change-management.xml:579
@@ -3207,12 +3436,12 @@ msgstr ""
 #: en/change-management.xml:3217 en/change-management.xml:3429
 #: en/change-management.xml:3506 en/change-management.xml:3773
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:254 en/change-management.xml:1161
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:257 en/change-management.xml:291
@@ -3258,17 +3487,17 @@ msgstr ""
 #: en/change-management.xml:3703 en/change-management.xml:3714
 #: en/change-management.xml:3736
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:260
 msgid "Short description / name of Change"
-msgstr ""
+msgstr "Kurzbeschreibung / Name des Changes"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:265
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:268 en/change-management.xml:279
@@ -3302,17 +3531,17 @@ msgstr ""
 #: en/change-management.xml:3659 en/change-management.xml:3670
 #: en/change-management.xml:3725 en/change-management.xml:3747
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:271
 msgid "Longer text description of the Change"
-msgstr ""
+msgstr "Längere Beschreibung des Changes"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:276
 msgid "Justification"
-msgstr ""
+msgstr "Begründung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:282
@@ -3328,7 +3557,7 @@ msgstr ""
 #: en/change-management.xml:2199 en/change-management.xml:2958
 #: en/change-management.xml:3246 en/change-management.xml:3535
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:294 en/change-management.xml:1201
@@ -3342,7 +3571,7 @@ msgstr ""
 #: en/change-management.xml:2287 en/change-management.xml:3046
 #: en/change-management.xml:3334 en/change-management.xml:3623
 msgid "Impact"
-msgstr ""
+msgstr "Auswirkung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:305
@@ -3358,7 +3587,7 @@ msgstr ""
 #: en/change-management.xml:2320 en/change-management.xml:3079
 #: en/change-management.xml:3367 en/change-management.xml:3656
 msgid "Priority"
-msgstr ""
+msgstr "Priorität"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:317
@@ -3370,7 +3599,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:323 en/change-management.xml:1230
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:329
@@ -3398,7 +3627,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:353 en/change-management.xml:1260
 msgid "Attachment"
-msgstr ""
+msgstr "Anhang"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:359 en/change-management.xml:1266
@@ -3408,7 +3637,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:368
 msgid "Category - Impact - Priority Matrix"
-msgstr ""
+msgstr "Kategorie - Auswirkung - Prioritäts-Matrix"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:371
@@ -3438,6 +3667,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "change-matrix.png\" srccredit=\"change-matrix - screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-matrix.png\" srccredit=\"change-matrix - screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:391
@@ -3462,31 +3693,31 @@ msgstr ""
 #: en/change-management.xml:405 en/change-management.xml:441
 #: en/change-management.xml:477
 msgid "1 very low"
-msgstr ""
+msgstr "1 sehr gering"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/change-management.xml:410 en/change-management.xml:446
 #: en/change-management.xml:482
 msgid "2 low"
-msgstr ""
+msgstr "2 gering"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/change-management.xml:415 en/change-management.xml:451
 #: en/change-management.xml:487
 msgid "3 normal"
-msgstr ""
+msgstr "3 normal"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/change-management.xml:420 en/change-management.xml:456
 #: en/change-management.xml:492
 msgid "4 high"
-msgstr ""
+msgstr "4 hoch"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/change-management.xml:425 en/change-management.xml:461
 #: en/change-management.xml:497
 msgid "5 very high"
-msgstr ""
+msgstr "5 sehr hoch"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/change-management.xml:432
@@ -3537,6 +3768,9 @@ msgid ""
 "change-state-machine.png\" srccredit=\"change-state-machine - screenshot\" "
 "scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-state-machine.png\" srccredit=\"change-state-machine - screenshot\" "
+"scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:522
@@ -3566,6 +3800,9 @@ msgid ""
 "change-state-transition.png\" srccredit=\"change-state-transition - "
 "screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-state-transition.png\" srccredit=\"change-state-transition - "
+"screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:544
@@ -3591,6 +3828,9 @@ msgid ""
 "change-involved-persons.png\" srccredit=\"change-involved-persons - "
 "screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-involved-persons.png\" srccredit=\"change-involved-persons - "
+"screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:560
@@ -3603,13 +3843,13 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:567
 msgid "Involved Persons"
-msgstr ""
+msgstr "Beteiligte Personen"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:586 en/change-management.xml:2771
 #: en/change-management.xml:2892 en/change-management.xml:2917
 msgid "Change Manager"
-msgstr ""
+msgstr "Change Manager"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:592
@@ -3619,7 +3859,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:597 en/change-management.xml:2779
 msgid "Change Builder"
-msgstr ""
+msgstr "Change-Builder"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:603
@@ -3632,7 +3872,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:610
 msgid "Change Advisory Board"
-msgstr ""
+msgstr "Change Advisory Board"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:616
@@ -3642,7 +3882,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:625
 msgid "Linking a Change with a Request for Change"
-msgstr ""
+msgstr "Verlinkt einen Change mit einem Change Request"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:628
@@ -3664,6 +3904,9 @@ msgid ""
 "change-rfc-relation.png\" srccredit=\"change-rfc-relation - screenshot\" "
 "scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-rfc-relation.png\" srccredit=\"change-rfc-relation - screenshot\" "
+"scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:643
@@ -3683,6 +3926,7 @@ msgstr ""
 msgid ""
 "Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module"
 msgstr ""
+"Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/change-management.xml:661
@@ -3701,7 +3945,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:676
 msgid "Defining Conditions"
-msgstr ""
+msgstr "Bedingungen definieren"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:679
@@ -3722,7 +3966,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><screenshot><screeninfo>
 #: en/change-management.xml:692
 msgid "change-conditions"
-msgstr ""
+msgstr "Change Bedingungen"
 
 #. type: Content of: <chapter><sect1><sect2><para><screenshot>
 #: en/change-management.xml:691
@@ -3731,6 +3975,9 @@ msgid ""
 "change-conditions.png\" srccredit=\"change-conditions - screenshot\" scale="
 "\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-conditions.png\" srccredit=\"change-conditions - screenshot\" scale="
+"\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:699
@@ -3758,22 +4005,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
 #: en/change-management.xml:719 en/change-management.xml:1005
 msgid "Change Attribute"
-msgstr ""
+msgstr "Change Attribute"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
 #: en/change-management.xml:722 en/change-management.xml:861
 msgid "Logical Operator"
-msgstr ""
+msgstr "Logischer Operator"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:730 en/change-management.xml:869
 msgid "AccountedTime"
-msgstr ""
+msgstr "Erfasste Zeit"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:733 en/change-management.xml:872
 msgid "PlannedEffort"
-msgstr ""
+msgstr "Geplanter Aufwand"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:738 en/change-management.xml:777
@@ -3781,7 +4028,7 @@ msgstr ""
 #: en/change-management.xml:877 en/change-management.xml:904
 #: en/change-management.xml:931 en/change-management.xml:958
 msgid "is"
-msgstr ""
+msgstr "ist"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:741 en/change-management.xml:780
@@ -3789,33 +4036,33 @@ msgstr ""
 #: en/change-management.xml:880 en/change-management.xml:907
 #: en/change-management.xml:934 en/change-management.xml:961
 msgid "is not"
-msgstr ""
+msgstr "ist nicht"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:744 en/change-management.xml:798
 #: en/change-management.xml:831 en/change-management.xml:883
 #: en/change-management.xml:964
 msgid "is empty"
-msgstr ""
+msgstr "ist leer"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:747 en/change-management.xml:801
 #: en/change-management.xml:834 en/change-management.xml:886
 #: en/change-management.xml:967
 msgid "is not empty"
-msgstr ""
+msgstr "ist nicht leer"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:750 en/change-management.xml:889
 #: en/change-management.xml:910
 msgid "is greater than"
-msgstr ""
+msgstr "ist grösser als"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:753 en/change-management.xml:892
 #: en/change-management.xml:913
 msgid "is less than"
-msgstr ""
+msgstr "ist kleiner als"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:763 en/change-management.xml:1654
@@ -3823,7 +4070,7 @@ msgstr ""
 #: en/change-management.xml:2969 en/change-management.xml:3257
 #: en/change-management.xml:3546
 msgid "ChangeBuilder"
-msgstr ""
+msgstr "Change-Builder"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:766 en/change-management.xml:1034
@@ -3831,7 +4078,7 @@ msgstr ""
 #: en/change-management.xml:2243 en/change-management.xml:3002
 #: en/change-management.xml:3290 en/change-management.xml:3579
 msgid "ChangeState"
-msgstr ""
+msgstr "Change-Status"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:787 en/change-management.xml:1665
@@ -3839,7 +4086,7 @@ msgstr ""
 #: en/change-management.xml:2980 en/change-management.xml:3268
 #: en/change-management.xml:3557
 msgid "ChangeManager"
-msgstr ""
+msgstr "Change-Manager"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:808 en/change-management.xml:1709
@@ -3847,27 +4094,27 @@ msgstr ""
 #: en/change-management.xml:2673 en/change-management.xml:3024
 #: en/change-management.xml:3312 en/change-management.xml:3601
 msgid "ChangeTitle"
-msgstr ""
+msgstr "Change-Titel"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:813 en/change-management.xml:946
 msgid "begins with"
-msgstr ""
+msgstr "beginnt mit"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:816 en/change-management.xml:949
 msgid "ends with"
-msgstr ""
+msgstr "endet mit"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:819 en/change-management.xml:952
 msgid "contains"
-msgstr ""
+msgstr "enthält"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:822 en/change-management.xml:955
 msgid "does not contain"
-msgstr ""
+msgstr "enthält nicht"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/change-management.xml:844
@@ -3895,31 +4142,31 @@ msgstr ""
 #: en/change-management.xml:899 en/change-management.xml:2364
 #: en/change-management.xml:3700
 msgid "WorkOrderNumber"
-msgstr ""
+msgstr "Workorder Nummer"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:920 en/change-management.xml:1081
 #: en/change-management.xml:2375 en/change-management.xml:3711
 msgid "WorkOrderState"
-msgstr ""
+msgstr "Workorder-Status"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:923 en/change-management.xml:2408
 #: en/change-management.xml:3744
 msgid "WorkOrderType"
-msgstr ""
+msgstr "Workorder-Typ"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:926 en/change-management.xml:2353
 #: en/change-management.xml:3689
 msgid "WorkOrderAgent"
-msgstr ""
+msgstr "Workorder-Agent"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:941 en/change-management.xml:2397
 #: en/change-management.xml:3733
 msgid "WorkOrderTitle"
-msgstr ""
+msgstr "Workorder-Titel"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:978
@@ -3957,18 +4204,18 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
 #: en/change-management.xml:1008 en/change-management.xml:1073
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:1027 en/change-management.xml:1039
 #: en/change-management.xml:1086
 msgid "set"
-msgstr ""
+msgstr "setze"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
 #: en/change-management.xml:1042 en/change-management.xml:1089
 msgid "lock"
-msgstr ""
+msgstr "gesperrt"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/change-management.xml:1052
@@ -4022,6 +4269,9 @@ msgid ""
 "change-move-timeslot.png\" srccredit=\"change-move-timeslot - screenshot\" "
 "scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-move-timeslot.png\" srccredit=\"change-move-timeslot - screenshot\" "
+"scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:1124
@@ -4039,7 +4289,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:1133 en/change-management.xml:1142
 msgid "Attributes of a Work Order"
-msgstr ""
+msgstr "Attribute einer Workorder"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1136
@@ -4052,22 +4302,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1167
 msgid "Short description / name of Work Order."
-msgstr ""
+msgstr "Kurzbeschreibung / Name der WorkOrder."
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1172
 msgid "Instruction"
-msgstr ""
+msgstr "Anweisung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1178
 msgid "Longer text description of the Work Order."
-msgstr ""
+msgstr "Längere Beschreibung der WorkOrder."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1183 en/change-management.xml:1281
 msgid "Work Order Type"
-msgstr ""
+msgstr "WorkOrder-Typ"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1189
@@ -4116,12 +4366,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1291
 msgid "Approval"
-msgstr ""
+msgstr "Freigabe"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1296
 msgid "Work Order"
-msgstr ""
+msgstr "WorkOrder"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1301
@@ -4131,12 +4381,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1306
 msgid "Decision"
-msgstr ""
+msgstr "Entscheidung"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1311
 msgid "PIR (Post Implementation Review)"
-msgstr ""
+msgstr "PIR (Post Implementation Review)"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1316
@@ -4170,6 +4420,9 @@ msgid ""
 "change-workorder-state-machine.png\" srccredit=\"change-workorder-state-"
 "machine - screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-state-machine.png\" srccredit=\"change-workorder-state-"
+"machine - screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1339
@@ -4204,6 +4457,9 @@ msgid ""
 "change-workorder-state-transition.png\" srccredit=\"change-workorder-state-"
 "transition - screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-state-transition.png\" srccredit=\"change-workorder-state-"
+"transition - screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1363
@@ -4237,6 +4493,9 @@ msgid ""
 "change-workorder-agent.png\" srccredit=\"change-workorder-agent - screenshot"
 "\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-agent.png\" srccredit=\"change-workorder-agent - screenshot"
+"\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1386
@@ -4263,6 +4522,9 @@ msgid ""
 "change-workorder-agent-report.png\" srccredit=\"change-workorder-agent-"
 "report - screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-agent-report.png\" srccredit=\"change-workorder-agent-"
+"report - screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1405
@@ -4284,32 +4546,32 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1417
 msgid "CIs"
-msgstr ""
+msgstr "CIs"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/change-management.xml:1422
 msgid "CI-Class Computer"
-msgstr ""
+msgstr "CI-Klasse Computer"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/change-management.xml:1427
 msgid "CI-Class Hardware"
-msgstr ""
+msgstr "CI-Klasse Hardware"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/change-management.xml:1432
 msgid "CI-Class Location"
-msgstr ""
+msgstr "CI-Klasse Standort"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/change-management.xml:1437
 msgid "CI-Class Network"
-msgstr ""
+msgstr "CI-Klasse Netzwerk"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/change-management.xml:1442
 msgid "CI-Class Software"
-msgstr ""
+msgstr "CI-Klasse Software"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1449 en/change-management.xml:1786
@@ -4317,12 +4579,12 @@ msgstr ""
 #: en/change-management.xml:3101 en/change-management.xml:3389
 #: en/change-management.xml:3678
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/change-management.xml:1454
 msgid "Tickets"
-msgstr ""
+msgstr "Tickets"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1459
@@ -4334,7 +4596,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1465
 msgid "Saving a Work Order as a Template"
-msgstr ""
+msgstr "Eine WorkOrder als Vorlage speichern"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1468
@@ -4364,11 +4626,14 @@ msgid ""
 "change-workorder-template.png\" srccredit=\"change-workorder-template - "
 "screenshot\" scale=\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-template.png\" srccredit=\"change-workorder-template - "
+"screenshot\" scale=\"50\" />"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:1489
 msgid "Deleting a Work Order"
-msgstr ""
+msgstr "Eine WorkOrder löschen"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1492
@@ -4389,6 +4654,9 @@ msgid ""
 "change-workorder-delete.png\" srccredit=\"change-workorder-delete - "
 "screenshot\" scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-workorder-delete.png\" srccredit=\"change-workorder-delete - "
+"screenshot\" scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:1509
@@ -4414,6 +4682,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "change-zoom.png\" srccredit=\"change-zoom - screenshot\" scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-zoom.png\" srccredit=\"change-zoom - screenshot\" scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/change-management.xml:1526
@@ -4443,22 +4713,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/change-management.xml:1545
 msgid "Gray - Work Order is &quot;created&quot;"
-msgstr ""
+msgstr "Grau - Workorder wurde &quot;erstellt&quot;"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/change-management.xml:1549
 msgid "Yellow - Work Order is &quot;pending approval&quot;"
-msgstr ""
+msgstr "Gelb - WorkOrder &quot;wartet auf Genehmigung&quot;"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/change-management.xml:1553
 msgid "Green - Work Order is &quot;closed&quot;"
-msgstr ""
+msgstr "Grün - WorkOrder ist &quot;geschlossen&quot;"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/change-management.xml:1557
 msgid "Red - Work Order is &quot;canceled&quot;"
-msgstr ""
+msgstr "Rot - WorkOrder wurde &quot;abgebrochen&quot;"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/change-management.xml:1563
@@ -4472,11 +4742,14 @@ msgid ""
 "change-timeline.png\" srccredit=\"change-timeline - screenshot\" scale="
 "\"50\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-timeline.png\" srccredit=\"change-timeline - screenshot\" scale="
+"\"50\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/change-management.xml:1572
 msgid "Change Views"
-msgstr ""
+msgstr "Änderungsansichten"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/change-management.xml:1575
@@ -4488,7 +4761,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:1580 en/change-management.xml:1602
 msgid "Change Overview"
-msgstr ""
+msgstr "Änderungsübersicht"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1583
@@ -4509,6 +4782,9 @@ msgid ""
 "change-overview.png\" srccredit=\"change-overview - screenshot\" scale="
 "\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-overview.png\" srccredit=\"change-overview - screenshot\" scale="
+"\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1596
@@ -4524,14 +4800,14 @@ msgstr ""
 #: en/change-management.xml:2926 en/change-management.xml:3214
 #: en/change-management.xml:3503
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1621 en/change-management.xml:1945
 #: en/change-management.xml:2177 en/change-management.xml:2936
 #: en/change-management.xml:3224 en/change-management.xml:3513
 msgid "ActualStartTime"
-msgstr ""
+msgstr "Tatsächlicher Start"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1627 en/change-management.xml:1951
@@ -4545,7 +4821,7 @@ msgstr ""
 #: en/change-management.xml:2188 en/change-management.xml:2947
 #: en/change-management.xml:3235 en/change-management.xml:3524
 msgid "ActualEndTime"
-msgstr ""
+msgstr "Tatsächliches Ende"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1638
@@ -4578,7 +4854,7 @@ msgstr ""
 #: en/change-management.xml:2232 en/change-management.xml:2991
 #: en/change-management.xml:3279 en/change-management.xml:3568
 msgid "ChangeNumber"
-msgstr ""
+msgstr "Change Nummer"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1682 en/change-management.xml:2006
@@ -4592,7 +4868,7 @@ msgstr ""
 #: en/change-management.xml:2249 en/change-management.xml:3008
 #: en/change-management.xml:3296 en/change-management.xml:3585
 msgid "Change status"
-msgstr ""
+msgstr "Änderungsstatus"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1698 en/change-management.xml:2022
@@ -4611,7 +4887,7 @@ msgstr ""
 #: en/change-management.xml:3030 en/change-management.xml:3318
 #: en/change-management.xml:3607
 msgid "Name of Change"
-msgstr ""
+msgstr "Name der Änderung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1720 en/change-management.xml:2044
@@ -4619,7 +4895,7 @@ msgstr ""
 #: en/change-management.xml:3035 en/change-management.xml:3323
 #: en/change-management.xml:3612
 msgid "CreateTime"
-msgstr ""
+msgstr "Erstellzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1726 en/change-management.xml:2050
@@ -4639,7 +4915,7 @@ msgstr ""
 #: en/change-management.xml:2298 en/change-management.xml:3057
 #: en/change-management.xml:3345 en/change-management.xml:3634
 msgid "PlannedStartTime"
-msgstr ""
+msgstr "Geplanter Start"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1748 en/change-management.xml:2072
@@ -4653,7 +4929,7 @@ msgstr ""
 #: en/change-management.xml:2309 en/change-management.xml:3068
 #: en/change-management.xml:3356 en/change-management.xml:3645
 msgid "PlannedEndTime"
-msgstr ""
+msgstr "Geplantes Ende"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1759
@@ -4672,7 +4948,7 @@ msgstr ""
 #: en/change-management.xml:2331 en/change-management.xml:3090
 #: en/change-management.xml:3378 en/change-management.xml:3667
 msgid "RequestedTime"
-msgstr ""
+msgstr "Wunschtermin"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1781 en/change-management.xml:2105
@@ -4719,7 +4995,7 @@ msgstr ""
 #: en/change-management.xml:1833 en/change-management.xml:3148
 #: en/change-management.xml:3436
 msgid "requested"
-msgstr ""
+msgstr "Requested"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1836
@@ -4730,7 +5006,7 @@ msgstr ""
 #: en/change-management.xml:1840 en/change-management.xml:3155
 #: en/change-management.xml:3443
 msgid "pending approval"
-msgstr ""
+msgstr "Pending Approval"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1843
@@ -4740,7 +5016,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1848
 msgid "rejected"
-msgstr ""
+msgstr "Rejected"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1851
@@ -4751,7 +5027,7 @@ msgstr ""
 #: en/change-management.xml:1855 en/change-management.xml:3163
 #: en/change-management.xml:3451
 msgid "approved"
-msgstr ""
+msgstr "Approved"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1858
@@ -4762,7 +5038,7 @@ msgstr ""
 #: en/change-management.xml:1862 en/change-management.xml:3170
 #: en/change-management.xml:3458 en/change-management.xml:3803
 msgid "in progress"
-msgstr ""
+msgstr "In Progress"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1865
@@ -4772,7 +5048,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1870
 msgid "successful"
-msgstr ""
+msgstr "Successful"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1873
@@ -4782,7 +5058,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1877
 msgid "failed"
-msgstr ""
+msgstr "Failed"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1880
@@ -4792,7 +5068,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1884
 msgid "canceled"
-msgstr ""
+msgstr "Canceled"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1887
@@ -4802,7 +5078,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1891
 msgid "retracted"
-msgstr ""
+msgstr "Retracted"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:1894
@@ -4812,7 +5088,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:1902 en/change-management.xml:1926
 msgid "Change Schedule"
-msgstr ""
+msgstr "Change Schedule"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1905
@@ -4835,6 +5111,9 @@ msgid ""
 "change-schedule.png\" srccredit=\"change-schedule - screenshot\" scale="
 "\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-schedule.png\" srccredit=\"change-schedule - screenshot\" scale="
+"\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:1920
@@ -4857,7 +5136,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2039
 msgid "Name of the Change"
-msgstr ""
+msgstr "Name der Änderung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2083 en/change-management.xml:2315
@@ -4888,6 +5167,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "change-pir.png\" srccredit=\"change-pir - screenshot\" scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-pir.png\" srccredit=\"change-pir - screenshot\" scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:2153
@@ -4930,7 +5211,7 @@ msgstr ""
 #: en/change-management.xml:2423 en/change-management.xml:2446
 #: en/change-management.xml:2648
 msgid "Template"
-msgstr ""
+msgstr "Vorlage"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:2426
@@ -4952,6 +5233,9 @@ msgid ""
 "change-template.png\" srccredit=\"change-template - screenshot\" scale="
 "\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-template.png\" srccredit=\"change-template - screenshot\" scale="
+"\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:2440
@@ -4963,7 +5247,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2465
 msgid "ChangeBy"
-msgstr ""
+msgstr "Geändert von"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2471
@@ -4973,7 +5257,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2476
 msgid "ChangeTime"
-msgstr ""
+msgstr "Geändert"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2482
@@ -4983,7 +5267,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2487
 msgid "Comment"
-msgstr ""
+msgstr "Kommentar"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2493
@@ -4993,7 +5277,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2498
 msgid "CreateBy"
-msgstr ""
+msgstr "Erstellt von"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2504
@@ -5008,7 +5292,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2520
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2526
@@ -5018,17 +5302,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2531
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2537
 msgid "Name of the template"
-msgstr ""
+msgstr "Name der Vorlage"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2542
 msgid "TemplateID"
-msgstr ""
+msgstr "TemplateID"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2548
@@ -5038,17 +5322,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2553
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2559
 msgid "Type of template"
-msgstr ""
+msgstr "Template-Typ"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2564
 msgid "Valid"
-msgstr ""
+msgstr "Gültig"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2570
@@ -5069,32 +5353,32 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:2586
 msgid "Template Types"
-msgstr ""
+msgstr "Vorlagentypen"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2602
 msgid "ITSMChange"
-msgstr ""
+msgstr "Change"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2605
 msgid "Templates for Changes"
-msgstr ""
+msgstr "Vorlagen für Änderungen"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2610
 msgid "ITSMWorkOrder"
-msgstr ""
+msgstr "Workorder"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2613
 msgid "Templates for Work Orders"
-msgstr ""
+msgstr "Vorlagen für Arbeitsaufträge"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2618
 msgid "CAB"
-msgstr ""
+msgstr "CAB"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2621
@@ -5104,7 +5388,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/change-management.xml:2630
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:2633
@@ -5125,6 +5409,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "change-search.png\" srccredit=\"change-search - screenshot\" scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-search.png\" srccredit=\"change-search - screenshot\" scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2664
@@ -5156,7 +5442,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2689
 msgid "CABAgent"
-msgstr ""
+msgstr "CAB Agent"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2692
@@ -5166,7 +5452,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2697
 msgid "CABCustomer"
-msgstr ""
+msgstr "CAB Kunde"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2700
@@ -5178,7 +5464,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2707
 msgid "Change Description"
-msgstr ""
+msgstr "Änderungsbeschreibung"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2710
@@ -5218,7 +5504,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2739
 msgid "Change Priority"
-msgstr ""
+msgstr "Änderungspriorität"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2742
@@ -5238,7 +5524,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2755
 msgid "Change Category"
-msgstr ""
+msgstr "Change-Kategorie"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2758
@@ -5248,7 +5534,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2763
 msgid "Change State"
-msgstr ""
+msgstr "Änderungsstatus"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2766
@@ -5306,7 +5592,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2822
 msgid "Planned Start Time"
-msgstr ""
+msgstr "Geplante Startzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2825
@@ -5320,7 +5606,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2833
 msgid "Planned End Time"
-msgstr ""
+msgstr "Geplante Endzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2836
@@ -5334,7 +5620,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2844
 msgid "Actual Start Time"
-msgstr ""
+msgstr "Tatsächliche Startzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2847
@@ -5347,7 +5633,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2855
 msgid "Actual End Time"
-msgstr ""
+msgstr "Tatsächliche Endzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2858
@@ -5360,7 +5646,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2866
 msgid "Create Time"
-msgstr ""
+msgstr "Erstellzeit"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:2869
@@ -5402,6 +5688,9 @@ msgid ""
 "change-changemanager.png\" srccredit=\"change-changemanager - screenshot\" "
 "scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-changemanager.png\" srccredit=\"change-changemanager - screenshot\" "
+"scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:2909
@@ -5455,7 +5744,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:3181 en/change-management.xml:3205
 msgid "My Changes"
-msgstr ""
+msgstr "Meine Changes"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:3184
@@ -5476,6 +5765,9 @@ msgid ""
 "change-mychanges.png\" srccredit=\"change-mychanges - screenshot\" scale="
 "\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-mychanges.png\" srccredit=\"change-mychanges - screenshot\" scale="
+"\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:3198
@@ -5511,7 +5803,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:3420
 msgid "My Changes Filter"
-msgstr ""
+msgstr "Mein Änderungsfilter"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3439
@@ -5536,7 +5828,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/change-management.xml:3469 en/change-management.xml:3494
 msgid "My Work Orders"
-msgstr ""
+msgstr "Meine Arbeitsaufträge"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:3472
@@ -5558,6 +5850,9 @@ msgid ""
 "change-myworkorders.png\" srccredit=\"change-myworkorders - screenshot\" "
 "scale=\"35\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"change-myworkorders.png\" srccredit=\"change-myworkorders - screenshot\" "
+"scale=\"35\" />"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/change-management.xml:3486
@@ -5584,7 +5879,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3780
 msgid "created"
-msgstr ""
+msgstr "Created"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3783
@@ -5594,7 +5889,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3788
 msgid "accepted"
-msgstr ""
+msgstr "Accepted"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3791
@@ -5604,7 +5899,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3796
 msgid "ready"
-msgstr ""
+msgstr "Ready"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/change-management.xml:3799
@@ -5709,7 +6004,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/stats.xml:4
 msgid "Service Level Management"
-msgstr ""
+msgstr "Service Level Management"
 
 #. type: Content of: <chapter><para>
 #: en/stats.xml:6
@@ -5730,7 +6025,7 @@ msgstr ""
 #. type: Content of: <chapter><para>
 #: en/stats.xml:14
 msgid "Example of a report overview:"
-msgstr ""
+msgstr "Beispiel einer Berichtsübersicht:"
 
 #. type: Content of: <chapter><para><screenshot><screeninfo>
 #: en/stats.xml:17
@@ -5744,6 +6039,9 @@ msgid ""
 "agent-ticket-stats.png\" scale=\"50\" srccredit=\"agent-ticket-stats - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-ticket-stats.png\" scale=\"50\" srccredit=\"agent-ticket-stats - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><para>
 #: en/stats.xml:21
@@ -5762,6 +6060,9 @@ msgid ""
 "agent-stats-export-import.png\" scale=\"50\" srccredit=\"agent-stats-export-"
 "import - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-stats-export-import.png\" scale=\"50\" srccredit=\"agent-stats-export-"
+"import - screenshot\" />"
 
 #. type: Content of: <chapter><para>
 #: en/stats.xml:28
@@ -5780,6 +6081,9 @@ msgid ""
 "agent-stats-template.png\" scale=\"50\" srccredit=\"agent-stats-template - "
 "screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"agent-stats-template.png\" scale=\"50\" srccredit=\"agent-stats-template - "
+"screenshot\" />"
 
 #. type: Content of: <chapter><para>
 #: en/stats.xml:35
@@ -5800,6 +6104,8 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "pdf-doc-view.png\" scale=\"50\" srccredit=\"pdf-doc-view - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"pdf-doc-view.png\" scale=\"50\" srccredit=\"pdf-doc-view - screenshot\" />"
 
 #. type: Content of: <chapter><para><screenshot><screeninfo>
 #: en/stats.xml:46
@@ -5813,11 +6119,14 @@ msgid ""
 "pdf-doc-overview.png\" scale=\"50\" srccredit=\"pdf-doc-overview - screenshot"
 "\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"pdf-doc-overview.png\" scale=\"50\" srccredit=\"pdf-doc-overview - screenshot"
+"\" />"
 
 #. type: Content of: <chapter><para>
 #: en/stats.xml:50
 msgid "Example of a graphical ticket overview:"
-msgstr ""
+msgstr "Beispiel einer grafischen Ticketübersicht:"
 
 #. type: Content of: <chapter><para><screenshot><screeninfo>
 #: en/stats.xml:53
@@ -5831,6 +6140,9 @@ msgid ""
 "ticket-graphic-overview.png\" scale=\"50\" srccredit=\"ticket-graphic-"
 "overview - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"ticket-graphic-overview.png\" scale=\"50\" srccredit=\"ticket-graphic-"
+"overview - screenshot\" />"
 
 #. type: Content of: <chapter><title>
 #: en/admin-area.xml:4
@@ -5867,12 +6179,12 @@ msgstr ""
 #. type: Content of: <chapter><para><itemizedlist><listitem><para>
 #: en/admin-area.xml:29
 msgid "from OTRS::ITSM 1.0 on"
-msgstr ""
+msgstr "von OTRS::ITSM 1.0 auf"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:32
 msgid "[ General Catalog ]"
-msgstr ""
+msgstr "[ Allgemeiner Katalog ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:35
@@ -5887,17 +6199,17 @@ msgstr ""
 #. type: Content of: <chapter><para><itemizedlist><listitem><para>
 #: en/admin-area.xml:44
 msgid "from OTRS::ITSM 1.1 on"
-msgstr ""
+msgstr "von OTRS::ITSM 1.1 auf"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:47
 msgid "[ Import/Export ]"
-msgstr ""
+msgstr "[ Import/Export ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><para>
 #: en/admin-area.xml:53
 msgid "from OTRS::ITSM 2.0 on"
-msgstr ""
+msgstr "von OTRS::ITSM 2.0 auf"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:56
@@ -5917,37 +6229,37 @@ msgstr ""
 #. type: Content of: <chapter><para><itemizedlist><listitem><para>
 #: en/admin-area.xml:68
 msgid "from OTRS 2.2 on"
-msgstr ""
+msgstr "von OTRS 2.2 auf"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:71
 msgid "[ Type ]"
-msgstr ""
+msgstr "[ Typ ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:74
 msgid "[ Status ]"
-msgstr ""
+msgstr "[ Status ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:77
 msgid "[ Service ]"
-msgstr ""
+msgstr "[ Dienst ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/admin-area.xml:80
 msgid "[ SLA ]"
-msgstr ""
+msgstr "[ SLA ]"
 
 #. type: Content of: <chapter><para><itemizedlist><listitem><para>
 #: en/admin-area.xml:86
 msgid "from OTRS 2.3 on"
-msgstr ""
+msgstr "von OTRS 2.3 auf"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:89 en/admin-area.xml:396
 msgid "[ Priority ]"
-msgstr ""
+msgstr "[ Priorität ]"
 
 #. type: Content of: <chapter><para><screenshot><screeninfo>
 #: en/admin-area.xml:99
@@ -5960,11 +6272,13 @@ msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
 "admin-area.png\" scale=\"50\" srccredit=\"Admin Area - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-area.png\" scale=\"50\" srccredit=\"Admin Area - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/admin-area.xml:104
 msgid "The general catalog"
-msgstr ""
+msgstr "Der allgemeine Katalog"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:106
@@ -6015,7 +6329,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:132
 msgid "[ Computer ]"
-msgstr ""
+msgstr "[ Computer ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:134
@@ -6028,7 +6342,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:141
 msgid "[ Hardware ]"
-msgstr ""
+msgstr "[ Hardware ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:143
@@ -6041,7 +6355,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:149
 msgid "[ Network ]"
-msgstr ""
+msgstr "[ Netzwerk ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:151
@@ -6051,7 +6365,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:155
 msgid "[ Software ]"
-msgstr ""
+msgstr "[ Software ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:156
@@ -6061,7 +6375,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:159
 msgid "[ Locations ]"
-msgstr ""
+msgstr "[ Standorte ]"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/admin-area.xml:160
@@ -6084,6 +6398,9 @@ msgid ""
 "admin-general-catalog-management-class.png\" scale=\"50\" srccredit=\"Admin "
 "General Catalog - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-general-catalog-management-class.png\" scale=\"50\" srccredit=\"Admin "
+"General Catalog - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><warning><para>
 #: en/admin-area.xml:178
@@ -6191,7 +6508,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:191 en/admin-area.xml:336 en/admin-area.xml:355
 msgid "<placeholder type=\"screen\" id=\"0\"/>"
-msgstr ""
+msgstr "<placeholder type=\"screen\" id=\"0\"/>"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:273
@@ -6212,6 +6529,9 @@ msgid ""
 "admin-configitem-management-change.png\" scale=\"50\" srccredit=\"admin-"
 "configitem-management-change - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-configitem-management-change.png\" scale=\"50\" srccredit=\"admin-"
+"configitem-management-change - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><warning><para>
 #: en/admin-area.xml:284
@@ -6247,11 +6567,14 @@ msgid ""
 "admin-configitem-management.png\" scale=\"50\" srccredit=\"admin-configitem-"
 "management - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-configitem-management.png\" scale=\"50\" srccredit=\"admin-configitem-"
+"management - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/admin-area.xml:307
 msgid "Adjustment of ticket state"
-msgstr ""
+msgstr "Anpassung des Ticketstatus"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:309
@@ -6274,6 +6597,9 @@ msgid ""
 "admin-state-management.png\" scale=\"50\" srccredit=\"admin-state-management "
 "- screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-state-management.png\" scale=\"50\" srccredit=\"admin-state-management "
+"- screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:320
@@ -6395,6 +6721,9 @@ msgid ""
 "admin-priority-allocation.png\" scale=\"50\" srccredit=\"admin-priority-"
 "allocation - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-priority-allocation.png\" scale=\"50\" srccredit=\"admin-priority-"
+"allocation - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:414
@@ -6415,11 +6744,14 @@ msgid ""
 "admin-general-catalog-management-priority.png\" scale=\"50\" srccredit="
 "\"admin-general-catalog-management-priority - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-general-catalog-management-priority.png\" scale=\"50\" srccredit="
+"\"admin-general-catalog-management-priority - screenshot\" />"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/admin-area.xml:425
 msgid "Adjustment of ticket priorities"
-msgstr ""
+msgstr "Anpassung von Ticketprioritäten"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:427
@@ -6442,6 +6774,9 @@ msgid ""
 "admin-priority-management.png\" scale=\"50\" srccredit=\"admin-priority-"
 "management\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-priority-management.png\" scale=\"50\" srccredit=\"admin-priority-"
+"management\" />"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/admin-area.xml:439
@@ -6460,7 +6795,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/calendar.xml:4
 msgid "Additional OTRS applications - calendar"
-msgstr ""
+msgstr "Zusätzliche OTRS-Anwendungen - Kalender"
 
 #. type: Content of: <chapter><para>
 #: en/calendar.xml:6
@@ -6482,6 +6817,9 @@ msgid ""
 "admin-sys-config.png\" scale=\"50\" srccredit=\"admin-sys-config - screenshot"
 "\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-sys-config.png\" scale=\"50\" srccredit=\"admin-sys-config - screenshot"
+"\" />"
 
 #. type: Content of: <chapter><para>
 #: en/calendar.xml:17
@@ -6505,11 +6843,14 @@ msgid ""
 "admin-sysconfig-timeworkinghours.png\" scale=\"50\" srccredit=\"admin-"
 "sysconfig-timeworkinghours - screenshot\" />"
 msgstr ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic fileref=\"screenshots/"
+"admin-sysconfig-timeworkinghours.png\" scale=\"50\" srccredit=\"admin-"
+"sysconfig-timeworkinghours - screenshot\" />"
 
 #. type: Content of: <chapter><title>
 #: en/api.xml:4
 msgid "OTRS::ITSM interfaces"
-msgstr ""
+msgstr "OTRS::ITSM Interfaces"
 
 #. type: Content of: <chapter><para>
 #: en/api.xml:6
@@ -6521,27 +6862,27 @@ msgstr ""
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/api.xml:11
 msgid "NAGIOS"
-msgstr ""
+msgstr "NAGIOS"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/api.xml:14
 msgid "SOAP"
-msgstr ""
+msgstr "SOAP"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/api.xml:17
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/api.xml:20
 msgid "E-mail (POP3, IMAP, SMTP)"
-msgstr ""
+msgstr "E-mail (POP3, IMAP, SMTP)"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/api.xml:23
 msgid "CSV Import/Export"
-msgstr ""
+msgstr "CSV Import/Export"
 
 #. type: Content of: <chapter><para>
 #: en/api.xml:27
@@ -6553,12 +6894,12 @@ msgstr ""
 #. type: Content of: <appendix><title>
 #: en/fdl.xml:6
 msgid "GNU Free Documentation License"
-msgstr ""
+msgstr "Free Documentation License"
 
 #. type: Content of: <appendix><para>
 #: en/fdl.xml:12
 msgid "Version 1.1, March 2000"
-msgstr ""
+msgstr "Version 1.1, März 2000"
 
 #. type: Content of: <appendix><blockquote><para>
 #: en/fdl.xml:15
@@ -6567,11 +6908,15 @@ msgid ""
 "330, Boston, MA 02111-1307 USA Everyone is permitted to copy and distribute "
 "verbatim copies of this license document, but changing it is not allowed."
 msgstr ""
+"Copyright (C) 2000 Free Software Foundation, Inc. 59 Temple Place, Suite "
+"330, Boston, MA 02111-1307 USA Jeder ist berechtigt wörtliche Kopien dieser "
+"Lizenzdokumentes zu erstellen und diese weiterzugeben. Es ist jedoch "
+"verboten, Änderungen vorzunehmen."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:22
 msgid "PREAMBLE"
-msgstr ""
+msgstr "PREAMBLE"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:24
@@ -6592,6 +6937,10 @@ msgid ""
 "GNU General Public License, which is a copyleft license designed for free "
 "software."
 msgstr ""
+"This License is a kind of \"copyleft\", which means that derivative works of "
+"the document must themselves be free in the same sense.  It complements the "
+"GNU General Public License, which is a copyleft license designed for free "
+"software."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:38
@@ -6608,7 +6957,7 @@ msgstr ""
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:49
 msgid "APPLICABILITY AND DEFINITIONS"
-msgstr ""
+msgstr "APPLICABILITY AND DEFINITIONS"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:51
@@ -6618,6 +6967,10 @@ msgid ""
 "of this License.  The \"Document\", below, refers to any such manual or "
 "work.  Any member of the public is a licensee, and is addressed as \"you\"."
 msgstr ""
+"This License applies to any manual or other work that contains a notice "
+"placed by the copyright holder saying it can be distributed under the terms "
+"of this License.  The \"Document\", below, refers to any such manual or "
+"work.  Any member of the public is a licensee, and is addressed as \"you\"."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:57
@@ -6626,6 +6979,9 @@ msgid ""
 "Document or a portion of it, either copied verbatim, or with modifications "
 "and/or translated into another language."
 msgstr ""
+"A \"Modified Version\" of the Document means any work containing the "
+"Document or a portion of it, either copied verbatim, or with modifications "
+"and/or translated into another language."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:62
@@ -6656,6 +7012,9 @@ msgid ""
 "Front-Cover Texts or Back-Cover Texts, in the notice that says that the "
 "Document is released under this License."
 msgstr ""
+"The \"Cover Texts\" are certain short passages of text that are listed, as "
+"Front-Cover Texts or Back-Cover Texts, in the notice that says that the "
+"Document is released under this License."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:84
@@ -6696,11 +7055,17 @@ msgid ""
 "prominent appearance of the work's title, preceding the beginning of the "
 "body of the text."
 msgstr ""
+"The \"Title Page\" means, for a printed book, the title page itself, plus "
+"such following pages as are needed to hold, legibly, the material this "
+"License requires to appear in the title page.  For works in formats which do "
+"not have any title page as such, \"Title Page\" means the text near the most "
+"prominent appearance of the work's title, preceding the beginning of the "
+"body of the text."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:117
 msgid "VERBATIM COPYING"
-msgstr ""
+msgstr "VERBATIM COPYING"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:119
@@ -6722,11 +7087,13 @@ msgid ""
 "You may also lend copies, under the same conditions stated above, and you "
 "may publicly display copies."
 msgstr ""
+"You may also lend copies, under the same conditions stated above, and you "
+"may publicly display copies."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:135
 msgid "COPYING IN QUANTITY"
-msgstr ""
+msgstr "COPYING IN QUANTITY"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:137
@@ -6742,6 +7109,16 @@ msgid ""
 "covers, as long as they preserve the title of the Document and satisfy these "
 "conditions, can be treated as verbatim copying in other respects."
 msgstr ""
+"If you publish printed copies of the Document numbering more than 100, and "
+"the Document's license notice requires Cover Texts, you must enclose the "
+"copies in covers that carry, clearly and legibly, all these Cover Texts: "
+"Front-Cover Texts on the front cover, and Back-Cover Texts on the back "
+"cover.  Both covers must also clearly and legibly identify you as the "
+"publisher of these copies.  The front cover must present the full title with "
+"all words of the title equally prominent and visible.  You may add other "
+"material on the covers in addition.  Copying with changes limited to the "
+"covers, as long as they preserve the title of the Document and satisfy these "
+"conditions, can be treated as verbatim copying in other respects."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:150
@@ -6750,6 +7127,9 @@ msgid ""
 "you should put the first ones listed (as many as fit reasonably) on the "
 "actual cover, and continue the rest onto adjacent pages."
 msgstr ""
+"If the required texts for either cover are too voluminous to fit legibly, "
+"you should put the first ones listed (as many as fit reasonably) on the "
+"actual cover, and continue the rest onto adjacent pages."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:155
@@ -6775,11 +7155,14 @@ msgid ""
 "Document well before redistributing any large number of copies, to give them "
 "a chance to provide you with an updated version of the Document."
 msgstr ""
+"It is requested, but not required, that you contact the authors of the "
+"Document well before redistributing any large number of copies, to give them "
+"a chance to provide you with an updated version of the Document."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:177
 msgid "MODIFICATIONS"
-msgstr ""
+msgstr "MODIFICATIONS"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:179
@@ -6791,6 +7174,12 @@ msgid ""
 "Modified Version to whoever possesses a copy of it.  In addition, you must "
 "do these things in the Modified Version:"
 msgstr ""
+"You may copy and distribute a Modified Version of the Document under the "
+"conditions of sections 2 and 3 above, provided that you release the Modified "
+"Version under precisely this License, with the Modified Version filling the "
+"role of the Document, thus licensing distribution and modification of the "
+"Modified Version to whoever possesses a copy of it.  In addition, you must "
+"do these things in the Modified Version:"
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:188
@@ -6801,6 +7190,11 @@ msgid ""
 "the same title as a previous version if the original publisher of that "
 "version gives permission."
 msgstr ""
+"Use in the Title Page (and on the covers, if any) a title distinct from that "
+"of the Document, and from those of previous versions (which should, if there "
+"were any, be listed in the History section of the Document).  You may use "
+"the same title as a previous version if the original publisher of that "
+"version gives permission."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:196
@@ -6810,6 +7204,10 @@ msgid ""
 "together with at least five of the principal authors of the Document (all of "
 "its principal authors, if it has less than five)."
 msgstr ""
+"List on the Title Page, as authors, one or more persons or entities "
+"responsible for authorship of the modifications in the Modified Version, "
+"together with at least five of the principal authors of the Document (all of "
+"its principal authors, if it has less than five)."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:204
@@ -6817,11 +7215,13 @@ msgid ""
 "State on the Title page the name of the publisher of the Modified Version, "
 "as the publisher."
 msgstr ""
+"State on the Title page the name of the publisher of the Modified Version, "
+"as the publisher."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:209
 msgid "Preserve all the copyright notices of the Document."
-msgstr ""
+msgstr "Preserve all the copyright notices of the Document."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:212
@@ -6829,6 +7229,8 @@ msgid ""
 "Add an appropriate copyright notice for your modifications adjacent to the "
 "other copyright notices."
 msgstr ""
+"Add an appropriate copyright notice for your modifications adjacent to the "
+"other copyright notices."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:217
@@ -6837,6 +7239,9 @@ msgid ""
 "the public permission to use the Modified Version under the terms of this "
 "License, in the form shown in the Addendum below."
 msgstr ""
+"Include, immediately after the copyright notices, a license notice giving "
+"the public permission to use the Modified Version under the terms of this "
+"License, in the form shown in the Addendum below."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:223
@@ -6844,11 +7249,13 @@ msgid ""
 "Preserve in that license notice the full lists of Invariant Sections and "
 "required Cover Texts given in the Document's license notice."
 msgstr ""
+"Preserve in that license notice the full lists of Invariant Sections and "
+"required Cover Texts given in the Document's license notice."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:228
 msgid "Include an unaltered copy of this License."
-msgstr ""
+msgstr "Include an unaltered copy of this License."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:231
@@ -6872,6 +7279,13 @@ msgid ""
 "Document itself, or if the original publisher of the version it refers to "
 "gives permission."
 msgstr ""
+"Preserve the network location, if any, given in the Document for public "
+"access to a Transparent copy of the Document, and likewise the network "
+"locations given in the Document for previous versions it was based on.  "
+"These may be placed in the \"History\" section.  You may omit a network "
+"location for a work that was published at least four years before the "
+"Document itself, or if the original publisher of the version it refers to "
+"gives permission."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:251
@@ -6880,6 +7294,9 @@ msgid ""
 "the section's title, and preserve in the section all the substance and tone "
 "of each of the contributor acknowledgements and/or dedications given therein."
 msgstr ""
+"In any section entitled \"Acknowledgements\" or \"Dedications\", preserve "
+"the section's title, and preserve in the section all the substance and tone "
+"of each of the contributor acknowledgements and/or dedications given therein."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:258
@@ -6888,6 +7305,9 @@ msgid ""
 "and in their titles.  Section numbers or the equivalent are not considered "
 "part of the section titles."
 msgstr ""
+"Preserve all the Invariant Sections of the Document, unaltered in their text "
+"and in their titles.  Section numbers or the equivalent are not considered "
+"part of the section titles."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:264
@@ -6895,6 +7315,8 @@ msgid ""
 "Delete any section entitled \"Endorsements\".  Such a section may not be "
 "included in the Modified Version."
 msgstr ""
+"Delete any section entitled \"Endorsements\".  Such a section may not be "
+"included in the Modified Version."
 
 #. type: Content of: <appendix><sect1><orderedlist><listitem><para>
 #: en/fdl.xml:269
@@ -6902,6 +7324,8 @@ msgid ""
 "Do not retitle any existing section as \"Endorsements\" or to conflict in "
 "title with any Invariant Section."
 msgstr ""
+"Do not retitle any existing section as \"Endorsements\" or to conflict in "
+"title with any Invariant Section."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:275
@@ -6913,6 +7337,12 @@ msgid ""
 "in the Modified Version's license notice.  These titles must be distinct "
 "from any other section titles."
 msgstr ""
+"If the Modified Version includes new front-matter sections or appendices "
+"that qualify as Secondary Sections and contain no material copied from the "
+"Document, you may at your option designate some or all of these sections as "
+"invariant.  To do this, add their titles to the list of Invariant Sections "
+"in the Modified Version's license notice.  These titles must be distinct "
+"from any other section titles."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:283
@@ -6922,6 +7352,10 @@ msgid ""
 "example, statements of peer review or that the text has been approved by an "
 "organization as the authoritative definition of a standard."
 msgstr ""
+"You may add a section entitled \"Endorsements\", provided it contains "
+"nothing but endorsements of your Modified Version by various parties--for "
+"example, statements of peer review or that the text has been approved by an "
+"organization as the authoritative definition of a standard."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:289
@@ -6936,6 +7370,15 @@ msgid ""
 "old one, on explicit permission from the previous publisher that added the "
 "old one."
 msgstr ""
+"You may add a passage of up to five words as a Front-Cover Text, and a "
+"passage of up to 25 words as a Back-Cover Text, to the end of the list of "
+"Cover Texts in the Modified Version.  Only one passage of Front-Cover Text "
+"and one of Back-Cover Text may be added by (or through arrangements made by) "
+"any one entity.  If the Document already includes a cover text for the same "
+"cover, previously added by you or by arrangement made by the same entity you "
+"are acting on behalf of, you may not add another; but you may replace the "
+"old one, on explicit permission from the previous publisher that added the "
+"old one."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:300
@@ -6944,11 +7387,14 @@ msgid ""
 "permission to use their names for publicity for or to assert or imply "
 "endorsement of any Modified Version."
 msgstr ""
+"The author(s) and publisher(s) of the Document do not by this License give "
+"permission to use their names for publicity for or to assert or imply "
+"endorsement of any Modified Version."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:306
 msgid "COMBINING DOCUMENTS"
-msgstr ""
+msgstr "COMBINING DOCUMENTS"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:308
@@ -6959,6 +7405,11 @@ msgid ""
 "of all of the original documents, unmodified, and list them all as Invariant "
 "Sections of your combined work in its license notice."
 msgstr ""
+"You may combine the Document with other documents released under this "
+"License, under the terms defined in section 4 above for modified versions, "
+"provided that you include in the combination all of the Invariant Sections "
+"of all of the original documents, unmodified, and list them all as Invariant "
+"Sections of your combined work in its license notice."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:315
@@ -6972,6 +7423,14 @@ msgid ""
 "titles in the list of Invariant Sections in the license notice of the "
 "combined work."
 msgstr ""
+"The combined work need only contain one copy of this License, and multiple "
+"identical Invariant Sections may be replaced with a single copy.  If there "
+"are multiple Invariant Sections with the same name but different contents, "
+"make the title of each such section unique by adding at the end of it, in "
+"parentheses, the name of the original author or publisher of that section if "
+"known, or else a unique number.  Make the same adjustment to the section "
+"titles in the list of Invariant Sections in the license notice of the "
+"combined work."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:325
@@ -6986,7 +7445,7 @@ msgstr ""
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:333
 msgid "COLLECTIONS OF DOCUMENTS"
-msgstr ""
+msgstr "COLLECTIONS OF DOCUMENTS"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:335
@@ -7006,11 +7465,15 @@ msgid ""
 "into the extracted document, and follow this License in all other respects "
 "regarding verbatim copying of that document."
 msgstr ""
+"You may extract a single document from such a collection, and distribute it "
+"individually under this License, provided you insert a copy of this License "
+"into the extracted document, and follow this License in all other respects "
+"regarding verbatim copying of that document."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:350
 msgid "AGGREGATION WITH INDEPENDENT WORKS"
-msgstr ""
+msgstr "AGGREGATION WITH INDEPENDENT WORKS"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:352
@@ -7038,7 +7501,7 @@ msgstr ""
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:371
 msgid "TRANSLATION"
-msgstr ""
+msgstr "Übersetzung"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:373
@@ -7057,7 +7520,7 @@ msgstr ""
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:387
 msgid "TERMINATION"
-msgstr ""
+msgstr "TERMINATION"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:389
@@ -7074,7 +7537,7 @@ msgstr ""
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:400
 msgid "FUTURE REVISIONS OF THIS LICENSE"
-msgstr ""
+msgstr "FUTURE REVISIONS OF THIS LICENSE"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:402
@@ -7085,6 +7548,11 @@ msgid ""
 "address new problems or concerns.  See <ulink url=\"http://www.gnu.org/"
 "copyleft/\">http://www.gnu.org/copyleft/</ulink>."
 msgstr ""
+"The Free Software Foundation may publish new, revised versions of the GNU "
+"Free Documentation License from time to time.  Such new versions will be "
+"similar in spirit to the present version, but may differ in detail to "
+"address new problems or concerns.  See <ulink url=\"http://www.gnu.org/"
+"copyleft/\">http://www.gnu.org/copyleft/</ulink>."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:409
@@ -7098,11 +7566,19 @@ msgid ""
 "License, you may choose any version ever published (not as a draft) by the "
 "Free Software Foundation."
 msgstr ""
+"Each version of the License is given a distinguishing version number.  If "
+"the Document specifies that a particular numbered version of this License "
+"\"or any later version\" applies to it, you have the option of following the "
+"terms and conditions either of that specified version or of any later "
+"version that has been published (not as a draft) by the Free Software "
+"Foundation.  If the Document does not specify a version number of this "
+"License, you may choose any version ever published (not as a draft) by the "
+"Free Software Foundation."
 
 #. type: Content of: <appendix><sect1><title>
 #: en/fdl.xml:421
 msgid "How to use this License for your documents"
-msgstr ""
+msgstr "How to use this License for your documents"
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:423
@@ -7111,6 +7587,9 @@ msgid ""
 "License in the document and put the following copyright and license notices "
 "just after the title page:"
 msgstr ""
+"To use this License in a document you have written, include a copy of the "
+"License in the document and put the following copyright and license notices "
+"just after the title page:"
 
 #. type: Content of: <appendix><sect1><blockquote><para>
 #: en/fdl.xml:428
@@ -7123,6 +7602,13 @@ msgid ""
 "copy of the license is included in the section entitled \"GNU Free "
 "Documentation License\"."
 msgstr ""
+"Copyright (c)  YEAR YOUR NAME.  Permission is granted to copy, distribute "
+"and/or modify this document under the terms of the GNU Free Documentation "
+"License, Version 1.1 or any later version published by the Free Software "
+"Foundation; with the Invariant Sections being LIST THEIR TITLES, with the "
+"Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.  A "
+"copy of the license is included in the section entitled \"GNU Free "
+"Documentation License\"."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:438
@@ -7132,6 +7618,10 @@ msgid ""
 "Texts, write \"no Front-Cover Texts\" instead of \"Front-Cover Texts being "
 "LIST\"; likewise for Back-Cover Texts."
 msgstr ""
+"If you have no Invariant Sections, write \"with no Invariant Sections\" "
+"instead of saying which ones are invariant.  If you have no Front-Cover "
+"Texts, write \"no Front-Cover Texts\" instead of \"Front-Cover Texts being "
+"LIST\"; likewise for Back-Cover Texts."
 
 #. type: Content of: <appendix><sect1><para>
 #: en/fdl.xml:444
@@ -7141,3 +7631,7 @@ msgid ""
 "license, such as the GNU General Public License, to permit their use in free "
 "software."
 msgstr ""
+"If your document contains nontrivial examples of program code, we recommend "
+"releasing these examples in parallel under your choice of free software "
+"license, such as the GNU General Public License, to permit their use in free "
+"software."

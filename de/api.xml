@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>OTRS::ITSM interfaces</title>
+    <title>OTRS::ITSM Interfaces</title>
     <para>
         The following partly-generic interfaces can be used for data exchange
 between OTRS::ITSM and other (ITSM) software products:

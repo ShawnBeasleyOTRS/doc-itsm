@@ -62,42 +62,42 @@ OTRS::ITSM независимо, делает затруднительным п�
         <sect2 id="otrs-database">
             <title>OTRS Framework</title>
             <para>
-                For better readability, the diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog/Общий каталог</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
             </para>
         </sect2>
@@ -208,7 +208,7 @@ ITSM использует для управления уведомлениями
                     </listitem>
                     <listitem>
                         <para>
-                            = delivery time for service requests (&quot;delivery time&quot;)
+                            = срок решения для сервисных запросов (&quot;срок решения&quot;)
                         </para>
                     </listitem>
                 </itemizedlist>

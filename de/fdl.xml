@@ -3,7 +3,7 @@
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <appendix id="gfdl">
-<title>GNU Free Documentation License</title>
+<title>Free Documentation License</title>
 
 
 
@@ -13,12 +13,13 @@
 <!-- sect1>
 
     <title>GNU Free Documentation License</title -->
-<para>Version 1.1, March 2000</para>
+<para>Version 1.1, März 2000</para>
 
     <blockquote>
-        <para>Copyright (C) 2000 Free Software Foundation, Inc.  59 Temple Place, Suite
-330, Boston, MA 02111-1307 USA Everyone is permitted to copy and distribute
-verbatim copies of this license document, but changing it is not allowed.</para>
+        <para>Copyright (C) 2000 Free Software Foundation, Inc. 59 Temple Place, Suite
+330, Boston, MA 02111-1307 USA Jeder ist berechtigt wörtliche Kopien dieser
+Lizenzdokumentes zu erstellen und diese weiterzugeben. Es ist jedoch
+verboten, Änderungen vorzunehmen.</para>
     </blockquote>
 
     <sect1 label="0">
@@ -326,7 +327,7 @@ covers around the whole aggregate.</para>
     </sect1>
 
     <sect1 label="8">
-    <title>TRANSLATION</title>
+    <title>Übersetzung</title>
 
     <para>Translation is considered a kind of modification, so you may distribute
 translations of the Document under the terms of section 4.  Replacing

@@ -19,26 +19,26 @@ much as possible.</para>
 fileref="screenshots/process-schema.png" scale="50"
 srccredit="process-schema - screenshot" /></screenshot>
     </para>
-    <para>Source: ILX Group (www.ilxgroup.com)</para>
+    <para>Quelle: ILX Group (www.ilxgroup.com)</para>
     <sect1>
-    <title>Ticket creation, classification and prioritization</title>
+    <title>Ticketerstellung, Klassifizierung und Priorisierung</title>
     <para>At ticket creation -in our case a phone ticket- the following information
 can be registered in addition to the information implemented in OTRS:</para>
     <itemizedlist>
         <listitem>
-        <para>ticket type</para>
+        <para>Tickettyp</para>
         </listitem>
         <listitem>
-        <para>relevant service</para>
+        <para>relevanter Dienst</para>
         </listitem>
         <listitem>
         <para>SLA</para>
         </listitem>
         <listitem>
-        <para>impact</para>
+        <para>Auswirkung</para>
         </listitem>
         <listitem>
-        <para>priority</para>
+        <para>Priorität</para>
         </listitem>
     </itemizedlist>
     <para>Depending on the service selected, impact and priority are automatically
@@ -105,7 +105,7 @@ queue design.
     </warning>
     </sect1>
     <sect1>
-    <title>Change ticket data</title>
+    <title>Ticketdaten ändern</title>
     <para>All changes to the ticket can be effected just as in OTRS using the links
 below the navigation bar. </para>
     <para>
@@ -116,7 +116,7 @@ srccredit="agent-ticket-data-change - screenshot" /></screenshot>
     </para>
     </sect1>
     <sect1>
-    <title>Approvals and decisions</title>
+    <title>Genehmigungen und Entscheidungen</title>
     <para>In many cases, especially with service requests, decisions have to be taken
 before requests can be implemented. Depending on the competence framework,
 decisions are either taken directly by the service staff (standard changes)

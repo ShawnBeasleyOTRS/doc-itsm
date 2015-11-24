@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Commercial services for OTRS::ITSM</title>
+    <title>Kommerzielle Dienste für OTRS::ITSM</title>
     <para>OTRS AG is the manufacturer and source code owner of OTRS and all modules
 based upon it (e.g. OTRS::ITSM) and a professional service provider. Unlike
 those of proprietary software providers, OTRS AG's business model is not
@@ -24,7 +24,7 @@ engineering, development, and ITIL compliant IT operations and
 support. Security and quality management for your project complement our
 service portfolio. You benefit from an extensive and quick knowledge
 transfer. </para>
-        <para>Our services include:</para>
+        <para>Unsere Dienste beinhalten:</para>
         <itemizedlist>
             <listitem>
                 <para>Identification of your requirements and assistance with product evaluation</para>
@@ -41,7 +41,7 @@ structures</para>
                 <para>ITIL trainings and coaching</para>
             </listitem>
             <listitem>
-                <para>ITIL implementation</para>
+                <para>ITIL-Implementation</para>
             </listitem>
             <listitem>
                 <para>Compilation of IT service catalogs</para>
@@ -78,7 +78,7 @@ application support</para>
         </itemizedlist>
     </sect1>
     <sect1>
-        <title>Software development</title>
+        <title>Softwareentwicklung</title>
         <para>One significant advantage of the open-source software OTRS::ITSM is its
 flexibility regarding potential extensions of the functional range. No
 "vendor lock-in", a typical risk of proprietary systems and protracted
@@ -95,7 +95,7 @@ more powerful with the features "born" by you and other customers, and you
 save the cost of porting your features to new releases. </para>
     </sect1>
     <sect1>
-        <title>Application support</title>
+        <title>Anwendungsunterstützung</title>
         <para>The decision for an IT service management solution is an investment into the
 future which should not be underestimated, even if you opt for open-source
 software. A competent consulting partner is critical for the success of such
