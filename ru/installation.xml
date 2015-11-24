@@ -3,9 +3,9 @@
 <chapter>
     <title>Установка OTRS::ITSM</title>
     <para>
-        Обратите внимание, что до установки OTRS::ITSM необходимо выполнить
-установку OTRS 3.3. Вся необходимая информация, варианты и процедуры
-установки описаны в руководстве администратора OTRS.
+        Please note that the OTRS framework 3.3 must be installed prior to the
+installation of OTRS::ITSM. All necessary information, options and
+installation procedures are depicted in the OTRS Admin Manual.
     </para>
 
     <sect1>
@@ -65,8 +65,7 @@ url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
         <para>
             <screenshot>
 <screeninfo>Менеджер пакетов</screeninfo> <graphic
-fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin
-Package Manager - screenshot" /></screenshot>
+fileref="screenshots/admin-packagemanager.png" scale="50" /></screenshot>
         </para>
 
     </sect1>

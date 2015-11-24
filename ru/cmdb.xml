@@ -62,42 +62,42 @@ OTRS::ITSM независимо, делает затруднительным п�
         <sect2 id="otrs-database">
             <title>OTRS Framework</title>
             <para>
-                For better readability, the diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog/Общий каталог</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                For better readability, this diagram can be found at: <ulink
+                В более наглядном/читаемом виде схемы можно найти в: <ulink
 url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
             </para>
         </sect2>
@@ -129,17 +129,18 @@ url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database
 он отображается при создании заявки
         </para>
         <para>
-            <screenshot>
-<screeninfo>Агент-Телефонная заявка</screeninfo> <graphic
-fileref="screenshots/agent-phoneticket.png" scale="50"
-srccredit="agent-phoneticket - screenshot" /></screenshot>
+            <figure>
+                <title>Агент-Телефонная заявка</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic></screenshot></figure>
         </para>
         <para>и в панели администрирования. </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование-Управление сервисами-Обзор</screeninfo> <graphic
-fileref="screenshots/admin-service-managment-overview.png" scale="50"
-srccredit="admin-service-managment-overview - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование-Управление сервисами-Обзор</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-service-managment-overview.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -151,17 +152,19 @@ srccredit="admin-service-managment-overview - screenshot" /></screenshot>
 интерфейсе администратора.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование-SLA-Обзор</screeninfo> <graphic
-fileref="screenshots/admin-sla-management-overview.png" scale="50"
-srccredit="admin-sla-management-overview - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование-SLA-Обзор</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-sla-management-overview.png"></graphic></screenshot></figure>
         </para>
         <para>Для каждого SLA могут быть указаны следующие параметры: </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование-SLA-Управление-Редактировать</screeninfo> <graphic
-fileref="screenshots/admin-sla-management-edit.png" scale="50"
-srccredit="admin-sla-management-edit - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование-SLA-Управление-Редактировать</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-sla-management-edit.png"></graphic></screenshot></figure>
         </para>
         <para>
             OTRS::ITSM имеет возможность вести до 99 различных календарей для описания
@@ -208,7 +211,7 @@ ITSM использует для управления уведомлениями
                     </listitem>
                     <listitem>
                         <para>
-                            = delivery time for service requests (&quot;delivery time&quot;)
+                            = срок решения для сервисных запросов (&quot;срок решения&quot;)
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -236,10 +239,10 @@ ITSM использует для управления уведомлениями
         <para>Важные значения времени в OTRS::ITSM основаны на понятии &quot;жизненный
 цикл ITIL&quot;:  </para>
         <para>
-            <screenshot>
-<screeninfo>Инцидент-жизненный цикл</screeninfo> <graphic
-fileref="screenshots/incident-lifecycle.png" scale="50"
-srccredit="incident-lifecycle - screenshot" /></screenshot>
+            <figure>
+                <title>Инцидент-жизненный цикл</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic></screenshot></figure>
         </para>
         <para>Источник: OGC, ITIL Service Support Documentation</para>
         <para>
@@ -257,17 +260,19 @@ srccredit="incident-lifecycle - screenshot" /></screenshot>
 состоянием CI:
         </para>
         <para>
-            <screenshot>
-<screeninfo>agent-configuration-items</screeninfo> <graphic
-fileref="screenshots/agent-configuration-items.png" scale="50"
-srccredit="agent-configuration-items - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configuration-items</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configuration-items.png"></graphic></screenshot></figure>
         </para>
         <para>Пример отображения отдельной CI:</para>
         <para>
-            <screenshot>
-<screeninfo>agent-configitem-management-link</screeninfo> <graphic
-fileref="screenshots/agent-configitem-management-link.png" scale="50"
-srccredit="agent-configitem-management-link - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configitem-management-link</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configitem-management-link.png"></graphic></screenshot></figure>
         </para>
         <para>
             Графический пример связи между CI. OTRS различает двунаправленные и
@@ -276,15 +281,16 @@ OTRS::ITSM автоматически создает соответствующ�
         </para>
         <para>OTRS::ITSM стандартно предлагает семь типов связи:</para>
         <para>
-            <screenshot>
-<screeninfo>agent-configitem-management-link2</screeninfo> <graphic
-fileref="screenshots/agent-configitem-management-link2.png" scale="50"
-srccredit="agent-configitem-management-link2 - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configitem-management-link2</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configitem-management-link2.png"></graphic></screenshot></figure>
         </para>
         <para>
-            Для связывания, сначала выбирается исходный объект, затем задается тип связи
-и, наконец выбирается целевой объект. Целевой объект можно искать по
-различным критериям:
+            To link objects, the source object is chosen first, then the link type is
+defined and the target object chosen. The target object can be searched for
+using various criteria.
         </para>
     </sect1>
 
@@ -338,10 +344,11 @@ e.g. change management, will be implemented in such a way. Ticket types such
 as RfC (&quot;Request for Change&quot;) could be created.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование - Настройки заявок - Типы</screeninfo> <graphic
-fileref="screenshots/admin-type-management.png" scale="50"
-srccredit="admin-type-management - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование - Настройки заявок - Типы</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-type-management.png"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>

@@ -5,9 +5,9 @@
 <book lang='en'>
 
     <bookinfo>
-        <title>OTRS::ITSM 4</title>
-        <copyright> <year>2003-2014</year> <holder>OTRS AG</holder> </copyright>
-<date>2014-11-24</date>
+        <title>OTRS::ITSM 5</title>
+        <copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright>
+<date>2015-11-24</date>
 
         <legalnotice>
             <para>
@@ -16,6 +16,13 @@
             <para>
                 Это руководство может быть скопировано целиком или частично, при условии,
 что это уведомление об авторских правах будет включено в каждую копию.
+            </para>
+            <para>
+                The source code of this document can be found at <ulink
+url="https://otrs.github.io">github</ulink>, in the repository <ulink
+url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>.  Contributions are
+more than welcome.  You can also help translating it to your language at
+<ulink url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
             </para>
             <para>
                 UNIX является зарегистрированной торговой маркой компании X/Open Company
@@ -44,8 +51,8 @@ registered trademarks of MySQL AB.
 
         <revhistory>
             <revision>
-                <revnumber>4.0.1</revnumber>
-                <date>11/24/2014</date>
+                <revnumber>5.0.1</revnumber>
+                <date>11/24/2015</date>
             </revision>
         </revhistory>
 

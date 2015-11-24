@@ -1,259 +1,293 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>OTRS::ITSM - OTRS for IT service management</title>
+    <title>OTRS::ITSM - OTRS für das  IT Service-Management</title>
     <para>
-        IT is expected to consistently deliver high service quality in an
-increasingly complex field. In this context, effective and efficient
-incident and problem management are indispensable. However, IT service
-management remains a task almost impossible if there is no consistent and
-up-to-date database with information about the state and configuration of
-the IT infrastructure.
+        Es wird erwartet, dass die IT beständig qualitativ hochwertige
+Dienstleistungen in einem zunehmend komplexer werdenden Umfeld erbringt. In
+diesem Zusammenhang ist ein leistungsfähiges und wirkungsvolles Incident-
+und Problem Management erforderlich. IT Service Management ist jedoch eine
+beinahe unlösbare Aufgabe, wenn keine aktuelle und konsistente Datenbank
+vorhanden ist, in der Informationen über den Status und die Konfiguration
+der IT-Infrastruktur gepflegt werden.
     </para>
     <para>
-        The IT Infrastructure Library®, short ITIL®, is a series of books published
-by the United Kingdom's Office of Government Commerce (OGC), which
-generically combine best practice approaches to designing, providing,
-operating and managing IT services. ITIL does not focus on the technology
-but the services provided by the IT and comprises information on processes,
-roles, responsibilities, potential problem fields/resolutions, and
-definitions of terms.
+        Die IT Infrastructure Library®, kurz ITIL®, ist eine Buchreihe,
+herausgegeben vom United Kingdom's Office of Government Commerce (OGC), die
+generisch Best-Practice-Ansätze für das Design, die Bereitstellung, den
+Betrieb und das Management von IT Dienstleistungen beschreibt. ITIL®
+fokussiert nicht auf die Technologie selbst, sondern auf die
+Dienstleistungen der IT und umfasst Informationen über Prozesse, Rollen,
+Verantwortlichkeiten, potenzielle Problembereiche/Lösungsansätze und
+Definitionen von Ausdrucksweisen.
     </para>
     <para>
-        ITIL has established itself as de facto standard over the past years and its
-circulation in IT organizations has contributed considerably to the
-development of a collective awareness and consistent terminology for IT
-service management. However, ITIL only describes &quot;who should do
-what&quot; and what should be considered along the way. In order to cover as
-wide a user group as possible, it does not or to a little extent address the
-issue of how to do things.  Therefore, no implementable information is given
-for particular industries, companies, or manufacturers.
+        ITIL® hat sich in den vergangenen Jahre als de facto Standard
+durchgesetzt. Die Verbreitung in IT Organisationen hat zur Entwicklung einer
+kollektiven Wahrnehmung des IT Service Management und zur Schaffung einer
+einheitlichen Terminologie beigetragen. ITIL® beschreibt jedoch lediglich
+&quot;wer etwas tun sollte und was er tun sollte&quot; und was man während
+dieser Tätigkeit bedenken sollte. Um so viele Benutzergruppen wie möglich
+abzudecken, geht es nicht, oder meistens nur zu einem geringen Anteil,
+darum, zu beschreiben, was im Einzelfall getan werden muss. Aus diesem Grund
+gibt es keine direkt anwendbaren Informationen für spezielle Branchen,
+Firmen oder Hersteller.
     </para>
     <para>
-        In December 2005, the ITIL based ISO/IEC 20000 industry standard for IT
-service management was published. IT organizations can apply for ISO/IEC
-20000 certification and prove their conformity.
+        Im Dezember 2005 wurde der ITIL®-basierte ISO/IEC 20000 Industriestandard
+veröffentlicht. IT-Organisationen können sich zur ISO/IEC 20000
+Zertifizierung anmelden und ihre Konformität unter Beweis stellen.
     </para>
     <para>
-        The continuing boom caused demand for IT service management tools, which
-could represent the ITIL-based processes. So far, only proprietary solutions
-existed. Because of their considerable complexity, most of these tools are
-only affordable for large companies and effective in large IT departments.
+        Die ständige Weiterverbreitung verursachte eine Nachfrage nach IT Service
+Management Lösungen, die in der Lage waren, die  ITIL®-basierten Prozesse
+abzubilden. Bis dahin gabe es lediglich proprietäre Lösungen, die sich,
+aufgrund ihrer ausserordentlichen Komplexität, nur grosse Unternehmungen
+leisten konnten, und die nur in grossen Abteilungen wirkungsvoll einsetzbar
+waren.
     </para>
     <para>
-        The development of OTRS::ITSM was started as a result of the great success
-of the OTRS framework in order to combine the globally accepted, public ITIL
-recommendations with the benefits of open-source software.
+        Die Entwicklung von OTRS::ITSM wurde aufgrund des grossen Erfolges des OTRS
+Frameworks gestartet, um die global anerkannten, öffentlichen
+ITIL®-Empfehlungen mit den Vorzügen von Open-Source Software zu vereinigen.
     </para>
     <para>
-        OTRS::ITSM 1.0 was the first real-world ITIL compliant IT service management
-solution on open-source basis, built on the solid basis of OTRS with its
-over 55,000 known OTRS installations and its community (information dating
-from April 2007). OTRS::ITSM is under active development and new features
-are added continuously.
+        OTRS::ITSM 1.0 war die erste wirklich ITIL®-konforme Lösung für IT Service
+Management, die auf Open-Source basierte, aufgebaut auf Basis des stabilen
+OTRS mit seinen 55'000 bekannten Installationen und seiner
+Benutzergemeinschaft (Informationsstand: April 2007). OTRS::ITSM wird aktiv
+weiterentwickelt und es werden fortlaufend neue Funktionen hinzugefügt.
     </para>
     <para>
-        OTRS::ITSM is practically-oriented. This was accomplished by developing it
-in collaboration with ITIL consultants and with some of OTRS Groups'
-customers.
+        OTRS::ITSM ist praxisorientiert. Die Entwicklung findet unter Teilnahme von
+ITIL®-Beratern und einigen Kunden aus OTRS-Gruppen statt.
     </para>
     <para>
-        The service-desk and ticket system solution OTRS is the basis for the ITIL
-compliant IT service management solution OTRS::ITSM, its incident
-management, problem management, service level management, change and
-configuration management modules, and integrated CMDB.
+        Die Service-Desk und Ticket System Lösung OTRS ist die Basis für die
+ITIL®-konforme IT Service Management Lösung OTRS::ITSM, deren Incident
+Management, Problem Management, Service Level Management, Change- und
+Configuration Management Modulen und der integrierten CMDB.
     </para>
     <para>
-        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
-subject to GNU Affero General Public License (AGPL).
+        OTRS::ITSM und OTRS sind frei verfügbar (frei von Lizenzgebühren) und sind
+Gegenstand der GNU Affero General Public License (AGPL).
     </para>
     <sect1>
         <title>Features</title>
         <para>
-            OTRS::ITSM 4 is based on OTRS 4.  All functionalities known from OTRS
+            OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS
 continue to be available and the functionalities representing ITIL processes
 can be installed as packages.
         </para>
         <sect2>
             <title>
-                New OTRS::ITSM 4 features
+                New OTRS::ITSM 5 features
             </title>
-            <para>OTRS::ITSM 4 offers:</para>
+            <para>OTRS::ITSM 5 offers:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 4 framework.
+                            Ported code to the OTRS 5 framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            New powerful template engine based on <ulink
+                            OTRS::ITSM 5 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
+        <sect2>
+            <title>
+                Neue OTRS::ITSM 4 Features
+            </title>
+            <para>OTRS::ITSM 4 bringt:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Portierten Code für das OTRS 4 Framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Einen neuen leistungsfähigen Template-Generator, basierend auf <ulink
 url="http://www.template-toolkit.org/">Template::Toolkit</ulink>
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            A central object manager makes creating and using global objects much
-easier.
+                            Ein zentraler Objekt-Manager erleichtert das Erstellen und Nutzen von
+globalen Objekten.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            OTRS::ITSM 4 includes many other small bug fixes and improvements.
+                            OTRS::ITSM 4 beinhaltet viele andere kleinere Bugfixes und Verbesserungen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            All OTRS::ITSM 4 translations will be now managed exclusively via Transifex:
-https://www.transifex.com/projects/p/OTRS/resources/ Please sign up for a
-free translators login on http://www.transifex.com and join one of the
-language teams if you want to contribute to OTRS::ITSM.
+                            Alle OTRS::ITSM 4 Übersetzungen werden zukünftig ausschliesslich über
+Transifex gemanaged:
+https://www.transifex.com/projects/p/OTRS/resources/. Melden Sie sich für
+ein kostenloses Übersetzer-Login an: http://www.transifex.com und treten Sie
+einem Sprachteam bei, wenn Sie OTRS::ITSM unterstützen wollen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Improved and more flexible incident state link propagation. It is now
-possible to add more than one link type for the incident state calculation,
-as well to define the link direction for each link type. (Take a look at the
-sysconfig option "ITSM::Core::IncidentLinkTypeDirection")
+                            Verbesserte und flexiblere Propagierung der Incident-Statuslinks. Es ist
+jetzt möglich, mehr als einen Link-Typ für die Incident-Statusberechnung
+hinzuzufügen und ebenfalls die Link-Direction pro Linktyp
+festzulegen. (Siehe Sysconfig Option
+"ITSM::Core::IncidentLinkTypeDirection").
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            GenericInterface for ITSM Configuration Management. This feature contains
-operations for creating, changing, retrieving and searching configuration
-items via GenericInterface.
+                            GenericInterface für ITSM Configuration Management. Dieses Feature
+beinhaltet Funktionsweisen, um CIs über das GenericInterface zu erstellen,
+zu ändern, zu suchen und abzurufen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Bulk actions for ITSM Configuration Management. This feature provides a
-screen to perform certain actions over a selection of ITSM Configuration
-Items.
+                            Massen-Aktionen für ITSM Configuration Management. Dieses Feature bietet ein
+Raster, um ausgewählte Aktionen bei der Auswahl mehrerer ITSM Configuration
+Items durchzuführen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            New color flag for the "deployment state" in ITSM Configuration
-Management. This feature adds a flag column to the Configuration Item
-Overviews with the color of the Deployment State, it also adds a color
-picker to the General Catalog to define the color preference of each
-Deployment State.
+                            Neue farbliche Kennzeichnung im ITSM Configuration Management. Dieses
+Feature fügt eine Kennzeichnungs-Kolumne in die Configuration-Item Übersicht
+ein, mit der man die Farbe jedes Bereitstellungs-Status definieren kann.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Dynamic fields for ITSM Change Management. The freetext fields for changes
-and workorder have been migrated to more flexible dynamic fields.
+                            Dynamische Felder für ITSM Change Management. Die Freitext-Felder für
+Changes und Workorder wurden in flexiblere dynamische Felder umgewandelt.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Improved and easier handling of templates for changes, workorders and change
-advisory boards (CAB). It is now easier to edit a template by selecting it
-from the template overview. A new change or workorder will be created, which
-can then be edited and saved back in to the same template, while the change
-or workorder will be deleted after it has been saved.
+                            Verbesserte und einfachere Handhabung von Templates für Changes, Workorders
+und Change Advisory Boards (CAB). Ein Template kann einfach editiert werden,
+indem man es in der Template-Übersicht selektiert. Dadurch wird ein neuer
+Change oder eine Workorder erstellt, die dann editiert werden und in
+dasselbe Template zurückgespeichert werden kann, während der Change oder die
+Workorder gelöscht wird, sobald sie gespeichert werden.
                         </para>
                     </listitem>
                 </itemizedlist>
             </para>
         </sect2>
 
+
         <sect2>
             <title>
-                New OTRS::ITSM 3.3 features
+                Neue OTRS::ITSM 3.3 Features
             </title>
-            <para>OTRS::ITSM 3.3 offers:</para>
+            <para>OTRS::ITSM 3.3 bringt:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 3.3 framework.
+                            Portierten Code für das OTRS 3.3 Framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integrated Feature AddOn "OTRSServiceIncidentState" into OTRS::ITSM.  It
-shows the current incident state of a selected service in the ticket zoom,
-and in all agent frontends where a service can be selected (can be disabled
-on a per screen basis).
+                            Feature AddOn "OTRSServiceIncidentState" in OTRS::ITSM integriert.
+Es zeigt den aktuellen Incident-Status eines ausgewählten Services im
+Ticket-Zoom und bei allen Agenten in den Frontends in denen Services
+selektiert werden können (kann pro Monitor deaktiviert werden).
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integrated Feature AddOn "OTRSCIColumns" into OTRS::ITSM.  This feature
-makes it possible to configure the shown CI-Attributes individually for each
-ConfigItem class.  This is possible for the CI-Overview, the
-CI-Search-Overview and the Linked-CI view in the agent interface.
+                            Feature AddOn "OTRSCIColumns" in OTRS::ITSM integriert.
+Dieses Feature ermöglicht es, die angezeigten CI-Attribute individuell für
+jede ConfigItem-Class zu konfigurieren. Dies funktioniert im CI-Overview,
+CI-Search-Overview und in der Linked-CI Ansicht im Interface der Agenten.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integrated Feature AddOn "OTRSWorkOrderTimeDependency" into OTRS::ITSM.  If
-this feature is enabled and you change the planned end date of a workorder,
-all following workorders will also be moved accordingly, so that the time
-differences between the workorders will still be the same.
+                            Feature AddOn "OTRSWorkOrderTimeDependency" in OTRS::ITSM integriert. Ist
+dieses Feature aktiviert, dann kann das geplante Enddatum einer Workorder
+geändert werden. Alle nachfolgenden Workorders werden ebenfalls entsprechend
+angepasst, sodass die Zeitabstände zwischen den Workorders gleich bleiben.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Integrated Feature AddOn "OTRSCIAttributeSyntaxCheck" into OTRS::ITSM.  This
-feature makes it possible to check the syntax of CI attributes with a
-regular expression while adding or editing CIs via the agent interface (not
-while importing CIs with the Import/Export module).  CI attributes of the
-type "Text" and "TextArea", as well as the CI name can be checked with
-individual regular expressions.  An individual error message is shown if the
-attribute does not match the defined pattern.  With this feature it can be
-enforced that for example a CI attribute must start with "ABC" or must end
-with a number.
+                            Feature AddOn "OTRSCIAttributeSyntaxCheck" in OTRS::ITSM integriert. Dieses
+Feature ermöglicht es, den Syntax von CI-Attributen mit einem regulären
+Ausdruck zu kontrollieren, während man über das Agenten-Interface CIs
+hinzufügt oder editiert (funktioniert nicht bei Importieren von CIs mit dem
+Import/Export Modul). Die CI-Attribute vom Typ "Text" und "TextArea" sowie
+der CI-Name können mit regulären, individuellen Ausdrücken überprüft
+werden. Eine individuelle Fehlermeldung wird angezeigt, wenn das Attribut
+nicht dem abgefragten Ausdruck entspricht. Mit diesem Feature kann
+z.B. erzwungen werden, dass das Attribut eines CIs mit "ABC" starten
+und/oder mit einer Nummer enden muss.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Added new feature "WorkOrder Report Attachments" into OTRS::ITSM.  This
-feature adds support for attachment uploads in the workorder report screen.
+                            Neues Feature "WorkOrder Report Attachments" zu OTRS::ITSM
+hinzugefügt. Dieses Feature unterstützt den Upload von Anhängen im Workorder
+Report Screen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            The toolbar icons now use an icon font which makes it easier to create
-custom skins with different base colors.
+                            Die Icons der Toolbar benutzen jetzt einen Icon-Font, der das Erstellen
+eigener Skins mit verschiedenen Basisfarben vereinfacht.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Migrated ITSMCriticality and ITSMImpact values from general catalog to
-dynamic fields.  Renamed ITSM releated dynamic fields to nicer names,
-prefixed with ITSM.
+                            Die Werte von ITSMCriticality und ITSMImpact wurden vom generellen Katalog
+zu dynamischen Feldern migriert. Den ITSM-bezogenen Feldern wurden
+verständlichere Namen gegeben, die zudem mit dem Prefix ITSM beginnen.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            In ITSMChangeManagement the frontends to create changes / workorders have
-been splitted in 2 screens each.  One to create a new change / workorder
-from scratch, and one to create it from a template.
+                            In ITSMChangeManagement wurden die Frontends, die dazu dienen Changes oder
+Workorders zu erstellen, je in 2 Screens aufgeteilt. Ein Screen dient zum
+Erstellen von neuen Changes/Workorders, der andere, um sie von einem
+Template zu erstellen.
                         </para>
                     </listitem>
 
@@ -263,27 +297,28 @@ from scratch, and one to create it from a template.
 
         <sect2>
             <title>
-                New OTRS::ITSM 3.2 features
+                Neue OTRS::ITSM 3.2 Features
             </title>
-            <para>OTRS::ITSM 3.2 offers:</para>
+            <para>OTRS::ITSM 3.2 bringt:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 3.2 framework.
+                            Portierten Code für das OTRS 3.2 Framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Enhanced Import/Export screen to show a summary after importing.
+                            Erweiterter Import/Export-Screen zum Anzeigen einer Zusammenfassung nach
+Abschluss des Imports.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Added attachment support for ITSM config items.
+                            Unterstützung für Anhänge an ITSM CIs.
                         </para>
                     </listitem>
 
@@ -300,15 +335,15 @@ unique.
 
         <sect2>
             <title>
-                New OTRS::ITSM 3.1 features
+                Neue OTRS::ITSM 3.1 Funktionen
             </title>
-            <para>OTRS::ITSM 3.1 offers:</para>
+            <para>OTRS::ITSM 3.1 bringt:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 3.1 framework.
+                            Portierten Code für das OTRS 3.1 Framework.
                         </para>
                     </listitem>
 
@@ -332,9 +367,9 @@ in change management.
 
         <sect2>
             <title>
-                New OTRS::ITSM 3.0 features
+                Neue OTRS::ITSM 3.0 Funktionen
             </title>
-            <para>OTRS::ITSM 3.0 offers:</para>
+            <para>OTRS::ITSM 3.0 bringt:</para>
             <para>
                 <itemizedlist>
 
@@ -346,7 +381,7 @@ in change management.
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 3.0 framework.
+                            Portierten Code für das OTRS 3.0 Framework.
                         </para>
                     </listitem>
 
@@ -358,7 +393,7 @@ in change management.
 
                     <listitem>
                         <para>
-                            New Search result types (Print, PDF and CSV).
+                            Neue Suchergebnis Typen (Drucken, PDF und CSV).
                         </para>
                     </listitem>
 
@@ -368,9 +403,9 @@ in change management.
 
         <sect2>
             <title>
-                New OTRS::ITSM 2.1 features
+                Neue OTRS::ITSM 2.1 Funktionen
             </title>
-            <para>OTRS::ITSM 2.1 offers:</para>
+            <para>OTRS::ITSM 2.1 bringt:</para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -400,8 +435,8 @@ timeline.
         </sect2>
 
         <sect2>
-            <title>New OTRS::ITSM 2.0 features</title>
-            <para>OTRS::ITSM 2.0 offers:</para>
+            <title>Neue OTRS::ITSM 2.0 Funktionen</title>
+            <para>OTRS::ITSM 2.0 bringt:</para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -416,9 +451,9 @@ discipline Change Management.
         </sect2>
 
         <sect2>
-            <title>New OTRS::ITSM 1.3 features</title>
+            <title>Neue OTRS::ITSM 1.3 Funktionen</title>
             <para>
-                OTRS::ITSM 1.3 is based on OTRS 2.4
+                OTRS::ITSM 1.3 basiert auf OTRS 2.4
             </para>
             <para>
                 It offers the same features as OTRS::ITSM 1.2, but runs on the OTRS 2.4
@@ -427,15 +462,15 @@ framework.
         </sect2>
 
         <sect2>
-            <title>New OTRS::ITSM 1.2 features</title>
+            <title>Neue OTRS::ITSM 1.2 Funktionen</title>
             <para>
-                OTRS::ITSM 1.2 is based on OTRS 2.3
+                OTRS::ITSM 1.2 basiert auf OTRS 2.3
             </para>
-            <para>OTRS::ITSM 1.2 offers:</para>
+            <para>OTRS::ITSM 1.2 bringt:</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Modularization</para>
+                        <para>Modularisierung</para>
                         <para>
                             From now on the additional ITSM packages covering single ITIL disciplines
 like incident management / problem management, configuration management,
@@ -467,7 +502,7 @@ object mechanisms.
                     </listitem>
 
                     <listitem>
-                        <para>Improved speed</para>
+                        <para>Verbesserte Geschwindigkeit</para>
                         <para>
                             Changing database access technology to using SQL bind parameters made it
 possible to access the Configuration Items (CI) database faster than
@@ -476,7 +511,7 @@ previously.
                     </listitem>
 
                     <listitem>
-                        <para>Locations</para>
+                        <para>Standorte</para>
                         <para>
                             Locations are no longer a separate menu item. They are now integrated into
 the Configuration Items, which will bring a sustainable gain in flexibility.
@@ -491,9 +526,9 @@ the Configuration Items, which will bring a sustainable gain in flexibility.
                     </listitem>
 
                     <listitem>
-                        <para>SLA Overwiew</para>
+                        <para>SLA Overview</para>
                         <para>
-                            In the service menu, there is now a new SLA overwiew mask.
+                            In the service menu, there is now a new SLA overview mask.
                         </para>
                     </listitem>
 
@@ -510,12 +545,12 @@ item overview screens automatically.
         </sect2>
 
         <sect2>
-            <title>New OTRS::ITSM 1.1 features</title>
-            <para>OTRS::ITSM 1.1 offers:</para>
+            <title>Neue OTRS::ITSM 1.1 Funktionen</title>
+            <para>OTRS::ITSM 1.1 bringt:</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Authorization concept</para>
+                        <para>Berechtigungskonzept</para>
                         <para>
                             Each object like Service/SLA, Location, CI, Linkobject now creates a
 corresponding group, so the agents rights can be assigned with more
@@ -533,7 +568,7 @@ customer.
                     </listitem>
 
                     <listitem>
-                        <para>Service/CI view</para>
+                        <para>Dienst/CI-Ansicht</para>
                         <para>
                             A view on services and CIs, including information on each object's current
 state, allows you to analyze an incident and calculate the incident's impact
@@ -550,10 +585,10 @@ state types:
                         </para>
                         <itemizedlist>
                             <listitem>
-                                <para>Operational</para>
+                                <para>Operativ</para>
                             </listitem>
                             <listitem>
-                                <para>Incident</para>
+                                <para>Vorfall</para>
                             </listitem>
                         </itemizedlist>
 
@@ -564,13 +599,13 @@ have one of the following three values:
                         </para>
                         <itemizedlist>
                             <listitem>
-                                <para>Operational (green)</para>
+                                <para>Operativ (grün)</para>
                             </listitem>
                             <listitem>
-                                <para>Warning (yellow)</para>
+                                <para>Warnung (gelb)</para>
                             </listitem>
                             <listitem>
-                                <para>Incident (red)</para>
+                                <para>Vorfall (rot)</para>
                             </listitem>
                         </itemizedlist>
                         <para>
@@ -630,11 +665,11 @@ ticket.
 
                     <listitem>
                         <para>
-                            CMDB Import/Export (CSV and API)
+                            CMDB-Import/Export (CSV und API)
                         </para>
                         <para>
                             This feature offers the possibility to import or update data from CSV files
-into the CMBD of OTRS::ITSM, and to export data from the CMDB to CSV files.
+into the CMDB of OTRS::ITSM, and to export data from the CMDB to CSV files.
 Each line of the CSV file describes one CI, with the data of the CI in the
 columns.
                         </para>
@@ -780,21 +815,21 @@ priority (queue, service).
         </sect2>
 
         <sect2>
-            <title>OTRS::ITSM 1.0 features</title>
-            <para>OTRS::ITSM 1.0 offers:</para>
+            <title>OTRS::ITSM 1.0 Funktionen</title>
+            <para>OTRS::ITSM 1.0 bringt:</para>
             <itemizedlist>
                 <listitem>
                     <para>ITIL compliant representation of &quot;service support&quot; processes
                     </para>
                     <itemizedlist>
                         <listitem>
-                            <para>incident management</para>
+                            <para>Vorfallsverwaltung</para>
                         </listitem>
                         <listitem>
-                            <para>problem management</para>
+                            <para>Problemverwaltung</para>
                         </listitem>
                         <listitem>
-                            <para>configuration management</para>
+                            <para>Konfigurationsverwaltung</para>
                         </listitem>
                     </itemizedlist>
                 </listitem>
@@ -855,7 +890,7 @@ other components of the service chain.
                 <listitem>
                     <para>Comprehensive recording and management of ITSM relevant configuration items
 (CIs) such as computers, hardware, software, networks, documents and
-services, SLAs, and organizational structures.
+services, SLAs, and organizational structures
                     </para>
                 </listitem>
                 <listitem>
@@ -867,7 +902,7 @@ UC)
                 <listitem>
                     <para>
                         Recording, management, and illustration of technical and service related
-relationships and interdependences among CMDB data, e.g. a service with all
+relationships and interdependencies among CMDB data, e.g. a service with all
 necessary, alternative or relevant CIs
                     </para>
                 </listitem>
@@ -911,7 +946,7 @@ products required)
                     </para>
                 </listitem>
             </itemizedlist>
-            <para>Incident management:</para>
+            <para>Vorfallsverwaltung:</para>
             <itemizedlist>
                 <listitem>
                     <para>
@@ -970,7 +1005,7 @@ for analyses and reporting
                 <listitem>
                     <para>
                         Complete integration of OTRS role, group, and queue mechanisms for incident
-ticket allocation, tracking, escalation, and interpretation
+ticket allocation, tracking, escalation and interpretation
                     </para>
                 </listitem>
                 <listitem>
@@ -997,7 +1032,7 @@ and/or split complicated ones
                     </para>
                 </listitem>
             </itemizedlist>
-            <para>Problem management:</para>
+            <para>Problemverwaltung:</para>
             <itemizedlist>
                 <listitem>
                     <para>
@@ -1040,7 +1075,7 @@ available
                 <listitem>
                     <para>
                         Complete integration of OTRS role, group and queue mechanisms to allocate,
-track, escalate, and evaluate incident tickets
+track, escalate and evaluate incident tickets
                     </para>
                 </listitem>
                 <listitem>
@@ -1062,17 +1097,17 @@ management: They transport multiple possible underlying data such as:
             <itemizedlist>
                 <listitem>
                     <para>
-                        Persons, organizations
+                        Personen, Organisationen
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Time stamp
+                        Zeitstempel
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Priority, impact, severity
+                        Priorität, Auswirkung, Härte
                     </para>
                 </listitem>
                 <listitem>
@@ -1107,7 +1142,7 @@ management: They transport multiple possible underlying data such as:
                 </listitem>
                 <listitem>
                     <para>
-                        SLA information
+                        SLA-Information
                     </para>
                 </listitem>
                 <listitem>
@@ -1117,7 +1152,7 @@ management: They transport multiple possible underlying data such as:
                 </listitem>
                 <listitem>
                     <para>
-                        Ticket history (all changes)
+                        Ticketchronik (alle Änderungen)
                     </para>
                 </listitem>
                 <listitem>
@@ -1130,7 +1165,7 @@ management: They transport multiple possible underlying data such as:
 
     </sect1>
     <sect1>
-        <title>Hardware and software requirements</title>
+        <title>Hardware und Software-Anforderungen</title>
         <para>
             The requirements for OTRS::ITSM are the same as for OTRS. More information
 can be found in the OTRS Admin Manual.
@@ -1153,22 +1188,23 @@ to constantly improve the product's quality. You can join the community at
 our homepage http://otrs.org (http://otrs.org/).
         </para>
         <para>
-            <screenshot>
-<screeninfo>OTRS.org</screeninfo> <graphic scale="50"
-fileref="screenshots/otrs-org.png" srccredit="OTRS.org - screenshot" /></screenshot>
+            <figure>
+                <title>OTRS.org</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/otrs-org.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
-        <title>Mailing lists</title>
+        <title>Mailinglisten</title>
         <para>
             Separate mailing lists have been set up for OTRS::ITSM. Please visit
 http://lists.otrs.org (http://lists.otrs.org/):
         </para>
         <para>
-            <screenshot>
-<screeninfo>lists.OTRS.org</screeninfo> <graphic scale="50"
-fileref="screenshots/lists-otrs-org.png" srccredit="lists.OTRS.org -
-screenshot" /></screenshot>
+            <figure>
+                <title>lists-otrs-org</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

@@ -29,11 +29,13 @@ time and money, as the process support of the tool aids and accelerates the
 process of organizational realignment.
     </para>
     <para>
-       Since version 2.0 , OTRS::ITSM supports the following features and
-processes, which are usually designed during the first phase of an ITIL
-implementation: Incident Management, Problem Management, Service Level
-Management, Change Management and the Configuration Management Database.  A
-more detailed description of use and adaptation of the system can be found
+       Since version 2.0, OTRS::ITSM supports the following features and processes,
+which are usually designed during the first phase of an ITIL implementation:
+Incident Management, Problem Management, Service Level Management, Change
+Management and the Configuration Management Database.
+    </para>
+    <para>
+       A more detailed description of use and adaptation of the system can be found
 in the following sections. Please note that the each OTRS::ITSM package can
 be installed independently and that their names correspond to their
 respective ITIL topics.

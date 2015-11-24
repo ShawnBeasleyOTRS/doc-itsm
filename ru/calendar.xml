@@ -3,15 +3,15 @@
 <chapter>
     <title>Дополнительные приложения OTRS - календарь</title>
     <para>
-        OTRS 3.3 первоначально поддерживает работу с 9 календарями, которые могут
-быть настроены в SysConfig. Там же, это число может быть увеличено до 99,
-начиная с календаря 1 и т.д. ссылок:
+        OTRS initially supports up to 9 calendars, which can be configured
+graphically. Using the SysConfig framework found in the admin interface,
+this number can be increased to 99, by using the calendar 1 etc. links:
     </para>
     <para>
-        <screenshot>
-<screeninfo>admin-sys-config</screeninfo> <graphic
-fileref="screenshots/admin-sys-config.png" scale="50"
-srccredit="admin-sys-config - screenshot" /></screenshot>
+        <figure>
+            <title>admin-sys-config</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/admin-sys-config.png"></graphic></screenshot></figure>
     </para>
     <para>
         &quot;TimeWorkingHours/Рабочие часы&quot; могут использоваться в OTRS::ITSM
@@ -22,9 +22,10 @@ srccredit="admin-sys-config - screenshot" /></screenshot>
 уровне обслуживания.
     </para>
     <para>
-        <screenshot>
-<screeninfo>admin-sysconfig-timeworkinghours</screeninfo> <graphic
-fileref="screenshots/admin-sysconfig-timeworkinghours.png" scale="50"
-srccredit="admin-sysconfig-timeworkinghours - screenshot" /></screenshot>
+        <figure>
+            <title>admin-sysconfig-timeworkinghours</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-sysconfig-timeworkinghours.png"></graphic></screenshot></figure>
     </para>
 </chapter>

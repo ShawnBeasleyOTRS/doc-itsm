@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>First steps in OTRS::ITSM</title>
+    <title>Erste Schritte in OTRS::ITSM</title>
     <para>
         The first thing that you might notice is that OTRS::ITSM completely uses the
 agent and customer interfaces (customer frontend) implemented in OTRS. If
@@ -16,27 +16,27 @@ following:
     </para>
     <itemizedlist>
         <listitem>
-            <para>IT services and SLAs</para>
+            <para>IT Services und SLAs</para>
         </listitem>
         <listitem>
-            <para>The CMDB</para>
+            <para>Die CMDB</para>
         </listitem>
         <listitem>
-            <para>New ticket fields and functions</para>
+            <para>Neue Ticketfelder und Funktionen</para>
         </listitem>
         <listitem>
-            <para>ITIL compliant terminology</para>
+            <para>ITIL konforme Terminologie</para>
         </listitem>
     </itemizedlist>
     <para>
         Detailed information on the settings and proceedings that are identical in
 both OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.3/en/html/ in
-the OTRS Admin Manual, which is cotinuously being revised.
+the OTRS Admin Manual, which is continuously being revised.
     </para>
     <para>
-        <screenshot>
-<screeninfo>Admin-Manual</screeninfo> <graphic
-fileref="screenshots/admin-manual.png" scale="50" srccredit="Admin Manual -
-screenshot" /></screenshot>
+        <figure>
+            <title>Administratorhandbuch</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/admin-manual.png"></graphic></screenshot></figure>
     </para>
 </chapter>

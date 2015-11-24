@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Installing OTRS::ITSM</title>
+    <title>OTRS::ITSM installieren</title>
     <para>
         Please note that the OTRS framework 3.3 must be installed prior to the
-installation of OTRS::ITSM. All necessary information, options, and
+installation of OTRS::ITSM. All necessary information, options and
 installation procedures are depicted in the OTRS Admin Manual.
     </para>
 
@@ -37,11 +37,11 @@ install them:
         <itemizedlist>
 
             <listitem>
-                <para>ITSMIncidentProblemManagement</para>
+                <para>ITSMVorfallProblemVerwaltung</para>
             </listitem>
 
             <listitem>
-                <para>ITSMConfigurationManagement</para>
+                <para>ITSMKonfigurationsVerwaltung</para>
             </listitem>
 
             <listitem>
@@ -64,14 +64,13 @@ url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
         </para>
         <para>
             <screenshot>
-<screeninfo>Admin Package Manager</screeninfo> <graphic
-fileref="screenshots/admin-packagemanager.png" scale="50" srccredit="Admin
-Package Manager - screenshot" /></screenshot>
+<screeninfo>Paket-Verwaltung</screeninfo> <graphic
+fileref="screenshots/admin-packagemanager.png" scale="50" /></screenshot>
         </para>
 
     </sect1>
     <sect1>
-        <title>Upgrade</title>
+        <title>Erneuern</title>
 
         <para>
             If you are using a version older than OTRS::ITSM 1.1, please update the

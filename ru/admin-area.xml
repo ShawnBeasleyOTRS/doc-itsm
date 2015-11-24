@@ -9,20 +9,13 @@
 удовлетворения индивидуальных потребностей.
     </para>
     <para>
-        Переход к панели управления осуществляется через пункт меню
-Админ/Администрирование главного меню интерфейса. Этот пункт меню виден и
-доступен только агентам имеющим права администратора в системе. После
-окончания стандартной установки системы вы можете войти в нее в качестве
-администратора используя логин &quot;root@localhost&quot; и пароль
-&quot;root&quot;.
+        The admin area can be accessed via the "admin" link in the agent interface
+navigation bar. The link is only shown to users logged on to the system that
+have been granted administrator privileges.  After the completion of a
+default installation you can log on to the system as OTRS admin using the
+user name &quot;root@localhost&quot; and the password generated in the last
+step of the installation.
     </para>
-    <warning>
-        <para>
-            ВНИМАНИЕ: Замените пароль пользователя root@localhost как можно
-скорее. Использование широко известных паролей по умолчанию категорически не
-рекомендуется!
-        </para>
-    </warning>
 
     <para>
         <itemizedlist>
@@ -98,10 +91,10 @@
     </para>
 
     <para>
-        <screenshot>
-<screeninfo>Admin Area - Панель администратора</screeninfo> <graphic
-fileref="screenshots/admin-area.png" scale="50" srccredit="Admin Area -
-screenshot" /></screenshot>
+        <figure>
+            <title>Admin Areaa</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/admin-area.png"></graphic></screenshot></figure>
     </para>
     <sect1>
         <title>Общий каталог</title>
@@ -110,18 +103,20 @@ screenshot" /></screenshot>
 настройки OTRS::ITSM.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
-fileref="screenshots/admin-general-catalog-management.png" scale="50"
-srccredit="Admin General Catalog - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование Общего каталога</title>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/admin-general-catalog-management.png"></graphic></screenshot></figure>
         </para>
         <para>Например, редактирование записей в справочной таблице для выпадающих списков
 значений полей: </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
-fileref="screenshots/admin-general-catalog-management-edit.png" scale="50"
-srccredit="Admin General Catalog - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование Общего каталога</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-general-catalog-management-edit.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -166,16 +161,17 @@ blade - серверов до принтеров или USB носителей, 
             </listitem>
         </itemizedlist>
         <para>
-            Если этих пяти классов недостаточно для описания вашей ИТ-инфраструктуры, с
-помощью пункта меню "Общий каталог" панели администратора OTRS::ITSM можно
-добавить нужные классы. После создания нового класса CI в Общем каталоге,
-необходимо добавить его описание в меню "Описание учетных элементов"
+            If the five classes do not suffice to describe your IT environment, further
+classes can be added via the "general catalog" link in the OTRS::ITSM admin
+area. After creating a new CI class in the general catalog, a definition
+must be entered in ConfigItem.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Администрирование Общего каталога</screeninfo> <graphic
-fileref="screenshots/admin-general-catalog-management-class.png" scale="50"
-srccredit="Admin General Catalog - screenshot" /></screenshot>
+            <figure>
+                <title>Администрирование Общего каталога</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-general-catalog-management-class.png"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -275,14 +271,15 @@ srccredit="Admin General Catalog - screenshot" /></screenshot>
             </screen>
         </para>
         <para>
-            Изменение атрибутов и поправки можно сделать в области графического
-редактора, нажав кнопку "Изменить описание":
+            Attribute changes and amendments can be done in the graphical configuration
+area by selecting "change class definition":
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-configitem-management-change</screeninfo> <graphic
-fileref="screenshots/admin-configitem-management-change.png" scale="50"
-srccredit="admin-configitem-management-change - screenshot" /></screenshot>
+            <figure>
+                <title>admin-configitem-management-change</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-configitem-management-change.png"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -302,10 +299,11 @@ srccredit="admin-configitem-management-change - screenshot" /></screenshot>
 работы с процессами OTRS::ITSM  используются наиболее поздние версии.
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-configitem-management</screeninfo> <graphic
-fileref="screenshots/admin-configitem-management.png" scale="50"
-srccredit="admin-configitem-management - screenshot" /></screenshot>
+            <figure>
+                <title>admin-configitem-management</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-configitem-management.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -316,16 +314,17 @@ srccredit="admin-configitem-management - screenshot" /></screenshot>
 этого положения в OTRS::ITSM, по умолчанию, включено дополнительное
 состояние &quot;closed with workaround/закрыто с обходным решением&quot;.</para>
         <para>
-            <screenshot>
-<screeninfo>admin-state-management</screeninfo> <graphic
-fileref="screenshots/admin-state-management.png" scale="50"
-srccredit="admin-state-management - screenshot" /></screenshot>
+            <figure>
+                <title>admin-state-management</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-state-management.png"></graphic></screenshot></figure>
         </para>
         <para>
-            В OTRS::ITSM  вы можете изменять существующие состояния или добавлять
-новые. Есть два основных понятия: имя состояния &quot;state-name&quot; и тип
-состояния &quot;state-type&quot;. Все состояния и их типы доступные по
-умолчанию показаны выше.
+            With OTRS::ITSM you can change existing ticket states or add new ones.
+There are two important options: the name of the state
+&quot;state-name&quot; and the type of its &quot;state-type&quot;. All
+states and types available by default are pictured above.
         </para>
         <para>
             Имена/названия состояний можно выбирать свободно. В разделе "Состояния"
@@ -333,9 +332,9 @@ srccredit="admin-state-management - screenshot" /></screenshot>
 существующих типов состояний.
         </para>
         <para>
-            Пожалуйста, обратите внимание, что изменения сделанные для состояния "new",
-требуют изменения ряда настроек в файле kernel/config.pm или в разделе
-графического конфигуратора - Конфигурация системы/SysConfig.
+            Please consider that changes made to the "new" state require changes to be
+made in the configuration file Kernel/Config.pm or in the graphical
+configuration front-end.
         </para>
         <para>
             <screen>
@@ -352,9 +351,8 @@ srccredit="admin-state-management - screenshot" /></screenshot>
             </screen>
         </para>
         <para>
-            То же самое относится и к изменениям для состояния  "open": надо внести
-необходимые изменения в kernel/config.pm или в разделе графического
-конфигуратора - Конфигурация системы/SysConfig.
+            The same applies to changes made to the "open" state: changes in the
+Kernel/Config.pm or in the graphical configuration frontend are necessary.
         </para>
         <para>
             <screen>
@@ -383,7 +381,7 @@ srccredit="admin-state-management - screenshot" /></screenshot>
         </warning>
     </sect1>
     <sect1>
-        <title>Матрица "Критичность - Влияние - Приоритет"</title>
+        <title>The criticality - impact - priority matrix</title>
         <para>OTRS::ITSM предполагает пять уровней приоритета для заявок:</para>
         <itemizedlist>
             <listitem>
@@ -411,21 +409,22 @@ srccredit="admin-state-management - screenshot" /></screenshot>
 результат приоритезации используется в обзорах очередей.
          </para>
         <para>
-            <screenshot>
-<screeninfo>admin-priority-allocation</screeninfo> <graphic
-fileref="screenshots/admin-priority-allocation.png" scale="50"
-srccredit="admin-priority-allocation - screenshot" /></screenshot>
+            <figure>
+                <title>admin-priority-allocation</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-priority-allocation.png"></graphic></screenshot></figure>
         </para>
         <para>
             Номер уровня, описание и действительность можно посмотреть и изменить в
 панели администратора по ссылке "Общий каталог":
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-general-catalog-management-priority</screeninfo> <graphic
-fileref="screenshots/admin-general-catalog-management-priority.png"
-scale="50" srccredit="admin-general-catalog-management-priority -
-screenshot" /></screenshot>
+            <figure>
+                <title>admin-general-catalog-management-priority</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-general-catalog-management-priority.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -437,10 +436,11 @@ screenshot" /></screenshot>
 переименованы и добавлены в графическом интерфейсе администратора.
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-priority-management</screeninfo> <graphic
-fileref="screenshots/admin-priority-management.png" scale="50"
-srccredit="admin-priority-management" /></screenshot>
+            <figure>
+                <title>admin-priority-management</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-priority-management.png"></graphic></screenshot></figure>
         </para>
         <para>Более детальную информацию вы найдете в Руководстве администратора OTRS.
         </para>

@@ -71,10 +71,34 @@ ITIL решения по управлению ИТ-услугами - OTRS::ITSM
     <sect1>
         <title>Возможности</title>
         <para>
-            OTRS::ITSM 4 базируется на OTRS 4. Весь известный функционал OTRS остается
-доступным, а возможности предоставляемые процессы ITIL могут быть
-доустановлены в виде дополнительных пакетов.
+            OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 5 features
+            </title>
+            <para>OTRS::ITSM 5 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 5 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 5 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 Новые возможности OTRS::ITSM 4
@@ -176,6 +200,7 @@ freetext/свободные поля для изменений и задач т�
                 </itemizedlist>
             </para>
         </sect2>
+
 
         <sect2>
             <title>
@@ -499,9 +524,9 @@ OTRS::ITSM.Совместный механизм Object-Link в настояще
                     </listitem>
 
                     <listitem>
-                        <para>Список SLA</para>
+                        <para>SLA Overview</para>
                         <para>
-                            В Меню Сервисы теперь имеется новый выбор просмотра SLA.
+                            In the service menu, there is now a new SLA overview mask.
                         </para>
                     </listitem>
 
@@ -642,9 +667,10 @@ OTRS::ITSM.Совместный механизм Object-Link в настояще
                             CMDB Import/Export (CSV или API)
                         </para>
                         <para>
-                            Эта возможность позволяет импортировать или обновлять данные из CSV файлов в
-CMBD OTRS::ITSM, и экспортировать данные из CMDB в CSV файлы. Каждая строка
-CSV файла описывает одну CI с ее данными в колонках.
+                            This feature offers the possibility to import or update data from CSV files
+into the CMDB of OTRS::ITSM, and to export data from the CMDB to CSV files.
+Each line of the CSV file describes one CI, with the data of the CI in the
+columns.
                         </para>
                         <para>
                             Импорт и экспорт управляется с помощью ImEx описаний. Эти описания
@@ -738,43 +764,43 @@ CSV может быть заменен или расширен другими ф
 
                             <listitem>
                                 <para>
-                                    First time solution rate of all tickets ever created per ticket-type and
-priority (queue, service).
+                                    Скорость первого решения для всех заявок, когда либо созданных, по типам
+заявок и приоритетам (очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    First time solution rate in a previous month per ticket-type (priority,
-queue, service).
+                                    Скорость первого решения за предыдущий месяц по типам заявок (приоритету,
+очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    First time solution rate in a defined period per ticket-type and priority
-(queue, service).
+                                    Скорость первого решения за заданный период по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time of all tickets ever created per ticket-type and
-priority (queue, service).
+                                    Среднее время решения для всех заявок, когда либо созданных, по типам заявок
+и приоритетам (очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time in a previous month per ticket-type and priority
-(queue, service).
+                                    Среднее время решения за предыдущий месяц по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
 
                             <listitem>
                                 <para>
-                                    Average resolution time in a defined period per ticket-type and priority
-(queue, service).
+                                    Среднее время решения за заданный период по типам заявок и приоритетам
+(очередям, сервисам).
                                 </para>
                             </listitem>
                         </itemizedlist>
@@ -793,7 +819,7 @@ priority (queue, service).
             <para>OTRS::ITSM 1.0 предлагает:</para>
             <itemizedlist>
                 <listitem>
-                    <para>ITIL compliant representation of &quot;service support&quot; processes
+                    <para>ITIL совместимое представление &quot;поддержки сервисов&quot; процессов
                     </para>
                     <itemizedlist>
                         <listitem>
@@ -861,9 +887,9 @@ controlling based on performance figures
             </para>
             <itemizedlist>
                 <listitem>
-                    <para>Всесторонняя регистрация и управление соответствующими конфигурационными
-единицами (CIs), такими как компьютеры, серверы, ПО, сети, документы и
-сервисы, SLA и оргструктуры.
+                    <para>Comprehensive recording and management of ITSM relevant configuration items
+(CIs) such as computers, hardware, software, networks, documents and
+services, SLAs, and organizational structures
                     </para>
                 </listitem>
                 <listitem>
@@ -873,9 +899,9 @@ controlling based on performance figures
                 </listitem>
                 <listitem>
                     <para>
-                        Регистрация, управление и отображение технических и связанных с сервисом
-связей и взаимозависимостей между данными CMDB, например, сервис со всеми
-необходимыми, альтернативными или соответствующими CI
+                        Recording, management, and illustration of technical and service related
+relationships and interdependencies among CMDB data, e.g. a service with all
+necessary, alternative or relevant CIs
                     </para>
                 </listitem>
                 <listitem>
@@ -980,8 +1006,8 @@ SLA &quot;время ответа&quot;, &quot;время обновления&q
                 </listitem>
                 <listitem>
                     <para>
-                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
-отслеживания, эскалации и интерпретации
+                        Complete integration of OTRS role, group, and queue mechanisms for incident
+ticket allocation, tracking, escalation and interpretation
                     </para>
                 </listitem>
                 <listitem>
@@ -1050,8 +1076,8 @@ SLA &quot;время ответа&quot;, &quot;время обновления&q
                 </listitem>
                 <listitem>
                     <para>
-                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
-отслеживания, эскалации и оценки заявок по инцидентам
+                        Complete integration of OTRS role, group and queue mechanisms to allocate,
+track, escalate and evaluate incident tickets
                     </para>
                 </listitem>
                 <listitem>
@@ -1170,9 +1196,10 @@ http://bugs.otrs.org (http://bugs.otrs.org/). Они отправляются
 (http://otrs.org/).
         </para>
         <para>
-            <screenshot>
-<screeninfo>OTRS.org</screeninfo> <graphic scale="50"
-fileref="screenshots/otrs-org.png" srccredit="OTRS.org - screenshot" /></screenshot>
+            <figure>
+                <title>OTRS.org</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/otrs-org.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -1182,10 +1209,10 @@ fileref="screenshots/otrs-org.png" srccredit="OTRS.org - screenshot" /></screens
 http://lists.otrs.org (http://lists.otrs.org/):
         </para>
         <para>
-            <screenshot>
-<screeninfo>lists.OTRS.org</screeninfo> <graphic scale="50"
-fileref="screenshots/lists-otrs-org.png" srccredit="lists.OTRS.org -
-screenshot" /></screenshot>
+            <figure>
+                <title>lists-otrs-org</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

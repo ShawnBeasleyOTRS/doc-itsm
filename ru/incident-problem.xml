@@ -1,167 +1,233 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Служба поддержки, инцидент, &amp; управление проблемами</title>
-    <para>Служба поддержки/Service desk (которая, согласно ITIL является не процессом,
-но функцией) обычно, является главным полем действия. Все сообщения
-пользователей и уведомления от систем мониторинга и внутренних ИТ -
-подразделений сходятся здесь. ITIL процесс управления услугами тесно
-переплетен со службой, описывает шаги, которые работают, информацию,
-эскалации и / или интерфейсы актуальные в связи с обработкой инцидентов или
-запросов на обслуживание. </para>
-    <para>Управление инцидентами и проблемами внутри OTRS::ITSM основаны на
+    <title>
+        Service desk, incident &amp; problem management
+    </title>
+    <para>
+        The service desk (which, according to ITIL, is not a process but a function)
+is usually the ticket system's main field of application. All user messages
+and notifications from system monitoring and internal IT organization
+converge here. The ITIL service management process, closely interwoven with
+the service desk, describes which work steps, information, escalations
+and/or interfaces are relevant in connection with the processing of
+incidents or service requests.
+    </para>
+    <para>
+        Управление инцидентами и проблемами внутри OTRS::ITSM основаны на
 рекомендациях ITIL и используют ее терминологию. В то же время, комфорт
 пользователя, является немаловажным фактором и поэтому терминология OTRS
-также, по возможности сохранена.</para>
-    <para>
-    <screenshot>
-<screeninfo>Схема процесса</screeninfo> <graphic
-fileref="screenshots/process-schema.png" scale="50"
-srccredit="process-schema - screenshot" /></screenshot>
+также, по возможности сохранена.
     </para>
-    <para>Source: ILX Group (www.ilxgroup.com)</para>
+    <para>
+        <figure>
+            <title>Схема процесса</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/process-schema.png"></graphic></screenshot></figure>
+    </para>
+    <para>
+        Source: ILX Group (www.ilxgroup.com)
+    </para>
     <sect1>
-    <title>Создание заявки, классификация и приоритезация</title>
-    <para>При создании заявки - в нашем случае, принятой по телефону, регистрируется
-следующая информация, в дополнение к той, что использовалась в OTRS:</para>
-    <itemizedlist>
-        <listitem>
-        <para>Тип заявки</para>
-        </listitem>
-        <listitem>
-        <para>соответствующий сервис</para>
-        </listitem>
-        <listitem>
-        <para>SLA</para>
-        </listitem>
-        <listitem>
-        <para>влияние</para>
-        </listitem>
-        <listitem>
-        <para>приоритет</para>
-        </listitem>
-    </itemizedlist>
-    <para>В зависимости от выбранного сервиса, его влияния - приоритет автоматически
+        <title>
+            Создание заявки, классификация и приоритезация
+        </title>
+        <para>
+            При создании заявки - в нашем случае, принятой по телефону, регистрируется
+следующая информация, в дополнение к той, что использовалась в OTRS:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    Тип заявки
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    соответствующий сервис
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    SLA
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    влияние
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    приоритет
+                </para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            В зависимости от выбранного сервиса, его влияния - приоритет автоматически
 присваивается на основании матрицы критичность/влияние/приоритет. Однако,
 любой член персонала ИТ службы знает о так называемых "VIP" клиентах,
-требующих специального подхода.</para>
-    <para>Чтобы учесть эту особенность в повседневной работе по управлению услугами,
-имеется возможность поправить значение приоритета запроса вручную.</para>
-    <para>
-        <screenshot>
-<screeninfo>агент-заявка-создание</screeninfo> <graphic
-fileref="screenshots/agent-ticket-create.png" scale="50"
-srccredit="agent-ticket-create - screenshot" /></screenshot>
-    </para>
-    <para>By following the ticket content (zoom) link, detailed information about the
+требующих специального подхода.
+        </para>
+        <para>
+            Чтобы учесть эту особенность в повседневной работе по управлению услугами,
+имеется возможность поправить значение приоритета запроса вручную.
+        </para>
+        <para>
+            <figure>
+                <title>агент-заявка-создание</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/agent-ticket-create.png"></graphic></screenshot></figure>
+        </para>
+        <para>
+            By following the ticket content (zoom) link, detailed information about the
 ticket can be accessed. All data relevant for IT support is consolidated in
-the right hand section:</para>
-    <para>
-        <screenshot>
-<screeninfo>agent-ticket-data-change</screeninfo> <graphic
-fileref="screenshots/agent-ticket-data-change.png" scale="50"
-srccredit="agent-ticket-data-change - screenshot" /></screenshot>
-    </para>
+the right hand section:
+        </para>
+        <para>
+            <figure>
+                <title>agent-ticket-data-change</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
+        </para>
     </sect1>
     <sect1>
-    <title>Информация о параметрах времени связанных с SLA </title>
-    <para>С помощью пункта меню Дополнительные ITSM поля, информация о временНых
+        <title>
+            Информация о параметрах времени связанных с SLA
+        </title>
+        <para>
+            С помощью пункта меню Дополнительные ITSM поля, информация о временНых
 параметрах, в дополнение к времени ответа, обновления и решения из SLA может
 быть заполнена и уже имеющаяся информация, может быть изменена:
-</para>
-    <para>
-        <screenshot>
-<screeninfo>agent-ticket-additional-field</screeninfo> <graphic
-fileref="screenshots/agent-ticket-additional-field.png" scale="50"
-srccredit="agent-ticket-additional-field - screenshot" /></screenshot>
-    </para>
+        </para>
+        <para>
+            <figure>
+                <title>agent-ticket-additional-field</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-ticket-additional-field.png"></graphic></screenshot></figure>
+        </para>
     </sect1>
     <sect1>
-    <title>Распределение/назначение заявок (очереди)</title>
-    <para>Разработанные с учетом требуемой гибкости, структура очередей OTRS::ITSM
-может соответствовать организационной структуре. Они могут следовать
-вертикальной схеме построения поддержки пользователей, первая, вторая и
-третья линии поддержки (как это часто используется при поддержке услуг ИТ)
-или построена в процессно - ориентированной манере, основанной на жизненном
-цикле заявки состоящем из создания, обработки, закрытии и последующем
-анализе. </para>
-    <para>Вопреки версиям OTRS до 2.2, эскалация заявок в OTRS::ITSM основана, в
+        <title>
+            Распределение/назначение заявок (очереди)
+        </title>
+        <para>
+            Designed with flexibility in mind, the OTRS::ITSM queues can be tailored to
+your organizational structures. They can follow the vertical scheme of
+service desk, first, second and third level support (as often used in IT
+service support) or be configured in a process oriented manner based on the
+ticket life cycle of generation, processing, closure and post-processing.
+        </para>
+        <para>
+            Вопреки версиям OTRS до 2.2, эскалация заявок в OTRS::ITSM основана, в
 первую очередь на основе времен ответа, обновления и восстановления услуги
 указанных в SLA. Если эти значения не заданы в SLA, эскалация выполняется на
-основе данных, заданных для очередей.  </para>
-    <para>Заявка может быть перемещена, путем выбора новой очереди.</para>
-    <para>
-        <screenshot>
-<screeninfo>агент-заявка-очередь</screeninfo> <graphic
-fileref="screenshots/agent-ticket-queue.png" scale="50"
-srccredit="agent-ticket-queue - screenshot" /></screenshot>
-    </para>
-    <warning>
-        <para>Разработка архитектуры очередей - задача, которую не следует
+основе данных, заданных для очередей.
+        </para>
+        <para>Заявка может быть перемещена, путем выбора новой очереди.</para>
+        <para>
+            <figure>
+                <title>агент-заявка-очередь</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/agent-ticket-queue.png"></graphic></screenshot></figure>
+        </para>
+        <warning>
+            <para>
+                Разработка архитектуры очередей - задача, которую не следует
 недооценивать. Наш опыт показывает, что это весьма желательно проверить
 концептуальные мысли,  просто сформулировав их на первом этапе, и обсудить с
 персоналом ИТ для OTRS::ITSM на втором этапе. Было бы очень полезным
 прибегнуть к внешней помощи, например, экспертов ITIL практики.
-</para>
-    </warning>
+            </para>
+        </warning>
     </sect1>
     <sect1>
-    <title>Изменение данных заявки</title>
-    <para>Все изменения в заявке производятся также как и в OTRS. </para>
+    <title>
+        Изменение данных заявки
+    </title>
     <para>
-        <screenshot>
-<screeninfo>agent-ticket-data-change</screeninfo> <graphic
-fileref="screenshots/agent-ticket-data-change.png" scale="50"
-srccredit="agent-ticket-data-change - screenshot" /></screenshot>
+        Все изменения в заявке производятся также как и в OTRS.
+    </para>
+    <para>
+        <figure>
+            <title>agent-ticket-data-change</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
     </para>
     </sect1>
     <sect1>
-    <title>Утверждения и решения</title>
-    <para>Во многих случаях, особенно в запросах на услугу, до начала работы над
+        <title>
+            Утверждения и решения
+        </title>
+        <para>
+            Во многих случаях, особенно в запросах на услугу, до начала работы над
 запросом, должно быть принято некоторое решение. В зависимости от рамок
 компетенции, решение может приниматься как непосредственно персоналом
 поддержки (стандартные изменения) или путем предварительного утверждения
 управляющим менеджером. Это может быть, например, в случае с изменения прав
 доступа (пользователь хочет получить доступ к ограниченным в доступе
 каталогам файловой системы) или запросов связанных с расходом финансов
-(новый ноутбук).</para>
-    <para>В OTRS::ITSM информация об утверждении или отказе задается через пункт меню
-Решение/Decision и постоянно хранится в заявке:</para>
-    <para>
-        <screenshot>
-<screeninfo>агент-заявка-решение</screeninfo> <graphic
-fileref="screenshots/agent-ticket-decision.png" scale="50"
-srccredit="agent-ticket-decision - screenshot" /></screenshot>
-    </para>
+(новый ноутбук).
+        </para>
+        <para>
+            В OTRS::ITSM информация об утверждении или отказе задается через пункт меню
+Решение/Decision и постоянно хранится в заявке:
+        </para>
+        <para>
+            <figure>
+                <title>агент-заявка-решение</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-ticket-decision.png"></graphic></screenshot></figure>
+        </para>
     </sect1>
     <sect1>
-    <title>Создание заявок о проблеме, основанных на инцидентах</title>
-    <para>Для создания заявки по проблеме из одного или нескольких инцидентов,
+        <title>
+            Создание заявок о проблеме, основанных на инцидентах
+        </title>
+        <para>
+            Для создания заявки по проблеме из одного или нескольких инцидентов,
 создайте новую заявку и свяжите ее с соответствующими заявками об
 инцидентах. Таким образом, эти инциденты могут обрабатываться по
 отдельности, могут быть закрыты с обходными решениями, если необходимо,
-которые, затем, могут быть заменены окончательным решением.</para>
-    <para>Слияние заявок об инцидентах и заявок о проблемах затрудняет отчетность и
+которые, затем, могут быть заменены окончательным решением.
+        </para>
+        <para>
+            Слияние заявок об инцидентах и заявок о проблемах затрудняет отчетность и
 усложняет контроль и постоянное совершенствование ИТ-услуг.
-</para>
+        </para>
     </sect1>
     <sect1>
-    <title>Закрытие заявки</title>
-    <para>В отличие от принятого в OTRS, OTRS::ITSM допускает принятое в ITIL закрытие
-заявки с обходным решением.</para>
+        <title>
+            Закрытие заявки
+        </title>
+        <para>
+            В отличие от принятого в OTRS, OTRS::ITSM допускает принятое в ITIL закрытие
+заявки с обходным решением.
+        </para>
     </sect1>
     <sect1>
-    <title>Обработка запросов на услуги/сервисы</title>
-    <para>В OTRS, запросы на обслуживание и инциденты рассматриваются как заявки и
-изначально обрабатывались одинаково. Они отличались от сбоев типом заявки -
-Incident::Service Request/Инцидент::Запрос на обслуживание.</para>
-    <para>Другое отличие, значения времени, связанные с SLA, разъясняются детально в
-разделах об уровнях обслуживания и соглашениях об уровне обслуживания.</para>
-    <para>
-        <screenshot>
-<screeninfo>агент-сервис-запрос</screeninfo> <graphic
-fileref="screenshots/agent-service-request.png" scale="50"
-srccredit="agent-service-request - screenshot" /></screenshot>
-    </para>
+        <title>
+            Обработка запросов на услуги/сервисы
+        </title>
+        <para>
+            Within OTRS, service requests and incidents are both regarded as tickets and
+initially processed equally. They are distinguishable from disruptions
+because of the ticket type Incident::Service Request.
+        </para>
+        <para>
+            Другое отличие, значения времени, связанные с SLA, разъясняются детально в
+разделах об уровнях обслуживания и соглашениях об уровне обслуживания.
+        </para>
+        <para>
+            <figure>
+                <title>агент-сервис-запрос</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-service-request.png"></graphic></screenshot></figure>
+        </para>
     </sect1>
 </chapter>

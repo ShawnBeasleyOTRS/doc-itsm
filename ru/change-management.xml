@@ -23,10 +23,10 @@
                 Требуемые компетенции
             </title>
             <para>
-                Внедрение OTRS::ITSM требует значительной технической компетенции и
-подготовки. До технической реализации, основные элементы процесса управления
-изменениями, такие, как потребные потоки работ/workflows, метрики, или
-отчеты, должны быть определены.
+                The implementation of OTRS::ITSM requires significant technical
+specification and preparation. Prior to a technical implementation, key
+elements of the Change Management process, such as required workflows,
+metrics or reports, must be defined.
             </para>
         </sect2>
         <sect2>
@@ -104,11 +104,11 @@
 Orders/Задачами.
         </para>
         <para>
-            <screenshot>
-<screeninfo>
-change-workorder-schema</screeninfo> <graphic
-fileref="screenshots/change-workorder-schema.png"
-srccredit="change-workorder-schema - screenshot" scale="75" /></screenshot>
+            <figure>
+                <title>change-workorder-schema</title>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/change-workorder-schema.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -122,11 +122,11 @@ srccredit="change-workorder-schema - screenshot" scale="75" /></screenshot>
 модуле Управления Изменениями.
         </para>
         <para>
-            <screenshot>
-<screeninfo>
-otrs-permissions-roles</screeninfo> <graphic
-fileref="screenshots/otrs-permissions-roles.png"
-srccredit="otrs-permissions-roles - screenshot" scale="75" /></screenshot>
+            <figure>
+                <title>otrs-permissions-roles</title>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/otrs-permissions-roles.png"></graphic></screenshot></figure>
         </para>
         <para>
             При установке OPM пакетов перечисленных в &quot;Technical
@@ -211,11 +211,10 @@ Requirements/Технических требованиях&quot;, создают
 типовой/базовой последовательности работ показанной ниже.
         </para>
         <para>
-            <screenshot>
-<screeninfo>
-change-workflow</screeninfo> <graphic
-fileref="screenshots/change-workflow.png" srccredit="change-workflow -
-screenshot" scale="75" /></screenshot>
+            <figure>
+                <title>change-workflow</title>
+<screenshot>
+<graphic scale="75" fileref="screenshots/change-workflow.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -278,8 +277,8 @@ screenshot" scale="75" /></screenshot>
                                 Нет
                             </entry>
                             <entry>
-                                Текстовое пояснение причин Изменения; ответьте на вопрос: &quot;Каковы будут
-вероятные последствия, если Изменение не будет реализовано?&quot; </entry>
+                                Text explanation of the reasons behind the Change. Answer to the question:
+&quot;What is the likely consequence if the Change is not implemented?&quot; </entry>
                         </row>
                         <row>
                             <entry>
@@ -289,7 +288,7 @@ screenshot" scale="75" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает тип Изменения, например, &quot;3 normal&quot; и т.д.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -300,8 +299,8 @@ screenshot" scale="75" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает эффективность или влияние, которое окажет Изменение, например,
-&quot;4 high&quot;, и т.д.
+                                Defines the effects or impact the Change will have, e.g. &quot;4 high&quot;,
+etc.
                             </entry>
                         </row>
                         <row>
@@ -312,8 +311,8 @@ screenshot" scale="75" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает приоритет Изменения, например, &quot;5 very high&quot;, &quot;3
-normal&quot;, и т.д.
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;, &quot;3
+normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -324,12 +323,10 @@ normal&quot;, и т.д.
                                 Да
                             </entry>
                             <entry>
-                                При создании изменения, состояние устанавливается автоматически. При
-редактировании уже существующего Изменения, Создатель изменения/Change
-Builder и Менеджер изменений/Change Manager могут его выставить
-вручную. Доступные состояния и результирующие состояния определяются
-встроенной Машиной Состояний/State Machine, смотрите <xref
-linkend="change_state_machine" /> .
+                                When creating a new Change, the status is automatically set.  When modifying
+an existing Change, the Change Builder and Change Manager can manually set
+the status. Available statuses and result statuses are defined by the
+integrated State Machine, see <xref linkend="change_state_machine" /> .
                             </entry>
                         </row>
                         <row>
@@ -376,11 +373,10 @@ linkend="change_state_machine" /> .
 администратором системы.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-matrix</screeninfo> <graphic
-fileref="screenshots/change-matrix.png" srccredit="change-matrix -
-screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-matrix</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-matrix.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Здесь, пункт меню &quot;General Catalog/Общий Каталог&quot; должен быть
@@ -505,11 +501,11 @@ screenshot" scale="50" /></screenshot>
 создается базовый вариант, основанный на следующей логике:
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-state-machine</screeninfo> <graphic
-fileref="screenshots/change-state-machine.png"
-srccredit="change-state-machine - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-state-machine</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-state-machine.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Изменения в Машине состояний могут быть выполнены администратором в его
@@ -523,11 +519,11 @@ srccredit="change-state-machine - screenshot" scale="50" /></screenshot>
 Management::Change::State&quot;.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-изменение-состояние-переход</screeninfo> <graphic
-fileref="screenshots/change-state-transition.png"
-srccredit="change-state-transition - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>изменение-состояние-переход</title>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/change-state-transition.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -540,11 +536,11 @@ srccredit="change-state-transition - screenshot" scale="50" /></screenshot>
 реализации.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-involved-persons</screeninfo> <graphic
-fileref="screenshots/change-involved-persons.png"
-srccredit="change-involved-persons - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-involved-persons</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-involved-persons.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Здесь система предлагает удобный доступ ко всем подключенным клиентских
@@ -615,42 +611,40 @@ srccredit="change-involved-persons - screenshot" scale="50" /></screenshot>
                 Связывание Изменения с Запросом на изменение
             </title>
             <para>
-                Через интерфейс OTRS, используя, известный уже, механизм связывания, система
-позволяет связать Изменение с заявкой. Таким образом, исходный источник
-Изменения, т.е. Запрос на Изменение/RfC или проблема могут быть легко
-идентифицированы.
+                Through the OTRS Framework&apos;s renowned linking mechanism, the system
+allows a change to be linked to a ticket. In this way, the origin of a
+change i.e. the Request for Change or problem can be easily identified.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-rfc-relation</screeninfo> <graphic
-fileref="screenshots/change-rfc-relation.png" srccredit="change-rfc-relation
-- screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-rfc-relation</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-rfc-relation.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Кроме того, есть возможность создать соответствующее изменение прямо из
-заявки в процессах Управления Инцидентами/Проблемами, т.е. прямо оттуда, что
-является его источником. В этом случае, система создает непосредственную
-связь между заявкой и Изменением. В настройках системы эта возможность может
-дана только тем агентам, которые имеют права на создание Изменений. Также,
-возможно ограничить использование типа заявки "RfC", дав права только тем
-агентам, которые имеют доступ к Управлению Изменениями. Обратите внимание на
-следующие параметры конфигурации:
+                Furthermore, it is possible to open the corresponding Change directly from a
+ticket within the Incident or Problem Management process i.e., the ticket
+system from which it originated.  In this case, the system creates a
+transparent link between the ticket and Change. In the configuration, this
+feature can be restricted to only those agents who are permitted to create
+Changes.  It is also possible to restrict the usage of the ticket type "RfC"
+to only those agents who have access to the Change Management area.  Please
+have a look at the following sysconfig options:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                            Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
 ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
 ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
@@ -672,11 +666,10 @@ ITSMChange::RestrictTicketTypes::Groups
 отмену request review / approval при отмене Задачи.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-conditions</screeninfo> <graphic
-fileref="screenshots/change-conditions.png" srccredit="change-conditions -
-screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-conditions</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-conditions.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Необходимо отметить, что заданные условия не выполняются в определенном
@@ -688,8 +681,8 @@ screenshot" scale="50" /></screenshot>
                     Условия доступные на уровне Изменений
                 </title>
                 <para>
-                    Следующие атрибуты могут быть использованы при определении Условий на уровне
-Изменений
+                    The following attributes can be used to define Conditions at the Change
+level.
                 </para>
                 <table>
                     <title>
@@ -969,11 +962,11 @@ screenshot" scale="50" /></screenshot>
                     Действия доступные на уровне Изменений
                 </title>
                 <para>
-                    Следующие действия могут быть выполнены для объектов/атрибутов
-Изменения. Оператор &quot;set&quot; позволяет установить значение выбранного
-атрибута, если заданное условие верно. С другой стороны, оператор
-&quot;lock&quot; блокирует выбранный атрибут на все время, пока условие
-верно, т.е. ручное его изменение невозможно.
+                    The following actions can be performed for Change objects. The operator
+&quot;set&quot; enables the selected attribute to be set at a specific
+value, if the defined condition is true. On the other hand, the operator
+&quot;lock&quot; freezes the selected attribute, for as long as the defined
+condition is true i.e. a manual change is not possible.
                 </para>
                 <table>
                     <title>
@@ -1033,11 +1026,11 @@ screenshot" scale="50" /></screenshot>
                     Действия допустимые на уровне Задачи
                 </title>
                 <para>
-                    Следующие действия могут быть выполнены для объектов/атрибутов
-Задачи. Оператор &quot;set&quot; позволяет установить значение выбранного
-атрибута, если заданное условие верно. С другой стороны, оператор
-&quot;lock&quot; блокирует выбранный атрибут на все время, пока условие
-верно, т.е. ручное его изменение невозможно.
+                    The following actions can be performed for Work Order objects. The operator
+&quot;set&quot; enables the selected attribute to be set at a specific
+value, if the defined condition is true. On the other hand, the operator
+&quot;lock&quot; freezes the selected attribute, for as long as the defined
+condition is true i.e. a manual change is not possible.
                 </para>
                 <table>
                     <title>
@@ -1089,11 +1082,11 @@ screenshot" scale="50" /></screenshot>
 границы планируемого временНого периода осуществления Изменения
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-move-timeslot</screeninfo> <graphic
-fileref="screenshots/change-move-timeslot.png"
-srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-move-timeslot</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-move-timeslot.png"></graphic></screenshot></figure>
             </para>
         </sect2>
     </sect1>
@@ -1111,8 +1104,9 @@ srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
                 Атрибуты Задачи
             </title>
             <para>
-                Будучи созданным, Изменение представляет собой контейнер для определения
-подзадач т.е. Задач, и эти задачи могут быть заданы Составителем Изменения.
+                Once a Change is created, it effectively serves as a container for the
+definition of sub-tasks, i.e. Work Orders, and these Work Orders can now be
+defined by the Change Builder.
             </para>
             <table>
                 <title>
@@ -1163,7 +1157,8 @@ srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Список выбора для задания Типа Задачи, т.е. утверждение, работа, PIR, и т.д.
+                                Selection list to define the type of Work Order, e.g. approval, work order,
+PIR, etc.
                             </entry>
                         </row>
                         <row>
@@ -1174,7 +1169,7 @@ srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает тип Изменения, например, &quot;3 normal&quot; и т.д.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1185,8 +1180,7 @@ srccredit="change-move-timeslot - screenshot" scale="50" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает эффективность или влияние, которое окажет Изменение, например,  "4
-high", и т.д.
+                                Defines the effects or impact of the Change, e.g. &quot;4 high&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1197,7 +1191,8 @@ high", и т.д.
                                 Да
                             </entry>
                             <entry>
-                                Задает приоритет Изменения, например, "5 very high", "3 normal", и т.д.
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;, &quot;3
+normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
@@ -1300,16 +1295,17 @@ linkend="change_state_machine" /> .
 создается базовый вариант, основанный на следующей логике:
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-state-machine</screeninfo> <graphic
-fileref="screenshots/change-workorder-state-machine.png"
-srccredit="change-workorder-state-machine - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-workorder-state-machine</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-state-machine.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Изменения в Машине состояний могут быть выполнены администратором в его
-интерфейсе через пункт меню "State Machine/Машина состояний". Состояния и
-возможные результирующие статусы могут быть заданы здесь.
+интерфейсе через пункт меню &quot;State Machine/Машина
+состояний&quot;. Состояния и возможные результирующие статусы могут быть
+заданы здесь.
             </para>
             <para>
                 При необходимости, дополнительные состояния могут быть заданы через меню
@@ -1320,11 +1316,11 @@ Management::WorkOrder::State".
                 Как это сделано в  OTRS::ITSM это представлено в таблице:
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-state-transition</screeninfo> <graphic
-fileref="screenshots/change-workorder-state-transition.png"
-srccredit="change-workorder-state-transition - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-workorder-state-transition</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-state-transition.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1336,16 +1332,16 @@ srccredit="change-workorder-state-transition - screenshot" scale="50" /></screen
 т.е. сотрудник, ответственный за выполнение Задачи.
             </para>
             <para>
-                Система предлагает доступ ко всем подключенным агентам. Важно помнить, что
-отображаются только агенты имеющие полные права в группе
-&quot;itsm-change&quot;
+                The system offers access to all connected agent back-ends here. It is
+important to note that only agents who have full access rights to the user
+group &quot;itsm-change&quot; are displayed.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-agent</screeninfo> <graphic
-fileref="screenshots/change-workorder-agent.png"
-srccredit="change-workorder-agent - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-workorder-agent</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-agent.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1358,11 +1354,11 @@ srccredit="change-workorder-agent - screenshot" scale="50" /></screenshot>
 окончания Задачи, требуемое время и состояние.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-agent-report</screeninfo> <graphic
-fileref="screenshots/change-workorder-agent-report.png"
-srccredit="change-workorder-agent-report - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-workorder-agent-report</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-agent-report.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1439,11 +1435,11 @@ Core::LinkObject&quot; и могут быть, при желании, расши
 создании новой Задачи.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-template</screeninfo> <graphic
-fileref="screenshots/change-workorder-template.png"
-srccredit="change-workorder-template - screenshot" scale="50" /></screenshot>
+                <figure>
+                    <title>change-workorder-template</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-template.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1455,11 +1451,11 @@ srccredit="change-workorder-template - screenshot" scale="50" /></screenshot>
 (см. раздел &quot;Defining conditions/Настройка Условий&quot;).
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-workorder-delete</screeninfo> <graphic
-fileref="screenshots/change-workorder-delete.png"
-srccredit="change-workorder-delete - screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-workorder-delete</title>
+<screenshot>
+<graphic scale="35"
+fileref="screenshots/change-workorder-delete.png"></graphic></screenshot></figure>
             </para>
         </sect2>
     </sect1>
@@ -1473,11 +1469,10 @@ srccredit="change-workorder-delete - screenshot" scale="35" /></screenshot>
 Задачи, связанные заявки и конфигурационные единицы.
         </para>
         <para>
-            <screenshot>
-<screeninfo>
-change-zoom</screeninfo> <graphic
-fileref="screenshots/change-zoom.png" srccredit="change-zoom - screenshot"
-scale="35" /></screenshot>
+            <figure>
+                <title>change-zoom</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-zoom.png"></graphic></screenshot></figure>
         </para>
         <para>
             Созданные Задачи нумеруются в порядке их планируемого выполнения и
@@ -1514,11 +1509,10 @@ Change Management -&gt; Frontend::Agent::ViewChangeZoom&quot; как
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>
-change-timeline</screeninfo> <graphic
-fileref="screenshots/change-timeline.png" srccredit="change-timeline -
-screenshot" scale="50" /></screenshot>
+            <figure>
+                <title>change-timeline</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-timeline.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -1538,11 +1532,10 @@ screenshot" scale="50" /></screenshot>
 убывающем или возрастающем порядке по колонкам атрибутов.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-overview</screeninfo> <graphic
-fileref="screenshots/change-overview.png" srccredit="change-overview -
-screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-overview</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-overview.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Перечень колонок может быть задан  в SysConfig &quot;ITSM Change Management
@@ -1854,21 +1847,20 @@ Frontend::Agent::ViewChangeOverview&quot;:
                 Расписание изменений
             </title>
             <para>
-                В обзоре расписания Изменений отображаются все Изменения, имеющие статус
-&quot;approved/утверждено&quot;, т.е. находятся в очереди на
-реализацию. Информация может быть отсортирована по значениям атрибутов в
-колонках в возрастающем или убывающем порядке:
+                In the Change Schedule view, all Changes which have the status
+&quot;approved&quot; i.e. are in the queue for implementation, are
+displayed. The column titles can be sorted by the following attributes in
+ascending or descending order:
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-schedule</screeninfo> <graphic
-fileref="screenshots/change-schedule.png" srccredit="change-schedule -
-screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-schedule</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-schedule.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
--&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
+                The displayed attributes can be defined via SysConfig &quot;ITSM Change
+Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
             </para>
             <table>
                 <title>
@@ -1974,7 +1966,7 @@ screenshot" scale="35" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Индикатор статуса Изменения в виде "светофора"
+                                Индикатор состояния Изменения, отображаемый как "светофор"
                             </entry>
                         </row>
                         <row>
@@ -2090,11 +2082,10 @@ screenshot" scale="35" /></screenshot>
 атрибутов.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-pir</screeninfo> <graphic
-fileref="screenshots/change-pir.png" srccredit="change-pir - screenshot"
-scale="35" /></screenshot>
+                <figure>
+                    <title>change-pir</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-pir.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
@@ -2204,7 +2195,7 @@ scale="35" /></screenshot>
                                 Нет
                             </entry>
                             <entry>
-                                Индикатор статуса Изменения в виде "светофора"
+                                Индикатор состояния Изменения, отображаемый как "светофор"
                             </entry>
                         </row>
                         <row>
@@ -2375,11 +2366,10 @@ scale="35" /></screenshot>
 возрастающем порядке.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-template</screeninfo> <graphic
-fileref="screenshots/change-template.png" srccredit="change-template -
-screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-template</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-template.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
@@ -2511,9 +2501,9 @@ screenshot" scale="35" /></screenshot>
                                 Да
                             </entry>
                             <entry>
-                                Задает значение действительности шаблона (действительный, недействительный и
-временно недействительный). Недействительный/Временно недействительный
-шаблоны не могут использоваться Создателями Изменений.
+                                Defines the validity of the template (valid, invalid and temporarily
+invalid). Invalid / temporarily invalid templates cannot be used by Change
+Builders.
                             </entry>
                         </row>
                     </tbody>
@@ -2578,11 +2568,10 @@ Frontend::Agent::ViewTemplateOverview&quot;:
 поиска:
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-search</screeninfo> <graphic
-fileref="screenshots/change-search.png" srccredit="change-search -
-screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-search</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-search.png"></graphic></screenshot></figure>
             </para>
             <table>
                 <title>
@@ -2752,10 +2741,9 @@ screenshot" scale="35" /></screenshot>
                                 Запрошенное (клиентом) время/дата
                             </entry>
                             <entry>
-                                Поиск по запрошенному клиентом времени реализации Изменения. Поиск может
-осуществляться как по абсолютному времени (например, с даты 1 до даты 2) или
-по относительным значениям (например, Изменения созданные за последние х
-дней/недель).
+                                Search by the customer requested Change implementation date. Search can be
+performed using absolute time values (e.g. from date 1 to date 2) or in
+relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2763,10 +2751,10 @@ screenshot" scale="35" /></screenshot>
                                 Запланированное время начала
                             </entry>
                             <entry>
-                                Поиск по планируемому времени и дате начала реализации Изменения. Поиск
-может осуществляться как по абсолютному значению времени (например, с даты 1
-до даты 2) или по относительным значениям (например, Изменения созданные за
-последние х дней/недель).
+                                Search by the planned start date and time of a Change implementation.
+Search can be performed using absolute time values (e.g. from date 1 to date
+2) or in relative time values (e.g. Changes created in the last x days /
+weeks).
                             </entry>
                         </row>
                         <row>
@@ -2774,10 +2762,10 @@ screenshot" scale="35" /></screenshot>
                                 Планируемое время окончания
                             </entry>
                             <entry>
-                                Поиск по планируемому времени и дате окончания реализации Изменения. Поиск
-может осуществляться как по абсолютному значению времени (например, с даты 1
-до даты 2) или по относительным значениям (например, Изменения созданные за
-последние х дней/недель).
+                                Search by the projected end date and time of a Change implementation.
+Search can be performed using absolute time values (e.g. from date 1 to date
+2) or in relative time values (e.g. Changes created in the last x days /
+weeks).
                             </entry>
                         </row>
                         <row>
@@ -2785,10 +2773,9 @@ screenshot" scale="35" /></screenshot>
                                 Фактическое время начала
                             </entry>
                             <entry>
-                                Поиск по фактическому времени и дате начала реализации Изменения. Поиск
-может осуществляться как по абсолютному значению времени (например, с даты 1
-до даты 2) или по относительным значениям (например, Изменения созданные за
-последние х дней/недель).
+                                Search by the actual start date and time of a Change implementation.  Search
+can be performed using absolute time values (e.g. from date 1 to date 2) or
+in relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2796,10 +2783,9 @@ screenshot" scale="35" /></screenshot>
                                 Фактическое время окончания
                             </entry>
                             <entry>
-                                Поиск по фактическому времени и дате окончания реализации Изменения. Поиск
-может осуществляться как по абсолютному значению времени (например, с даты 1
-до даты 2) или по относительным значениям (например, Изменения созданные за
-последние х дней/недель).
+                                Search by the actual end date and time of a Change implementation.  Search
+can be performed using absolute time values (e.g. from date 1 to date 2) or
+in relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2807,10 +2793,9 @@ screenshot" scale="35" /></screenshot>
                                 Время создания
                             </entry>
                             <entry>
-                                Поиск по времени и дате создания Изменения. Поиск может осуществляться как
-по абсолютному значению времени (например, с даты 1 до даты 2) или по
-относительным значениям (например, Изменения созданные за последние х
-дней/недель).
+                                Search by the Change creation date and time. Search can be performed using
+absolute time values (e.g. from date 1 to date 2) or in relative time values
+(e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2818,10 +2803,9 @@ screenshot" scale="35" /></screenshot>
                                 Время модификации
                             </entry>
                             <entry>
-                                Поиск по времени и дате модификации Изменения. Поиск может осуществляться
-как по абсолютному значению времени (например, с даты 1 до даты 2) или по
-относительным значениям (например, Изменения созданные за последние х
-дней/недель).
+                                Search by the date and time a Change was modified. Search can be performed
+using absolute time values (e.g. from date 1 to date 2)  or in relative time
+values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                     </tbody>
@@ -2838,11 +2822,11 @@ screenshot" scale="35" /></screenshot>
 Изменений.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-changemanager</screeninfo> <graphic
-fileref="screenshots/change-changemanager.png"
-srccredit="change-changemanager - screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-changemanager</title>
+<screenshot>
+<graphic scale="35"
+fileref="screenshots/change-changemanager.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Отображаемые значения могут быть отсортированы в порядке убывания или
@@ -3060,10 +3044,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Менеджера Изменений можно фильтровать и отображать
-Изменения удовлетворяющие различным значениям атрибутов. Доступны следующие
-фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewChangeManagerOverview&quot;:
+                In addition, the Change Manager Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewChangeManagerOverview&quot; if
+desired:
             </para>
             <table>
                 <title>
@@ -3086,14 +3070,14 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                                 requested - запрошено
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;requested&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval - ожидает утверждения
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;pending approval&quot;
+                                Отображаются все Изменения, имеющие статус &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3101,14 +3085,14 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                                 approved - утверждено
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;approved&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress - в работе
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;in progress&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3123,11 +3107,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
 для которых указан как Составитель Изменения
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-mychanges</screeninfo> <graphic
-fileref="screenshots/change-mychanges.png" srccredit="change-mychanges -
-screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-mychanges</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-mychanges.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Отображаемые значения могут быть отсортированы в порядке убывания или
@@ -3345,10 +3328,9 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Мои Изменения можно фильтровать и отображать
-Изменения удовлетворяющие различным значениям атрибутов. Доступны следующие
-фильтры, которые могут быть заданы в SysConfig  &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
+                In addition, the My Changes Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig &quot;ITSM
+Change Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3371,14 +3353,14 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                                 requested - запрошено
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;requested&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 pending approval - ожидает утверждения
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;pending approval&quot;
+                                Отображаются все Изменения, имеющие статус &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
@@ -3386,14 +3368,14 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                                 approved - утверждено
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;approved&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress - в работе
                             </entry>
                             <entry>
-                                Отображает все Изменения, имеющие статус &quot;in progress&quot; </entry>
+                                Отображаются все Изменения, имеющие статус &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3408,16 +3390,15 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
 предоставляет для активных агентов отдельный обзор Задач назначенных ему/ей.
             </para>
             <para>
-                <screenshot>
-<screeninfo>
-change-myworkorders</screeninfo> <graphic
-fileref="screenshots/change-myworkorders.png" srccredit="change-myworkorders
-- screenshot" scale="35" /></screenshot>
+                <figure>
+                    <title>change-myworkorders</title>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-myworkorders.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Отображаемые значения могут быть отсортированы в порядке убывания или
-возрастания значений атрибутов в колонках. Колонки для отображения задаются
-в SysConfig  &quot;ITSM Change Management -&gt;
+                The displayed information can be sorted by column headings in ascending or
+descending order. The attributes used can be defined via SysConfig
+&quot;ITSM Change Management -&gt;
 Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
@@ -3685,10 +3666,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Мои Задачи можно фильтровать и отображать Изменения
-удовлетворяющие различным значениям атрибутов, как показано ниже. Доступны
-следующие фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change
-Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
+                In addition, the My Work Orders Overview can filter the displayed Work
+Orders by various attributes as follows. These can be defined via SysConfig
+&quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
                 <title>
@@ -3711,7 +3692,7 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 created - создана
                             </entry>
                             <entry>
-                                Отображает все Задачи, имеющие статус &quot;created&quot;
+                                Displays all Work Orders that have the status &quot;created&quot;
                             </entry>
                         </row>
                         <row>
@@ -3719,7 +3700,7 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 accepted - принята
                             </entry>
                             <entry>
-                                Отображает все Задачи, имеющие статус &quot;;accepted&quot;
+                                Displays all Work Orders that have the status &quot;accepted&quot;
                             </entry>
                         </row>
                         <row>
@@ -3727,14 +3708,14 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 ready - готова
                             </entry>
                             <entry>
-                                Отображает все Задачи, имеющие статус &quot;ready&quot; </entry>
+                                Displays all Work Orders that have the status &quot;ready&quot; </entry>
                         </row>
                         <row>
                             <entry>
                                 in progress - в работе
                             </entry>
                             <entry>
-                                Отображает все Задачи, имеющие статус &quot;in progress&quot;
+                                Displays all Work Orders that have the status &quot;in progress&quot;
                             </entry>
                         </row>
                     </tbody>
@@ -3756,9 +3737,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Количество Изменений за заданный период
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
@@ -3770,9 +3751,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Количество Изменений по категориям Изменений
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
@@ -3784,9 +3765,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Количество отвергнутых Изменений
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
@@ -3798,9 +3779,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Количество изъятых Изменений
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
@@ -3812,9 +3793,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Соотношение Изменений к Инцидентам
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно указать статус Изменений, включаемых в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)
@@ -3826,10 +3807,9 @@ Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 Количество запросов на Изменение / RFCs по запросившим
             </title>
             <para>
-                При заказе отчета можно задавать относительный (т.е. Изменения, за последние
-х-дней) или абсолютный период (т.е. Изменения с даты 1 до даты
-2). Дополнительно, можно запросить указать заказчиков Изменений/RFC
-Requester, для включения в отчет.
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
+addition, it is also possible to define the RFC Requester to be reported.
             </para>
             <para>
                 Отчеты можно получать в &quot;CSV&quot; или &quot;Print&quot; (PDF)

@@ -50,7 +50,7 @@ additional IT support functions in the CMDB.
     </para>
 
     <sect1>
-        <title>The OTRS::ITSM database model</title>
+        <title>Das OTRS::ITSM-Datenbankmodell</title>
         <para>
             The modular architecture of OTRS::ITSM and the ability to install single
 OTRS::ITSM packages independently makes it difficult to display a complete
@@ -80,7 +80,7 @@ url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">ht
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
-            <title>ITSMConfigurationManagement</title>
+            <title>ITSMKonfigurationsVerwaltung</title>
             <para>
                 For better readability, this diagram can be found at: <ulink
 url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
@@ -127,17 +127,18 @@ assistance, e.g. of ITIL practice experts.
 as shown when a ticket is created
         </para>
         <para>
-            <screenshot>
-<screeninfo>agent-phoneticket</screeninfo> <graphic
-fileref="screenshots/agent-phoneticket.png" scale="50"
-srccredit="agent-phoneticket - screenshot" /></screenshot>
+            <figure>
+                <title>agent-phoneticket</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic></screenshot></figure>
         </para>
         <para>and in the administration area. </para>
         <para>
-            <screenshot>
-<screeninfo>admin-service-managment-overview</screeninfo> <graphic
-fileref="screenshots/admin-service-managment-overview.png" scale="50"
-srccredit="admin-service-managment-overview - screenshot" /></screenshot>
+            <figure>
+                <title>admin-service-managment-overview</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-service-managment-overview.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -148,17 +149,19 @@ SLAs) document quality pledges for IT services. SLAs are recorded and
 administered in the admin interface.
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-sla-management-overview</screeninfo> <graphic
-fileref="screenshots/admin-sla-management-overview.png" scale="50"
-srccredit="admin-sla-management-overview - screenshot" /></screenshot>
+            <figure>
+                <title>admin-sla-management-overview</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-sla-management-overview.png"></graphic></screenshot></figure>
         </para>
         <para>The following parameters can be recorded with every SLA: </para>
         <para>
-            <screenshot>
-<screeninfo>admin-sla-management-edit</screeninfo> <graphic
-fileref="screenshots/admin-sla-management-edit.png" scale="50"
-srccredit="admin-sla-management-edit - screenshot" /></screenshot>
+            <figure>
+                <title>admin-sla-management-edit</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-sla-management-edit.png"></graphic></screenshot></figure>
         </para>
         <para>
             OTRS::ITSM offers by default up to 99 different calendars to describe the
@@ -168,11 +171,11 @@ them (&quot;service level window&quot;). Various time spans can be entered
         </para>
         <itemizedlist>
             <listitem>
-                <para>[ Response Time ]</para>
+                <para>[ Antwortzeit ]</para>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            = reaction time with incidents
+                            = Reaktionszeit mit Vorfällen
                         </para>
                     </listitem>
                     <listitem>
@@ -184,17 +187,17 @@ time&quot;)
                 </itemizedlist>
             </listitem>
             <listitem>
-                <para>[ Update Time ]</para>
+                <para>[ Aktualisierungszeit ]</para>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            = notification time
+                            = Benachrichtigungszeit
                         </para>
                     </listitem>
                 </itemizedlist>
             </listitem>
             <listitem>
-                <para>[ Solution Time ]</para>
+                <para>[ Lösungszeit ]</para>
                 <itemizedlist>
                     <listitem>
                         <para>
@@ -231,12 +234,12 @@ is affected according to the time fields "response time", "update time" and
         <para>Important time values of OTRS::ITSM are based on the &quot;ITIL incident
 lifecycle&quot;:  </para>
         <para>
-            <screenshot>
-<screeninfo>incident-lifecycle</screeninfo> <graphic
-fileref="screenshots/incident-lifecycle.png" scale="50"
-srccredit="incident-lifecycle - screenshot" /></screenshot>
+            <figure>
+                <title>incident-lifecycle</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic></screenshot></figure>
         </para>
-        <para>Source: OGC, ITIL Service Support Documentation</para>
+        <para>Quelle: OGC, ITIL Service Support Documentation</para>
         <para>
             The OTRS stats framework facilitates, among other things, the definition of
 the actual availability of a service from recorded incidents, which often
@@ -245,22 +248,24 @@ serves as a performance figure in system-oriented SLAs.
     </sect1>
 
     <sect1>
-        <title>Configuration items</title>
+        <title>Konfigurationselemente</title>
         <para>
             Exemplary overview of recorded computer CIs (part) with current CI state:
         </para>
         <para>
-            <screenshot>
-<screeninfo>agent-configuration-items</screeninfo> <graphic
-fileref="screenshots/agent-configuration-items.png" scale="50"
-srccredit="agent-configuration-items - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configuration-items</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configuration-items.png"></graphic></screenshot></figure>
         </para>
-        <para>Example of an individual CI view:</para>
+        <para>Beispiel einer individuellen CI-Ansicht:</para>
         <para>
-            <screenshot>
-<screeninfo>agent-configitem-management-link</screeninfo> <graphic
-fileref="screenshots/agent-configitem-management-link.png" scale="50"
-srccredit="agent-configitem-management-link - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configitem-management-link</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configitem-management-link.png"></graphic></screenshot></figure>
         </para>
         <para>
             The graphic exemplifies the links between CIs. OTRS differentiates between
@@ -269,21 +274,22 @@ CMDB object, OTRS::ITSM automatically creates the respective reverse link.
         </para>
         <para>The OTRS::ITSM standard offers seven link types:</para>
         <para>
-            <screenshot>
-<screeninfo>agent-configitem-management-link2</screeninfo> <graphic
-fileref="screenshots/agent-configitem-management-link2.png" scale="50"
-srccredit="agent-configitem-management-link2 - screenshot" /></screenshot>
+            <figure>
+                <title>agent-configitem-management-link2</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/agent-configitem-management-link2.png"></graphic></screenshot></figure>
         </para>
         <para>
             To link objects, the source object is chosen first, then the link type is
 defined and the target object chosen. The target object can be searched for
-using various criteria:
+using various criteria.
         </para>
     </sect1>
 
 
     <sect1>
-        <title>Documents and knowledge database</title>
+        <title>Dokumente und Wissensdatenbank</title>
         <para>
             Using the FAQ system, which is an independent external module since OTRS
 2.1, a knowledge database can be designed and managed, e.g. for suggestions
@@ -319,7 +325,7 @@ to external assistance, e.g. of ITIL practice experts for CMDB design.
         </warning>
     </sect1>
     <sect1>
-        <title>Ticket types and attributes</title>
+        <title>Tickettypen und Attribute</title>
         <para>
             With OTRS 2.2, native ticket types were introduced, which are used in
 OTRS::ITSM, too. In the ITIL sub-processes, which can be structured in
@@ -331,10 +337,11 @@ e.g. change management, will be implemented in such a way. Ticket types such
 as RfC (&quot;Request for Change&quot;) could be created.
         </para>
         <para>
-            <screenshot>
-<screeninfo>admin-type-management</screeninfo> <graphic
-fileref="screenshots/admin-type-management.png" scale="50"
-srccredit="admin-type-management - screenshot" /></screenshot>
+            <figure>
+                <title>admin-type-management</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/admin-type-management.png"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>

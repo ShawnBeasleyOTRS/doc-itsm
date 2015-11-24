@@ -25,12 +25,12 @@ services, resulting from ad-hoc or poorly-managed changes or amendments.
                 The implementation of OTRS::ITSM requires significant technical
 specification and preparation. Prior to a technical implementation, key
 elements of the Change Management process, such as required workflows,
-metrics, or reports, must be defined.
+metrics or reports, must be defined.
             </para>
         </sect2>
         <sect2>
             <title>
-                Technical Requirements
+                Technische Anforderungen
             </title>
             <para>
                 The software below is necessary to implement the Change Management module:
@@ -39,7 +39,7 @@ metrics, or reports, must be defined.
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, version 3.3.1 or higher
+                            OTRS Framework, Version 3.3. oder höher
                         </para>
                     </listitem>
                     <listitem>
@@ -86,7 +86,7 @@ they are not completely necessary:
     </sect1>
     <sect1>
         <title>
-            Diagram of Change Management in OTRS::ITSM
+            Digramm des Change Managements in ITRS::ITSM
         </title>
         <para>
             The Change Management implementation in OTRS::ITSM defines a Change as an
@@ -101,15 +101,14 @@ Orders.
         <para>
             <figure>
                 <title>change-workorder-schema</title>
-                <screenshot>
-                     <graphic scale="75" fileref="screenshots/change-workorder-schema.png"></graphic>
-                </screenshot>
-            </figure>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/change-workorder-schema.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
         <title>
-            Available User Roles
+            Verfügbare Benutzer-Rollen
         </title>
         <para>
             Access to the Change Management module is managed on a role-based access
@@ -120,10 +119,9 @@ module.
         <para>
             <figure>
                 <title>otrs-permissions-roles</title>
-                <screenshot>
-                     <graphic scale="75" fileref="screenshots/otrs-permissions-roles.png"></graphic>
-                </screenshot>
-            </figure>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/otrs-permissions-roles.png"></graphic></screenshot></figure>
         </para>
         <para>
             By installing the OPMs listed under &quot;Technical Requirements&quot;, the
@@ -131,16 +129,16 @@ user groups in the table below will be created:
         </para>
         <table>
             <title>
-                User roles
+                Benutzer-Rollen
             </title>
             <tgroup cols="2">
                 <thead>
                     <row>
                         <entry>
-                            User role
+                            Benutzer-Rolle
                         </entry>
                         <entry>
-                            Access and privileges
+                            Zugriff und Privilegien
                         </entry>
                     </row>
                 </thead>
@@ -209,35 +207,33 @@ the underlying workflow shown below.
         <para>
             <figure>
                 <title>change-workflow</title>
-                <screenshot>
-                     <graphic scale="75" fileref="screenshots/change-workflow.png"></graphic>
-                </screenshot>
-            </figure>
+<screenshot>
+<graphic scale="75" fileref="screenshots/change-workflow.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
         <title>
-            Creating a New Change
+            Einen neuen Change erstellen
         </title>
         <sect2>
             <title>
-                Attributes of a Change
+                Attribute eines Changes
             </title>
             <para>
                 To create a new Change, the following attributes must be entered.
             </para>
             <table>
                 <title>
-                    Attributes of a Change
+                    Attribute eines Changes
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Required Field
+                                Erforderliches Feld
                             </entry>
                             <entry>
                                 Details
@@ -247,84 +243,84 @@ the underlying workflow shown below.
                     <tbody>
                         <row>
                             <entry>
-                                Title
+                                Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Short description / name of Change
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                Description
-                            </entry>
-                            <entry>
-                                No
-                            </entry>
-                            <entry>
-                                Longer text description of the Change
+                                Kurzbeschreibung / Name des Changes
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Justification
+                                Beschreibung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
-                                Text explanation of the reasons behind the Change; answer to the question:
+                                Längere Beschreibung des Changes
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Begründung
+                            </entry>
+                            <entry>
+                                Nein
+                            </entry>
+                            <entry>
+                                Text explanation of the reasons behind the Change. Answer to the question:
 &quot;What is the likely consequence if the Change is not implemented?&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the effects or impact the Change will have, eg. &quot;4 high&quot;,
+                                Defines the effects or impact the Change will have, e.g. &quot;4 high&quot;,
 etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the priority of the Change, eg. &quot;5 very high&quot;, &quot;3
-normal&quot;, etc. .
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;, &quot;3
+normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                State
+                                Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 When creating a new Change, the status is automatically set.  When modifying
 an existing Change, the Change Builder and Change Manager can manually set
-the status. Available status and result status are defined by the integrated
-State Machine, see <xref linkend="change_state_machine" /> .
+the status. Available statuses and result statuses are defined by the
+integrated State Machine, see <xref linkend="change_state_machine" /> .
                             </entry>
                         </row>
                         <row>
@@ -332,7 +328,7 @@ State Machine, see <xref linkend="change_state_machine" /> .
                                 Requested (by customer) Date
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 If required, this attribute can be deactivated via SysConfig for the
@@ -342,10 +338,10 @@ templates, and display the customer&apos;s desired implementation date.
                         </row>
                         <row>
                             <entry>
-                                Attachment
+                                Anhang
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Enables related files and documents to be attached
@@ -357,7 +353,7 @@ templates, and display the customer&apos;s desired implementation date.
         </sect2>
         <sect2>
             <title>
-                Category - Impact - Priority Matrix
+                Kategorie - Auswirkung - Prioritäts-Matrix
             </title>
             <para>
                 To determine the priority of a Change, OTRS::ITSM supports the Change
@@ -373,10 +369,8 @@ customized in the General Catalog by the administrator.
             <para>
                 <figure>
                     <title>change-matrix</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-matrix.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-matrix.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Here, the menu item &quot;General Catalog&quot; should be selected in the
@@ -393,12 +387,12 @@ values for the Category selection field:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            1 very low
+                            1 sehr gering
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            2 low
+                            2 gering
                         </para>
                     </listitem>
                     <listitem>
@@ -408,12 +402,12 @@ values for the Category selection field:
                     </listitem>
                     <listitem>
                         <para>
-                            4 high
+                            4 hoch
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            5 very high
+                            5 sehr hoch
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -429,12 +423,12 @@ values for the Impact selection field:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            1 very low
+                            1 sehr gering
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            2 low
+                            2 gering
                         </para>
                     </listitem>
                     <listitem>
@@ -444,12 +438,12 @@ values for the Impact selection field:
                     </listitem>
                     <listitem>
                         <para>
-                            4 high
+                            4 hoch
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            5 very high
+                            5 sehr hoch
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -465,12 +459,12 @@ values for the Priority selection field:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            1 very low
+                            1 sehr gering
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            2 low
+                            2 gering
                         </para>
                     </listitem>
                     <listitem>
@@ -480,12 +474,12 @@ values for the Priority selection field:
                     </listitem>
                     <listitem>
                         <para>
-                            4 high
+                            4 hoch
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            5 very high
+                            5 sehr hoch
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -503,10 +497,9 @@ suggestions based on the following logic model:
             <para>
                 <figure>
                     <title>change-state-machine</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-state-machine.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-state-machine.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in
@@ -523,10 +516,9 @@ table:
             <para>
                 <figure>
                     <title>change-state-transition</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-state-transition.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="75"
+fileref="screenshots/change-state-transition.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -540,10 +532,9 @@ implementation can be defined in the Involved Persons feature.
             <para>
                 <figure>
                     <title>change-involved-persons</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-involved-persons.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-involved-persons.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Here, the system offers convenient access to all connected client backends
@@ -552,16 +543,16 @@ specified, the CAB can be defined according to an existing CAB template.
             </para>
             <table>
                 <title>
-                    Involved Persons
+                    Beteiligte Personen
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Required Field
+                                Erforderliches Feld
                             </entry>
                             <entry>
                                 Details
@@ -574,7 +565,7 @@ specified, the CAB can be defined according to an existing CAB template.
                                 Change Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Assigns Change Manager privileges to an agent, for the current Change.
@@ -582,10 +573,10 @@ specified, the CAB can be defined according to an existing CAB template.
                         </row>
                         <row>
                             <entry>
-                                Change Builder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Defines the agent who processes and defines the current Change. When
@@ -598,7 +589,7 @@ Change Builder.
                                 Change Advisory Board
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Defines a group of people which can include agents and customers.
@@ -610,20 +601,18 @@ Change Builder.
         </sect2>
         <sect2>
             <title>
-                Linking a Change with a Request for Change
+                Verlinkt einen Change mit einem Change Request
             </title>
             <para>
                 Through the OTRS Framework&apos;s renowned linking mechanism, the system
 allows a change to be linked to a ticket. In this way, the origin of a
-change ie. the Request for Change or problem can be easily identified.
+change i.e. the Request for Change or problem can be easily identified.
             </para>
             <para>
                 <figure>
                     <title>change-rfc-relation</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-rfc-relation.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-rfc-relation.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Furthermore, it is possible to open the corresponding Change directly from a
@@ -631,24 +620,24 @@ ticket within the Incident or Problem Management process i.e., the ticket
 system from which it originated.  In this case, the system creates a
 transparent link between the ticket and Change. In the configuration, this
 feature can be restricted to only those agents who are permitted to create
-Changes.  It is also possible to resctrict the usage of the ticket type
-"RfC" to only those agents who have access to the Change Management area.
-Please have a look at the following sysconfig options:
+Changes.  It is also possible to restrict the usage of the ticket type "RfC"
+to only those agents who have access to the Change Management area.  Please
+have a look at the following sysconfig options:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -> Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                            Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
 ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -> Core::ITSMChange -
+                            ITSM Change Management -&gt; Core::ITSMChange -
 ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
@@ -657,7 +646,7 @@ ITSMChange::RestrictTicketTypes::Groups
         </sect2>
         <sect2>
             <title>
-                Defining Conditions
+                Bedingungen definieren
             </title>
             <para>
                 OTRS::ITSM allows conditions and actions to be defined based on the
@@ -672,11 +661,9 @@ Work Order is canceled.
             </para>
             <para>
                 <figure>
-                    <title>change-conditions</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-conditions.png"></graphic>
-                    </screenshot>
-                </figure>
+                    <title>Change Bedingungen</title>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-conditions.png"></graphic></screenshot></figure>
             </para>
             <para>
                 It should be noted that the defined conditions are not executed in a certain
@@ -684,11 +671,11 @@ order; rather, actions are processed in the order they were set.
             </para>
             <sect3>
                 <title>
-                    Conditions Available at the Change Level
+                    Conditions available at the Change level
                 </title>
                 <para>
                     The following attributes can be used to define Conditions at the Change
-level
+level.
                 </para>
                 <table>
                     <title>
@@ -701,7 +688,7 @@ level
                                     Change Attribute
                                 </entry>
                                 <entry>
-                                    Logical Operator
+                                    Logischer Operator
                                 </entry>
                             </row>
                         </thead>
@@ -709,111 +696,111 @@ level
                             <row>
                                 <entry>
                                     <para>
-                                        AccountedTime
+                                        Erfasste Zeit
                                     </para>
                                     <para>
-                                        PlannedEffort
-                                    </para>
-                                </entry>
-                                <entry>
-                                    <para>
-                                        is
-                                    </para>
-                                    <para>
-                                        is not
-                                    </para>
-                                    <para>
-                                        is empty
-                                    </para>
-                                    <para>
-                                        is not empty
-                                    </para>
-                                    <para>
-                                        is greater than
-                                    </para>
-                                    <para>
-                                        is less than
-                                    </para>
-                                </entry>
-                            </row>
-                            <row>
-                                <entry>
-                                    <para>
-                                        Category
-                                    </para>
-                                    <para>
-                                        ChangeBuilder
-                                    </para>
-                                    <para>
-                                        ChangeState
-                                    </para>
-                                    <para>
-                                        Impact
-                                    </para>
-                                    <para>
-                                        Priority
+                                        Geplanter Aufwand
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        is
+                                        ist
                                     </para>
                                     <para>
-                                        is not
+                                        ist nicht
+                                    </para>
+                                    <para>
+                                        ist leer
+                                    </para>
+                                    <para>
+                                        ist nicht leer
+                                    </para>
+                                    <para>
+                                        ist grösser als
+                                    </para>
+                                    <para>
+                                        ist kleiner als
                                     </para>
                                 </entry>
                             </row>
                             <row>
                                 <entry>
                                     <para>
-                                        ChangeManager
+                                        Kategorie
+                                    </para>
+                                    <para>
+                                        Change-Builder
+                                    </para>
+                                    <para>
+                                        Change-Status
+                                    </para>
+                                    <para>
+                                        Auswirkung
+                                    </para>
+                                    <para>
+                                        Priorität
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        is
+                                        ist
                                     </para>
                                     <para>
-                                        is not
-                                    </para>
-                                    <para>
-                                        is empty
-                                    </para>
-                                    <para>
-                                        is not empty
+                                        ist nicht
                                     </para>
                                 </entry>
                             </row>
                             <row>
                                 <entry>
                                     <para>
-                                        ChangeTitle
+                                        Change-Manager
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        begins with
+                                        ist
                                     </para>
                                     <para>
-                                        ends with
+                                        ist nicht
                                     </para>
                                     <para>
-                                        contains
+                                        ist leer
                                     </para>
                                     <para>
-                                        does not contain
+                                        ist nicht leer
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Change-Titel
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        beginnt mit
                                     </para>
                                     <para>
-                                        is
+                                        endet mit
                                     </para>
                                     <para>
-                                        is not
+                                        enthält
                                     </para>
                                     <para>
-                                        is empty
+                                        enthält nicht
                                     </para>
                                     <para>
-                                        is not empty
+                                        ist
+                                    </para>
+                                    <para>
+                                        ist nicht
+                                    </para>
+                                    <para>
+                                        ist leer
+                                    </para>
+                                    <para>
+                                        ist nicht leer
                                     </para>
                                 </entry>
                             </row>
@@ -823,7 +810,7 @@ level
             </sect3>
             <sect3>
                 <title>
-                    Conditions Available at the Work Order Level
+                    Conditions available at the Work Order level
                 </title>
                 <para>
                     The following attributes can be used to define conditions at the Work Order
@@ -840,7 +827,7 @@ level.
                                     Work Order Attribute
                                 </entry>
                                 <entry>
-                                    Logical Operator
+                                    Logischer Operator
                                 </entry>
                             </row>
                         </thead>
@@ -848,105 +835,105 @@ level.
                             <row>
                                 <entry>
                                     <para>
-                                        AccountedTime
+                                        Erfasste Zeit
                                     </para>
                                     <para>
-                                        PlannedEffort
-                                    </para>
-                                </entry>
-                                <entry>
-                                    <para>
-                                        is
-                                    </para>
-                                    <para>
-                                        is not
-                                    </para>
-                                    <para>
-                                        is empty
-                                    </para>
-                                    <para>
-                                        is not empty
-                                    </para>
-                                    <para>
-                                        is greater than
-                                    </para>
-                                    <para>
-                                        is less than
-                                    </para>
-                                </entry>
-                            </row>
-                            <row>
-                                <entry>
-                                    <para>
-                                        WorkOrderNumber
+                                        Geplanter Aufwand
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        is
+                                        ist
                                     </para>
                                     <para>
-                                        is not
+                                        ist nicht
                                     </para>
                                     <para>
-                                        is greater than
+                                        ist leer
                                     </para>
                                     <para>
-                                        is less than
+                                        ist nicht leer
+                                    </para>
+                                    <para>
+                                        ist grösser als
+                                    </para>
+                                    <para>
+                                        ist kleiner als
                                     </para>
                                 </entry>
                             </row>
                             <row>
                                 <entry>
                                     <para>
-                                        WorkOrderState
-                                    </para>
-                                    <para>
-                                        WorkOrderType
-                                    </para>
-                                    <para>
-                                        WorkOrderAgent
+                                        Workorder Nummer
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        is
+                                        ist
                                     </para>
                                     <para>
-                                        is not
+                                        ist nicht
+                                    </para>
+                                    <para>
+                                        ist grösser als
+                                    </para>
+                                    <para>
+                                        ist kleiner als
                                     </para>
                                 </entry>
                             </row>
                             <row>
                                 <entry>
                                     <para>
-                                        WorkOrderTitle
+                                        Workorder-Status
+                                    </para>
+                                    <para>
+                                        Workorder-Typ
+                                    </para>
+                                    <para>
+                                        Workorder-Agent
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        begins with
+                                        ist
                                     </para>
                                     <para>
-                                        ends with
+                                        ist nicht
+                                    </para>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <para>
+                                        Workorder-Titel
+                                    </para>
+                                </entry>
+                                <entry>
+                                    <para>
+                                        beginnt mit
                                     </para>
                                     <para>
-                                        contains
+                                        endet mit
                                     </para>
                                     <para>
-                                        does not contain
+                                        enthält
                                     </para>
                                     <para>
-                                        is
+                                        enthält nicht
                                     </para>
                                     <para>
-                                        is not
+                                        ist
                                     </para>
                                     <para>
-                                        is empty
+                                        ist nicht
                                     </para>
                                     <para>
-                                        is not empty
+                                        ist leer
+                                    </para>
+                                    <para>
+                                        ist nicht leer
                                     </para>
                                 </entry>
                             </row>
@@ -966,14 +953,14 @@ the Work Orders of the current change.
             </para>
             <sect3>
                 <title>
-                    Actions Available at the Change Level
+                    Actions available at the Change level
                 </title>
                 <para>
                     The following actions can be performed for Change objects. The operator
 &quot;set&quot; enables the selected attribute to be set at a specific
 value, if the defined condition is true. On the other hand, the operator
 &quot;lock&quot; freezes the selected attribute, for as long as the defined
-condition is true ie. a manual change is not possible.
+condition is true i.e. a manual change is not possible.
                 </para>
                 <table>
                     <title>
@@ -986,7 +973,7 @@ condition is true ie. a manual change is not possible.
                                     Change Attribute
                                 </entry>
                                 <entry>
-                                    Action
+                                    Aktion
                                 </entry>
                             </row>
                         </thead>
@@ -994,33 +981,33 @@ condition is true ie. a manual change is not possible.
                             <row>
                                 <entry>
                                     <para>
-                                        Category
+                                        Kategorie
                                     </para>
                                     <para>
-                                        Impact
+                                        Auswirkung
                                     </para>
                                     <para>
-                                        Priority
+                                        Priorität
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        set
+                                        setze
                                     </para>
                                 </entry>
                             </row>
                             <row>
                                 <entry>
                                     <para>
-                                        ChangeState
+                                        Change-Status
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        set
+                                        setze
                                     </para>
                                     <para>
-                                        lock
+                                        gesperrt
                                     </para>
                                 </entry>
                             </row>
@@ -1037,7 +1024,7 @@ condition is true ie. a manual change is not possible.
 &quot;set&quot; enables the selected attribute to be set at a specific
 value, if the defined condition is true. On the other hand, the operator
 &quot;lock&quot; freezes the selected attribute, for as long as the defined
-condition is true ie. a manual change is not possible.
+condition is true i.e. a manual change is not possible.
                 </para>
                 <table>
                     <title>
@@ -1050,7 +1037,7 @@ condition is true ie. a manual change is not possible.
                                     Work Order Attribute
                                 </entry>
                                 <entry>
-                                    Action
+                                    Aktion
                                 </entry>
                             </row>
                         </thead>
@@ -1058,15 +1045,15 @@ condition is true ie. a manual change is not possible.
                             <row>
                                 <entry>
                                     <para>
-                                        WorkOrderState
+                                        Workorder-Status
                                     </para>
                                 </entry>
                                 <entry>
                                     <para>
-                                        set
+                                        setze
                                     </para>
                                     <para>
-                                        lock
+                                        gesperrt
                                     </para>
                                 </entry>
                             </row>
@@ -1091,10 +1078,9 @@ planned Change implementation timeframe.
             <para>
                 <figure>
                     <title>change-move-timeslot</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-move-timeslot.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-move-timeslot.png"></graphic></screenshot></figure>
             </para>
         </sect2>
     </sect1>
@@ -1109,25 +1095,25 @@ Change to be entered.
         </para>
         <sect2>
             <title>
-                Attributes of a Work Order
+                Attribute einer Workorder
             </title>
             <para>
                 Once a Change is created, it effectively serves as a container for the
-definition of sub-tasks, ie. Work Orders, and these Work Orders can now be
+definition of sub-tasks, i.e. Work Orders, and these Work Orders can now be
 defined by the Change Builder.
             </para>
             <table>
                 <title>
-                    Attributes of a Work Order
+                    Attribute einer Workorder
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Required Field
+                                Erforderliches Feld
                             </entry>
                             <entry>
                                 Details
@@ -1137,78 +1123,78 @@ defined by the Change Builder.
                     <tbody>
                         <row>
                             <entry>
-                                Title
+                                Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Short description / name of Work Order.
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                Instruction
-                            </entry>
-                            <entry>
-                                No
-                            </entry>
-                            <entry>
-                                Longer text description of the Work Order.
+                                Kurzbeschreibung / Name der WorkOrder.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Work Order Type
+                                Anweisung
                             </entry>
                             <entry>
-                                Yes
+                                Nein
                             </entry>
                             <entry>
-                                Selection list to define the type of Work Order, eg. approval, work order,
+                                Längere Beschreibung der WorkOrder.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                WorkOrder-Typ
+                            </entry>
+                            <entry>
+                                Ja
+                            </entry>
+                            <entry>
+                                Selection list to define the type of Work Order, e.g. approval, work order,
 PIR, etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the type of Change, e.g &quot;3 normal&quot; etc.
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                Impact
-                            </entry>
-                            <entry>
-                                Yes
-                            </entry>
-                            <entry>
-                                Defines the effects or impact of the Change, eg. &quot;4 high&quot;, etc.
+                                Defines the type of Change, e.g &quot;3 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Auswirkung
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the priority of the Change, eg. &quot;5 very high&quot;, &quot;3
+                                Defines the effects or impact of the Change, e.g. &quot;4 high&quot;, etc.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Priorität
+                            </entry>
+                            <entry>
+                                Ja
+                            </entry>
+                            <entry>
+                                Defines the priority of the Change, e.g. &quot;5 very high&quot;, &quot;3
 normal&quot;, etc.
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                State
+                                Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 When creating a new Change, the status is automatically set.  When modifying
@@ -1222,7 +1208,7 @@ integrated State Machine, see <xref linkend="change_state_machine" /> .
                                 Requested (by customer) Date
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 If required, this attribute can be deactivated via SysConfig for the
@@ -1232,10 +1218,10 @@ templates, and display the customer&apos;s desired implementation date.
                         </row>
                         <row>
                             <entry>
-                                Attachment
+                                Anhang
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Enables related files and documents to be attached
@@ -1252,7 +1238,7 @@ detail in the &quot;Work Order Agent Report&quot; chapter.
         </sect2>
         <sect2>
             <title>
-                Work Order Type
+                WorkOrder-Typ
             </title>
             <para>
                 The following entries for the &quot;Work Order Type&quot; attribute are
@@ -1261,12 +1247,12 @@ available in the standard installation of OTRS::ITSM Change Management:
             <itemizedlist>
                 <listitem>
                     <para>
-                        Approval
+                        Freigabe
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Work Order
+                        WorkOrder
                     </para>
                 </listitem>
                 <listitem>
@@ -1276,7 +1262,7 @@ available in the standard installation of OTRS::ITSM Change Management:
                 </listitem>
                 <listitem>
                     <para>
-                        Decision
+                        Entscheidung
                     </para>
                 </listitem>
                 <listitem>
@@ -1302,15 +1288,15 @@ generates suggestions based on the following logic model:
             <para>
                 <figure>
                     <title>change-workorder-state-machine</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-workorder-state-machine.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-state-machine.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in
-the administration front end, under menu option State Machine. The statuses
-and possible result statuses should be defined here.
+the administration front end, under menu option &quot;State
+Machine&quot;. The statuses and possible result statuses should be defined
+here.
             </para>
             <para>
                 Where necessary, additional statuses can be defined under the menu option
@@ -1323,10 +1309,9 @@ and possible result statuses should be defined here.
             <para>
                 <figure>
                     <title>change-workorder-state-transition</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-workorder-state-transition.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-state-transition.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1340,15 +1325,14 @@ person responsible for the execution of the Work Order.
             <para>
                 The system offers access to all connected agent back-ends here. It is
 important to note that only agents who have full access rights to the user
-group &quot;have itsm-change&quot; are displayed.
+group &quot;itsm-change&quot; are displayed.
             </para>
             <para>
                 <figure>
                     <title>change-workorder-agent</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-workorder-agent.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-agent.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1363,10 +1347,9 @@ time and status.
             <para>
                 <figure>
                     <title>change-workorder-agent-report</title>
-                    <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-workorder-agent-report.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-agent-report.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
@@ -1388,27 +1371,27 @@ objects:
                     <itemizedlist>
                         <listitem>
                             <para>
-                                CI-Class Computer
+                                CI-Klasse Computer
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Class Hardware
+                                CI-Klasse Hardware
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Class Location
+                                CI-Klasse Standort
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Class Network
+                                CI-Klasse Netzwerk
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                CI-Class Software
+                                CI-Klasse Software
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -1431,7 +1414,7 @@ Core::LinkObject&quot; and can be extended when desired.
         </sect2>
         <sect2>
             <title>
-                Saving a Work Order as a Template
+                Eine WorkOrder als Vorlage speichern
             </title>
             <para>
                 A Work Order can be saved as a template through the &quot;Template&quot;
@@ -1446,15 +1429,14 @@ a new Work Order is being created.
             <para>
                 <figure>
                     <title>change-workorder-template</title>
-                    <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-template.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/change-workorder-template.png"></graphic></screenshot></figure>
             </para>
         </sect2>
         <sect2>
             <title>
-                Deleting a Work Order
+                Eine WorkOrder löschen
             </title>
             <para>
                 The Change Builder can delete a Work Order as long as it is not referred to
@@ -1463,10 +1445,9 @@ in a Condition (see the &quot;Defining conditions&quot; section).
             <para>
                 <figure>
                     <title>change-workorder-delete</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-workorder-delete.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35"
+fileref="screenshots/change-workorder-delete.png"></graphic></screenshot></figure>
             </para>
         </sect2>
     </sect1>
@@ -1482,10 +1463,8 @@ corresponding Work Orders, linked tickets and CIs.
         <para>
             <figure>
                 <title>change-zoom</title>
-                <screenshot>
-                     <graphic scale="35" fileref="screenshots/change-zoom.png"></graphic>
-                </screenshot>
-            </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-zoom.png"></graphic></screenshot></figure>
         </para>
         <para>
             The defined Work Orders are numbered in order of their planned execution and
@@ -1506,33 +1485,31 @@ the following view:
         <itemizedlist>
             <listitem>
                 <para>
-                    Gray - Work Order is &quot;created&quot; </para>
+                    Grau - Workorder wurde &quot;erstellt&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Yellow - Work Order is &quot;pending approval&quot; </para>
+                    Gelb - WorkOrder &quot;wartet auf Genehmigung&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Green - Work Order is &quot;closed&quot; </para>
+                    Grün - WorkOrder ist &quot;geschlossen&quot; </para>
             </listitem>
             <listitem>
                 <para>
-                    Red - Work Order is &quot;canceled&quot; </para>
+                    Rot - WorkOrder wurde &quot;abgebrochen&quot; </para>
             </listitem>
         </itemizedlist>
         <para>
             <figure>
                 <title>change-timeline</title>
-                <screenshot>
-                     <graphic scale="50" fileref="screenshots/change-timeline.png"></graphic>
-                </screenshot>
-            </figure>
+<screenshot>
+<graphic scale="50" fileref="screenshots/change-timeline.png"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
         <title>
-            Change Views
+            Änderungsansichten
         </title>
         <para>
             OTRS::ITSM offers a variety of ways to view the Changes saved in the
@@ -1540,7 +1517,7 @@ system.  Access to these views can be disabled where desired.
         </para>
         <sect2>
             <title>
-                Change Overview
+                Änderungsübersicht
             </title>
             <para>
                 All Changes are displayed in an overview screen, which can be sorted in
@@ -1549,10 +1526,8 @@ ascending or descending order per column.
             <para>
                 <figure>
                     <title>change-overview</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-overview.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-overview.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The columns can be defined via SysConfig &quot;ITSM Change Management -&gt;
@@ -1561,16 +1536,16 @@ attributes:
             </para>
             <table>
                 <title>
-                    Change Overview
+                    Änderungsübersicht
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -1580,10 +1555,10 @@ attributes:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -1591,10 +1566,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation ended
@@ -1602,10 +1577,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -1613,10 +1588,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -1624,10 +1599,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -1635,10 +1610,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 System generated Change number
@@ -1646,13 +1621,13 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -1660,29 +1635,29 @@ attributes:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status indicator, shown as traffic light
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                ChangeTitle
-                            </entry>
-                            <entry>
-                                Yes
-                            </entry>
-                            <entry>
-                                Name of Change
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Change-Titel
                             </entry>
                             <entry>
-                                No
+                                Ja
+                            </entry>
+                            <entry>
+                                Name der Änderung
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Erstellzeit
+                            </entry>
+                            <entry>
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -1690,10 +1665,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect of the Change
@@ -1701,10 +1676,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -1712,10 +1687,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change implementation end date and time
@@ -1723,10 +1698,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -1734,10 +1709,10 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -1748,7 +1723,7 @@ attributes:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -1759,7 +1734,7 @@ attributes:
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -1782,7 +1757,7 @@ Frontend::Agent::ViewChangeOverview&quot;:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -1792,14 +1767,14 @@ Frontend::Agent::ViewChangeOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                requested
+                                Requested
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                pending approval
+                                Pending Approval
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;pending approval&quot;
@@ -1807,21 +1782,21 @@ Frontend::Agent::ViewChangeOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                rejected
+                                Rejected
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;rejected&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                approved
+                                Approved
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                in progress
+                                In Progress
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;in progress&quot;
@@ -1829,28 +1804,28 @@ Frontend::Agent::ViewChangeOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                successful
+                                Successful
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;successful&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                failed
+                                Failed
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;failed&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                canceled
+                                Canceled
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;canceled&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                retracted
+                                Retracted
                             </entry>
                             <entry>
                                 Displays all changes that have the status &quot;retracted&quot; </entry>
@@ -1865,21 +1840,19 @@ Frontend::Agent::ViewChangeOverview&quot;:
             </title>
             <para>
                 In the Change Schedule view, all Changes which have the status
-&quot;approved&quot; ie. are in the queue for implementation, are
+&quot;approved&quot; i.e. are in the queue for implementation, are
 displayed. The column titles can be sorted by the following attributes in
 ascending or descending order:
             </para>
             <para>
                 <figure>
                     <title>change-schedule</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-schedule.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-schedule.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The displayed attributes can be defined via SysConfig &quot;ITSM Change
-Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
+Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
             </para>
             <table>
                 <title>
@@ -1889,10 +1862,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -1902,10 +1875,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -1913,10 +1886,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation was completed
@@ -1924,10 +1897,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -1935,10 +1908,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -1946,10 +1919,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -1957,10 +1930,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 System generated Change number
@@ -1968,13 +1941,13 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -1982,29 +1955,29 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status indicator; shown as traffic light
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                ChangeTitle
-                            </entry>
-                            <entry>
-                                Yes
-                            </entry>
-                            <entry>
-                                Name of the Change
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Change-Titel
                             </entry>
                             <entry>
-                                No
+                                Ja
+                            </entry>
+                            <entry>
+                                Name der Änderung
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Erstellzeit
+                            </entry>
+                            <entry>
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -2012,10 +1985,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect of the Change
@@ -2023,10 +1996,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -2034,10 +2007,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change implementation completion date and time
@@ -2045,10 +2018,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -2056,10 +2029,10 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -2070,7 +2043,7 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -2081,7 +2054,7 @@ Management -&gt; Frontend:: Agent:: ViewChangeScheduleOverview&quot;:
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -2102,10 +2075,8 @@ sorted in ascending or descending order by the given column headings.
             <para>
                 <figure>
                     <title>change-pir</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-pir.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-pir.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The columns to be displayed can be defined via SysConfig &quot;ITSM Change
@@ -2119,10 +2090,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -2132,10 +2103,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -2143,10 +2114,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation was completed
@@ -2154,10 +2125,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -2165,10 +2136,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -2176,10 +2147,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -2187,10 +2158,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 System generated Change number
@@ -2198,13 +2169,13 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -2212,29 +2183,29 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
-                                Change status indicator; shown as traffic light
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                ChangeTitle
-                            </entry>
-                            <entry>
-                                Yes
-                            </entry>
-                            <entry>
-                                Name of Change
+                                Change status indicator to be shown as traffic light
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Change-Titel
                             </entry>
                             <entry>
-                                No
+                                Ja
+                            </entry>
+                            <entry>
+                                Name der Änderung
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                Erstellzeit
+                            </entry>
+                            <entry>
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -2242,10 +2213,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect of the Change
@@ -2253,10 +2224,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -2264,10 +2235,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change implementation completion date and time
@@ -2275,10 +2246,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -2286,10 +2257,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -2300,7 +2271,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -2308,10 +2279,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderAgent
+                                Workorder-Agent
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Agent assigned to the PIR
@@ -2319,10 +2290,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderNumber
+                                Workorder Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Work Order number
@@ -2330,10 +2301,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderState
+                                Workorder-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -2344,7 +2315,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                                 WorkOrderStateSignal
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Work Order status indicator to be shown as traffic light
@@ -2352,10 +2323,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderTitle
+                                Workorder-Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Name of the Work Order
@@ -2363,10 +2334,10 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderType
+                                Workorder-Typ
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 The type of Work Order
@@ -2378,7 +2349,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
         </sect2>
         <sect2>
             <title>
-                Template
+                Vorlage
             </title>
             <para>
                 This view displays all the defined templates in the system. The agent can
@@ -2388,10 +2359,8 @@ column headings.
             <para>
                 <figure>
                     <title>change-template</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-template.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-template.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The columns to be displayed can be defined via SysConfig &quot;ITSM Change
@@ -2399,16 +2368,16 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
             </para>
             <table>
                 <title>
-                    Template
+                    Vorlage
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -2418,10 +2387,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ChangeBy
+                                Geändert von
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Username of the agent who last modified the template
@@ -2429,10 +2398,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeTime
+                                Geändert
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time of the last modification
@@ -2440,10 +2409,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Comment
+                                Kommentar
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Comments / description of the template
@@ -2451,10 +2420,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                CreateBy
+                                Erstellt von
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Username of the agent who created the template
@@ -2462,10 +2431,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Erstellzeit
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Date and time at which the template was created
@@ -2473,10 +2442,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Delete
+                                Löschen
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Option to delete a chosen template
@@ -2487,10 +2456,10 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                                 Name
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Name of the template
+                                Name der Vorlage
                             </entry>
                         </row>
                         <row>
@@ -2498,7 +2467,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                                 TemplateID
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 The template&apos;s internal database identity
@@ -2506,24 +2475,24 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Type
+                                Typ
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Type of template
+                                Template-Typ
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Valid
+                                Gültig
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Defines the validity of the template (valid, invalid, and temporarily
+                                Defines the validity of the template (valid, invalid and temporarily
 invalid). Invalid / temporarily invalid templates cannot be used by Change
 Builders.
                             </entry>
@@ -2538,13 +2507,13 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
             </para>
             <table>
                 <title>
-                    Template Types
+                    Vorlagentypen
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -2554,18 +2523,18 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ITSMChange
+                                Change
                             </entry>
                             <entry>
-                                Templates for Changes
+                                Vorlagen für Änderungen
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                ITSMWorkOrder
+                                Workorder
                             </entry>
                             <entry>
-                                Templates for Work Orders
+                                Vorlagen für Arbeitsaufträge
                             </entry>
                         </row>
                         <row>
@@ -2582,7 +2551,7 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
         </sect2>
         <sect2>
             <title>
-                Search
+                Suche
             </title>
             <para>
                 To find Changes or Work Orders which meet specific search criteria, the
@@ -2592,20 +2561,18 @@ search query attributes:
             <para>
                 <figure>
                     <title>change-search</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-search.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-search.png"></graphic></screenshot></figure>
             </para>
             <table>
                 <title>
-                    Template
+                    Vorlage
                 </title>
                 <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -2624,7 +2591,7 @@ wildcard
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                Change-Titel
                             </entry>
                             <entry>
                                 Search by Change title or name
@@ -2640,7 +2607,7 @@ wildcard
                         </row>
                         <row>
                             <entry>
-                                CABAgent
+                                CAB Agent
                             </entry>
                             <entry>
                                 Search by CAB member, defined in the system as an agent
@@ -2648,7 +2615,7 @@ wildcard
                         </row>
                         <row>
                             <entry>
-                                CABCustomer
+                                CAB Kunde
                             </entry>
                             <entry>
                                 Search by CAB member, defined in the system as a customer. Here, the
@@ -2658,7 +2625,7 @@ field
                         </row>
                         <row>
                             <entry>
-                                Change Description
+                                Änderungsbeschreibung
                             </entry>
                             <entry>
                                 Search in the Change description text
@@ -2690,7 +2657,7 @@ field
                         </row>
                         <row>
                             <entry>
-                                Change Priority
+                                Änderungspriorität
                             </entry>
                             <entry>
                                 Search by Change priority level
@@ -2706,7 +2673,7 @@ field
                         </row>
                         <row>
                             <entry>
-                                Change Category
+                                Change-Kategorie
                             </entry>
                             <entry>
                                 Search by Change category or type
@@ -2714,7 +2681,7 @@ field
                         </row>
                         <row>
                             <entry>
-                                Change State
+                                Änderungsstatus
                             </entry>
                             <entry>
                                 Search by Change status
@@ -2730,7 +2697,7 @@ field
                         </row>
                         <row>
                             <entry>
-                                Change Builder
+                                Change-Builder
                             </entry>
                             <entry>
                                 Search by Change Builder
@@ -2766,60 +2733,60 @@ field
                             </entry>
                             <entry>
                                 Search by the customer requested Change implementation date. Search can be
-performed using absolute time values (eg. from date 1 to date 2) or in
-relative time values (eg. Changes created in the last x days / weeks).
+performed using absolute time values (e.g. from date 1 to date 2) or in
+relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Planned Start Time
+                                Geplante Startzeit
                             </entry>
                             <entry>
                                 Search by the planned start date and time of a Change implementation.
-Search can be performed using absolute time values (eg. from date 1 to date
-2) or in relative time values (eg. Changes created in the last x days /
+Search can be performed using absolute time values (e.g. from date 1 to date
+2) or in relative time values (e.g. Changes created in the last x days /
 weeks).
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Planned End Time
+                                Geplante Endzeit
                             </entry>
                             <entry>
                                 Search by the projected end date and time of a Change implementation.
-Search can be performed using absolute time values (eg. from date 1 to date
-2) or in relative time values (eg. Changes created in the last x days /
+Search can be performed using absolute time values (e.g. from date 1 to date
+2) or in relative time values (e.g. Changes created in the last x days /
 weeks).
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Actual Start Time
+                                Tatsächliche Startzeit
                             </entry>
                             <entry>
                                 Search by the actual start date and time of a Change implementation.  Search
-can be performed using absolute time values (eg. from date 1 to date 2) or
-in relative time values (eg. Changes created in the last x days / weeks).
+can be performed using absolute time values (e.g. from date 1 to date 2) or
+in relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Actual End Time
+                                Tatsächliche Endzeit
                             </entry>
                             <entry>
                                 Search by the actual end date and time of a Change implementation.  Search
-can be performed using absolute time values (eg. from date 1 to date 2) or
-in relative time values (eg. Changes created in the last x days / weeks).
+can be performed using absolute time values (e.g. from date 1 to date 2) or
+in relative time values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                Create Time
+                                Erstellzeit
                             </entry>
                             <entry>
                                 Search by the Change creation date and time. Search can be performed using
-absolute time values (eg. from date 1 to date 2) or in relative time values
-(eg. Changes created in the last x days / weeks).
+absolute time values (e.g. from date 1 to date 2) or in relative time values
+(e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                         <row>
@@ -2828,8 +2795,8 @@ absolute time values (eg. from date 1 to date 2) or in relative time values
                             </entry>
                             <entry>
                                 Search by the date and time a Change was modified. Search can be performed
-using absolute time values (eg. from date 1 to date 2)  or in relative time
-values (eg. Changes created in the last x days / weeks).
+using absolute time values (e.g. from date 1 to date 2)  or in relative time
+values (e.g. Changes created in the last x days / weeks).
                             </entry>
                         </row>
                     </tbody>
@@ -2847,10 +2814,9 @@ displays the Changes for which they are registered as the Change Manager.
             <para>
                 <figure>
                     <title>change-changemanager</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-changemanager.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35"
+fileref="screenshots/change-changemanager.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The displayed column headings can be sorted according the following
@@ -2866,10 +2832,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -2879,10 +2845,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -2890,10 +2856,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation was completed
@@ -2901,10 +2867,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -2912,10 +2878,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -2923,10 +2889,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -2934,10 +2900,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 System generated Change number
@@ -2945,13 +2911,13 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -2959,7 +2925,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change status indicator to be shown as traffic light
@@ -2967,21 +2933,21 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                Change-Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Name of Change
+                                Name der Änderung
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Erstellzeit
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -2989,10 +2955,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect of the Change
@@ -3000,10 +2966,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -3011,10 +2977,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change implementation completion date and time
@@ -3022,10 +2988,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -3033,10 +2999,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -3047,7 +3013,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -3058,7 +3024,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -3069,7 +3035,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
             </table>
             <para>
                 In addition, the Change Manager Overview can filter the displayed Changes by
-various attributes as follows These can be defined via SysConfig &quot;ITSM
+various attributes as follows. These can be defined via SysConfig &quot;ITSM
 Change Management -&gt; Frontend::Agent::ViewChangeManagerOverview&quot; if
 desired:
             </para>
@@ -3081,7 +3047,7 @@ desired:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -3091,32 +3057,32 @@ desired:
                     <tbody>
                         <row>
                             <entry>
-                                requested
+                                Requested
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;requested&quot; </entry>
+                                Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                pending approval
+                                Pending Approval
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;pending approval&quot;
+                                Displays all changes that have the status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                approved
+                                Approved
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;approved&quot; </entry>
+                                Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                in progress
+                                In Progress
                             </entry>
                             <entry>
-                                Displays all Changes which have status &quot;in progress&quot; </entry>
+                                Displays all changes that have the status &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3124,7 +3090,7 @@ desired:
         </sect2>
         <sect2>
             <title>
-                My Changes
+                Meine Changes
             </title>
             <para>
                 The &quot;My Changes&quot; view displays all Changes created by the agent
@@ -3133,10 +3099,8 @@ currently logged in, where the agent is registered as the Change Builder.
             <para>
                 <figure>
                     <title>change-mychanges</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-mychanges.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-mychanges.png"></graphic></screenshot></figure>
             </para>
             <para>
                 The display can be sorted by the column headings in ascending or descending
@@ -3145,16 +3109,16 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
             <table>
                 <title>
-                    My Changes
+                    Meine Changes
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -3164,10 +3128,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -3175,10 +3139,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was completed
@@ -3186,10 +3150,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -3197,10 +3161,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -3208,10 +3172,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -3219,10 +3183,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 System generated Change number
@@ -3230,13 +3194,13 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -3244,7 +3208,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Change status indicator to be shown as traffic light
@@ -3252,21 +3216,21 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                Change-Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Name of Change
+                                Name der Änderung
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Erstellzeit
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -3274,10 +3238,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect the Change will have
@@ -3285,10 +3249,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -3296,10 +3260,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change completion date and time
@@ -3307,10 +3271,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -3318,10 +3282,10 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -3332,7 +3296,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -3343,7 +3307,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                                 WorkOrderCount
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -3354,18 +3318,18 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </table>
             <para>
                 In addition, the My Changes Overview can filter the displayed Changes by
-various attributes as below. These can be defined via SysConfig &quot;ITSM
+various attributes as follows. These can be defined via SysConfig &quot;ITSM
 Change Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
             </para>
             <table>
                 <title>
-                    My Changes Filter
+                    Mein Änderungsfilter
                 </title>
                 <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -3375,32 +3339,32 @@ Change Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                requested
+                                Requested
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;requested&quot; </entry>
+                                Displays all changes that have the status &quot;requested&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                pending approval
+                                Pending Approval
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;pending approval&quot;
+                                Displays all changes that have the status &quot;pending approval&quot;
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                approved
+                                Approved
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;approved&quot; </entry>
+                                Displays all changes that have the status &quot;approved&quot; </entry>
                         </row>
                         <row>
                             <entry>
-                                in progress
+                                In Progress
                             </entry>
                             <entry>
-                                Displays all Changes which have status&quot;in progress&quot; </entry>
+                                Displays all changes that have the status &quot;in progress&quot; </entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -3408,7 +3372,7 @@ Change Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
         </sect2>
         <sect2>
             <title>
-                My Work Orders
+                Meine Arbeitsaufträge
             </title>
             <para>
                 Similar to the OTRS Ticket Engine's &quot;Locked Tickets&quot; view,
@@ -3418,29 +3382,27 @@ Orders assigned to him / her.
             <para>
                 <figure>
                     <title>change-myworkorders</title>
-                    <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-myworkorders.png"></graphic>
-                    </screenshot>
-                </figure>
+<screenshot>
+<graphic scale="35" fileref="screenshots/change-myworkorders.png"></graphic></screenshot></figure>
             </para>
             <para>
-                The displayed information can be sorted by column heading in ascending or
+                The displayed information can be sorted by column headings in ascending or
 descending order. The attributes used can be defined via SysConfig
 &quot;ITSM Change Management -&gt;
 Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
                 <title>
-                    My Work Orders
+                    Meine Arbeitsaufträge
                 </title>
                 <tgroup cols="3">
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
-                                Active
+                                Aktiv
                             </entry>
                             <entry>
                                 Details
@@ -3450,10 +3412,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                Tatsächlicher Start
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation began
@@ -3461,10 +3423,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                Tatsächliches Ende
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change implementation was completed
@@ -3472,10 +3434,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Category
+                                Kategorie
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Category or type of Change
@@ -3483,10 +3445,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                Change-Builder
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Change Builder&apos;s name
@@ -3494,10 +3456,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                Change-Manager
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Change Manager&apos;s name
@@ -3505,10 +3467,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                Change Nummer
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 System generated Change number
@@ -3516,13 +3478,13 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                Change-Status
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
-                                Change status
+                                Änderungsstatus
                             </entry>
                         </row>
                         <row>
@@ -3530,7 +3492,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 ChangeStateSignal
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Change status indicator to be shown as traffic light
@@ -3538,21 +3500,21 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                Change-Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
-                                Name of Change
+                                Name der Änderung
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                Erstellzeit
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Date and time at which the Change was created
@@ -3560,10 +3522,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                Auswirkung
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Expected effect the Change will have
@@ -3571,10 +3533,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                Geplanter Start
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Planned Change implementation start date and time
@@ -3582,10 +3544,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                Geplantes Ende
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Projected Change completion date and time
@@ -3593,10 +3555,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                Priorität
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Priority level of the Change
@@ -3604,10 +3566,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                Wunschtermin
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Customer&apos;s desired implementation date
@@ -3618,7 +3580,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 Services
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Services affected by the Change
@@ -3626,10 +3588,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderAgent
+                                Workorder-Agent
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Agent assigned to the PIR
@@ -3637,10 +3599,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderNumber
+                                Workorder Nummer
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Work Order number
@@ -3648,10 +3610,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderState
+                                Workorder-Status
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Number of Work Orders related to the Change
@@ -3662,7 +3624,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                                 WorkOrderStateSignal
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 Work Order status indicator to be shown as traffic light
@@ -3670,10 +3632,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderTitle
+                                Workorder-Titel
                             </entry>
                             <entry>
-                                Yes
+                                Ja
                             </entry>
                             <entry>
                                 Name of the Work Order
@@ -3681,10 +3643,10 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderType
+                                Workorder-Typ
                             </entry>
                             <entry>
-                                No
+                                Nein
                             </entry>
                             <entry>
                                 The type of Work Order
@@ -3695,7 +3657,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </table>
             <para>
                 In addition, the My Work Orders Overview can filter the displayed Work
-Orders by various attributes as below, which can be defined via SysConfig
+Orders by various attributes as follows. These can be defined via SysConfig
 &quot;ITSM Change Management -&gt;
 Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
@@ -3707,7 +3669,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                     <thead>
                         <row>
                             <entry>
-                                Attribute
+                                Attribut
                             </entry>
                             <entry>
                                 Details
@@ -3717,33 +3679,33 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                created
+                                Created
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;created&quot;
-                            </entry>
-                        </row>
-                        <row>
-                            <entry>
-                                accepted
-                            </entry>
-                            <entry>
-                                Displays all Work Orders which have the status &quot;accepted&quot;
+                                Displays all Work Orders that have the status &quot;created&quot;
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                ready
+                                Accepted
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;ready&quot; </entry>
+                                Displays all Work Orders that have the status &quot;accepted&quot;
+                            </entry>
                         </row>
                         <row>
                             <entry>
-                                in progress
+                                Ready
                             </entry>
                             <entry>
-                                Displays all Work Orders which have the status &quot;in progress&quot;
+                                Displays all Work Orders that have the status &quot;ready&quot; </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                In Progress
+                            </entry>
+                            <entry>
+                                Displays all Work Orders that have the status &quot;in progress&quot;
                             </entry>
                         </row>
                     </tbody>
@@ -3765,8 +3727,8 @@ through the integrated report generator.
                 Number of Changes Within a Defined Period
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
@@ -3779,8 +3741,8 @@ formats.
                 Number of Changes by Change Category
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
@@ -3793,8 +3755,8 @@ formats.
                 Number of Rejected Changes
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
@@ -3807,8 +3769,8 @@ formats.
                 Number of Withdrawn Changes
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
@@ -3821,8 +3783,8 @@ formats.
                 Ratio of Changes to Incidents
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the Change status to be reported.
             </para>
             <para>
@@ -3835,8 +3797,8 @@ formats.
                 RFCs Per Requester
             </title>
             <para>
-                The report allows the definition of a relative (eg. Changes within the last
-x days) or absolute time period (eg. Changes from date1 to date 2). In
+                The report allows the definition of a relative (e.g. Changes within the last
+x days) or absolute time period (e.g. Changes from date 1 to date 2). In
 addition, it is also possible to define the RFC Requester to be reported.
             </para>
             <para>
