@@ -132,15 +132,16 @@ url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database
             <figure>
                 <title>Агент-Телефонная заявка</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-phoneticket.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>и в панели администрирования. </para>
         <para>
             <figure>
                 <title>Администрирование-Управление сервисами-Обзор</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-service-managment-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-service-managment-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -155,16 +156,16 @@ fileref="screenshots/admin-service-managment-overview.png"></graphic></screensho
             <figure>
                 <title>Администрирование-SLA-Обзор</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-sla-management-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sla-management-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Для каждого SLA могут быть указаны следующие параметры: </para>
         <para>
             <figure>
                 <title>Администрирование-SLA-Управление-Редактировать</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-sla-management-edit.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sla-management-edit.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             OTRS::ITSM имеет возможность вести до 99 различных календарей для описания
@@ -242,7 +243,8 @@ ITSM использует для управления уведомлениями
             <figure>
                 <title>Инцидент-жизненный цикл</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/incident-lifecycle.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Источник: OGC, ITIL Service Support Documentation</para>
         <para>
@@ -263,16 +265,16 @@ ITSM использует для управления уведомлениями
             <figure>
                 <title>agent-configuration-items</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configuration-items.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configuration-items.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Пример отображения отдельной CI:</para>
         <para>
             <figure>
                 <title>agent-configitem-management-link</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configitem-management-link.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configitem-management-link.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Графический пример связи между CI. OTRS различает двунаправленные и
@@ -284,13 +286,13 @@ OTRS::ITSM автоматически создает соответствующ�
             <figure>
                 <title>agent-configitem-management-link2</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configitem-management-link2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configitem-management-link2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            To link objects, the source object is chosen first, then the link type is
-defined and the target object chosen. The target object can be searched for
-using various criteria.
+            Для связывания, сначала выбирается исходный объект, затем задается тип связи
+и, наконец выбирается целевой объект. Целевой объект можно искать по
+различным критериям:
         </para>
     </sect1>
 
@@ -339,16 +341,17 @@ using various criteria.
 разбиты по очередям, заявки классифицируются по их типам.
         </para>
         <para>
-            All ITIL processes to be implemented in later versions of OTRS::ITSM,
-e.g. change management, will be implemented in such a way. Ticket types such
-as RfC (&quot;Request for Change&quot;) could be created.
+            Все ITIL процессы будут реализованы в более поздних версиях OTRS::ITSM,
+например, Управление изменениями  будет реализовано таким же образом. Такой
+тип заявки как RfC (&quot;Request for Change&quot;/&quot;Запрос на
+Изменение&quot;) будет добавлен.
         </para>
         <para>
             <figure>
                 <title>Администрирование - Настройки заявок - Типы</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-type-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-type-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>

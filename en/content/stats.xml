@@ -16,7 +16,7 @@
         <figure>
             <title>agent-ticket-stats</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/agent-ticket-stats.png"></graphic>
+                 <graphic fileref="screenshots/agent-ticket-stats.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -25,7 +25,7 @@
         <figure>
             <title>agent-stats-export-import</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/agent-stats-export-import.png"></graphic>
+                 <graphic fileref="screenshots/agent-stats-export-import.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -34,7 +34,7 @@
         <figure>
             <title>agent-stats-template</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/agent-stats-template.png"></graphic>
+                 <graphic fileref="screenshots/agent-stats-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -45,7 +45,7 @@
         <figure>
             <title>pdf-doc-view</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/pdf-doc-view.png"></graphic>
+                 <graphic fileref="screenshots/pdf-doc-view.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -53,7 +53,7 @@
         <figure>
             <title>pdf-doc-overview</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/pdf-doc-overview.png"></graphic>
+                 <graphic fileref="screenshots/pdf-doc-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -62,7 +62,7 @@
         <figure>
             <title>ticket-graphic-overview</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/ticket-graphic-overview.png"></graphic>
+                 <graphic fileref="screenshots/ticket-graphic-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>

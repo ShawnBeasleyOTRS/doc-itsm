@@ -94,7 +94,8 @@ step of the installation.
         <figure>
             <title>Admin Areaa</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/admin-area.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-area.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <sect1>
         <title>Общий каталог</title>
@@ -106,8 +107,8 @@ step of the installation.
             <figure>
                 <title>Администрирование Общего каталога</title>
 <screenshot>
-<graphic scale="75"
-fileref="screenshots/admin-general-catalog-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Например, редактирование записей в справочной таблице для выпадающих списков
 значений полей: </para>
@@ -115,8 +116,8 @@ fileref="screenshots/admin-general-catalog-management.png"></graphic></screensho
             <figure>
                 <title>Администрирование Общего каталога</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-edit.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-edit.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -170,8 +171,8 @@ must be entered in ConfigItem.
             <figure>
                 <title>Администрирование Общего каталога</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-class.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-class.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -278,8 +279,8 @@ area by selecting "change class definition":
             <figure>
                 <title>admin-configitem-management-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-configitem-management-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-configitem-management-change.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -302,8 +303,8 @@ fileref="screenshots/admin-configitem-management-change.png"></graphic></screens
             <figure>
                 <title>admin-configitem-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-configitem-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-configitem-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -317,8 +318,8 @@ fileref="screenshots/admin-configitem-management.png"></graphic></screenshot></f
             <figure>
                 <title>admin-state-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-state-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-state-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             With OTRS::ITSM you can change existing ticket states or add new ones.
@@ -412,8 +413,8 @@ Kernel/Config.pm or in the graphical configuration frontend are necessary.
             <figure>
                 <title>admin-priority-allocation</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-priority-allocation.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-priority-allocation.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Номер уровня, описание и действительность можно посмотреть и изменить в
@@ -423,8 +424,8 @@ fileref="screenshots/admin-priority-allocation.png"></graphic></screenshot></fig
             <figure>
                 <title>admin-general-catalog-management-priority</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-priority.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-priority.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -439,8 +440,8 @@ fileref="screenshots/admin-general-catalog-management-priority.png"></graphic></
             <figure>
                 <title>admin-priority-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-priority-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-priority-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Более детальную информацию вы найдете в Руководстве администратора OTRS.
         </para>

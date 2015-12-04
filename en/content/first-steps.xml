@@ -36,7 +36,7 @@
         <figure>
             <title>Admin-Manual</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/admin-manual.png"></graphic>
+                 <graphic fileref="screenshots/admin-manual.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>

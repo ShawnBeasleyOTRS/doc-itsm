@@ -93,7 +93,8 @@ step of the installation.
         <figure>
             <title>Admin Areaa</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/admin-area.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-area.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <sect1>
         <title>Der allgemeine Katalog</title>
@@ -105,16 +106,16 @@ configurations in OTRS::ITSM.
             <figure>
                 <title>Admin General Catalog</title>
 <screenshot>
-<graphic scale="75"
-fileref="screenshots/admin-general-catalog-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>For example the editing of reference chart entries for drop-down fields: </para>
         <para>
             <figure>
                 <title>Admin General Catalog</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-edit.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-edit.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -165,8 +166,8 @@ must be entered in ConfigItem.
             <figure>
                 <title>Admin General Catalog</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-class.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-class.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -272,8 +273,8 @@ area by selecting "change class definition":
             <figure>
                 <title>admin-configitem-management-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-configitem-management-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-configitem-management-change.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -295,8 +296,8 @@ latest versions are used for the processes represented in OTRS::ITSM.
             <figure>
                 <title>admin-configitem-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-configitem-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-configitem-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -310,8 +311,8 @@ workaround&quot;.</para>
             <figure>
                 <title>admin-state-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-state-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-state-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             With OTRS::ITSM you can change existing ticket states or add new ones.
@@ -402,8 +403,8 @@ the prioritized ticket is integrated in the queue views.
             <figure>
                 <title>admin-priority-allocation</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-priority-allocation.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-priority-allocation.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             The level number, descriptions and validity can be accessed and changed in
@@ -413,8 +414,8 @@ the admin interface via the "general catalog" link:
             <figure>
                 <title>admin-general-catalog-management-priority</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-general-catalog-management-priority.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-general-catalog-management-priority.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -429,8 +430,8 @@ adjusted, re-named and amended in the graphical admin frontend.
             <figure>
                 <title>admin-priority-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-priority-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-priority-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>More detailed information can be found in the OTRS Admin Manual.
         </para>

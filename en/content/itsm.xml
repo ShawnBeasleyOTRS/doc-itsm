@@ -1175,7 +1175,7 @@
             <figure>
                 <title>OTRS.org</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/otrs-org.png"></graphic>
+                     <graphic fileref="screenshots/otrs-org.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -1190,7 +1190,7 @@
             <figure>
                 <title>lists-otrs-org</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic>
+                     <graphic fileref="screenshots/lists-otrs-org.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>

@@ -66,19 +66,19 @@
 
     </bookinfo>
 
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="preface.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="itsm.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="commercial-services.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="installation.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="first-steps.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="service-desk.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cmdb.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="incident-problem.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="change-management.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="release-management.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="stats.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="admin-area.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="calendar.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="api.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="fdl.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/preface.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/itsm.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/commercial-services.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/installation.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/first-steps.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/service-desk.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/cmdb.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/incident-problem.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/change-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/release-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/stats.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/admin-area.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/calendar.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/api.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/fdl.xml" />
 </book>

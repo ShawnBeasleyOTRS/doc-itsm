@@ -3,9 +3,9 @@
 <chapter>
     <title>Установка OTRS::ITSM</title>
     <para>
-        Please note that the OTRS framework 3.3 must be installed prior to the
-installation of OTRS::ITSM. All necessary information, options and
-installation procedures are depicted in the OTRS Admin Manual.
+        Обратите внимание, что до установки OTRS::ITSM необходимо выполнить
+установку OTRS 3.3. Вся необходимая информация, варианты и процедуры
+установки описаны в руководстве администратора OTRS.
     </para>
 
     <sect1>
@@ -65,7 +65,8 @@ url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
         <para>
             <screenshot>
 <screeninfo>Менеджер пакетов</screeninfo> <graphic
-fileref="screenshots/admin-packagemanager.png" scale="50" /></screenshot>
+fileref="screenshots/admin-packagemanager.png" scalefit="1" width="100%"
+contentdepth="100%"/></screenshot>
         </para>
 
     </sect1>
@@ -91,11 +92,10 @@ OTRS::ITSM. Для этого, загрузите последнюю OTRS 2.3 и
 процесс обновления если он запущен!
         </para>
         <para>
-            If OTRS::ITSM 1.2 is already installed, update your OTRS 2.3 framework to
-version 2.4 BEFORE you update OTRS:ITSM. To do so, download the latest OTRS
-2.4 framework and follow the instructions in the file UPGRADING.  After
-that, log in to your system and use the package manager to install the
-packages as described in the section "Installation".
+            Если OTRS::ITSM 1.2 уже установлена, обновите OTRS 2.3 до версии 2.4 ДО
+обновления OTRS:ITSM. Для этого загрузите последний OTRS 2.4 и следуйте
+инструкциям из файла UPGRADING. После этого, войдите в систему и с помощью
+менеджера пакетов установите нужные, как это описано в главе "установка".
         </para>
         <para>
             Для обновления уже установленного OTRS::ITSM 1.3, используйте менеджер

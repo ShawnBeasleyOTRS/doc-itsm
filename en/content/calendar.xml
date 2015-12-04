@@ -11,7 +11,7 @@
         <figure>
             <title>admin-sys-config</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/admin-sys-config.png"></graphic>
+                 <graphic fileref="screenshots/admin-sys-config.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -26,7 +26,7 @@
         <figure>
             <title>admin-sysconfig-timeworkinghours</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/admin-sysconfig-timeworkinghours.png"></graphic>
+                 <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>

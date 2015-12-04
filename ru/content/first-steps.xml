@@ -30,14 +30,15 @@ OTRS. Если вы уже использовали ранее OTRS, то все
         </listitem>
     </itemizedlist>
     <para>
-        Detailed information on the settings and proceedings that are identical in
-both OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.3/en/html/ in
-the OTRS Admin Manual, which is continuously being revised.
+        Подробная информация о настройках и работе, которые идентичны в обоих OTRS и
+OTRS :: ITSM предоставлены на http://doc.otrs.org/3.3/en/html/ в руководстве
+администратора OTRS, которое постоянно обновляется.
     </para>
     <para>
         <figure>
             <title>Руководство администратора</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/admin-manual.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-manual.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
 </chapter>

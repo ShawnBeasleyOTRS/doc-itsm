@@ -130,7 +130,7 @@
             <figure>
                 <title>agent-phoneticket</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic>
+                     <graphic fileref="screenshots/agent-phoneticket.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -139,7 +139,7 @@
             <figure>
                 <title>admin-service-managment-overview</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-service-managment-overview.png"></graphic>
+                     <graphic fileref="screenshots/admin-service-managment-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -155,7 +155,7 @@
             <figure>
                 <title>admin-sla-management-overview</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-sla-management-overview.png"></graphic>
+                     <graphic fileref="screenshots/admin-sla-management-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -164,7 +164,7 @@
             <figure>
                 <title>admin-sla-management-edit</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-sla-management-edit.png"></graphic>
+                     <graphic fileref="screenshots/admin-sla-management-edit.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -242,7 +242,7 @@
             <figure>
                 <title>incident-lifecycle</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic>
+                     <graphic fileref="screenshots/incident-lifecycle.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -264,7 +264,7 @@
             <figure>
                 <title>agent-configuration-items</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-configuration-items.png"></graphic>
+                     <graphic fileref="screenshots/agent-configuration-items.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -273,7 +273,7 @@
             <figure>
                 <title>agent-configitem-management-link</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-configitem-management-link.png"></graphic>
+                     <graphic fileref="screenshots/agent-configitem-management-link.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -288,7 +288,7 @@
             <figure>
                 <title>agent-configitem-management-link2</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-configitem-management-link2.png"></graphic>
+                     <graphic fileref="screenshots/agent-configitem-management-link2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -355,7 +355,7 @@
             <figure>
                 <title>admin-type-management</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-type-management.png"></graphic>
+                     <graphic fileref="screenshots/admin-type-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>

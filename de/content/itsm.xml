@@ -526,7 +526,7 @@ the Configuration Items, which will bring a sustainable gain in flexibility.
                     </listitem>
 
                     <listitem>
-                        <para>SLA Overview</para>
+                        <para>SLA-Übersicht</para>
                         <para>
                             In the service menu, there is now a new SLA overview mask.
                         </para>
@@ -1191,7 +1191,8 @@ our homepage http://otrs.org (http://otrs.org/).
             <figure>
                 <title>OTRS.org</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/otrs-org.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/otrs-org.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -1204,7 +1205,8 @@ http://lists.otrs.org (http://lists.otrs.org/):
             <figure>
                 <title>lists-otrs-org</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/lists-otrs-org.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

@@ -18,10 +18,10 @@
 что это уведомление об авторских правах будет включено в каждую копию.
             </para>
             <para>
-                The source code of this document can be found at <ulink
-url="https://otrs.github.io">github</ulink>, in the repository <ulink
-url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>.  Contributions are
-more than welcome.  You can also help translating it to your language at
+                Исходный код этого документа можно найти на <ulink
+url="https://otrs.github.io">github</ulink>, в репозитории <ulink
+url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>.  Любой вклад
+приветствуется. Вы также можете помочь в переводе на ваш язык на сайте
 <ulink url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
             </para>
             <para>
@@ -58,19 +58,19 @@ registered trademarks of MySQL AB.
 
     </bookinfo>
 
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="preface.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="itsm.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="commercial-services.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="installation.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="first-steps.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="service-desk.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cmdb.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="incident-problem.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="change-management.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="release-management.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="stats.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="admin-area.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="calendar.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="api.xml" />
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="fdl.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/preface.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/itsm.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/commercial-services.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/installation.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/first-steps.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/service-desk.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/cmdb.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/incident-problem.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/change-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/release-management.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/stats.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/admin-area.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/calendar.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/api.xml" />
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/fdl.xml" />
 </book>

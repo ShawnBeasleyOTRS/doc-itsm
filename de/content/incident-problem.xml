@@ -23,7 +23,8 @@ much as possible.
         <figure>
             <title>process-schema</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/process-schema.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         Quelle: ILX Group (www.ilxgroup.com)
@@ -76,7 +77,8 @@ allow you to manually adjust the priority of a request.
             <figure>
                 <title>agent-ticket-create</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-ticket-create.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-create.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             By following the ticket content (zoom) link, detailed information about the
@@ -87,8 +89,8 @@ the right hand section:
             <figure>
                 <title>agent-ticket-data-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -104,8 +106,8 @@ existing information can be changed:
             <figure>
                 <title>agent-ticket-additional-field</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-additional-field.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-additional-field.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -131,7 +133,8 @@ the ticket view.</para>
             <figure>
                 <title>agent-ticket-queue</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-ticket-queue.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-queue.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -156,8 +159,8 @@ below the navigation bar.
         <figure>
             <title>agent-ticket-data-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     </sect1>
     <sect1>
@@ -180,8 +183,8 @@ permanently saved with the ticket:
             <figure>
                 <title>agent-ticket-decision</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-decision.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-decision.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -225,8 +228,8 @@ in the service levels and service level agreements section.
             <figure>
                 <title>agent-service-request</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-service-request.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-service-request.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

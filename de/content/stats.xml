@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Управление Уровнями услуг / Service Level Management</title>
+    <title>Service Level Management</title>
     <para>
         The introduction of OTRS version 2.1 marked a complete revision of the
 internal statistics framework by allowing the creation of nearly every
@@ -15,28 +15,29 @@ previous OTRS versions could continue to be used. When used in combination
 with OTRS::ITSM, additional statistics relevant to ITSM become available
 with the installation of the ITSMServiceLevelManagement package.
     </para>
-    <para>Пример перечня отчетов:</para>
+    <para>Beispiel einer Berichtsübersicht:</para>
     <para>
         <figure>
             <title>agent-ticket-stats</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-ticket-stats.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-stats.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
-    <para>Экспорт настроек отчета в XML:</para>
+    <para>XML export of report settings:</para>
     <para>
         <figure>
             <title>agent-stats-export-import</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-stats-export-import.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-stats-export-import.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
-    <para>Диалоговый Мастер создания шаблонов отчетов:</para>
+    <para>Dialog-based creation of a new report template:</para>
     <para>
         <figure>
             <title>agent-stats-template</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-stats-template.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-stats-template.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>A PDF generator is incorporated as well, which enables you to export the
 print view of your previously generated tickets, stats and search results in
@@ -46,20 +47,22 @@ PDF format:
         <figure>
             <title>pdf-doc-view</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/pdf-doc-view.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/pdf-doc-view.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         <figure>
             <title>pdf-doc-overview</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/pdf-doc-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/pdf-doc-overview.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
-    <para>Пример графического списка заявок:</para>
+    <para>Beispiel einer grafischen Ticketübersicht:</para>
     <para>
         <figure>
             <title>ticket-graphic-overview</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/ticket-graphic-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/ticket-graphic-overview.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
 </chapter>

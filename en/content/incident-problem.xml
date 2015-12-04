@@ -14,7 +14,7 @@
         <figure>
             <title>process-schema</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/process-schema.png"></graphic>
+                 <graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -65,7 +65,7 @@
             <figure>
                 <title>agent-ticket-create</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-ticket-create.png"></graphic>
+                     <graphic fileref="screenshots/agent-ticket-create.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -76,7 +76,7 @@
             <figure>
                 <title>agent-ticket-data-change</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-ticket-data-change.png"></graphic>
+                     <graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -92,7 +92,7 @@
             <figure>
                 <title>agent-ticket-additional-field</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-ticket-additional-field.png"></graphic>
+                     <graphic fileref="screenshots/agent-ticket-additional-field.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -113,7 +113,7 @@
             <figure>
                 <title>agent-ticket-queue</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-ticket-queue.png"></graphic>
+                     <graphic fileref="screenshots/agent-ticket-queue.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -134,7 +134,7 @@
         <figure>
             <title>agent-ticket-data-change</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/agent-ticket-data-change.png"></graphic>
+                 <graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -153,7 +153,7 @@
             <figure>
                 <title>agent-ticket-decision</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-ticket-decision.png"></graphic>
+                     <graphic fileref="screenshots/agent-ticket-decision.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -191,7 +191,7 @@
             <figure>
                 <title>agent-service-request</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/agent-service-request.png"></graphic>
+                     <graphic fileref="screenshots/agent-service-request.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>

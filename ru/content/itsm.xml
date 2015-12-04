@@ -71,27 +71,27 @@ ITIL решения по управлению ИТ-услугами - OTRS::ITSM
     <sect1>
         <title>Возможности</title>
         <para>
-            OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS
-continue to be available and the functionalities representing ITIL processes
-can be installed as packages.
+            OTRS::ITSM 5 базируется на OTRS 5. Весь известный функционал OTRS остается
+доступным, а возможности предоставляемые процессы ITIL могут быть
+доустановлены в виде дополнительных пакетов.
         </para>
         <sect2>
             <title>
-                New OTRS::ITSM 5 features
+                Новые возможности OTRS::ITSM 5
             </title>
-            <para>OTRS::ITSM 5 offers:</para>
+            <para>OTRS::ITSM 5 предоставляет:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 5 framework.
+                            Код перенесен на платформу OTRS 5.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            OTRS::ITSM 5 includes many other small bug fixes and improvements.
+                            OTRS::ITSM 5 включает много других мелких исправлений ошибок и улучшений.
                         </para>
                     </listitem>
 
@@ -524,9 +524,9 @@ OTRS::ITSM.Совместный механизм Object-Link в настояще
                     </listitem>
 
                     <listitem>
-                        <para>SLA Overview</para>
+                        <para>Список SLA</para>
                         <para>
-                            In the service menu, there is now a new SLA overview mask.
+                            В меню Сервисы теперь имеется новый способ выбора при просмотре SLA.
                         </para>
                     </listitem>
 
@@ -667,10 +667,9 @@ OTRS::ITSM.Совместный механизм Object-Link в настояще
                             CMDB Import/Export (CSV или API)
                         </para>
                         <para>
-                            This feature offers the possibility to import or update data from CSV files
-into the CMDB of OTRS::ITSM, and to export data from the CMDB to CSV files.
-Each line of the CSV file describes one CI, with the data of the CI in the
-columns.
+                            Эта возможность позволяет импортировать или обновлять данные из CSV файлов в
+CMBD OTRS::ITSM, и экспортировать данные из CMDB в CSV файлы. Каждая строка
+CSV файла описывает одну CI с ее данными в колонках.
                         </para>
                         <para>
                             Импорт и экспорт управляется с помощью ImEx описаний. Эти описания
@@ -851,14 +850,14 @@ CSV может быть заменен или расширен другими ф
                 </listitem>
                 <listitem>
                     <para>
-                        cross-process communication management: within the IT service organization,
-with customers/users/management and suppliers/providers
+                        управление кросс-процессными взаимодействиями: внутри сервисной организации,
+с клиентами/пользователями/менеджментом и исполнителями/провайдерами
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        flexible stats functions for (trend) analyses; reporting, planning, and
-controlling based on performance figures
+                        гибкие функции отчетности для анализа трендов; отчетность, планирование и
+контроль, основанные на данных о производительности
                     </para>
                 </listitem>
                 <listitem>
@@ -887,9 +886,9 @@ controlling based on performance figures
             </para>
             <itemizedlist>
                 <listitem>
-                    <para>Comprehensive recording and management of ITSM relevant configuration items
-(CIs) such as computers, hardware, software, networks, documents and
-services, SLAs, and organizational structures
+                    <para>Всесторонняя регистрация и управление соответствующими конфигурационными
+единицами (CIs), такими как компьютеры, серверы, ПО, сети, документы и
+сервисы, SLA и оргструктуры.
                     </para>
                 </listitem>
                 <listitem>
@@ -899,9 +898,9 @@ services, SLAs, and organizational structures
                 </listitem>
                 <listitem>
                     <para>
-                        Recording, management, and illustration of technical and service related
-relationships and interdependencies among CMDB data, e.g. a service with all
-necessary, alternative or relevant CIs
+                        Регистрация, управление и отображение технических и связанных с сервисом
+связей и взаимозависимостей между данными CMDB, например, сервис со всеми
+необходимыми, альтернативными или соответствующими CI
                     </para>
                 </listitem>
                 <listitem>
@@ -1006,8 +1005,8 @@ SLA &quot;время ответа&quot;, &quot;время обновления&q
                 </listitem>
                 <listitem>
                     <para>
-                        Complete integration of OTRS role, group, and queue mechanisms for incident
-ticket allocation, tracking, escalation and interpretation
+                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
+отслеживания, эскалации и интерпретации
                     </para>
                 </listitem>
                 <listitem>
@@ -1076,8 +1075,8 @@ ticket allocation, tracking, escalation and interpretation
                 </listitem>
                 <listitem>
                     <para>
-                        Complete integration of OTRS role, group and queue mechanisms to allocate,
-track, escalate and evaluate incident tickets
+                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
+отслеживания, эскалации и оценки заявок по инцидентам
                     </para>
                 </listitem>
                 <listitem>
@@ -1199,7 +1198,8 @@ http://bugs.otrs.org (http://bugs.otrs.org/). Они отправляются
             <figure>
                 <title>OTRS.org</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/otrs-org.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/otrs-org.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -1212,7 +1212,8 @@ http://lists.otrs.org (http://lists.otrs.org/):
             <figure>
                 <title>lists-otrs-org</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/lists-otrs-org.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/lists-otrs-org.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

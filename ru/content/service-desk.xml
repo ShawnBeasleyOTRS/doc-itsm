@@ -30,16 +30,18 @@ ITSM имеет смысл, только если процессы, люди и 
 организационной перестройки.
     </para>
     <para>
-       Since version 2.0, OTRS::ITSM supports the following features and processes,
-which are usually designed during the first phase of an ITIL implementation:
-Incident Management, Problem Management, Service Level Management, Change
-Management and the Configuration Management Database.
+       Начиная с версии 2.0 , OTRS::ITSM поддерживает следующие возможности и
+процессы, которые обычно разрабатываются на первом этапе внедрения ITIL:
+Incident Management/Управление Инцидентами, Problem Management/Управление
+Проблемами, Service Level Management/Соглашения об уровне услуг, Change
+Management/Управление Изменениями and the Configuration Management
+Database/Управление Конфигурациями.
     </para>
     <para>
-       A more detailed description of use and adaptation of the system can be found
-in the following sections. Please note that the each OTRS::ITSM package can
-be installed independently and that their names correspond to their
-respective ITIL topics.
+       Более полное описание использования и применения системы будет дано в
+последующих секциях. Помните, что каждый из пакетов OTRS::ITSM может быть
+установлен отдельно и что их названия соответствуют соответствующим им
+разделам ITIL.
     </para>
     <para>
         Реализация OTRS::ITSM основана на ITIL v3.

@@ -65,7 +65,8 @@ url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
         <para>
             <screenshot>
 <screeninfo>Paket-Verwaltung</screeninfo> <graphic
-fileref="screenshots/admin-packagemanager.png" scale="50" /></screenshot>
+fileref="screenshots/admin-packagemanager.png" scalefit="1" width="100%"
+contentdepth="100%"/></screenshot>
         </para>
 
     </sect1>

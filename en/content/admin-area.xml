@@ -92,7 +92,7 @@
         <figure>
             <title>Admin Areaa</title>
             <screenshot>
-                 <graphic scale="50" fileref="screenshots/admin-area.png"></graphic>
+                 <graphic fileref="screenshots/admin-area.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -106,7 +106,7 @@
             <figure>
                 <title>Admin General Catalog</title>
                 <screenshot>
-                     <graphic scale="75" fileref="screenshots/admin-general-catalog-management.png"></graphic>
+                     <graphic fileref="screenshots/admin-general-catalog-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -116,7 +116,7 @@
             <figure>
                 <title>Admin General Catalog</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-general-catalog-management-edit.png"></graphic>
+                     <graphic fileref="screenshots/admin-general-catalog-management-edit.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -171,7 +171,7 @@
             <figure>
                 <title>Admin General Catalog</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-general-catalog-management-class.png"></graphic>
+                     <graphic fileref="screenshots/admin-general-catalog-management-class.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -279,7 +279,7 @@
             <figure>
                 <title>admin-configitem-management-change</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-configitem-management-change.png"></graphic>
+                     <graphic fileref="screenshots/admin-configitem-management-change.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -304,7 +304,7 @@
             <figure>
                 <title>admin-configitem-management</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-configitem-management.png"></graphic>
+                     <graphic fileref="screenshots/admin-configitem-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -320,7 +320,7 @@
             <figure>
                 <title>admin-state-management</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-state-management.png"></graphic>
+                     <graphic fileref="screenshots/admin-state-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -416,7 +416,7 @@
             <figure>
                 <title>admin-priority-allocation</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-priority-allocation.png"></graphic>
+                     <graphic fileref="screenshots/admin-priority-allocation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -428,7 +428,7 @@
             <figure>
                 <title>admin-general-catalog-management-priority</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-general-catalog-management-priority.png"></graphic>
+                     <graphic fileref="screenshots/admin-general-catalog-management-priority.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -446,7 +446,7 @@
             <figure>
                 <title>admin-priority-management</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/admin-priority-management.png"></graphic>
+                     <graphic fileref="screenshots/admin-priority-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>

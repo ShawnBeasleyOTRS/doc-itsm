@@ -104,7 +104,7 @@
             <figure>
                 <title>change-workorder-schema</title>
                 <screenshot>
-                     <graphic scale="75" fileref="screenshots/change-workorder-schema.png"></graphic>
+                     <graphic fileref="screenshots/change-workorder-schema.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -123,7 +123,7 @@
             <figure>
                 <title>otrs-permissions-roles</title>
                 <screenshot>
-                     <graphic scale="75" fileref="screenshots/otrs-permissions-roles.png"></graphic>
+                     <graphic fileref="screenshots/otrs-permissions-roles.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -214,7 +214,7 @@
             <figure>
                 <title>change-workflow</title>
                 <screenshot>
-                     <graphic scale="75" fileref="screenshots/change-workflow.png"></graphic>
+                     <graphic fileref="screenshots/change-workflow.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -382,7 +382,7 @@
                 <figure>
                     <title>change-matrix</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-matrix.png"></graphic>
+                         <graphic fileref="screenshots/change-matrix.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -512,7 +512,7 @@
                 <figure>
                     <title>change-state-machine</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-state-machine.png"></graphic>
+                         <graphic fileref="screenshots/change-state-machine.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -531,7 +531,7 @@
                 <figure>
                     <title>change-state-transition</title>
                     <screenshot>
-                         <graphic scale="75" fileref="screenshots/change-state-transition.png"></graphic>
+                         <graphic fileref="screenshots/change-state-transition.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -548,7 +548,7 @@
                 <figure>
                     <title>change-involved-persons</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-involved-persons.png"></graphic>
+                         <graphic fileref="screenshots/change-involved-persons.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -630,7 +630,7 @@
                 <figure>
                     <title>change-rfc-relation</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-rfc-relation.png"></graphic>
+                         <graphic fileref="screenshots/change-rfc-relation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -685,7 +685,7 @@
                 <figure>
                     <title>change-conditions</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-conditions.png"></graphic>
+                         <graphic fileref="screenshots/change-conditions.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1106,7 +1106,7 @@
                 <figure>
                     <title>change-move-timeslot</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-move-timeslot.png"></graphic>
+                         <graphic fileref="screenshots/change-move-timeslot.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1323,7 +1323,7 @@
                 <figure>
                     <title>change-workorder-state-machine</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-state-machine.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-state-machine.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1344,7 +1344,7 @@
                 <figure>
                     <title>change-workorder-state-transition</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-state-transition.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-state-transition.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1366,7 +1366,7 @@
                 <figure>
                     <title>change-workorder-agent</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-agent.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-agent.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1384,7 +1384,7 @@
                 <figure>
                     <title>change-workorder-agent-report</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-agent-report.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-agent-report.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1467,7 +1467,7 @@
                 <figure>
                     <title>change-workorder-template</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/change-workorder-template.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1485,7 +1485,7 @@
                 <figure>
                     <title>change-workorder-delete</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-workorder-delete.png"></graphic>
+                         <graphic fileref="screenshots/change-workorder-delete.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1504,7 +1504,7 @@
             <figure>
                 <title>change-zoom</title>
                 <screenshot>
-                     <graphic scale="35" fileref="screenshots/change-zoom.png"></graphic>
+                     <graphic fileref="screenshots/change-zoom.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -1547,7 +1547,7 @@
             <figure>
                 <title>change-timeline</title>
                 <screenshot>
-                     <graphic scale="50" fileref="screenshots/change-timeline.png"></graphic>
+                     <graphic fileref="screenshots/change-timeline.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -1572,7 +1572,7 @@
                 <figure>
                     <title>change-overview</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-overview.png"></graphic>
+                         <graphic fileref="screenshots/change-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1895,7 +1895,7 @@
                 <figure>
                     <title>change-schedule</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-schedule.png"></graphic>
+                         <graphic fileref="screenshots/change-schedule.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -2126,7 +2126,7 @@
                 <figure>
                     <title>change-pir</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-pir.png"></graphic>
+                         <graphic fileref="screenshots/change-pir.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -2412,7 +2412,7 @@
                 <figure>
                     <title>change-template</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-template.png"></graphic>
+                         <graphic fileref="screenshots/change-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -2618,7 +2618,7 @@
                 <figure>
                     <title>change-search</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-search.png"></graphic>
+                         <graphic fileref="screenshots/change-search.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -2879,7 +2879,7 @@
                 <figure>
                     <title>change-changemanager</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-changemanager.png"></graphic>
+                         <graphic fileref="screenshots/change-changemanager.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -3167,7 +3167,7 @@
                 <figure>
                     <title>change-mychanges</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-mychanges.png"></graphic>
+                         <graphic fileref="screenshots/change-mychanges.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -3454,7 +3454,7 @@
                 <figure>
                     <title>change-myworkorders</title>
                     <screenshot>
-                         <graphic scale="35" fileref="screenshots/change-myworkorders.png"></graphic>
+                         <graphic fileref="screenshots/change-myworkorders.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

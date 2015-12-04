@@ -130,15 +130,16 @@ as shown when a ticket is created
             <figure>
                 <title>agent-phoneticket</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-phoneticket.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-phoneticket.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>and in the administration area. </para>
         <para>
             <figure>
                 <title>admin-service-managment-overview</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-service-managment-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-service-managment-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -152,16 +153,16 @@ administered in the admin interface.
             <figure>
                 <title>admin-sla-management-overview</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-sla-management-overview.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sla-management-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>The following parameters can be recorded with every SLA: </para>
         <para>
             <figure>
                 <title>admin-sla-management-edit</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-sla-management-edit.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sla-management-edit.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             OTRS::ITSM offers by default up to 99 different calendars to describe the
@@ -237,7 +238,8 @@ lifecycle&quot;:  </para>
             <figure>
                 <title>incident-lifecycle</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/incident-lifecycle.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/incident-lifecycle.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Quelle: OGC, ITIL Service Support Documentation</para>
         <para>
@@ -256,16 +258,16 @@ serves as a performance figure in system-oriented SLAs.
             <figure>
                 <title>agent-configuration-items</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configuration-items.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configuration-items.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>Beispiel einer individuellen CI-Ansicht:</para>
         <para>
             <figure>
                 <title>agent-configitem-management-link</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configitem-management-link.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configitem-management-link.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             The graphic exemplifies the links between CIs. OTRS differentiates between
@@ -277,8 +279,8 @@ CMDB object, OTRS::ITSM automatically creates the respective reverse link.
             <figure>
                 <title>agent-configitem-management-link2</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-configitem-management-link2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-configitem-management-link2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             To link objects, the source object is chosen first, then the link type is
@@ -340,8 +342,8 @@ as RfC (&quot;Request for Change&quot;) could be created.
             <figure>
                 <title>admin-type-management</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-type-management.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-type-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>

@@ -5,13 +5,13 @@
         Service desk, incident &amp; problem management
     </title>
     <para>
-        The service desk (which, according to ITIL, is not a process but a function)
-is usually the ticket system's main field of application. All user messages
-and notifications from system monitoring and internal IT organization
-converge here. The ITIL service management process, closely interwoven with
-the service desk, describes which work steps, information, escalations
-and/or interfaces are relevant in connection with the processing of
-incidents or service requests.
+        Служба поддержки/Service desk (которая, согласно ITIL является не процессом,
+но функцией) обычно, является главным полем действия. Все сообщения
+пользователей и уведомления от систем мониторинга и внутренних ИТ -
+подразделений сходятся здесь. ITIL процесс управления услугами тесно
+переплетен со службой, описывает шаги, которые работают, информацию,
+эскалации и / или интерфейсы актуальные в связи с обработкой инцидентов или
+запросов на обслуживание.
     </para>
     <para>
         Управление инцидентами и проблемами внутри OTRS::ITSM основаны на
@@ -23,7 +23,8 @@ incidents or service requests.
         <figure>
             <title>Схема процесса</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/process-schema.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         Source: ILX Group (www.ilxgroup.com)
@@ -77,7 +78,8 @@ incidents or service requests.
             <figure>
                 <title>агент-заявка-создание</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-ticket-create.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-create.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             By following the ticket content (zoom) link, detailed information about the
@@ -88,8 +90,8 @@ the right hand section:
             <figure>
                 <title>agent-ticket-data-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -105,8 +107,8 @@ fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figu
             <figure>
                 <title>agent-ticket-additional-field</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-additional-field.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-additional-field.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -131,7 +133,8 @@ ticket life cycle of generation, processing, closure and post-processing.
             <figure>
                 <title>агент-заявка-очередь</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/agent-ticket-queue.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-queue.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <warning>
             <para>
@@ -154,8 +157,8 @@ ticket life cycle of generation, processing, closure and post-processing.
         <figure>
             <title>agent-ticket-data-change</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     </sect1>
     <sect1>
@@ -180,8 +183,8 @@ fileref="screenshots/agent-ticket-data-change.png"></graphic></screenshot></figu
             <figure>
                 <title>агент-заявка-решение</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-ticket-decision.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-ticket-decision.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
     <sect1>
@@ -226,8 +229,8 @@ because of the ticket type Incident::Service Request.
             <figure>
                 <title>агент-сервис-запрос</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/agent-service-request.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/agent-service-request.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </sect1>
 </chapter>

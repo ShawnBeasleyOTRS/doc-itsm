@@ -11,7 +11,8 @@ this number can be increased to 99, by using the calendar 1 etc. links:
         <figure>
             <title>admin-sys-config</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/admin-sys-config.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sys-config.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define so-called
@@ -24,7 +25,7 @@ Service Level Agreements.
         <figure>
             <title>admin-sysconfig-timeworkinghours</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/admin-sysconfig-timeworkinghours.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
 </chapter>

@@ -37,6 +37,7 @@ the OTRS Admin Manual, which is continuously being revised.
         <figure>
             <title>Administratorhandbuch</title>
 <screenshot>
-<graphic scale="50" fileref="screenshots/admin-manual.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/admin-manual.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
     </para>
 </chapter>
