@@ -18,11 +18,12 @@
 Copyright-Vermerk befindet sich auf jeder Kopie.
             </para>
             <para>
-                The source code of this document can be found at <ulink
-url="https://otrs.github.io">github</ulink>, in the repository <ulink
-url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>.  Contributions are
-more than welcome.  You can also help translating it to your language at
-<ulink url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
+                Der Quellcode dieses Dokuments kann bei <ulink
+url="https://otrs.github.io">github</ulink> gefunden werden, im Repository
+<ulink url="https://github.com/OTRS/doc-itsm">doc-admin</ulink>. Beiträge
+sind mehr als willkommen. Sie können auch bei der Übersetzung in Ihre
+Sprache helfen, und zwar bei <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
             </para>
             <para>
                 UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited. Linux

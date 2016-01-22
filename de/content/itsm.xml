@@ -75,27 +75,27 @@ Gegenstand der GNU Affero General Public License (AGPL).
     <sect1>
         <title>Features</title>
         <para>
-            OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS
-continue to be available and the functionalities representing ITIL processes
-can be installed as packages.
+            OTRS::ITSM 5 basiert auf OTRS 4. Alle von OTRS bekannten Funktionen sind
+weiterhin verfügbar. Funktionen, welche die ITIL®-Prozesse repräsentieren,
+können als Paket installiert werden.
         </para>
         <sect2>
             <title>
-                New OTRS::ITSM 5 features
+                Neue OTRS::ITSM 5 Features
             </title>
-            <para>OTRS::ITSM 5 offers:</para>
+            <para>OTRS::ITSM 5 bringt:</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 5 framework.
+                            Portierten Code für das OTRS 5 Framework.
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            OTRS::ITSM 5 includes many other small bug fixes and improvements.
+                            OTRS::ITSM 5 beinhaltet viele andere kleinere Bugfixes und Verbesserungen.
                         </para>
                     </listitem>
 
@@ -375,7 +375,7 @@ in change management.
 
                     <listitem>
                         <para>
-                            Brand New Interface - OTRS 3.0 Look &amp; Feel
+                            Brand neue Oberfläche - OTRS 3.0 Look &amp; Feel
                         </para>
                     </listitem>
 
@@ -559,7 +559,7 @@ granularity.
                     </listitem>
 
                     <listitem>
-                        <para>Allocation of services to customers</para>
+                        <para>Zuordnung von Services zu Kunden</para>
                         <para>
                             Services can be assigned to authorized customers. Further more, services may
 be assigned as general 'default services' which are valid to use for each
@@ -655,7 +655,7 @@ in the view.
                     </listitem>
 
                     <listitem>
-                        <para>CI search and linking from agent interface</para>
+                        <para>CI suchen und verlinken im Agenteninterface</para>
                         <para>
                             A service agent may search, select, and assign any of a customer's
 configuration items (CIs) or existing tickets while recording a new incident
@@ -841,12 +841,12 @@ priority (queue, service).
                 </listitem>
                 <listitem>
                     <para>
-                        ITIL compliant names for new functions
+                        ITIL konforme Namen für neue Funktionen
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        ITIL compliant role, responsibility, and permission model
+                        ITIL konforme Rollen, Verantwortlichkeiten und Berechtigungskonzepte
                     </para>
                 </listitem>
                 <listitem>
@@ -878,7 +878,7 @@ customers and can be adjusted in the agent interface.
                     </para>
                 </listitem>
             </itemizedlist>
-            <para>Configuration management &amp; integrated CMDB:</para>
+            <para>Konfigurationsmanagement &amp; integrierte CMDB</para>
             <para>
                 OTRS::ITSM is based on an integrated configuration management data base
 (CMDB), which serves as the foundation for the comprehensive control of the
@@ -1004,7 +1004,7 @@ for analyses and reporting
                 </listitem>
                 <listitem>
                     <para>
-                        Complete integration of OTRS role, group, and queue mechanisms for incident
+                        Complete integration of OTRS role, group and queue mechanisms for incident
 ticket allocation, tracking, escalation and interpretation
                     </para>
                 </listitem>
@@ -1046,22 +1046,22 @@ closure, and documentation</para>
                     <itemizedlist>
                         <listitem>
                             <para>
-                                Problem control (trouble-shooting),
+                                Problemkontrolle (Troubleshooting)
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                Error control (error processing),
+                                Fehlerkontrolle (Fehlerverarbeitung)
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                Proactive problem management (e.g. ticket trend analyses) and
+                                Proactives Problem-management (z.B. Ticket-Trendanalysen) und
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                Management information (on incidents, problems and known errors)
+                                Managementinformationen (über Störungen, Probleme und bekannte Fehler)
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -1122,7 +1122,7 @@ management: They transport multiple possible underlying data such as:
                 </listitem>
                 <listitem>
                     <para>
-                        Objects, e.g. CIs, including relations
+                        Objekte, z.B.: CIs inkl. Beziehungen
                     </para>
                 </listitem>
                 <listitem>
@@ -1167,8 +1167,8 @@ management: They transport multiple possible underlying data such as:
     <sect1>
         <title>Hardware und Software-Anforderungen</title>
         <para>
-            The requirements for OTRS::ITSM are the same as for OTRS. More information
-can be found in the OTRS Admin Manual.
+            Die Anforderungen von OTRS::ITSM sind die gleichen wie für OTRS. Mehr
+Informationen finden Sie imOTRS Admin-Handbuch.
         </para>
     </sect1>
     <sect1>

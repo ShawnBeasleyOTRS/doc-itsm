@@ -988,7 +988,7 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Complete integration of OTRS role, group, and queue mechanisms
+                        Complete integration of OTRS role, group and queue mechanisms
                         for incident ticket allocation, tracking, escalation and
                         interpretation
                     </para>

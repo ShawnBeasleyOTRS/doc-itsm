@@ -6,13 +6,13 @@
 # Dominik <dominik@reichardt-online.it>, 2015
 # Dr. Marko Nordquist <marko.nordquist@irix.ch>, 2015
 # Ettore Atalan <atalanttore@googlemail.com>, 2015
-# ru_otrs <robert.ullrich@otrs.com>, 2014-2015
+# ru_otrs <robert.ullrich@otrs.com>, 2014-2016
 # Tamer Kor <tk@kor.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-12-04 14:43+0100\n"
-"PO-Revision-Date: 2015-12-04 13:45+0000\n"
+"POT-Creation-Date: 2016-01-22 08:43+0100\n"
+"PO-Revision-Date: 2016-01-22 07:42+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "Language: de\n"
@@ -29,7 +29,7 @@ msgstr "de"
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
 msgid "OTRS::ITSM 5"
-msgstr ""
+msgstr "OTRS::ITSM 5"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
@@ -37,6 +37,8 @@ msgid ""
 "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2015-11-24</date>"
 msgstr ""
+"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2015-11-24</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:18
@@ -61,6 +63,11 @@ msgid ""
 "You can also help translating it to your language at <ulink url=\"https://"
 "www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr ""
+"Der Quellcode dieses Dokuments kann bei <ulink url=\"https://otrs.github.io"
+"\">github</ulink> gefunden werden, im Repository <ulink url=\"https://github."
+"com/OTRS/doc-itsm\">doc-admin</ulink>. Beiträge sind mehr als willkommen. "
+"Sie können auch bei der Übersetzung in Ihre Sprache helfen, und zwar bei "
+"<ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:33
@@ -113,12 +120,12 @@ msgstr ""
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:62
 msgid "5.0.1"
-msgstr ""
+msgstr "5.0.1"
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:63
 msgid "11/24/2015"
-msgstr ""
+msgstr "11/24/2015"
 
 #. type: Content of: <preface><title>
 #: en/content/preface.xml:4
@@ -373,26 +380,30 @@ msgid ""
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
+"OTRS::ITSM 5 basiert auf OTRS 4. Alle von OTRS bekannten Funktionen sind "
+"weiterhin verfügbar. Funktionen, welche die ITIL®-Prozesse repräsentieren, "
+"können als Paket installiert werden."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
 msgid "New OTRS::ITSM 5 features"
-msgstr ""
+msgstr "Neue OTRS::ITSM 5 Features"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
 msgid "OTRS::ITSM 5 offers:"
-msgstr ""
+msgstr "OTRS::ITSM 5 bringt:"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
 msgid "Ported code to the OTRS 5 framework."
-msgstr ""
+msgstr "Portierten Code für das OTRS 5 Framework."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
 msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
 msgstr ""
+"OTRS::ITSM 5 beinhaltet viele andere kleinere Bugfixes und Verbesserungen."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:108
@@ -714,7 +725,7 @@ msgstr "OTRS::ITSM 3.0 bringt:"
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:339
 msgid "Brand New Interface - OTRS 3.0 Look &amp; Feel"
-msgstr ""
+msgstr "Brand neue Oberfläche - OTRS 3.0 Look &amp; Feel"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:345
@@ -955,7 +966,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:522
 msgid "Allocation of services to customers"
-msgstr ""
+msgstr "Zuordnung von Services zu Kunden"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:524
@@ -1075,7 +1086,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:631
 msgid "CI search and linking from agent interface"
-msgstr ""
+msgstr "CI suchen und verlinken im Agenteninterface"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:633
@@ -1289,12 +1300,12 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:826
 msgid "ITIL compliant names for new functions"
-msgstr ""
+msgstr "ITIL konforme Namen für neue Funktionen"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:831
 msgid "ITIL compliant role, responsibility, and permission model"
-msgstr ""
+msgstr "ITIL konforme Rollen, Verantwortlichkeiten und Berechtigungskonzepte"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:836
@@ -1331,7 +1342,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:863
 msgid "Configuration management &amp; integrated CMDB:"
-msgstr ""
+msgstr "Konfigurationsmanagement &amp; integrierte CMDB"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:865
@@ -1477,7 +1488,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:991
 msgid ""
-"Complete integration of OTRS role, group, and queue mechanisms for incident "
+"Complete integration of OTRS role, group and queue mechanisms for incident "
 "ticket allocation, tracking, escalation and interpretation"
 msgstr ""
 
@@ -1529,22 +1540,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1032
 msgid "Problem control (trouble-shooting),"
-msgstr ""
+msgstr "Problemkontrolle (Troubleshooting)"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1037
 msgid "Error control (error processing),"
-msgstr ""
+msgstr "Fehlerkontrolle (Fehlerverarbeitung)"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1042
 msgid "Proactive problem management (e.g. ticket trend analyses) and"
-msgstr ""
+msgstr "Proactives Problem-management (z.B. Ticket-Trendanalysen) und"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1047
 msgid "Management information (on incidents, problems and known errors)"
-msgstr ""
+msgstr "Managementinformationen (über Störungen, Probleme und bekannte Fehler)"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1054
@@ -1607,7 +1618,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1108
 msgid "Objects, e.g. CIs, including relations"
-msgstr ""
+msgstr "Objekte, z.B.: CIs inkl. Beziehungen"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:1113
@@ -1655,6 +1666,8 @@ msgid ""
 "The requirements for OTRS::ITSM are the same as for OTRS. More information "
 "can be found in the OTRS Admin Manual."
 msgstr ""
+"Die Anforderungen von OTRS::ITSM sind die gleichen wie für OTRS. Mehr "
+"Informationen finden Sie imOTRS Admin-Handbuch."
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/itsm.xml:1158
@@ -1778,7 +1791,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para><figure><title>
 #: en/content/itsm.xml:1191
 msgid "lists-otrs-org"
-msgstr ""
+msgstr "lists-otrs-org"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
 #: en/content/itsm.xml:1193
@@ -2327,7 +2340,7 @@ msgstr ""
 #. type: Content of: <chapter><title>
 #: en/content/cmdb.xml:4
 msgid "The CMDB - the central IT repository"
-msgstr ""
+msgstr "DIE CMDB - Die zentrale IT-Quelle"
 
 #. type: Content of: <chapter><para>
 #: en/content/cmdb.xml:6
@@ -4284,7 +4297,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/content/change-management.xml:1117
 msgid "Creating a Work Order"
-msgstr ""
+msgstr "Eine WorkOrder erstellen"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/change-management.xml:1120
@@ -6163,7 +6176,7 @@ msgstr "[ Priorität ]"
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/admin-area.xml:93
-msgid "Admin Areaa"
+msgid "Admin Area"
 msgstr ""
 
 #. type: Content of: <chapter><para><figure><screenshot>

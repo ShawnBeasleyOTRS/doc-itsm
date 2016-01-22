@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-12-04 14:43+0100\n"
-"PO-Revision-Date: 2015-12-04 13:45+0000\n"
+"POT-Creation-Date: 2016-01-22 08:43+0100\n"
+"PO-Revision-Date: 2016-01-22 07:42+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
@@ -1673,11 +1673,9 @@ msgstr "Постоянный мониторинг и оценка процесс
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:991
 msgid ""
-"Complete integration of OTRS role, group, and queue mechanisms for incident "
+"Complete integration of OTRS role, group and queue mechanisms for incident "
 "ticket allocation, tracking, escalation and interpretation"
 msgstr ""
-"Полная интеграция с механизмами ролей, групп и очередей OTRS для "
-"назначения,  отслеживания, эскалации и интерпретации "
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/content/itsm.xml:998
@@ -6949,7 +6947,7 @@ msgstr "[ Priority ] - Приоритеты"
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/admin-area.xml:93
-msgid "Admin Areaa"
+msgid "Admin Area"
 msgstr ""
 
 #. type: Content of: <chapter><para><figure><screenshot>

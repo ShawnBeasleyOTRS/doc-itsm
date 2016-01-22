@@ -1005,8 +1005,8 @@ SLA &quot;время ответа&quot;, &quot;время обновления&q
                 </listitem>
                 <listitem>
                     <para>
-                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
-отслеживания, эскалации и интерпретации
+                        Complete integration of OTRS role, group and queue mechanisms for incident
+ticket allocation, tracking, escalation and interpretation
                     </para>
                 </listitem>
                 <listitem>
