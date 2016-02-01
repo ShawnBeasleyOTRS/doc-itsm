@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-01-22 08:43+0100\n"
+"POT-Creation-Date: 2016-02-01 11:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1823,7 +1823,7 @@ msgstr ""
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
 msgid ""
-"Please note that the OTRS framework 3.3 must be installed prior to the "
+"Please note that the OTRS framework 5 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
@@ -1836,9 +1836,9 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
 msgid ""
-"After successfully insstalling OTRS 3.3 or a later version, proceed to sign "
-"on as administrator. Using the package manager in the admin area or via "
-"ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ obtain the ITSM packages and "
+"After successfully insstalling OTRS 5 or a later version, proceed to sign on "
+"as administrator. Using the package manager in the admin area or via "
+"ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
 "install them in the following order:"
 msgstr ""
 
@@ -1856,7 +1856,7 @@ msgstr ""
 #: en/content/installation.xml:30
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
-"repository [--OTRS::ITSM 3.3 Master--] to install the packages "
+"repository [--OTRS::ITSM 5 Master--] to install the packages "
 "below. Otherwise download the packages below and use the package manager to "
 "install them:"
 msgstr ""
@@ -1890,7 +1890,7 @@ msgstr ""
 #: en/content/installation.xml:61
 msgid ""
 "You can find further information about the installation process here: <ulink "
-"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM\">INSTALL-32.ITSM</ulink>"
+"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
@@ -2013,8 +2013,9 @@ msgstr ""
 #: en/content/first-steps.xml:31
 msgid ""
 "Detailed information on the settings and proceedings that are identical in "
-"both OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.3/en/html/ in "
-"the OTRS Admin Manual, which is continuously being revised."
+"both OTRS and OTRS::ITSM are provided at "
+"http://otrs.github.io/doc/manual/admin/5.0/en/html/ in the OTRS Admin "
+"Manual, which is continuously being revised."
 msgstr ""
 
 #. type: Content of: <chapter><para><figure><title>

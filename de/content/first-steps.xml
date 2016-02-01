@@ -30,8 +30,9 @@ following:
     </itemizedlist>
     <para>
         Detailed information on the settings and proceedings that are identical in
-both OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.3/en/html/ in
-the OTRS Admin Manual, which is continuously being revised.
+both OTRS and OTRS::ITSM are provided at
+http://otrs.github.io/doc/manual/admin/5.0/en/html/ in the OTRS Admin
+Manual, which is continuously being revised.
     </para>
     <para>
         <figure>

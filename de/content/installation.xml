@@ -3,7 +3,7 @@
 <chapter>
     <title>OTRS::ITSM installieren</title>
     <para>
-        Please note that the OTRS framework 3.3 must be installed prior to the
+        Please note that the OTRS framework 5 must be installed prior to the
 installation of OTRS::ITSM. All necessary information, options and
 installation procedures are depicted in the OTRS Admin Manual.
     </para>
@@ -13,9 +13,9 @@ installation procedures are depicted in the OTRS Admin Manual.
         <title>Installation</title>
 
         <para>
-            After successfully insstalling OTRS 3.3 or a later version, proceed to sign
-on as administrator. Using the package manager in the admin area or via
-ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ obtain the ITSM packages and
+            After successfully insstalling OTRS 5 or a later version, proceed to sign on
+as administrator. Using the package manager in the admin area or via
+ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and
 install them in the following order:
         </para>
         <itemizedlist>
@@ -28,7 +28,7 @@ install them in the following order:
         </itemizedlist>
         <para>
             If your machine running OTRS has internet access, use the following online
-repository [--OTRS::ITSM 3.3 Master--] to install the packages
+repository [--OTRS::ITSM 5 Master--] to install the packages
 below. Otherwise download the packages below and use the package manager to
 install them:
 
@@ -60,7 +60,7 @@ install them:
 
         <para>
             You can find further information about the installation process here: <ulink
-url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM">INSTALL-32.ITSM</ulink>
+url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM">INSTALL-5.ITSM</ulink>
         </para>
         <para>
             <screenshot>

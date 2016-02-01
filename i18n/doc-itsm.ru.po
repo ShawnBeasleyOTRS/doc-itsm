@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-01-22 08:43+0100\n"
-"PO-Revision-Date: 2016-01-22 07:42+0000\n"
+"POT-Creation-Date: 2016-02-01 11:03+0100\n"
+"PO-Revision-Date: 2016-02-01 10:04+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
@@ -2368,13 +2368,10 @@ msgstr "Установка OTRS::ITSM"
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
 msgid ""
-"Please note that the OTRS framework 3.3 must be installed prior to the "
+"Please note that the OTRS framework 5 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
-"Обратите внимание, что до установки OTRS::ITSM необходимо выполнить "
-"установку OTRS 3.3. Вся необходимая информация, варианты и процедуры "
-"установки описаны в руководстве администратора OTRS. "
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/installation.xml:13
@@ -2384,15 +2381,11 @@ msgstr "Установка"
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
 msgid ""
-"After successfully insstalling OTRS 3.3 or a later version, proceed to sign "
-"on as administrator. Using the package manager in the admin area or via "
-"ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ obtain the ITSM packages and "
-"install them in the following order:"
+"After successfully insstalling OTRS 5 or a later version, proceed to sign on "
+"as administrator. Using the package manager in the admin area or via ftp://"
+"ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and install "
+"them in the following order:"
 msgstr ""
-"После успешной установки OTRS 3.3 или более поздней версии, войдите в "
-"систему в качестве администратора. Используя менеджер пакетов с панели "
-"администратора или с помощью ftp://ftp.otrs.org/pub/otrs/itsm/packages33/ "
-"загрузите пакеты ITSM и установите их в следующем порядке:"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/installation.xml:23 en/content/cmdb.xml:69
@@ -2408,14 +2401,10 @@ msgstr "ITSMCore"
 #: en/content/installation.xml:30
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
-"repository [--OTRS::ITSM 3.3 Master--] to install the packages below. "
+"repository [--OTRS::ITSM 5 Master--] to install the packages below. "
 "Otherwise download the packages below and use the package manager to install "
 "them:"
 msgstr ""
-"Если ваша машина подключена к интернету, используйте следующий онлайн "
-"репозитарий [--OTRS::ITSM 3.3 Master--] для установки перечисленных ниже "
-"пакетов. Иначе, загрузите следующие пакеты и установите с помощью менеджера "
-"пакетов:"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/installation.xml:39
@@ -2446,12 +2435,9 @@ msgstr "ImportExport"
 #: en/content/installation.xml:61
 msgid ""
 "You can find further information about the installation process here: <ulink "
-"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM\">INSTALL-32.ITSM</"
+"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</"
 "ulink>"
 msgstr ""
-"Дальнейшую информацию о процессе установки можно найти здесь: <ulink url="
-"\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-3.3.ITSM\">INSTALL-32.ITSM</"
-"ulink>"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/content/installation.xml:66
@@ -2608,12 +2594,10 @@ msgstr "Присущая  ITIL терминология"
 #: en/content/first-steps.xml:31
 msgid ""
 "Detailed information on the settings and proceedings that are identical in "
-"both OTRS and OTRS::ITSM are provided at http://doc.otrs.org/3.3/en/html/ in "
-"the OTRS Admin Manual, which is continuously being revised."
+"both OTRS and OTRS::ITSM are provided at http://otrs.github.io/doc/manual/"
+"admin/5.0/en/html/ in the OTRS Admin Manual, which is continuously being "
+"revised."
 msgstr ""
-"Подробная информация о настройках и работе, которые идентичны в обоих OTRS и "
-"OTRS :: ITSM предоставлены на http://doc.otrs.org/3.3/en/html/ в руководстве "
-"администратора OTRS, которое постоянно обновляется."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/first-steps.xml:37
@@ -6948,7 +6932,7 @@ msgstr "[ Priority ] - Приоритеты"
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/admin-area.xml:93
 msgid "Admin Area"
-msgstr ""
+msgstr "Admin Area - Панель администратора"
 
 #. type: Content of: <chapter><para><figure><screenshot>
 #: en/content/admin-area.xml:95
