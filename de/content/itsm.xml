@@ -276,9 +276,9 @@ eigener Skins mit verschiedenen Basisfarben vereinfacht.
 
                     <listitem>
                         <para>
-                            Die Werte von ITSMCriticality und ITSMImpact wurden vom generellen Katalog
-zu dynamischen Feldern migriert. Den ITSM-bezogenen Feldern wurden
-verständlichere Namen gegeben, die zudem mit dem Prefix ITSM beginnen.
+                            Migrated ITSMCriticality and ITSMImpact values from general catalog to
+dynamic fields.  Renamed ITSM related dynamic fields to nicer names,
+prefixed with ITSM.
                         </para>
                     </listitem>
 

@@ -13,7 +13,7 @@ installation procedures are depicted in the OTRS Admin Manual.
         <title>Установка</title>
 
         <para>
-            After successfully insstalling OTRS 5 or a later version, proceed to sign on
+            After successfully installing OTRS 5 or a later version, proceed to sign on
 as administrator. Using the package manager in the admin area or via
 ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and
 install them in the following order:

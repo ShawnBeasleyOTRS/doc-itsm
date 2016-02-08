@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-02-01 11:03+0100\n"
-"PO-Revision-Date: 2016-02-01 10:04+0000\n"
+"POT-Creation-Date: 2016-02-08 09:11+0100\n"
+"PO-Revision-Date: 2016-02-08 08:12+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
@@ -624,12 +624,9 @@ msgstr ""
 #: en/content/itsm.xml:247
 msgid ""
 "Migrated ITSMCriticality and ITSMImpact values from general catalog to "
-"dynamic fields.  Renamed ITSM releated dynamic fields to nicer names, "
+"dynamic fields.  Renamed ITSM related dynamic fields to nicer names, "
 "prefixed with ITSM."
 msgstr ""
-"Атрибуты ITSMCriticality/Критичность и ITSMImpact/Влияние перенесены из "
-"Общего каталога/general catalog в динамические поля. Переименованы, "
-"относящиеся к ITSM, динамические поля, они теперь имеют префикс ITSM."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:254
@@ -2381,7 +2378,7 @@ msgstr "Установка"
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
 msgid ""
-"After successfully insstalling OTRS 5 or a later version, proceed to sign on "
+"After successfully installing OTRS 5 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via ftp://"
 "ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and install "
 "them in the following order:"

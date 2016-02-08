@@ -245,7 +245,7 @@
                     <listitem>
                         <para>
                             Migrated ITSMCriticality and ITSMImpact values from general catalog to dynamic fields.
-                            Renamed ITSM releated dynamic fields to nicer names, prefixed with ITSM.
+                            Renamed ITSM related dynamic fields to nicer names, prefixed with ITSM.
                         </para>
                     </listitem>
 
