@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>发布管理</title>
+    <para>
+
+        请注意，我们计划在将来的OTRS::ITSM版本中引入发布管理。但是，可以配置、捕获和控制基本信息作为版本1.0。
+    </para>
+    <para>
+        举个例子，可以配置和使用来自DSL（最终软件库）的审批规则或概览。
+    </para>
+</chapter>

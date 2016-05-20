@@ -9,12 +9,11 @@
 удовлетворения индивидуальных потребностей.
     </para>
     <para>
-        The admin area can be accessed via the "admin" link in the agent interface
-navigation bar. The link is only shown to users logged on to the system that
-have been granted administrator privileges.  After the completion of a
-default installation you can log on to the system as OTRS admin using the
-user name &quot;root@localhost&quot; and the password generated in the last
-step of the installation.
+        Переход к панели управления осуществляется через пункт меню
+Админ/Администрирование главного меню интерфейса. Этот пункт меню виден и
+доступен только агентам имеющим права администратора в системе. После
+окончания стандартной установки системы вы можете войти в нее в качестве
+администратора используя логин "root@localhost" и пароль "root".
     </para>
 
     <para>
@@ -162,10 +161,10 @@ blade - серверов до принтеров или USB носителей, 
             </listitem>
         </itemizedlist>
         <para>
-            If the five classes do not suffice to describe your IT environment, further
-classes can be added via the "general catalog" link in the OTRS::ITSM admin
-area. After creating a new CI class in the general catalog, a definition
-must be entered in ConfigItem.
+            Если этих пяти классов недостаточно для описания вашей ИТ-инфраструктуры, с
+помощью пункта меню "Общий каталог" панели администратора OTRS::ITSM можно
+добавить нужные классы. После создания нового класса CI в Общем каталоге,
+необходимо добавить его описание в меню "Описание учетных элементов"
         </para>
         <para>
             <figure>
@@ -272,8 +271,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </screen>
         </para>
         <para>
-            Attribute changes and amendments can be done in the graphical configuration
-area by selecting "change class definition":
+            Изменение атрибутов и поправки можно сделать в области графического
+редактора, нажав кнопку "Изменить класс описания":
         </para>
         <para>
             <figure>
@@ -322,10 +321,10 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            With OTRS::ITSM you can change existing ticket states or add new ones.
-There are two important options: the name of the state
-&quot;state-name&quot; and the type of its &quot;state-type&quot;. All
-states and types available by default are pictured above.
+            В OTRS::ITSM вы можете изменять существующие состояния или добавлять
+новые. Есть два основных понятия: имя состояния &quot;state-name&quot; и тип
+состояния &quot;state-type&quot;. Все состояния и их типы доступные по
+умолчанию показаны выше.
         </para>
         <para>
             Имена/названия состояний можно выбирать свободно. В разделе "Состояния"
@@ -333,9 +332,9 @@ states and types available by default are pictured above.
 существующих типов состояний.
         </para>
         <para>
-            Please consider that changes made to the "new" state require changes to be
-made in the configuration file Kernel/Config.pm or in the graphical
-configuration front-end.
+            Пожалуйста, обратите внимание, что изменения сделанные для состояния "new",
+требуют изменения ряда настроек в файле Kernel/Config.pm или через
+веб-интерфейс.
         </para>
         <para>
             <screen>
@@ -352,8 +351,8 @@ configuration front-end.
             </screen>
         </para>
         <para>
-            The same applies to changes made to the "open" state: changes in the
-Kernel/Config.pm or in the graphical configuration frontend are necessary.
+            То же самое относится и к изменениям для состояния "open": надо внести
+необходимые изменения в Kernel/Config.pm или через веб-интерфейс.
         </para>
         <para>
             <screen>
@@ -382,7 +381,7 @@ Kernel/Config.pm or in the graphical configuration frontend are necessary.
         </warning>
     </sect1>
     <sect1>
-        <title>The criticality - impact - priority matrix</title>
+        <title>Матрица "Критичность - Влияние - Приоритет"</title>
         <para>OTRS::ITSM предполагает пять уровней приоритета для заявок:</para>
         <itemizedlist>
             <listitem>

@@ -3,9 +3,9 @@
 <chapter>
     <title>Установка OTRS::ITSM</title>
     <para>
-        Please note that the OTRS framework 5 must be installed prior to the
-installation of OTRS::ITSM. All necessary information, options and
-installation procedures are depicted in the OTRS Admin Manual.
+        Обратите внимание, что до установки OTRS::ITSM необходимо выполнить
+установку OTRS 5. Вся необходимая информация, варианты и процедуры установки
+описаны в руководстве администратора OTRS.
     </para>
 
     <sect1>
@@ -13,10 +13,10 @@ installation procedures are depicted in the OTRS Admin Manual.
         <title>Установка</title>
 
         <para>
-            After successfully installing OTRS 5 or a later version, proceed to sign on
-as administrator. Using the package manager in the admin area or via
-ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and
-install them in the following order:
+            После успешной установки OTRS 5 или более поздней версии, войдите в систему
+в качестве администратора. Используя менеджер пакетов с панели
+администратора или с помощью ftp://ftp.otrs.org/pub/otrs/itsm/packages5/
+загрузите пакеты ITSM и установите их в следующем порядке:
         </para>
         <itemizedlist>
             <listitem>
@@ -27,10 +27,10 @@ install them in the following order:
             </listitem>
         </itemizedlist>
         <para>
-            If your machine running OTRS has internet access, use the following online
-repository [--OTRS::ITSM 5 Master--] to install the packages
-below. Otherwise download the packages below and use the package manager to
-install them:
+            Если ваша машина подключена к интернету, используйте следующий онлайн
+репозитарий [--OTRS::ITSM 5 Master--] для установки перечисленных ниже
+пакетов. Иначе, загрузите следующие пакеты и установите с помощью менеджера
+пакетов:
 
        </para>
 
@@ -59,7 +59,7 @@ install them:
         </itemizedlist>
 
         <para>
-            You can find further information about the installation process here: <ulink
+            Дальнейшую информацию о процессе установки можно найти здесь: <ulink
 url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM">INSTALL-5.ITSM</ulink>
         </para>
         <para>

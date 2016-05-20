@@ -2,7 +2,7 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
     <title>
-        Service desk, incident &amp; problem management
+        Служба поддержки, инцидент, &amp; управление проблемами
     </title>
     <para>
         Служба поддержки/Service desk (которая, согласно ITIL является не процессом,
@@ -82,9 +82,8 @@ contentdepth="100%"></graphic></screenshot></figure>
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            By following the ticket content (zoom) link, detailed information about the
-ticket can be accessed. All data relevant for IT support is consolidated in
-the right hand section:
+            Следуя по ссылке к заявке, можно получить подробную информацию к ней. Вся
+связанная с техподдержкой информация собрана в правой части:
         </para>
         <para>
             <figure>
@@ -116,11 +115,13 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             Распределение/назначение заявок (очереди)
         </title>
         <para>
-            Designed with flexibility in mind, the OTRS::ITSM queues can be tailored to
-your organizational structures. They can follow the vertical scheme of
-service desk, first, second and third level support (as often used in IT
-service support) or be configured in a process oriented manner based on the
-ticket life cycle of generation, processing, closure and post-processing.
+            Разработанные с учетом требуемой гибкости, структура очередей OTRS::ITSM
+может соответствовать организационной структуре. Они могут следовать
+вертикальной схеме построения поддержки пользователей, первая, вторая и
+третья линии поддержки (как это часто используется при поддержке услуг ИТ)
+или построена в процессно - ориентированной манере, основанной на жизненном
+цикле заявки состоящем из создания, обработки, закрытии и последующем
+анализе.
         </para>
         <para>
             Вопреки версиям OTRS до 2.2, эскалация заявок в OTRS::ITSM основана, в
@@ -217,9 +218,9 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
             Обработка запросов на услуги/сервисы
         </title>
         <para>
-            Within OTRS, service requests and incidents are both regarded as tickets and
-initially processed equally. They are distinguishable from disruptions
-because of the ticket type Incident::Service Request.
+            В OTRS, запросы на обслуживание и инциденты рассматриваются как заявки и
+изначально обрабатывались одинаково. Они отличались от сбоев типом заявки -
+Incident::Service Request/Инцидент::Запрос на обслуживание.
         </para>
         <para>
             Другое отличие, значения времени, связанные с SLA, разъясняются детально в

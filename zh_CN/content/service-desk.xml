@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>OTRS::ITSM对齐ITIL服务支持</title>
+    <para>
+        就像ITIL一样，OTRS::ITSM并未宣称是IT服务管理所有日益增长的任务和问题的“开箱即用”的解决方案。事实上，它应该作为一个灵活、稳定且容易理解的信息平台，以便适合几乎每个组织的需求。
+
+    </para>
+    <para>
+        因此，请允许我们带来下面的注意信息：只有当流程、人员和产品（IT服务）都能真正对齐ITIL时，使用对齐ITIL的工具如OTRS::ITSM才有意义。
+    </para>
+    <para>
+        不对通用ITIL流程做适当剪裁以满足特定商业环境的需求，OTRS::ITSM就不能达到改进IT服务管理的KPI（关键绩效指标）的预期目标。</para>
+    <para>
+        您还应当这个事实：成功部署ITIL项目通常需要一年甚至更久。它们的范围及在组织中的影响不可低估。但是，我们仍然看到，灵巧地部署对齐ITIL的IT服务管理工具能够节约时间和金钱，因为工具的流程支持能够帮助和加速组织重新组合的流程。
+    </para>
+    <para>
+       从版本2.0开始，OTRS::ITSM支持下面的功能和流程（通常设计为ITIL实施的第一阶段）：故障管理、问题管理、服务级别管理、变更管理和配置管理数据库。
+    </para>
+    <para>
+       更多有关使用和调整系统的详细描述可以在下面的章节找到。请注意每个OTRS::ITSM软件包都能独立安装，软件包的名称与ITIL相应的主题一致。
+    </para>
+    <para>
+        OTRS::ITSM基于ITIL V3实现。
+    </para>
+</chapter>

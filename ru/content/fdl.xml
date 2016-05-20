@@ -27,7 +27,7 @@ verbatim copies of this license document, but changing it is not allowed.</para>
     <para>The purpose of this License is to make a manual, textbook, or other written
 document "free" in the sense of freedom: to assure everyone the effective
 freedom to copy and redistribute it, with or without modifying it, either
-commercially or noncommercially.  Secondly, this License preserves a way for
+commercially or noncommercially. Secondly, this License preserves a way for
 the author and publisher to get credit for their work, while not being
 considered responsible for modifications made by others.</para>
 
@@ -39,10 +39,10 @@ software.</para>
     <para>We have designed this License in order to use it for manuals for free
 software, because free software needs free documentation; a free program
 should come with manuals providing the same freedoms that the software
-does.  But this License is not limited to software manuals; it can be used
+does. But this License is not limited to software manuals; it can be used
 for any textual work, regardless of subject matter or whether it is
-published as a printed book.  We recommend this License principally for
-works whose purpose is instruction or reference.</para>
+published as a printed book. We recommend this License principally for works
+whose purpose is instruction or reference.</para>
     </sect1>
 
     <sect1 label="1">
@@ -61,11 +61,11 @@ translated into another language.</para>
 Document that deals exclusively with the relationship of the publishers or
 authors of the Document to the Document's overall subject (or to related
 matters) and contains nothing that could fall directly within that overall
-subject.  (For example, if the Document is in part a textbook of
-mathematics, a Secondary Section may not explain any mathematics.)  The
-relationship could be a matter of historical connection with the subject or
-with related matters, or of legal, commercial, philosophical, ethical or
-political position regarding them.</para>
+subject. (For example, if the Document is in part a textbook of mathematics,
+a Secondary Section may not explain any mathematics.) The relationship could
+be a matter of historical connection with the subject or with related
+matters, or of legal, commercial, philosophical, ethical or political
+position regarding them.</para>
 
     <para>The "Invariant Sections" are certain Secondary Sections, whose titles are
 designated as being those of Invariant Sections, in the notice that says
@@ -82,15 +82,14 @@ straightforwardly with generic text editors or (for images composed of
 pixels) generic paint programs or (for drawings) some widely available
 drawing editor, and that is suitable for input to text formatters or for
 automatic translation to a variety of formats suitable for input to text
-formatters.  A copy made in an otherwise Transparent file format whose
-markup has been designed to thwart or discourage subsequent modification by
-readers is not Transparent.  A copy that is not "Transparent" is called
-"Opaque".</para>
+formatters. A copy made in an otherwise Transparent file format whose markup
+has been designed to thwart or discourage subsequent modification by readers
+is not Transparent. A copy that is not "Transparent" is called "Opaque".</para>
 
     <para>Examples of suitable formats for Transparent copies include plain ASCII
 without markup, Texinfo input format, LaTeX input format, SGML or XML using
 a publicly available DTD, and standard-conforming simple HTML designed for
-human modification.  Opaque formats include PostScript, PDF, proprietary
+human modification. Opaque formats include PostScript, PDF, proprietary
 formats that can be read and edited only by proprietary word processors,
 SGML or XML for which the DTD and/or processing tools are not generally
 available, and the machine-generated HTML produced by some word processors
@@ -111,10 +110,10 @@ body of the text.</para>
 or noncommercially, provided that this License, the copyright notices, and
 the license notice saying this License applies to the Document are
 reproduced in all copies, and that you add no other conditions whatsoever to
-those of this License.  You may not use technical measures to obstruct or
+those of this License. You may not use technical measures to obstruct or
 control the reading or further copying of the copies you make or
-distribute.  However, you may accept compensation in exchange for copies.
-If you distribute a large enough number of copies you must also follow the
+distribute. However, you may accept compensation in exchange for copies. If
+you distribute a large enough number of copies you must also follow the
 conditions in section 3.</para>
 
     <para>You may also lend copies, under the same conditions stated above, and you
@@ -145,7 +144,7 @@ with each Opaque copy, or state in or with each Opaque copy a
 publicly-accessible computer-network location containing a complete
 Transparent copy of the Document, free of added material, which the general
 network-using public has access to download anonymously at no charge using
-public-standard network protocols.  If you use the latter option, you must
+public-standard network protocols. If you use the latter option, you must
 take reasonably prudent steps, when you begin distribution of Opaque copies
 in quantity, to ensure that this Transparent copy will remain thus
 accessible at the stated location until at least one year after the last
@@ -206,10 +205,10 @@ required Cover Texts given in the Document's license notice.</para>
 
         <listitem><para>Preserve the section entitled "History", and its title, and add to it an
 item stating at least the title, year, new authors, and publisher of the
-Modified Version as given on the Title Page.  If there is no section
-entitled "History" in the Document, create one stating the title, year,
-authors, and publisher of the Document as given on its Title Page, then add
-an item describing the Modified Version as stated in the previous sentence.</para>
+Modified Version as given on the Title Page. If there is no section entitled
+"History" in the Document, create one stating the title, year, authors, and
+publisher of the Document as given on its Title Page, then add an item
+describing the Modified Version as stated in the previous sentence.</para>
         </listitem>
 
         <listitem><para>Preserve the network location, if any, given in the Document for public
@@ -288,7 +287,7 @@ combined work.</para>
     <para>In the combination, you must combine any sections entitled "History" in the
 various original documents, forming one section entitled "History"; likewise
 combine any sections entitled "Acknowledgements", and any sections entitled
-"Dedications".  You must delete all sections entitled "Endorsements."</para>
+"Dedications". You must delete all sections entitled "Endorsements."</para>
     </sect1>
 
     <sect1 label="6">
@@ -312,43 +311,42 @@ regarding verbatim copying of that document.</para>
     <para>A compilation of the Document or its derivatives with other separate and
 independent documents or works, in or on a volume of a storage or
 distribution medium, does not as a whole count as a Modified Version of the
-Document, provided no compilation copyright is claimed for the compilation.
-Such a compilation is called an "aggregate", and this License does not apply
-to the other self-contained works thus compiled with the Document, on
-account of their being thus compiled, if they are not themselves derivative
-works of the Document.</para>
+Document, provided no compilation copyright is claimed for the
+compilation. Such a compilation is called an "aggregate", and this License
+does not apply to the other self-contained works thus compiled with the
+Document, on account of their being thus compiled, if they are not
+themselves derivative works of the Document.</para>
 
     <para>If the Cover Text requirement of section 3 is applicable to these copies of
 the Document, then if the Document is less than one quarter of the entire
 aggregate, the Document's Cover Texts may be placed on covers that surround
-only the Document within the aggregate.  Otherwise they must appear on
-covers around the whole aggregate.</para>
+only the Document within the aggregate. Otherwise they must appear on covers
+around the whole aggregate.</para>
     </sect1>
 
     <sect1 label="8">
     <title>TRANSLATION</title>
 
     <para>Translation is considered a kind of modification, so you may distribute
-translations of the Document under the terms of section 4.  Replacing
+translations of the Document under the terms of section 4. Replacing
 Invariant Sections with translations requires special permission from their
 copyright holders, but you may include translations of some or all Invariant
-Sections in addition to the original versions of these Invariant Sections.
-You may include a translation of this License provided that you also include
-the original English version of this License.  In case of a disagreement
-between the translation and the original English version of this License,
-the original English version will prevail.</para>
+Sections in addition to the original versions of these Invariant
+Sections. You may include a translation of this License provided that you
+also include the original English version of this License. In case of a
+disagreement between the translation and the original English version of
+this License, the original English version will prevail.</para>
     </sect1>
 
     <sect1 label="9">
     <title>TERMINATION</title>
 
     <para>You may not copy, modify, sublicense, or distribute the Document except as
-expressly provided for under this License.  Any other attempt to copy,
+expressly provided for under this License. Any other attempt to copy,
 modify, sublicense, or distribute the Document is void, and will
-automatically terminate your rights under this License.  However, parties
-who have received copies, or rights, from you under this License will not
-have their licenses terminated so long as such parties remain in full
-compliance.</para>
+automatically terminate your rights under this License. However, parties who
+have received copies, or rights, from you under this License will not have
+their licenses terminated so long as such parties remain in full compliance.</para>
     </sect1>
 
     <sect1 label="10">

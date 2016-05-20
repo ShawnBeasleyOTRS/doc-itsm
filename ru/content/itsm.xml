@@ -273,9 +273,9 @@ Import/Export). Атрибуты CI типов "Text" и "TextArea", а такж
 
                     <listitem>
                         <para>
-                            Migrated ITSMCriticality and ITSMImpact values from general catalog to
-dynamic fields.  Renamed ITSM related dynamic fields to nicer names,
-prefixed with ITSM.
+                            Атрибуты ITSMCriticality/Критичность и ITSMImpact/Влияние перенесены из
+Общего каталога/general catalog в динамические поля. Переименованы,
+относящиеся к ITSM, динамические поля, они теперь имеют префикс ITSM.
                         </para>
                     </listitem>
 
@@ -1005,8 +1005,8 @@ SLA &quot;время ответа&quot;, &quot;время обновления&q
                 </listitem>
                 <listitem>
                     <para>
-                        Complete integration of OTRS role, group and queue mechanisms for incident
-ticket allocation, tracking, escalation and interpretation
+                        Полная интеграция с механизмами ролей, групп и очередей OTRS для назначения,
+отслеживания, эскалации и интерпретации
                     </para>
                 </listitem>
                 <listitem>

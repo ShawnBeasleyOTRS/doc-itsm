@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>CMDB-中央IT仓库</title>
+    <para>
+       配置管理数据库（CMDB）不是一个技术意义上的数据库，而是一个概念上的IT模型，是高效的IT服务管理不可或缺的。所有的IT组件和资产都在CMDB中管理。配置管理超出了资产管理（经常不正确地作为同义词使用），因为它不仅仅从财务视点记录资产，而且抓取有关组件之间的关系、技术参数或位置信息。所以IT支持能够快速访问IT服务和IT组件（即配置项，CI）之间的相互依赖信息。
+    </para>
+    <para>
+        根据ITIL，CMDB必须提供以下功能：
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>
+                手动和（在适用的地方）自动记录/修改配置项
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                描述配置项之间的关系和/或相互依赖信息
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                修改配置项属性（例如：序列号）
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                配置项的位置和用户管理
+            </para>
+        </listitem>
+        <listitem>
+            <para>
+                与系统中的ITIL流程模块集成
+            </para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        OTRS::ITSM在CMDB中实现了以上所有需求，并提供多种额外的IT支持功能。
+    </para>
+
+    <sect1>
+        <title>OTRS::ITSM数据库模型</title>
+        <para>
+            OTRS::ITSM的模块化架构和独立安装单个OTRS::ITSM软件的能力使得难以在一张图中显示完整的数据库模型。基于这个原因，为修改或扩展数据库方案的OTRS框架和ITSM软件包提供了单独的图形。
+        </para>
+        <sect2 id="otrs-database">
+            <title>OTRS框架</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="general-catalog-database">
+            <title>目录模块</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
+             </para>
+        </sect2>
+        <sect2 id="itsm-core-database">
+            <title>ITSM核心模块</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="itsm-configuration-management-database">
+            <title>ITSM配置管理模块</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="itsm-change-management-database">
+            <title>ITSM变更管理模块</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
+            </para>
+        </sect2>
+        <sect2 id="import-export-database">
+            <title>导入导出模块</title>
+            <para>
+                为了更好的可读性，这个图可在这里找到：<ulink
+url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
+            </para>
+        </sect2>
+    </sect1>
+
+    <sect1>
+        <title>服务，一切的核心</title>
+        <para>
+            服务如“标准IT工作站”、“电子邮件”或“WEB访问”都是IT产品，应该在采用OTRS::ITSM前编译到“IT服务目录”。这样一个服务目录通常是客户或公司特定的，并且分等级结构化。而且，因为IT专业人员（服务人员）和IT用户（客户）都是服务目录的受众，它应该使用用户友好、易于理解的语言来表述。
+        </para>
+        <warning>
+            <para>
+                服务目录设计是不可低估的任务。我们的经验显示：高度推荐首先在干净的系统上验证概念想法，并将转换服务结构到OTRS::ITSM作为第二步。借助外部的帮助如ITIL实践专家已经被证明是有价值的。
+            </para>
+        </warning>
+        <para>
+            在OTRS::ITSM中指定分级的IT服务目录的样例（部分），创建工单时
+        </para>
+        <para>
+            <figure>
+                <title>服务人员电话工单</title>
+<screenshot>
+<graphic fileref="screenshots/agent-phoneticket.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>和在系统管理中。 </para>
+        <para>
+            <figure>
+                <title>系统管理-服务管理概览</title>
+<screenshot>
+<graphic fileref="screenshots/admin-service-managment-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>服务级别和服务级别协议</title>
+        <para>
+            服务级别和相对应的协议（服务级别协议）记录IT服务的质量承诺。SLA在系统管理界面记录和管理。
+        </para>
+        <para>
+            <figure>
+                <title>系统管理-SLA管理概览</title>
+<screenshot>
+<graphic fileref="screenshots/admin-sla-management-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>以下参数在每个SLA中都会记录： </para>
+        <para>
+            <figure>
+                <title>系统管理-SLA管理-编辑</title>
+<screenshot>
+<graphic fileref="screenshots/admin-sla-management-edit.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            OTRS::ITSM默认提供了最多99个不同的日历来描述多种工作或服务时间的不同时区。SLA能够分配“服务级别窗口”。OTRS::ITSM可以输入不同的时间跨度（单位：分钟）来控制通知和升级时间。
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>【响应时间】</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                             = 故障的反应时间
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = 服务请求开始处理时间（“服务请求前置时间”）
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>【更新时间】</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = 通知时间
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>【解决时间】</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = 故障处理完成所花费的时间（“最大修复时间”、“MTTR平均恢复时间”）
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            = 服务请求交货时间（“交货时间”）
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>【最短故障时间】</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            = “MTBI”：在同一SLA中最近故障工单关闭后到再发生故障的最短时间。
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+        <warning>
+            <para>
+                如果SLA中以上命名的时间没有输入值，根据“响应时间”、“更新时间”和“解决时间”的升级会影响到所有队列！
+            </para>
+        </warning>
+        <para>OTRS::ITSM中重要的时间值都是基于“ITIL故障生命周期”：  </para>
+        <para>
+            <figure>
+                <title>故障生命周期</title>
+<screenshot>
+<graphic fileref="screenshots/incident-lifecycle.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>来源：OGC, ITIL 服务支持文档</para>
+        <para>
+            除了别的方面外，OTRS统计框架还促进了一个已记录故障的服务真实可用性的定义，这经常作为面向系统的SLA的性能图。
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>配置项</title>
+        <para>
+            已记录的带有当前状态的计算机配置项（部分）概览样例：
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-配置项</title>
+<screenshot>
+<graphic fileref="screenshots/agent-configuration-items.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>单个配置项视图样例：</para>
+        <para>
+            <figure>
+                <title>服务人员-配置管理-链接</title>
+<screenshot>
+<graphic fileref="screenshots/agent-configitem-management-link.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            上图是配置之间链接的示例。OTRS区分双向链接和无方向链接。每当一个配置项链接到另一CMDB对象时，OTRS::ITSM都会自动创建各自的反向链接。
+        </para>
+        <para>OTRS::ITSM标准提供7种链接类型：</para>
+        <para>
+            <figure>
+                <title>服务人员-配置管理-链接2</title>
+<screenshot>
+<graphic fileref="screenshots/agent-configitem-management-link2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            要链接对象，首先选择源对象，然后定义链接类型并选择目标对象。可以使用不同的条件搜索目标对象。
+        </para>
+    </sect1>
+
+
+    <sect1>
+        <title>文档和知识库</title>
+        <para>
+            使用FAQ系统（从OTRS 2.1版本之后独立的外部模块），可以设计和管理如建议和/或处理解决已知错误的一套知识数据库。
+        </para>
+        <para>
+            企业可以将知识库用于仅内部使用、所有客户使用或公开使用。知识库可以按照语言或目录进行创建和排序。知识文章的质量可以由服务人员来评估。可以配置显示最后创建或最后校订的文章数量为没有任何限制。所有的文章都加入索引以提高搜索效率。
+        </para>
+    </sect1>
+
+    <sect1>
+        <title>数据模型的变更和修订</title>
+        <para>
+            数据模型能被灵活改编，并扩展数据类型、属性甚至配置项类。详细信息可以在本手册的“OTRS::ITSM系统管理”部分或OTRS管理手册的“系统管理”部分找到。
+        </para>
+        <warning>
+            <para>
+                CMDB数据模型和在其中管理的配置项的设计，是不可被低估的任务。我们的经验显示：高度推荐首先在现有IT基础设施上验证概念想法，在这之后再修改OTRS::ITSM数据模型和配置项类。CMDB设计借助外部的帮助如ITIL实践专家已经被证明是有价值的。
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>工单类型和属性</title>
+        <para>
+            在OTRS 2.2版本引入了原生的工单类型，也在OTRS::ITSM中使用。在按队列组织的ITIL子流程中，工单通过类型进行分类。
+        </para>
+        <para>
+            OTRS::ITSM在此之后版本实现的所有ITIL流程，例如变更管理，也按这个方法实现。可以创建工单类型如RFC（“变更请求”）。
+        </para>
+        <para>
+            <figure>
+                <title>系统管理-类型管理</title>
+<screenshot>
+<graphic fileref="screenshots/admin-type-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <warning>
+            <para>
+                为了确保OTRS::ITSM管理的数据的一致性，在系统管理区创建的信息不能按一般规则直接删除。如果你想不激活这些信息，将相应的列表选项从“有效”变成“无效”和“临时无效”即可。
+            </para>
+        </warning>
+    </sect1>
+</chapter>

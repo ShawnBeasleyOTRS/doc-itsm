@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>OTRS::ITSM商业服务</title>
+    <para>OTRS AG是OTRS及基于OTRS的所有模块（如OTRS::ITSM）的制造商和源代码提供者，同时也是专业服务提供商。不像专用软件提供商，OTRS
+AG的商业模式不是收取软件许可费-OTRS和OTRS::ITSM都是免费使用的，我们只是提供与OTRS应用相关的商业服务。 </para>
+    <para>作为您的强力合作伙伴，我们为您的OTRS项目设计、实现和运营的所有阶段提供最佳支持。我们的员工都是资深专家，我们自信能用最现代的方法部署OTRS。这个哲学担保了强力商业应用软件的信誉，并让高兴的客户由衷赞美我们的服务质量（请参阅http://www.otrs.com/en/references/）。 </para>
+    <sect1>
+        <title>OTRS::ITSM咨询和实施</title>
+        <para>您计划使用OTRS::ITSM吗？或者您找到了新的产品界面并且想评估系统是否能够满足您的需求？或者您已经评估完成OTRS::ITSM并决定使用我们的咨询服务以便提升项目迈向成功的效率？</para>
+        <para>我们在IT流程咨询、软件引擎、开发、ITIL兼容的IT运营和支持方面能够提供广泛的经过实践的专业知识。对您的项目的安全和质量管理能够充实我们的服务资产，您也能从广泛并快捷的知识转换中受益。 </para>
+        <para>我们的服务包括：</para>
+        <itemizedlist>
+            <listitem>
+                <para>识别您的需求，并协助产品评估</para>
+            </listitem>
+            <listitem>
+                <para>指导ITSM流程和组织架构的设计与部署</para>
+            </listitem>
+            <listitem>
+                <para>ISO20000认证时ITIL评估与支持
+                </para>
+            </listitem>
+            <listitem>
+                <para>ITIL培训和辅导</para>
+            </listitem>
+            <listitem>
+                <para>ITIL实施</para>
+            </listitem>
+            <listitem>
+                <para>编译IT服务目录</para>
+            </listitem>
+            <listitem>
+                <para>CMDB设计</para>
+            </listitem>
+            <listitem>
+                <para>安装和配置OTRS::ITSM，包括与您现有的系统环境集成</para>
+            </listitem>
+            <listitem>
+                <para>审核并优化现有安装的OTRS::ITSM
+                </para>
+            </listitem>
+            <listitem>
+                <para>从前任系统迁移流程和数据</para>
+            </listitem>
+            <listitem>
+                <para>版本升级</para>
+            </listitem>
+            <listitem>
+                <para>商业和IT需求规范，以及超出OTRS::ITSM现有功能范围的功能规范 </para>
+            </listitem>
+            <listitem>
+                <para>设计和实现项目可免费培训系统管理员和服务人员 </para>
+            </listitem>
+            <listitem>
+                <para>关于OTRS::ITSM托管运营（ASP/SaaS）的咨询服务，以及应用系统支持</para>
+            </listitem>
+        </itemizedlist>
+    </sect1>
+    <sect1>
+        <title>软件开发</title>
+        <para>开源软件OTRS::ITSM的一个显著优势就是扩展功能范围的灵活性。不用担心“供应商锁定（这是私有软件系统的典型风险）”，也不用担心在与制造商协商扩展功能范围或创建到OTRS::ITSM的接口时被拖延。 </para>
+        <para>经验丰富的项目经理和开发人员可随时供您驱使，以将超出OTRS::ITSM功能范围的需求转换为商业和IT规范。我们按您的设想开发功能模块、程序接口或升级现有功能。 </para>
+        <para>对其它客户也有用处的扩展功能也可能在以后的版本中添加到标准模块。所有相关模块都会受益：比起刚涎生时的OTRS::ITSM，在您和其它客户的需求驱动下OTRS::ITSM已经越来越强大了，并且您也能节约移植您的独特功能到新版本的成本。 </para>
+    </sect1>
+    <sect1>
+        <title>应用程序支持</title>
+        <para>即使您选择了开源软件，IT服务管理解决方案也是事关未来的投资决策。部署这个项目的成功关键是选择一个合格的咨询合作伙伴。同样重要的是按计划并成功的移植解决方案为有生命力的系统，以及可信赖的合作伙伴的持续支持保证完美的运营应用程序服务。
+        </para>
+        <para>我们提供这种持续支持，我们的服务包可根据您的需求量体裁衣，可提供不同的响应时间（最高7*24*365的多种服务级别协议），并能7*24*365访问我们的支持门户网站以及可选的电话支持。请访问http://www.otrs.com/en/support/获得所有支持的详细信息，或通过邮件sales@otrs.com联系我们的销售团队。</para>
+        <para>您只需要为您绝对需要的服务付费，需要时也可以预订可选的附件服务包如远程控制支持，或者到其它OTRS::ITSM实例的应用系统支持服务扩展。</para>
+        <para>我们遵从ITIL运营的应用程序支持团队为流程和性能持续优化。我们的服务经理会定期与您联系，以便跟您讨论跟服务相关的期望和需求。您选择服务包的月度服务报告将作为这些会话的基础。</para>
+    </sect1>
+    <sect1>
+        <title>托管应用程序服务（ASP/Saas）</title>
+        <para>如果您不想亲自运营OTRS和/或OTRS::ITSM，可以通过所谓的“ASP（应用服务供应）”或“SaaS（软件即服务）模型从专业的公司租用本产品。</para>
+        <para>客户（软件用户）通过互联网访问租用的专用OTRS系统，如需要，可按固定月费获得应用程序支持（参阅上面的章节），并在合同规定的范围租用这个应用程序。因为只使用了开源产品，没有额外的许可证费用。</para>
+        <para>应用程序服务提供商运营IT基础设施、系统和遵从ITIL的软件，并保证服务级别协议规定的服务质量。提供商维护应用系统（例如打补丁、备份、监控），以及故障和/或服务请求（如咨询请求、软件扩展或配置请求）的客户支持。
+        </para>
+    </sect1>
+</chapter>

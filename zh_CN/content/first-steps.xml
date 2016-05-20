@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>OTRS::ITSM模块的第一步</title>
+    <para>
+        您需要注意的第一件事情是：OTRS::ITSM完全使用部署在OTRS中的服务人员和客户界面（客户前端）。如果以前使用过OTRS，所有的功能和步骤（如登录、队列配置、用户偏好设置、过滤器、规则、用户权限等）都能继续使用，没有任何改动。
+    </para>
+    <para>
+        本手册因此仅讨论OTRS和OTRS::ITSM不同的方面，特别是关注以下方面：
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>IT服务和SLA</para>
+        </listitem>
+        <listitem>
+            <para>CMDB配置管理数据库</para>
+        </listitem>
+        <listitem>
+            <para>新的工单字段和功能</para>
+        </listitem>
+        <listitem>
+            <para>遵从ITIL术语</para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        设置和处理过程的详细信息方面OTRS和OTRS::ITSM完全相同，可以从http://otrs.github.io/doc/manual/admin/5.0/en/html/获取OTRS管理手册（仍在持续修订）。
+    </para>
+    <para>
+        <figure>
+            <title>管理手册</title>
+<screenshot>
+<graphic fileref="screenshots/admin-manual.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+</chapter>

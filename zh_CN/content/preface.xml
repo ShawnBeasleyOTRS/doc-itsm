@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<preface>
+    <title>前言</title>
+    <para>本文档适用于OTRS::ITSM用户和管理员，并为IT服务经理、IT服务人员和最终用户（客户）提供OTRS::ITSM模块的基本使用信息。仅提供与OTRS核心产品有差异的关于OTRS::ITSM模块安装、配置和管理的信息，或只在OTRS::ITSM模块中存在的函数信息。</para>
+    <para>尽管在编写以下章节的过程中耗费了许多小时的工作,甚至还有多杯咖啡和不少香肠和椒盐卷饼,本手册并没有声称自己是完整的。章节内容将定期修订以便持续改进。
+</para>
+    <para>我们期待你的反馈能作为章节内容和产品本身高质量的关键贡献。如果你缺少什么信息、某些方面或它们的表现手法很难理解、有建议或任何其他意见，都请告诉我们。在http://otrs.org提交任何反馈均深表感谢。</para>
+    <para>我们为手中的产品非常自豪，在此要感谢企业咨询股份有限公司的ITIL专家和一流的OTRS开发人员，他们的共同努力为成功开发OTRS::ITSM做出了显著贡献。</para>
+    <para>我们还要感谢您、OTRS::ITSM的用户和社区提前所做的任何形式的援助和反馈,希望您能开心地使用otr::ITSM。
+
+</para>
+    <para>André Mindermann安德烈.明德尔曼，OTRS AG管理合伙人</para>
+    <para>巴特洪堡，2007年5月</para>
+    <para>((享受吧))</para>
+</preface>

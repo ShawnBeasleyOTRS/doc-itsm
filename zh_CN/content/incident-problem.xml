@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>
+        服务台、故障管理和问题管理
+    </title>
+    <para>
+        服务台（在ITIL中服务台不是一个流程而是一个功能）通常是工单系统的主要领域。所有来自系统监控和内部IT部门的用户消息和通知都在这里汇集。ITIL服务管理流程与服务台紧密交织，描述了与故障或服务请求相关的工作步骤、信息、（工单）升级和/或界面。
+    </para>
+    <para>
+        OTRS::ITSM中的故障管理和问题管理流程基于ITIL推荐和ITIL术语。同时，用户友好也是主要考虑因素，来自OTRS的术语也尽可能保留。
+    </para>
+    <para>
+        <figure>
+            <title>流程模式</title>
+<screenshot>
+<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>
+        来源：ILX Group (www.ilxgroup.com)
+    </para>
+    <sect1>
+        <title>
+            工单创建、分类和优先级
+        </title>
+        <para>
+            在创建工单（我们的案例是一个电话工单）时下面的信息能作为OTRS的附加信息注册：
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    工单类型
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    相关服务
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    SLA
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    影响
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    优先级
+                </para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            取决于选择的服务，影响和优先级都是从紧急度-影响-优先级矩阵中自动提交。但是，每个IT服务人员都应知道“VIP”客户需要特别对待。
+        </para>
+        <para>
+            为了满足日常的服务运营需求，我们还允许你手动调整一个请求的优先级。
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-创建工单</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-create.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            通过点击工单内容链接，可以访问工单的详细情况。IT支持相关的所有数据都合并到右边：
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-工单-数据修改</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            SLA相关的时间信息
+        </title>
+        <para>
+            使用附加的ITSM字段链接，能够记录和修改SLA中要求的响应时间、更新时间和解决时间：
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-工单-附加字段</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-additional-field.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            分配工单（队列）
+        </title>
+        <para>
+            设计时考虑到灵活性，OTRS::ITSM队列可根据你的组织架构进行剪裁。可以采用垂直方案-服务台、一线、二线和三线支持（经常在IT服务支持中使用），或配置为基于工单生命周期面向流程的方式-创建、处理、关闭和后处理。
+        </para>
+        <para>
+            与OTRS
+2.2以前的版本相反，OTRS::ITSM中的工单升级首先基于SLA中提供的响应时间、更新时间和恢复时间。如果SLA未提供相关的时间，升级就基于队列及队列的时间。
+        </para>
+        <para>在工单视图右下角可以将工单转移到一个新的队列。</para>
+        <para>
+            <figure>
+                <title>服务人员-工单-队列</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-queue.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <warning>
+            <para>
+                队列架构的设计是不可被低估的任务。我们的经验显示：高度推荐配置OTRS::ITSM之前首先在现有IT基础设施上验证概念想法。队列设计借助外部的帮助如OTRS或ITIL实践专家已经被证明是有价值的。
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+    <title>
+        修改工单数据
+    </title>
+    <para>
+        对工单的所有修改与OTRS一样，通过导航栏下方的链接菜单进行。
+    </para>
+    <para>
+        <figure>
+            <title>服务人员-工单-数据修改</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-data-change.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    </sect1>
+    <sect1>
+        <title>
+            审批和决定
+        </title>
+        <para>
+            在大多数情况下，特别是服务请求，在请求实施前必须做出决定。取决于权限框架，可由服务人员直接做出决定（标准变更），或者通过高层经理的审批做出决定。主要是权限变更（如一个用户想要访问一个受限的文件系统目录）或产生费用的请求（如采购新的笔记本电脑）需要审批。
+        </para>
+        <para>
+            OTRS::ITSM中批准和拒绝都通过“决定”链接，并永久存储在工单中：
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-工单-决定</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-decision.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            从故障工单创建问题工单
+        </title>
+        <para>
+            要从一个或多个故障工单创建一个问题工单，创建一个新的工单并链接到相关的故障工单。通过这种方法，相关的故障可以单独处理，并在必要时通过权变措施关闭工单，最后被永久解决方案所取代。
+        </para>
+        <para>
+            故障和问题工单合并在一起会使得报表晦涩难懂，并使IT服务的控制和持续改进复杂化。
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            工单关闭
+        </title>
+        <para>
+            不像OTRS标准版，OTRS::ITSM使用权变措施来促进遵从ITIL的工单关闭。
+        </para>
+    </sect1>
+    <sect1>
+        <title>
+            服务请求的处理
+        </title>
+        <para>
+            在OTRS中，服务请求和故障都当作工单来同等初始处理。它们可通过工单类型Incident::Service
+Request（故障::服务请求）的中断来区分，
+        </para>
+        <para>
+            另外一个不同之处是SLA相关的时间，在服务级别和服务级别协议部分有更详细的解释。
+        </para>
+        <para>
+            <figure>
+                <title>服务人员-服务请求</title>
+<screenshot>
+<graphic fileref="screenshots/agent-service-request.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+</chapter>

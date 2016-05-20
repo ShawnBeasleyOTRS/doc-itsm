@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>额外的OTRS应用 - 日历</title>
+    <para>
+        OTRS初始支持最大9个日历，可以通过图形界面配置。使用系统管理界面的系统配置框架，这个数字可以增加到99，使用如日历1...等等的名称。
+    </para>
+    <para>
+        <figure>
+            <title>系统管理-系统配置</title>
+<screenshot>
+<graphic fileref="screenshots/admin-sys-config.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>
+        OTRS::ITSM中使用“TimeWorkingHours工作时间”来定义所谓的“服务级别窗口”，您的组织保证给客户提供某个服务级别的时间范围。如果需要，可以监控和/或评估这些时间范围以保证承诺的服务级别协议。
+    </para>
+    <para>
+        <figure>
+            <title>系统管理-系统配置-工作时间</title>
+<screenshot>
+<graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+</chapter>
