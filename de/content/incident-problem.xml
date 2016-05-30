@@ -19,16 +19,6 @@ ITIL recommendations and ITIL terminology. At the same time, user comfort
 was a main consideration, and terms known from OTRS have been retained as
 much as possible.
     </para>
-    <para>
-        <figure>
-            <title>process-schema</title>
-<screenshot>
-<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
-contentdepth="100%"></graphic></screenshot></figure>
-    </para>
-    <para>
-        Quelle: ILX Group (www.ilxgroup.com)
-    </para>
     <sect1>
         <title>
             Ticketerstellung, Klassifizierung und Priorisierung

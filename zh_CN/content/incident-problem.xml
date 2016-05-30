@@ -10,16 +10,6 @@
     <para>
         OTRS::ITSM中的故障管理和问题管理流程基于ITIL推荐和ITIL术语。同时，用户友好也是主要考虑因素，来自OTRS的术语也尽可能保留。
     </para>
-    <para>
-        <figure>
-            <title>流程模式</title>
-<screenshot>
-<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
-contentdepth="100%"></graphic></screenshot></figure>
-    </para>
-    <para>
-        来源：ILX Group (www.ilxgroup.com)
-    </para>
     <sect1>
         <title>
             工单创建、分类和优先级

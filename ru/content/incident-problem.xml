@@ -19,16 +19,6 @@
 пользователя, является немаловажным фактором и поэтому терминология OTRS
 также, по возможности сохранена.
     </para>
-    <para>
-        <figure>
-            <title>Схема процесса</title>
-<screenshot>
-<graphic fileref="screenshots/process-schema.png" scalefit="1" width="100%"
-contentdepth="100%"></graphic></screenshot></figure>
-    </para>
-    <para>
-        Source: ILX Group (www.ilxgroup.com)
-    </para>
     <sect1>
         <title>
             Создание заявки, классификация и приоритезация
