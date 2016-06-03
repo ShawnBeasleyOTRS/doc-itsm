@@ -10,17 +10,11 @@
     <para>
         The admin area can be accessed via the "admin" link in the agent
         interface navigation bar. The link is only shown to users logged on to
-        the system that have been granted administrator priviliges.
+        the system that have been granted administrator privileges.
         After the completion of a default installation you can log on to the system as
-        OTRS admin using the user name &quot;root@localhost&quot; and the password &quot;root&quot;.
+        OTRS admin using the user name &quot;root@localhost&quot; and the password generated in
+        the last step of the installation.
     </para>
-    <warning>
-        <para>
-            WARNING: Make sure to change the password of root@localhost in the user
-            preferences as quickly as possible. Using the widely known default password is not
-            recommended!
-        </para>
-    </warning>
 
     <para>
         <itemizedlist>

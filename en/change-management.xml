@@ -41,17 +41,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, version 3.3.1 or higher
+                            OTRS Framework, version 4.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog&quot; package, version 3.3
+                            ITSM &quot;GeneralCatalog&quot; package, version 4.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore&quot; package, version 3.3
+                            ITSM &quot;ITSMCore&quot; package, version 4.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -64,22 +64,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 4.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 4.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 4.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport&quot; package, version 3.3
+                            ITSM &quot;ImportExport&quot; package, version 4.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -375,10 +375,6 @@
                 Change Builder.
             </para>
             <para>
-                The category, impact and priority values given upon installation can be
-                customized in the General Catalog by the administrator.
-            </para>
-            <para>
                 <screenshot>
                     <screeninfo>
                         change-matrix
@@ -388,7 +384,9 @@
                 </screenshot>
             </para>
             <para>
-                Here, the menu item &quot;General Catalog&quot; should be selected in the
+                The category, impact and priority values given upon installation can be
+                customized in the General Catalog by the administrator. To do this, the
+                menu item &quot;General Catalog&quot; should be selected in the
                 OTRS::ITSM Administration interface.
             </para>
             <sect3>
@@ -521,13 +519,8 @@
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
                 administration front end, under menu option &quot;State Machine&quot;. The
-                statuses and possible result statuses should be defined here.
-            </para>
-            <para>
-                Where necessary, additional statuses can be defined under the menu option
-                &quot;General Catalog&quot; -&gt; &quot;ITSM::Change
-                Management::Change::State&quot;. In OTRS::ITSM, this is illustrated
-                as a table:
+                statuses and possible result statuses should be defined here. In OTRS::ITSM,
+                this is illustrated as a table:
             </para>
             <para>
                 <screenshot>
@@ -537,6 +530,11 @@
                     <graphic fileref="screenshots/change-state-transition.png"
                         srccredit="change-state-transition - screenshot" scale="50" />
                 </screenshot>
+            </para>
+            <para>
+                Where necessary, additional statuses can be defined under the menu option
+                &quot;General Catalog&quot; -&gt; &quot;ITSM::Change
+                Management::Change::State&quot;.
             </para>
         </sect2>
         <sect2>
@@ -1337,16 +1335,9 @@
             </para>
             <para>
                 Adjustments to the State Machine can be made by the system administrator in the
-                administration front end, under menu option State Machine. The
-                statuses and possible result statuses should be defined here.
-            </para>
-            <para>
-                Where necessary, additional statuses can be defined under the menu option
-                &quot;General Catalog&quot; -&gt;
-                &quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
-            </para>
-            <para>
-                In OTRS::ITSM, this is illustrated as a table:
+                administration front end, under menu option State Machine. The statuses and
+                possible result statuses should be defined here. In OTRS::ITSM, this is
+                illustrated as a table:
             </para>
             <para>
                 <screenshot>
@@ -1356,6 +1347,11 @@
                     <graphic fileref="screenshots/change-workorder-state-transition.png"
                         srccredit="change-workorder-state-transition - screenshot" scale="50" />
                 </screenshot>
+            </para>
+            <para>
+                Where necessary, additional statuses can be defined under the menu option
+                &quot;General Catalog&quot; -&gt;
+                &quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
             </para>
         </sect2>
         <sect2>
@@ -1618,7 +1614,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1629,7 +1625,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1640,7 +1636,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -1651,7 +1647,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1662,7 +1658,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1673,7 +1669,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1684,7 +1680,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1695,7 +1691,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1706,7 +1702,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1717,7 +1713,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1728,7 +1724,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -1739,7 +1735,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1750,7 +1746,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1761,7 +1757,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1772,7 +1768,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1783,7 +1779,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1794,7 +1790,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1942,7 +1938,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1953,7 +1949,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -1964,7 +1960,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -1975,7 +1971,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1986,7 +1982,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -1997,7 +1993,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2008,7 +2004,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2019,7 +2015,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2030,7 +2026,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2041,7 +2037,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2052,7 +2048,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -2063,7 +2059,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2074,7 +2070,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2085,7 +2081,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2096,7 +2092,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2107,7 +2103,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2118,7 +2114,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2174,7 +2170,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2185,7 +2181,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2196,7 +2192,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -2207,7 +2203,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2218,7 +2214,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2229,7 +2225,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 No
@@ -2240,7 +2236,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 No
@@ -2251,7 +2247,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 No
@@ -2262,7 +2258,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2273,7 +2269,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2284,7 +2280,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -2295,7 +2291,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2306,7 +2302,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2317,7 +2313,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2328,7 +2324,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2339,7 +2335,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2350,7 +2346,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderAgent
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2361,7 +2357,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderNumber
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2372,7 +2368,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderState
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2383,7 +2379,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderStateSignal
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 No
@@ -2394,7 +2390,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderTitle
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2405,7 +2401,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderType
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 No
@@ -2462,7 +2458,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ChangeBy
+                                <literal>ChangeBy</literal>
                             </entry>
                             <entry>
                                 No
@@ -2473,7 +2469,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTime
+                                <literal>ChangeTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2484,7 +2480,7 @@
                         </row>
                         <row>
                             <entry>
-                                Comment
+                                <literal>Comment</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2495,7 +2491,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateBy
+                                <literal>CreateBy</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2506,7 +2502,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2517,7 +2513,7 @@
                         </row>
                         <row>
                             <entry>
-                                Delete
+                                <literal>Delete</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2528,7 +2524,7 @@
                         </row>
                         <row>
                             <entry>
-                                Name
+                                <literal>Name</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2539,7 +2535,7 @@
                         </row>
                         <row>
                             <entry>
-                                TemplateID
+                                <literal>TemplateID</literal>
                             </entry>
                             <entry>
                                 No
@@ -2550,7 +2546,7 @@
                         </row>
                         <row>
                             <entry>
-                                Type
+                                <literal>Type</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2561,7 +2557,7 @@
                         </row>
                         <row>
                             <entry>
-                                Valid
+                                <literal>Valid</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2599,7 +2595,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ITSMChange
+                                <literal>ITSMChange</literal>
                             </entry>
                             <entry>
                                 Templates for Changes
@@ -2607,7 +2603,7 @@
                         </row>
                         <row>
                             <entry>
-                                ITSMWorkOrder
+                                <literal>ITSMWorkOrder</literal>
                             </entry>
                             <entry>
                                 Templates for Work Orders
@@ -2615,7 +2611,7 @@
                         </row>
                         <row>
                             <entry>
-                                CAB
+                                <literal>CAB</literal>
                             </entry>
                             <entry>
                                 Templates for Change Advisory Boards
@@ -2933,7 +2929,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2944,7 +2940,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -2955,7 +2951,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -2966,7 +2962,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2977,7 +2973,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2988,7 +2984,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -2999,7 +2995,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3010,7 +3006,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3021,7 +3017,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3032,7 +3028,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3043,7 +3039,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -3054,7 +3050,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3065,7 +3061,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3076,7 +3072,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3087,7 +3083,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3098,7 +3094,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3109,7 +3105,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3221,7 +3217,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3232,7 +3228,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3243,7 +3239,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -3254,7 +3250,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3265,7 +3261,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3276,7 +3272,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3287,7 +3283,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3298,7 +3294,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3309,7 +3305,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3320,7 +3316,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3331,7 +3327,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -3342,7 +3338,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3353,7 +3349,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3364,7 +3360,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3375,7 +3371,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3386,7 +3382,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3397,7 +3393,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3510,7 +3506,7 @@
                     <tbody>
                         <row>
                             <entry>
-                                ActualStartTime
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3521,7 +3517,7 @@
                         </row>
                         <row>
                             <entry>
-                                ActualEndTime
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3532,7 +3528,7 @@
                         </row>
                         <row>
                             <entry>
-                                Category
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 No
@@ -3543,7 +3539,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeBuilder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 No
@@ -3554,7 +3550,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeManager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 No
@@ -3565,7 +3561,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeNumber
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 No
@@ -3576,7 +3572,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeState
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 No
@@ -3587,7 +3583,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 No
@@ -3598,7 +3594,7 @@
                         </row>
                         <row>
                             <entry>
-                                ChangeTitle
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3609,7 +3605,7 @@
                         </row>
                         <row>
                             <entry>
-                                CreateTime
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3620,7 +3616,7 @@
                         </row>
                         <row>
                             <entry>
-                                Impact
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 No
@@ -3631,7 +3627,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedStartTime
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3642,7 +3638,7 @@
                         </row>
                         <row>
                             <entry>
-                                PlannedEndTime
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3653,7 +3649,7 @@
                         </row>
                         <row>
                             <entry>
-                                Priority
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 No
@@ -3664,7 +3660,7 @@
                         </row>
                         <row>
                             <entry>
-                                RequestedTime
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 No
@@ -3675,7 +3671,7 @@
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3686,7 +3682,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderAgent
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3697,7 +3693,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderNumber
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3708,7 +3704,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderState
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3719,7 +3715,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderStateSignal
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 No
@@ -3730,7 +3726,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderTitle
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 Yes
@@ -3741,7 +3737,7 @@
                         </row>
                         <row>
                             <entry>
-                                WorkOrderType
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 No
