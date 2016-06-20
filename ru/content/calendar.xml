@@ -3,9 +3,10 @@
 <chapter>
     <title>Дополнительные приложения OTRS - календарь</title>
     <para>
-        OTRS первоначально поддерживает работу с 9 календарями, которые могут быть
-настроены через интерфейс. Используя SysConfig их число может быть увеличено
-до 99, используя ссылки на календаря 1 и т.д.:
+        In a default OTRS installation 9 calendars are available, which can be
+configured graphically. Using the SysConfig framework found in the admin
+interface, this number can be increased to 99, by using the calendar 1
+etc. links:
     </para>
     <para>
         <figure>

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-02-08 09:11+0100\n"
-"PO-Revision-Date: 2016-05-20 06:58+0000\n"
+"POT-Creation-Date: 2016-06-20 14:37+0200\n"
+"PO-Revision-Date: 2016-06-20 12:38+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/"
 "zh_CN/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Attribute 'lang' of: <book>
 #: en/book.xml:5
 msgid "en"
-msgstr "中文"
+msgstr "zh_CN"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
@@ -1710,31 +1710,31 @@ msgstr ""
 #: en/content/cmdb.xml:132 en/content/cmdb.xml:141 en/content/cmdb.xml:157
 #: en/content/cmdb.xml:166 en/content/cmdb.xml:244 en/content/cmdb.xml:266
 #: en/content/cmdb.xml:275 en/content/cmdb.xml:290 en/content/cmdb.xml:357
-#: en/content/incident-problem.xml:16 en/content/incident-problem.xml:67
-#: en/content/incident-problem.xml:78 en/content/incident-problem.xml:94
-#: en/content/incident-problem.xml:115 en/content/incident-problem.xml:136
-#: en/content/incident-problem.xml:155 en/content/incident-problem.xml:193
-#: en/content/change-management.xml:106 en/content/change-management.xml:125
-#: en/content/change-management.xml:216 en/content/change-management.xml:384
-#: en/content/change-management.xml:514 en/content/change-management.xml:533
-#: en/content/change-management.xml:550 en/content/change-management.xml:632
-#: en/content/change-management.xml:687 en/content/change-management.xml:1108
-#: en/content/change-management.xml:1325 en/content/change-management.xml:1346
-#: en/content/change-management.xml:1368 en/content/change-management.xml:1386
-#: en/content/change-management.xml:1469 en/content/change-management.xml:1487
-#: en/content/change-management.xml:1506 en/content/change-management.xml:1549
-#: en/content/change-management.xml:1574 en/content/change-management.xml:1897
-#: en/content/change-management.xml:2128 en/content/change-management.xml:2414
-#: en/content/change-management.xml:2620 en/content/change-management.xml:2881
-#: en/content/change-management.xml:3169 en/content/change-management.xml:3456
-#: en/content/stats.xml:18 en/content/stats.xml:27 en/content/stats.xml:36
-#: en/content/stats.xml:47 en/content/stats.xml:55 en/content/stats.xml:64
-#: en/content/admin-area.xml:94 en/content/admin-area.xml:108
-#: en/content/admin-area.xml:118 en/content/admin-area.xml:173
-#: en/content/admin-area.xml:281 en/content/admin-area.xml:306
-#: en/content/admin-area.xml:322 en/content/admin-area.xml:418
-#: en/content/admin-area.xml:430 en/content/admin-area.xml:448
-#: en/content/calendar.xml:13 en/content/calendar.xml:28
+#: en/content/incident-problem.xml:56 en/content/incident-problem.xml:67
+#: en/content/incident-problem.xml:83 en/content/incident-problem.xml:104
+#: en/content/incident-problem.xml:125 en/content/incident-problem.xml:144
+#: en/content/incident-problem.xml:182 en/content/change-management.xml:106
+#: en/content/change-management.xml:125 en/content/change-management.xml:216
+#: en/content/change-management.xml:380 en/content/change-management.xml:512
+#: en/content/change-management.xml:526 en/content/change-management.xml:548
+#: en/content/change-management.xml:630 en/content/change-management.xml:685
+#: en/content/change-management.xml:1106 en/content/change-management.xml:1323
+#: en/content/change-management.xml:1337 en/content/change-management.xml:1364
+#: en/content/change-management.xml:1382 en/content/change-management.xml:1465
+#: en/content/change-management.xml:1483 en/content/change-management.xml:1502
+#: en/content/change-management.xml:1545 en/content/change-management.xml:1570
+#: en/content/change-management.xml:1893 en/content/change-management.xml:2124
+#: en/content/change-management.xml:2410 en/content/change-management.xml:2616
+#: en/content/change-management.xml:2877 en/content/change-management.xml:3165
+#: en/content/change-management.xml:3452 en/content/stats.xml:18
+#: en/content/stats.xml:27 en/content/stats.xml:36 en/content/stats.xml:47
+#: en/content/stats.xml:55 en/content/stats.xml:64 en/content/admin-area.xml:94
+#: en/content/admin-area.xml:108 en/content/admin-area.xml:118
+#: en/content/admin-area.xml:173 en/content/admin-area.xml:281
+#: en/content/admin-area.xml:306 en/content/admin-area.xml:322
+#: en/content/admin-area.xml:418 en/content/admin-area.xml:430
+#: en/content/admin-area.xml:448 en/content/calendar.xml:13
+#: en/content/calendar.xml:28
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
@@ -1744,31 +1744,31 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/cmdb.xml:139 en/content/cmdb.xml:155 en/content/cmdb.xml:164
 #: en/content/cmdb.xml:242 en/content/cmdb.xml:264 en/content/cmdb.xml:273
 #: en/content/cmdb.xml:288 en/content/cmdb.xml:355
-#: en/content/incident-problem.xml:14 en/content/incident-problem.xml:65
-#: en/content/incident-problem.xml:76 en/content/incident-problem.xml:92
-#: en/content/incident-problem.xml:113 en/content/incident-problem.xml:134
-#: en/content/incident-problem.xml:153 en/content/incident-problem.xml:191
-#: en/content/change-management.xml:104 en/content/change-management.xml:123
-#: en/content/change-management.xml:214 en/content/change-management.xml:382
-#: en/content/change-management.xml:512 en/content/change-management.xml:531
-#: en/content/change-management.xml:548 en/content/change-management.xml:630
-#: en/content/change-management.xml:685 en/content/change-management.xml:1106
-#: en/content/change-management.xml:1323 en/content/change-management.xml:1344
-#: en/content/change-management.xml:1366 en/content/change-management.xml:1384
-#: en/content/change-management.xml:1467 en/content/change-management.xml:1485
-#: en/content/change-management.xml:1504 en/content/change-management.xml:1547
-#: en/content/change-management.xml:1572 en/content/change-management.xml:1895
-#: en/content/change-management.xml:2126 en/content/change-management.xml:2412
-#: en/content/change-management.xml:2618 en/content/change-management.xml:2879
-#: en/content/change-management.xml:3167 en/content/change-management.xml:3454
-#: en/content/stats.xml:16 en/content/stats.xml:25 en/content/stats.xml:34
-#: en/content/stats.xml:45 en/content/stats.xml:53 en/content/stats.xml:62
-#: en/content/admin-area.xml:92 en/content/admin-area.xml:106
-#: en/content/admin-area.xml:116 en/content/admin-area.xml:171
-#: en/content/admin-area.xml:279 en/content/admin-area.xml:304
-#: en/content/admin-area.xml:320 en/content/admin-area.xml:416
-#: en/content/admin-area.xml:428 en/content/admin-area.xml:446
-#: en/content/calendar.xml:11 en/content/calendar.xml:26
+#: en/content/incident-problem.xml:54 en/content/incident-problem.xml:65
+#: en/content/incident-problem.xml:81 en/content/incident-problem.xml:102
+#: en/content/incident-problem.xml:123 en/content/incident-problem.xml:142
+#: en/content/incident-problem.xml:180 en/content/change-management.xml:104
+#: en/content/change-management.xml:123 en/content/change-management.xml:214
+#: en/content/change-management.xml:378 en/content/change-management.xml:510
+#: en/content/change-management.xml:524 en/content/change-management.xml:546
+#: en/content/change-management.xml:628 en/content/change-management.xml:683
+#: en/content/change-management.xml:1104 en/content/change-management.xml:1321
+#: en/content/change-management.xml:1335 en/content/change-management.xml:1362
+#: en/content/change-management.xml:1380 en/content/change-management.xml:1463
+#: en/content/change-management.xml:1481 en/content/change-management.xml:1500
+#: en/content/change-management.xml:1543 en/content/change-management.xml:1568
+#: en/content/change-management.xml:1891 en/content/change-management.xml:2122
+#: en/content/change-management.xml:2408 en/content/change-management.xml:2614
+#: en/content/change-management.xml:2875 en/content/change-management.xml:3163
+#: en/content/change-management.xml:3450 en/content/stats.xml:16
+#: en/content/stats.xml:25 en/content/stats.xml:34 en/content/stats.xml:45
+#: en/content/stats.xml:53 en/content/stats.xml:62 en/content/admin-area.xml:92
+#: en/content/admin-area.xml:106 en/content/admin-area.xml:116
+#: en/content/admin-area.xml:171 en/content/admin-area.xml:279
+#: en/content/admin-area.xml:304 en/content/admin-area.xml:320
+#: en/content/admin-area.xml:416 en/content/admin-area.xml:428
+#: en/content/admin-area.xml:446 en/content/calendar.xml:11
+#: en/content/calendar.xml:26
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr "<placeholder type=\"figure\" id=\"0\"/>"
 
@@ -3043,32 +3043,13 @@ msgstr ""
 "OTRS::ITSM中的故障管理和问题管理流程基于ITIL推荐和ITIL术语。同时，用户友好也"
 "是主要考虑因素，来自OTRS的术语也尽可能保留。"
 
-#. type: Content of: <chapter><para><figure><title>
-#: en/content/incident-problem.xml:15
-msgid "process-schema"
-msgstr "流程模式"
-
-#. type: Content of: <chapter><para><figure><screenshot>
-#: en/content/incident-problem.xml:17
-msgid ""
-"<graphic fileref=\"screenshots/process-schema.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/process-schema.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
-
-#. type: Content of: <chapter><para>
-#: en/content/incident-problem.xml:22
-msgid "Source: ILX Group (www.ilxgroup.com)"
-msgstr "来源：ILX Group (www.ilxgroup.com)"
-
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:26
+#: en/content/incident-problem.xml:15
 msgid "Ticket creation, classification and prioritization"
 msgstr "工单创建、分类和优先级"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:29
+#: en/content/incident-problem.xml:18
 msgid ""
 "At ticket creation -in our case a phone ticket- the following information "
 "can be registered in addition to the information implemented in OTRS:"
@@ -3076,32 +3057,32 @@ msgstr ""
 "在创建工单（我们的案例是一个电话工单）时下面的信息能作为OTRS的附加信息注册："
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/incident-problem.xml:34
+#: en/content/incident-problem.xml:23
 msgid "ticket type"
 msgstr "工单类型"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/incident-problem.xml:39
+#: en/content/incident-problem.xml:28
 msgid "relevant service"
 msgstr "相关服务"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/incident-problem.xml:44
+#: en/content/incident-problem.xml:33
 msgid "SLA"
 msgstr "SLA"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/incident-problem.xml:49
+#: en/content/incident-problem.xml:38
 msgid "impact"
 msgstr "影响"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/incident-problem.xml:54
+#: en/content/incident-problem.xml:43
 msgid "priority"
 msgstr "优先级"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:59
+#: en/content/incident-problem.xml:48
 msgid ""
 "Depending on the service selected, impact and priority are automatically "
 "submitted from the criticality impact priority matrix. However, every IT "
@@ -3111,19 +3092,19 @@ msgstr ""
 "每个IT服务人员都应知道“VIP”客户需要特别对待。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:62
+#: en/content/incident-problem.xml:51
 msgid ""
 "In order to meet this requirement of day-to-day Service Operations, we also "
 "allow you to manually adjust the priority of a request."
 msgstr "为了满足日常的服务运营需求，我们还允许你手动调整一个请求的优先级。"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:66
+#: en/content/incident-problem.xml:55
 msgid "agent-ticket-create"
 msgstr "服务人员-创建工单"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:68
+#: en/content/incident-problem.xml:57
 msgid ""
 "<graphic fileref=\"screenshots/agent-ticket-create.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3132,7 +3113,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:73
+#: en/content/incident-problem.xml:62
 msgid ""
 "By following the ticket content (zoom) link, detailed information about the "
 "ticket can be accessed. All data relevant for IT support is consolidated in "
@@ -3142,12 +3123,12 @@ msgstr ""
 "边："
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:77 en/content/incident-problem.xml:135
+#: en/content/incident-problem.xml:66 en/content/incident-problem.xml:124
 msgid "agent-ticket-data-change"
 msgstr "服务人员-工单-数据修改"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:79 en/content/incident-problem.xml:137
+#: en/content/incident-problem.xml:68 en/content/incident-problem.xml:126
 msgid ""
 "<graphic fileref=\"screenshots/agent-ticket-data-change.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3156,12 +3137,12 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:86
+#: en/content/incident-problem.xml:75
 msgid "SLA relevant time information"
 msgstr "SLA相关的时间信息"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:89
+#: en/content/incident-problem.xml:78
 msgid ""
 "With the additional ITSM fields link, time information additional to the "
 "response, update, and solution time provided in the SLA can be recorded and "
@@ -3171,12 +3152,12 @@ msgstr ""
 "间："
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:93
+#: en/content/incident-problem.xml:82
 msgid "agent-ticket-additional-field"
 msgstr "服务人员-工单-附加字段"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:95
+#: en/content/incident-problem.xml:84
 msgid ""
 "<graphic fileref=\"screenshots/agent-ticket-additional-field.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3185,12 +3166,12 @@ msgstr ""
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:102
+#: en/content/incident-problem.xml:91
 msgid "Allocate tickets (queues)"
 msgstr "分配工单（队列）"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:105
+#: en/content/incident-problem.xml:94
 msgid ""
 "Designed with flexibility in mind, the OTRS::ITSM queues can be tailored to "
 "your organizational structures. They can follow the vertical scheme of "
@@ -3203,7 +3184,7 @@ msgstr ""
 "命周期面向流程的方式-创建、处理、关闭和后处理。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:108
+#: en/content/incident-problem.xml:97
 msgid ""
 "Contrary to OTRS versions prior to version 2.2, ticket escalation in OTRS::"
 "ITSM is based first of all on the response, update and recovery times "
@@ -3214,19 +3195,19 @@ msgstr ""
 "更新时间和恢复时间。如果SLA未提供相关的时间，升级就基于队列及队列的时间。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:111
+#: en/content/incident-problem.xml:100
 msgid ""
 "Tickets can be moved by choosing a new queue in the bottom right corner of "
 "the ticket view."
 msgstr "在工单视图右下角可以将工单转移到一个新的队列。"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:114
+#: en/content/incident-problem.xml:103
 msgid "agent-ticket-queue"
 msgstr "服务人员-工单-队列"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:116
+#: en/content/incident-problem.xml:105
 msgid ""
 "<graphic fileref=\"screenshots/agent-ticket-queue.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3235,7 +3216,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><warning><para>
-#: en/content/incident-problem.xml:122
+#: en/content/incident-problem.xml:111
 msgid ""
 "The design of a queue structure is a task which should not be "
 "underestimated. Our experience shows that it is highly recommendable to "
@@ -3249,24 +3230,24 @@ msgstr ""
 "家已经被证明是有价值的。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:128
+#: en/content/incident-problem.xml:117
 msgid "Change ticket data"
 msgstr "修改工单数据"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:131
+#: en/content/incident-problem.xml:120
 msgid ""
 "All changes to the ticket can be effected just as in OTRS using the links "
 "below the navigation bar."
 msgstr "对工单的所有修改与OTRS一样，通过导航栏下方的链接菜单进行。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:144
+#: en/content/incident-problem.xml:133
 msgid "Approvals and decisions"
 msgstr "审批和决定"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:147
+#: en/content/incident-problem.xml:136
 msgid ""
 "In many cases, especially with service requests, decisions have to be taken "
 "before requests can be implemented. Depending on the competence framework, "
@@ -3281,19 +3262,19 @@ msgstr ""
 "的笔记本电脑）需要审批。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:150
+#: en/content/incident-problem.xml:139
 msgid ""
 "In OTRS::ITSM approvals and refusals are shown via the decision link and are "
 "permanently saved with the ticket:"
 msgstr "OTRS::ITSM中批准和拒绝都通过“决定”链接，并永久存储在工单中："
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:154
+#: en/content/incident-problem.xml:143
 msgid "agent-ticket-decision"
 msgstr "服务人员-工单-决定"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:156
+#: en/content/incident-problem.xml:145
 msgid ""
 "<graphic fileref=\"screenshots/agent-ticket-decision.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3302,12 +3283,12 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:163
+#: en/content/incident-problem.xml:152
 msgid "Generation of problem tickets from incidents"
 msgstr "从故障工单创建问题工单"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:166
+#: en/content/incident-problem.xml:155
 msgid ""
 "To generate a problem ticket from one or more incidents, generate a new "
 "ticket and link it with the relevant incident tickets. This way, the "
@@ -3319,7 +3300,7 @@ msgstr ""
 "后被永久解决方案所取代。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:169
+#: en/content/incident-problem.xml:158
 msgid ""
 "A merging of incident and problem tickets obscures the reporting and "
 "complicates controlling and the continuous improvement of the IT services."
@@ -3328,24 +3309,24 @@ msgstr ""
 "化。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:174
+#: en/content/incident-problem.xml:163
 msgid "Ticket closure"
 msgstr "工单关闭"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:177
+#: en/content/incident-problem.xml:166
 msgid ""
 "Unlike the OTRS standard, OTRS::ITSM facilitates ITIL compliant ticket "
 "closure with a workaround."
 msgstr "不像OTRS标准版，OTRS::ITSM使用权变措施来促进遵从ITIL的工单关闭。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/incident-problem.xml:182
+#: en/content/incident-problem.xml:171
 msgid "Processing of service requests"
 msgstr "服务请求的处理"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:185
+#: en/content/incident-problem.xml:174
 msgid ""
 "Within OTRS, service requests and incidents are both regarded as tickets and "
 "initially processed equally. They are distinguishable from disruptions "
@@ -3355,7 +3336,7 @@ msgstr ""
 "Incident::Service Request（故障::服务请求）的中断来区分，"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/incident-problem.xml:188
+#: en/content/incident-problem.xml:177
 msgid ""
 "Another difference, the SLA relevant times, is explained in greater detail "
 "in the service levels and service level agreements section."
@@ -3363,12 +3344,12 @@ msgstr ""
 "另外一个不同之处是SLA相关的时间，在服务级别和服务级别协议部分有更详细的解释。"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/incident-problem.xml:192
+#: en/content/incident-problem.xml:181
 msgid "agent-service-request"
 msgstr "服务人员-服务请求"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/incident-problem.xml:194
+#: en/content/incident-problem.xml:183
 msgid ""
 "<graphic fileref=\"screenshots/agent-service-request.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3423,18 +3404,18 @@ msgstr "实施变更管理模块需要下列软件："
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:44
-msgid "OTRS Framework, version 3.3.1 or higher"
-msgstr "OTRS框架3.3.1及以后版本"
+msgid "OTRS Framework, version 5.0.1 or higher"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:49
-msgid "ITSM &quot;GeneralCatalog&quot; package, version 3.3"
-msgstr "ITSM “GeneralCatalog通用目录”软件包，版本3.3"
+msgid "ITSM &quot;GeneralCatalog&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:54
-msgid "ITSM &quot;ITSMCore&quot; package, version 3.3"
-msgstr "ITSM “ITSMCore”软件包，版本3.3"
+msgid "ITSM &quot;ITSMCore&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:41
@@ -3450,23 +3431,23 @@ msgstr "下列软件包是推荐安装的，但从技术角度看并非完全必
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:67
-msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3"
-msgstr "ITSM “ITSMIncidentProblemManagement故障管理和问题管理”软件，版本3.3"
+msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:72
-msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3"
-msgstr "ITSM “ITSMServiceLevelManagement ITSM服务级别管理”软件包，版本3.3"
+msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:77
-msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3"
-msgstr "ITSM “ITSMConfigurationManagement配置管理”软件包，版本3.3"
+msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:82
-msgid "ITSM &quot;ImportExport&quot; package, version 3.3"
-msgstr "ITSM “ImportExport导入导出”软件包，版本3.3"
+msgid "ITSM &quot;ImportExport&quot; package, version 5.0"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/change-management.xml:91
@@ -3655,83 +3636,83 @@ msgid "To create a new Change, the following attributes must be entered."
 msgstr "要创建一个新的变更，必须输入下列属性："
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:241 en/content/change-management.xml:569
-#: en/content/change-management.xml:1141 en/content/change-management.xml:1592
-#: en/content/change-management.xml:1807 en/content/change-management.xml:1914
-#: en/content/change-management.xml:2145 en/content/change-management.xml:2432
-#: en/content/change-management.xml:2572 en/content/change-management.xml:2633
-#: en/content/change-management.xml:2901 en/content/change-management.xml:3116
-#: en/content/change-management.xml:3188 en/content/change-management.xml:3403
-#: en/content/change-management.xml:3476 en/content/change-management.xml:3746
+#: en/content/change-management.xml:241 en/content/change-management.xml:567
+#: en/content/change-management.xml:1139 en/content/change-management.xml:1588
+#: en/content/change-management.xml:1803 en/content/change-management.xml:1910
+#: en/content/change-management.xml:2141 en/content/change-management.xml:2428
+#: en/content/change-management.xml:2568 en/content/change-management.xml:2629
+#: en/content/change-management.xml:2897 en/content/change-management.xml:3112
+#: en/content/change-management.xml:3184 en/content/change-management.xml:3399
+#: en/content/change-management.xml:3472 en/content/change-management.xml:3742
 msgid "Attribute"
 msgstr "属性"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:244 en/content/change-management.xml:572
-#: en/content/change-management.xml:1144
+#: en/content/change-management.xml:244 en/content/change-management.xml:570
+#: en/content/change-management.xml:1142
 msgid "Required Field"
 msgstr "必填字段"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:247 en/content/change-management.xml:575
-#: en/content/change-management.xml:1147 en/content/change-management.xml:1598
-#: en/content/change-management.xml:1810 en/content/change-management.xml:1920
-#: en/content/change-management.xml:2151 en/content/change-management.xml:2438
-#: en/content/change-management.xml:2575 en/content/change-management.xml:2636
-#: en/content/change-management.xml:2907 en/content/change-management.xml:3119
-#: en/content/change-management.xml:3194 en/content/change-management.xml:3406
-#: en/content/change-management.xml:3482 en/content/change-management.xml:3749
+#: en/content/change-management.xml:247 en/content/change-management.xml:573
+#: en/content/change-management.xml:1145 en/content/change-management.xml:1594
+#: en/content/change-management.xml:1806 en/content/change-management.xml:1916
+#: en/content/change-management.xml:2147 en/content/change-management.xml:2434
+#: en/content/change-management.xml:2571 en/content/change-management.xml:2632
+#: en/content/change-management.xml:2903 en/content/change-management.xml:3115
+#: en/content/change-management.xml:3190 en/content/change-management.xml:3402
+#: en/content/change-management.xml:3478 en/content/change-management.xml:3745
 msgid "Details"
 msgstr "详情"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:254 en/content/change-management.xml:1154
+#: en/content/change-management.xml:254 en/content/change-management.xml:1152
 msgid "Title"
 msgstr "Title标题"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:257 en/content/change-management.xml:291
 #: en/content/change-management.xml:302 en/content/change-management.xml:314
-#: en/content/change-management.xml:326 en/content/change-management.xml:585
-#: en/content/change-management.xml:596 en/content/change-management.xml:1157
-#: en/content/change-management.xml:1179 en/content/change-management.xml:1191
-#: en/content/change-management.xml:1202 en/content/change-management.xml:1214
-#: en/content/change-management.xml:1226 en/content/change-management.xml:1641
-#: en/content/change-management.xml:1652 en/content/change-management.xml:1663
-#: en/content/change-management.xml:1674 en/content/change-management.xml:1685
-#: en/content/change-management.xml:1696 en/content/change-management.xml:1729
-#: en/content/change-management.xml:1740 en/content/change-management.xml:1751
-#: en/content/change-management.xml:1773 en/content/change-management.xml:1784
-#: en/content/change-management.xml:1963 en/content/change-management.xml:1974
-#: en/content/change-management.xml:1985 en/content/change-management.xml:1996
-#: en/content/change-management.xml:2007 en/content/change-management.xml:2018
-#: en/content/change-management.xml:2051 en/content/change-management.xml:2062
-#: en/content/change-management.xml:2073 en/content/change-management.xml:2095
-#: en/content/change-management.xml:2106 en/content/change-management.xml:2194
-#: en/content/change-management.xml:2205 en/content/change-management.xml:2249
-#: en/content/change-management.xml:2282 en/content/change-management.xml:2293
-#: en/content/change-management.xml:2304 en/content/change-management.xml:2326
-#: en/content/change-management.xml:2337 en/content/change-management.xml:2348
-#: en/content/change-management.xml:2359 en/content/change-management.xml:2381
-#: en/content/change-management.xml:2470 en/content/change-management.xml:2481
-#: en/content/change-management.xml:2492 en/content/change-management.xml:2503
-#: en/content/change-management.xml:2514 en/content/change-management.xml:2536
-#: en/content/change-management.xml:2547 en/content/change-management.xml:2950
-#: en/content/change-management.xml:2961 en/content/change-management.xml:2972
-#: en/content/change-management.xml:2983 en/content/change-management.xml:2994
-#: en/content/change-management.xml:3005 en/content/change-management.xml:3038
-#: en/content/change-management.xml:3049 en/content/change-management.xml:3060
-#: en/content/change-management.xml:3082 en/content/change-management.xml:3093
-#: en/content/change-management.xml:3237 en/content/change-management.xml:3248
-#: en/content/change-management.xml:3259 en/content/change-management.xml:3270
-#: en/content/change-management.xml:3281 en/content/change-management.xml:3292
-#: en/content/change-management.xml:3325 en/content/change-management.xml:3336
-#: en/content/change-management.xml:3347 en/content/change-management.xml:3369
-#: en/content/change-management.xml:3380 en/content/change-management.xml:3580
-#: en/content/change-management.xml:3613 en/content/change-management.xml:3624
-#: en/content/change-management.xml:3657 en/content/change-management.xml:3668
-#: en/content/change-management.xml:3679 en/content/change-management.xml:3690
-#: en/content/change-management.xml:3712
+#: en/content/change-management.xml:326 en/content/change-management.xml:583
+#: en/content/change-management.xml:594 en/content/change-management.xml:1155
+#: en/content/change-management.xml:1177 en/content/change-management.xml:1189
+#: en/content/change-management.xml:1200 en/content/change-management.xml:1212
+#: en/content/change-management.xml:1224 en/content/change-management.xml:1637
+#: en/content/change-management.xml:1648 en/content/change-management.xml:1659
+#: en/content/change-management.xml:1670 en/content/change-management.xml:1681
+#: en/content/change-management.xml:1692 en/content/change-management.xml:1725
+#: en/content/change-management.xml:1736 en/content/change-management.xml:1747
+#: en/content/change-management.xml:1769 en/content/change-management.xml:1780
+#: en/content/change-management.xml:1959 en/content/change-management.xml:1970
+#: en/content/change-management.xml:1981 en/content/change-management.xml:1992
+#: en/content/change-management.xml:2003 en/content/change-management.xml:2014
+#: en/content/change-management.xml:2047 en/content/change-management.xml:2058
+#: en/content/change-management.xml:2069 en/content/change-management.xml:2091
+#: en/content/change-management.xml:2102 en/content/change-management.xml:2190
+#: en/content/change-management.xml:2201 en/content/change-management.xml:2245
+#: en/content/change-management.xml:2278 en/content/change-management.xml:2289
+#: en/content/change-management.xml:2300 en/content/change-management.xml:2322
+#: en/content/change-management.xml:2333 en/content/change-management.xml:2344
+#: en/content/change-management.xml:2355 en/content/change-management.xml:2377
+#: en/content/change-management.xml:2466 en/content/change-management.xml:2477
+#: en/content/change-management.xml:2488 en/content/change-management.xml:2499
+#: en/content/change-management.xml:2510 en/content/change-management.xml:2532
+#: en/content/change-management.xml:2543 en/content/change-management.xml:2946
+#: en/content/change-management.xml:2957 en/content/change-management.xml:2968
+#: en/content/change-management.xml:2979 en/content/change-management.xml:2990
+#: en/content/change-management.xml:3001 en/content/change-management.xml:3034
+#: en/content/change-management.xml:3045 en/content/change-management.xml:3056
+#: en/content/change-management.xml:3078 en/content/change-management.xml:3089
+#: en/content/change-management.xml:3233 en/content/change-management.xml:3244
+#: en/content/change-management.xml:3255 en/content/change-management.xml:3266
+#: en/content/change-management.xml:3277 en/content/change-management.xml:3288
+#: en/content/change-management.xml:3321 en/content/change-management.xml:3332
+#: en/content/change-management.xml:3343 en/content/change-management.xml:3365
+#: en/content/change-management.xml:3376 en/content/change-management.xml:3576
+#: en/content/change-management.xml:3609 en/content/change-management.xml:3620
+#: en/content/change-management.xml:3653 en/content/change-management.xml:3664
+#: en/content/change-management.xml:3675 en/content/change-management.xml:3686
+#: en/content/change-management.xml:3708
 msgid "Yes"
 msgstr "是"
 
@@ -3748,34 +3729,34 @@ msgstr "描述"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:268 en/content/change-management.xml:279
 #: en/content/change-management.xml:342 en/content/change-management.xml:356
-#: en/content/change-management.xml:609 en/content/change-management.xml:1168
-#: en/content/change-management.xml:1242 en/content/change-management.xml:1256
-#: en/content/change-management.xml:1608 en/content/change-management.xml:1619
-#: en/content/change-management.xml:1630 en/content/change-management.xml:1707
-#: en/content/change-management.xml:1718 en/content/change-management.xml:1762
-#: en/content/change-management.xml:1930 en/content/change-management.xml:1941
-#: en/content/change-management.xml:1952 en/content/change-management.xml:2029
-#: en/content/change-management.xml:2040 en/content/change-management.xml:2084
-#: en/content/change-management.xml:2161 en/content/change-management.xml:2172
-#: en/content/change-management.xml:2183 en/content/change-management.xml:2216
-#: en/content/change-management.xml:2227 en/content/change-management.xml:2238
-#: en/content/change-management.xml:2260 en/content/change-management.xml:2271
-#: en/content/change-management.xml:2315 en/content/change-management.xml:2370
-#: en/content/change-management.xml:2392 en/content/change-management.xml:2448
-#: en/content/change-management.xml:2459 en/content/change-management.xml:2525
-#: en/content/change-management.xml:2917 en/content/change-management.xml:2928
-#: en/content/change-management.xml:2939 en/content/change-management.xml:3016
-#: en/content/change-management.xml:3027 en/content/change-management.xml:3071
-#: en/content/change-management.xml:3204 en/content/change-management.xml:3215
-#: en/content/change-management.xml:3226 en/content/change-management.xml:3303
-#: en/content/change-management.xml:3314 en/content/change-management.xml:3358
-#: en/content/change-management.xml:3492 en/content/change-management.xml:3503
-#: en/content/change-management.xml:3514 en/content/change-management.xml:3525
-#: en/content/change-management.xml:3536 en/content/change-management.xml:3547
-#: en/content/change-management.xml:3558 en/content/change-management.xml:3569
-#: en/content/change-management.xml:3591 en/content/change-management.xml:3602
-#: en/content/change-management.xml:3635 en/content/change-management.xml:3646
-#: en/content/change-management.xml:3701 en/content/change-management.xml:3723
+#: en/content/change-management.xml:607 en/content/change-management.xml:1166
+#: en/content/change-management.xml:1240 en/content/change-management.xml:1254
+#: en/content/change-management.xml:1604 en/content/change-management.xml:1615
+#: en/content/change-management.xml:1626 en/content/change-management.xml:1703
+#: en/content/change-management.xml:1714 en/content/change-management.xml:1758
+#: en/content/change-management.xml:1926 en/content/change-management.xml:1937
+#: en/content/change-management.xml:1948 en/content/change-management.xml:2025
+#: en/content/change-management.xml:2036 en/content/change-management.xml:2080
+#: en/content/change-management.xml:2157 en/content/change-management.xml:2168
+#: en/content/change-management.xml:2179 en/content/change-management.xml:2212
+#: en/content/change-management.xml:2223 en/content/change-management.xml:2234
+#: en/content/change-management.xml:2256 en/content/change-management.xml:2267
+#: en/content/change-management.xml:2311 en/content/change-management.xml:2366
+#: en/content/change-management.xml:2388 en/content/change-management.xml:2444
+#: en/content/change-management.xml:2455 en/content/change-management.xml:2521
+#: en/content/change-management.xml:2913 en/content/change-management.xml:2924
+#: en/content/change-management.xml:2935 en/content/change-management.xml:3012
+#: en/content/change-management.xml:3023 en/content/change-management.xml:3067
+#: en/content/change-management.xml:3200 en/content/change-management.xml:3211
+#: en/content/change-management.xml:3222 en/content/change-management.xml:3299
+#: en/content/change-management.xml:3310 en/content/change-management.xml:3354
+#: en/content/change-management.xml:3488 en/content/change-management.xml:3499
+#: en/content/change-management.xml:3510 en/content/change-management.xml:3521
+#: en/content/change-management.xml:3532 en/content/change-management.xml:3543
+#: en/content/change-management.xml:3554 en/content/change-management.xml:3565
+#: en/content/change-management.xml:3587 en/content/change-management.xml:3598
+#: en/content/change-management.xml:3631 en/content/change-management.xml:3642
+#: en/content/change-management.xml:3697 en/content/change-management.xml:3719
 msgid "No"
 msgstr "否"
 
@@ -3799,25 +3780,19 @@ msgstr ""
 "么？”"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:288 en/content/change-management.xml:754
-#: en/content/change-management.xml:1010 en/content/change-management.xml:1188
-#: en/content/change-management.xml:1627 en/content/change-management.xml:1949
-#: en/content/change-management.xml:2180 en/content/change-management.xml:2936
-#: en/content/change-management.xml:3223 en/content/change-management.xml:3511
+#: en/content/change-management.xml:288 en/content/change-management.xml:752
+#: en/content/change-management.xml:1008 en/content/change-management.xml:1186
 msgid "Category"
 msgstr "类别"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:294 en/content/change-management.xml:1194
+#: en/content/change-management.xml:294 en/content/change-management.xml:1192
 msgid "Defines the type of Change, e.g &quot;3 normal&quot;, etc."
 msgstr "定义变更的类型，例如：“3-正常”。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:299 en/content/change-management.xml:763
-#: en/content/change-management.xml:1013 en/content/change-management.xml:1199
-#: en/content/change-management.xml:1715 en/content/change-management.xml:2037
-#: en/content/change-management.xml:2268 en/content/change-management.xml:3024
-#: en/content/change-management.xml:3311 en/content/change-management.xml:3599
+#: en/content/change-management.xml:299 en/content/change-management.xml:761
+#: en/content/change-management.xml:1011 en/content/change-management.xml:1197
 msgid "Impact"
 msgstr "影响"
 
@@ -3829,23 +3804,20 @@ msgid ""
 msgstr "定义这个变更可能的效果或影响，例如“4-高”。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:311 en/content/change-management.xml:766
-#: en/content/change-management.xml:1016 en/content/change-management.xml:1211
-#: en/content/change-management.xml:1748 en/content/change-management.xml:2070
-#: en/content/change-management.xml:2301 en/content/change-management.xml:3057
-#: en/content/change-management.xml:3344 en/content/change-management.xml:3632
+#: en/content/change-management.xml:311 en/content/change-management.xml:764
+#: en/content/change-management.xml:1014 en/content/change-management.xml:1209
 msgid "Priority"
 msgstr "优先级"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:317 en/content/change-management.xml:1217
+#: en/content/change-management.xml:317 en/content/change-management.xml:1215
 msgid ""
 "Defines the priority of the Change, e.g. &quot;5 very high&quot;, &quot;3 "
 "normal&quot;, etc."
 msgstr "定义这个变更的优先级，例如“5-非常高”。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:323 en/content/change-management.xml:1223
+#: en/content/change-management.xml:323 en/content/change-management.xml:1221
 msgid "State"
 msgstr "状态"
 
@@ -3862,13 +3834,13 @@ msgstr ""
 "<xref linkend=\"change_state_machine\" />。 "
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:339 en/content/change-management.xml:1239
-#: en/content/change-management.xml:2790
+#: en/content/change-management.xml:339 en/content/change-management.xml:1237
+#: en/content/change-management.xml:2786
 msgid "Requested (by customer) Date"
 msgstr "客户请求日期"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:345 en/content/change-management.xml:1245
+#: en/content/change-management.xml:345 en/content/change-management.xml:1243
 msgid ""
 "If required, this attribute can be deactivated via SysConfig for the &apos;"
 "ChangeEdit&apos;, &apos;ChangeAdd&apos; and &apos;ChangeZoom&apos; "
@@ -3879,12 +3851,12 @@ msgstr ""
 "期。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:353 en/content/change-management.xml:1253
+#: en/content/change-management.xml:353 en/content/change-management.xml:1251
 msgid "Attachment"
 msgstr "附件"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:359 en/content/change-management.xml:1259
+#: en/content/change-management.xml:359 en/content/change-management.xml:1257
 msgid "Enables related files and documents to be attached"
 msgstr "允许附加相关的文件和文档。"
 
@@ -3906,20 +3878,13 @@ msgstr ""
 "先级（基于选择的类别和输入的变更影响）。这个建议的优先级可由变更创建人随时覆"
 "盖。"
 
-#. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:378
-msgid ""
-"The category, impact and priority values given upon installation can be "
-"customized in the General Catalog by the administrator."
-msgstr "安装过程默认的类别、影响和优先级的值可由系统管理员在通用目录中定制。"
-
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:383
+#: en/content/change-management.xml:379
 msgid "change-matrix"
 msgstr "变更矩阵"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:385
+#: en/content/change-management.xml:381
 msgid ""
 "<graphic fileref=\"screenshots/change-matrix.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3928,85 +3893,87 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:390
+#: en/content/change-management.xml:386
 msgid ""
-"Here, the menu item &quot;General Catalog&quot; should be selected in the "
-"OTRS::ITSM Administration interface."
-msgstr "这里应该在OTRS::ITSM系统管理界面选择菜单项“通用目录”。"
+"The category, impact and priority values given upon installation can be "
+"customized in the General Catalog by the administrator. To do this, the menu "
+"item &quot;General Catalog&quot; should be selected in the OTRS::ITSM "
+"Administration interface."
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/content/change-management.xml:395
+#: en/content/change-management.xml:393
 msgid "ITSM::Change Management::Category"
 msgstr "ITSM::变更管理::类别"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:398
+#: en/content/change-management.xml:396
 msgid ""
 "Upon installation, OTRS::ITSM Change Management generates the following "
 "values for the Category selection field:"
 msgstr "安装完成后，OTRS::ITSM变更管理生成选择字段“类别”的下列值："
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/content/change-management.xml:404 en/content/change-management.xml:440
-#: en/content/change-management.xml:476
+#: en/content/change-management.xml:402 en/content/change-management.xml:438
+#: en/content/change-management.xml:474
 msgid "1 very low"
 msgstr "1-非常低"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/content/change-management.xml:409 en/content/change-management.xml:445
-#: en/content/change-management.xml:481
+#: en/content/change-management.xml:407 en/content/change-management.xml:443
+#: en/content/change-management.xml:479
 msgid "2 low"
 msgstr "2-低"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/content/change-management.xml:414 en/content/change-management.xml:450
-#: en/content/change-management.xml:486
+#: en/content/change-management.xml:412 en/content/change-management.xml:448
+#: en/content/change-management.xml:484
 msgid "3 normal"
 msgstr "3-正常"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/content/change-management.xml:419 en/content/change-management.xml:455
-#: en/content/change-management.xml:491
+#: en/content/change-management.xml:417 en/content/change-management.xml:453
+#: en/content/change-management.xml:489
 msgid "4 high"
 msgstr "4-高"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/content/change-management.xml:424 en/content/change-management.xml:460
-#: en/content/change-management.xml:496
+#: en/content/change-management.xml:422 en/content/change-management.xml:458
+#: en/content/change-management.xml:494
 msgid "5 very high"
 msgstr "5-非常高"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/content/change-management.xml:431
+#: en/content/change-management.xml:429
 msgid "ITSM::Change Management::Impact"
 msgstr "ITSM::变更管理::影响"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:434
+#: en/content/change-management.xml:432
 msgid ""
 "Upon installation, OTRS::ITSM Change Management generates the following "
 "values for the Impact selection field:"
 msgstr "安装完成后，OTRS::ITSM变更管理生成下拉选择字段“影响”的下列值："
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/content/change-management.xml:467
+#: en/content/change-management.xml:465
 msgid "ITSM::Change Management::Priority"
 msgstr "ITSM::变更管理::优先级"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:470
+#: en/content/change-management.xml:468
 msgid ""
 "Upon installation, OTRS::ITSM Change Management generates the following "
 "values for the Priority selection field:"
 msgstr "安装完成后，OTRS::ITSM变更管理生成选择字段“优先级”的下列值："
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:504
+#: en/content/change-management.xml:502
 msgid "Change State Machine"
 msgstr "变更状态模式转换"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:507
+#: en/content/change-management.xml:505
 msgid ""
 "OTRS::ITSM features a State Machine which defines valid statuses and "
 "possible result statuses for a Change. The standard installation generates "
@@ -4016,12 +3983,12 @@ msgstr ""
 "准安装基于下列的逻辑模型生成建议的状态模式转换："
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:513
+#: en/content/change-management.xml:511
 msgid "change-state-machine"
 msgstr "变更状态模式转换"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:515
+#: en/content/change-management.xml:513
 msgid ""
 "<graphic fileref=\"screenshots/change-state-machine.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4030,32 +3997,21 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:520 en/content/change-management.xml:1331
+#: en/content/change-management.xml:518 en/content/change-management.xml:1329
 msgid ""
 "Adjustments to the State Machine can be made by the system administrator in "
 "the administration front end, under menu option &quot;State Machine&quot;. "
-"The statuses and possible result statuses should be defined here."
+"The statuses and possible result statuses should be defined here. In OTRS::"
+"ITSM, this is illustrated as a table:"
 msgstr ""
-"系统管理员可从系统管理前端界面菜单选项“状态模式转换”调整这个状态模式转换。可"
-"在这里定义状态和可能的结果状态"
-
-#. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:525
-msgid ""
-"Where necessary, additional statuses can be defined under the menu option "
-"&quot;General Catalog&quot; -&gt; &quot;ITSM::Change Management::Change::"
-"State&quot;. In OTRS::ITSM, this is illustrated as a table:"
-msgstr ""
-"必要的时候，可通过菜单选项“通用目录”->“ITSM::变更管理::变更::状态”定义额外的"
-"状态。在OTRS::ITSM中通过一个表来描述变更状态定义："
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:532
+#: en/content/change-management.xml:525
 msgid "change-state-transition"
 msgstr "变更-状态转换"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:534
+#: en/content/change-management.xml:527
 msgid ""
 "<graphic fileref=\"screenshots/change-state-transition.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4063,25 +4019,33 @@ msgstr ""
 "<graphic fileref=\"screenshots/change-state-transition.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
+#. type: Content of: <chapter><sect1><sect2><para>
+#: en/content/change-management.xml:532
+msgid ""
+"Where necessary, additional statuses can be defined under the menu option "
+"&quot;General Catalog&quot; -&gt; &quot;ITSM::Change Management::Change::"
+"State&quot;."
+msgstr ""
+
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:541
+#: en/content/change-management.xml:539
 msgid "Defining Participant Roles / Persons Related to a Change"
 msgstr "定义参与者角色 / 变更人员"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:544
+#: en/content/change-management.xml:542
 msgid ""
 "After entering the basic data of the Change, the persons participating in "
 "implementation can be defined in the Involved Persons feature."
 msgstr "在输入变更的基本数据后，实施变更的参与人员可在相关人员功能中定义。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:549
+#: en/content/change-management.xml:547
 msgid "change-involved-persons"
 msgstr "变更相关人员"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:551
+#: en/content/change-management.xml:549
 msgid ""
 "<graphic fileref=\"screenshots/change-involved-persons.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4090,7 +4054,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:556
+#: en/content/change-management.xml:554
 msgid ""
 "Here, the system offers convenient access to all connected client backends "
 "and agent backends, such as SQL databases or LDAP directory services. If "
@@ -4100,28 +4064,28 @@ msgstr ""
 "捷访问。CAB可通过已有的CAB模板快速定义。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:563
+#: en/content/change-management.xml:561
 msgid "Involved Persons"
 msgstr "相关人员"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:582 en/content/change-management.xml:2750
-#: en/content/change-management.xml:2871 en/content/change-management.xml:2895
+#: en/content/change-management.xml:580 en/content/change-management.xml:2746
+#: en/content/change-management.xml:2867 en/content/change-management.xml:2891
 msgid "Change Manager"
 msgstr "变更经理"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:588
+#: en/content/change-management.xml:586
 msgid "Assigns Change Manager privileges to an agent, for the current Change."
 msgstr "给一个服务人员分配当前变更的变更经理权限。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:593 en/content/change-management.xml:2758
+#: en/content/change-management.xml:591 en/content/change-management.xml:2754
 msgid "Change Builder"
 msgstr "变更创建人"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:599
+#: en/content/change-management.xml:597
 msgid ""
 "Defines the agent who processes and defines the current Change. When "
 "creating a new Change, the current agent is automatically entered as the "
@@ -4131,22 +4095,22 @@ msgstr ""
 "变更创建人。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:606
+#: en/content/change-management.xml:604
 msgid "Change Advisory Board"
 msgstr "变更咨询委员会"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:612
+#: en/content/change-management.xml:610
 msgid "Defines a group of people which can include agents and customers."
 msgstr "定义一组包括服务人员和客户联系人的人员。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:621
+#: en/content/change-management.xml:619
 msgid "Linking a Change with a Request for Change"
 msgstr "将变更链接到变更请求"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:624
+#: en/content/change-management.xml:622
 msgid ""
 "Through the OTRS Framework&apos;s renowned linking mechanism, the system "
 "allows a change to be linked to a ticket. In this way, the origin of a "
@@ -4156,12 +4120,12 @@ msgstr ""
 "更请求或问题就很容易识别出来。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:631
+#: en/content/change-management.xml:629
 msgid "change-rfc-relation"
 msgstr "变更与RFC的关系"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:633
+#: en/content/change-management.xml:631
 msgid ""
 "<graphic fileref=\"screenshots/change-rfc-relation.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4170,7 +4134,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:638
+#: en/content/change-management.xml:636
 msgid ""
 "Furthermore, it is possible to open the corresponding Change directly from a "
 "ticket within the Incident or Problem Management process i.e., the ticket "
@@ -4187,14 +4151,14 @@ msgstr ""
 "下的系统配置选项："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/change-management.xml:650
+#: en/content/change-management.xml:648
 msgid ""
 "Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module"
 msgstr ""
 "Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/change-management.xml:656
+#: en/content/change-management.xml:654
 msgid ""
 "ITSM Change Management -&gt; Core::ITSMChange - ITSMChange::"
 "AddChangeLinkTicketTypes"
@@ -4203,7 +4167,7 @@ msgstr ""
 "AddChangeLinkTicketTypes"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/change-management.xml:662
+#: en/content/change-management.xml:660
 msgid ""
 "ITSM Change Management -&gt; Core::ITSMChange - ITSMChange::"
 "RestrictTicketTypes::Groups"
@@ -4212,12 +4176,12 @@ msgstr ""
 "RestrictTicketTypes::Groups"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:671
+#: en/content/change-management.xml:669
 msgid "Defining Conditions"
 msgstr "定义条件"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:674
+#: en/content/change-management.xml:672
 msgid ""
 "OTRS::ITSM allows conditions and actions to be defined based on the "
 "attributes of a Change and/or Work Order. Through the administration front-"
@@ -4227,7 +4191,7 @@ msgstr ""
 "变更创建人激活/去激活这些属性。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:680
+#: en/content/change-management.xml:678
 msgid ""
 "Workflows can be defined here. For example, a workflow to set the entire "
 "Change to &quot;canceled&quot; or request review / approval clearance when a "
@@ -4237,12 +4201,12 @@ msgstr ""
 "审核/批准清除”的工作流程。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:686
+#: en/content/change-management.xml:684
 msgid "change-conditions"
 msgstr "变更-条件"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:688
+#: en/content/change-management.xml:686
 msgid ""
 "<graphic fileref=\"screenshots/change-conditions.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4251,7 +4215,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:693
+#: en/content/change-management.xml:691
 msgid ""
 "It should be noted that the defined conditions are not executed in a certain "
 "order; rather, actions are processed in the order they were set."
@@ -4259,185 +4223,168 @@ msgstr ""
 "需要注意的是，不是按按照某个顺序执行条件，而是按条件设置的顺序处理操作。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><title>
-#: en/content/change-management.xml:699 en/content/change-management.xml:707
+#: en/content/change-management.xml:697 en/content/change-management.xml:705
 msgid "Conditions available at the Change level"
 msgstr "变更级别可用的条件"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:702
+#: en/content/change-management.xml:700
 msgid ""
 "The following attributes can be used to define Conditions at the Change "
 "level."
 msgstr "在变更级别，可用下面的属性来定义条件。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:713 en/content/change-management.xml:999
+#: en/content/change-management.xml:711 en/content/change-management.xml:997
 msgid "Change Attribute"
 msgstr "变更属性"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:716 en/content/change-management.xml:855
+#: en/content/change-management.xml:714 en/content/change-management.xml:853
 msgid "Logical Operator"
 msgstr "逻辑操作符"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:724 en/content/change-management.xml:863
+#: en/content/change-management.xml:722 en/content/change-management.xml:861
 msgid "AccountedTime"
 msgstr "占用时间"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:727 en/content/change-management.xml:866
+#: en/content/change-management.xml:725 en/content/change-management.xml:864
 msgid "PlannedEffort"
 msgstr "计划工作量"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:732 en/content/change-management.xml:771
-#: en/content/change-management.xml:786 en/content/change-management.xml:819
-#: en/content/change-management.xml:871 en/content/change-management.xml:898
-#: en/content/change-management.xml:925 en/content/change-management.xml:952
+#: en/content/change-management.xml:730 en/content/change-management.xml:769
+#: en/content/change-management.xml:784 en/content/change-management.xml:817
+#: en/content/change-management.xml:869 en/content/change-management.xml:896
+#: en/content/change-management.xml:923 en/content/change-management.xml:950
 msgid "is"
 msgstr "是"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:735 en/content/change-management.xml:774
-#: en/content/change-management.xml:789 en/content/change-management.xml:822
-#: en/content/change-management.xml:874 en/content/change-management.xml:901
-#: en/content/change-management.xml:928 en/content/change-management.xml:955
+#: en/content/change-management.xml:733 en/content/change-management.xml:772
+#: en/content/change-management.xml:787 en/content/change-management.xml:820
+#: en/content/change-management.xml:872 en/content/change-management.xml:899
+#: en/content/change-management.xml:926 en/content/change-management.xml:953
 msgid "is not"
 msgstr "不是"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:738 en/content/change-management.xml:792
-#: en/content/change-management.xml:825 en/content/change-management.xml:877
-#: en/content/change-management.xml:958
+#: en/content/change-management.xml:736 en/content/change-management.xml:790
+#: en/content/change-management.xml:823 en/content/change-management.xml:875
+#: en/content/change-management.xml:956
 msgid "is empty"
 msgstr "为空"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:741 en/content/change-management.xml:795
-#: en/content/change-management.xml:828 en/content/change-management.xml:880
-#: en/content/change-management.xml:961
+#: en/content/change-management.xml:739 en/content/change-management.xml:793
+#: en/content/change-management.xml:826 en/content/change-management.xml:878
+#: en/content/change-management.xml:959
 msgid "is not empty"
 msgstr "不为空"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:744 en/content/change-management.xml:883
-#: en/content/change-management.xml:904
+#: en/content/change-management.xml:742 en/content/change-management.xml:881
+#: en/content/change-management.xml:902
 msgid "is greater than"
 msgstr "大于"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:747 en/content/change-management.xml:886
-#: en/content/change-management.xml:907
+#: en/content/change-management.xml:745 en/content/change-management.xml:884
+#: en/content/change-management.xml:905
 msgid "is less than"
 msgstr "小于"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:757 en/content/change-management.xml:1638
-#: en/content/change-management.xml:1960 en/content/change-management.xml:2191
-#: en/content/change-management.xml:2947 en/content/change-management.xml:3234
-#: en/content/change-management.xml:3522
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:755
 msgid "ChangeBuilder"
 msgstr "变更创建人"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:760 en/content/change-management.xml:1028
-#: en/content/change-management.xml:1671 en/content/change-management.xml:1993
-#: en/content/change-management.xml:2224 en/content/change-management.xml:2980
-#: en/content/change-management.xml:3267 en/content/change-management.xml:3555
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:758 en/content/change-management.xml:1026
 msgid "ChangeState"
 msgstr "变更状态"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:781 en/content/change-management.xml:1649
-#: en/content/change-management.xml:1971 en/content/change-management.xml:2202
-#: en/content/change-management.xml:2958 en/content/change-management.xml:3245
-#: en/content/change-management.xml:3533
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:779
 msgid "ChangeManager"
 msgstr "变更经理"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:802 en/content/change-management.xml:1693
-#: en/content/change-management.xml:2015 en/content/change-management.xml:2246
-#: en/content/change-management.xml:2652 en/content/change-management.xml:3002
-#: en/content/change-management.xml:3289 en/content/change-management.xml:3577
+#: en/content/change-management.xml:800 en/content/change-management.xml:2648
 msgid "ChangeTitle"
 msgstr "变更标题"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:807 en/content/change-management.xml:940
+#: en/content/change-management.xml:805 en/content/change-management.xml:938
 msgid "begins with"
 msgstr "以...开始"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:810 en/content/change-management.xml:943
+#: en/content/change-management.xml:808 en/content/change-management.xml:941
 msgid "ends with"
 msgstr "以...结束"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:813 en/content/change-management.xml:946
+#: en/content/change-management.xml:811 en/content/change-management.xml:944
 msgid "contains"
 msgstr "包含"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:816 en/content/change-management.xml:949
+#: en/content/change-management.xml:814 en/content/change-management.xml:947
 msgid "does not contain"
 msgstr "不包含"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><title>
-#: en/content/change-management.xml:838 en/content/change-management.xml:846
+#: en/content/change-management.xml:836 en/content/change-management.xml:844
 msgid "Conditions available at the Work Order level"
 msgstr "工作指令级别可用的条件"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:841
+#: en/content/change-management.xml:839
 msgid ""
 "The following attributes can be used to define conditions at the Work Order "
 "level."
 msgstr "在工作指令级别，可用下面的属性来定义条件。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:852 en/content/change-management.xml:1064
+#: en/content/change-management.xml:850 en/content/change-management.xml:1062
 msgid "Work Order Attribute"
 msgstr "工作指令属性"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:893 en/content/change-management.xml:2345
-#: en/content/change-management.xml:3676
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:891
 msgid "WorkOrderNumber"
 msgstr "工作指令编号"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:914 en/content/change-management.xml:1075
-#: en/content/change-management.xml:2356 en/content/change-management.xml:3687
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:912 en/content/change-management.xml:1073
 msgid "WorkOrderState"
 msgstr "工作指令状态"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:917 en/content/change-management.xml:2389
-#: en/content/change-management.xml:3720
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:915
 msgid "WorkOrderType"
 msgstr "工作指令类型"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:920 en/content/change-management.xml:2334
-#: en/content/change-management.xml:3665
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:918
 msgid "WorkOrderAgent"
 msgstr "工作指令服务人员"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:935 en/content/change-management.xml:2378
-#: en/content/change-management.xml:3709
+#. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
+#: en/content/change-management.xml:933
 msgid "WorkOrderTitle"
 msgstr "工作指令标题"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:972
+#: en/content/change-management.xml:970
 msgid "Defining Actions"
 msgstr "定义操作"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:975
+#: en/content/change-management.xml:973
 msgid ""
 "After the conditions have been established, OTRS::ITSM allows you to define "
 "any number of actions to be executed on the current Change or all / one of "
@@ -4446,12 +4393,12 @@ msgstr ""
 "建立条件后，OTRS::ITSM允许为当前变更或所有/一个工作指令定义任意数量的操作。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><title>
-#: en/content/change-management.xml:981 en/content/change-management.xml:993
+#: en/content/change-management.xml:979 en/content/change-management.xml:991
 msgid "Actions available at the Change level"
 msgstr "变更级别可用的操作"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:984
+#: en/content/change-management.xml:982
 msgid ""
 "The following actions can be performed for Change objects. The operator "
 "&quot;set&quot; enables the selected attribute to be set at a specific "
@@ -4464,28 +4411,28 @@ msgstr ""
 "行手动变更。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:1002 en/content/change-management.xml:1067
+#: en/content/change-management.xml:1000 en/content/change-management.xml:1065
 msgid "Action"
 msgstr "操作"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:1021 en/content/change-management.xml:1033
-#: en/content/change-management.xml:1080
+#: en/content/change-management.xml:1019 en/content/change-management.xml:1031
+#: en/content/change-management.xml:1078
 msgid "set"
 msgstr "设置"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry><para>
-#: en/content/change-management.xml:1036 en/content/change-management.xml:1083
+#: en/content/change-management.xml:1034 en/content/change-management.xml:1081
 msgid "lock"
 msgstr "锁定"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/content/change-management.xml:1046
+#: en/content/change-management.xml:1044
 msgid "Actions Available at the Work Order Level"
 msgstr "工作指令级别可用的操作"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/content/change-management.xml:1049
+#: en/content/change-management.xml:1047
 msgid ""
 "The following actions can be performed for Work Order objects. The operator "
 "&quot;set&quot; enables the selected attribute to be set at a specific "
@@ -4498,17 +4445,17 @@ msgstr ""
 "能进行手动变更。"
 
 #. type: Content of: <chapter><sect1><sect2><sect3><table><title>
-#: en/content/change-management.xml:1058
+#: en/content/change-management.xml:1056
 msgid "Actions available at the Work Order level"
 msgstr "工作指令级别可用的操作"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1094
+#: en/content/change-management.xml:1092
 msgid "Rescheduling (Postponing) the Start / End Time of a Change"
 msgstr "重新安排（推迟）一个变更的开始/结束时间"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1097
+#: en/content/change-management.xml:1095
 msgid ""
 "In practice, the planned start or end time of a Change may need to be "
 "revised. The system allows the Change Builder to do this with the &quot;Move "
@@ -4518,19 +4465,19 @@ msgstr ""
 "间轴”功能来实现此目的。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1102
+#: en/content/change-management.xml:1100
 msgid ""
 "Through selector fields, the Change Builder has the ability to shift the "
 "planned Change implementation timeframe."
 msgstr "通过选择字段，变更创建人可以移动变更实施时间表。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1107
+#: en/content/change-management.xml:1105
 msgid "change-move-timeslot"
 msgstr "变更-移动时间轴"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1109
+#: en/content/change-management.xml:1107
 msgid ""
 "<graphic fileref=\"screenshots/change-move-timeslot.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4539,12 +4486,12 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/change-management.xml:1117
+#: en/content/change-management.xml:1115
 msgid "Creating a Work Order"
 msgstr "创建一条工作指令"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1120
+#: en/content/change-management.xml:1118
 msgid ""
 "Within a Change, the system offers a &quot;Add Work Order&quot; feature "
 "which enables any number of sub-tasks (Work Orders) related to a selected "
@@ -4554,12 +4501,12 @@ msgstr ""
 "的子任务（即工作指令）。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:1126 en/content/change-management.xml:1135
+#: en/content/change-management.xml:1124 en/content/change-management.xml:1133
 msgid "Attributes of a Work Order"
 msgstr "工作指令的属性"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1129
+#: en/content/change-management.xml:1127
 msgid ""
 "Once a Change is created, it effectively serves as a container for the "
 "definition of sub-tasks, i.e. Work Orders, and these Work Orders can now be "
@@ -4569,40 +4516,40 @@ msgstr ""
 "由变更创建人来定义这些工作指令。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1160
+#: en/content/change-management.xml:1158
 msgid "Short description / name of Work Order."
 msgstr "简短描述 / 工作指令名称"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1165
+#: en/content/change-management.xml:1163
 msgid "Instruction"
 msgstr "用法说明"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1171
+#: en/content/change-management.xml:1169
 msgid "Longer text description of the Work Order."
 msgstr "工作指令的详细文本描述"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1176 en/content/change-management.xml:1274
+#: en/content/change-management.xml:1174 en/content/change-management.xml:1272
 msgid "Work Order Type"
 msgstr "工作指令类型"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1182
+#: en/content/change-management.xml:1180
 msgid ""
 "Selection list to define the type of Work Order, e.g. approval, work order, "
 "PIR, etc."
 msgstr "定义工作指令类型的选择列表，如审批、工作指令、PIR（实施后审查）等等。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1205
+#: en/content/change-management.xml:1203
 msgid ""
 "Defines the effects or impact of the Change, e.g. &quot;4 high&quot;, etc."
 msgstr "定义变更的效果或影响，如“4-高”。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1229
+#: en/content/change-management.xml:1227
 msgid ""
 "When creating a new Change, the status is automatically set.  When modifying "
 "an existing Change the Change Builder and Change Manager can manually set "
@@ -4614,7 +4561,7 @@ msgstr ""
 "<xref linkend=\"change_state_machine\" />。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1266
+#: en/content/change-management.xml:1264
 msgid ""
 "In addition to these attributes, the assigned Work Order agent can collect "
 "attributes through the &quot;Report&quot; feature, which is explained in "
@@ -4624,7 +4571,7 @@ msgstr ""
 "释请参阅“工作指令服务人员报告”章节。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1277
+#: en/content/change-management.xml:1275
 msgid ""
 "The following entries for the &quot;Work Order Type&quot; attribute are "
 "available in the standard installation of OTRS::ITSM Change Management:"
@@ -4632,44 +4579,44 @@ msgstr ""
 "下面的“工作指令类型”属性条目是在OTRS::ITSM变更模块标准安装之后就可用的。"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1284
+#: en/content/change-management.xml:1282
 msgid "Approval"
 msgstr "审批"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1289
+#: en/content/change-management.xml:1287
 msgid "Work Order"
 msgstr "工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1294
+#: en/content/change-management.xml:1292
 msgid "Backout"
 msgstr "撤销"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1299
+#: en/content/change-management.xml:1297
 msgid "Decision"
 msgstr "决定"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1304
+#: en/content/change-management.xml:1302
 msgid "PIR (Post Implementation Review)"
 msgstr "PIR (实施后审查)"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1309
+#: en/content/change-management.xml:1307
 msgid ""
 "The administrator can freely define and specify Work Order types, as well as "
 "add new types."
 msgstr "系统管理员可以自由定义和指定工作指令类型，还可以添加新的类型。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1315
+#: en/content/change-management.xml:1313
 msgid "Work Order State Machine"
 msgstr "工作指令状态模式转换"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1318
+#: en/content/change-management.xml:1316
 msgid ""
 "OTRS::ITSM features a State Machine which defines valid statuses and "
 "possible result statuses for a Work Order. The standard installation "
@@ -4679,12 +4626,12 @@ msgstr ""
 "基于下面的逻辑模型生成的建议的状态模式转换："
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1324
+#: en/content/change-management.xml:1322
 msgid "change-workorder-state-machine"
 msgstr "变更-工作指令-状态模式转换"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1326
+#: en/content/change-management.xml:1324
 msgid ""
 "<graphic fileref=\"screenshots/change-workorder-state-machine.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4692,8 +4639,22 @@ msgstr ""
 "<graphic fileref=\"screenshots/change-workorder-state-machine.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
-#. type: Content of: <chapter><sect1><sect2><para>
+#. type: Content of: <chapter><sect1><sect2><para><figure><title>
 #: en/content/change-management.xml:1336
+msgid "change-workorder-state-transition"
+msgstr "变更-工作指令-状态模式转换"
+
+#. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
+#: en/content/change-management.xml:1338
+msgid ""
+"<graphic fileref=\"screenshots/change-workorder-state-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/change-workorder-state-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <chapter><sect1><sect2><para>
+#: en/content/change-management.xml:1343
 msgid ""
 "Where necessary, additional statuses can be defined under the menu option "
 "&quot;General Catalog&quot; -&gt; &quot;ITSM::ChangeManagement::WorkOrder::"
@@ -4702,32 +4663,13 @@ msgstr ""
 "必要的时候，可通过菜单选项“通用目录”-&gt;“ITSM::ChangeManagement::WorkOrder::"
 "State”定义附加的状态。"
 
-#. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1341
-msgid "In OTRS::ITSM, this is illustrated as a table:"
-msgstr "在OTRS::ITSM，用一个表格来描述："
-
-#. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1345
-msgid "change-workorder-state-transition"
-msgstr "变更-工作指令-状态模式转换"
-
-#. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1347
-msgid ""
-"<graphic fileref=\"screenshots/change-workorder-state-transition.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/change-workorder-state-transition.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1354
+#: en/content/change-management.xml:1350
 msgid "Defining the Work Order Agent"
 msgstr "定义工作指令的服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1357
+#: en/content/change-management.xml:1353
 msgid ""
 "Each Work Order can be assigned to a &quot;Work Order agent&quot;, i.e. a "
 "person responsible for the execution of the Work Order."
@@ -4735,7 +4677,7 @@ msgstr ""
 "每个工作指令可以分配给一个“工作指令服务人员”，如负责执行这个工作指令的人员。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1361
+#: en/content/change-management.xml:1357
 msgid ""
 "The system offers access to all connected agent back-ends here. It is "
 "important to note that only agents who have full access rights to the user "
@@ -4745,12 +4687,12 @@ msgstr ""
 "变更管理”组权限的成员才会显示出来。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1367
+#: en/content/change-management.xml:1363
 msgid "change-workorder-agent"
 msgstr "变更-工作指令服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1369
+#: en/content/change-management.xml:1365
 msgid ""
 "<graphic fileref=\"screenshots/change-workorder-agent.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4759,12 +4701,12 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1376
+#: en/content/change-management.xml:1372
 msgid "Work Order Agent Report"
 msgstr "工作指令服务人员报告"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1379
+#: en/content/change-management.xml:1375
 msgid ""
 "The assigned Work Order agent can document related information such as "
 "comments, the actual Work Order start and end times, required processing "
@@ -4774,12 +4716,12 @@ msgstr ""
 "的处理时间和状态整理成文档提交。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1385
+#: en/content/change-management.xml:1381
 msgid "change-workorder-agent-report"
 msgstr "变更-工作指令-服务人员报告"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1387
+#: en/content/change-management.xml:1383
 msgid ""
 "<graphic fileref=\"screenshots/change-workorder-agent-report.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4788,67 +4730,64 @@ msgstr ""
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1394
+#: en/content/change-management.xml:1390
 msgid "Linking Work Orders to Configuration Items / Services"
 msgstr "链接工作指令到配置项/服务"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1397
+#: en/content/change-management.xml:1393
 msgid "Within a Work Order, OTRS::ITSM allows linking to other objects."
 msgstr " OTRS::ITSM允许在一个工作指令中链接到另外的对象。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1400
+#: en/content/change-management.xml:1396
 msgid ""
 "In the standard installation, a Work Order can be linked to the following "
 "objects:"
 msgstr "在标准安装中，一个工作指令可以链接到下面的对象："
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1406
+#: en/content/change-management.xml:1402
 msgid "CIs"
 msgstr "配置项"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1411
+#: en/content/change-management.xml:1407
 msgid "CI-Class Computer"
 msgstr "配置项类-计算机"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1416
+#: en/content/change-management.xml:1412
 msgid "CI-Class Hardware"
 msgstr "配置项类-硬件"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1421
+#: en/content/change-management.xml:1417
 msgid "CI-Class Location"
 msgstr "配置项类-位置"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1426
+#: en/content/change-management.xml:1422
 msgid "CI-Class Network"
 msgstr "配置项类-网络"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1431
+#: en/content/change-management.xml:1427
 msgid "CI-Class Software"
 msgstr "配置项类-软件"
 
-#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1438 en/content/change-management.xml:1770
-#: en/content/change-management.xml:2092 en/content/change-management.xml:2323
-#: en/content/change-management.xml:3079 en/content/change-management.xml:3366
-#: en/content/change-management.xml:3654
+#. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/content/change-management.xml:1434
 msgid "Services"
 msgstr "服务"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1443
+#: en/content/change-management.xml:1439
 msgid "Tickets"
 msgstr "工单"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1448
+#: en/content/change-management.xml:1444
 msgid ""
 "These settings are defined via SysConfig under &quot;Framework -&gt; Core::"
 "LinkObject&quot; and can be extended when desired."
@@ -4857,19 +4796,19 @@ msgstr ""
 "展。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1454
+#: en/content/change-management.xml:1450
 msgid "Saving a Work Order as a Template"
 msgstr "将一个工作指令保存为模板"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1457
+#: en/content/change-management.xml:1453
 msgid ""
 "A Work Order can be saved as a template through the &quot;Template&quot; "
 "feature, within the Work Order itself."
 msgstr "通过工作指令本身的“模板”功能可以将一个工作指令保存为模板。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1461
+#: en/content/change-management.xml:1457
 msgid ""
 "The dialog box requires the Change Builder to give the template a name and "
 "an optional comment. Once the user leaves the dialog box by clicking the "
@@ -4880,12 +4819,12 @@ msgstr ""
 "话框，这个工作指令就可以在创建新的工作指令时作为模板使用。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1468
+#: en/content/change-management.xml:1464
 msgid "change-workorder-template"
 msgstr "变更-工作指令-模板"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1470
+#: en/content/change-management.xml:1466
 msgid ""
 "<graphic fileref=\"screenshots/change-workorder-template.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4894,12 +4833,12 @@ msgstr ""
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:1477
+#: en/content/change-management.xml:1473
 msgid "Deleting a Work Order"
 msgstr "删除一个工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1480
+#: en/content/change-management.xml:1476
 msgid ""
 "The Change Builder can delete a Work Order as long as it is not referred to "
 "in a Condition (see the &quot;Defining conditions&quot; section)."
@@ -4907,12 +4846,12 @@ msgstr ""
 "变更创建人可以删除一个没有在条件中使用的工作指令（参阅“定义条件”部分）。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1486
+#: en/content/change-management.xml:1482
 msgid "change-workorder-delete"
 msgstr "变更-工作指令-删除"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1488
+#: en/content/change-management.xml:1484
 msgid ""
 "<graphic fileref=\"screenshots/change-workorder-delete.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -4921,12 +4860,12 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/change-management.xml:1496
+#: en/content/change-management.xml:1492
 msgid "Viewing the Content of a Change"
 msgstr "查看变更内容"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1499
+#: en/content/change-management.xml:1495
 msgid ""
 "After creating a Change and its associated Work Order, the system has the "
 "capability to display other information related to the Change, including "
@@ -4936,12 +4875,12 @@ msgstr ""
 "括相关工作指令、链接的工单和配置项。"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/change-management.xml:1505
+#: en/content/change-management.xml:1501
 msgid "change-zoom"
 msgstr "变更-详情"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/change-management.xml:1507
+#: en/content/change-management.xml:1503
 msgid ""
 "<graphic fileref=\"screenshots/change-zoom.png\" scalefit=\"1\" width=\"100%"
 "\" contentdepth=\"100%\"></graphic>"
@@ -4950,7 +4889,7 @@ msgstr ""
 "\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1512
+#: en/content/change-management.xml:1508
 msgid ""
 "The defined Work Orders are numbered in order of their planned execution and "
 "displayed in a timeline. The color of the displayed Work Order in the "
@@ -4962,7 +4901,7 @@ msgstr ""
 "Frontend::Agent::ViewChangeZoom”定制颜色。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1519
+#: en/content/change-management.xml:1515
 msgid ""
 "The system generates two bars per Work Order in the Change timeline. The "
 "upper, darker bar represents the planned Work Order implementation time, "
@@ -4973,39 +4912,39 @@ msgstr ""
 "作指令实施时间，下面的浅色图形条显示实际的工作指令实施时间。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1525
+#: en/content/change-management.xml:1521
 msgid ""
 "The status of each Work Order is represented by traffic lights, as seen in "
 "the following view:"
 msgstr "每个工作指令的状态按红绿灯表示，见下面说明："
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1531
+#: en/content/change-management.xml:1527
 msgid "Gray - Work Order is &quot;created&quot;"
 msgstr "灰色 - 工作指令“已创建”"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1535
+#: en/content/change-management.xml:1531
 msgid "Yellow - Work Order is &quot;pending approval&quot;"
 msgstr "黄色 - 工作指令“等待审批”"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1539
+#: en/content/change-management.xml:1535
 msgid "Green - Work Order is &quot;closed&quot;"
 msgstr "绿色 - 工作指令“已关闭”"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/content/change-management.xml:1543
+#: en/content/change-management.xml:1539
 msgid "Red - Work Order is &quot;canceled&quot;"
 msgstr "红色 - 工作指令“已取消”"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/change-management.xml:1548
+#: en/content/change-management.xml:1544
 msgid "change-timeline"
 msgstr "变更 - 时间轴"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/change-management.xml:1550
+#: en/content/change-management.xml:1546
 msgid ""
 "<graphic fileref=\"screenshots/change-timeline.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5014,12 +4953,12 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/change-management.xml:1557
+#: en/content/change-management.xml:1553
 msgid "Change Views"
 msgstr "变更视图"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:1560
+#: en/content/change-management.xml:1556
 msgid ""
 "OTRS::ITSM offers a variety of ways to view the Changes saved in the "
 "system.  Access to these views can be disabled where desired."
@@ -5028,24 +4967,24 @@ msgstr ""
 "访问。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:1565 en/content/change-management.xml:1586
+#: en/content/change-management.xml:1561 en/content/change-management.xml:1582
 msgid "Change Overview"
 msgstr "变更概览"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1568
+#: en/content/change-management.xml:1564
 msgid ""
 "All Changes are displayed in an overview screen, which can be sorted in "
 "ascending or descending order per column."
 msgstr "在一个概览视图窗口中显示所有的变更，可以对每列按升序或降序排序。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1573
+#: en/content/change-management.xml:1569
 msgid "change-overview"
 msgstr "变更-概览"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1575
+#: en/content/change-management.xml:1571
 msgid ""
 "<graphic fileref=\"screenshots/change-overview.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5054,7 +4993,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1580
+#: en/content/change-management.xml:1576
 msgid ""
 "The columns can be defined via SysConfig &quot;ITSM Change Management -&gt; "
 "Frontend::Agent::ViewChangeOverview&quot; with the following available "
@@ -5064,192 +5003,248 @@ msgstr ""
 "ViewChangeOverview”定义显示的列，下面是可显示的属性："
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/content/change-management.xml:1595 en/content/change-management.xml:1917
-#: en/content/change-management.xml:2148 en/content/change-management.xml:2435
-#: en/content/change-management.xml:2904 en/content/change-management.xml:3191
-#: en/content/change-management.xml:3479
+#: en/content/change-management.xml:1591 en/content/change-management.xml:1913
+#: en/content/change-management.xml:2144 en/content/change-management.xml:2431
+#: en/content/change-management.xml:2900 en/content/change-management.xml:3187
+#: en/content/change-management.xml:3475
 msgid "Active"
 msgstr "激活"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1605 en/content/change-management.xml:1927
-#: en/content/change-management.xml:2158 en/content/change-management.xml:2914
-#: en/content/change-management.xml:3201 en/content/change-management.xml:3489
-msgid "ActualStartTime"
-msgstr "实际开始时间"
+#: en/content/change-management.xml:1601 en/content/change-management.xml:1923
+#: en/content/change-management.xml:2154 en/content/change-management.xml:2910
+#: en/content/change-management.xml:3197 en/content/change-management.xml:3485
+msgid "<literal>ActualStartTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1611 en/content/change-management.xml:1933
-#: en/content/change-management.xml:2164 en/content/change-management.xml:2920
-#: en/content/change-management.xml:3207 en/content/change-management.xml:3495
+#: en/content/change-management.xml:1607 en/content/change-management.xml:1929
+#: en/content/change-management.xml:2160 en/content/change-management.xml:2916
+#: en/content/change-management.xml:3203 en/content/change-management.xml:3491
 msgid "Date and time at which the Change implementation began"
 msgstr "实施变更开始的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1616 en/content/change-management.xml:1938
-#: en/content/change-management.xml:2169 en/content/change-management.xml:2925
-#: en/content/change-management.xml:3212 en/content/change-management.xml:3500
-msgid "ActualEndTime"
-msgstr "实际结束时间"
+#: en/content/change-management.xml:1612 en/content/change-management.xml:1934
+#: en/content/change-management.xml:2165 en/content/change-management.xml:2921
+#: en/content/change-management.xml:3208 en/content/change-management.xml:3496
+msgid "<literal>ActualEndTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1622
+#: en/content/change-management.xml:1618
 msgid "Date and time at which the Change implementation ended"
 msgstr "实施变更结束的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1633 en/content/change-management.xml:1955
-#: en/content/change-management.xml:2186 en/content/change-management.xml:2942
-#: en/content/change-management.xml:3229 en/content/change-management.xml:3517
+#: en/content/change-management.xml:1623 en/content/change-management.xml:1945
+#: en/content/change-management.xml:2176 en/content/change-management.xml:2932
+#: en/content/change-management.xml:3219 en/content/change-management.xml:3507
+msgid "<literal>Category</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1629 en/content/change-management.xml:1951
+#: en/content/change-management.xml:2182 en/content/change-management.xml:2938
+#: en/content/change-management.xml:3225 en/content/change-management.xml:3513
 msgid "Category or type of Change"
 msgstr "变更分类或类型"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1644 en/content/change-management.xml:1966
-#: en/content/change-management.xml:2197 en/content/change-management.xml:2953
-#: en/content/change-management.xml:3240 en/content/change-management.xml:3528
+#: en/content/change-management.xml:1634 en/content/change-management.xml:1956
+#: en/content/change-management.xml:2187 en/content/change-management.xml:2943
+#: en/content/change-management.xml:3230 en/content/change-management.xml:3518
+msgid "<literal>ChangeBuilder</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1640 en/content/change-management.xml:1962
+#: en/content/change-management.xml:2193 en/content/change-management.xml:2949
+#: en/content/change-management.xml:3236 en/content/change-management.xml:3524
 msgid "Change Builder&apos;s name"
 msgstr "变更创建人的名字"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1655 en/content/change-management.xml:1977
-#: en/content/change-management.xml:2208 en/content/change-management.xml:2964
-#: en/content/change-management.xml:3251 en/content/change-management.xml:3539
+#: en/content/change-management.xml:1645 en/content/change-management.xml:1967
+#: en/content/change-management.xml:2198 en/content/change-management.xml:2954
+#: en/content/change-management.xml:3241 en/content/change-management.xml:3529
+msgid "<literal>ChangeManager</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1651 en/content/change-management.xml:1973
+#: en/content/change-management.xml:2204 en/content/change-management.xml:2960
+#: en/content/change-management.xml:3247 en/content/change-management.xml:3535
 msgid "Change Manager&apos;s name"
 msgstr "变更经理的名字"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1660 en/content/change-management.xml:1982
-#: en/content/change-management.xml:2213 en/content/change-management.xml:2969
-#: en/content/change-management.xml:3256 en/content/change-management.xml:3544
-msgid "ChangeNumber"
-msgstr "变更编号"
+#: en/content/change-management.xml:1656 en/content/change-management.xml:1978
+#: en/content/change-management.xml:2209 en/content/change-management.xml:2965
+#: en/content/change-management.xml:3252 en/content/change-management.xml:3540
+msgid "<literal>ChangeNumber</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1666 en/content/change-management.xml:1988
-#: en/content/change-management.xml:2219 en/content/change-management.xml:2975
-#: en/content/change-management.xml:3262 en/content/change-management.xml:3550
+#: en/content/change-management.xml:1662 en/content/change-management.xml:1984
+#: en/content/change-management.xml:2215 en/content/change-management.xml:2971
+#: en/content/change-management.xml:3258 en/content/change-management.xml:3546
 msgid "System generated Change number"
 msgstr "系统生成的变更编号"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1677 en/content/change-management.xml:1999
-#: en/content/change-management.xml:2230 en/content/change-management.xml:2986
-#: en/content/change-management.xml:3273 en/content/change-management.xml:3561
+#: en/content/change-management.xml:1667 en/content/change-management.xml:1989
+#: en/content/change-management.xml:2220 en/content/change-management.xml:2976
+#: en/content/change-management.xml:3263 en/content/change-management.xml:3551
+msgid "<literal>ChangeState</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1673 en/content/change-management.xml:1995
+#: en/content/change-management.xml:2226 en/content/change-management.xml:2982
+#: en/content/change-management.xml:3269 en/content/change-management.xml:3557
 msgid "Change status"
 msgstr "变更状态"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1682 en/content/change-management.xml:2004
-#: en/content/change-management.xml:2235 en/content/change-management.xml:2991
-#: en/content/change-management.xml:3278 en/content/change-management.xml:3566
-msgid "ChangeStateSignal"
-msgstr "变更状态标志"
+#: en/content/change-management.xml:1678 en/content/change-management.xml:2000
+#: en/content/change-management.xml:2231 en/content/change-management.xml:2987
+#: en/content/change-management.xml:3274 en/content/change-management.xml:3562
+msgid "<literal>ChangeStateSignal</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1688 en/content/change-management.xml:2010
-#: en/content/change-management.xml:2241 en/content/change-management.xml:2997
-#: en/content/change-management.xml:3284 en/content/change-management.xml:3572
+#: en/content/change-management.xml:1684 en/content/change-management.xml:2006
+#: en/content/change-management.xml:2237 en/content/change-management.xml:2993
+#: en/content/change-management.xml:3280 en/content/change-management.xml:3568
 msgid "Change status indicator to be shown as traffic light"
 msgstr "用红绿灯显示的变更状态指示器"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1699 en/content/change-management.xml:2021
-#: en/content/change-management.xml:2252 en/content/change-management.xml:3008
-#: en/content/change-management.xml:3295 en/content/change-management.xml:3583
+#: en/content/change-management.xml:1689 en/content/change-management.xml:2011
+#: en/content/change-management.xml:2242 en/content/change-management.xml:2998
+#: en/content/change-management.xml:3285 en/content/change-management.xml:3573
+msgid "<literal>ChangeTitle</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1695 en/content/change-management.xml:2017
+#: en/content/change-management.xml:2248 en/content/change-management.xml:3004
+#: en/content/change-management.xml:3291 en/content/change-management.xml:3579
 msgid "Name of Change"
 msgstr "变更的名称"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1704 en/content/change-management.xml:2026
-#: en/content/change-management.xml:2257 en/content/change-management.xml:2489
-#: en/content/change-management.xml:3013 en/content/change-management.xml:3300
-#: en/content/change-management.xml:3588
-msgid "CreateTime"
-msgstr "创建时间"
+#: en/content/change-management.xml:1700 en/content/change-management.xml:2022
+#: en/content/change-management.xml:2253 en/content/change-management.xml:2485
+#: en/content/change-management.xml:3009 en/content/change-management.xml:3296
+#: en/content/change-management.xml:3584
+msgid "<literal>CreateTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1710 en/content/change-management.xml:2032
-#: en/content/change-management.xml:2263 en/content/change-management.xml:3019
-#: en/content/change-management.xml:3306 en/content/change-management.xml:3594
+#: en/content/change-management.xml:1706 en/content/change-management.xml:2028
+#: en/content/change-management.xml:2259 en/content/change-management.xml:3015
+#: en/content/change-management.xml:3302 en/content/change-management.xml:3590
 msgid "Date and time at which the Change was created"
 msgstr "创建变更时的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1721 en/content/change-management.xml:2043
-#: en/content/change-management.xml:2274 en/content/change-management.xml:3030
+#: en/content/change-management.xml:1711 en/content/change-management.xml:2033
+#: en/content/change-management.xml:2264 en/content/change-management.xml:3020
+#: en/content/change-management.xml:3307 en/content/change-management.xml:3595
+msgid "<literal>Impact</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1717 en/content/change-management.xml:2039
+#: en/content/change-management.xml:2270 en/content/change-management.xml:3026
 msgid "Expected effect of the Change"
 msgstr "变更的预期效果"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1726 en/content/change-management.xml:2048
-#: en/content/change-management.xml:2279 en/content/change-management.xml:3035
-#: en/content/change-management.xml:3322 en/content/change-management.xml:3610
-msgid "PlannedStartTime"
-msgstr "计划开始时间"
+#: en/content/change-management.xml:1722 en/content/change-management.xml:2044
+#: en/content/change-management.xml:2275 en/content/change-management.xml:3031
+#: en/content/change-management.xml:3318 en/content/change-management.xml:3606
+msgid "<literal>PlannedStartTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1732 en/content/change-management.xml:2054
-#: en/content/change-management.xml:2285 en/content/change-management.xml:3041
-#: en/content/change-management.xml:3328 en/content/change-management.xml:3616
+#: en/content/change-management.xml:1728 en/content/change-management.xml:2050
+#: en/content/change-management.xml:2281 en/content/change-management.xml:3037
+#: en/content/change-management.xml:3324 en/content/change-management.xml:3612
 msgid "Planned Change implementation start date and time"
 msgstr "计划实施变更的开始日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1737 en/content/change-management.xml:2059
-#: en/content/change-management.xml:2290 en/content/change-management.xml:3046
-#: en/content/change-management.xml:3333 en/content/change-management.xml:3621
-msgid "PlannedEndTime"
-msgstr "计划结束时间"
+#: en/content/change-management.xml:1733 en/content/change-management.xml:2055
+#: en/content/change-management.xml:2286 en/content/change-management.xml:3042
+#: en/content/change-management.xml:3329 en/content/change-management.xml:3617
+msgid "<literal>PlannedEndTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1743
+#: en/content/change-management.xml:1739
 msgid "Projected Change implementation end date and time"
 msgstr "预计实施变更的结束日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1754 en/content/change-management.xml:2076
-#: en/content/change-management.xml:2307 en/content/change-management.xml:3063
-#: en/content/change-management.xml:3350 en/content/change-management.xml:3638
+#: en/content/change-management.xml:1744 en/content/change-management.xml:2066
+#: en/content/change-management.xml:2297 en/content/change-management.xml:3053
+#: en/content/change-management.xml:3340 en/content/change-management.xml:3628
+msgid "<literal>Priority</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1750 en/content/change-management.xml:2072
+#: en/content/change-management.xml:2303 en/content/change-management.xml:3059
+#: en/content/change-management.xml:3346 en/content/change-management.xml:3634
 msgid "Priority level of the Change"
 msgstr "变更的优先级别"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1759 en/content/change-management.xml:2081
-#: en/content/change-management.xml:2312 en/content/change-management.xml:3068
-#: en/content/change-management.xml:3355 en/content/change-management.xml:3643
-msgid "RequestedTime"
-msgstr "请求时间"
+#: en/content/change-management.xml:1755 en/content/change-management.xml:2077
+#: en/content/change-management.xml:2308 en/content/change-management.xml:3064
+#: en/content/change-management.xml:3351 en/content/change-management.xml:3639
+msgid "<literal>RequestedTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1765 en/content/change-management.xml:2087
-#: en/content/change-management.xml:2318 en/content/change-management.xml:3074
-#: en/content/change-management.xml:3361 en/content/change-management.xml:3649
+#: en/content/change-management.xml:1761 en/content/change-management.xml:2083
+#: en/content/change-management.xml:2314 en/content/change-management.xml:3070
+#: en/content/change-management.xml:3357 en/content/change-management.xml:3645
 msgid "Customer&apos;s desired implementation date"
 msgstr "客户期望的实施日期"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1776 en/content/change-management.xml:2098
-#: en/content/change-management.xml:2329 en/content/change-management.xml:3085
-#: en/content/change-management.xml:3372 en/content/change-management.xml:3660
+#: en/content/change-management.xml:1766 en/content/change-management.xml:2088
+#: en/content/change-management.xml:2319 en/content/change-management.xml:3075
+#: en/content/change-management.xml:3362 en/content/change-management.xml:3650
+msgid "<literal>Services</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:1772 en/content/change-management.xml:2094
+#: en/content/change-management.xml:2325 en/content/change-management.xml:3081
+#: en/content/change-management.xml:3368 en/content/change-management.xml:3656
 msgid "Services affected by the Change"
 msgstr "变更影响的服务"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1781 en/content/change-management.xml:2103
-#: en/content/change-management.xml:3090 en/content/change-management.xml:3377
-msgid "WorkOrderCount"
-msgstr "工作指令数"
+#: en/content/change-management.xml:1777 en/content/change-management.xml:2099
+#: en/content/change-management.xml:3086 en/content/change-management.xml:3373
+msgid "<literal>WorkOrderCount</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1787 en/content/change-management.xml:2109
-#: en/content/change-management.xml:2362 en/content/change-management.xml:3096
-#: en/content/change-management.xml:3383 en/content/change-management.xml:3693
+#: en/content/change-management.xml:1783 en/content/change-management.xml:2105
+#: en/content/change-management.xml:2358 en/content/change-management.xml:3092
+#: en/content/change-management.xml:3379 en/content/change-management.xml:3689
 msgid "Number of Work Orders related to the Change"
 msgstr "变更相关的工作指令数量"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1794
+#: en/content/change-management.xml:1790
 msgid ""
 "Additionally, the Change Overview can filter and display changes according "
 "to various attributes. The following filters are available and can be "
@@ -5261,115 +5256,115 @@ msgstr ""
 "定义。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:1801
+#: en/content/change-management.xml:1797
 msgid "Change Overview Filters"
 msgstr "变更概览过滤器"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1817 en/content/change-management.xml:3126
-#: en/content/change-management.xml:3413
+#: en/content/change-management.xml:1813 en/content/change-management.xml:3122
+#: en/content/change-management.xml:3409
 msgid "requested"
 msgstr "已请求"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1820 en/content/change-management.xml:3129
-#: en/content/change-management.xml:3416
+#: en/content/change-management.xml:1816 en/content/change-management.xml:3125
+#: en/content/change-management.xml:3412
 msgid "Displays all changes that have the status &quot;requested&quot;"
 msgstr "显示状态为“已请求”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1824 en/content/change-management.xml:3133
-#: en/content/change-management.xml:3420
+#: en/content/change-management.xml:1820 en/content/change-management.xml:3129
+#: en/content/change-management.xml:3416
 msgid "pending approval"
 msgstr "待审批"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1827 en/content/change-management.xml:3136
-#: en/content/change-management.xml:3423
+#: en/content/change-management.xml:1823 en/content/change-management.xml:3132
+#: en/content/change-management.xml:3419
 msgid "Displays all changes that have the status &quot;pending approval&quot;"
 msgstr "显示状态为“待审批”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1832
+#: en/content/change-management.xml:1828
 msgid "rejected"
 msgstr "被拒绝"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1835
+#: en/content/change-management.xml:1831
 msgid "Displays all changes that have the status &quot;rejected&quot;"
 msgstr "显示状态为“被拒绝”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1839 en/content/change-management.xml:3141
-#: en/content/change-management.xml:3428
+#: en/content/change-management.xml:1835 en/content/change-management.xml:3137
+#: en/content/change-management.xml:3424
 msgid "approved"
 msgstr "通过审批"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1842 en/content/change-management.xml:3144
-#: en/content/change-management.xml:3431
+#: en/content/change-management.xml:1838 en/content/change-management.xml:3140
+#: en/content/change-management.xml:3427
 msgid "Displays all changes that have the status &quot;approved&quot;"
 msgstr "显示状态为“通过审批”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1846 en/content/change-management.xml:3148
-#: en/content/change-management.xml:3435 en/content/change-management.xml:3779
+#: en/content/change-management.xml:1842 en/content/change-management.xml:3144
+#: en/content/change-management.xml:3431 en/content/change-management.xml:3775
 msgid "in progress"
 msgstr "处理中"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1849 en/content/change-management.xml:3151
-#: en/content/change-management.xml:3438
+#: en/content/change-management.xml:1845 en/content/change-management.xml:3147
+#: en/content/change-management.xml:3434
 msgid "Displays all changes that have the status &quot;in progress&quot;"
 msgstr "显示状态为“处理中”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1854
+#: en/content/change-management.xml:1850
 msgid "successful"
 msgstr "成功"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1857
+#: en/content/change-management.xml:1853
 msgid "Displays all changes that have the status &quot;successful&quot;"
 msgstr "显示状态为“成功”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1861
+#: en/content/change-management.xml:1857
 msgid "failed"
 msgstr "失败"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1864
+#: en/content/change-management.xml:1860
 msgid "Displays all changes that have the status &quot;failed&quot;"
 msgstr "显示状态为“失败”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1868
+#: en/content/change-management.xml:1864
 msgid "canceled"
 msgstr "取消"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1871
+#: en/content/change-management.xml:1867
 msgid "Displays all changes that have the status &quot;canceled&quot;"
 msgstr "显示状态为“取消”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1875
+#: en/content/change-management.xml:1871
 msgid "retracted"
 msgstr "撤回"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1878
+#: en/content/change-management.xml:1874
 msgid "Displays all changes that have the status &quot;retracted&quot;"
 msgstr "显示状态为“撤回”的所有变更"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:1886 en/content/change-management.xml:1908
+#: en/content/change-management.xml:1882 en/content/change-management.xml:1904
 msgid "Change Schedule"
 msgstr "变更计划"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1889
+#: en/content/change-management.xml:1885
 msgid ""
 "In the Change Schedule view, all Changes which have the status &quot;"
 "approved&quot; i.e. are in the queue for implementation, are displayed. The "
@@ -5378,12 +5373,12 @@ msgid ""
 msgstr "在变更计划视图中，显示所有状态为“通过审批”的变更如在实施队列的变更。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:1896
+#: en/content/change-management.xml:1892
 msgid "change-schedule"
 msgstr "变更计划"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:1898
+#: en/content/change-management.xml:1894
 msgid ""
 "<graphic fileref=\"screenshots/change-schedule.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5392,7 +5387,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:1903
+#: en/content/change-management.xml:1899
 msgid ""
 "The displayed attributes can be defined via SysConfig &quot;ITSM Change "
 "Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:"
@@ -5401,24 +5396,24 @@ msgstr ""
 "ViewChangeScheduleOverview”定义要显示的属性："
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:1944 en/content/change-management.xml:2175
-#: en/content/change-management.xml:2931 en/content/change-management.xml:3506
+#: en/content/change-management.xml:1940 en/content/change-management.xml:2171
+#: en/content/change-management.xml:2927 en/content/change-management.xml:3502
 msgid "Date and time at which the Change implementation was completed"
 msgstr "变更实施完成的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2065 en/content/change-management.xml:2296
-#: en/content/change-management.xml:3052
+#: en/content/change-management.xml:2061 en/content/change-management.xml:2292
+#: en/content/change-management.xml:3048
 msgid "Projected Change implementation completion date and time"
 msgstr "预计变更实施完成的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:2118 en/content/change-management.xml:2139
+#: en/content/change-management.xml:2114 en/content/change-management.xml:2135
 msgid "PIR - Post Implementation Review"
 msgstr "PIR - 实施后审查"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2121
+#: en/content/change-management.xml:2117
 msgid ""
 "This view displays work orders of the &quot;PIR&quot; type, which can be "
 "sorted in ascending or descending order by the given column headings."
@@ -5426,12 +5421,12 @@ msgstr ""
 "这个视图显示类型为“PIR”的工作指令，可以点击列标题来按升序或降序排序工作指令。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:2127
+#: en/content/change-management.xml:2123
 msgid "change-pir"
 msgstr "变更-PIR"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:2129
+#: en/content/change-management.xml:2125
 msgid ""
 "<graphic fileref=\"screenshots/change-pir.png\" scalefit=\"1\" width=\"100%"
 "\" contentdepth=\"100%\"></graphic>"
@@ -5440,7 +5435,7 @@ msgstr ""
 "\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2134
+#: en/content/change-management.xml:2130
 msgid ""
 "The columns to be displayed can be defined via SysConfig &quot;ITSM Change "
 "Management -&gt; Frontend::Agent::ViewPIROverview&quot;:"
@@ -5449,43 +5444,68 @@ msgstr ""
 "ViewPIROverview”需要显示的列："
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2340 en/content/change-management.xml:3671
+#: en/content/change-management.xml:2330 en/content/change-management.xml:3661
+msgid "<literal>WorkOrderAgent</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:2336 en/content/change-management.xml:3667
 msgid "Agent assigned to the PIR"
 msgstr "给PIR分配的服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2351 en/content/change-management.xml:3682
+#: en/content/change-management.xml:2341 en/content/change-management.xml:3672
+msgid "<literal>WorkOrderNumber</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:2347 en/content/change-management.xml:3678
 msgid "Work Order number"
 msgstr "工作指令编号"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2367 en/content/change-management.xml:3698
-msgid "WorkOrderStateSignal"
-msgstr "工作指令状态标志"
+#: en/content/change-management.xml:2352 en/content/change-management.xml:3683
+msgid "<literal>WorkOrderState</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2373 en/content/change-management.xml:3704
+#: en/content/change-management.xml:2363 en/content/change-management.xml:3694
+msgid "<literal>WorkOrderStateSignal</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:2369 en/content/change-management.xml:3700
 msgid "Work Order status indicator to be shown as traffic light"
 msgstr "用红绿灯表示的工作指令状态标志"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2384 en/content/change-management.xml:3715
+#: en/content/change-management.xml:2374 en/content/change-management.xml:3705
+msgid "<literal>WorkOrderTitle</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:2380 en/content/change-management.xml:3711
 msgid "Name of the Work Order"
 msgstr "工作指令的名称"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2395 en/content/change-management.xml:3726
+#: en/content/change-management.xml:2385 en/content/change-management.xml:3716
+msgid "<literal>WorkOrderType</literal>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
+#: en/content/change-management.xml:2391 en/content/change-management.xml:3722
 msgid "The type of Work Order"
 msgstr "工作指令的类型"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:2404 en/content/change-management.xml:2426
-#: en/content/change-management.xml:2627
+#: en/content/change-management.xml:2400 en/content/change-management.xml:2422
+#: en/content/change-management.xml:2623
 msgid "Template"
 msgstr "模版"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2407
+#: en/content/change-management.xml:2403
 msgid ""
 "This view displays all the defined templates in the system. The agent can "
 "sort the displayed information in ascending or descending order by the given "
@@ -5494,12 +5514,12 @@ msgstr ""
 "这个视图显示系统中已定义的模板。服务人员可以点击列标题来按升序或降序排序。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:2413
+#: en/content/change-management.xml:2409
 msgid "change-template"
 msgstr "变更-模板"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:2415
+#: en/content/change-management.xml:2411
 msgid ""
 "<graphic fileref=\"screenshots/change-template.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5508,7 +5528,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2420
+#: en/content/change-management.xml:2416
 msgid ""
 "The columns to be displayed can be defined via SysConfig &quot;ITSM Change "
 "Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:"
@@ -5517,97 +5537,97 @@ msgstr ""
 "ViewTemplateOverview”来定义要显示的列："
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2445
-msgid "ChangeBy"
-msgstr "修改人"
+#: en/content/change-management.xml:2441
+msgid "<literal>ChangeBy</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2451
+#: en/content/change-management.xml:2447
 msgid "Username of the agent who last modified the template"
 msgstr "最后修改模板的服务人员姓名"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2456
-msgid "ChangeTime"
-msgstr "修改时间"
+#: en/content/change-management.xml:2452
+msgid "<literal>ChangeTime</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2462
+#: en/content/change-management.xml:2458
 msgid "Date and time of the last modification"
 msgstr "最后修改的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2467
-msgid "Comment"
-msgstr "注释"
+#: en/content/change-management.xml:2463
+msgid "<literal>Comment</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2473
+#: en/content/change-management.xml:2469
 msgid "Comments / description of the template"
 msgstr "模板的注释或描述"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2478
-msgid "CreateBy"
-msgstr "创建人"
+#: en/content/change-management.xml:2474
+msgid "<literal>CreateBy</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2484
+#: en/content/change-management.xml:2480
 msgid "Username of the agent who created the template"
 msgstr "创建模板的服务人员姓名"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2495
+#: en/content/change-management.xml:2491
 msgid "Date and time at which the template was created"
 msgstr "创建模板时的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2500
-msgid "Delete"
-msgstr "删除"
+#: en/content/change-management.xml:2496
+msgid "<literal>Delete</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2506
+#: en/content/change-management.xml:2502
 msgid "Option to delete a chosen template"
 msgstr "删除选定模板的选项"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2511
-msgid "Name"
-msgstr "名称"
+#: en/content/change-management.xml:2507
+msgid "<literal>Name</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2517
+#: en/content/change-management.xml:2513
 msgid "Name of the template"
 msgstr "模板的名称"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2522
-msgid "TemplateID"
-msgstr "模板编号"
+#: en/content/change-management.xml:2518
+msgid "<literal>TemplateID</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2528
+#: en/content/change-management.xml:2524
 msgid "The template&apos;s internal database identity"
 msgstr "模板的内部数据库标识"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2533
-msgid "Type"
-msgstr "类型"
+#: en/content/change-management.xml:2529
+msgid "<literal>Type</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2539
+#: en/content/change-management.xml:2535
 msgid "Type of template"
 msgstr "模板的类型"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2544
-msgid "Valid"
-msgstr "有效"
+#: en/content/change-management.xml:2540
+msgid "<literal>Valid</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2550
+#: en/content/change-management.xml:2546
 msgid ""
 "Defines the validity of the template (valid, invalid and temporarily "
 "invalid). Invalid / temporarily invalid templates cannot be used by Change "
@@ -5617,7 +5637,7 @@ msgstr ""
 "模板。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2559
+#: en/content/change-management.xml:2555
 msgid ""
 "After installing the Change Management module, the following template types "
 "are available in the system. These can be defined via SysConfig &quot;ITSM "
@@ -5627,47 +5647,47 @@ msgstr ""
 "Management -&gt; Frontend::Agent::ViewTemplateOverview”来定义这些类型。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:2566
+#: en/content/change-management.xml:2562
 msgid "Template Types"
 msgstr "模板类型"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2582
-msgid "ITSMChange"
-msgstr "变更"
+#: en/content/change-management.xml:2578
+msgid "<literal>ITSMChange</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2585
+#: en/content/change-management.xml:2581
 msgid "Templates for Changes"
 msgstr "变更模板"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2590
-msgid "ITSMWorkOrder"
-msgstr "ITSM工作指令"
+#: en/content/change-management.xml:2586
+msgid "<literal>ITSMWorkOrder</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2593
+#: en/content/change-management.xml:2589
 msgid "Templates for Work Orders"
 msgstr "工作指令模板"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2598
-msgid "CAB"
-msgstr "CAB"
+#: en/content/change-management.xml:2594
+msgid "<literal>CAB</literal>"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2601
+#: en/content/change-management.xml:2597
 msgid "Templates for Change Advisory Boards"
 msgstr "变更咨询委员会模板"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:2610
+#: en/content/change-management.xml:2606
 msgid "Search"
 msgstr "搜索"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2613
+#: en/content/change-management.xml:2609
 msgid ""
 "To find Changes or Work Orders which meet specific search criteria, the "
 "system is equipped with a separate search function based on the following "
@@ -5677,12 +5697,12 @@ msgstr ""
 "单独的搜索功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:2619
+#: en/content/change-management.xml:2615
 msgid "change-search"
 msgstr "变更-搜索"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:2621
+#: en/content/change-management.xml:2617
 msgid ""
 "<graphic fileref=\"screenshots/change-search.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5691,49 +5711,49 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2643
+#: en/content/change-management.xml:2639
 msgid "Change#"
 msgstr "变更编号"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2646
+#: en/content/change-management.xml:2642
 msgid ""
 "Search by Change number; an asterisk (&quot;*&quot;) may be used as a "
 "wildcard"
 msgstr "按变更编号搜索，可以使用星号“*”作为通配符。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2655
+#: en/content/change-management.xml:2651
 msgid "Search by Change title or name"
 msgstr "按变更标题或名称搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2660
+#: en/content/change-management.xml:2656
 msgid "Work Order Title"
 msgstr "工作指令标题"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2663
+#: en/content/change-management.xml:2659
 msgid "Search by the title/name of a Work Order"
 msgstr "按工作指令的标题或名称搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2668
+#: en/content/change-management.xml:2664
 msgid "CABAgent"
 msgstr "CAB服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2671
+#: en/content/change-management.xml:2667
 msgid "Search by CAB member, defined in the system as an agent"
 msgstr "按定义为CAB成员的服务人员搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2676
+#: en/content/change-management.xml:2672
 msgid "CABCustomer"
 msgstr "CAB客户"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2679
+#: en/content/change-management.xml:2675
 msgid ""
 "Search by CAB member, defined in the system as a customer. Here, the auto-"
 "complete function can offer suggestions when typing in the CAB customer field"
@@ -5742,127 +5762,127 @@ msgstr ""
 "选的建议。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2686
+#: en/content/change-management.xml:2682
 msgid "Change Description"
 msgstr "变更描述"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2689
+#: en/content/change-management.xml:2685
 msgid "Search in the Change description text"
 msgstr "在变更描述文本中搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2694
+#: en/content/change-management.xml:2690
 msgid "Change Justification"
 msgstr "变更理由"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2697
+#: en/content/change-management.xml:2693
 msgid "Search in the reason / justification for the Change"
 msgstr "在变更的原因/理由中搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2702
+#: en/content/change-management.xml:2698
 msgid "Work Order Instruction"
 msgstr "工作指令说明"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2705
+#: en/content/change-management.xml:2701
 msgid "Search in Work Order instructions"
 msgstr "在工作指令说明中搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2710
+#: en/content/change-management.xml:2706
 msgid "Work Order Report"
 msgstr "工作指令报告"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2713
+#: en/content/change-management.xml:2709
 msgid "Search in a Work Order report"
 msgstr "在工作指令报告中搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2718
+#: en/content/change-management.xml:2714
 msgid "Change Priority"
 msgstr "变更优先级"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2721
+#: en/content/change-management.xml:2717
 msgid "Search by Change priority level"
 msgstr "按变更优先级别搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2726
+#: en/content/change-management.xml:2722
 msgid "Change Impact"
 msgstr "变更影响"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2729
+#: en/content/change-management.xml:2725
 msgid "Search by Change effect / impact level"
 msgstr "按变更效果/影响级别搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2734
+#: en/content/change-management.xml:2730
 msgid "Change Category"
 msgstr "变更类别"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2737
+#: en/content/change-management.xml:2733
 msgid "Search by Change category or type"
 msgstr "按变更类型或类型搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2742
+#: en/content/change-management.xml:2738
 msgid "Change State"
 msgstr "变更状态"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2745
+#: en/content/change-management.xml:2741
 msgid "Search by Change status"
 msgstr "按变更状态搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2753
+#: en/content/change-management.xml:2749
 msgid "Search by Change Manager"
 msgstr "按变更经理搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2761
+#: en/content/change-management.xml:2757
 msgid "Search by Change Builder"
 msgstr "按变更创建人搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2766
+#: en/content/change-management.xml:2762
 msgid "Created by Agent"
 msgstr "创建变更的服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2769
+#: en/content/change-management.xml:2765
 msgid "Search by agent user name who created the Change"
 msgstr "按创建这个变更的服务人员用户名搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2774
+#: en/content/change-management.xml:2770
 msgid "Work Order State"
 msgstr "工作指令状态"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2777
+#: en/content/change-management.xml:2773
 msgid "Search by the status of a Work Order"
 msgstr "按工作指令状态搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2782
+#: en/content/change-management.xml:2778
 msgid "Work Order Agent"
 msgstr "工作指令服务人员"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2785
+#: en/content/change-management.xml:2781
 msgid "Search by the entered Work Order agent"
 msgstr "按输入的工作指令服务人员搜索"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2793
+#: en/content/change-management.xml:2789
 msgid ""
 "Search by the customer requested Change implementation date. Search can be "
 "performed using absolute time values (e.g. from date 1 to date 2) or in "
@@ -5872,12 +5892,12 @@ msgstr ""
 "（如在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2801
+#: en/content/change-management.xml:2797
 msgid "Planned Start Time"
 msgstr "计划的开始时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2804
+#: en/content/change-management.xml:2800
 msgid ""
 "Search by the planned start date and time of a Change implementation.  "
 "Search can be performed using absolute time values (e.g. from date 1 to date "
@@ -5888,12 +5908,12 @@ msgstr ""
 "时间（如在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2812
+#: en/content/change-management.xml:2808
 msgid "Planned End Time"
 msgstr "计划结束时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2815
+#: en/content/change-management.xml:2811
 msgid ""
 "Search by the projected end date and time of a Change implementation.  "
 "Search can be performed using absolute time values (e.g. from date 1 to date "
@@ -5904,12 +5924,12 @@ msgstr ""
 "时间（如在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2823
+#: en/content/change-management.xml:2819
 msgid "Actual Start Time"
 msgstr "实际开始时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2826
+#: en/content/change-management.xml:2822
 msgid ""
 "Search by the actual start date and time of a Change implementation.  Search "
 "can be performed using absolute time values (e.g. from date 1 to date 2) or "
@@ -5919,12 +5939,12 @@ msgstr ""
 "时间（如在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2834
+#: en/content/change-management.xml:2830
 msgid "Actual End Time"
 msgstr "实际结束时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2837
+#: en/content/change-management.xml:2833
 msgid ""
 "Search by the actual end date and time of a Change implementation.  Search "
 "can be performed using absolute time values (e.g. from date 1 to date 2) or "
@@ -5934,12 +5954,12 @@ msgstr ""
 "时间（如在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2845
+#: en/content/change-management.xml:2841
 msgid "Create Time"
 msgstr "创建时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2848
+#: en/content/change-management.xml:2844
 msgid ""
 "Search by the Change creation date and time. Search can be performed using "
 "absolute time values (e.g. from date 1 to date 2) or in relative time values "
@@ -5949,12 +5969,12 @@ msgstr ""
 "在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2856
+#: en/content/change-management.xml:2852
 msgid "Change Time"
 msgstr "修改时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:2859
+#: en/content/change-management.xml:2855
 msgid ""
 "Search by the date and time a Change was modified. Search can be performed "
 "using absolute time values (e.g. from date 1 to date 2)  or in relative time "
@@ -5964,7 +5984,7 @@ msgstr ""
 "在最近X天/周内创建的变更）进行搜索。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2874
+#: en/content/change-management.xml:2870
 msgid ""
 "OTRS::ITSM offers a separate view to currently logged in agents, which "
 "displays the Changes for which they are registered as the Change Manager."
@@ -5973,12 +5993,12 @@ msgstr ""
 "的变更。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:2880
+#: en/content/change-management.xml:2876
 msgid "change-changemanager"
 msgstr "变更-变更经理"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:2882
+#: en/content/change-management.xml:2878
 msgid ""
 "<graphic fileref=\"screenshots/change-changemanager.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -5987,7 +6007,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:2887
+#: en/content/change-management.xml:2883
 msgid ""
 "The displayed column headings can be sorted according the following "
 "attributes in ascending or descending order. The columns to be displayed can "
@@ -5998,7 +6018,7 @@ msgstr ""
 "Management -&gt; Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3103
+#: en/content/change-management.xml:3099
 msgid ""
 "In addition, the Change Manager Overview can filter the displayed Changes by "
 "various attributes as follows. These can be defined via SysConfig &quot;ITSM "
@@ -6010,17 +6030,17 @@ msgstr ""
 "过滤的属性。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:3110
+#: en/content/change-management.xml:3106
 msgid "Change Manager Filter"
 msgstr "变更经理过滤器"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:3159 en/content/change-management.xml:3182
+#: en/content/change-management.xml:3155 en/content/change-management.xml:3178
 msgid "My Changes"
 msgstr "我的变更"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3162
+#: en/content/change-management.xml:3158
 msgid ""
 "The &quot;My Changes&quot; view displays all Changes created by the agent "
 "currently logged in, where the agent is registered as the Change Builder."
@@ -6029,12 +6049,12 @@ msgstr ""
 "建人）。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:3168
+#: en/content/change-management.xml:3164
 msgid "change-mychanges"
 msgstr "变更-我的变更"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:3170
+#: en/content/change-management.xml:3166
 msgid ""
 "<graphic fileref=\"screenshots/change-mychanges.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -6043,7 +6063,7 @@ msgstr ""
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3175
+#: en/content/change-management.xml:3171
 msgid ""
 "The display can be sorted by the column headings in ascending or descending "
 "order. The attributes can be defined via SysConfig &quot;ITSM Change "
@@ -6053,22 +6073,22 @@ msgstr ""
 "&gt; Frontend::Agent::ViewMyChangesOverview”定义要显示的列。"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3218
+#: en/content/change-management.xml:3214
 msgid "Date and time at which the Change was completed"
 msgstr "变更完成的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3317 en/content/change-management.xml:3605
+#: en/content/change-management.xml:3313 en/content/change-management.xml:3601
 msgid "Expected effect the Change will have"
 msgstr "变更预期的效果"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3339 en/content/change-management.xml:3627
+#: en/content/change-management.xml:3335 en/content/change-management.xml:3623
 msgid "Projected Change completion date and time"
 msgstr "预计变更完成的日期和时间"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3390
+#: en/content/change-management.xml:3386
 msgid ""
 "In addition, the My Changes Overview can filter the displayed Changes by "
 "various attributes as follows. These can be defined via SysConfig &quot;ITSM "
@@ -6079,17 +6099,17 @@ msgstr ""
 "来过滤的属性。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:3397
+#: en/content/change-management.xml:3393
 msgid "My Changes Filter"
 msgstr "我的变更过滤器"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:3446 en/content/change-management.xml:3470
+#: en/content/change-management.xml:3442 en/content/change-management.xml:3466
 msgid "My Work Orders"
 msgstr "我的工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3449
+#: en/content/change-management.xml:3445
 msgid ""
 "Similar to the OTRS Ticket Engine's &quot;Locked Tickets&quot; view, OTRS::"
 "ITSM offers the currently logged-in agent a separate view of the Work Orders "
@@ -6099,12 +6119,12 @@ msgstr ""
 "单独的视图，来显示分配给他/她的工作指令。"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
-#: en/content/change-management.xml:3455
+#: en/content/change-management.xml:3451
 msgid "change-myworkorders"
 msgstr "变更-我的工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><screenshot>
-#: en/content/change-management.xml:3457
+#: en/content/change-management.xml:3453
 msgid ""
 "<graphic fileref=\"screenshots/change-myworkorders.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -6113,7 +6133,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3462
+#: en/content/change-management.xml:3458
 msgid ""
 "The displayed information can be sorted by column headings in ascending or "
 "descending order. The attributes used can be defined via SysConfig &quot;"
@@ -6123,7 +6143,7 @@ msgstr ""
 "Management -&gt; Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3733
+#: en/content/change-management.xml:3729
 msgid ""
 "In addition, the My Work Orders Overview can filter the displayed Work "
 "Orders by various attributes as follows. These can be defined via SysConfig "
@@ -6135,52 +6155,52 @@ msgstr ""
 "ViewMyWorkOrdersOverview”定义用来过滤的属性。"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
-#: en/content/change-management.xml:3740
+#: en/content/change-management.xml:3736
 msgid "My Work Orders Filter"
 msgstr "我的工作指令过滤器"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3756
+#: en/content/change-management.xml:3752
 msgid "created"
 msgstr "已创建"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3759
+#: en/content/change-management.xml:3755
 msgid "Displays all Work Orders that have the status &quot;created&quot;"
 msgstr "显示状态为“已创建”的所有工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3764
+#: en/content/change-management.xml:3760
 msgid "accepted"
 msgstr "已接受"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3767
+#: en/content/change-management.xml:3763
 msgid "Displays all Work Orders that have the status &quot;accepted&quot;"
 msgstr "显示状态为“已接受”的所有工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3772
+#: en/content/change-management.xml:3768
 msgid "ready"
 msgstr "准备开始"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3775
+#: en/content/change-management.xml:3771
 msgid "Displays all Work Orders that have the status &quot;ready&quot;"
 msgstr "显示状态为“准备开始”的所有工作指令"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/content/change-management.xml:3782
+#: en/content/change-management.xml:3778
 msgid "Displays all Work Orders that have the status &quot;in progress&quot;"
 msgstr "显示状态为“处理中”的所有工作指令"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/change-management.xml:3792
+#: en/content/change-management.xml:3788
 msgid "Change Management Statistics"
 msgstr "变更管理统计"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/change-management.xml:3795
+#: en/content/change-management.xml:3791
 msgid ""
 "OTRS::ITSM provides the following reports for the evaluation of key "
 "indicators in supervising Change Management. All reports can be accessed "
@@ -6190,14 +6210,14 @@ msgstr ""
 "成的报表生成器中访问。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3801
+#: en/content/change-management.xml:3797
 msgid "Number of Changes Within a Defined Period"
 msgstr "一个时间段内的变更数量"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3804 en/content/change-management.xml:3819
-#: en/content/change-management.xml:3834 en/content/change-management.xml:3849
-#: en/content/change-management.xml:3864
+#: en/content/change-management.xml:3800 en/content/change-management.xml:3815
+#: en/content/change-management.xml:3830 en/content/change-management.xml:3845
+#: en/content/change-management.xml:3860
 msgid ""
 "The report allows the definition of a relative (e.g. Changes within the last "
 "x days) or absolute time period (e.g. Changes from date 1 to date 2). In "
@@ -6207,41 +6227,41 @@ msgstr ""
 "到日期2的变更）。此外，也可以定义要生成报表的变更状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3810 en/content/change-management.xml:3825
-#: en/content/change-management.xml:3840 en/content/change-management.xml:3855
-#: en/content/change-management.xml:3870 en/content/change-management.xml:3885
+#: en/content/change-management.xml:3806 en/content/change-management.xml:3821
+#: en/content/change-management.xml:3836 en/content/change-management.xml:3851
+#: en/content/change-management.xml:3866 en/content/change-management.xml:3881
 msgid ""
 "Reports are available in &quot;CSV&quot; or &quot;Print&quot; (PDF) output "
 "formats."
 msgstr "报表输出格式可以是“CSV”或“打印（PDF）”。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3816
+#: en/content/change-management.xml:3812
 msgid "Number of Changes by Change Category"
 msgstr "按变更类别的变更数量"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3831
+#: en/content/change-management.xml:3827
 msgid "Number of Rejected Changes"
 msgstr "拒绝的变更数量"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3846
+#: en/content/change-management.xml:3842
 msgid "Number of Withdrawn Changes"
 msgstr "撤回的变更数量"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3861
+#: en/content/change-management.xml:3857
 msgid "Ratio of Changes to Incidents"
 msgstr "变更成故障的比例"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/change-management.xml:3876
+#: en/content/change-management.xml:3872
 msgid "RFCs Per Requester"
 msgstr "每个请求人的变更请求"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/change-management.xml:3879
+#: en/content/change-management.xml:3875
 msgid ""
 "The report allows the definition of a relative (e.g. Changes within the last "
 "x days) or absolute time period (e.g. Changes from date 1 to date 2). In "
@@ -7174,12 +7194,11 @@ msgstr "额外的OTRS应用 - 日历"
 #. type: Content of: <chapter><para>
 #: en/content/calendar.xml:6
 msgid ""
-"OTRS initially supports up to 9 calendars, which can be configured "
-"graphically. Using the SysConfig framework found in the admin interface, "
-"this number can be increased to 99, by using the calendar 1 etc. links:"
+"In a default OTRS installation 9 calendars are available, which can be "
+"configured graphically. Using the SysConfig framework found in the admin "
+"interface, this number can be increased to 99, by using the calendar 1 etc. "
+"links:"
 msgstr ""
-"OTRS初始支持最大9个日历，可以通过图形界面配置。使用系统管理界面的系统配置框"
-"架，这个数字可以增加到99，使用如日历1...等等的名称。"
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/calendar.xml:12

@@ -32,17 +32,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS框架3.3.1及以后版本
+                            OTRS Framework, version 5.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM “GeneralCatalog通用目录”软件包，版本3.3
+                            ITSM &quot;GeneralCatalog&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM “ITSMCore”软件包，版本3.3
+                            ITSM &quot;ITSMCore&quot; package, version 5.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -54,22 +54,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM “ITSMIncidentProblemManagement故障管理和问题管理”软件，版本3.3
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM “ITSMServiceLevelManagement ITSM服务级别管理”软件包，版本3.3
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM “ITSMConfigurationManagement配置管理”软件包，版本3.3
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM “ImportExport导入导出”软件包，版本3.3
+                            ITSM &quot;ImportExport&quot; package, version 5.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -332,9 +332,6 @@ linkend="change_state_machine" />。
                 为确定一个变更的优先级，OTRS::ITSM支持变更创建人从集成的矩阵选择一个建议的优先级（基于选择的类别和输入的变更影响）。这个建议的优先级可由变更创建人随时覆盖。
             </para>
             <para>
-                安装过程默认的类别、影响和优先级的值可由系统管理员在通用目录中定制。
-            </para>
-            <para>
                 <figure>
                     <title>变更矩阵</title>
 <screenshot>
@@ -342,7 +339,10 @@ linkend="change_state_machine" />。
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                这里应该在OTRS::ITSM系统管理界面选择菜单项“通用目录”。
+                The category, impact and priority values given upon installation can be
+customized in the General Catalog by the administrator. To do this, the menu
+item &quot;General Catalog&quot; should be selected in the OTRS::ITSM
+Administration interface.
             </para>
             <sect3>
                 <title>
@@ -465,10 +465,10 @@ contentdepth="100%"></graphic></screenshot></figure>
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                系统管理员可从系统管理前端界面菜单选项“状态模式转换”调整这个状态模式转换。可在这里定义状态和可能的结果状态
-            </para>
-            <para>
-                必要的时候，可通过菜单选项“通用目录”->“ITSM::变更管理::变更::状态”定义额外的状态。在OTRS::ITSM中通过一个表来描述变更状态定义：
+                Adjustments to the State Machine can be made by the system administrator in
+the administration front end, under menu option &quot;State
+Machine&quot;. The statuses and possible result statuses should be defined
+here. In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
                 <figure>
@@ -476,6 +476,11 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
 <screenshot>
 <graphic fileref="screenshots/change-state-transition.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Where necessary, additional statuses can be defined under the menu option
+&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
+Management::Change::State&quot;.
             </para>
         </sect2>
         <sect2>
@@ -1201,13 +1206,10 @@ linkend="change_state_machine" />。
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                系统管理员可从系统管理前端界面菜单选项“状态模式转换”调整这个状态模式转换。可在这里定义状态和可能的结果状态
-            </para>
-            <para>
-                必要的时候，可通过菜单选项“通用目录”-&gt;“ITSM::ChangeManagement::WorkOrder::State”定义附加的状态。
-            </para>
-            <para>
-                在OTRS::ITSM，用一个表格来描述：
+                Adjustments to the State Machine can be made by the system administrator in
+the administration front end, under menu option &quot;State
+Machine&quot;. The statuses and possible result statuses should be defined
+here. In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
                 <figure>
@@ -1215,6 +1217,9 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 <screenshot>
 <graphic fileref="screenshots/change-workorder-state-transition.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                必要的时候，可通过菜单选项“通用目录”-&gt;“ITSM::ChangeManagement::WorkOrder::State”定义附加的状态。
             </para>
         </sect2>
         <sect2>
@@ -1438,7 +1443,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1449,7 +1454,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1460,7 +1465,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -1471,7 +1476,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 是
@@ -1482,7 +1487,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 是
@@ -1493,7 +1498,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -1504,7 +1509,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 是
@@ -1515,7 +1520,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 是
@@ -1526,7 +1531,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -1537,7 +1542,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1548,7 +1553,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -1559,7 +1564,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -1570,7 +1575,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -1581,7 +1586,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 是
@@ -1592,7 +1597,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1603,7 +1608,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -1614,7 +1619,7 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                         </row>
                         <row>
                             <entry>
-                                工作指令数
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 是
@@ -1754,7 +1759,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1765,7 +1770,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1776,7 +1781,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -1787,7 +1792,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 是
@@ -1798,7 +1803,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 是
@@ -1809,7 +1814,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -1820,7 +1825,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 是
@@ -1831,7 +1836,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 是
@@ -1842,7 +1847,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -1853,7 +1858,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1864,7 +1869,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -1875,7 +1880,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -1886,7 +1891,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -1897,7 +1902,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 是
@@ -1908,7 +1913,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1919,7 +1924,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -1930,7 +1935,7 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
                         </row>
                         <row>
                             <entry>
-                                工作指令数
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 是
@@ -1982,7 +1987,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -1993,7 +1998,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2004,7 +2009,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -2015,7 +2020,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 是
@@ -2026,7 +2031,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 是
@@ -2037,7 +2042,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 否
@@ -2048,7 +2053,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 否
@@ -2059,7 +2064,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 否
@@ -2070,7 +2075,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -2081,7 +2086,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2092,7 +2097,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -2103,7 +2108,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -2114,7 +2119,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -2125,7 +2130,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 是
@@ -2136,7 +2141,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2147,7 +2152,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -2158,7 +2163,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令服务人员
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 是
@@ -2169,7 +2174,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令编号
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -2180,7 +2185,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令状态
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 是
@@ -2191,7 +2196,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令状态标志
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 否
@@ -2202,7 +2207,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令标题
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -2213,7 +2218,7 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
                         </row>
                         <row>
                             <entry>
-                                工作指令类型
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 否
@@ -2265,7 +2270,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                     <tbody>
                         <row>
                             <entry>
-                                修改人
+                                <literal>ChangeBy</literal>
                             </entry>
                             <entry>
                                 否
@@ -2276,7 +2281,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                修改时间
+                                <literal>ChangeTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2287,7 +2292,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                注释
+                                <literal>Comment</literal>
                             </entry>
                             <entry>
                                 是
@@ -2298,7 +2303,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                创建人
+                                <literal>CreateBy</literal>
                             </entry>
                             <entry>
                                 是
@@ -2309,7 +2314,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -2320,7 +2325,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                删除
+                                <literal>Delete</literal>
                             </entry>
                             <entry>
                                 是
@@ -2331,7 +2336,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                名称
+                                <literal>Name</literal>
                             </entry>
                             <entry>
                                 是
@@ -2342,7 +2347,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                模板编号
+                                <literal>TemplateID</literal>
                             </entry>
                             <entry>
                                 否
@@ -2353,7 +2358,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                类型
+                                <literal>Type</literal>
                             </entry>
                             <entry>
                                 是
@@ -2364,7 +2369,7 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                         </row>
                         <row>
                             <entry>
-                                有效
+                                <literal>Valid</literal>
                             </entry>
                             <entry>
                                 是
@@ -2398,7 +2403,7 @@ Frontend::Agent::ViewTemplateOverview”来定义这些类型。
                     <tbody>
                         <row>
                             <entry>
-                                变更
+                                <literal>ITSMChange</literal>
                             </entry>
                             <entry>
                                 变更模板
@@ -2406,7 +2411,7 @@ Frontend::Agent::ViewTemplateOverview”来定义这些类型。
                         </row>
                         <row>
                             <entry>
-                                ITSM工作指令
+                                <literal>ITSMWorkOrder</literal>
                             </entry>
                             <entry>
                                 工作指令模板
@@ -2414,7 +2419,7 @@ Frontend::Agent::ViewTemplateOverview”来定义这些类型。
                         </row>
                         <row>
                             <entry>
-                                CAB
+                                <literal>CAB</literal>
                             </entry>
                             <entry>
                                 变更咨询委员会模板
@@ -2697,7 +2702,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2708,7 +2713,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2719,7 +2724,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -2730,7 +2735,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 是
@@ -2741,7 +2746,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 是
@@ -2752,7 +2757,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -2763,7 +2768,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 是
@@ -2774,7 +2779,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 是
@@ -2785,7 +2790,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -2796,7 +2801,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2807,7 +2812,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -2818,7 +2823,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -2829,7 +2834,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -2840,7 +2845,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 是
@@ -2851,7 +2856,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2862,7 +2867,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -2873,7 +2878,7 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                工作指令数
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 是
@@ -2977,7 +2982,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2988,7 +2993,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -2999,7 +3004,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -3010,7 +3015,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 是
@@ -3021,7 +3026,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 是
@@ -3032,7 +3037,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -3043,7 +3048,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 是
@@ -3054,7 +3059,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 是
@@ -3065,7 +3070,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -3076,7 +3081,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3087,7 +3092,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -3098,7 +3103,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -3109,7 +3114,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -3120,7 +3125,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 是
@@ -3131,7 +3136,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3142,7 +3147,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -3153,7 +3158,7 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                         </row>
                         <row>
                             <entry>
-                                工作指令数
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 是
@@ -3257,7 +3262,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                     <tbody>
                         <row>
                             <entry>
-                                实际开始时间
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3268,7 +3273,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                实际结束时间
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3279,7 +3284,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                类别
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 否
@@ -3290,7 +3295,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更创建人
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 否
@@ -3301,7 +3306,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更经理
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 否
@@ -3312,7 +3317,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更编号
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 否
@@ -3323,7 +3328,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更状态
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 否
@@ -3334,7 +3339,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更状态标志
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 否
@@ -3345,7 +3350,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                变更标题
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -3356,7 +3361,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                创建时间
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3367,7 +3372,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                影响
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 否
@@ -3378,7 +3383,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                计划开始时间
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -3389,7 +3394,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                计划结束时间
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 是
@@ -3400,7 +3405,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                优先级
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 否
@@ -3411,7 +3416,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                请求时间
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 否
@@ -3422,7 +3427,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                服务
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 是
@@ -3433,7 +3438,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令服务人员
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 是
@@ -3444,7 +3449,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令编号
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 是
@@ -3455,7 +3460,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令状态
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 是
@@ -3466,7 +3471,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令状态标志
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 否
@@ -3477,7 +3482,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令标题
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 是
@@ -3488,7 +3493,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                         </row>
                         <row>
                             <entry>
-                                工作指令类型
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 否

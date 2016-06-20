@@ -39,17 +39,17 @@ metrics or reports, must be defined.
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, Version 3.3. oder höher
+                            OTRS Framework, version 5.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog&quot; package, version 3.3
+                            ITSM &quot;GeneralCatalog&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore&quot; package, version 3.3
+                            ITSM &quot;ITSMCore&quot; package, version 5.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -62,22 +62,22 @@ they are not completely necessary:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 3.3
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport&quot; package, version 3.3
+                            ITSM &quot;ImportExport&quot; package, version 5.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -364,10 +364,6 @@ system. This suggested priority can always be overridden by the Change
 Builder.
             </para>
             <para>
-                The category, impact and priority values given upon installation can be
-customized in the General Catalog by the administrator.
-            </para>
-            <para>
                 <figure>
                     <title>change-matrix</title>
 <screenshot>
@@ -375,8 +371,10 @@ customized in the General Catalog by the administrator.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Here, the menu item &quot;General Catalog&quot; should be selected in the
-OTRS::ITSM Administration interface.
+                The category, impact and priority values given upon installation can be
+customized in the General Catalog by the administrator. To do this, the menu
+item &quot;General Catalog&quot; should be selected in the OTRS::ITSM
+Administration interface.
             </para>
             <sect3>
                 <title>
@@ -507,13 +505,7 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 Adjustments to the State Machine can be made by the system administrator in
 the administration front end, under menu option &quot;State
 Machine&quot;. The statuses and possible result statuses should be defined
-here.
-            </para>
-            <para>
-                Where necessary, additional statuses can be defined under the menu option
-&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
-Management::Change::State&quot;. In OTRS::ITSM, this is illustrated as a
-table:
+here. In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
                 <figure>
@@ -521,6 +513,11 @@ table:
 <screenshot>
 <graphic fileref="screenshots/change-state-transition.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Where necessary, additional statuses can be defined under the menu option
+&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
+Management::Change::State&quot;.
             </para>
         </sect2>
         <sect2>
@@ -1300,15 +1297,7 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 Adjustments to the State Machine can be made by the system administrator in
 the administration front end, under menu option &quot;State
 Machine&quot;. The statuses and possible result statuses should be defined
-here.
-            </para>
-            <para>
-                Where necessary, additional statuses can be defined under the menu option
-&quot;General Catalog&quot; -&gt;
-&quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
-            </para>
-            <para>
-                In OTRS::ITSM, this is illustrated as a table:
+here. In OTRS::ITSM, this is illustrated as a table:
             </para>
             <para>
                 <figure>
@@ -1316,6 +1305,11 @@ here.
 <screenshot>
 <graphic fileref="screenshots/change-workorder-state-transition.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Where necessary, additional statuses can be defined under the menu option
+&quot;General Catalog&quot; -&gt;
+&quot;ITSM::ChangeManagement::WorkOrder::State&quot;.
             </para>
         </sect2>
         <sect2>
@@ -1562,7 +1556,7 @@ attributes:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1573,7 +1567,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1584,7 +1578,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1595,7 +1589,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1606,7 +1600,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1617,7 +1611,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1628,7 +1622,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1639,7 +1633,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1650,7 +1644,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1661,7 +1655,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1672,7 +1666,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1683,7 +1677,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1694,7 +1688,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1705,7 +1699,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1716,7 +1710,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1727,7 +1721,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1738,7 +1732,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1883,7 +1877,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1894,7 +1888,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1905,7 +1899,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1916,7 +1910,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1927,7 +1921,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1938,7 +1932,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1949,7 +1943,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1960,7 +1954,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1971,7 +1965,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1982,7 +1976,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1993,7 +1987,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2004,7 +1998,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2015,7 +2009,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2026,7 +2020,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2037,7 +2031,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2048,7 +2042,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2059,7 +2053,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2112,7 +2106,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2123,7 +2117,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2134,7 +2128,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2145,7 +2139,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2156,7 +2150,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2167,7 +2161,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2178,7 +2172,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2189,7 +2183,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2200,7 +2194,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2211,7 +2205,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2222,7 +2216,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2233,7 +2227,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2244,7 +2238,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2255,7 +2249,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2266,7 +2260,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2277,7 +2271,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2288,7 +2282,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Agent
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2299,7 +2293,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder Nummer
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2310,7 +2304,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Status
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2321,7 +2315,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderStateSignal
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2332,7 +2326,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Titel
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2343,7 +2337,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Typ
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2397,7 +2391,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Geändert von
+                                <literal>ChangeBy</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2408,7 +2402,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geändert
+                                <literal>ChangeTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2419,7 +2413,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kommentar
+                                <literal>Comment</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2430,7 +2424,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellt von
+                                <literal>CreateBy</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2441,7 +2435,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2452,7 +2446,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Löschen
+                                <literal>Delete</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2463,7 +2457,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Name
+                                <literal>Name</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2474,7 +2468,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                TemplateID
+                                <literal>TemplateID</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2485,7 +2479,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Typ
+                                <literal>Type</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2496,7 +2490,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Gültig
+                                <literal>Valid</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2533,7 +2527,7 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Change
+                                <literal>ITSMChange</literal>
                             </entry>
                             <entry>
                                 Vorlagen für Änderungen
@@ -2541,7 +2535,7 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder
+                                <literal>ITSMWorkOrder</literal>
                             </entry>
                             <entry>
                                 Vorlagen für Arbeitsaufträge
@@ -2549,7 +2543,7 @@ Change Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                CAB
+                                <literal>CAB</literal>
                             </entry>
                             <entry>
                                 Templates for Change Advisory Boards
@@ -2610,7 +2604,7 @@ wildcard
                         </row>
                         <row>
                             <entry>
-                                Work Order Title
+                                Arbeitsauftragtitel
                             </entry>
                             <entry>
                                 Search by the title/name of a Work Order
@@ -2802,7 +2796,7 @@ absolute time values (e.g. from date 1 to date 2) or in relative time values
                         </row>
                         <row>
                             <entry>
-                                Change Time
+                                Zeit ändern
                             </entry>
                             <entry>
                                 Search by the date and time a Change was modified. Search can be performed
@@ -2856,7 +2850,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2867,7 +2861,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2878,7 +2872,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2889,7 +2883,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2900,7 +2894,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2911,7 +2905,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2922,7 +2916,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2933,7 +2927,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2944,7 +2938,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2955,7 +2949,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2966,7 +2960,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2977,7 +2971,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2988,7 +2982,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2999,7 +2993,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3010,7 +3004,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3021,7 +3015,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3032,7 +3026,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3140,7 +3134,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3151,7 +3145,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3162,7 +3156,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3173,7 +3167,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3184,7 +3178,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3195,7 +3189,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3206,7 +3200,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3217,7 +3211,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3228,7 +3222,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3239,7 +3233,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3250,7 +3244,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3261,7 +3255,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3272,7 +3266,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3283,7 +3277,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3294,7 +3288,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3305,7 +3299,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3316,7 +3310,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderCount
+                                <literal>WorkOrderCount</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3425,7 +3419,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                     <tbody>
                         <row>
                             <entry>
-                                Tatsächlicher Start
+                                <literal>ActualStartTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3436,7 +3430,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Tatsächliches Ende
+                                <literal>ActualEndTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3447,7 +3441,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Kategorie
+                                <literal>Category</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3458,7 +3452,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Builder
+                                <literal>ChangeBuilder</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3469,7 +3463,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Manager
+                                <literal>ChangeManager</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3480,7 +3474,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change Nummer
+                                <literal>ChangeNumber</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3491,7 +3485,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Status
+                                <literal>ChangeState</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3502,7 +3496,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                ChangeStateSignal
+                                <literal>ChangeStateSignal</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3513,7 +3507,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Change-Titel
+                                <literal>ChangeTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3524,7 +3518,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Erstellzeit
+                                <literal>CreateTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3535,7 +3529,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Auswirkung
+                                <literal>Impact</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3546,7 +3540,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplanter Start
+                                <literal>PlannedStartTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3557,7 +3551,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Geplantes Ende
+                                <literal>PlannedEndTime</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3568,7 +3562,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Priorität
+                                <literal>Priority</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3579,7 +3573,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Wunschtermin
+                                <literal>RequestedTime</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3590,7 +3584,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Services
+                                <literal>Services</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3601,7 +3595,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Agent
+                                <literal>WorkOrderAgent</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3612,7 +3606,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder Nummer
+                                <literal>WorkOrderNumber</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3623,7 +3617,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Status
+                                <literal>WorkOrderState</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3634,7 +3628,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                WorkOrderStateSignal
+                                <literal>WorkOrderStateSignal</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3645,7 +3639,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Titel
+                                <literal>WorkOrderTitle</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3656,7 +3650,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                Workorder-Typ
+                                <literal>WorkOrderType</literal>
                             </entry>
                             <entry>
                                 Nein

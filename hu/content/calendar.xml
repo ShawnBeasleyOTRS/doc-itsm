@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <chapter>
-    <title>Zusätzliche OTRS-Anwendungen - Kalender</title>
+    <title>További OTRS alkalmazások - naptár</title>
     <para>
         In a default OTRS installation 9 calendars are available, which can be
 configured graphically. Using the SysConfig framework found in the admin
@@ -10,21 +10,22 @@ etc. links:
     </para>
     <para>
         <figure>
-            <title>admin-sys-config</title>
+            <title>Adminisztrációs rendszerbeállítások</title>
 <screenshot>
 <graphic fileref="screenshots/admin-sys-config.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
-        &quot;TimeWorkingHours&quot; can be used in OTRS::ITSM to define so-called
-&quot;service level windows&quot; time frames in which your organization
-guarantees certain service levels to your customers.  If required, these can
-then be monitored and/or evaluated to ensure compliance with any possible
-Service Level Agreements.
+        A „TimeWorkingHours” használható az OTRS::ITSM-ben az úgynevezett
+„szolgáltatási szint ablakok” időkereteinek meghatározásához, amelyekben a
+szervezet bizonyos szolgáltatási szinteket garantál az ügyfeleknek. Ha
+szükséges, akkor ezután ezek megfigyelhetők és/vagy kiértékelhetők a
+megfelelés biztosításához bármilyen lehetséges szolgáltatási szint
+megállapodással.
     </para>
     <para>
         <figure>
-            <title>admin-sysconfig-timeworkinghours</title>
+            <title>Adminisztrációs rendszerbeállítás munkaidők</title>
 <screenshot>
 <graphic fileref="screenshots/admin-sysconfig-timeworkinghours.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>

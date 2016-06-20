@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Kiadásmenedzsment</title>
+    <para>
+
+        Felhívjuk a figyelmét, hogy tervezzük a kiadásmenedzsment folyamat
+bevezetését az OTRS::ITSM jövőbeli verziójában. Azonban az alapvető
+információk beállíthatók, rögzíthetők és szabályozhatók az 1.0-ás verzió
+óta.
+    </para>
+    <para>
+        Példaként a DSL-ből (hiteles médiatárból) származó jóváhagyási szabályok
+vagy áttekintők beállíthatók és használhatók.
+    </para>
+</chapter>

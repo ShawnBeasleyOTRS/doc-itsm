@@ -3,7 +3,10 @@
 <chapter>
     <title>额外的OTRS应用 - 日历</title>
     <para>
-        OTRS初始支持最大9个日历，可以通过图形界面配置。使用系统管理界面的系统配置框架，这个数字可以增加到99，使用如日历1...等等的名称。
+        In a default OTRS installation 9 calendars are available, which can be
+configured graphically. Using the SysConfig framework found in the admin
+interface, this number can be increased to 99, by using the calendar 1
+etc. links:
     </para>
     <para>
         <figure>

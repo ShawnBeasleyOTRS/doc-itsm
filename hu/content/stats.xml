@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Szolgáltatásszint-menedzsment</title>
+    <para>
+        Az OTRS 2.1 bevezetése a belső statisztikai keretrendszer teljes
+felülvizsgálatát jelölte meg a webes felületen keresztüli, közel minden
+elképzelhető jegyalapú jelentés létrehozásának, valamint ezek exportálásának
+vagy importálásának lehetővé tételével. Ezenkívül a OTRS meglévő
+hozzáférés-szabályozási szolgáltatásának kihasználásával az
+adminisztrátoroknak lehetősége nyílt a statisztikák és diagramok
+előállításának és megjelenítésének korlátozására bizonyos felhasználókra,
+csoportokra és/vagy szerepekre. A fejlesztés alatt különös hangsúlyt
+fektettek a verziók közötti kompatibilitás biztosítására, amely azt jelenti,
+hogy a korábbi OTRS verziók által előállított statisztikamodulok továbbra is
+használhatók maradtak. Az OTRS::ITSM-mel való kombináció használatakor az
+ITSM-re vonatkozó további statisztikák váltak elérhetővé az
+ITSMServiceLevelManagement csomag telepítésével.
+    </para>
+    <para>Egy jelentés áttekintő példája:</para>
+    <para>
+        <figure>
+            <title>Ügyintézői jegystatisztikák</title>
+<screenshot>
+<graphic fileref="screenshots/agent-ticket-stats.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>A jelentés beállításainak XML-exportja:</para>
+    <para>
+        <figure>
+            <title>Ügyintézői statisztikák exportálása és importálása</title>
+<screenshot>
+<graphic fileref="screenshots/agent-stats-export-import.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>Egy új jelentéssablon párbeszédalapú létrehozása:</para>
+    <para>
+        <figure>
+            <title>Ügyintézői statisztikák sablonja</title>
+<screenshot>
+<graphic fileref="screenshots/agent-stats-template.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>Egy PDF-előállító is beépítésre került, amely lehetővé teszi a korábban
+előállított jegyek, statisztikák és keresési eredmények nyomtatási nézetének
+PDF-formátumba való exportálását:
+    </para>
+    <para>
+        <figure>
+            <title>PDF-dokumentum nézet</title>
+<screenshot>
+<graphic fileref="screenshots/pdf-doc-view.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>
+        <figure>
+            <title>PDF-dokumentum áttekintő</title>
+<screenshot>
+<graphic fileref="screenshots/pdf-doc-overview.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>Egy grafikus jegyáttekintő példája:</para>
+    <para>
+        <figure>
+            <title>Grafikus jegyáttekintő</title>
+<screenshot>
+<graphic fileref="screenshots/ticket-graphic-overview.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+</chapter>

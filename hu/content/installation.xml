@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Az OTRS::ITSM telepítése</title>
+    <para>
+        Ne feledje, hogy az OTRS 5-ös keretrendszernek előbb telepítve kell lennie
+az OTRS::ITSM telepítéséhez. Minden szükséges információ, beállítás és a
+telepítési eljárás az OTRS adminisztrációs kézikönyvében van leírva.
+    </para>
+
+    <sect1>
+
+        <title>Telepítés</title>
+
+        <para>
+            Miután sikeresen telepítette az OTRS 5-ös vagy későbbi verzióját, folytassa
+rendszerszergazdaként való belépéssel. Az adminisztrációs területen lévő
+csomagkezelő használatával vagy az
+ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ címen keresztül szerezze be az
+ITSM csomagokat, és telepítse azokat a következő sorrendben:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>GeneralCatalog</para>
+            </listitem>
+            <listitem>
+                <para>ITSMCore</para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Ha az OTRS rendszert futtató gépének van internetkapcsolata, akkor használja
+a következő internetes tárolót [--OTRS::ITSM 5 Master--] a lenti csomagok
+telepítéséhez. Egyébként töltse le a lenti csomagokat, és a csomagkezelő
+használatával telepítse azokat:
+
+       </para>
+
+        <itemizedlist>
+
+            <listitem>
+                <para>ITSMIncidentProblemManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMConfigurationManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMChangeManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ITSMServiceLevelManagement</para>
+            </listitem>
+
+            <listitem>
+                <para>ImportExport</para>
+            </listitem>
+
+        </itemizedlist>
+
+        <para>
+            Ezen az oldalon további információkat találhat a telepítési folyamatról:
+<ulink
+url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM">INSTALL-5.ITSM</ulink>
+        </para>
+        <para>
+            <screenshot>
+<screeninfo>Adminisztrációs csomagkezelő</screeninfo> <graphic
+fileref="screenshots/admin-packagemanager.png" scalefit="1" width="100%"
+contentdepth="100%"/></screenshot>
+        </para>
+
+    </sect1>
+    <sect1>
+        <title>Frissítés</title>
+
+        <para>
+            Ha az OTRS::ITSM 1.1-nél régebbi verziót használ, akkor először frissítse a
+rendszert a legutolsó 1.1-es verzióra.
+        </para>
+        <para>
+            Ha az OTRS::ITSM 1.1 már telepítve van, akkor az OTRS::ITSM frissítése ELŐTT
+frissítse az OTRS 2.2-es keretrendszert a 2.3-as verzióra. Ehhez töltse le a
+legfrissebb OTRS 2.3-as keretrendszert, és kövesse az UPGRADING nevű fájlban
+lévő utasításokat. Ezután jelentkezzen be a rendszerbe, és a csomagkezelő
+használatával telepítse az ITSMUpgradeTo12 csomagot. Letöltheti kézzel is,
+vagy használhatja az internetes tárolót. Mellőzzön minden hibaüzenetet,
+amely a régi ITSM csomagok nem megfelelő telepítésével kapcsolatos. Ez a
+csomag minden szükséges csomagot fel fog telepíteni az OTRS::ITSM 1.2-es
+verzióra történő rendszerfrissítéshez, és át fogja költöztetni az összes
+adatát.
+        </para>
+        <para>
+            Megjegyzés: A frissítés néhány percig is eltarthat! Ne állítsa le a
+frissítési folyamatot, ha az már egyszer fut!
+        </para>
+        <para>
+            Ha az OTRS::ITSM 1.2 már telepítve van, akkor az OTRS::ITSM frissítése ELŐTT
+frissítse az OTRS 2.3-as keretrendszert a 2.4-es verzióra. Ehhez töltse le a
+legfrissebb OTRS 2.4-es keretrendszert, és kövesse az UPGRADING nevű fájlban
+lévő utasításokat. Ezután jelentkezzen be a rendszerbe, és a csomagkezelő
+használatával telepítse a „Telepítés” szakaszban leírt csomagokat.
+        </para>
+        <para>
+            A már telepített OTRS::ITSM 1.3 frissítéséhez használja az adminisztrációs
+területen lévő csomagkezelőt. Ha van internet hozzáférése az OTRS-ből, akkor
+használja az internetes tárolót [--OTRS::ITSM 1.3 Master--] az újabb
+csomagok telepítéséhez. A csomag neve melletti „frissítés” hivatkozás jelzi,
+ha újabb csomag érhető el.
+         </para>
+        <para>
+            Egyébként töltse le a csomagokat, és a csomagkezelő használatával telepítse
+azokat. FIGYELMEZTETÉS: Ne távolítsa el a jelenlegi csomagokat, mert el
+fogja veszíteni az adatokat!
+        </para>
+    </sect1>
+</chapter>

@@ -2,7 +2,7 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
-<book lang='zh_CN'>
+<book lang='hu'>
 
     <bookinfo>
         <title>OTRS::ITSM 5</title>
@@ -11,38 +11,47 @@
 
         <legalnotice>
             <para>
-                本作品版权归OTRS AG所有。
+                Ez a mű az OTRS AG szerzői joga alatt áll.
             </para>
             <para>
-                只要您保留此版权声明，就可以拷贝文档。
+                Lemásolhatja részben vagy egészben mindaddig, amíg a másolat tartalmazza ezt
+a szerzői jogi nyilatkozatot.
             </para>
             <para>
-                本文档的源代码可以在<ulink url="https://otrs.github.io">github</ulink>上找到，具体位置是<ulink
-url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>，欢迎贡献更多内容。您也可以在<ulink
-url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>上帮助翻译本文档为您的语言。
+                A dokumentum forráskódja megtalálható a <ulink
+url="https://otrs.github.io">githubon</ulink> a <ulink
+url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink> tárolóban. A
+hozzájárulásokat mindennél jobban köszönjük. Segíthet a saját nyelvére való
+fordításban is a <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
             </para>
             <para>
-                UNIX是X / Open有限公司的注册商标。 Linux是Linus Torvalds的注册商标。
+                A UNIX az X/Open Company Limited bejegyzett védjegye. A Linux Linus Torvalds
+bejegyzett védjegye.
             </para>
             <para>
-                S-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows
-XP, Windows 2003, Windows Vista 与Windows 7是Microsoft公司的注册商标。其他商标与注册商标有：SUSE
-与 SUSE Linux GmbH的YaST， Red Hat 与 Fedora是Red
-Hat公司的注册商标。Mandrake是加州MandrakeSoft公司的注册商标。Debian 是Public
-Interest公司的注册软件商标。MySQL以及MySQL标识是Oracle公司的注册商标。
+                Az MS-DOS, a Windows, a Windows 95, a Windows 98, a Windows NT, a Windows
+2000, a Windows XP és a Windows 2003 a Microsoft Corporation bejegyzett
+védjegyei. További védjegyek és bejegyzett védjegyek: a SUSE és a YaST a
+SUSE GmbH, a Red Hat és a Fedora a Red Hat, Inc. bejegyzett védjegyei. A
+Mandrake a MandrakeSoft, SA. bejegyzett védjegye. A Debian a Software in the
+Public Interest, Inc. bejegyzett védjegye. A MySQL és a MySQL logó a MySQL
+AB. bejegyzett védjegyei.
             </para>
             <para>
-                所有的商标与注册商标都是免费使用，未经授权
+                Minden márkanév a szabad felhasználásra vonatkozó garancia nélkül kerül
+felhasználásra, és lehetséges bejegyzett védjegyek lehetnek.
             </para>
             <para>
-                OTRS AG 本质上是制造商标志。本手册中提到的其它产品可能是各自制造商的商标。
+                Az OTRS AG lényegében a gyártók jelölésrendszerét követi. Az ebben a
+kézikönyvben említett egyéb termékek az illető gyártók védjegyei lehetnek.
             </para>
         </legalnotice>
 
         <revhistory>
             <revision>
                 <revnumber>5.0.1</revnumber>
-                <date>2015年11月24日</date>
+                <date>2015-11-24</date>
             </revision>
         </revhistory>
 

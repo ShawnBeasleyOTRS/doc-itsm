@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Az OTRS::ITSM adminisztrációs területe</title>
+    <para>
+        Az adminisztrációs terület a központi felülete a jegyrendszer
+adminisztrátorának. A rendszer konfigurációjának összes fontos beállítása
+itt ellenőrizhető és/vagy változtatható meg, és itt szabható személyre a
+rendszer az egyéni igényeknek megfelelően.
+    </para>
+    <para>
+        Az adminisztrációs terület az ügyintézői felület navigációs sávján lévő
+„Adminisztráció” hivatkozáson keresztül érhető el. A hivatkozás csak azoknak
+a bejelentkezett felhasználóknak látható, akik adminisztrátori
+jogosultságokat kaptak. Egy alapértelmezett telepítés befejezése után a
+„root@localhost” felhasználónévvel és a telepítés utolsó lépésében
+előállított jelszóval jelentkezhet be a rendszerre OTRS adminisztrátorként.
+    </para>
+
+    <para>
+        <itemizedlist>
+
+            <listitem>
+                <para>az OTRS::ITSM 1.0-tól kezdve</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Általános katalógus ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Kritikusság - Hatás - Prioritás ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Konfigurációelem ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>az OTRS::ITSM 1.1-től kezdve</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Importálás/Exportálás ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>az OTRS::ITSM 2.0-tól kezdve</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Értesítés (ITSM változásmenedzsment) ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Kategória - Hatás - Prioritás ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Állapotgép ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>az OTRS 2.2-től kezdve</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Típus ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Állapot ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ Szolgáltatás ]</para>
+                    </listitem>
+                    <listitem>
+                        <para>[ SLA ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+            <listitem>
+                <para>az OTRS 2.3-tól kezdve</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>[ Prioritás ]</para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+
+        </itemizedlist>
+    </para>
+
+    <para>
+        <figure>
+            <title>Adminisztrációs terület</title>
+<screenshot>
+<graphic fileref="screenshots/admin-area.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <sect1>
+        <title>Az általános katalógus</title>
+        <para>
+            Ahogy a neve is mutatja, az általános katalógus szolgálja az ITSM-hez
+tartozó alapvető konfigurációkat az OTRS::ITSM rendszeren.
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori általános katalógus</title>
+<screenshot>
+<graphic fileref="screenshots/admin-general-catalog-management.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>Például a hivatkozási táblázat bejegyzéseinek szerkesztése a legördülő
+mezőknél: </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori általános katalógus</title>
+<screenshot>
+<graphic fileref="screenshots/admin-general-catalog-management-edit.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Konfigurációelem osztályok beállítása</title>
+        <para>
+            Alapértelmezetten az OTRS::ITSM öt CI-osztályt biztosít az összes fontos IT
+elem ábrázolásához:
+        </para>
+        <itemizedlist>
+            <listitem>
+                <para>[ Computer ]</para>
+                <para>
+                    Az összes olyan CI, amelyre klasszikusan számítógépként hivatkoznak, például
+asztali PC-k vagy laptopok, valamint egyéb intelligens, konfigurálható és
+nem periféria készülékek, mint például kapcsolók (switch), útválasztók
+(router) vagy egyéb aktív hálózati összetevők.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Hardware ]</para>
+                <para>
+                    Az összes olyan hardver összetevő, amelyek nincsenek számítógépekként
+osztályozva, akár egy „blade center” váztól kezdve a nyomtatókig és
+USB-meghajtókig, a CI-szerkezet finomságának szintjétől függően.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Network ]</para>
+                <para>
+                    Logikai hálózatok (LAN, WLAN, WAN, stb.), amelyek IP-cím tereket ívelnek át.
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Software ]</para>
+                <para>Az összes szoftvertermék és licenc.</para>
+            </listitem>
+            <listitem>
+                <para>[ Locations ]</para>
+                <para>Az összes hely, például épület, munkahely, IT létesítmény.</para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Ha az öt osztály nem elegendő az IT környezet leírásához, akkor további
+osztályok adhatók hozzák az OTRS::ITSM adminisztrációs területén lévő
+„Általános katalógus” hivatkozáson keresztül. Egy új CI-osztály létrehozása
+után az általános katalógusban egy meghatározást kell beírni a
+konfigurációelembe.
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori általános katalógus</title>
+<screenshot>
+<graphic fileref="screenshots/admin-general-catalog-management-class.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <warning>
+            <para>
+                A CMDB adatmodell terve és a hozzá kapcsolódó CI-k egy olyan feladat,
+amelyet nem szabad alábecsülni. Tapasztalataink azt mutatják, hogy erősen
+javasolt a fogalmi gondolatok először egy tesztüzemben történő ellenőrzése a
+meglévő IT infrastruktúrával szemben az OTRS::ITSM szabványos adatmodellje
+és/vagy CI osztályai megváltoztatása előtt. Értékesnek bizonyult külső
+segítségnyújtás igénybe vétele a CMDB tervezéséhez, például gyakorlott ITIL
+szakértőké.
+            </para>
+        </warning>
+        <para>
+            Keresse meg lent az önmagát magyarázó alapértelmezett konfiguráció egy
+részét a „computer” CI-osztálynál:
+        </para>
+        <para>
+            <screen>
+[
+    {
+        Key => 'Description',
+        Name => 'Leírás',
+        Searchable => 1,
+        Input => {
+            Type => 'TextArea',
+        },
+    },
+    {
+        Key => 'Type',
+        Name => 'Típus',
+        Searchable => 1,
+        Input => {
+            Type => 'GeneralCatalog',
+            Class => 'ITSM::ConfigItem::Computer::Type',
+        },
+    },
+    {
+        Key => 'Owner',
+        Name => 'Tulajdonos',
+        Searchable => 1,
+        Input => {
+            Type => 'Customer',
+        },
+    },
+    {
+        Key => 'AssetTag',
+        Name => 'Eszközcímke',
+        Searchable => 1,
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+            Required => 1,
+        },
+        CountMin => 0,
+        CountMax => 1,
+        CountDefault => 0,
+    },
+
+            :
+            :
+            :
+
+    {
+        Key => 'Model',
+        Name => 'Modell',
+        Searchable => 1,
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 50,
+        },
+    },
+    {
+        Key => 'OperatingSystem',
+        Name => 'Operációs rendszer',
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+        },
+    },
+    {
+        Key => 'CPU',
+        Name => 'CPU',
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 100,
+        },
+        CountMin => 1,
+        CountMax => 16,
+        CountDefault => 1,
+    },
+];
+
+            </screen>
+        </para>
+        <para>
+            Az attribútum változtatások és módosítások a grafikus beállítási területen
+végezhetők el az „Osztály-meghatározás módosítása” kiválasztásával:
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori konfigurációelem-menedzsment módosítása</title>
+<screenshot>
+<graphic fileref="screenshots/admin-configitem-management-change.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <warning>
+            <para>
+                Annak érdekében, hogy az OTRS::ITSM-ben kezelt adatok következetessége
+biztosítva legyen, a rendszer adminisztrációs területén létrehozott
+információk nem törölhetők általános szabályként. Ha ki szeretné kapcsolni
+az ilyen információkat, akkor változtassa meg a megfelelő listadoboz
+beállításaiban lévő „érvényes” értéket „érvénytelen” vagy „átmenetileg
+érvénytelen” értékre.
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>A CI-osztályok verziókezelése</title>
+        <para>
+            A verziókezelés az összes CI-osztálynál integrálva van a rendszerbe. A
+legfrissebb verziók lesznek használva az OTRS::ITSM keretrendszerben
+megvalósított folyamatoknál.
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori konfigurációelem-menedzsment</title>
+<screenshot>
+<graphic fileref="screenshots/admin-configitem-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Jegyállapot beállítása</title>
+        <para>
+            Az ITIL-hez igazított incidensmenedzsmentben az incidensek vagy sikeresen
+meg vannak oldva, vagy kerülőmegoldással vannak lezárva. Az utóbbi lezárási
+kategória megcímzéséhez az OTRS::ITSM alapértelmezetten tartalmazza a
+„closed with workaround” („lezárva kerülőmegoldással”) jegyállapotot.</para>
+        <para>
+            <figure>
+                <title>Adminisztrátori állapotmenedzsment</title>
+<screenshot>
+<graphic fileref="screenshots/admin-state-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            Az OTRS::ITSM keretrendszerrel megváltoztathatja a meglévő jegyállapotokat,
+vagy újakat adhat hozzá. Két fontos beállítás létezik: a „state-name”
+állapot neve és annak „state-type” típusa. Az összes állapot és típus
+alapértelmezetten elérhető, amint alább ábrázolva van.
+        </para>
+        <para>
+            Az állapotnevek szabadon megválaszthatók. Az „állapot” beállításokban az
+adminisztrációs felületen belül új állapotok adhatók hozzá, vagy
+megváltoztathatók a meglévő állapottípusok.
+        </para>
+        <para>
+            Vegye figyelembe, hogy a „new” („új”) állapoton elvégzett változtatások a
+Kernel/Config.pm beállítófájlban vagy a grafikus beállítási előtétprogramon
+végrehajtott változtatásokat igénylik.
+        </para>
+        <para>
+            <screen>
+    [...]
+    # PostmasterDefaultState
+    # (Az új jegyek alapértelmezett állapota.) [alapértelmezett: new]
+    $Self->{PostmasterDefaultState} = 'new';
+
+    # CustomerDefaultState
+    # (Az új ügyféljegyek alapértelmezett állapota.)
+    $Self->{CustomerDefaultState} = 'new';
+    [...]
+
+            </screen>
+        </para>
+        <para>
+            Ugyanez alkalmazható az „open” állapoton elvégzett változtatásokra is: a
+Kernel/Config.pm beállítófájlban vagy a grafikus beállítási előtétprogramon
+végrehajtott változtatások szükségesek.
+        </para>
+        <para>
+            <screen>
+    [...]
+    # alapértelmezett új telefon állapot
+    $Self->{'Ticket::Frontend::PhoneNextState'} = 'open';
+
+
+    # PostmasterFollowUpState
+    # (Az állapot, ha a jegy egy követést kap.) [alapértelmezett: open]
+
+    $Self->{PostmasterFollowUpState} = 'open';
+    [...]
+        </screen>
+        </para>
+
+        <warning>
+            <para>
+                Annak érdekében, hogy az OTRS::ITSM-ben kezelt adatok következetessége
+biztosítva legyen, a rendszer adminisztrációs területén létrehozott
+információk nem törölhetők általános szabályként. Ha ki szeretné kapcsolni
+az ilyen információkat, akkor változtassa meg a megfelelő listadoboz
+beállításaiban lévő „érvényes” értéket „érvénytelen” vagy „átmenetileg
+érvénytelen” értékre.
+            </para>
+        </warning>
+    </sect1>
+    <sect1>
+        <title>A kritikusság - hatás - prioritás mátrix</title>
+        <para>Az OTRS::ITSM öt jegyprioritási szintet biztosít:</para>
+        <itemizedlist>
+            <listitem>
+                <para>[ Kritikusság ]</para>
+                <para>
+                    A szolgáltatás jelentősége („kritikussága”) az IT felhasználóknál vagy
+ügyfeleknél
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Hatás ]</para>
+                <para>
+                    Az érintett szolgáltatás hibáinak hatása a felhasználókra vagy ügyfelekre
+                </para>
+            </listitem>
+            <listitem>
+                <para>[ Prioritás ]</para>
+                <para>
+                    Prioritás az OTRS::ITSM keretrendszeren belül a kritikusságból és a hatásból
+eredményezve
+                </para>
+            </listitem>
+        </itemizedlist>
+        <para>
+            Az OTRS::ITSM jegyprioritás a lent látható mátrixszal határozható meg, és a
+prioritásba helyezett jegy integrálva lesz a várólista nézetekbe.
+         </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori prioritás lefoglalás</title>
+<screenshot>
+<graphic fileref="screenshots/admin-priority-allocation.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            A szint száma, a leírások és az érvényesség az adminisztrációs felületen
+érhető el és változtatható meg az „Általános katalógus” hivatkozáson
+keresztül:
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori általános katalógus kezelés prioritás</title>
+<screenshot>
+<graphic fileref="screenshots/admin-general-catalog-management-priority.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </sect1>
+    <sect1>
+        <title>Jegyprioritások beállítása</title>
+        <para>
+            Az OTRS::ITSM keretrendszeren belül a jegyek a jegyprioritások alapján
+vannak rendezve, azaz a magasabb prioritású jegyek feljebb jelennek meg a
+várólista nézetben, és az alacsonyabb prioritásúak az alsóbb pozíciókon. A
+prioritások a grafikus adminisztrátori előtétprogramon beállíthatók,
+átnevezhetők és módosíthatók.
+        </para>
+        <para>
+            <figure>
+                <title>Adminisztrátori prioritásmenedzsment</title>
+<screenshot>
+<graphic fileref="screenshots/admin-priority-management.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>Részletesebb információk az OTRS adminisztrátori kézikönyvében találhatók.
+        </para>
+        <warning>
+            <para>
+                Az „id” attribútum dönti el a prioritások OTRS::ITSM belső sorrendjét. Az 1
+felel meg a legkisebbnek és az 5 (vagy magasabb) a legnagyobbnak. A szám a
+prioritás nevében a prioritásokon belüli helyes sorrend megvalósításához
+használható.
+            </para>
+        </warning>
+        <warning>
+            <para>
+                Annak érdekében, hogy az OTRS::ITSM-ben kezelt adatok következetessége
+biztosítva legyen, a rendszer adminisztrációs területén létrehozott
+információk nem törölhetők általános szabályként. Ha ki szeretné kapcsolni
+az ilyen információkat, akkor változtassa meg a megfelelő listadoboz
+beállításaiban lévő „érvényes” értéket „érvénytelen” vagy „átmenetileg
+érvénytelen” értékre.
+            </para>
+        </warning>
+    </sect1>
+</chapter>

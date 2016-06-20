@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>Első lépések az OTRS::ITSM használatában</title>
+    <para>
+        Az első dolog, amit talán észrevett, hogy az OTRS::ITSM teljes mértékben az
+OTRS-ben megvalósított ügyintézői- és ügyfélfelületet (ügyfél
+előtétprogramot) használja. Ha korábban már használták az OTRS-t, akkor
+minden szolgáltatás és lépés (úgymint bejelentkezés, várólista beállítások,
+felhasználói beállítások, szűrők, szabályok, felhasználói jogosultságok,
+stb.) továbbra is mindenféle módosítás nélkül használhatók.
+    </para>
+    <para>
+        A kezében lévő kézikönyv éppen ezért csak az OTRS és az OTRS::ITSM új
+szempontjai közötti különbségeket tárgyalja, különös figyelmet fordítva a
+következőkre:
+    </para>
+    <itemizedlist>
+        <listitem>
+            <para>IT-szolgáltatások és SLA-k</para>
+        </listitem>
+        <listitem>
+            <para>A CMDB</para>
+        </listitem>
+        <listitem>
+            <para>Új jegymezők és függvények</para>
+        </listitem>
+        <listitem>
+            <para>ITIL-kompatibilis terminológia</para>
+        </listitem>
+    </itemizedlist>
+    <para>
+        Azon beállításokról és eljárásokról, amelyek azonosak mind az OTRS, mind az
+OTRS::ITSM esetén, részletes információk találhatók a
+http://otrs.github.io/doc/manual/admin/5.0/en/html/ címen lévő OTRS
+adminisztrátori kézikönyvben, amelyet folyamatosan felülvizsgálnak.
+    </para>
+    <para>
+        <figure>
+            <title>Adminisztrátori kézikönyv</title>
+<screenshot>
+<graphic fileref="screenshots/admin-manual.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+</chapter>

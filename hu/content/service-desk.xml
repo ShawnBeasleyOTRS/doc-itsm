@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter>
+    <title>ITIL-hez igazított szolgáltatás támogatás az OTRS::ITSM-mel</title>
+    <para>
+        Az ITIL-hez hasonlóan az OTRS::ITSM-ről sem állítható, hogy „kulcsrakész”
+megoldást nyújtana minden IT-szolgáltatásmenedzsmentből eredő feladathoz és
+kérdéshez. Valójában egy rugalmas, stabil és könnyen érthető információs
+platformként hivatott szolgálni, amely alkalmassá tehető arra, hogy
+gyakorlatilag minden szervezet követelményének megfeleljen.
+
+    </para>
+    <para>
+        Ezért arra kérjük, bocsássa meg nekünk, hogy felhívjuk a figyelmét a
+következőkre: egy olyan ITIL-hez igazított eszköznek, mint az OTRS::ITSM,
+csak akkor van érelme, ha a folyamatok, az emberek és a termékek
+(IT-szolgáltatások) valóban az ITIL-hez igazítottak.
+    </para>
+    <para>
+        A konkrét üzleti forgatókönyv követelményeinek megfelelő általános
+ITIL-folyamatok átgondolt összeállítása nélkül az OTRS::ITSM nem fogja
+elérni az IT-szolgáltatásmenedzsment fő teljesítményjelzőinek megfigyelhető
+javulását.</para>
+    <para>
+        Tisztában kell lennie azzal a ténnyel is, hogy a sikeres ITIL megvalósítási
+projektek tipikusan akár egy évig vagy még tovább tartanak. Ezek hatályát és
+a szervezetre kifejtett hatását nem szabad alábecsülni. Azonban szeretnénk
+megemlíteni, hogy egy rendesen megvalósított ITIL-hez igazított ITSM eszköz
+segítségére lehet időt és pénzt megtakarítani, mivel az eszköz
+folyamat-támogatása segíti és felgyorsítja a szervezeti átrendeződés
+folyamatát.
+    </para>
+    <para>
+       A 2.0-s verzió óta az OTRS::ITSM a következő szolgáltatásokat és
+folyamatokat támogatja, amelyek általában egy ITIL megvalósítás első fázisa
+közben kerülnek megtervezésre: incidensmenedzsment, problémamenedzsment,
+szolgáltatási szint menedzsment, változásmenedzsment és a
+konfigurációmenedzsment-adatbázis.
+    </para>
+    <para>
+       A rendszer használatának és alkalmazásának részletesebb leírása megtalálható
+a következő szakaszokban. Ne feledje, hogy minden egyes OTRS::ITSM csomag
+függetlenül telepíthető, és hogy a nevük megfelelnek az illető ITIL
+témáknak.
+    </para>
+    <para>
+        Az OTRS::ITSM megvalósítása az ITIL v3 verzióján alapul.
+    </para>
+</chapter>
