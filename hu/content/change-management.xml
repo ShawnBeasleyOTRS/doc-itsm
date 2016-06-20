@@ -40,17 +40,17 @@ mérőszámok vagy jelentések.
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, version 5.0.1 or higher
+                            OTRS keretrendszer, 5.0.1-es verzió vagy magasabb
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog&quot; package, version 5.0
+                            ITSM „GeneralCatalog” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore&quot; package, version 5.0
+                            ITSM „ITSMCore” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                 </orderedlist>
@@ -63,22 +63,22 @@ szükségesek:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0
+                            ITSM „ITSMIncidentProblemManagement” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0
+                            ITSM „ITSMServiceLevelManagement” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0
+                            ITSM „ITSMConfigurationManagement” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport&quot; package, version 5.0
+                            ITSM „ImportExport” csomag, 5.0-s verzió
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -375,10 +375,10 @@ mindig felülbírálhatja.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The category, impact and priority values given upon installation can be
-customized in the General Catalog by the administrator. To do this, the menu
-item &quot;General Catalog&quot; should be selected in the OTRS::ITSM
-Administration interface.
+                A telepítés után megadott kategóriát, hatást és prioritást az adminisztrátor
+személyre szabhatja az általános katalógusban. Ennek elvégzéséhez az
+„Általános katalógus” menüpontot kell választani az OTRS::ITSM
+adminisztrációs felületén.
             </para>
             <sect3>
                 <title>
@@ -506,10 +506,10 @@ javaslatokat állít elő a következő logikai modell alapján:
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Adjustments to the State Machine can be made by the system administrator in
-the administration front end, under menu option &quot;State
-Machine&quot;. The statuses and possible result statuses should be defined
-here. In OTRS::ITSM, this is illustrated as a table:
+                Az állapotgépen történő beállításokat a rendszer adminisztrátora teheti meg
+az adminisztrációs előtétprogramon az „Állapotgép” menüpont alatt. Itt kell
+meghatározni az állapotokat és a lehetséges eredményállapotokat. Az
+OTRS::ITSM-ben ez egy táblázatként van ábrázolva:
             </para>
             <para>
                 <figure>
@@ -519,9 +519,8 @@ here. In OTRS::ITSM, this is illustrated as a table:
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Where necessary, additional statuses can be defined under the menu option
-&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
-Management::Change::State&quot;.
+                Ahol szükséges, további állapotok határozhatók meg az „Általános katalógus”
+-&gt; „ITSM::Change Management::Change::State” menüpont alatt.
             </para>
         </sect2>
         <sect2>
@@ -1309,10 +1308,10 @@ telepítés javaslatokat állít elő a következő logikai modell alapján:
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Adjustments to the State Machine can be made by the system administrator in
-the administration front end, under menu option &quot;State
-Machine&quot;. The statuses and possible result statuses should be defined
-here. In OTRS::ITSM, this is illustrated as a table:
+                Az állapotgépen történő beállításokat a rendszer adminisztrátora teheti meg
+az adminisztrációs előtétprogramon az „Állapotgép” menüpont alatt. Itt kell
+meghatározni az állapotokat és a lehetséges eredményállapotokat. Az
+OTRS::ITSM-ben ez egy táblázatként van ábrázolva:
             </para>
             <para>
                 <figure>

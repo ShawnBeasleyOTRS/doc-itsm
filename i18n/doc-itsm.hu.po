@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2016-06-20 14:37+0200\n"
-"PO-Revision-Date: 2016-06-20 12:38+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"PO-Revision-Date: 2016-06-20 12:53+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -3841,17 +3841,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:44
 msgid "OTRS Framework, version 5.0.1 or higher"
-msgstr ""
+msgstr "OTRS keretrendszer, 5.0.1-es verzió vagy magasabb"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:49
 msgid "ITSM &quot;GeneralCatalog&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „GeneralCatalog” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:54
 msgid "ITSM &quot;ITSMCore&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „ITSMCore” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:41
@@ -3870,22 +3870,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:67
 msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „ITSMIncidentProblemManagement” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:72
 msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „ITSMServiceLevelManagement” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:77
 msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „ITSMConfigurationManagement” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:82
 msgid "ITSM &quot;ImportExport&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM „ImportExport” csomag, 5.0-s verzió"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/change-management.xml:91
@@ -4361,6 +4361,10 @@ msgid ""
 "item &quot;General Catalog&quot; should be selected in the OTRS::ITSM "
 "Administration interface."
 msgstr ""
+"A telepítés után megadott kategóriát, hatást és prioritást az adminisztrátor "
+"személyre szabhatja az általános katalógusban. Ennek elvégzéséhez az "
+"„Általános katalógus” menüpontot kell választani az OTRS::ITSM "
+"adminisztrációs felületén."
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/content/change-management.xml:393
@@ -4472,6 +4476,10 @@ msgid ""
 "The statuses and possible result statuses should be defined here. In OTRS::"
 "ITSM, this is illustrated as a table:"
 msgstr ""
+"Az állapotgépen történő beállításokat a rendszer adminisztrátora teheti meg "
+"az adminisztrációs előtétprogramon az „Állapotgép” menüpont alatt. Itt kell "
+"meghatározni az állapotokat és a lehetséges eredményállapotokat. Az OTRS::"
+"ITSM-ben ez egy táblázatként van ábrázolva:"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
 #: en/content/change-management.xml:525
@@ -4494,6 +4502,8 @@ msgid ""
 "&quot;General Catalog&quot; -&gt; &quot;ITSM::Change Management::Change::"
 "State&quot;."
 msgstr ""
+"Ahol szükséges, további állapotok határozhatók meg az „Általános katalógus” -"
+"&gt; „ITSM::Change Management::Change::State” menüpont alatt."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/change-management.xml:539
@@ -5562,7 +5572,7 @@ msgstr "Aktív"
 #: en/content/change-management.xml:2154 en/content/change-management.xml:2910
 #: en/content/change-management.xml:3197 en/content/change-management.xml:3485
 msgid "<literal>ActualStartTime</literal>"
-msgstr ""
+msgstr "<literal>ActualStartTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1607 en/content/change-management.xml:1929
@@ -5576,7 +5586,7 @@ msgstr "Dátum és idő, amikor a változás megvalósítása elkezdődött"
 #: en/content/change-management.xml:2165 en/content/change-management.xml:2921
 #: en/content/change-management.xml:3208 en/content/change-management.xml:3496
 msgid "<literal>ActualEndTime</literal>"
-msgstr ""
+msgstr "<literal>ActualEndTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1618
@@ -5588,7 +5598,7 @@ msgstr "Dátum és idő, amikor a változás megvalósítása befejeződött"
 #: en/content/change-management.xml:2176 en/content/change-management.xml:2932
 #: en/content/change-management.xml:3219 en/content/change-management.xml:3507
 msgid "<literal>Category</literal>"
-msgstr ""
+msgstr "<literal>Category</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1629 en/content/change-management.xml:1951
@@ -5602,7 +5612,7 @@ msgstr "A változás kategóriája vagy típusa"
 #: en/content/change-management.xml:2187 en/content/change-management.xml:2943
 #: en/content/change-management.xml:3230 en/content/change-management.xml:3518
 msgid "<literal>ChangeBuilder</literal>"
-msgstr ""
+msgstr "<literal>ChangeBuilder</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1640 en/content/change-management.xml:1962
@@ -5616,7 +5626,7 @@ msgstr "A változás-összeállító neve"
 #: en/content/change-management.xml:2198 en/content/change-management.xml:2954
 #: en/content/change-management.xml:3241 en/content/change-management.xml:3529
 msgid "<literal>ChangeManager</literal>"
-msgstr ""
+msgstr "<literal>ChangeManager</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1651 en/content/change-management.xml:1973
@@ -5630,7 +5640,7 @@ msgstr "A változásmenedzser neve"
 #: en/content/change-management.xml:2209 en/content/change-management.xml:2965
 #: en/content/change-management.xml:3252 en/content/change-management.xml:3540
 msgid "<literal>ChangeNumber</literal>"
-msgstr ""
+msgstr "<literal>ChangeNumber</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1662 en/content/change-management.xml:1984
@@ -5644,7 +5654,7 @@ msgstr "A rendszer által előállított változásszám"
 #: en/content/change-management.xml:2220 en/content/change-management.xml:2976
 #: en/content/change-management.xml:3263 en/content/change-management.xml:3551
 msgid "<literal>ChangeState</literal>"
-msgstr ""
+msgstr "<literal>ChangeState</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1673 en/content/change-management.xml:1995
@@ -5658,7 +5668,7 @@ msgstr "A változás állapota"
 #: en/content/change-management.xml:2231 en/content/change-management.xml:2987
 #: en/content/change-management.xml:3274 en/content/change-management.xml:3562
 msgid "<literal>ChangeStateSignal</literal>"
-msgstr ""
+msgstr "<literal>ChangeStateSignal</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1684 en/content/change-management.xml:2006
@@ -5672,7 +5682,7 @@ msgstr "A változás állapotának jelzője közlekedési lámpaként megjelení
 #: en/content/change-management.xml:2242 en/content/change-management.xml:2998
 #: en/content/change-management.xml:3285 en/content/change-management.xml:3573
 msgid "<literal>ChangeTitle</literal>"
-msgstr ""
+msgstr "<literal>ChangeTitle</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1695 en/content/change-management.xml:2017
@@ -5687,7 +5697,7 @@ msgstr "A változás neve"
 #: en/content/change-management.xml:3009 en/content/change-management.xml:3296
 #: en/content/change-management.xml:3584
 msgid "<literal>CreateTime</literal>"
-msgstr ""
+msgstr "<literal>CreateTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1706 en/content/change-management.xml:2028
@@ -5701,7 +5711,7 @@ msgstr "Dátum és idő, amikor a változás létrejött"
 #: en/content/change-management.xml:2264 en/content/change-management.xml:3020
 #: en/content/change-management.xml:3307 en/content/change-management.xml:3595
 msgid "<literal>Impact</literal>"
-msgstr ""
+msgstr "<literal>Impact</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1717 en/content/change-management.xml:2039
@@ -5714,7 +5724,7 @@ msgstr "A változás elvárt hatása"
 #: en/content/change-management.xml:2275 en/content/change-management.xml:3031
 #: en/content/change-management.xml:3318 en/content/change-management.xml:3606
 msgid "<literal>PlannedStartTime</literal>"
-msgstr ""
+msgstr "<literal>PlannedStartTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1728 en/content/change-management.xml:2050
@@ -5728,7 +5738,7 @@ msgstr "Tervezett változás megvalósítás kezdeti dátuma és ideje"
 #: en/content/change-management.xml:2286 en/content/change-management.xml:3042
 #: en/content/change-management.xml:3329 en/content/change-management.xml:3617
 msgid "<literal>PlannedEndTime</literal>"
-msgstr ""
+msgstr "<literal>PlannedEndTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1739
@@ -5740,7 +5750,7 @@ msgstr "Tervezett változás megvalósítás befejezési dátuma és ideje"
 #: en/content/change-management.xml:2297 en/content/change-management.xml:3053
 #: en/content/change-management.xml:3340 en/content/change-management.xml:3628
 msgid "<literal>Priority</literal>"
-msgstr ""
+msgstr "<literal>Priority</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1750 en/content/change-management.xml:2072
@@ -5754,7 +5764,7 @@ msgstr "A változás prioritási szintje"
 #: en/content/change-management.xml:2308 en/content/change-management.xml:3064
 #: en/content/change-management.xml:3351 en/content/change-management.xml:3639
 msgid "<literal>RequestedTime</literal>"
-msgstr ""
+msgstr "<literal>RequestedTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1761 en/content/change-management.xml:2083
@@ -5768,7 +5778,7 @@ msgstr "Az ügyfél kívánt megvalósítási dátuma"
 #: en/content/change-management.xml:2319 en/content/change-management.xml:3075
 #: en/content/change-management.xml:3362 en/content/change-management.xml:3650
 msgid "<literal>Services</literal>"
-msgstr ""
+msgstr "<literal>Services</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1772 en/content/change-management.xml:2094
@@ -5781,7 +5791,7 @@ msgstr "A változás által érintett szolgáltatások"
 #: en/content/change-management.xml:1777 en/content/change-management.xml:2099
 #: en/content/change-management.xml:3086 en/content/change-management.xml:3373
 msgid "<literal>WorkOrderCount</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderCount</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1783 en/content/change-management.xml:2105
@@ -6008,7 +6018,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2330 en/content/change-management.xml:3661
 msgid "<literal>WorkOrderAgent</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderAgent</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2336 en/content/change-management.xml:3667
@@ -6018,7 +6028,7 @@ msgstr "A PIR-hez hozzárendelt ügyintéző"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2341 en/content/change-management.xml:3672
 msgid "<literal>WorkOrderNumber</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderNumber</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2347 en/content/change-management.xml:3678
@@ -6028,12 +6038,12 @@ msgstr "Munkamegrendelés-szám"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2352 en/content/change-management.xml:3683
 msgid "<literal>WorkOrderState</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderState</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2363 en/content/change-management.xml:3694
 msgid "<literal>WorkOrderStateSignal</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderStateSignal</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2369 en/content/change-management.xml:3700
@@ -6043,7 +6053,7 @@ msgstr "Munkamegrendelés-állapot jelző közlekedési lámpaként megjelenítv
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2374 en/content/change-management.xml:3705
 msgid "<literal>WorkOrderTitle</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderTitle</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2380 en/content/change-management.xml:3711
@@ -6053,7 +6063,7 @@ msgstr "A munkamegrendelés neve"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2385 en/content/change-management.xml:3716
 msgid "<literal>WorkOrderType</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderType</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2391 en/content/change-management.xml:3722
@@ -6103,7 +6113,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2441
 msgid "<literal>ChangeBy</literal>"
-msgstr ""
+msgstr "<literal>ChangeBy</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2447
@@ -6113,7 +6123,7 @@ msgstr "Az ügyintéző felhasználóneve, aki utoljára módosította a sablont
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2452
 msgid "<literal>ChangeTime</literal>"
-msgstr ""
+msgstr "<literal>ChangeTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2458
@@ -6123,7 +6133,7 @@ msgstr "Az utolsó módosítás dátuma és ideje"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2463
 msgid "<literal>Comment</literal>"
-msgstr ""
+msgstr "<literal>Comment</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2469
@@ -6133,7 +6143,7 @@ msgstr "A sablon megjegyzései vagy leírása"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2474
 msgid "<literal>CreateBy</literal>"
-msgstr ""
+msgstr "<literal>CreateBy</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2480
@@ -6148,7 +6158,7 @@ msgstr "Dátum és idő, amikor a sablon létrejött"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2496
 msgid "<literal>Delete</literal>"
-msgstr ""
+msgstr "<literal>Delete</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2502
@@ -6158,7 +6168,7 @@ msgstr "Lehetőség egy kiválasztott sablon törlésére"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2507
 msgid "<literal>Name</literal>"
-msgstr ""
+msgstr "<literal>Name</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2513
@@ -6168,7 +6178,7 @@ msgstr "A sablon neve"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2518
 msgid "<literal>TemplateID</literal>"
-msgstr ""
+msgstr "<literal>TemplateID</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2524
@@ -6178,7 +6188,7 @@ msgstr "A sablon belső adatbázis-azonosítója"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2529
 msgid "<literal>Type</literal>"
-msgstr ""
+msgstr "<literal>Type</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2535
@@ -6188,7 +6198,7 @@ msgstr "A sablon típusa"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2540
 msgid "<literal>Valid</literal>"
-msgstr ""
+msgstr "<literal>Valid</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2546
@@ -6220,7 +6230,7 @@ msgstr "Sablontípusok"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2578
 msgid "<literal>ITSMChange</literal>"
-msgstr ""
+msgstr "<literal>ITSMChange</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2581
@@ -6230,7 +6240,7 @@ msgstr "Sablonok a változásokhoz"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2586
 msgid "<literal>ITSMWorkOrder</literal>"
-msgstr ""
+msgstr "<literal>ITSMWorkOrder</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2589
@@ -6240,7 +6250,7 @@ msgstr "Sablonok a munkamegrendelésekhez"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2594
 msgid "<literal>CAB</literal>"
-msgstr ""
+msgstr "<literal>CAB</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2597
@@ -7869,6 +7879,10 @@ msgid ""
 "interface, this number can be increased to 99, by using the calendar 1 etc. "
 "links:"
 msgstr ""
+"Egy alapértelmezett OTRS telepítésben 9 naptár érhető el, amelyek grafikusan "
+"állíthatók be. Az adminisztrációs felületen található rendszerbeállító "
+"keretrendszer használatával ez a szám 99-re növelhető az 1. naptár, stb. "
+"hivatkozások használatával:"
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/calendar.xml:12

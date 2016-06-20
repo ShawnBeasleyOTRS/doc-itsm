@@ -3,10 +3,10 @@
 <chapter>
     <title>További OTRS alkalmazások - naptár</title>
     <para>
-        In a default OTRS installation 9 calendars are available, which can be
-configured graphically. Using the SysConfig framework found in the admin
-interface, this number can be increased to 99, by using the calendar 1
-etc. links:
+        Egy alapértelmezett OTRS telepítésben 9 naptár érhető el, amelyek grafikusan
+állíthatók be. Az adminisztrációs felületen található rendszerbeállító
+keretrendszer használatával ez a szám 99-re növelhető az 1. naptár,
+stb. hivatkozások használatával:
     </para>
     <para>
         <figure>
