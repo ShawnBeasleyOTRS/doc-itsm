@@ -387,7 +387,7 @@ in change management.
 
                     <listitem>
                         <para>
-                            New Generic Search Dialogs.
+                            Neue generische Suchdialoge.
                         </para>
                     </listitem>
 
@@ -521,7 +521,7 @@ the Configuration Items, which will bring a sustainable gain in flexibility.
                     <listitem>
                         <para>SLA-Service multi-assignments</para>
                         <para>
-                            It is now possible to assign a SLA to multiple Services.
+                            Es ist nich möglich ein SLA mehreren Diensten zuzuweisen.
                         </para>
                     </listitem>
 
@@ -533,10 +533,10 @@ the Configuration Items, which will bring a sustainable gain in flexibility.
                     </listitem>
 
                     <listitem>
-                        <para>Refresh-Mechanism</para>
+                        <para>Erneuerungs-mechanismus</para>
                         <para>
-                            A refresh mechanism was added to refresh the service overview and the config
-item overview screens automatically.
+                            Ein erneuerungs mechanismus wurde hinzugefügt um die erneuerung der Dienst
+übersicht und der config item übersicht zu automatisieren.
                         </para>
                     </listitem>
 

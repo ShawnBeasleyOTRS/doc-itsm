@@ -13,30 +13,21 @@
             <para>
                 本作品版权归OTRS AG所有。
             </para>
+
             <para>
                 只要您保留此版权声明，就可以拷贝文档。
             </para>
+
+            <para>
+                所有的产品名称均为无担保免费使用，也可能是注册商标。 本手册中提及的所有产品可能是相应制造商的注册商标。
+            </para>
+
             <para>
                 本文档的源代码可以在<ulink url="https://otrs.github.io">github</ulink>上找到，具体位置是<ulink
 url="https://github.com/OTRS/doc-itsm">doc-itsm</ulink>，欢迎贡献更多内容。您也可以在<ulink
 url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>上帮助翻译本文档为您的语言。
             </para>
-            <para>
-                UNIX是X / Open有限公司的注册商标。 Linux是Linus Torvalds的注册商标。
-            </para>
-            <para>
-                S-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows
-XP, Windows 2003, Windows Vista 与Windows 7是Microsoft公司的注册商标。其他商标与注册商标有：SUSE
-与 SUSE Linux GmbH的YaST， Red Hat 与 Fedora是Red
-Hat公司的注册商标。Mandrake是加州MandrakeSoft公司的注册商标。Debian 是Public
-Interest公司的注册软件商标。MySQL以及MySQL标识是Oracle公司的注册商标。
-            </para>
-            <para>
-                所有的商标与注册商标都是免费使用，未经授权
-            </para>
-            <para>
-                OTRS AG 本质上是制造商标志。本手册中提到的其它产品可能是各自制造商的商标。
-            </para>
+
         </legalnotice>
 
         <revhistory>

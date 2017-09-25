@@ -5,15 +5,16 @@
 # Translators:
 # Dominik <dominik@reichardt-online.it>, 2015
 # Dr. Marko Nordquist <marko.nordquist@irix.ch>, 2015
-# Ettore Atalan <atalanttore@googlemail.com>, 2015
+# Ettore Atalan <atalanttore@googlemail.com>, 2015-2016
+# Lukas, 2017
 # ru_otrs <robert.ullrich@otrs.com>, 2014-2016
 # Tamer Kor <tk@kor.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-06-20 14:37+0200\n"
-"PO-Revision-Date: 2016-06-20 12:38+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"POT-Creation-Date: 2017-09-25 10:37-0500\n"
+"PO-Revision-Date: 2017-09-25 15:42+0000\n"
+"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +47,7 @@ msgid "This work is copyrighted by OTRS AG."
 msgstr "Dieses Werk ist geistiges Eigentum der OTRS AG."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:21
+#: en/book.xml:22
 msgid ""
 "You may copy it in whole or in part as long as the copies retain this "
 "copyright statement."
@@ -55,7 +56,15 @@ msgstr ""
 "Copyright-Vermerk befindet sich auf jeder Kopie."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:25
+#: en/book.xml:27
+msgid ""
+"All trade names are used without the guarantee for their free use and are "
+"possibly registered trade marks.  All products mentioned in this manual may "
+"be trade marks of the respective manufacturer."
+msgstr ""
+
+#. type: Content of: <book><bookinfo><legalnotice><para>
+#: en/book.xml:34
 msgid ""
 "The source code of this document can be found at <ulink url=\"https://otrs."
 "github.io\">github</ulink>, in the repository <ulink url=\"https://github."
@@ -69,61 +78,13 @@ msgstr ""
 "Sie können auch bei der Übersetzung in Ihre Sprache helfen, und zwar bei "
 "<ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:33
-msgid ""
-"UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
-"registered trademark of Linus Torvalds."
-msgstr ""
-"UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited. Linux "
-"ist ein eingetragenes Warenzeichen von Linus Torvalds."
-
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:37
-msgid ""
-"MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows "
-"XP and Windows 2003 are registered trademarks of Microsoft Corporation.  "
-"Other trademarks and registered trademarks are: SUSE and YaST of SUSE GmbH, "
-"Red Hat and Fedora are registered trademarks of Red Hat, Inc.  Mandrake is a "
-"registered trademark of MandrakeSoft, SA.  Debian is a registered trademark "
-"of Software in the Public Interest, Inc.  MySQL and the MySQL Logo are "
-"registered trademarks of MySQL AB."
-msgstr ""
-"MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows "
-"XP, Windows 2003 und Windows Vista sind eingetragene Warenzeichen der "
-"Microsoft Corporation. Andere Warenzeichen oder registrierte Warenzeichen: "
-"SUSE und YaST von SUSE Linux GmbH, Red Hat und Fedora von Red Hat Inc., "
-"Debian von Software in the Public Interest, Inc., Mandrake von MandrakeSoft, "
-"SA. MySQL und das MySQL Logo sind eingetragene Warenzeichen Oracle "
-"Corporation und/oder verbundener Unternehmen. "
-
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:48
-msgid ""
-"All trade names are used without the guarantee for their free use and are "
-"possibly registered trade marks."
-msgstr ""
-"Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt "
-"und sind möglicherweise eingetragene Warenzeichen."
-
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:53
-msgid ""
-"OTRS AG essentially follows the notations of the manufacturers.  Other "
-"products mentioned in this manual may be trademarks of the respective "
-"manufacturer."
-msgstr ""
-"Die Firma OTRS AG richtet sich im Wesentlichen nach den Schreibweisen der "
-"Hersteller. Andere hier genannte Produkte können Warenzeichen des jeweiligen "
-"Herstellers sein."
-
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
-#: en/book.xml:62
+#: en/book.xml:46
 msgid "5.0.1"
 msgstr "5.0.1"
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
-#: en/book.xml:63
+#: en/book.xml:47
 msgid "11/24/2015"
 msgstr "11/24/2015"
 
@@ -732,7 +693,7 @@ msgstr "Portierten Code für das OTRS 3.0 Framework."
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:351
 msgid "New Generic Search Dialogs."
-msgstr ""
+msgstr "Neue generische Suchdialoge."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:357
@@ -913,7 +874,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:484
 msgid "It is now possible to assign a SLA to multiple Services."
-msgstr ""
+msgstr "Es ist nich möglich ein SLA mehreren Diensten zuzuweisen."
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:489
@@ -928,7 +889,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:496
 msgid "Refresh-Mechanism"
-msgstr ""
+msgstr "Erneuerungs-mechanismus"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:498
@@ -936,6 +897,8 @@ msgid ""
 "A refresh mechanism was added to refresh the service overview and the config "
 "item overview screens automatically."
 msgstr ""
+"Ein erneuerungs mechanismus wurde hinzugefügt um die erneuerung der Dienst "
+"übersicht und der config item übersicht zu automatisieren."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:508
@@ -1710,7 +1673,7 @@ msgstr ""
 #: en/content/installation.xml:65 en/content/first-steps.xml:38
 #: en/content/cmdb.xml:132 en/content/cmdb.xml:141 en/content/cmdb.xml:157
 #: en/content/cmdb.xml:166 en/content/cmdb.xml:244 en/content/cmdb.xml:266
-#: en/content/cmdb.xml:275 en/content/cmdb.xml:290 en/content/cmdb.xml:357
+#: en/content/cmdb.xml:275 en/content/cmdb.xml:290 en/content/cmdb.xml:366
 #: en/content/incident-problem.xml:56 en/content/incident-problem.xml:67
 #: en/content/incident-problem.xml:83 en/content/incident-problem.xml:104
 #: en/content/incident-problem.xml:125 en/content/incident-problem.xml:144
@@ -1729,13 +1692,13 @@ msgstr ""
 #: en/content/change-management.xml:2877 en/content/change-management.xml:3165
 #: en/content/change-management.xml:3452 en/content/stats.xml:18
 #: en/content/stats.xml:27 en/content/stats.xml:36 en/content/stats.xml:47
-#: en/content/stats.xml:55 en/content/stats.xml:64 en/content/admin-area.xml:94
-#: en/content/admin-area.xml:108 en/content/admin-area.xml:118
-#: en/content/admin-area.xml:173 en/content/admin-area.xml:281
-#: en/content/admin-area.xml:306 en/content/admin-area.xml:322
-#: en/content/admin-area.xml:418 en/content/admin-area.xml:430
-#: en/content/admin-area.xml:448 en/content/calendar.xml:13
-#: en/content/calendar.xml:28
+#: en/content/stats.xml:55 en/content/stats.xml:64
+#: en/content/admin-area.xml:94 en/content/admin-area.xml:108
+#: en/content/admin-area.xml:118 en/content/admin-area.xml:173
+#: en/content/admin-area.xml:281 en/content/admin-area.xml:306
+#: en/content/admin-area.xml:322 en/content/admin-area.xml:418
+#: en/content/admin-area.xml:430 en/content/admin-area.xml:448
+#: en/content/calendar.xml:13 en/content/calendar.xml:28
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
@@ -1744,7 +1707,7 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/first-steps.xml:36 en/content/cmdb.xml:130
 #: en/content/cmdb.xml:139 en/content/cmdb.xml:155 en/content/cmdb.xml:164
 #: en/content/cmdb.xml:242 en/content/cmdb.xml:264 en/content/cmdb.xml:273
-#: en/content/cmdb.xml:288 en/content/cmdb.xml:355
+#: en/content/cmdb.xml:288 en/content/cmdb.xml:364
 #: en/content/incident-problem.xml:54 en/content/incident-problem.xml:65
 #: en/content/incident-problem.xml:81 en/content/incident-problem.xml:102
 #: en/content/incident-problem.xml:123 en/content/incident-problem.xml:142
@@ -1763,13 +1726,13 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/change-management.xml:2875 en/content/change-management.xml:3163
 #: en/content/change-management.xml:3450 en/content/stats.xml:16
 #: en/content/stats.xml:25 en/content/stats.xml:34 en/content/stats.xml:45
-#: en/content/stats.xml:53 en/content/stats.xml:62 en/content/admin-area.xml:92
-#: en/content/admin-area.xml:106 en/content/admin-area.xml:116
-#: en/content/admin-area.xml:171 en/content/admin-area.xml:279
-#: en/content/admin-area.xml:304 en/content/admin-area.xml:320
-#: en/content/admin-area.xml:416 en/content/admin-area.xml:428
-#: en/content/admin-area.xml:446 en/content/calendar.xml:11
-#: en/content/calendar.xml:26
+#: en/content/stats.xml:53 en/content/stats.xml:62
+#: en/content/admin-area.xml:92 en/content/admin-area.xml:106
+#: en/content/admin-area.xml:116 en/content/admin-area.xml:171
+#: en/content/admin-area.xml:279 en/content/admin-area.xml:304
+#: en/content/admin-area.xml:320 en/content/admin-area.xml:416
+#: en/content/admin-area.xml:428 en/content/admin-area.xml:446
+#: en/content/calendar.xml:11 en/content/calendar.xml:26
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr "<placeholder type=\"figure\" id=\"0\"/>"
 
@@ -2765,13 +2728,32 @@ msgid ""
 "using various criteria."
 msgstr ""
 
-#. type: Content of: <chapter><sect1><title>
+#. type: Content of: <chapter><sect1><sect2><title>
+#: en/content/cmdb.xml:302
+msgid "GenericInterface for ITSM Configuration Management"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:304
+msgid ""
+"There is a GenericInterface for ITSM Configuration Management. This feature "
+"contains operations for creating, changing, retrieving and searching "
+"configuration items via GenericInterface.  The following operations are "
+"available: ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(), "
+"ConfigItemSearch().  For more information please take a look at the WSDL "
+"file: <ulink url=\"https://github.com/OTRS/ITSMConfigurationManagement/blob/"
+"master/development/webservices/GenericConfigItemConnectorSOAP.wsdl\">https://"
+"github.com/OTRS/ITSMConfigurationManagement/blob/master/development/"
+"webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><title>
+#: en/content/cmdb.xml:313
 msgid "Documents and knowledge database"
 msgstr "Dokumente und Wissensdatenbank"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/cmdb.xml:306
+#: en/content/cmdb.xml:315
 msgid ""
 "Using the FAQ system, which is an independent external module since OTRS "
 "2.1, a knowledge database can be designed and managed, e.g. for suggestions "
@@ -2779,7 +2761,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/cmdb.xml:312
+#: en/content/cmdb.xml:321
 msgid ""
 "Entries can be provided for internal use only, for all customers or the "
 "public. They can be created and sorted according to language or categories. "
@@ -2789,12 +2771,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/cmdb.xml:322
+#: en/content/cmdb.xml:331
 msgid "Changes and amendments to the data model"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/cmdb.xml:324
+#: en/content/cmdb.xml:333
 msgid ""
 "The data model can be adapted flexibly and can be extended with data types, "
 "attributes and even classes. Detailed information can be found in the "
@@ -2803,7 +2785,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><warning><para>
-#: en/content/cmdb.xml:331
+#: en/content/cmdb.xml:340
 msgid ""
 "The design of a CMDB data model and the CIs to be managed within it, is a "
 "task which should not be underestimated. Our experience shows that it is "
@@ -2814,12 +2796,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/cmdb.xml:342
+#: en/content/cmdb.xml:351
 msgid "Ticket types and attributes"
 msgstr "Tickettypen und Attribute"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/cmdb.xml:344
+#: en/content/cmdb.xml:353
 msgid ""
 "With OTRS 2.2, native ticket types were introduced, which are used in OTRS::"
 "ITSM, too. In the ITIL sub-processes, which can be structured in queues, "
@@ -2827,7 +2809,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/cmdb.xml:349
+#: en/content/cmdb.xml:358
 msgid ""
 "All ITIL processes to be implemented in later versions of OTRS::ITSM, e.g. "
 "change management, will be implemented in such a way. Ticket types such as "
@@ -2835,12 +2817,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/cmdb.xml:356
+#: en/content/cmdb.xml:365
 msgid "admin-type-management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/cmdb.xml:358
+#: en/content/cmdb.xml:367
 msgid ""
 "<graphic fileref=\"screenshots/admin-type-management.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -2849,7 +2831,7 @@ msgstr ""
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><sect1><warning><para>
-#: en/content/cmdb.xml:364 en/content/admin-area.xml:288
+#: en/content/cmdb.xml:373 en/content/admin-area.xml:288
 #: en/content/admin-area.xml:379 en/content/admin-area.xml:465
 msgid ""
 "In order to assure the consistency of the data managed in OTRS::ITSM, "
@@ -4764,7 +4746,7 @@ msgstr ""
 #: en/content/change-management.xml:2176 en/content/change-management.xml:2932
 #: en/content/change-management.xml:3219 en/content/change-management.xml:3507
 msgid "<literal>Category</literal>"
-msgstr ""
+msgstr "<literal>Kategorie</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1629 en/content/change-management.xml:1951
@@ -4916,7 +4898,7 @@ msgstr ""
 #: en/content/change-management.xml:2297 en/content/change-management.xml:3053
 #: en/content/change-management.xml:3340 en/content/change-management.xml:3628
 msgid "<literal>Priority</literal>"
-msgstr ""
+msgstr "<literal>Priorität</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1750 en/content/change-management.xml:2072
@@ -4944,7 +4926,7 @@ msgstr ""
 #: en/content/change-management.xml:2319 en/content/change-management.xml:3075
 #: en/content/change-management.xml:3362 en/content/change-management.xml:3650
 msgid "<literal>Services</literal>"
-msgstr ""
+msgstr "<literal>Dienste</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1772 en/content/change-management.xml:2094
@@ -5196,22 +5178,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2374 en/content/change-management.xml:3705
 msgid "<literal>WorkOrderTitle</literal>"
-msgstr ""
+msgstr "<literal>Arbeitsauftragatitel</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2380 en/content/change-management.xml:3711
 msgid "Name of the Work Order"
-msgstr ""
+msgstr "Name des Arbeitsauftrags"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2385 en/content/change-management.xml:3716
 msgid "<literal>WorkOrderType</literal>"
-msgstr ""
+msgstr "<literal>Arbeitsauftragstyp</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2391 en/content/change-management.xml:3722
 msgid "The type of Work Order"
-msgstr ""
+msgstr "Die Art des Arbeitsauftrags"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:2400 en/content/change-management.xml:2422
@@ -5296,7 +5278,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2496
 msgid "<literal>Delete</literal>"
-msgstr ""
+msgstr "<literal>Löschen</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2502
@@ -5306,7 +5288,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2507
 msgid "<literal>Name</literal>"
-msgstr ""
+msgstr "<literal>Name</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2513
@@ -5316,7 +5298,7 @@ msgstr "Name der Vorlage"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2518
 msgid "<literal>TemplateID</literal>"
-msgstr ""
+msgstr "<literal>Vorlagenkennung</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2524
@@ -5326,7 +5308,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2529
 msgid "<literal>Type</literal>"
-msgstr ""
+msgstr "<literal>Typ</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2535
@@ -5336,7 +5318,7 @@ msgstr "Template-Typ"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2540
 msgid "<literal>Valid</literal>"
-msgstr ""
+msgstr "<literal>Gültig</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2546
@@ -5826,7 +5808,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:3736
 msgid "My Work Orders Filter"
-msgstr ""
+msgstr "Mein Arbeitsauftragfilter"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:3752
@@ -6308,7 +6290,7 @@ msgstr "[ Software ]"
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/admin-area.xml:156
 msgid "All software products and licenses."
-msgstr ""
+msgstr "Alle Softwareprodukte und -lizenzen."
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/admin-area.xml:159
@@ -6318,7 +6300,7 @@ msgstr "[ Standorte ]"
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/admin-area.xml:160
 msgid "All Locations, e.g. building, workplace, IT facility."
-msgstr ""
+msgstr "Alle Standorte, z.B. Gebäude, Arbeitsplatz, IT-Einrichtung."
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/admin-area.xml:164
@@ -6471,7 +6453,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><title>
 #: en/content/admin-area.xml:297
 msgid "Version management of CI classes"
-msgstr ""
+msgstr "Versionsverwaltung von CI-Klassen"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/admin-area.xml:299
@@ -6783,21 +6765,26 @@ msgstr "SOAP"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:17
+msgid "REST"
+msgstr ""
+
+#. type: Content of: <chapter><itemizedlist><listitem><para>
+#: en/content/api.xml:20
 msgid "LDAP"
 msgstr "LDAP"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
-#: en/content/api.xml:20
+#: en/content/api.xml:23
 msgid "E-mail (POP3, IMAP, SMTP)"
 msgstr "E-mail (POP3, IMAP, SMTP)"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
-#: en/content/api.xml:23
+#: en/content/api.xml:26
 msgid "CSV Import/Export"
 msgstr "CSV Import/Export"
 
 #. type: Content of: <chapter><para>
-#: en/content/api.xml:27
+#: en/content/api.xml:30
 msgid ""
 "OTRS AG will gladly create additional interfaces per request or members of "
 "the community may develop them."

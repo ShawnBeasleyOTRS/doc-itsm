@@ -664,7 +664,7 @@ kikapcsolhatók a változás-összeállítónál.
             </para>
             <para>
                 Itt határozhatók meg a munkafolyamatok. Például egy munkafolyamat a teljes
-változás „megszakított” értékre állításához, vagy áttekintés / jóváhagyás
+változás „megszakított” értékre állításához, vagy vizsgálat / jóváhagyás
 engedélyezés kéréséhez, amikor egy munkamegrendelést megszakítanak.
             </para>
             <para>
@@ -2786,7 +2786,7 @@ napon vagy héten létrehozott változások).
                                 Tervezett befejezési idő
                             </entry>
                             <entry>
-                                Keresés egy változás megvalósításának vetített befejezési dátuma és ideje
+                                Keresés egy változás megvalósításának tervezett befejezési dátuma és ideje
 szerint. A keresés végrehajtható abszolút időértékek használatával (például
 az 1. dátumtól a 2. dátumig) vagy relatív időértékekkel (például az elmúlt x
 napon vagy héten létrehozott változások).

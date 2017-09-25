@@ -13,10 +13,18 @@
             <para>
                 Ez a mű az OTRS AG szerzői joga alatt áll.
             </para>
+
             <para>
                 Lemásolhatja részben vagy egészben mindaddig, amíg a másolat tartalmazza ezt
 a szerzői jogi nyilatkozatot.
             </para>
+
+            <para>
+                Minden márkanév a szabad felhasználásra vonatkozó garancia nélkül kerül
+felhasználásra, és lehetséges bejegyzett védjegyek lehetnek. Az ebben a
+kézikönyvben említett összes termék az illető gyártó védjegyei lehetnek.
+            </para>
+
             <para>
                 A dokumentum forráskódja megtalálható a <ulink
 url="https://otrs.github.io">githubon</ulink> a <ulink
@@ -25,27 +33,7 @@ hozzájárulásokat mindennél jobban köszönjük. Segíthet a saját nyelvére
 fordításban is a <ulink
 url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
             </para>
-            <para>
-                A UNIX az X/Open Company Limited bejegyzett védjegye. A Linux Linus Torvalds
-bejegyzett védjegye.
-            </para>
-            <para>
-                Az MS-DOS, a Windows, a Windows 95, a Windows 98, a Windows NT, a Windows
-2000, a Windows XP és a Windows 2003 a Microsoft Corporation bejegyzett
-védjegyei. További védjegyek és bejegyzett védjegyek: a SUSE és a YaST a
-SUSE GmbH, a Red Hat és a Fedora a Red Hat, Inc. bejegyzett védjegyei. A
-Mandrake a MandrakeSoft, SA. bejegyzett védjegye. A Debian a Software in the
-Public Interest, Inc. bejegyzett védjegye. A MySQL és a MySQL logó a MySQL
-AB. bejegyzett védjegyei.
-            </para>
-            <para>
-                Minden márkanév a szabad felhasználásra vonatkozó garancia nélkül kerül
-felhasználásra, és lehetséges bejegyzett védjegyek lehetnek.
-            </para>
-            <para>
-                Az OTRS AG lényegében a gyártók jelölésrendszerét követi. Az ebben a
-kézikönyvben említett egyéb termékek az illető gyártók védjegyei lehetnek.
-            </para>
+
         </legalnotice>
 
         <revhistory>

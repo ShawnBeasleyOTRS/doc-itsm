@@ -14,6 +14,9 @@
             <para>SOAP</para>
         </listitem>
         <listitem>
+            <para>REST</para>
+        </listitem>
+        <listitem>
             <para>LDAP</para>
         </listitem>
         <listitem>

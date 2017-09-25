@@ -1578,7 +1578,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -1699,7 +1699,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1721,7 +1721,7 @@ attributes:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -1899,7 +1899,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2020,7 +2020,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2042,7 +2042,7 @@ Management -&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2128,7 +2128,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2249,7 +2249,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2271,7 +2271,7 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2326,24 +2326,24 @@ Management -&gt; Frontend::Agent::ViewPIROverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>WorkOrderTitle</literal>
+                                <literal>Arbeitsauftragatitel</literal>
                             </entry>
                             <entry>
                                 Ja
                             </entry>
                             <entry>
-                                Name of the Work Order
+                                Name des Arbeitsauftrags
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                <literal>WorkOrderType</literal>
+                                <literal>Arbeitsauftragstyp</literal>
                             </entry>
                             <entry>
                                 Nein
                             </entry>
                             <entry>
-                                The type of Work Order
+                                Die Art des Arbeitsauftrags
                             </entry>
                         </row>
                     </tbody>
@@ -2446,7 +2446,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Delete</literal>
+                                <literal>Löschen</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2468,7 +2468,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>TemplateID</literal>
+                                <literal>Vorlagenkennung</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2479,7 +2479,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Type</literal>
+                                <literal>Typ</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2490,7 +2490,7 @@ Management -&gt; Frontend::Agent::ViewTemplateOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Valid</literal>
+                                <literal>Gültig</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -2872,7 +2872,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -2993,7 +2993,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3015,7 +3015,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3156,7 +3156,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3277,7 +3277,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3299,7 +3299,7 @@ Management -&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3441,7 +3441,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Kategorie</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3562,7 +3562,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Priorität</literal>
                             </entry>
                             <entry>
                                 Nein
@@ -3584,7 +3584,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Dienste</literal>
                             </entry>
                             <entry>
                                 Ja
@@ -3639,24 +3639,24 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>WorkOrderTitle</literal>
+                                <literal>Arbeitsauftragatitel</literal>
                             </entry>
                             <entry>
                                 Ja
                             </entry>
                             <entry>
-                                Name of the Work Order
+                                Name des Arbeitsauftrags
                             </entry>
                         </row>
                         <row>
                             <entry>
-                                <literal>WorkOrderType</literal>
+                                <literal>Arbeitsauftragstyp</literal>
                             </entry>
                             <entry>
                                 Nein
                             </entry>
                             <entry>
-                                The type of Work Order
+                                Die Art des Arbeitsauftrags
                             </entry>
                         </row>
                     </tbody>
@@ -3670,7 +3670,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
             </para>
             <table>
                 <title>
-                    My Work Orders Filter
+                    Mein Arbeitsauftragfilter
                 </title>
                 <tgroup cols="2">
                     <thead>

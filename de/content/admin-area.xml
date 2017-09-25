@@ -149,11 +149,11 @@ granularity of your CI structure.
             </listitem>
             <listitem>
                 <para>[ Software ]</para>
-                <para>All software products and licenses.</para>
+                <para>Alle Softwareprodukte und -lizenzen.</para>
             </listitem>
             <listitem>
                 <para>[ Standorte ]</para>
-                <para>All Locations, e.g. building, workplace, IT facility.</para>
+                <para>Alle Standorte, z.B. Gebäude, Arbeitsplatz, IT-Einrichtung.</para>
             </listitem>
         </itemizedlist>
         <para>
@@ -287,7 +287,7 @@ in the respective listbox settings from "valid" to "invalid" or
         </warning>
     </sect1>
     <sect1>
-        <title>Version management of CI classes</title>
+        <title>Versionsverwaltung von CI-Klassen</title>
         <para>
             Version management for all CI classes is integrated into the system. The
 latest versions are used for the processes represented in OTRS::ITSM.
