@@ -95,6 +95,12 @@
 
                     <listitem>
                         <para>
+                            Added new feature for ITSMConfigurationManagement to suppress adding a new config item version for special attributes.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
                             OTRS::ITSM 6 includes many other small bug fixes and improvements.
                         </para>
                     </listitem>
