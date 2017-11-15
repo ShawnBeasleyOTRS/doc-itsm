@@ -3,7 +3,9 @@
 <chapter>
     <title>安装OTRS::ITSM</title>
     <para>
-        请注意，OTRS框架5必须在OTRS::ITSM安装之前安装好。安装OTRS需要的所有信息、选项或安装流程都在OTRS管理手册中描述。
+        Please note that the OTRS framework 6 must be installed prior to the
+installation of OTRS::ITSM. All necessary information, options and
+installation procedures are depicted in the OTRS Admin Manual.
     </para>
 
     <sect1>
@@ -11,8 +13,10 @@
         <title>安装</title>
 
         <para>
-            成功安装OTRS
-5或更新版本后，以系统管理员登录，在系统管理区使用软件包管理器或通过ftp://ftp.otrs.org/pub/otrs/itsm/packages5/获取ITSM软件包，并按以下顺序安装：
+            After successfully installing OTRS 6 or a later version, proceed to sign on
+as administrator. Using the package manager in the admin area or via
+ftp://ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and
+install them in the following order:
         </para>
         <itemizedlist>
             <listitem>
@@ -23,8 +27,10 @@
             </listitem>
         </itemizedlist>
         <para>
-            如果您运行OTRS的主机能够访问互联网，可使用如下的在线软件仓库 [--OTRS::ITSM 5 Master--]
-来安装下面的软件包。否则下载下面的软件包并使用软件包管理器来安装它们：
+            If your machine running OTRS has internet access, use the following online
+repository [--OTRS::ITSM 6 Master--] to install the packages
+below. Otherwise download the packages below and use the package manager to
+install them:
 
        </para>
 
@@ -53,8 +59,8 @@
         </itemizedlist>
 
         <para>
-            您可以在这里找到安装过程的更多信息： <ulink
-url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM">INSTALL-5.ITSM</ulink>
+            You can find further information about the installation process here: <ulink
+url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM">INSTALL-6.ITSM</ulink>
         </para>
         <para>
             <screenshot>

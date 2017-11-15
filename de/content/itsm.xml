@@ -75,10 +75,41 @@ Gegenstand der GNU Affero General Public License (AGPL).
     <sect1>
         <title>Features</title>
         <para>
-            OTRS::ITSM 5 basiert auf OTRS 4. Alle von OTRS bekannten Funktionen sind
-weiterhin verfügbar. Funktionen, welche die ITIL®-Prozesse repräsentieren,
-können als Paket installiert werden.
+            OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 6 features
+            </title>
+            <para>OTRS::ITSM 6 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 6 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature for ITSMConfigurationManagement to suppress adding a new
+config item version for special attributes.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 6 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 Neue OTRS::ITSM 5 Features

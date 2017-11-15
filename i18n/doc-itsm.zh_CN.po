@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-09-25 10:37-0500\n"
+"POT-Creation-Date: 2017-11-15 10:50+0100\n"
 "PO-Revision-Date: 2017-09-25 15:42+0000\n"
 "Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/"
@@ -25,14 +25,20 @@ msgstr "zh_CN"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
-msgid "OTRS::ITSM 5"
+#, fuzzy
+#| msgid "OTRS::ITSM 5"
+msgid "OTRS::ITSM 6"
 msgstr "OTRS::ITSM 5"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
+#, fuzzy
+#| msgid ""
+#| "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
+#| "<date>2015-11-24</date>"
 msgid ""
-"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-11-24</date>"
+"<copyright> <year>2003-2017</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2017-09-26</date>"
 msgstr ""
 "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2015-11-24</date>"
@@ -75,12 +81,16 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:46
-msgid "5.0.1"
+#, fuzzy
+#| msgid "5.0.1"
+msgid "6.0.1"
 msgstr "5.0.1"
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:47
-msgid "11/24/2015"
+#, fuzzy
+#| msgid "11/24/2015"
+msgid "09/26/2017"
 msgstr "2015年11月24日"
 
 #. type: Content of: <preface><title>
@@ -293,8 +303,13 @@ msgstr "功能介绍"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/itsm.xml:77
+#, fuzzy
+#| msgid ""
+#| "OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
+#| "continue to be available and the functionalities representing ITIL "
+#| "processes can be installed as packages."
 msgid ""
-"OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
+"OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS "
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
@@ -303,41 +318,76 @@ msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
-msgid "New OTRS::ITSM 5 features"
+#, fuzzy
+#| msgid "New OTRS::ITSM 5 features"
+msgid "New OTRS::ITSM 6 features"
 msgstr "OTRS::ITSM 5新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
-msgid "OTRS::ITSM 5 offers:"
+#, fuzzy
+#| msgid "OTRS::ITSM 5 offers:"
+msgid "OTRS::ITSM 6 offers:"
 msgstr "OTRS::ITSM 5提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
-msgid "Ported code to the OTRS 5 framework."
+#, fuzzy
+#| msgid "Ported code to the OTRS 5 framework."
+msgid "Ported code to the OTRS 6 framework."
 msgstr "代码移植到OTRS 5框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
+msgid ""
+"Added new feature for ITSMConfigurationManagement to suppress adding a new "
+"config item version for special attributes."
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:104
+#, fuzzy
+#| msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
+msgid "OTRS::ITSM 6 includes many other small bug fixes and improvements."
+msgstr "OTRS::ITSM 5包含了许多其它小BUG的补丁和改进。"
+
+#. type: Content of: <chapter><sect1><sect2><title>
+#: en/content/itsm.xml:114
+msgid "New OTRS::ITSM 5 features"
+msgstr "OTRS::ITSM 5新功能"
+
+#. type: Content of: <chapter><sect1><sect2><para>
+#: en/content/itsm.xml:116
+msgid "OTRS::ITSM 5 offers:"
+msgstr "OTRS::ITSM 5提供了以下新功能："
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:122
+msgid "Ported code to the OTRS 5 framework."
+msgstr "代码移植到OTRS 5框架。"
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:128
 msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
 msgstr "OTRS::ITSM 5包含了许多其它小BUG的补丁和改进。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:108
+#: en/content/itsm.xml:138
 msgid "New OTRS::ITSM 4 features"
 msgstr "OTRS::ITSM 4新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:110
+#: en/content/itsm.xml:140
 msgid "OTRS::ITSM 4 offers:"
 msgstr "OTRS::ITSM 4提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:116
+#: en/content/itsm.xml:146
 msgid "Ported code to the OTRS 4 framework."
 msgstr "代码移植到OTRS 4框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:122
+#: en/content/itsm.xml:152
 msgid ""
 "New powerful template engine based on <ulink url=\"http://www.template-"
 "toolkit.org/\">Template::Toolkit</ulink>"
@@ -346,18 +396,18 @@ msgstr ""
 "ulink>新的强力模板引擎"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:128
+#: en/content/itsm.xml:158
 msgid ""
 "A central object manager makes creating and using global objects much easier."
 msgstr "中央对象管理器让创建和使用全局对象更容易。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:134
+#: en/content/itsm.xml:164
 msgid "OTRS::ITSM 4 includes many other small bug fixes and improvements."
 msgstr "OTRS::ITSM 4包含了许多其它小BUG的补丁和改进。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:140
+#: en/content/itsm.xml:170
 msgid ""
 "All OTRS::ITSM 4 translations will be now managed exclusively via Transifex: "
 "https://www.transifex.com/projects/p/OTRS/resources/ Please sign up for a "
@@ -369,7 +419,7 @@ msgstr ""
 "www.transifex.com注册为一个自由翻译人员，并加入一个语言团队。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:147
+#: en/content/itsm.xml:177
 msgid ""
 "Improved and more flexible incident state link propagation. It is now "
 "possible to add more than one link type for the incident state calculation, "
@@ -381,7 +431,7 @@ msgstr ""
 "IncidentLinkTypeDirection”）"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:153
+#: en/content/itsm.xml:183
 msgid ""
 "GenericInterface for ITSM Configuration Management. This feature contains "
 "operations for creating, changing, retrieving and searching configuration "
@@ -391,7 +441,7 @@ msgstr ""
 "置项。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:159
+#: en/content/itsm.xml:189
 msgid ""
 "Bulk actions for ITSM Configuration Management. This feature provides a "
 "screen to perform certain actions over a selection of ITSM Configuration "
@@ -399,7 +449,7 @@ msgid ""
 msgstr "ITSM配置管理批量操作。这个功能提供一个窗口来对多个配置项执行某些操作。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:165
+#: en/content/itsm.xml:195
 msgid ""
 "New color flag for the \"deployment state\" in ITSM Configuration "
 "Management. This feature adds a flag column to the Configuration Item "
@@ -412,7 +462,7 @@ msgstr ""
 "每个部署状态的颜色。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:171
+#: en/content/itsm.xml:201
 msgid ""
 "Dynamic fields for ITSM Change Management. The freetext fields for changes "
 "and workorder have been migrated to more flexible dynamic fields."
@@ -421,7 +471,7 @@ msgstr ""
 "字段。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:177
+#: en/content/itsm.xml:207
 msgid ""
 "Improved and easier handling of templates for changes, workorders and change "
 "advisory boards (CAB). It is now easier to edit a template by selecting it "
@@ -434,22 +484,22 @@ msgstr ""
 "保存到原模板，保存后新建的临时变更或工作指令将被删除。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:187
+#: en/content/itsm.xml:217
 msgid "New OTRS::ITSM 3.3 features"
 msgstr "OTRS::ITSM 3.3新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:189
+#: en/content/itsm.xml:219
 msgid "OTRS::ITSM 3.3 offers:"
 msgstr "OTRS::ITSM 3.3提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:195
+#: en/content/itsm.xml:225
 msgid "Ported code to the OTRS 3.3 framework."
 msgstr "代码移植到OTRS 3.3框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:201
+#: en/content/itsm.xml:231
 msgid ""
 "Integrated Feature AddOn \"OTRSServiceIncidentState\" into OTRS::ITSM.  It "
 "shows the current incident state of a selected service in the ticket zoom, "
@@ -461,7 +511,7 @@ msgstr ""
 "当前故障状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:209
+#: en/content/itsm.xml:239
 msgid ""
 "Integrated Feature AddOn \"OTRSCIColumns\" into OTRS::ITSM.  This feature "
 "makes it possible to configure the shown CI-Attributes individually for each "
@@ -473,7 +523,7 @@ msgstr ""
 "配置项视图"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:217
+#: en/content/itsm.xml:247
 msgid ""
 "Integrated Feature AddOn \"OTRSWorkOrderTimeDependency\" into OTRS::ITSM.  "
 "If this feature is enabled and you change the planned end date of a "
@@ -485,7 +535,7 @@ msgstr ""
 "令也将相应地移动，以保持所有工作指令的时间差仍然相同。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:224
+#: en/content/itsm.xml:254
 msgid ""
 "Integrated Feature AddOn \"OTRSCIAttributeSyntaxCheck\" into OTRS::ITSM.  "
 "This feature makes it possible to check the syntax of CI attributes with a "
@@ -505,7 +555,7 @@ msgstr ""
 "以“ABC”开头或必须以一个数字结尾。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:234
+#: en/content/itsm.xml:264
 msgid ""
 "Added new feature \"WorkOrder Report Attachments\" into OTRS::ITSM.  This "
 "feature adds support for attachment uploads in the workorder report screen."
@@ -514,14 +564,14 @@ msgstr ""
 "个功能让工作指令报告窗口支持附件上传。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:241
+#: en/content/itsm.xml:271
 msgid ""
 "The toolbar icons now use an icon font which makes it easier to create "
 "custom skins with different base colors."
 msgstr "工具栏图标现在使用了图标字体，更容易用不同的基色创建自定义皮肤。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:247
+#: en/content/itsm.xml:277
 msgid ""
 "Migrated ITSMCriticality and ITSMImpact values from general catalog to "
 "dynamic fields.  Renamed ITSM related dynamic fields to nicer names, "
@@ -531,7 +581,7 @@ msgstr ""
 "用ITSM前缀。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:254
+#: en/content/itsm.xml:284
 msgid ""
 "In ITSMChangeManagement the frontends to create changes / workorders have "
 "been splitted in 2 screens each.  One to create a new change / workorder "
@@ -541,199 +591,199 @@ msgstr ""
 "作指令，一个是从模板创建。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:265
+#: en/content/itsm.xml:295
 msgid "New OTRS::ITSM 3.2 features"
 msgstr "OTRS::ITSM 3.2新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:267
+#: en/content/itsm.xml:297
 msgid "OTRS::ITSM 3.2 offers:"
 msgstr "OTRS::ITSM 3.2提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:273
+#: en/content/itsm.xml:303
 msgid "Ported code to the OTRS 3.2 framework."
 msgstr "代码移植到OTRS 3.2框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:279
+#: en/content/itsm.xml:309
 msgid "Enhanced Import/Export screen to show a summary after importing."
 msgstr "增强的导入/导出窗口，在导入后显示汇总信息。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:285
+#: en/content/itsm.xml:315
 msgid "Added attachment support for ITSM config items."
 msgstr "为ITSM配置项添加附件支持。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:291
+#: en/content/itsm.xml:321
 msgid ""
 "Added new optional sysconfig option to check if config item names are unique."
 msgstr "新增加了检查配置项名称是否唯一的系统配置选项。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:301
+#: en/content/itsm.xml:331
 msgid "New OTRS::ITSM 3.1 features"
 msgstr "OTRS::ITSM 3.1新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:303
+#: en/content/itsm.xml:333
 msgid "OTRS::ITSM 3.1 offers:"
 msgstr "OTRS::ITSM 3.1提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:309
+#: en/content/itsm.xml:339
 msgid "Ported code to the OTRS 3.1 framework."
 msgstr "代码移植到OTRS 3.1框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:315
+#: en/content/itsm.xml:345
 msgid ""
 "Added caching to speed up the condition / action backends in change "
 "management."
 msgstr "在变更管理中为加速条件或操作后端添加缓存。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:321
+#: en/content/itsm.xml:351
 msgid ""
 "Added possibility to use a mirror database for change and workorder searches "
 "in change management."
 msgstr "在变更管理中添加了使用镜像数据库搜索变更和工作指令的可能性。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:331
+#: en/content/itsm.xml:361
 msgid "New OTRS::ITSM 3.0 features"
 msgstr "OTRS::ITSM 3.0新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:333
+#: en/content/itsm.xml:363
 msgid "OTRS::ITSM 3.0 offers:"
 msgstr "OTRS::ITSM 3.0提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:339
+#: en/content/itsm.xml:369
 msgid "Brand New Interface - OTRS 3.0 Look &amp; Feel"
 msgstr "崭新的界面 - OTRS 3.0外观和感觉"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:345
+#: en/content/itsm.xml:375
 msgid "Ported code to the OTRS 3.0 framework."
 msgstr "代码移植到OTRS 3.0框架。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:351
+#: en/content/itsm.xml:381
 msgid "New Generic Search Dialogs."
 msgstr "新的通用搜索对话框。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:357
+#: en/content/itsm.xml:387
 msgid "New Search result types (Print, PDF and CSV)."
 msgstr "新的搜索结果类型（打印、PDF和CSV）。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:367
+#: en/content/itsm.xml:397
 msgid "New OTRS::ITSM 2.1 features"
 msgstr "OTRS::ITSM 2.1新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:369
+#: en/content/itsm.xml:399
 msgid "OTRS::ITSM 2.1 offers:"
 msgstr "OTRS::ITSM 2.1提供了以下新功能："
 
 #. type: Content of: <chapter><title>
-#: en/content/itsm.xml:373 en/content/itsm.xml:400
+#: en/content/itsm.xml:403 en/content/itsm.xml:430
 #: en/content/change-management.xml:7
 msgid "Change Management"
 msgstr "变更管理"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:375
+#: en/content/itsm.xml:405
 msgid ""
 "Improved speed of Change Management and GeneralCatalog by implementing "
 "caching technology."
 msgstr "通过部署缓存技术改进了变更管理和目录管理的速度。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:378
+#: en/content/itsm.xml:408
 msgid ""
 "New powerful FreeText fields for Changes and Workorders in Change Management."
 msgstr "变更管理中用于变更和工作指令新的强大的自定义字段。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:381
+#: en/content/itsm.xml:411
 msgid ""
 "Implemented an option to reset the change and workorder states while saving "
 "as template."
 msgstr "部署了一个选项，用于保存为模板时重置变更和工作指令的状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:384
+#: en/content/itsm.xml:414
 msgid "New alternative checksum generator for the change number."
 msgstr "生成变更编号新增了可供选择的检验和生成器。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:387
+#: en/content/itsm.xml:417
 msgid ""
 "New option to show workorder title and workorder state in the change zoom "
 "timeline."
 msgstr "新的选项用于在变更详情时间轴上显示工作指令标题和工作指令状态。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:395
+#: en/content/itsm.xml:425
 msgid "New OTRS::ITSM 2.0 features"
 msgstr "OTRS::ITSM 2.0新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:396
+#: en/content/itsm.xml:426
 msgid "OTRS::ITSM 2.0 offers:"
 msgstr "OTRS::ITSM 2.0提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:402
+#: en/content/itsm.xml:432
 msgid ""
 "The new OTRS::ITSM package \"ITSMChangeManagement\" implements the ITIL "
 "discipline Change Management."
 msgstr "新的OTRS::ITSM软件包“ITSMChangeManagement”实现了ITIL变更管理流程。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:410
+#: en/content/itsm.xml:440
 msgid "New OTRS::ITSM 1.3 features"
 msgstr "OTRS::ITSM 1.3新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:412
+#: en/content/itsm.xml:442
 msgid "OTRS::ITSM 1.3 is based on OTRS 2.4"
 msgstr "OTRS::ITSM 1.3基于OTRS 2.4"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:415
+#: en/content/itsm.xml:445
 msgid ""
 "It offers the same features as OTRS::ITSM 1.2, but runs on the OTRS 2.4 "
 "framework."
 msgstr "它提供了与OTRS::ITSM 1.2相同的功能，只是运行在OTRS 2.4框架。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:420
+#: en/content/itsm.xml:450
 msgid "New OTRS::ITSM 1.2 features"
 msgstr "OTRS::ITSM 1.2新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:422
+#: en/content/itsm.xml:452
 msgid "OTRS::ITSM 1.2 is based on OTRS 2.3"
 msgstr "OTRS::ITSM 1.3基于OTRS 2.3"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:424
+#: en/content/itsm.xml:454
 msgid "OTRS::ITSM 1.2 offers:"
 msgstr "OTRS::ITSM 1.2提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:428
+#: en/content/itsm.xml:458
 msgid "Modularization"
 msgstr "模块化"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:430
+#: en/content/itsm.xml:460
 msgid ""
 "From now on the additional ITSM packages covering single ITIL disciplines "
 "like incident management / problem management, configuration management, "
@@ -747,12 +797,12 @@ msgstr ""
 "逐个安装各个模块，也可以安装所有模块。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:442
+#: en/content/itsm.xml:472
 msgid "Reduced reloads"
 msgstr "减少重载"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:444
+#: en/content/itsm.xml:474
 msgid ""
 "ITSM functionalities (e. g. priority calculation based on a tickets impact)  "
 "have been reimplemented in AJAX technology to reduce necessary reloads.  "
@@ -762,12 +812,12 @@ msgstr ""
 "要的重新载入。这极大提升了使用OTRS::ITSM的速度。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:453
+#: en/content/itsm.xml:483
 msgid "Joint Link-Object mechanism"
 msgstr "联合链接对象机制"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:455
+#: en/content/itsm.xml:485
 msgid ""
 "OTRS::ITSM 1.1 and lower releases were designed based on an own extended "
 "Object-Link mechanism.  As a consequence, the Object-Link functionality of "
@@ -780,12 +830,12 @@ msgstr ""
 "种链接对象机制的所有功能。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:465
+#: en/content/itsm.xml:495
 msgid "Improved speed"
 msgstr "改进的速度"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:467
+#: en/content/itsm.xml:497
 msgid ""
 "Changing database access technology to using SQL bind parameters made it "
 "possible to access the Configuration Items (CI) database faster than "
@@ -794,12 +844,12 @@ msgstr ""
 "使用SQL绑定变量改变了数据库的访问技术，使得存取配置项数据库比以前快了很多。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:473
+#: en/content/itsm.xml:503
 msgid "Locations"
 msgstr "位置"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:475
+#: en/content/itsm.xml:505
 msgid ""
 "Locations are no longer a separate menu item. They are now integrated into "
 "the Configuration Items, which will bring a sustainable gain in flexibility."
@@ -808,54 +858,54 @@ msgstr ""
 "性。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:482
+#: en/content/itsm.xml:512
 msgid "SLA-Service multi-assignments"
 msgstr "SLA分配到多个服务"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:484
+#: en/content/itsm.xml:514
 msgid "It is now possible to assign a SLA to multiple Services."
 msgstr "现在可以将一个SLA分配给多个服务。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:489
+#: en/content/itsm.xml:519
 msgid "SLA Overview"
 msgstr "SLA概览"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:491
+#: en/content/itsm.xml:521
 msgid "In the service menu, there is now a new SLA overview mask."
 msgstr "在服务菜单，现在有了一个新的菜单项-SLA概览。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:496
+#: en/content/itsm.xml:526
 msgid "Refresh-Mechanism"
 msgstr "刷新机制"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:498
+#: en/content/itsm.xml:528
 msgid ""
 "A refresh mechanism was added to refresh the service overview and the config "
 "item overview screens automatically."
 msgstr "添加了一个新的刷新机制以自动刷新服务概览和配置项概览窗口。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:508
+#: en/content/itsm.xml:538
 msgid "New OTRS::ITSM 1.1 features"
 msgstr "OTRS::ITSM 1.1新功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:509
+#: en/content/itsm.xml:539
 msgid "OTRS::ITSM 1.1 offers:"
 msgstr "OTRS::ITSM 1.1提供了以下新功能："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:513
+#: en/content/itsm.xml:543
 msgid "Authorization concept"
 msgstr "认证概念"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:515
+#: en/content/itsm.xml:545
 msgid ""
 "Each object like Service/SLA, Location, CI, Linkobject now creates a "
 "corresponding group, so the agents rights can be assigned with more "
@@ -865,12 +915,12 @@ msgstr ""
 "服务人员权限更细粒度的分配。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:522
+#: en/content/itsm.xml:552
 msgid "Allocation of services to customers"
 msgstr "给客户分配服务"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:524
+#: en/content/itsm.xml:554
 msgid ""
 "Services can be assigned to authorized customers. Further more, services may "
 "be assigned as general 'default services' which are valid to use for each "
@@ -879,12 +929,12 @@ msgstr ""
 "可以将服务分配给验证过的客户，而且还可以给每个客户分配一个通用的“默认服务”。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:531
+#: en/content/itsm.xml:561
 msgid "Service/CI view"
 msgstr "服务/配置项视图"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:533
+#: en/content/itsm.xml:563
 msgid ""
 "A view on services and CIs, including information on each object's current "
 "state, allows you to analyze an incident and calculate the incident's impact "
@@ -902,24 +952,24 @@ msgstr ""
 "态值是计算了依赖的服务和配置项的故障状态得出的结果。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:551
+#: en/content/itsm.xml:581
 msgid ""
 "CIs are now enhanced with a 'current incident state', which includes two "
 "state types:"
 msgstr "配置项增加了“当前故障状态”字段，包括两个状态类型："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:556
+#: en/content/itsm.xml:586
 msgid "Operational"
 msgstr "正常"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:559
+#: en/content/itsm.xml:589
 msgid "Incident"
 msgstr "故障"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:564
+#: en/content/itsm.xml:594
 msgid ""
 "For each state type, any number of states can be registered.  The state of a "
 "CI affects the service state, which will be dynamically calculated, and can "
@@ -929,22 +979,22 @@ msgstr ""
 "自动计算，有以下三个值："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:571
+#: en/content/itsm.xml:601
 msgid "Operational (green)"
 msgstr "正常（绿色）"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:574
+#: en/content/itsm.xml:604
 msgid "Warning (yellow)"
 msgstr "警告（黄色）"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:577
+#: en/content/itsm.xml:607
 msgid "Incident (red)"
 msgstr "故障（红色）"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:581
+#: en/content/itsm.xml:611
 msgid ""
 "The propagation of the incident state will be carried out if CIs are linked "
 "with the link type 'depend on'.  Here the following rules apply:"
@@ -952,7 +1002,7 @@ msgstr ""
 "如果配置项被链接为“依赖”，将会传播故障状态。故障状态按以下规则进行传播："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:588
+#: en/content/itsm.xml:618
 msgid ""
 "If a CI is dependent on another CI, which is in the state 'Incident', the "
 "dependent CI gets the state 'Warning'."
@@ -960,7 +1010,7 @@ msgstr ""
 "如果一个配置项依赖的另一配置项状态为“故障”，则依赖的配置项变为“警告”状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:595
+#: en/content/itsm.xml:625
 msgid ""
 "If a service is dependent on CIs, and one of these CIs has a state "
 "'Incident', the service will also get the state 'Incident'."
@@ -969,7 +1019,7 @@ msgstr ""
 "障”状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:603
+#: en/content/itsm.xml:633
 msgid ""
 "If a service is dependent on CIs, and one of these CIs has the state "
 "'Warning', the service will also get the state 'Warning'."
@@ -978,7 +1028,7 @@ msgstr ""
 "告”状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:610
+#: en/content/itsm.xml:640
 msgid ""
 "If a service has sub-services, and one of these services has the state "
 "'Incident', the parent service will get the state 'Warning'."
@@ -987,7 +1037,7 @@ msgstr ""
 "告”状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:618
+#: en/content/itsm.xml:648
 msgid ""
 "If a service has sub-services, and one of these services has the state "
 "'Warning', the parent service will get the state 'Warning'."
@@ -996,19 +1046,19 @@ msgstr ""
 "告”状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:625
+#: en/content/itsm.xml:655
 msgid ""
 "The states of the respective services, sub-services, and CIs will be shown "
 "in the view."
 msgstr "视图中将显示单独的服务、子服务和配置项的状态。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:631
+#: en/content/itsm.xml:661
 msgid "CI search and linking from agent interface"
 msgstr "服务人员界面配置项搜索和链接"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:633
+#: en/content/itsm.xml:663
 msgid ""
 "A service agent may search, select, and assign any of a customer's "
 "configuration items (CIs) or existing tickets while recording a new incident "
@@ -1018,12 +1068,12 @@ msgstr ""
 "有工单。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:641
+#: en/content/itsm.xml:671
 msgid "CMDB Import/Export (CSV and API)"
 msgstr "配置管理数据库导入导出（CSV和API）"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:644
+#: en/content/itsm.xml:674
 msgid ""
 "This feature offers the possibility to import or update data from CSV files "
 "into the CMDB of OTRS::ITSM, and to export data from the CMDB to CSV files.  "
@@ -1034,7 +1084,7 @@ msgstr ""
 "出到CSV文件。CSV文件的每一行描述一个配置项，每一列是配置项的属性数据。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:651
+#: en/content/itsm.xml:681
 msgid ""
 "The import and export is controlled with ImEx definitions. These definitions "
 "map the columns of the CSV file to the fields in the CMDB. You can create an "
@@ -1052,7 +1102,7 @@ msgstr ""
 "定义都可以用于导入和导出。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:662
+#: en/content/itsm.xml:692
 msgid ""
 "To start an import (exports work the same way), two possibilities exist: "
 "interactive with the web interface, or automatically with a script.  Using "
@@ -1065,7 +1115,7 @@ msgstr ""
 "程中，将提供CSV文件自行下载。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:671
+#: en/content/itsm.xml:701
 msgid ""
 "The automatic import is carried out via a script, which requires the name of "
 "the ImEx definition and the name of the CSV file as arguments. During the "
@@ -1088,185 +1138,185 @@ msgstr ""
 "它格式/传输如直接数据库存取或XML所替代或增强。CSV接口的实现可以作为一个参考。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:691
+#: en/content/itsm.xml:721
 msgid "A huge variety of additional reports has been created, e.g.:"
 msgstr "创建了大量的附加报表，例如："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:694
+#: en/content/itsm.xml:724
 msgid "Basic reports for tickets and configuration items (CIs):"
 msgstr "工单和配置项的基本报表："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:699
+#: en/content/itsm.xml:729
 msgid ""
 "Total of all tickets ever created per ticket-type and priority (state, "
 "queue, service)."
 msgstr "每个工单类型和优先级（状态、队列、服务）的已创建工单总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:705
+#: en/content/itsm.xml:735
 msgid ""
 "Monthly overview of all tickets ever created of a previous month per ticket-"
 "type (priority, state, queue, service)."
 msgstr "上月每个工单类型（优先级、状态、队列、服务）已创建工单总数的月度概览。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:711
+#: en/content/itsm.xml:741
 msgid ""
 "Total of created tickets in a defined period per ticket-type and priority "
 "(state, queue, service)."
 msgstr "指定时间段每个工单类型和优先级（状态、队列、服务）的已创建工单总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:717
+#: en/content/itsm.xml:747
 msgid ""
 "Total of all open tickets per ticket-type and priority (queue, service)."
 msgstr "每个工单类型和优先级（状态、队列、服务）处理中的工单总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:723
+#: en/content/itsm.xml:753
 msgid "Total of all configuration items (CIs) created per class (per state)."
 msgstr "所有创建的配置项每个类（每个状态）的总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:729
+#: en/content/itsm.xml:759
 msgid ""
 "Total of all configuration items (CIs) created in a previous month per class "
 "(per state)."
 msgstr "上月创建的配置项每个类（每个状态）的总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:735
+#: en/content/itsm.xml:765
 msgid ""
 "Total of all configuration items (CIs) created in a defined period per class "
 "(per state)."
 msgstr "指定时间段创建的配置项每个类（每个状态）的总数。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:742
+#: en/content/itsm.xml:772
 msgid ""
 "Many more reports have been added which provide specific data regarding "
 "first time solution rate and average resolution time:"
 msgstr "添加了更多报表以提供关于一次解决率和平均解决时间的指定数据："
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:749
+#: en/content/itsm.xml:779
 msgid ""
 "First time solution rate of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr "每个工单类型和优先级（队列、服务）的工单的一次解决率。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:756
+#: en/content/itsm.xml:786
 msgid ""
 "First time solution rate in a previous month per ticket-type (priority, "
 "queue, service)."
 msgstr "上月每个工单类型（优先级、队列、服务）的工单的一次解决率。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:763
+#: en/content/itsm.xml:793
 msgid ""
 "First time solution rate in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr "指定时间段每个工单类型和优先级（队列、服务）的工单的一次解决率。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:770
+#: en/content/itsm.xml:800
 msgid ""
 "Average resolution time of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr "每个工单类型和优先级（队列、服务）的所有工单的平均解决时间。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:777
+#: en/content/itsm.xml:807
 msgid ""
 "Average resolution time in a previous month per ticket-type and priority "
 "(queue, service)."
 msgstr "上月每个工单类型和优先级（队列、服务）的工单的平均解决时间。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:784
+#: en/content/itsm.xml:814
 msgid ""
 "Average resolution time in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr "指定时间段每个工单类型和优先级（队列、服务）的工单的平均解决时间。"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:792
+#: en/content/itsm.xml:822
 msgid "Added print function for CIs, Services, SLAs, Locations."
 msgstr "添加了配置项、服务、SLA和位置的打印功能。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:800
+#: en/content/itsm.xml:830
 msgid "OTRS::ITSM 1.0 features"
 msgstr "OTRS::ITSM 1.0功能"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:801
+#: en/content/itsm.xml:831
 msgid "OTRS::ITSM 1.0 offers:"
 msgstr "OTRS::ITSM 1.0提供了以下功能："
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:804
+#: en/content/itsm.xml:834
 msgid "ITIL compliant representation of &quot;service support&quot; processes"
 msgstr "ITIL兼容的“服务支持”流程"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:809
+#: en/content/itsm.xml:839
 msgid "incident management"
 msgstr "故障管理"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:812
+#: en/content/itsm.xml:842
 msgid "problem management"
 msgstr "问题管理"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:815
+#: en/content/itsm.xml:845
 msgid "configuration management"
 msgstr "配置管理"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:821
+#: en/content/itsm.xml:851
 msgid ""
 "an integrated, individually extensible configuration management database "
 "(CMDB)"
 msgstr "一个集成的、可独立扩展的配置管理数据库（CMDB）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:826
+#: en/content/itsm.xml:856
 msgid "ITIL compliant names for new functions"
 msgstr "ITIL兼容的新功能名称"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:831
+#: en/content/itsm.xml:861
 msgid "ITIL compliant role, responsibility, and permission model"
 msgstr "ITIL兼容的角色、职责和权限模型"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:836
+#: en/content/itsm.xml:866
 msgid ""
 "cross-process communication management: within the IT service organization, "
 "with customers/users/management and suppliers/providers"
 msgstr "跨流程的沟通管理：IT服务组织内部、客户/客户联系人管理和供应商管理"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:842
+#: en/content/itsm.xml:872
 msgid ""
 "flexible stats functions for (trend) analyses; reporting, planning, and "
 "controlling based on performance figures"
 msgstr "灵活的统计功能用于（趋势）分析；报表、计划和基于性能图表的控制"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:848
+#: en/content/itsm.xml:878
 msgid ""
 "flexible configuration, customization, and upgrade to meet individual "
 "requirements"
 msgstr "灵活的配置、定制和升级以满足独特的需求"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:853
+#: en/content/itsm.xml:883
 msgid ""
 "native ticket types are supported (integrated in OTRS): Various ticket types "
 "can be managed in the admin interface.  Free-text fields are therefore no "
@@ -1281,12 +1331,12 @@ msgstr ""
 "面调整。"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:863
+#: en/content/itsm.xml:893
 msgid "Configuration management &amp; integrated CMDB:"
 msgstr "配置管理和集成的CMDB（配置管理数据库）："
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:865
+#: en/content/itsm.xml:895
 msgid ""
 "OTRS::ITSM is based on an integrated configuration management data base "
 "(CMDB), which serves as the foundation for the comprehensive control of the "
@@ -1299,7 +1349,7 @@ msgstr ""
 "它部件之间的相互依赖关系。"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:874
+#: en/content/itsm.xml:904
 msgid ""
 "Comprehensive recording and management of ITSM relevant configuration items "
 "(CIs) such as computers, hardware, software, networks, documents and "
@@ -1309,13 +1359,13 @@ msgstr ""
 "织架构等。"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:882
+#: en/content/itsm.xml:912
 msgid ""
 "Illustration of the IT service catalog and agreements in force (SLA, OLA, UC)"
 msgstr "描述了IT服务目录和生效协议（SLA、OLA、UC）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:887
+#: en/content/itsm.xml:917
 msgid ""
 "Recording, management, and illustration of technical and service related "
 "relationships and interdependencies among CMDB data, e.g. a service with all "
@@ -1325,7 +1375,7 @@ msgstr ""
 "要的所有必需的、供选择的或相关的配置项"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:895
+#: en/content/itsm.xml:925
 msgid ""
 "Management of historic, current, and future CI states, e.g.  for problem "
 "diagnosis, server maintenance or planned changes"
@@ -1333,49 +1383,49 @@ msgstr ""
 "管理配置项历史、当前和未来的状态，例如用于问题诊断、服务器维护或计划的变更"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:901
+#: en/content/itsm.xml:931
 msgid ""
 "Analysis of the potential impact of service failures or configuration changes"
 msgstr "分析服务故障或配置变更的潜在影响"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:906
+#: en/content/itsm.xml:936
 msgid ""
 "Display of virtualized IT infrastructures, e.g. server / memory "
 "virtualization"
 msgstr "显示虚拟的IT基础设施，例如服务器/内存虚拟化"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:911
+#: en/content/itsm.xml:941
 msgid ""
 "Software license management, e.g. licenses available / in use (third party "
 "products required)"
 msgstr "软件许可管理，例如可用/在用的许可证（需要第三方产品）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:916
+#: en/content/itsm.xml:946
 msgid ""
 "Chronological life cycle management for CIs, from acquisition to disposal"
 msgstr "配置项按年代序列的生命周期管理，从购买到作废"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:921
+#: en/content/itsm.xml:951
 msgid "Reporting of all configuration changes performed on CMDB data"
 msgstr "对CMDB数据所做的所有配置变更的报告"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:926
+#: en/content/itsm.xml:956
 msgid ""
 "Interface to company directories (e.g. LDAP, eDirectory, Active Directory)"
 msgstr "公司目录接口（如LDAP、eDirectory、Active Directory等）"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:930
+#: en/content/itsm.xml:960
 msgid "Incident management:"
 msgstr "故障管理："
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:934
+#: en/content/itsm.xml:964
 msgid ""
 "Services and SLAs (integrated in OTRS): The new attributes \"service\" and "
 "\"service level agreements (SLA)\" were integrated in OTRS 2.2 on its way to "
@@ -1394,7 +1444,7 @@ msgstr ""
 "邮件头信息同样可以用在邮箱管理员过滤器模块进行分析。"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:948
+#: en/content/itsm.xml:978
 msgid ""
 "Comprehensive support of IT service support organization processes with "
 "incident recording, classification, prioritization, direct help (1st level "
@@ -1405,7 +1455,7 @@ msgstr ""
 "协调（二线/三线支持、外部合作伙伴等）、服务恢复、解决、关闭和服务文档等流程"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:956
+#: en/content/itsm.xml:986
 msgid ""
 "Incidents and service requests can be recorded quickly and intuitively by "
 "service desk staff and users (web self-service)"
@@ -1413,19 +1463,19 @@ msgstr ""
 "故障和服务请求能够被服务台人员和客户联系人（WEB自助服务）快速和直观地记录。"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:962
+#: en/content/itsm.xml:992
 msgid ""
 "Rule-based ticket generation and/or notification, e.g. in interaction with "
 "IT monitoring systems"
 msgstr "基于规则的工单生成和/或通知，例如与IT监控系统交互"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:968
+#: en/content/itsm.xml:998
 msgid "Classification and prioritization options (priority, impact, urgency)"
 msgstr "类别和优先顺序选项（优先级、影响、紧急度）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:973
+#: en/content/itsm.xml:1003
 msgid ""
 "Complete CMDB coverage, e.g. services affected by the incident, "
 "configuration items concerned, FAQ database, link-up between tickets and CIs "
@@ -1435,38 +1485,38 @@ msgstr ""
 "之间建立链接以用于分析和报表"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:980
+#: en/content/itsm.xml:1010
 msgid "(Automatic) recording of \"articles\" for tickets (activity record)"
 msgstr "（自动）记录工单“信件”（活动记录）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:985
+#: en/content/itsm.xml:1015
 msgid "Constant monitoring and evaluation of the ticket processing progress"
 msgstr "经常监控和评估工单处理过程"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:991
+#: en/content/itsm.xml:1021
 msgid ""
 "Complete integration of OTRS role, group and queue mechanisms for incident "
 "ticket allocation, tracking, escalation and interpretation"
 msgstr "故障工单的分配、跟踪、升级和解释与OTRS的角色、组和队列机制完全集成"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:998
+#: en/content/itsm.xml:1028
 msgid ""
 "Provision and storage of relevant time data, e.g. for service level "
 "management"
 msgstr "提供和存储相关时间数据，例如服务级别管理相关的时间"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1003
+#: en/content/itsm.xml:1033
 msgid ""
 "Practical ticket handling (merge, split), allows to merge similar incidents "
 "and/or split complicated ones"
 msgstr "实用的工单处理（合并、拆分），允许合并相似的故障和/或拆分复杂的故障"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1008
+#: en/content/itsm.xml:1038
 msgid ""
 "Planning, proactive control, and monitoring of service request activities "
 "(work packages, work plans, service lead times, due dates)"
@@ -1474,17 +1524,17 @@ msgstr ""
 "计划、主动控制和监控服务请求活动（工作包、工作计划、服务交货期、到期时间等）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1014
+#: en/content/itsm.xml:1044
 msgid "Generation and tracking of problem tickets from incidents"
 msgstr "从故障工单生成和跟踪问题工单"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:1018
+#: en/content/itsm.xml:1048
 msgid "Problem management:"
 msgstr "问题管理："
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1022
+#: en/content/itsm.xml:1052
 msgid ""
 "Comprehensive support of IT organization processes in problem "
 "identification, recording, classification, prioritization, problem origin "
@@ -1495,147 +1545,147 @@ msgstr ""
 "措施或变更请求）、关闭和编制文档等流程"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1028
+#: en/content/itsm.xml:1058
 msgid "Provision of relevant information for subprocesses"
 msgstr "为子流程提供相关信息"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1032
+#: en/content/itsm.xml:1062
 msgid "Problem control (trouble-shooting),"
 msgstr "问题控制（解决问题），"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1037
+#: en/content/itsm.xml:1067
 msgid "Error control (error processing),"
 msgstr "错误控制（错误处理），"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1042
+#: en/content/itsm.xml:1072
 msgid "Proactive problem management (e.g. ticket trend analyses) and"
 msgstr "主动问题管理（例如工单趋势分析）和"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1047
+#: en/content/itsm.xml:1077
 msgid "Management information (on incidents, problems and known errors)"
 msgstr "管理信息（关于故障、问题和已经错误）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1054
+#: en/content/itsm.xml:1084
 msgid ""
 "Current/historic incidents, knowledge base (FAQs), and CMDB are constantly "
 "available"
 msgstr "当前/历史故障、知识库（FAQ）和配置管理数据库均一直可用"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1059
+#: en/content/itsm.xml:1089
 msgid ""
 "Complete integration of OTRS role, group and queue mechanisms to allocate, "
 "track, escalate and evaluate incident tickets"
 msgstr "故障工单的分配、跟踪、升级和评估与OTRS的角色、组和队列机制完全集成"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1065
+#: en/content/itsm.xml:1095
 msgid ""
 "Systematic automated notifications on the problem resolution progress for "
 "users (user groups) concerned or the management"
 msgstr "系统自动通知客户关心的解决问题进展情况"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1071
+#: en/content/itsm.xml:1101
 msgid "Incident management receives ready signal for resolved problems"
 msgstr "故障管理接收问题解决的准备信号"
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:1076
+#: en/content/itsm.xml:1106
 msgid ""
 "Tickets are central information containers for IT service process "
 "management: They transport multiple possible underlying data such as:"
 msgstr "工单是IT服务流程管理的中央信息容器：它们传输多种可能的基础数据，例如："
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1083
+#: en/content/itsm.xml:1113
 msgid "Persons, organizations"
 msgstr "人员、组织"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1088
+#: en/content/itsm.xml:1118
 msgid "Time stamp"
 msgstr "时间标识"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1093
+#: en/content/itsm.xml:1123
 msgid "Priority, impact, severity"
 msgstr "优先级、影响、紧急度"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1098
+#: en/content/itsm.xml:1128
 msgid "Associations to IT service catalog and projects"
 msgstr "IT服务目录和项目的关联"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1103
+#: en/content/itsm.xml:1133
 msgid "Activities, e.g. note about a call with time accounting"
 msgstr "活动，例如：关于一个工时管理电话的备注"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1108
+#: en/content/itsm.xml:1138
 msgid "Objects, e.g. CIs, including relations"
 msgstr "对象，例如：配置项、包含关系"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1113
+#: en/content/itsm.xml:1143
 msgid "(Sub)Tickets, e.g. a problem with the underlying incidents"
 msgstr "（子）工单，例如：有基础故障的问题"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1118
+#: en/content/itsm.xml:1148
 msgid "Notes and attachments, e.g. scanned service request forms"
 msgstr "备注和附件，例如：扫描的服务请求单"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1123
+#: en/content/itsm.xml:1153
 msgid "Work packages, i.e. planned, allocated tasks"
 msgstr "工作包，如计划的、分配的工作任务"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1128
+#: en/content/itsm.xml:1158
 msgid "SLA information"
 msgstr "SLA信息"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1133
+#: en/content/itsm.xml:1163
 msgid "Thresholds and escalation data"
 msgstr "阈值和升级数据"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1138
+#: en/content/itsm.xml:1168
 msgid "Ticket history (all changes)"
 msgstr "工单历史（所有修改）"
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1143
+#: en/content/itsm.xml:1173
 msgid "Accounting information (time accounting)."
 msgstr "工时信息（工时管理）。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1151
+#: en/content/itsm.xml:1181
 msgid "Hardware and software requirements"
 msgstr "硬件与软件要求"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1153
+#: en/content/itsm.xml:1183
 msgid ""
 "The requirements for OTRS::ITSM are the same as for OTRS. More information "
 "can be found in the OTRS Admin Manual."
 msgstr "OTRS::ITSM的要求与OTRS的要求相同，可从OTRS管理手册获得更多信息。"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1158
+#: en/content/itsm.xml:1188
 msgid "Community"
 msgstr "社区"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1160
+#: en/content/itsm.xml:1190
 msgid ""
 "A large community has evolved around OTRS throughout the past years. Users "
 "and developers use mailing lists to share their insights about a wide "
@@ -1651,7 +1701,7 @@ msgstr ""
 "提交BUG报告，还可以直接联系负责的开发人员，相关补丁会很快提供出来。"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1170
+#: en/content/itsm.xml:1200
 msgid ""
 "The above mentioned community channels are open for OTRS::ITSM users also, "
 "to constantly improve the product's quality. You can join the community at "
@@ -1661,12 +1711,12 @@ msgstr ""
 "otrs.org (http://otrs.org/)加入这个社区。"
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/itsm.xml:1176
+#: en/content/itsm.xml:1206
 msgid "OTRS.org"
 msgstr "OTRS.org"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/itsm.xml:1178
+#: en/content/itsm.xml:1208
 msgid ""
 "<graphic fileref=\"screenshots/otrs-org.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
@@ -1675,7 +1725,7 @@ msgstr ""
 "contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><para><figure>
-#: en/content/itsm.xml:1177 en/content/itsm.xml:1192
+#: en/content/itsm.xml:1207 en/content/itsm.xml:1222
 #: en/content/installation.xml:65 en/content/first-steps.xml:38
 #: en/content/cmdb.xml:132 en/content/cmdb.xml:141 en/content/cmdb.xml:157
 #: en/content/cmdb.xml:166 en/content/cmdb.xml:244 en/content/cmdb.xml:266
@@ -1698,18 +1748,18 @@ msgstr ""
 #: en/content/change-management.xml:2877 en/content/change-management.xml:3165
 #: en/content/change-management.xml:3452 en/content/stats.xml:18
 #: en/content/stats.xml:27 en/content/stats.xml:36 en/content/stats.xml:47
-#: en/content/stats.xml:55 en/content/stats.xml:64
-#: en/content/admin-area.xml:94 en/content/admin-area.xml:108
-#: en/content/admin-area.xml:118 en/content/admin-area.xml:173
-#: en/content/admin-area.xml:281 en/content/admin-area.xml:306
-#: en/content/admin-area.xml:322 en/content/admin-area.xml:418
-#: en/content/admin-area.xml:430 en/content/admin-area.xml:448
-#: en/content/calendar.xml:13 en/content/calendar.xml:28
+#: en/content/stats.xml:55 en/content/stats.xml:64 en/content/admin-area.xml:94
+#: en/content/admin-area.xml:108 en/content/admin-area.xml:118
+#: en/content/admin-area.xml:173 en/content/admin-area.xml:281
+#: en/content/admin-area.xml:306 en/content/admin-area.xml:322
+#: en/content/admin-area.xml:418 en/content/admin-area.xml:430
+#: en/content/admin-area.xml:448 en/content/calendar.xml:13
+#: en/content/calendar.xml:28
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
 #. type: Content of: <chapter><para>
-#: en/content/itsm.xml:1175 en/content/itsm.xml:1190
+#: en/content/itsm.xml:1205 en/content/itsm.xml:1220
 #: en/content/first-steps.xml:36 en/content/cmdb.xml:130
 #: en/content/cmdb.xml:139 en/content/cmdb.xml:155 en/content/cmdb.xml:164
 #: en/content/cmdb.xml:242 en/content/cmdb.xml:264 en/content/cmdb.xml:273
@@ -1732,23 +1782,23 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/change-management.xml:2875 en/content/change-management.xml:3163
 #: en/content/change-management.xml:3450 en/content/stats.xml:16
 #: en/content/stats.xml:25 en/content/stats.xml:34 en/content/stats.xml:45
-#: en/content/stats.xml:53 en/content/stats.xml:62
-#: en/content/admin-area.xml:92 en/content/admin-area.xml:106
-#: en/content/admin-area.xml:116 en/content/admin-area.xml:171
-#: en/content/admin-area.xml:279 en/content/admin-area.xml:304
-#: en/content/admin-area.xml:320 en/content/admin-area.xml:416
-#: en/content/admin-area.xml:428 en/content/admin-area.xml:446
-#: en/content/calendar.xml:11 en/content/calendar.xml:26
+#: en/content/stats.xml:53 en/content/stats.xml:62 en/content/admin-area.xml:92
+#: en/content/admin-area.xml:106 en/content/admin-area.xml:116
+#: en/content/admin-area.xml:171 en/content/admin-area.xml:279
+#: en/content/admin-area.xml:304 en/content/admin-area.xml:320
+#: en/content/admin-area.xml:416 en/content/admin-area.xml:428
+#: en/content/admin-area.xml:446 en/content/calendar.xml:11
+#: en/content/calendar.xml:26
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr "<placeholder type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1184
+#: en/content/itsm.xml:1214
 msgid "Mailing lists"
 msgstr "邮件列表"
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1186
+#: en/content/itsm.xml:1216
 msgid ""
 "Separate mailing lists have been set up for OTRS::ITSM. Please visit http://"
 "lists.otrs.org (http://lists.otrs.org/):"
@@ -1757,12 +1807,12 @@ msgstr ""
 "lists.otrs.org/)："
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/itsm.xml:1191
+#: en/content/itsm.xml:1221
 msgid "lists-otrs-org"
 msgstr "lists-otrs-org"
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/itsm.xml:1193
+#: en/content/itsm.xml:1223
 msgid ""
 "<graphic fileref=\"screenshots/lists-otrs-org.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -2068,8 +2118,13 @@ msgstr "安装OTRS::ITSM"
 
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
+#, fuzzy
+#| msgid ""
+#| "Please note that the OTRS framework 5 must be installed prior to the "
+#| "installation of OTRS::ITSM. All necessary information, options and "
+#| "installation procedures are depicted in the OTRS Admin Manual."
 msgid ""
-"Please note that the OTRS framework 5 must be installed prior to the "
+"Please note that the OTRS framework 6 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
@@ -2083,10 +2138,16 @@ msgstr "安装"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
+#, fuzzy
+#| msgid ""
+#| "After successfully installing OTRS 5 or a later version, proceed to sign "
+#| "on as administrator. Using the package manager in the admin area or via "
+#| "ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
+#| "install them in the following order:"
 msgid ""
-"After successfully installing OTRS 5 or a later version, proceed to sign on "
+"After successfully installing OTRS 6 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via ftp://"
-"ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and install "
+"ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and install "
 "them in the following order:"
 msgstr ""
 "成功安装OTRS 5或更新版本后，以系统管理员登录，在系统管理区使用软件包管理器或"
@@ -2105,9 +2166,15 @@ msgstr "ITSM核心模块"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:30
+#, fuzzy
+#| msgid ""
+#| "If your machine running OTRS has internet access, use the following "
+#| "online repository [--OTRS::ITSM 5 Master--] to install the packages "
+#| "below. Otherwise download the packages below and use the package manager "
+#| "to install them:"
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
-"repository [--OTRS::ITSM 5 Master--] to install the packages below. "
+"repository [--OTRS::ITSM 6 Master--] to install the packages below. "
 "Otherwise download the packages below and use the package manager to install "
 "them:"
 msgstr ""
@@ -2142,9 +2209,14 @@ msgstr "导入导出模块"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:61
+#, fuzzy
+#| msgid ""
+#| "You can find further information about the installation process here: "
+#| "<ulink url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5."
+#| "ITSM</ulink>"
 msgid ""
 "You can find further information about the installation process here: <ulink "
-"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</"
+"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM\">INSTALL-6.ITSM</"
 "ulink>"
 msgstr ""
 "您可以在这里找到安装过程的更多信息： <ulink url=\"http://ftp.otrs.org/pub/"

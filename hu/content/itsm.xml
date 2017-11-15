@@ -77,10 +77,41 @@ használhatók) és a GNU Affero General Public License (AGPL) alá tartoznak.
     <sect1>
         <title>Szolgáltatások</title>
         <para>
-            Az OTRS::ITSM 5 az OTRS 5-ös verzióján alapul. Az OTRS-ből ismert minden
-funkcionalitás továbbra is elérhető, és az ITIL-folyamatokat megtestesítő
-funkcionalitások csomagként telepíthetők.
+            OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 6 features
+            </title>
+            <para>OTRS::ITSM 6 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 6 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature for ITSMConfigurationManagement to suppress adding a new
+config item version for special attributes.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 6 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 Új OTRS::ITSM 5 szolgáltatások

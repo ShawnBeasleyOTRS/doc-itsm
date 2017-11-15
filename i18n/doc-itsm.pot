@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-09-25 10:37-0500\n"
+"POT-Creation-Date: 2017-11-15 10:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,14 +23,14 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
-msgid "OTRS::ITSM 5"
+msgid "OTRS::ITSM 6"
 msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
 msgid ""
-"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-11-24</date>"
+"<copyright> <year>2003-2017</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2017-09-26</date>"
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
@@ -65,12 +65,12 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:46
-msgid "5.0.1"
+msgid "6.0.1"
 msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:47
-msgid "11/24/2015"
+msgid "09/26/2017"
 msgstr ""
 
 #. type: Content of: <preface><title>
@@ -247,67 +247,94 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para>
 #: en/content/itsm.xml:77
 msgid ""
-"OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
+"OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS "
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
-msgid "New OTRS::ITSM 5 features"
+msgid "New OTRS::ITSM 6 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
-msgid "OTRS::ITSM 5 offers:"
+msgid "OTRS::ITSM 6 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
-msgid "Ported code to the OTRS 5 framework."
+msgid "Ported code to the OTRS 6 framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
-msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
-msgstr ""
-
-#. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:108
-msgid "New OTRS::ITSM 4 features"
-msgstr ""
-
-#. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:110
-msgid "OTRS::ITSM 4 offers:"
+msgid ""
+"Added new feature for ITSMConfigurationManagement to suppress adding a new "
+"config item version for special attributes."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:104
+msgid "OTRS::ITSM 6 includes many other small bug fixes and improvements."
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><title>
+#: en/content/itsm.xml:114
+msgid "New OTRS::ITSM 5 features"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:116
-msgid "Ported code to the OTRS 4 framework."
+msgid "OTRS::ITSM 5 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:122
+msgid "Ported code to the OTRS 5 framework."
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:128
+msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><title>
+#: en/content/itsm.xml:138
+msgid "New OTRS::ITSM 4 features"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para>
+#: en/content/itsm.xml:140
+msgid "OTRS::ITSM 4 offers:"
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:146
+msgid "Ported code to the OTRS 4 framework."
+msgstr ""
+
+#. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
+#: en/content/itsm.xml:152
 msgid ""
 "New powerful template engine based on <ulink "
 "url=\"http://www.template-toolkit.org/\">Template::Toolkit</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:128
+#: en/content/itsm.xml:158
 msgid ""
 "A central object manager makes creating and using global objects much "
 "easier."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:134
+#: en/content/itsm.xml:164
 msgid "OTRS::ITSM 4 includes many other small bug fixes and improvements."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:140
+#: en/content/itsm.xml:170
 msgid ""
 "All OTRS::ITSM 4 translations will be now managed exclusively via Transifex: "
 "https://www.transifex.com/projects/p/OTRS/resources/ Please sign up for a "
@@ -316,7 +343,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:147
+#: en/content/itsm.xml:177
 msgid ""
 "Improved and more flexible incident state link propagation. It is now "
 "possible to add more than one link type for the incident state calculation, "
@@ -325,7 +352,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:153
+#: en/content/itsm.xml:183
 msgid ""
 "GenericInterface for ITSM Configuration Management. This feature contains "
 "operations for creating, changing, retrieving and searching configuration "
@@ -333,7 +360,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:159
+#: en/content/itsm.xml:189
 msgid ""
 "Bulk actions for ITSM Configuration Management. This feature provides a "
 "screen to perform certain actions over a selection of ITSM Configuration "
@@ -341,7 +368,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:165
+#: en/content/itsm.xml:195
 msgid ""
 "New color flag for the \"deployment state\" in ITSM Configuration "
 "Management. This feature adds a flag column to the Configuration Item "
@@ -351,14 +378,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:171
+#: en/content/itsm.xml:201
 msgid ""
 "Dynamic fields for ITSM Change Management. The freetext fields for changes "
 "and workorder have been migrated to more flexible dynamic fields."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:177
+#: en/content/itsm.xml:207
 msgid ""
 "Improved and easier handling of templates for changes, workorders and change "
 "advisory boards (CAB). It is now easier to edit a template by selecting it "
@@ -368,22 +395,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:187
+#: en/content/itsm.xml:217
 msgid "New OTRS::ITSM 3.3 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:189
+#: en/content/itsm.xml:219
 msgid "OTRS::ITSM 3.3 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:195
+#: en/content/itsm.xml:225
 msgid "Ported code to the OTRS 3.3 framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:201
+#: en/content/itsm.xml:231
 msgid ""
 "Integrated Feature AddOn \"OTRSServiceIncidentState\" into OTRS::ITSM.  It "
 "shows the current incident state of a selected service in the ticket zoom, "
@@ -392,7 +419,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:209
+#: en/content/itsm.xml:239
 msgid ""
 "Integrated Feature AddOn \"OTRSCIColumns\" into OTRS::ITSM.  This feature "
 "makes it possible to configure the shown CI-Attributes individually for each "
@@ -401,7 +428,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:217
+#: en/content/itsm.xml:247
 msgid ""
 "Integrated Feature AddOn \"OTRSWorkOrderTimeDependency\" into OTRS::ITSM.  "
 "If this feature is enabled and you change the planned end date of a "
@@ -410,7 +437,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:224
+#: en/content/itsm.xml:254
 msgid ""
 "Integrated Feature AddOn \"OTRSCIAttributeSyntaxCheck\" into OTRS::ITSM.  "
 "This feature makes it possible to check the syntax of CI attributes with a "
@@ -424,21 +451,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:234
+#: en/content/itsm.xml:264
 msgid ""
 "Added new feature \"WorkOrder Report Attachments\" into OTRS::ITSM.  This "
 "feature adds support for attachment uploads in the workorder report screen."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:241
+#: en/content/itsm.xml:271
 msgid ""
 "The toolbar icons now use an icon font which makes it easier to create "
 "custom skins with different base colors."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:247
+#: en/content/itsm.xml:277
 msgid ""
 "Migrated ITSMCriticality and ITSMImpact values from general catalog to "
 "dynamic fields.  Renamed ITSM related dynamic fields to nicer names, "
@@ -446,7 +473,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:254
+#: en/content/itsm.xml:284
 msgid ""
 "In ITSMChangeManagement the frontends to create changes / workorders have "
 "been splitted in 2 screens each.  One to create a new change / workorder "
@@ -454,200 +481,200 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:265
+#: en/content/itsm.xml:295
 msgid "New OTRS::ITSM 3.2 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:267
+#: en/content/itsm.xml:297
 msgid "OTRS::ITSM 3.2 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:273
+#: en/content/itsm.xml:303
 msgid "Ported code to the OTRS 3.2 framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:279
+#: en/content/itsm.xml:309
 msgid "Enhanced Import/Export screen to show a summary after importing."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:285
+#: en/content/itsm.xml:315
 msgid "Added attachment support for ITSM config items."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:291
+#: en/content/itsm.xml:321
 msgid ""
 "Added new optional sysconfig option to check if config item names are "
 "unique."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:301
+#: en/content/itsm.xml:331
 msgid "New OTRS::ITSM 3.1 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:303
+#: en/content/itsm.xml:333
 msgid "OTRS::ITSM 3.1 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:309
+#: en/content/itsm.xml:339
 msgid "Ported code to the OTRS 3.1 framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:315
+#: en/content/itsm.xml:345
 msgid ""
 "Added caching to speed up the condition / action backends in change "
 "management."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:321
+#: en/content/itsm.xml:351
 msgid ""
 "Added possibility to use a mirror database for change and workorder searches "
 "in change management."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:331
+#: en/content/itsm.xml:361
 msgid "New OTRS::ITSM 3.0 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:333
+#: en/content/itsm.xml:363
 msgid "OTRS::ITSM 3.0 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:339
+#: en/content/itsm.xml:369
 msgid "Brand New Interface - OTRS 3.0 Look &amp; Feel"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:345
+#: en/content/itsm.xml:375
 msgid "Ported code to the OTRS 3.0 framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:351
+#: en/content/itsm.xml:381
 msgid "New Generic Search Dialogs."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:357
+#: en/content/itsm.xml:387
 msgid "New Search result types (Print, PDF and CSV)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:367
+#: en/content/itsm.xml:397
 msgid "New OTRS::ITSM 2.1 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:369
+#: en/content/itsm.xml:399
 msgid "OTRS::ITSM 2.1 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/content/itsm.xml:373 en/content/itsm.xml:400 en/content/change-management.xml:7
+#: en/content/itsm.xml:403 en/content/itsm.xml:430 en/content/change-management.xml:7
 msgid "Change Management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:375
+#: en/content/itsm.xml:405
 msgid ""
 "Improved speed of Change Management and GeneralCatalog by implementing "
 "caching technology."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:378
+#: en/content/itsm.xml:408
 msgid ""
 "New powerful FreeText fields for Changes and Workorders in Change "
 "Management."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:381
+#: en/content/itsm.xml:411
 msgid ""
 "Implemented an option to reset the change and workorder states while saving "
 "as template."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:384
+#: en/content/itsm.xml:414
 msgid "New alternative checksum generator for the change number."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:387
+#: en/content/itsm.xml:417
 msgid ""
 "New option to show workorder title and workorder state in the change zoom "
 "timeline."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:395
+#: en/content/itsm.xml:425
 msgid "New OTRS::ITSM 2.0 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:396
+#: en/content/itsm.xml:426
 msgid "OTRS::ITSM 2.0 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:402
+#: en/content/itsm.xml:432
 msgid ""
 "The new OTRS::ITSM package \"ITSMChangeManagement\" implements the ITIL "
 "discipline Change Management."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:410
+#: en/content/itsm.xml:440
 msgid "New OTRS::ITSM 1.3 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:412
+#: en/content/itsm.xml:442
 msgid "OTRS::ITSM 1.3 is based on OTRS 2.4"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:415
+#: en/content/itsm.xml:445
 msgid ""
 "It offers the same features as OTRS::ITSM 1.2, but runs on the OTRS 2.4 "
 "framework."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:420
+#: en/content/itsm.xml:450
 msgid "New OTRS::ITSM 1.2 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:422
+#: en/content/itsm.xml:452
 msgid "OTRS::ITSM 1.2 is based on OTRS 2.3"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:424
+#: en/content/itsm.xml:454
 msgid "OTRS::ITSM 1.2 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:428
+#: en/content/itsm.xml:458
 msgid "Modularization"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:430
+#: en/content/itsm.xml:460
 msgid ""
 "From now on the additional ITSM packages covering single ITIL disciplines "
 "like incident management / problem management, configuration management, "
@@ -658,12 +685,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:442
+#: en/content/itsm.xml:472
 msgid "Reduced reloads"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:444
+#: en/content/itsm.xml:474
 msgid ""
 "ITSM functionalities (e. g. priority calculation based on a tickets impact)  "
 "have been reimplemented in AJAX technology to reduce necessary reloads.  "
@@ -671,12 +698,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:453
+#: en/content/itsm.xml:483
 msgid "Joint Link-Object mechanism"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:455
+#: en/content/itsm.xml:485
 msgid ""
 "OTRS::ITSM 1.1 and lower releases were designed based on an own extended "
 "Object-Link mechanism.  As a consequence, the Object-Link functionality of "
@@ -686,12 +713,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:465
+#: en/content/itsm.xml:495
 msgid "Improved speed"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:467
+#: en/content/itsm.xml:497
 msgid ""
 "Changing database access technology to using SQL bind parameters made it "
 "possible to access the Configuration Items (CI) database faster than "
@@ -699,66 +726,66 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:473
+#: en/content/itsm.xml:503
 msgid "Locations"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:475
+#: en/content/itsm.xml:505
 msgid ""
 "Locations are no longer a separate menu item. They are now integrated into "
 "the Configuration Items, which will bring a sustainable gain in flexibility."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:482
+#: en/content/itsm.xml:512
 msgid "SLA-Service multi-assignments"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:484
+#: en/content/itsm.xml:514
 msgid "It is now possible to assign a SLA to multiple Services."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:489
+#: en/content/itsm.xml:519
 msgid "SLA Overview"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:491
+#: en/content/itsm.xml:521
 msgid "In the service menu, there is now a new SLA overview mask."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:496
+#: en/content/itsm.xml:526
 msgid "Refresh-Mechanism"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:498
+#: en/content/itsm.xml:528
 msgid ""
 "A refresh mechanism was added to refresh the service overview and the config "
 "item overview screens automatically."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:508
+#: en/content/itsm.xml:538
 msgid "New OTRS::ITSM 1.1 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:509
+#: en/content/itsm.xml:539
 msgid "OTRS::ITSM 1.1 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:513
+#: en/content/itsm.xml:543
 msgid "Authorization concept"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:515
+#: en/content/itsm.xml:545
 msgid ""
 "Each object like Service/SLA, Location, CI, Linkobject now creates a "
 "corresponding group, so the agents rights can be assigned with more "
@@ -766,12 +793,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:522
+#: en/content/itsm.xml:552
 msgid "Allocation of services to customers"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:524
+#: en/content/itsm.xml:554
 msgid ""
 "Services can be assigned to authorized customers. Further more, services may "
 "be assigned as general 'default services' which are valid to use for each "
@@ -779,12 +806,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:531
+#: en/content/itsm.xml:561
 msgid "Service/CI view"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:533
+#: en/content/itsm.xml:563
 msgid ""
 "A view on services and CIs, including information on each object's current "
 "state, allows you to analyze an incident and calculate the incident's impact "
@@ -797,24 +824,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:551
+#: en/content/itsm.xml:581
 msgid ""
 "CIs are now enhanced with a 'current incident state', which includes two "
 "state types:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:556
+#: en/content/itsm.xml:586
 msgid "Operational"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:559
+#: en/content/itsm.xml:589
 msgid "Incident"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:564
+#: en/content/itsm.xml:594
 msgid ""
 "For each state type, any number of states can be registered.  The state of a "
 "CI affects the service state, which will be dynamically calculated, and can "
@@ -822,76 +849,76 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:571
+#: en/content/itsm.xml:601
 msgid "Operational (green)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:574
+#: en/content/itsm.xml:604
 msgid "Warning (yellow)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:577
+#: en/content/itsm.xml:607
 msgid "Incident (red)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:581
+#: en/content/itsm.xml:611
 msgid ""
 "The propagation of the incident state will be carried out if CIs are linked "
 "with the link type 'depend on'.  Here the following rules apply:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:588
+#: en/content/itsm.xml:618
 msgid ""
 "If a CI is dependent on another CI, which is in the state 'Incident', the "
 "dependent CI gets the state 'Warning'."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:595
+#: en/content/itsm.xml:625
 msgid ""
 "If a service is dependent on CIs, and one of these CIs has a state "
 "'Incident', the service will also get the state 'Incident'."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:603
+#: en/content/itsm.xml:633
 msgid ""
 "If a service is dependent on CIs, and one of these CIs has the state "
 "'Warning', the service will also get the state 'Warning'."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:610
+#: en/content/itsm.xml:640
 msgid ""
 "If a service has sub-services, and one of these services has the state "
 "'Incident', the parent service will get the state 'Warning'."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:618
+#: en/content/itsm.xml:648
 msgid ""
 "If a service has sub-services, and one of these services has the state "
 "'Warning', the parent service will get the state 'Warning'."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:625
+#: en/content/itsm.xml:655
 msgid ""
 "The states of the respective services, sub-services, and CIs will be shown "
 "in the view."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:631
+#: en/content/itsm.xml:661
 msgid "CI search and linking from agent interface"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:633
+#: en/content/itsm.xml:663
 msgid ""
 "A service agent may search, select, and assign any of a customer's "
 "configuration items (CIs) or existing tickets while recording a new incident "
@@ -899,12 +926,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:641
+#: en/content/itsm.xml:671
 msgid "CMDB Import/Export (CSV and API)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:644
+#: en/content/itsm.xml:674
 msgid ""
 "This feature offers the possibility to import or update data from CSV files "
 "into the CMDB of OTRS::ITSM, and to export data from the CMDB to CSV files.  "
@@ -913,7 +940,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:651
+#: en/content/itsm.xml:681
 msgid ""
 "The import and export is controlled with ImEx definitions. These definitions "
 "map the columns of the CSV file to the fields in the CMDB. You can create an "
@@ -926,7 +953,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:662
+#: en/content/itsm.xml:692
 msgid ""
 "To start an import (exports work the same way), two possibilities exist: "
 "interactive with the web interface, or automatically with a script.  Using "
@@ -936,7 +963,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:671
+#: en/content/itsm.xml:701
 msgid ""
 "The automatic import is carried out via a script, which requires the name of "
 "the ImEx definition and the name of the CSV file as arguments. During the "
@@ -953,184 +980,184 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:691
+#: en/content/itsm.xml:721
 msgid "A huge variety of additional reports has been created, e.g.:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:694
+#: en/content/itsm.xml:724
 msgid "Basic reports for tickets and configuration items (CIs):"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:699
+#: en/content/itsm.xml:729
 msgid ""
 "Total of all tickets ever created per ticket-type and priority (state, "
 "queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:705
+#: en/content/itsm.xml:735
 msgid ""
 "Monthly overview of all tickets ever created of a previous month per "
 "ticket-type (priority, state, queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:711
+#: en/content/itsm.xml:741
 msgid ""
 "Total of created tickets in a defined period per ticket-type and priority "
 "(state, queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:717
+#: en/content/itsm.xml:747
 msgid "Total of all open tickets per ticket-type and priority (queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:723
+#: en/content/itsm.xml:753
 msgid "Total of all configuration items (CIs) created per class (per state)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:729
+#: en/content/itsm.xml:759
 msgid ""
 "Total of all configuration items (CIs) created in a previous month per class "
 "(per state)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:735
+#: en/content/itsm.xml:765
 msgid ""
 "Total of all configuration items (CIs) created in a defined period per class "
 "(per state)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:742
+#: en/content/itsm.xml:772
 msgid ""
 "Many more reports have been added which provide specific data regarding "
 "first time solution rate and average resolution time:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:749
+#: en/content/itsm.xml:779
 msgid ""
 "First time solution rate of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:756
+#: en/content/itsm.xml:786
 msgid ""
 "First time solution rate in a previous month per ticket-type (priority, "
 "queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:763
+#: en/content/itsm.xml:793
 msgid ""
 "First time solution rate in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:770
+#: en/content/itsm.xml:800
 msgid ""
 "Average resolution time of all tickets ever created per ticket-type and "
 "priority (queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:777
+#: en/content/itsm.xml:807
 msgid ""
 "Average resolution time in a previous month per ticket-type and priority "
 "(queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:784
+#: en/content/itsm.xml:814
 msgid ""
 "Average resolution time in a defined period per ticket-type and priority "
 "(queue, service)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
-#: en/content/itsm.xml:792
+#: en/content/itsm.xml:822
 msgid "Added print function for CIs, Services, SLAs, Locations."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
-#: en/content/itsm.xml:800
+#: en/content/itsm.xml:830
 msgid "OTRS::ITSM 1.0 features"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:801
+#: en/content/itsm.xml:831
 msgid "OTRS::ITSM 1.0 offers:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:804
+#: en/content/itsm.xml:834
 msgid "ITIL compliant representation of &quot;service support&quot; processes"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:809
+#: en/content/itsm.xml:839
 msgid "incident management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:812
+#: en/content/itsm.xml:842
 msgid "problem management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:815
+#: en/content/itsm.xml:845
 msgid "configuration management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:821
+#: en/content/itsm.xml:851
 msgid ""
 "an integrated, individually extensible configuration management database "
 "(CMDB)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:826
+#: en/content/itsm.xml:856
 msgid "ITIL compliant names for new functions"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:831
+#: en/content/itsm.xml:861
 msgid "ITIL compliant role, responsibility, and permission model"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:836
+#: en/content/itsm.xml:866
 msgid ""
 "cross-process communication management: within the IT service organization, "
 "with customers/users/management and suppliers/providers"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:842
+#: en/content/itsm.xml:872
 msgid ""
 "flexible stats functions for (trend) analyses; reporting, planning, and "
 "controlling based on performance figures"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:848
+#: en/content/itsm.xml:878
 msgid ""
 "flexible configuration, customization, and upgrade to meet individual "
 "requirements"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:853
+#: en/content/itsm.xml:883
 msgid ""
 "native ticket types are supported (integrated in OTRS): Various ticket types "
 "can be managed in the admin interface.  Free-text fields are therefore no "
@@ -1141,12 +1168,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:863
+#: en/content/itsm.xml:893
 msgid "Configuration management &amp; integrated CMDB:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:865
+#: en/content/itsm.xml:895
 msgid ""
 "OTRS::ITSM is based on an integrated configuration management data base "
 "(CMDB), which serves as the foundation for the comprehensive control of the "
@@ -1156,7 +1183,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:874
+#: en/content/itsm.xml:904
 msgid ""
 "Comprehensive recording and management of ITSM relevant configuration items "
 "(CIs) such as computers, hardware, software, networks, documents and "
@@ -1164,14 +1191,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:882
+#: en/content/itsm.xml:912
 msgid ""
 "Illustration of the IT service catalog and agreements in force (SLA, OLA, "
 "UC)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:887
+#: en/content/itsm.xml:917
 msgid ""
 "Recording, management, and illustration of technical and service related "
 "relationships and interdependencies among CMDB data, e.g. a service with all "
@@ -1179,55 +1206,55 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:895
+#: en/content/itsm.xml:925
 msgid ""
 "Management of historic, current, and future CI states, e.g.  for problem "
 "diagnosis, server maintenance or planned changes"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:901
+#: en/content/itsm.xml:931
 msgid ""
 "Analysis of the potential impact of service failures or configuration "
 "changes"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:906
+#: en/content/itsm.xml:936
 msgid ""
 "Display of virtualized IT infrastructures, e.g. server / memory "
 "virtualization"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:911
+#: en/content/itsm.xml:941
 msgid ""
 "Software license management, e.g. licenses available / in use (third party "
 "products required)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:916
+#: en/content/itsm.xml:946
 msgid "Chronological life cycle management for CIs, from acquisition to disposal"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:921
+#: en/content/itsm.xml:951
 msgid "Reporting of all configuration changes performed on CMDB data"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:926
+#: en/content/itsm.xml:956
 msgid "Interface to company directories (e.g. LDAP, eDirectory, Active Directory)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:930
+#: en/content/itsm.xml:960
 msgid "Incident management:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:934
+#: en/content/itsm.xml:964
 msgid ""
 "Services and SLAs (integrated in OTRS): The new attributes \"service\" and "
 "\"service level agreements (SLA)\" were integrated in OTRS 2.2 on its way to "
@@ -1241,7 +1268,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:948
+#: en/content/itsm.xml:978
 msgid ""
 "Comprehensive support of IT service support organization processes with "
 "incident recording, classification, prioritization, direct help (1st level "
@@ -1250,26 +1277,26 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:956
+#: en/content/itsm.xml:986
 msgid ""
 "Incidents and service requests can be recorded quickly and intuitively by "
 "service desk staff and users (web self-service)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:962
+#: en/content/itsm.xml:992
 msgid ""
 "Rule-based ticket generation and/or notification, e.g. in interaction with "
 "IT monitoring systems"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:968
+#: en/content/itsm.xml:998
 msgid "Classification and prioritization options (priority, impact, urgency)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:973
+#: en/content/itsm.xml:1003
 msgid ""
 "Complete CMDB coverage, e.g. services affected by the incident, "
 "configuration items concerned, FAQ database, link-up between tickets and CIs "
@@ -1277,55 +1304,55 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:980
+#: en/content/itsm.xml:1010
 msgid "(Automatic) recording of \"articles\" for tickets (activity record)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:985
+#: en/content/itsm.xml:1015
 msgid "Constant monitoring and evaluation of the ticket processing progress"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:991
+#: en/content/itsm.xml:1021
 msgid ""
 "Complete integration of OTRS role, group and queue mechanisms for incident "
 "ticket allocation, tracking, escalation and interpretation"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:998
+#: en/content/itsm.xml:1028
 msgid ""
 "Provision and storage of relevant time data, e.g. for service level "
 "management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1003
+#: en/content/itsm.xml:1033
 msgid ""
 "Practical ticket handling (merge, split), allows to merge similar incidents "
 "and/or split complicated ones"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1008
+#: en/content/itsm.xml:1038
 msgid ""
 "Planning, proactive control, and monitoring of service request activities "
 "(work packages, work plans, service lead times, due dates)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1014
+#: en/content/itsm.xml:1044
 msgid "Generation and tracking of problem tickets from incidents"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:1018
+#: en/content/itsm.xml:1048
 msgid "Problem management:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1022
+#: en/content/itsm.xml:1052
 msgid ""
 "Comprehensive support of IT organization processes in problem "
 "identification, recording, classification, prioritization, problem origin "
@@ -1334,147 +1361,147 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1028
+#: en/content/itsm.xml:1058
 msgid "Provision of relevant information for subprocesses"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1032
+#: en/content/itsm.xml:1062
 msgid "Problem control (trouble-shooting),"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1037
+#: en/content/itsm.xml:1067
 msgid "Error control (error processing),"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1042
+#: en/content/itsm.xml:1072
 msgid "Proactive problem management (e.g. ticket trend analyses) and"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1047
+#: en/content/itsm.xml:1077
 msgid "Management information (on incidents, problems and known errors)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1054
+#: en/content/itsm.xml:1084
 msgid ""
 "Current/historic incidents, knowledge base (FAQs), and CMDB are constantly "
 "available"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1059
+#: en/content/itsm.xml:1089
 msgid ""
 "Complete integration of OTRS role, group and queue mechanisms to allocate, "
 "track, escalate and evaluate incident tickets"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1065
+#: en/content/itsm.xml:1095
 msgid ""
 "Systematic automated notifications on the problem resolution progress for "
 "users (user groups) concerned or the management"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1071
+#: en/content/itsm.xml:1101
 msgid "Incident management receives ready signal for resolved problems"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
-#: en/content/itsm.xml:1076
+#: en/content/itsm.xml:1106
 msgid ""
 "Tickets are central information containers for IT service process "
 "management: They transport multiple possible underlying data such as:"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1083
+#: en/content/itsm.xml:1113
 msgid "Persons, organizations"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1088
+#: en/content/itsm.xml:1118
 msgid "Time stamp"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1093
+#: en/content/itsm.xml:1123
 msgid "Priority, impact, severity"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1098
+#: en/content/itsm.xml:1128
 msgid "Associations to IT service catalog and projects"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1103
+#: en/content/itsm.xml:1133
 msgid "Activities, e.g. note about a call with time accounting"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1108
+#: en/content/itsm.xml:1138
 msgid "Objects, e.g. CIs, including relations"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1113
+#: en/content/itsm.xml:1143
 msgid "(Sub)Tickets, e.g. a problem with the underlying incidents"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1118
+#: en/content/itsm.xml:1148
 msgid "Notes and attachments, e.g. scanned service request forms"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1123
+#: en/content/itsm.xml:1153
 msgid "Work packages, i.e. planned, allocated tasks"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1128
+#: en/content/itsm.xml:1158
 msgid "SLA information"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1133
+#: en/content/itsm.xml:1163
 msgid "Thresholds and escalation data"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1138
+#: en/content/itsm.xml:1168
 msgid "Ticket history (all changes)"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/content/itsm.xml:1143
+#: en/content/itsm.xml:1173
 msgid "Accounting information (time accounting)."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1151
+#: en/content/itsm.xml:1181
 msgid "Hardware and software requirements"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1153
+#: en/content/itsm.xml:1183
 msgid ""
 "The requirements for OTRS::ITSM are the same as for OTRS. More information "
 "can be found in the OTRS Admin Manual."
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1158
+#: en/content/itsm.xml:1188
 msgid "Community"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1160
+#: en/content/itsm.xml:1190
 msgid ""
 "A large community has evolved around OTRS throughout the past years. Users "
 "and developers use mailing lists to share their insights about a wide "
@@ -1486,7 +1513,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1170
+#: en/content/itsm.xml:1200
 msgid ""
 "The above mentioned community channels are open for OTRS::ITSM users also, "
 "to constantly improve the product's quality. You can join the community at "
@@ -1494,46 +1521,46 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/itsm.xml:1176
+#: en/content/itsm.xml:1206
 msgid "OTRS.org"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/itsm.xml:1178
+#: en/content/itsm.xml:1208
 msgid ""
 "<graphic fileref=\"screenshots/otrs-org.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><para><figure>
-#: en/content/itsm.xml:1177 en/content/itsm.xml:1192 en/content/installation.xml:65 en/content/first-steps.xml:38 en/content/cmdb.xml:132 en/content/cmdb.xml:141 en/content/cmdb.xml:157 en/content/cmdb.xml:166 en/content/cmdb.xml:244 en/content/cmdb.xml:266 en/content/cmdb.xml:275 en/content/cmdb.xml:290 en/content/cmdb.xml:366 en/content/incident-problem.xml:56 en/content/incident-problem.xml:67 en/content/incident-problem.xml:83 en/content/incident-problem.xml:104 en/content/incident-problem.xml:125 en/content/incident-problem.xml:144 en/content/incident-problem.xml:182 en/content/change-management.xml:106 en/content/change-management.xml:125 en/content/change-management.xml:216 en/content/change-management.xml:380 en/content/change-management.xml:512 en/content/change-management.xml:526 en/content/change-management.xml:548 en/content/change-management.xml:630 en/content/change-management.xml:685 en/content/change-management.xml:1106 en/content/change-management.xml:1323 en/content/change-management.xml:1337 en/content/change-management.xml:1364 en/content/change-management.xml:1382 en/content/change-management.xml:1465 en/content/change-management.xml:1483 en/content/change-management.xml:1502 en/content/change-management.xml:1545 en/content/change-management.xml:1570 en/content/change-management.xml:1893 en/content/change-management.xml:2124 en/content/change-management.xml:2410 en/content/change-management.xml:2616 en/content/change-management.xml:2877 en/content/change-management.xml:3165 en/content/change-management.xml:3452 en/content/stats.xml:18 en/content/stats.xml:27 en/content/stats.xml:36 en/content/stats.xml:47 en/content/stats.xml:55 en/content/stats.xml:64 en/content/admin-area.xml:94 en/content/admin-area.xml:108 en/content/admin-area.xml:118 en/content/admin-area.xml:173 en/content/admin-area.xml:281 en/content/admin-area.xml:306 en/content/admin-area.xml:322 en/content/admin-area.xml:418 en/content/admin-area.xml:430 en/content/admin-area.xml:448 en/content/calendar.xml:13 en/content/calendar.xml:28
+#: en/content/itsm.xml:1207 en/content/itsm.xml:1222 en/content/installation.xml:65 en/content/first-steps.xml:38 en/content/cmdb.xml:132 en/content/cmdb.xml:141 en/content/cmdb.xml:157 en/content/cmdb.xml:166 en/content/cmdb.xml:244 en/content/cmdb.xml:266 en/content/cmdb.xml:275 en/content/cmdb.xml:290 en/content/cmdb.xml:366 en/content/incident-problem.xml:56 en/content/incident-problem.xml:67 en/content/incident-problem.xml:83 en/content/incident-problem.xml:104 en/content/incident-problem.xml:125 en/content/incident-problem.xml:144 en/content/incident-problem.xml:182 en/content/change-management.xml:106 en/content/change-management.xml:125 en/content/change-management.xml:216 en/content/change-management.xml:380 en/content/change-management.xml:512 en/content/change-management.xml:526 en/content/change-management.xml:548 en/content/change-management.xml:630 en/content/change-management.xml:685 en/content/change-management.xml:1106 en/content/change-management.xml:1323 en/content/change-management.xml:1337 en/content/change-management.xml:1364 en/content/change-management.xml:1382 en/content/change-management.xml:1465 en/content/change-management.xml:1483 en/content/change-management.xml:1502 en/content/change-management.xml:1545 en/content/change-management.xml:1570 en/content/change-management.xml:1893 en/content/change-management.xml:2124 en/content/change-management.xml:2410 en/content/change-management.xml:2616 en/content/change-management.xml:2877 en/content/change-management.xml:3165 en/content/change-management.xml:3452 en/content/stats.xml:18 en/content/stats.xml:27 en/content/stats.xml:36 en/content/stats.xml:47 en/content/stats.xml:55 en/content/stats.xml:64 en/content/admin-area.xml:94 en/content/admin-area.xml:108 en/content/admin-area.xml:118 en/content/admin-area.xml:173 en/content/admin-area.xml:281 en/content/admin-area.xml:306 en/content/admin-area.xml:322 en/content/admin-area.xml:418 en/content/admin-area.xml:430 en/content/admin-area.xml:448 en/content/calendar.xml:13 en/content/calendar.xml:28
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/content/itsm.xml:1175 en/content/itsm.xml:1190 en/content/first-steps.xml:36 en/content/cmdb.xml:130 en/content/cmdb.xml:139 en/content/cmdb.xml:155 en/content/cmdb.xml:164 en/content/cmdb.xml:242 en/content/cmdb.xml:264 en/content/cmdb.xml:273 en/content/cmdb.xml:288 en/content/cmdb.xml:364 en/content/incident-problem.xml:54 en/content/incident-problem.xml:65 en/content/incident-problem.xml:81 en/content/incident-problem.xml:102 en/content/incident-problem.xml:123 en/content/incident-problem.xml:142 en/content/incident-problem.xml:180 en/content/change-management.xml:104 en/content/change-management.xml:123 en/content/change-management.xml:214 en/content/change-management.xml:378 en/content/change-management.xml:510 en/content/change-management.xml:524 en/content/change-management.xml:546 en/content/change-management.xml:628 en/content/change-management.xml:683 en/content/change-management.xml:1104 en/content/change-management.xml:1321 en/content/change-management.xml:1335 en/content/change-management.xml:1362 en/content/change-management.xml:1380 en/content/change-management.xml:1463 en/content/change-management.xml:1481 en/content/change-management.xml:1500 en/content/change-management.xml:1543 en/content/change-management.xml:1568 en/content/change-management.xml:1891 en/content/change-management.xml:2122 en/content/change-management.xml:2408 en/content/change-management.xml:2614 en/content/change-management.xml:2875 en/content/change-management.xml:3163 en/content/change-management.xml:3450 en/content/stats.xml:16 en/content/stats.xml:25 en/content/stats.xml:34 en/content/stats.xml:45 en/content/stats.xml:53 en/content/stats.xml:62 en/content/admin-area.xml:92 en/content/admin-area.xml:106 en/content/admin-area.xml:116 en/content/admin-area.xml:171 en/content/admin-area.xml:279 en/content/admin-area.xml:304 en/content/admin-area.xml:320 en/content/admin-area.xml:416 en/content/admin-area.xml:428 en/content/admin-area.xml:446 en/content/calendar.xml:11 en/content/calendar.xml:26
+#: en/content/itsm.xml:1205 en/content/itsm.xml:1220 en/content/first-steps.xml:36 en/content/cmdb.xml:130 en/content/cmdb.xml:139 en/content/cmdb.xml:155 en/content/cmdb.xml:164 en/content/cmdb.xml:242 en/content/cmdb.xml:264 en/content/cmdb.xml:273 en/content/cmdb.xml:288 en/content/cmdb.xml:364 en/content/incident-problem.xml:54 en/content/incident-problem.xml:65 en/content/incident-problem.xml:81 en/content/incident-problem.xml:102 en/content/incident-problem.xml:123 en/content/incident-problem.xml:142 en/content/incident-problem.xml:180 en/content/change-management.xml:104 en/content/change-management.xml:123 en/content/change-management.xml:214 en/content/change-management.xml:378 en/content/change-management.xml:510 en/content/change-management.xml:524 en/content/change-management.xml:546 en/content/change-management.xml:628 en/content/change-management.xml:683 en/content/change-management.xml:1104 en/content/change-management.xml:1321 en/content/change-management.xml:1335 en/content/change-management.xml:1362 en/content/change-management.xml:1380 en/content/change-management.xml:1463 en/content/change-management.xml:1481 en/content/change-management.xml:1500 en/content/change-management.xml:1543 en/content/change-management.xml:1568 en/content/change-management.xml:1891 en/content/change-management.xml:2122 en/content/change-management.xml:2408 en/content/change-management.xml:2614 en/content/change-management.xml:2875 en/content/change-management.xml:3163 en/content/change-management.xml:3450 en/content/stats.xml:16 en/content/stats.xml:25 en/content/stats.xml:34 en/content/stats.xml:45 en/content/stats.xml:53 en/content/stats.xml:62 en/content/admin-area.xml:92 en/content/admin-area.xml:106 en/content/admin-area.xml:116 en/content/admin-area.xml:171 en/content/admin-area.xml:279 en/content/admin-area.xml:304 en/content/admin-area.xml:320 en/content/admin-area.xml:416 en/content/admin-area.xml:428 en/content/admin-area.xml:446 en/content/calendar.xml:11 en/content/calendar.xml:26
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><title>
-#: en/content/itsm.xml:1184
+#: en/content/itsm.xml:1214
 msgid "Mailing lists"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para>
-#: en/content/itsm.xml:1186
+#: en/content/itsm.xml:1216
 msgid ""
 "Separate mailing lists have been set up for OTRS::ITSM. Please visit "
 "http://lists.otrs.org (http://lists.otrs.org/):"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><title>
-#: en/content/itsm.xml:1191
+#: en/content/itsm.xml:1221
 msgid "lists-otrs-org"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><figure><screenshot>
-#: en/content/itsm.xml:1193
+#: en/content/itsm.xml:1223
 msgid ""
 "<graphic fileref=\"screenshots/lists-otrs-org.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -1797,7 +1824,7 @@ msgstr ""
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
 msgid ""
-"Please note that the OTRS framework 5 must be installed prior to the "
+"Please note that the OTRS framework 6 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
@@ -1810,9 +1837,9 @@ msgstr ""
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
 msgid ""
-"After successfully installing OTRS 5 or a later version, proceed to sign on "
+"After successfully installing OTRS 6 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via "
-"ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
+"ftp://ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and "
 "install them in the following order:"
 msgstr ""
 
@@ -1830,7 +1857,7 @@ msgstr ""
 #: en/content/installation.xml:30
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
-"repository [--OTRS::ITSM 5 Master--] to install the packages "
+"repository [--OTRS::ITSM 6 Master--] to install the packages "
 "below. Otherwise download the packages below and use the package manager to "
 "install them:"
 msgstr ""
@@ -1864,7 +1891,7 @@ msgstr ""
 #: en/content/installation.xml:61
 msgid ""
 "You can find further information about the installation process here: <ulink "
-"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</ulink>"
+"url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM\">INSTALL-6.ITSM</ulink>"
 msgstr ""
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>

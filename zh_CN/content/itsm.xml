@@ -36,8 +36,41 @@
     <sect1>
         <title>功能介绍</title>
         <para>
-            OTRS::ITSM 5基于OTRS 5，所有OTRS的功能都正常使用，代表ITIL流程的功能可通过软件包安装。
+            OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 6 features
+            </title>
+            <para>OTRS::ITSM 6 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 6 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature for ITSMConfigurationManagement to suppress adding a new
+config item version for special attributes.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 6 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 OTRS::ITSM 5新功能

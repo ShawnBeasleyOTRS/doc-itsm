@@ -71,10 +71,41 @@ ITIL решения по управлению ИТ-услугами - OTRS::ITSM
     <sect1>
         <title>Возможности</title>
         <para>
-            OTRS::ITSM 5 базируется на OTRS 5. Весь известный функционал OTRS остается
-доступным, а возможности предоставляемые процессы ITIL могут быть
-доустановлены в виде дополнительных пакетов.
+            OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS
+continue to be available and the functionalities representing ITIL processes
+can be installed as packages.
         </para>
+        <sect2>
+            <title>
+                New OTRS::ITSM 6 features
+            </title>
+            <para>OTRS::ITSM 6 offers:</para>
+            <para>
+                <itemizedlist>
+
+                    <listitem>
+                        <para>
+                            Ported code to the OTRS 6 framework.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            Added new feature for ITSMConfigurationManagement to suppress adding a new
+config item version for special attributes.
+                        </para>
+                    </listitem>
+
+                    <listitem>
+                        <para>
+                            OTRS::ITSM 6 includes many other small bug fixes and improvements.
+                        </para>
+                    </listitem>
+
+                </itemizedlist>
+            </para>
+        </sect2>
+
         <sect2>
             <title>
                 Новые возможности OTRS::ITSM 5
