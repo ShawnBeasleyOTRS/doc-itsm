@@ -3,9 +3,9 @@
 <chapter>
     <title>Az OTRS::ITSM telepítése</title>
     <para>
-        Please note that the OTRS framework 6 must be installed prior to the
-installation of OTRS::ITSM. All necessary information, options and
-installation procedures are depicted in the OTRS Admin Manual.
+        Ne feledje, hogy az OTRS 6-os keretrendszernek előbb telepítve kell lennie
+az OTRS::ITSM telepítéséhez. Minden szükséges információ, beállítás és a
+telepítési eljárás az OTRS adminisztrációs kézikönyvében van leírva.
     </para>
 
     <sect1>
@@ -13,10 +13,11 @@ installation procedures are depicted in the OTRS Admin Manual.
         <title>Telepítés</title>
 
         <para>
-            After successfully installing OTRS 6 or a later version, proceed to sign on
-as administrator. Using the package manager in the admin area or via
-ftp://ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and
-install them in the following order:
+            Miután sikeresen telepítette az OTRS 6-os vagy későbbi verzióját, folytassa
+rendszerszergazdaként való belépéssel. Az adminisztrációs területen lévő
+csomagkezelő használatával vagy az
+ftp://ftp.otrs.org/pub/otrs/itsm/packages6/ címen keresztül szerezze be az
+ITSM csomagokat, és telepítse azokat a következő sorrendben:
         </para>
         <itemizedlist>
             <listitem>
@@ -27,10 +28,10 @@ install them in the following order:
             </listitem>
         </itemizedlist>
         <para>
-            If your machine running OTRS has internet access, use the following online
-repository [--OTRS::ITSM 6 Master--] to install the packages
-below. Otherwise download the packages below and use the package manager to
-install them:
+            Ha az OTRS rendszert futtató gépének van internetkapcsolata, akkor használja
+a következő internetes tárolót [--OTRS::ITSM 6 Master--] a lenti csomagok
+telepítéséhez. Egyébként töltse le a lenti csomagokat, és a csomagkezelő
+használatával telepítse azokat:
 
        </para>
 
@@ -59,7 +60,8 @@ install them:
         </itemizedlist>
 
         <para>
-            You can find further information about the installation process here: <ulink
+            Ezen az oldalon további információkat találhat a telepítési folyamatról:
+<ulink
 url="http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM">INSTALL-6.ITSM</ulink>
         </para>
         <para>
