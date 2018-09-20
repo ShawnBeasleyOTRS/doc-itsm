@@ -247,15 +247,12 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
 
         <sect2 id="configuration-items-generic-interface">
-            <title>GenericInterface for ITSM Configuration Management</title>
+            <title>ITSM配置管理的通用接口</title>
             <para>
-                There is a GenericInterface for ITSM Configuration Management. This feature
-contains operations for creating, changing, retrieving and searching
-configuration items via GenericInterface.  The following operations are
-available: ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(),
-ConfigItemSearch().  For more information please take a look at the WSDL
-file: <ulink
-url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
+                ITSM配置管理具有有通用接口，其功能包含通过通用接口创建、修改、检索和搜索配置项等操作。 可用以下操作：ConfigItemCreate()、
+ConfigItemGet()、ConfigItemUpdate()、ConfigItemSearch()。
+有关更多信息，请查看WSDL文件：<ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https：//github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
             </para>
         </sect2>
     </sect1>

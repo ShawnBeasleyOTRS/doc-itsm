@@ -41,17 +41,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, version 5.0.1 or higher
+                            OTRS Framework, версии 5.0.1 или выше
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog&quot; package, version 5.0
+                            ITSM &quot;GeneralCatalog&quot; package, версии 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore&quot; package, version 5.0
+                            ITSM &quot;ITSMCore&quot; package, версии 5.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -64,22 +64,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, версии 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, версии 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, версии 5.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport&quot; package, version 5.0
+                            ITSM &quot;ImportExport&quot; package, версии 5.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -303,7 +303,7 @@ high" и т.д.
                         </row>
                         <row>
                             <entry>
-                                Приоритет
+                                Priority
                             </entry>
                             <entry>
                                 Да
@@ -374,10 +374,10 @@ linkend="change_state_machine" />.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The category, impact and priority values given upon installation can be
-customized in the General Catalog by the administrator. To do this, the menu
-item &quot;General Catalog&quot; should be selected in the OTRS::ITSM
-Administration interface.
+                Значения Категории, Влияния и Приоритета имеющиеся в системе после
+установки, могут быть изменены в Общем Каталоге/General Catalog
+администратором системы. Для этого выберите пункт меню &quot;General
+Catalog/Общий каталог&quot; в панели администратора OTRS::ITSM.
             </para>
             <sect3>
                 <title>
@@ -505,10 +505,10 @@ Administration interface.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Adjustments to the State Machine can be made by the system administrator in
-the administration front end, under menu option &quot;State
-Machine&quot;. The statuses and possible result statuses should be defined
-here. In OTRS::ITSM, this is illustrated as a table:
+                Изменения в Машине состояний могут быть выполнены администратором в его
+интерфейсе через пункт меню &quot;State Machine/Машина
+состояний&quot;. Состояния и возможные результирующие статусы могут быть
+заданы здесь. в OTRS::ITSM это иллюстрируется таблицей:
             </para>
             <para>
                 <figure>
@@ -518,8 +518,8 @@ here. In OTRS::ITSM, this is illustrated as a table:
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Where necessary, additional statuses can be defined under the menu option
-&quot;General Catalog&quot; -&gt; &quot;ITSM::Change
+                При необходимости, дополнительные состояния могут быть заданы через меню
+&quot;General Catalog/Общий Каталог&quot; -&gt; &quot;ITSM::Change
 Management::Change::State&quot;.
             </para>
         </sect2>
@@ -745,7 +745,7 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                                         Влияние
                                     </para>
                                     <para>
-                                        Приоритет
+                                        Priority
                                     </para>
                                 </entry>
                                 <entry>
@@ -993,7 +993,7 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                                         Влияние
                                     </para>
                                     <para>
-                                        Приоритет
+                                        Priority
                                     </para>
                                 </entry>
                                 <entry>
@@ -1184,7 +1184,7 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                Приоритет
+                                Priority
                             </entry>
                             <entry>
                                 Да
@@ -1300,10 +1300,10 @@ linkend="change_state_machine" /> .
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Adjustments to the State Machine can be made by the system administrator in
-the administration front end, under menu option &quot;State
-Machine&quot;. The statuses and possible result statuses should be defined
-here. In OTRS::ITSM, this is illustrated as a table:
+                Изменения в Машине состояний могут быть выполнены администратором в его
+интерфейсе через пункт меню &quot;State Machine/Машина
+состояний&quot;. Состояния и возможные результирующие статусы могут быть
+заданы здесь. в OTRS::ITSM это иллюстрируется таблицей:
             </para>
             <para>
                 <figure>
@@ -1535,9 +1535,9 @@ contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Перечень колонок может быть задан  в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewChangeOverview&quot; со следующими возможными
-атрибутами:
+                The columns can be defined via SysConfig &quot;ITSM Change Management -&gt;
+Frontend::Agent::ViewChangeOverview&quot; with the following available
+attributes:
             </para>
             <table>
                 <title>
@@ -1582,7 +1582,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -1659,7 +1659,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -1670,7 +1670,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -1703,7 +1703,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Да
@@ -1725,7 +1725,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да
@@ -1903,7 +1903,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -1980,7 +1980,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -1991,7 +1991,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2024,7 +2024,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2046,7 +2046,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2133,7 +2133,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2210,7 +2210,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2221,7 +2221,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2254,7 +2254,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2276,7 +2276,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2396,7 +2396,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                     <tbody>
                         <row>
                             <entry>
-                                <literal>ChangeBy</literal>
+                                <literal>Кто изменил</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2407,7 +2407,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>ChangeTime</literal>
+                                <literal>Время изменения</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2418,7 +2418,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Comment</literal>
+                                <literal>Комментарий</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2429,7 +2429,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateBy</literal>
+                                <literal>Кем создано</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2440,7 +2440,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2451,7 +2451,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Delete</literal>
+                                <literal>Удалить</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2462,7 +2462,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Name</literal>
+                                <literal>Имя</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2484,7 +2484,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Type</literal>
+                                <literal>Тип</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2495,7 +2495,7 @@ contentdepth="100%"></graphic></screenshot></figure>
                         </row>
                         <row>
                             <entry>
-                                <literal>Valid</literal>
+                                <literal>Действительный</literal>
                             </entry>
                             <entry>
                                 Да
@@ -2883,7 +2883,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2960,7 +2960,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -2971,7 +2971,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3004,7 +3004,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Да
@@ -3026,7 +3026,7 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да
@@ -3168,7 +3168,7 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3245,7 +3245,7 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3256,7 +3256,7 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3289,7 +3289,7 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Да
@@ -3311,7 +3311,7 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да
@@ -3453,7 +3453,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Category</literal>
+                                <literal>Категория</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3530,7 +3530,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>CreateTime</literal>
+                                <literal>Время создания</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3541,7 +3541,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Impact</literal>
+                                <literal>Влияние</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3574,7 +3574,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Priority</literal>
+                                <literal>Приоритет</literal>
                             </entry>
                             <entry>
                                 Нет
@@ -3596,7 +3596,7 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                         </row>
                         <row>
                             <entry>
-                                <literal>Services</literal>
+                                <literal>Сервисы</literal>
                             </entry>
                             <entry>
                                 Да

@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Balázs Úr <urbalazs@gmail.com>, 2014-2017
+# Balázs Úr <urbalazs@gmail.com>, 2014-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-11-15 10:50+0100\n"
-"PO-Revision-Date: 2017-09-25 15:42+0000\n"
-"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
+"PO-Revision-Date: 2018-09-20 10:21+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -24,23 +24,15 @@ msgstr "hu"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
-#, fuzzy
-#| msgid "OTRS::ITSM 5"
 msgid "OTRS::ITSM 6"
-msgstr "OTRS::ITSM 5"
+msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2015-11-24</date>"
 msgid ""
 "<copyright> <year>2003-2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-26</date>"
 msgstr ""
-"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-11-24</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:18
@@ -84,17 +76,13 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:46
-#, fuzzy
-#| msgid "5.0.1"
 msgid "6.0.1"
-msgstr "5.0.1"
+msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:47
-#, fuzzy
-#| msgid "11/24/2015"
 msgid "09/26/2017"
-msgstr "2015-11-24"
+msgstr ""
 
 #. type: Content of: <preface><title>
 #: en/content/preface.xml:4
@@ -342,40 +330,26 @@ msgstr "Szolgáltatások"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/itsm.xml:77
-#, fuzzy
-#| msgid ""
-#| "OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
-#| "continue to be available and the functionalities representing ITIL "
-#| "processes can be installed as packages."
 msgid ""
 "OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS "
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
-"Az OTRS::ITSM 5 az OTRS 5-ös verzióján alapul. Az OTRS-ből ismert minden "
-"funkcionalitás továbbra is elérhető, és az ITIL-folyamatokat megtestesítő "
-"funkcionalitások csomagként telepíthetők."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
-#, fuzzy
-#| msgid "New OTRS::ITSM 5 features"
 msgid "New OTRS::ITSM 6 features"
-msgstr "Új OTRS::ITSM 5 szolgáltatások"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
-#, fuzzy
-#| msgid "OTRS::ITSM 5 offers:"
 msgid "OTRS::ITSM 6 offers:"
-msgstr "Az OTRS::ITSM 5 a következőket nyújtja:"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
-#, fuzzy
-#| msgid "Ported code to the OTRS 5 framework."
 msgid "Ported code to the OTRS 6 framework."
-msgstr "Kódok átírva az OTRS 5 keretrendszerbe."
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
@@ -386,11 +360,8 @@ msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:104
-#, fuzzy
-#| msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
 msgid "OTRS::ITSM 6 includes many other small bug fixes and improvements."
 msgstr ""
-"Az OTRS::ITSM 5 számos egyéb apró hibajavítást és fejlesztést tartalmaz."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:114
@@ -2406,19 +2377,11 @@ msgstr "Az OTRS::ITSM telepítése"
 
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
-#, fuzzy
-#| msgid ""
-#| "Please note that the OTRS framework 5 must be installed prior to the "
-#| "installation of OTRS::ITSM. All necessary information, options and "
-#| "installation procedures are depicted in the OTRS Admin Manual."
 msgid ""
 "Please note that the OTRS framework 6 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
-"Ne feledje, hogy az OTRS 5-ös keretrendszernek előbb telepítve kell lennie "
-"az OTRS::ITSM telepítéséhez. Minden szükséges információ, beállítás és a "
-"telepítési eljárás az OTRS adminisztrációs kézikönyvében van leírva."
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/installation.xml:13
@@ -2427,23 +2390,12 @@ msgstr "Telepítés"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
-#, fuzzy
-#| msgid ""
-#| "After successfully installing OTRS 5 or a later version, proceed to sign "
-#| "on as administrator. Using the package manager in the admin area or via "
-#| "ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
-#| "install them in the following order:"
 msgid ""
 "After successfully installing OTRS 6 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via ftp://"
 "ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and install "
 "them in the following order:"
 msgstr ""
-"Miután sikeresen telepítette az OTRS 5-ös vagy későbbi verzióját, folytassa "
-"rendszerszergazdaként való belépéssel. Az adminisztrációs területen lévő "
-"csomagkezelő használatával vagy az ftp://ftp.otrs.org/pub/otrs/itsm/"
-"packages5/ címen keresztül szerezze be az ITSM csomagokat, és telepítse "
-"azokat a következő sorrendben:"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/installation.xml:23 en/content/cmdb.xml:69
@@ -2457,22 +2409,12 @@ msgstr "ITSMCore"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:30
-#, fuzzy
-#| msgid ""
-#| "If your machine running OTRS has internet access, use the following "
-#| "online repository [--OTRS::ITSM 5 Master--] to install the packages "
-#| "below. Otherwise download the packages below and use the package manager "
-#| "to install them:"
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
 "repository [--OTRS::ITSM 6 Master--] to install the packages below. "
 "Otherwise download the packages below and use the package manager to install "
 "them:"
 msgstr ""
-"Ha az OTRS rendszert futtató gépének van internetkapcsolata, akkor használja "
-"a következő internetes tárolót [--OTRS::ITSM 5 Master--] a lenti csomagok "
-"telepítéséhez. Egyébként töltse le a lenti csomagokat, és a csomagkezelő "
-"használatával telepítse azokat:"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/installation.xml:39
@@ -2501,19 +2443,11 @@ msgstr "ImportExport"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:61
-#, fuzzy
-#| msgid ""
-#| "You can find further information about the installation process here: "
-#| "<ulink url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5."
-#| "ITSM</ulink>"
 msgid ""
 "You can find further information about the installation process here: <ulink "
 "url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM\">INSTALL-6.ITSM</"
 "ulink>"
 msgstr ""
-"Ezen az oldalon további információkat találhat a telepítési folyamatról: "
-"<ulink url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5."
-"ITSM</ulink>"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/content/installation.xml:66
@@ -3313,7 +3247,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/cmdb.xml:302
 msgid "GenericInterface for ITSM Configuration Management"
-msgstr ""
+msgstr "Általános felület az ITSM konfigurációmenedzsmenthez"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:304
@@ -3328,6 +3262,16 @@ msgid ""
 "github.com/OTRS/ITSMConfigurationManagement/blob/master/development/"
 "webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
 msgstr ""
+"Létezik egy általános felület az ITSM konfigurációmenedzsmenthez. Ez a "
+"funkció műveleteket tartalmaz a konfigurációelemek létrehozásához, "
+"megváltoztatásához, lekéréséhez és kereséséhez az általános felületen "
+"keresztül. A következő műveletek érhetők el: ConfigItemCreate(), "
+"ConfigItemGet(), ConfigItemUpdate(), ConfigItemSearch(). További "
+"információkért vessen egy pillantást erre a WSDL-fájlra: <ulink url="
+"\"https://github.com/OTRS/ITSMConfigurationManagement/blob/master/"
+"development/webservices/GenericConfigItemConnectorSOAP.wsdl\">https://github."
+"com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/"
+"GenericConfigItemConnectorSOAP.wsdl</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/cmdb.xml:313
@@ -3655,7 +3599,7 @@ msgid ""
 msgstr ""
 "Az OTRS 2.2-es verziója előtti verziókkal ellentétben az OTRS::ITSM-ben a "
 "jegyeszkaláció mindenek előtt az SLA-ban megadott válasz-, frissítési- és "
-"helyreállítási időkön alapul. Ha nincsenek értékek megadva az SLA-ban, akkor "
+"visszaállítási időkön alapul. Ha nincsenek értékek megadva az SLA-ban, akkor "
 "az eszkaláció a várólisták és az azokban tárolt időinformációk alapján fog "
 "megtörténni."
 
@@ -8011,7 +7955,7 @@ msgstr "SOAP"
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:17
 msgid "REST"
-msgstr ""
+msgstr "REST"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:20

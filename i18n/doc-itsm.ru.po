@@ -5,13 +5,13 @@
 # Translators:
 # Martin Gruner <martin.gruner@otrs.com>, 2016
 # Владислав Тырышкин, 2016
-# Yuri Kolesniov <ynkolesnikov@gmail.com>, 2014-2015
+# Yuri Kolesniov <ynkolesnikov@gmail.com>, 2014-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-11-15 10:50+0100\n"
-"PO-Revision-Date: 2017-09-25 15:42+0000\n"
-"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
+"PO-Revision-Date: 2018-09-20 10:21+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -28,23 +28,15 @@ msgstr "en"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
-#, fuzzy
-#| msgid "OTRS::ITSM 5"
 msgid "OTRS::ITSM 6"
-msgstr "OTRS::ITSM 5"
+msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2015-11-24</date>"
 msgid ""
 "<copyright> <year>2003-2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-26</date>"
 msgstr ""
-"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-11-24</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:18
@@ -67,6 +59,10 @@ msgid ""
 "possibly registered trade marks.  All products mentioned in this manual may "
 "be trade marks of the respective manufacturer."
 msgstr ""
+"Все торговые названия используются без гарантии их бесплатного использования "
+"и, возможно, являются зарегистрированными товарными знаками. Все продукты, "
+"упомянутые в этом руководстве, могут быть товарными знаками соответствующего "
+"производителя."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:34
@@ -85,17 +81,13 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:46
-#, fuzzy
-#| msgid "5.0.1"
 msgid "6.0.1"
-msgstr "5.0.1"
+msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:47
-#, fuzzy
-#| msgid "11/24/2015"
 msgid "09/26/2017"
-msgstr "11/24/2015"
+msgstr ""
 
 #. type: Content of: <preface><title>
 #: en/content/preface.xml:4
@@ -338,40 +330,26 @@ msgstr "Возможности"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/itsm.xml:77
-#, fuzzy
-#| msgid ""
-#| "OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
-#| "continue to be available and the functionalities representing ITIL "
-#| "processes can be installed as packages."
 msgid ""
 "OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS "
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
-"OTRS::ITSM 5 базируется на OTRS 5. Весь известный функционал OTRS остается "
-"доступным, а возможности предоставляемые процессы ITIL могут быть "
-"доустановлены в виде дополнительных пакетов."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
-#, fuzzy
-#| msgid "New OTRS::ITSM 5 features"
 msgid "New OTRS::ITSM 6 features"
-msgstr "Новые возможности OTRS::ITSM 5"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
-#, fuzzy
-#| msgid "OTRS::ITSM 5 offers:"
 msgid "OTRS::ITSM 6 offers:"
-msgstr "OTRS::ITSM 5 предоставляет:"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
-#, fuzzy
-#| msgid "Ported code to the OTRS 5 framework."
 msgid "Ported code to the OTRS 6 framework."
-msgstr "Код перенесен на платформу OTRS 5."
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
@@ -382,11 +360,8 @@ msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:104
-#, fuzzy
-#| msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
 msgid "OTRS::ITSM 6 includes many other small bug fixes and improvements."
 msgstr ""
-"OTRS::ITSM 5 включает много других мелких исправлений ошибок и улучшений."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:114
@@ -2381,19 +2356,11 @@ msgstr "Установка OTRS::ITSM"
 
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
-#, fuzzy
-#| msgid ""
-#| "Please note that the OTRS framework 5 must be installed prior to the "
-#| "installation of OTRS::ITSM. All necessary information, options and "
-#| "installation procedures are depicted in the OTRS Admin Manual."
 msgid ""
 "Please note that the OTRS framework 6 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
-"Обратите внимание, что до установки OTRS::ITSM необходимо выполнить "
-"установку OTRS 5. Вся необходимая информация, варианты и процедуры установки "
-"описаны в руководстве администратора OTRS."
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/installation.xml:13
@@ -2402,22 +2369,12 @@ msgstr "Установка"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
-#, fuzzy
-#| msgid ""
-#| "After successfully installing OTRS 5 or a later version, proceed to sign "
-#| "on as administrator. Using the package manager in the admin area or via "
-#| "ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
-#| "install them in the following order:"
 msgid ""
 "After successfully installing OTRS 6 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via ftp://"
 "ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and install "
 "them in the following order:"
 msgstr ""
-"После успешной установки OTRS 5 или более поздней версии, войдите в систему "
-"в качестве администратора. Используя менеджер пакетов с панели "
-"администратора или с помощью ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ "
-"загрузите пакеты ITSM и установите их в следующем порядке:"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/installation.xml:23 en/content/cmdb.xml:69
@@ -2431,22 +2388,12 @@ msgstr "ITSMCore"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:30
-#, fuzzy
-#| msgid ""
-#| "If your machine running OTRS has internet access, use the following "
-#| "online repository [--OTRS::ITSM 5 Master--] to install the packages "
-#| "below. Otherwise download the packages below and use the package manager "
-#| "to install them:"
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
 "repository [--OTRS::ITSM 6 Master--] to install the packages below. "
 "Otherwise download the packages below and use the package manager to install "
 "them:"
 msgstr ""
-"Если ваша машина подключена к интернету, используйте следующий онлайн "
-"репозитарий [--OTRS::ITSM 5 Master--] для установки перечисленных ниже "
-"пакетов. Иначе, загрузите следующие пакеты и установите с помощью менеджера "
-"пакетов:"
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/installation.xml:39
@@ -2475,18 +2422,11 @@ msgstr "ImportExport"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:61
-#, fuzzy
-#| msgid ""
-#| "You can find further information about the installation process here: "
-#| "<ulink url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5."
-#| "ITSM</ulink>"
 msgid ""
 "You can find further information about the installation process here: <ulink "
 "url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM\">INSTALL-6.ITSM</"
 "ulink>"
 msgstr ""
-"Дальнейшую информацию о процессе установки можно найти здесь: <ulink url="
-"\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</ulink>"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/content/installation.xml:66
@@ -3284,7 +3224,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/cmdb.xml:302
 msgid "GenericInterface for ITSM Configuration Management"
-msgstr ""
+msgstr "GenericInterface для ITSM Configuration Management"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:304
@@ -3299,6 +3239,15 @@ msgid ""
 "github.com/OTRS/ITSMConfigurationManagement/blob/master/development/"
 "webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
 msgstr ""
+"Общий интерфейсЭто GenericInterface для ITSM Configuration Management. Этот "
+"функционал выполняет операции по созданию, изменению, получению и поиску "
+"конфигурационных единиц через GenericInterface. Доступны следующие операции: "
+"ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(), ConfigItemSearch(). "
+"Более подробно смотрите в WSDL файле: <ulink url=\"https://github.com/OTRS/"
+"ITSMConfigurationManagement/blob/master/development/webservices/"
+"GenericConfigItemConnectorSOAP.wsdl\">https://github.com/OTRS/"
+"ITSMConfigurationManagement/blob/master/development/webservices/"
+"GenericConfigItemConnectorSOAP.wsdl</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/cmdb.xml:313
@@ -3858,17 +3807,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:44
 msgid "OTRS Framework, version 5.0.1 or higher"
-msgstr ""
+msgstr "OTRS Framework, версии 5.0.1 или выше"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:49
 msgid "ITSM &quot;GeneralCatalog&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;GeneralCatalog&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:54
 msgid "ITSM &quot;ITSMCore&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;ITSMCore&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:41
@@ -3887,22 +3836,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:67
 msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;ITSMIncidentProblemManagement&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:72
 msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;ITSMServiceLevelManagement&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:77
 msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;ITSMConfigurationManagement&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:82
 msgid "ITSM &quot;ImportExport&quot; package, version 5.0"
-msgstr ""
+msgstr "ITSM &quot;ImportExport&quot; package, версии 5.0"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/change-management.xml:91
@@ -4275,7 +4224,7 @@ msgstr ""
 #: en/content/change-management.xml:311 en/content/change-management.xml:764
 #: en/content/change-management.xml:1014 en/content/change-management.xml:1209
 msgid "Priority"
-msgstr "Приоритет"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:317 en/content/change-management.xml:1215
@@ -4374,6 +4323,10 @@ msgid ""
 "item &quot;General Catalog&quot; should be selected in the OTRS::ITSM "
 "Administration interface."
 msgstr ""
+"Значения Категории, Влияния и Приоритета имеющиеся в системе после "
+"установки, могут быть изменены в Общем Каталоге/General Catalog "
+"администратором системы. Для этого выберите пункт меню &quot;General Catalog/"
+"Общий каталог&quot; в панели администратора OTRS::ITSM."
 
 #. type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/content/change-management.xml:393
@@ -4485,6 +4438,10 @@ msgid ""
 "The statuses and possible result statuses should be defined here. In OTRS::"
 "ITSM, this is illustrated as a table:"
 msgstr ""
+"Изменения в Машине состояний могут быть выполнены администратором в его "
+"интерфейсе через пункт меню &quot;State Machine/Машина состояний&quot;. "
+"Состояния и возможные результирующие статусы могут быть заданы здесь. в "
+"OTRS::ITSM это иллюстрируется таблицей:"
 
 #. type: Content of: <chapter><sect1><sect2><para><figure><title>
 #: en/content/change-management.xml:525
@@ -4507,6 +4464,9 @@ msgid ""
 "&quot;General Catalog&quot; -&gt; &quot;ITSM::Change Management::Change::"
 "State&quot;."
 msgstr ""
+"При необходимости, дополнительные состояния могут быть заданы через меню  "
+"&quot;General Catalog/Общий Каталог&quot; -&gt; &quot;ITSM::Change "
+"Management::Change::State&quot;. "
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/change-management.xml:539
@@ -5539,9 +5499,6 @@ msgid ""
 "Frontend::Agent::ViewChangeOverview&quot; with the following available "
 "attributes:"
 msgstr ""
-"Перечень колонок может быть задан  в SysConfig &quot;ITSM Change Management -"
-"&gt; Frontend::Agent::ViewChangeOverview&quot; со следующими возможными "
-"атрибутами:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: en/content/change-management.xml:1591 en/content/change-management.xml:1913
@@ -5556,7 +5513,7 @@ msgstr "Активно"
 #: en/content/change-management.xml:2154 en/content/change-management.xml:2910
 #: en/content/change-management.xml:3197 en/content/change-management.xml:3485
 msgid "<literal>ActualStartTime</literal>"
-msgstr ""
+msgstr "<literal>ActualStartTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1607 en/content/change-management.xml:1929
@@ -5570,7 +5527,7 @@ msgstr "Дата и время начала реализации Изменен�
 #: en/content/change-management.xml:2165 en/content/change-management.xml:2921
 #: en/content/change-management.xml:3208 en/content/change-management.xml:3496
 msgid "<literal>ActualEndTime</literal>"
-msgstr ""
+msgstr "<literal>ActualEndTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1618
@@ -5582,7 +5539,7 @@ msgstr "Дата и время окончания реализации Изме�
 #: en/content/change-management.xml:2176 en/content/change-management.xml:2932
 #: en/content/change-management.xml:3219 en/content/change-management.xml:3507
 msgid "<literal>Category</literal>"
-msgstr ""
+msgstr "<literal>Категория</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1629 en/content/change-management.xml:1951
@@ -5596,7 +5553,7 @@ msgstr "Категория или тип Изменения"
 #: en/content/change-management.xml:2187 en/content/change-management.xml:2943
 #: en/content/change-management.xml:3230 en/content/change-management.xml:3518
 msgid "<literal>ChangeBuilder</literal>"
-msgstr ""
+msgstr "<literal>ChangeBuilder</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1640 en/content/change-management.xml:1962
@@ -5610,7 +5567,7 @@ msgstr "Имя создателя Изменения/Change Builder&apos;s name"
 #: en/content/change-management.xml:2198 en/content/change-management.xml:2954
 #: en/content/change-management.xml:3241 en/content/change-management.xml:3529
 msgid "<literal>ChangeManager</literal>"
-msgstr ""
+msgstr "<literal>ChangeManager</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1651 en/content/change-management.xml:1973
@@ -5624,7 +5581,7 @@ msgstr "Имя Менеджера Изменения/Manager&apos;s name"
 #: en/content/change-management.xml:2209 en/content/change-management.xml:2965
 #: en/content/change-management.xml:3252 en/content/change-management.xml:3540
 msgid "<literal>ChangeNumber</literal>"
-msgstr ""
+msgstr "<literal>ChangeNumber</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1662 en/content/change-management.xml:1984
@@ -5638,7 +5595,7 @@ msgstr "Сгенерированный системой номер Измене�
 #: en/content/change-management.xml:2220 en/content/change-management.xml:2976
 #: en/content/change-management.xml:3263 en/content/change-management.xml:3551
 msgid "<literal>ChangeState</literal>"
-msgstr ""
+msgstr "<literal>ChangeState</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1673 en/content/change-management.xml:1995
@@ -5652,7 +5609,7 @@ msgstr "Состояние Изменения"
 #: en/content/change-management.xml:2231 en/content/change-management.xml:2987
 #: en/content/change-management.xml:3274 en/content/change-management.xml:3562
 msgid "<literal>ChangeStateSignal</literal>"
-msgstr ""
+msgstr "<literal>ChangeStateSignal</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1684 en/content/change-management.xml:2006
@@ -5666,7 +5623,7 @@ msgstr "Индикатор состояния Изменения, отображ
 #: en/content/change-management.xml:2242 en/content/change-management.xml:2998
 #: en/content/change-management.xml:3285 en/content/change-management.xml:3573
 msgid "<literal>ChangeTitle</literal>"
-msgstr ""
+msgstr "<literal>ChangeTitle</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1695 en/content/change-management.xml:2017
@@ -5681,7 +5638,7 @@ msgstr "Имя Изменения"
 #: en/content/change-management.xml:3009 en/content/change-management.xml:3296
 #: en/content/change-management.xml:3584
 msgid "<literal>CreateTime</literal>"
-msgstr ""
+msgstr "<literal>Время создания</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1706 en/content/change-management.xml:2028
@@ -5695,7 +5652,7 @@ msgstr "Дата и время создания Изменения"
 #: en/content/change-management.xml:2264 en/content/change-management.xml:3020
 #: en/content/change-management.xml:3307 en/content/change-management.xml:3595
 msgid "<literal>Impact</literal>"
-msgstr ""
+msgstr "<literal>Влияние</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1717 en/content/change-management.xml:2039
@@ -5708,7 +5665,7 @@ msgstr "Ожидаемый эффект от Изменения"
 #: en/content/change-management.xml:2275 en/content/change-management.xml:3031
 #: en/content/change-management.xml:3318 en/content/change-management.xml:3606
 msgid "<literal>PlannedStartTime</literal>"
-msgstr ""
+msgstr "<literal>PlannedStartTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1728 en/content/change-management.xml:2050
@@ -5722,7 +5679,7 @@ msgstr "Планируемые дата и время начала реализ�
 #: en/content/change-management.xml:2286 en/content/change-management.xml:3042
 #: en/content/change-management.xml:3329 en/content/change-management.xml:3617
 msgid "<literal>PlannedEndTime</literal>"
-msgstr ""
+msgstr "<literal>PlannedEndTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1739
@@ -5734,7 +5691,7 @@ msgstr "Планируемые дата и время окончания реа�
 #: en/content/change-management.xml:2297 en/content/change-management.xml:3053
 #: en/content/change-management.xml:3340 en/content/change-management.xml:3628
 msgid "<literal>Priority</literal>"
-msgstr ""
+msgstr "<literal>Приоритет</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1750 en/content/change-management.xml:2072
@@ -5748,7 +5705,7 @@ msgstr "Приоритет Изменения"
 #: en/content/change-management.xml:2308 en/content/change-management.xml:3064
 #: en/content/change-management.xml:3351 en/content/change-management.xml:3639
 msgid "<literal>RequestedTime</literal>"
-msgstr ""
+msgstr "<literal>RequestedTime</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1761 en/content/change-management.xml:2083
@@ -5762,7 +5719,7 @@ msgstr "Запрошенное клиентом время реализации 
 #: en/content/change-management.xml:2319 en/content/change-management.xml:3075
 #: en/content/change-management.xml:3362 en/content/change-management.xml:3650
 msgid "<literal>Services</literal>"
-msgstr ""
+msgstr "<literal>Сервисы</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1772 en/content/change-management.xml:2094
@@ -5775,7 +5732,7 @@ msgstr "Сервисы, затрагиваемые Изменением"
 #: en/content/change-management.xml:1777 en/content/change-management.xml:2099
 #: en/content/change-management.xml:3086 en/content/change-management.xml:3373
 msgid "<literal>WorkOrderCount</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderCount</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1783 en/content/change-management.xml:2105
@@ -5995,7 +5952,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2330 en/content/change-management.xml:3661
 msgid "<literal>WorkOrderAgent</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderAgent</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2336 en/content/change-management.xml:3667
@@ -6005,7 +5962,7 @@ msgstr "Агент, назначенный для PIR"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2341 en/content/change-management.xml:3672
 msgid "<literal>WorkOrderNumber</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderNumber</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2347 en/content/change-management.xml:3678
@@ -6015,12 +5972,12 @@ msgstr "Номер Задачи"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2352 en/content/change-management.xml:3683
 msgid "<literal>WorkOrderState</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderState</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2363 en/content/change-management.xml:3694
 msgid "<literal>WorkOrderStateSignal</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderStateSignal</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2369 en/content/change-management.xml:3700
@@ -6030,7 +5987,7 @@ msgstr "Цвет \"светофора\" отображающий статус З
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2374 en/content/change-management.xml:3705
 msgid "<literal>WorkOrderTitle</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderTitle</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2380 en/content/change-management.xml:3711
@@ -6040,7 +5997,7 @@ msgstr "Имя Задачи"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2385 en/content/change-management.xml:3716
 msgid "<literal>WorkOrderType</literal>"
-msgstr ""
+msgstr "<literal>WorkOrderType</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2391 en/content/change-management.xml:3722
@@ -6090,7 +6047,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2441
 msgid "<literal>ChangeBy</literal>"
-msgstr ""
+msgstr "<literal>Кто изменил</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2447
@@ -6100,7 +6057,7 @@ msgstr "Логин агента, который последним измени�
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2452
 msgid "<literal>ChangeTime</literal>"
-msgstr ""
+msgstr "<literal>Время изменения</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2458
@@ -6110,7 +6067,7 @@ msgstr "Дата и время последнего изменения"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2463
 msgid "<literal>Comment</literal>"
-msgstr ""
+msgstr "<literal>Комментарий</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2469
@@ -6120,7 +6077,7 @@ msgstr "Комментарии / описание шаблона"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2474
 msgid "<literal>CreateBy</literal>"
-msgstr ""
+msgstr "<literal>Кем создано</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2480
@@ -6135,7 +6092,7 @@ msgstr "Дата и время создания шаблона"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2496
 msgid "<literal>Delete</literal>"
-msgstr ""
+msgstr "<literal>Удалить</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2502
@@ -6145,7 +6102,7 @@ msgstr "Опция удаления выбранного шаблона"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2507
 msgid "<literal>Name</literal>"
-msgstr ""
+msgstr "<literal>Имя</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2513
@@ -6155,7 +6112,7 @@ msgstr "Имя шаблона"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2518
 msgid "<literal>TemplateID</literal>"
-msgstr ""
+msgstr "<literal>TemplateID</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2524
@@ -6165,7 +6122,7 @@ msgstr "Внутренний идентификатор шаблона в баз
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2529
 msgid "<literal>Type</literal>"
-msgstr ""
+msgstr "<literal>Тип</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2535
@@ -6175,7 +6132,7 @@ msgstr "Тип шаблона"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2540
 msgid "<literal>Valid</literal>"
-msgstr ""
+msgstr "<literal>Действительный</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2546
@@ -6207,7 +6164,7 @@ msgstr "Типы шаблонов"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2578
 msgid "<literal>ITSMChange</literal>"
-msgstr ""
+msgstr "<literal>ITSMChange</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2581
@@ -6217,7 +6174,7 @@ msgstr "Шаблоны для Изменений"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2586
 msgid "<literal>ITSMWorkOrder</literal>"
-msgstr ""
+msgstr "<literal>ITSMWorkOrder</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2589
@@ -6227,7 +6184,7 @@ msgstr "Шаблоны для Задач"
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2594
 msgid "<literal>CAB</literal>"
-msgstr ""
+msgstr "<literal>CAB</literal>"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2597
@@ -7841,6 +7798,9 @@ msgid ""
 "interface, this number can be increased to 99, by using the calendar 1 etc. "
 "links:"
 msgstr ""
+"OTRS первоначально поддерживает работу с 9 календарями, которые могут быть "
+"настроены через интерфейс. Используя SysConfig их число может быть увеличено "
+"до 99, используя календарь 1 и т.д. ссылки:"
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/calendar.xml:12
@@ -7913,7 +7873,7 @@ msgstr "SOAP"
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:17
 msgid "REST"
-msgstr ""
+msgstr "REST"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:20

@@ -4,12 +4,13 @@
 #
 # Translators:
 # Martin Gruner <martin.gruner@otrs.com>, 2016
+# 汇民 王 <whuim@qq.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-11-15 10:50+0100\n"
-"PO-Revision-Date: 2017-09-25 15:42+0000\n"
-"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
+"PO-Revision-Date: 2018-09-20 10:21+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/"
 "zh_CN/)\n"
 "Language: zh_CN\n"
@@ -25,23 +26,15 @@ msgstr "zh_CN"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:8
-#, fuzzy
-#| msgid "OTRS::ITSM 5"
 msgid "OTRS::ITSM 6"
-msgstr "OTRS::ITSM 5"
+msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2015-11-24</date>"
 msgid ""
 "<copyright> <year>2003-2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-26</date>"
 msgstr ""
-"<copyright> <year>2003-2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-11-24</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:18
@@ -81,17 +74,13 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><revnumber>
 #: en/book.xml:46
-#, fuzzy
-#| msgid "5.0.1"
 msgid "6.0.1"
-msgstr "5.0.1"
+msgstr ""
 
 #. type: Content of: <book><bookinfo><revhistory><revision><date>
 #: en/book.xml:47
-#, fuzzy
-#| msgid "11/24/2015"
 msgid "09/26/2017"
-msgstr "2015年11月24日"
+msgstr ""
 
 #. type: Content of: <preface><title>
 #: en/content/preface.xml:4
@@ -303,39 +292,26 @@ msgstr "功能介绍"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/itsm.xml:77
-#, fuzzy
-#| msgid ""
-#| "OTRS::ITSM 5 is based on OTRS 5.  All functionalities known from OTRS "
-#| "continue to be available and the functionalities representing ITIL "
-#| "processes can be installed as packages."
 msgid ""
 "OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS "
 "continue to be available and the functionalities representing ITIL processes "
 "can be installed as packages."
 msgstr ""
-"OTRS::ITSM 5基于OTRS 5，所有OTRS的功能都正常使用，代表ITIL流程的功能可通过软"
-"件包安装。"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:84
-#, fuzzy
-#| msgid "New OTRS::ITSM 5 features"
 msgid "New OTRS::ITSM 6 features"
-msgstr "OTRS::ITSM 5新功能"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/itsm.xml:86
-#, fuzzy
-#| msgid "OTRS::ITSM 5 offers:"
 msgid "OTRS::ITSM 6 offers:"
-msgstr "OTRS::ITSM 5提供了以下新功能："
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:92
-#, fuzzy
-#| msgid "Ported code to the OTRS 5 framework."
 msgid "Ported code to the OTRS 6 framework."
-msgstr "代码移植到OTRS 5框架。"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:98
@@ -346,10 +322,8 @@ msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/itsm.xml:104
-#, fuzzy
-#| msgid "OTRS::ITSM 5 includes many other small bug fixes and improvements."
 msgid "OTRS::ITSM 6 includes many other small bug fixes and improvements."
-msgstr "OTRS::ITSM 5包含了许多其它小BUG的补丁和改进。"
+msgstr ""
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/itsm.xml:114
@@ -2118,18 +2092,11 @@ msgstr "安装OTRS::ITSM"
 
 #. type: Content of: <chapter><para>
 #: en/content/installation.xml:6
-#, fuzzy
-#| msgid ""
-#| "Please note that the OTRS framework 5 must be installed prior to the "
-#| "installation of OTRS::ITSM. All necessary information, options and "
-#| "installation procedures are depicted in the OTRS Admin Manual."
 msgid ""
 "Please note that the OTRS framework 6 must be installed prior to the "
 "installation of OTRS::ITSM. All necessary information, options and "
 "installation procedures are depicted in the OTRS Admin Manual."
 msgstr ""
-"请注意，OTRS框架5必须在OTRS::ITSM安装之前安装好。安装OTRS需要的所有信息、选项"
-"或安装流程都在OTRS管理手册中描述。"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/installation.xml:13
@@ -2138,21 +2105,12 @@ msgstr "安装"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:16
-#, fuzzy
-#| msgid ""
-#| "After successfully installing OTRS 5 or a later version, proceed to sign "
-#| "on as administrator. Using the package manager in the admin area or via "
-#| "ftp://ftp.otrs.org/pub/otrs/itsm/packages5/ obtain the ITSM packages and "
-#| "install them in the following order:"
 msgid ""
 "After successfully installing OTRS 6 or a later version, proceed to sign on "
 "as administrator. Using the package manager in the admin area or via ftp://"
 "ftp.otrs.org/pub/otrs/itsm/packages6/ obtain the ITSM packages and install "
 "them in the following order:"
 msgstr ""
-"成功安装OTRS 5或更新版本后，以系统管理员登录，在系统管理区使用软件包管理器或"
-"通过ftp://ftp.otrs.org/pub/otrs/itsm/packages5/获取ITSM软件包，并按以下顺序安"
-"装："
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/installation.xml:23 en/content/cmdb.xml:69
@@ -2166,21 +2124,12 @@ msgstr "ITSM核心模块"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:30
-#, fuzzy
-#| msgid ""
-#| "If your machine running OTRS has internet access, use the following "
-#| "online repository [--OTRS::ITSM 5 Master--] to install the packages "
-#| "below. Otherwise download the packages below and use the package manager "
-#| "to install them:"
 msgid ""
 "If your machine running OTRS has internet access, use the following online "
 "repository [--OTRS::ITSM 6 Master--] to install the packages below. "
 "Otherwise download the packages below and use the package manager to install "
 "them:"
 msgstr ""
-"如果您运行OTRS的主机能够访问互联网，可使用如下的在线软件仓库 [--OTRS::ITSM 5 "
-"Master--] 来安装下面的软件包。否则下载下面的软件包并使用软件包管理器来安装它"
-"们："
 
 #. type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/content/installation.xml:39
@@ -2209,18 +2158,11 @@ msgstr "导入导出模块"
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/installation.xml:61
-#, fuzzy
-#| msgid ""
-#| "You can find further information about the installation process here: "
-#| "<ulink url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-5.ITSM\">INSTALL-5."
-#| "ITSM</ulink>"
 msgid ""
 "You can find further information about the installation process here: <ulink "
 "url=\"http://ftp.otrs.org/pub/otrs/itsm/INSTALL-6.ITSM\">INSTALL-6.ITSM</"
 "ulink>"
 msgstr ""
-"您可以在这里找到安装过程的更多信息： <ulink url=\"http://ftp.otrs.org/pub/"
-"otrs/itsm/INSTALL-5.ITSM\">INSTALL-5.ITSM</ulink>"
 
 #. type: Content of: <chapter><sect1><para><screenshot><screeninfo>
 #: en/content/installation.xml:66
@@ -2945,7 +2887,7 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/cmdb.xml:302
 msgid "GenericInterface for ITSM Configuration Management"
-msgstr ""
+msgstr "ITSM配置管理的通用接口"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:304
@@ -2960,6 +2902,13 @@ msgid ""
 "github.com/OTRS/ITSMConfigurationManagement/blob/master/development/"
 "webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
 msgstr ""
+"ITSM配置管理具有有通用接口，其功能包含通过通用接口创建、修改、检索和搜索配置"
+"项等操作。 可用以下操作：ConfigItemCreate()、 ConfigItemGet()、"
+"ConfigItemUpdate()、ConfigItemSearch()。 有关更多信息，请查看WSDL文件："
+"<ulink url=\"https://github.com/OTRS/ITSMConfigurationManagement/blob/master/"
+"development/webservices/GenericConfigItemConnectorSOAP.wsdl\">https：//"
+"github.com/OTRS/ITSMConfigurationManagement/blob/master/development/"
+"webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/cmdb.xml:313
@@ -7338,7 +7287,7 @@ msgstr "SOAP"
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:17
 msgid "REST"
-msgstr ""
+msgstr "REST"
 
 #. type: Content of: <chapter><itemizedlist><listitem><para>
 #: en/content/api.xml:20
