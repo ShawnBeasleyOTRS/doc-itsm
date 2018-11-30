@@ -30,10 +30,10 @@ OTRS. Если вы уже использовали ранее OTRS, то все
         </listitem>
     </itemizedlist>
     <para>
-        Подробная информация о настройках и работе, которые идентичны в обоих OTRS и
-OTRS::ITSM предоставлены в
-http://otrs.github.io/doc/manual/admin/5.0/en/html/ в руководстве
-администратора OTRS, которое постоянно обновляется.
+        Detailed information on the settings and proceedings that are identical in
+both OTRS and OTRS::ITSM are provided at
+https://doc.otrs.com/doc/manual/admin/6.0/en/html/ in the OTRS Admin Manual,
+which is continuously being revised.
     </para>
     <para>
         <figure>

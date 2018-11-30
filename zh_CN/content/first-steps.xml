@@ -23,7 +23,10 @@
         </listitem>
     </itemizedlist>
     <para>
-        设置和处理过程的详细信息方面OTRS和OTRS::ITSM完全相同，可以从http://otrs.github.io/doc/manual/admin/5.0/en/html/获取OTRS管理手册（仍在持续修订）。
+        Detailed information on the settings and proceedings that are identical in
+both OTRS and OTRS::ITSM are provided at
+https://doc.otrs.com/doc/manual/admin/6.0/en/html/ in the OTRS Admin Manual,
+which is continuously being revised.
     </para>
     <para>
         <figure>

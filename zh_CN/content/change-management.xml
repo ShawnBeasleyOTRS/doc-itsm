@@ -32,17 +32,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS框架，版本5.0.1或更高
+                            OTRS Framework, version 6.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog目录管理&quot;软件包，版本5.0
+                            ITSM &quot;GeneralCatalog&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore IT服务管理核心&quot;软件包，版本5.0
+                            ITSM &quot;ITSMCore&quot; package, version 6.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -54,22 +54,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement故障问题管理&quot;软件包，版本5.0
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement服务级别管理&quot;软件包，版本5.0
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement配置管理&quot;软件包，版本5.0
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport导入导出&quot;软件包，版本5.0
+                            ITSM &quot;ImportExport&quot; package, version 6.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -567,19 +567,18 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                            Core -&gt; Ticket -&gt; ACL -&gt;
+Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::AddChangeLinkTicketTypes
+                            Core -&gt; ITSMChange -&gt; ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::RestrictTicketTypes::Groups
+                            Core -&gt; ITSMChange -&gt; ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -1299,7 +1298,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </listitem>
             </itemizedlist>
             <para>
-                这些设置是通过系统配置“Framework -&gt;Core::LinkObject”定义的，可以根据需要扩展。
+                These settings are defined via SysConfig under &quot;Core -&gt;
+LinkObject&quot; and can be extended when desired.
             </para>
         </sect2>
         <sect2>
@@ -1351,8 +1351,12 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            定义的工作指令按它们的执行顺序编号，并显示在一个时间轴上。工作指令显示的颜色取决于它们的类型，可以根据需要通过系统配置“ITSMChange
-Management -&gt; Frontend::Agent::ViewChangeZoom”定制颜色。
+            The defined Work Orders are numbered in order of their planned execution and
+displayed in a timeline. The color of the displayed Work Order in the
+timeline reflects their type, and can be customized via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeZoom -&gt;
+ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderGraph&quot; as
+required.
         </para>
         <para>
             系统为每个工作指令在变更时间轴上生成两个图形条，上面的深色图形条代表计划的工作指令实施时间，下面的浅色图形条显示实际的工作指令实施时间。
@@ -1408,8 +1412,10 @@ contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的属性：
+                The columns can be defined via SysConfig &quot;Frontend -&gt; Agent -&gt;
+View -&gt; ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###ShowColumns&quot; with the following
+available attributes:
             </para>
             <table>
                 <title>
@@ -1621,8 +1627,11 @@ Frontend::Agent::ViewChangeOverview”定义显示的列，下面是可显示的
                 </tgroup>
             </table>
             <para>
-                此外，变更概览视图还可以用不同的属性过滤显示变更。下面的过滤器可用，并能通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeOverview”来定义。
+                Additionally, the Change Overview can filter and display changes according
+to various attributes. The following filters are available and can be
+defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -1724,8 +1733,9 @@ Frontend::Agent::ViewChangeOverview”来定义。
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
+                The displayed attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeScheduleOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -1952,8 +1962,9 @@ Frontend::Agent::ViewChangeScheduleOverview”定义要显示的属性：
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewPIROverview”需要显示的列：
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangePIROverview -&gt;
+ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2235,8 +2246,9 @@ Frontend::Agent::ViewPIROverview”需要显示的列：
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2371,8 +2383,10 @@ Frontend::Agent::ViewTemplateOverview”来定义要显示的列：
                 </tgroup>
             </table>
             <para>
-                在安装变更管理模块后，可以使用下面的模板类型。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewTemplateOverview”来定义这些类型。
+                After installing the Change Management module, the following template types
+are available in the system. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes&quot;:
             </para>
             <table>
                 <title>
@@ -2667,8 +2681,11 @@ contentdepth="100%"></graphic></screenshot></figure>
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                显示的列标题可以用下面的属性按升序或降序排序。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
+                The displayed column headings can be sorted according the following
+attributes in ascending or descending order. The columns to be displayed can
+be defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2880,8 +2897,11 @@ Frontend::Agent::ViewChangeManagerOverview”定义要显示的列。
                 </tgroup>
             </table>
             <para>
-                此外，变更经理概览可以按下面的多种属性过滤显示的变更。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeManagerOverview”来定义用来过滤的属性。
+                In addition, the Change Manager Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates&quot; if
+desired:
             </para>
             <table>
                 <title>
@@ -2947,8 +2967,10 @@ Frontend::Agent::ViewChangeManagerOverview”来定义用来过滤的属性。
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                可以按列标题进行升级或降序显示。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
+                The display can be sorted by the column headings in ascending or descending
+order. The attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###ShowColumns &quot;:
             </para>
             <table>
                 <title>
@@ -3160,8 +3182,11 @@ Frontend::Agent::ViewMyChangesOverview”定义要显示的列。
                 </tgroup>
             </table>
             <para>
-                此外，“我的变更”概览可以按下面的多种属性过滤显示的变更。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewMyChangesOverview”定义用来过滤的属性。
+                In addition, the My Changes Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyChangesOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -3227,8 +3252,10 @@ Frontend::Agent::ViewMyChangesOverview”定义用来过滤的属性。
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                显示的信息可以按列标题的升序或降序排序。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
+                The displayed information can be sorted by column headings in ascending or
+descending order. The attributes used can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt; ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -3495,8 +3522,11 @@ Frontend::Agent::ViewMyWorkOrdersOverview”定义使用的属性。
                 </tgroup>
             </table>
             <para>
-                此外，“我的工作指令”概览可以通过下面的多种属性过滤要显示的工作指令。可以通过系统配置“ITSM Change Management -&gt;
-Frontend::Agent::ViewMyWorkOrdersOverview”定义用来过滤的属性。
+                In addition, the My Work Orders Overview can filter the displayed Work
+Orders by various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Filter::WorkOrderStates&quot;:
             </para>
             <table>
                 <title>

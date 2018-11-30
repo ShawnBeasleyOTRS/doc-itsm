@@ -40,17 +40,17 @@ mérőszámok vagy jelentések.
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS keretrendszer, 5.0.1-es verzió vagy magasabb
+                            OTRS Framework, version 6.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM „GeneralCatalog” csomag, 5.0-s verzió
+                            ITSM &quot;GeneralCatalog&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM „ITSMCore” csomag, 5.0-s verzió
+                            ITSM &quot;ITSMCore&quot; package, version 6.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -63,22 +63,22 @@ szükségesek:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM „ITSMIncidentProblemManagement” csomag, 5.0-s verzió
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM „ITSMServiceLevelManagement” csomag, 5.0-s verzió
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM „ITSMConfigurationManagement” csomag, 5.0-s verzió
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM „ImportExport” csomag, 5.0-s verzió
+                            ITSM &quot;ImportExport&quot; package, version 6.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -634,19 +634,18 @@ pillantást a következő rendszerbeállítási lehetőségekre:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                            Core -&gt; Ticket -&gt; ACL -&gt;
+Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::AddChangeLinkTicketTypes
+                            Core -&gt; ITSMChange -&gt; ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::RestrictTicketTypes::Groups
+                            Core -&gt; ITSMChange -&gt; ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -1423,9 +1422,8 @@ kapcsolható össze:
                 </listitem>
             </itemizedlist>
             <para>
-                Ezek a beállítások a rendszerbeállításokon keresztül vannak meghatározva a
-„Framework -&gt; Core::LinkObject” beállítás alatt, és kiterjeszthetők, ha
-szükséges.
+                These settings are defined via SysConfig under &quot;Core -&gt;
+LinkObject&quot; and can be extended when desired.
             </para>
         </sect2>
         <sect2>
@@ -1486,11 +1484,12 @@ hozzákapcsolt jegyeket és CI-ket.
 contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            A meghatározott munkamegrendelések a tervezett végrehajtásuk sorrendjében
-vannak számozva, és egy idővonalon vannak megjelenítve. Az idővonalon
-megjelenített munkamegrendelések színe a típusára utal, és igény szerint
-személyre szabhatók az „ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeZoom” rendszerbeállításon keresztül.
+            The defined Work Orders are numbered in order of their planned execution and
+displayed in a timeline. The color of the displayed Work Order in the
+timeline reflects their type, and can be customized via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeZoom -&gt;
+ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderGraph&quot; as
+required.
         </para>
         <para>
             A rendszer munkamegrendelésenként két sávot állít elő a változás
@@ -1552,9 +1551,10 @@ oszloponként rendezhető növekvő vagy csökkenő sorrendbe.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Az oszlopok az „ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeOverview” rendszerbeállításon keresztül
-határozhatók meg a következő elérhető attribútumokkal:
+                The columns can be defined via SysConfig &quot;Frontend -&gt; Agent -&gt;
+View -&gt; ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###ShowColumns&quot; with the following
+available attributes:
             </para>
             <table>
                 <title>
@@ -1766,10 +1766,11 @@ határozhatók meg a következő elérhető attribútumokkal:
                 </tgroup>
             </table>
             <para>
-                Továbbá a változás áttekintő képes a változásokat különböző attribútumok
-szerint szűrni és megjeleníteni. A következő szűrők érhetők el, és az „ITSM
-Change Management -&gt; Frontend::Agent::ViewChangeOverview”
-rendszerbeállításon keresztül határozhatók meg:
+                Additionally, the Change Overview can filter and display changes according
+to various attributes. The following filters are available and can be
+defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -1876,9 +1877,9 @@ növekvő vagy csökkenő sorrendbe:
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenített attribútumok az „ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeScheduleOverview” rendszerbeállításon keresztül
-határozhatók meg a következő elérhető attribútumokkal:
+                The displayed attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeScheduleOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2106,9 +2107,9 @@ oszlopfejlécek szerint növekvő vagy csökkenő sorrendbe rendezhető.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenítendő oszlopok az „ITSM Change Management -&gt;
-Frontend::Agent::ViewPIROverview” rendszerbeállításon keresztül határozhatók
-meg:
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangePIROverview -&gt;
+ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2392,9 +2393,9 @@ információkat az adott oszlopfejlécek szerint.
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenítendő oszlopok az „ITSM Change Management -&gt;
-Frontend::Agent::ViewTemplateOverview” rendszerbeállításon keresztül
-határozhatók meg:
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2531,10 +2532,10 @@ használhatják a változáskészítők.
                 </tgroup>
             </table>
             <para>
-                A változásmenedzsment modul telepítése után a következő sablontípusok
-érhetők el a rendszeren. Ezek az „ITSM Change Management -&gt;
-Frontend::Agent::ViewTemplateOverview” rendszerbeállításon keresztül
-határozhatók meg:
+                After installing the Change Management module, the following template types
+are available in the system. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes&quot;:
             </para>
             <table>
                 <title>
@@ -2857,10 +2858,11 @@ változásmenedzserként regisztrálva vannak.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenített oszlopfejlécek a következő attribútumok szerint növekvő vagy
-csökkenő sorrendbe rendezhetők. A megjelenítendő oszlopok az „ITSM Change
-Management -&gt; Frontend::Agent::ViewChangeManagerOverview”
-rendszerbeállításon keresztül határozhatók meg:
+                The displayed column headings can be sorted according the following
+attributes in ascending or descending order. The columns to be displayed can
+be defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -3072,11 +3074,11 @@ rendszerbeállításon keresztül határozhatók meg:
                 </tgroup>
             </table>
             <para>
-                Továbbá a változásmenedzser áttekintője képes a megjelenített változások
-szűrésére különféle attribútumok szerint a következőképpen. Ezek igény
-szerint az „ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeManagerOverview” rendszerbeállításon keresztül
-határozhatók meg:
+                In addition, the Change Manager Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates&quot; if
+desired:
             </para>
             <table>
                 <title>
@@ -3145,10 +3147,10 @@ változás-összeállítóként van regisztrálva.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenítés az oszlopfejlécek szerint növekvő vagy csökkenő sorrendbe
-rendezhető. Az attribútumok az „ITSM Change Management -&gt;
-Frontend::Agent::ViewMyChangesOverview” rendszerbeállításon keresztül
-határozhatók meg:
+                The display can be sorted by the column headings in ascending or descending
+order. The attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###ShowColumns &quot;:
             </para>
             <table>
                 <title>
@@ -3360,10 +3362,11 @@ határozhatók meg:
                 </tgroup>
             </table>
             <para>
-                Továbbá a saját változások áttekintője képes a megjelenített változások
-szűrésére különféle attribútumok szerint a következőképpen. Ezek az „ITSM
-Change Management -&gt; Frontend::Agent::ViewMyChangesOverview”
-rendszerbeállításon keresztül határozhatók meg:
+                In addition, the My Changes Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyChangesOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -3432,10 +3435,10 @@ különálló nézetét nyújtja.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A megjelenített információk az oszlopfejlécek szerint növekvő vagy csökkenő
-sorrendbe rendezhetők. A használt attribútumok az „ITSM Change Management
--&gt; Frontend::Agent::ViewMyWorkOrdersOverview” rendszerbeállításon
-keresztül határozhatók meg:
+                The displayed information can be sorted by column headings in ascending or
+descending order. The attributes used can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt; ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -3702,11 +3705,11 @@ keresztül határozhatók meg:
                 </tgroup>
             </table>
             <para>
-                Továbbá a saját munkamegrendelések áttekintője képes a megjelenített
-munkamegrendelések szűrésére különféle attribútumok szerint a
-következőképpen. Ezek az „ITSM Change Management -&gt;
-Frontend::Agent::ViewMyWorkOrdersOverview” rendszerbeállításon keresztül
-határozhatók meg:
+                In addition, the My Work Orders Overview can filter the displayed Work
+Orders by various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Filter::WorkOrderStates&quot;:
             </para>
             <table>
                 <title>

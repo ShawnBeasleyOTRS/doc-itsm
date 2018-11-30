@@ -65,8 +65,8 @@ ITIL решения по управлению ИТ-услугами - OTRS::ITSM
 конфигурациями, интегрированной CMDB.
     </para>
     <para>
-        OTRS::ITSM и OTRS находятся в открытом доступе (без лицензионных отчислений)
-и являются объектом защиты в виде GNU GNU GENERAL PUBLIC LICENSE (GPL).
+        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
+subject to GNU GNU GENERAL PUBLIC LICENSE (GPL).
     </para>
     <sect1>
         <title>Возможности</title>

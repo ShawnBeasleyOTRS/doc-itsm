@@ -47,43 +47,43 @@
         <sect2 id="otrs-database">
             <title>OTRS框架</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
+                For better readability, the diagram can be found at: <ulink
+url="https://github.com/OTRS/otrs/blob/rel-6_0/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/rel-6_0/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>目录模块</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-catalog-database.png</ulink>
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSM核心模块</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSM配置管理模块</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSM变更管理模块</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>导入导出模块</title>
             <para>
-                为了更好的可读性，这个图可在这里找到：<ulink
-url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-database.png</ulink>
             </para>
         </sect2>
     </sect1>
@@ -249,10 +249,13 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         <sect2 id="configuration-items-generic-interface">
             <title>ITSM配置管理的通用接口</title>
             <para>
-                ITSM配置管理具有有通用接口，其功能包含通过通用接口创建、修改、检索和搜索配置项等操作。 可用以下操作：ConfigItemCreate()、
-ConfigItemGet()、ConfigItemUpdate()、ConfigItemSearch()。
-有关更多信息，请查看WSDL文件：<ulink
-url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https：//github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
+                There is a GenericInterface for ITSM Configuration Management. This feature
+contains operations for creating, changing, retrieving and searching
+configuration items via GenericInterface.  The following operations are
+available: ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(),
+ConfigItemSearch().  For more information please take a look at the WSDL
+file: <ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
             </para>
         </sect2>
     </sect1>

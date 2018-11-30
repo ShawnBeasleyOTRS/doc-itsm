@@ -71,8 +71,8 @@ szolgáltatásszint-menedzsmentjének, változás- és konfigurációmenedzsment
 moduljainak, valamint az integrált CMDB-nek.
     </para>
     <para>
-        Az OTRS::ITSM és az OTRS ingyenesen elérhetők (licencdíjak nélkül
-használhatók) és a GNU GNU GENERAL PUBLIC LICENSE (GPL) alá tartoznak.
+        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
+subject to GNU GNU GENERAL PUBLIC LICENSE (GPL).
     </para>
     <sect1>
         <title>Szolgáltatások</title>

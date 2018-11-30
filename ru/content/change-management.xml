@@ -41,17 +41,17 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            OTRS Framework, версии 5.0.1 или выше
+                            OTRS Framework, version 6.0.1 or higher
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;GeneralCatalog&quot; package, версии 5.0
+                            ITSM &quot;GeneralCatalog&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMCore&quot; package, версии 5.0
+                            ITSM &quot;ITSMCore&quot; package, version 6.0
                         </para>
                     </listitem>
                 </orderedlist>
@@ -64,22 +64,22 @@
                 <itemizedlist>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, версии 5.0
+                            ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMServiceLevelManagement&quot; package, версии 5.0
+                            ITSM &quot;ITSMServiceLevelManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ITSMConfigurationManagement&quot; package, версии 5.0
+                            ITSM &quot;ITSMConfigurationManagement&quot; package, version 6.0
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM &quot;ImportExport&quot; package, версии 5.0
+                            ITSM &quot;ImportExport&quot; package, version 6.0
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -632,19 +632,18 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Ticket -&gt; Core::TicketACL - Ticket::Acl::Module###200-Ticket::Acl::Module
+                            Core -&gt; Ticket -&gt; ACL -&gt;
+Ticket::Acl::Module###200-Ticket::Acl::Module
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::AddChangeLinkTicketTypes
+                            Core -&gt; ITSMChange -&gt; ITSMChange::AddChangeLinkTicketTypes
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            ITSM Change Management -&gt; Core::ITSMChange -
-ITSMChange::RestrictTicketTypes::Groups
+                            Core -&gt; ITSMChange -&gt; ITSMChange::RestrictTicketTypes::Groups
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -1410,8 +1409,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </listitem>
             </itemizedlist>
             <para>
-                Эти настройки выполняются через SysConfig в &quot;Framework -&gt;
-Core::LinkObject&quot; и могут быть, при желании, расширены.
+                These settings are defined via SysConfig under &quot;Core -&gt;
+LinkObject&quot; and can be extended when desired.
             </para>
         </sect2>
         <sect2>
@@ -1470,11 +1469,12 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            Созданные Задачи нумеруются в порядке их планируемого выполнения и
-отображаются на временНом графике/диаграмме. Цвет отображаемых Задач на
-диаграмме означает их тип и может быть настроен через  SysConfig &quot;ITSM
-Change Management -&gt; Frontend::Agent::ViewChangeZoom&quot; как
-пожелается.
+            The defined Work Orders are numbered in order of their planned execution and
+displayed in a timeline. The color of the displayed Work Order in the
+timeline reflects their type, and can be customized via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeZoom -&gt;
+ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderGraph&quot; as
+required.
         </para>
         <para>
             Система создает две полосы на Задачу на диаграмме Изменения. Верхняя, более
@@ -1535,9 +1535,10 @@ contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The columns can be defined via SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeOverview&quot; with the following available
-attributes:
+                The columns can be defined via SysConfig &quot;Frontend -&gt; Agent -&gt;
+View -&gt; ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###ShowColumns&quot; with the following
+available attributes:
             </para>
             <table>
                 <title>
@@ -1749,10 +1750,11 @@ attributes:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Изменений можно фильтровать и отображать Изменения
-удовлетворяющие различным значениям атрибутов. Доступны следующие фильтры,
-которые могут быть заданы в SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeOverview&quot;:
+                Additionally, the Change Overview can filter and display changes according
+to various attributes. The following filters are available and can be
+defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeOverview -&gt;
+ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -1857,8 +1859,9 @@ Frontend::Agent::ViewChangeOverview&quot;:
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewChangeScheduleOverview&quot;:
+                The displayed attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeScheduleOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2087,8 +2090,9 @@ contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewPIROverview&quot;:
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangePIROverview -&gt;
+ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2372,8 +2376,9 @@ contentdepth="100%"></graphic></screenshot></figure>
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Перечень колонок может быть задан в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewTemplateOverview&quot;:
+                The columns to be displayed can be defined via SysConfig &quot;Frontend
+-&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -2510,9 +2515,10 @@ contentdepth="100%"></graphic></screenshot></figure>
                 </tgroup>
             </table>
             <para>
-                Следующие типы шаблонов доступны в системе после установки модуля Change
-Management. Они задаются в SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewTemplateOverview&quot;:
+                After installing the Change Management module, the following template types
+are available in the system. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt;
+ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes&quot;:
             </para>
             <table>
                 <title>
@@ -2835,10 +2841,11 @@ contentdepth="100%"></graphic></screenshot></figure>
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Отображаемые значения могут быть отсортированы в порядке убывания или
-возрастания значений атрибутов в колонках. Колонки для отображения задаются
-в SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeManagerOverview&quot;:
+                The displayed column headings can be sorted according the following
+attributes in ascending or descending order. The columns to be displayed can
+be defined via SysConfig &quot;Frontend -&gt; Agent -&gt; View -&gt;
+ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -3050,10 +3057,11 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Менеджера Изменений можно фильтровать и отображать
-Изменения удовлетворяющие различным значениям. По желанию, это настраивается
-в SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewChangeManagerOverview&quot;:
+                In addition, the Change Manager Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeManagerOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates&quot; if
+desired:
             </para>
             <table>
                 <title>
@@ -3120,10 +3128,10 @@ Frontend::Agent::ViewChangeManagerOverview&quot;:
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Отображаемые значения могут быть отсортированы в порядке убывания или
-возрастания значений атрибутов в колонках. Колонки для отображения задаются
-в SysConfig &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewMyChangesOverview&quot;:
+                The display can be sorted by the column headings in ascending or descending
+order. The attributes can be defined via SysConfig &quot;Frontend -&gt;
+Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###ShowColumns &quot;:
             </para>
             <table>
                 <title>
@@ -3335,10 +3343,11 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Мои Изменения можно фильтровать и отображать
-Изменения удовлетворяющие различным значениям атрибутов. Доступны следующие
-фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewMyChangesOverview&quot;:
+                In addition, the My Changes Overview can filter the displayed Changes by
+various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyChangesOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates&quot;:
             </para>
             <table>
                 <title>
@@ -3405,10 +3414,10 @@ Frontend::Agent::ViewMyChangesOverview&quot;:
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Отображаемые значения могут быть отсортированы в порядке убывания или
-возрастания значений атрибутов в колонках. Колонки для отображения задаются
-в SysConfig  &quot;ITSM Change Management -&gt;
-Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
+                The displayed information can be sorted by column headings in ascending or
+descending order. The attributes used can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt; ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###ShowColumns&quot;:
             </para>
             <table>
                 <title>
@@ -3675,10 +3684,11 @@ Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
                 </tgroup>
             </table>
             <para>
-                Дополнительно, в обзоре Мои Задачи можно фильтровать и отображать Изменения
-удовлетворяющие различным значениям атрибутов, как показано далее. Эти
-фильтры, которые могут быть заданы в SysConfig &quot;ITSM Change Management
--&gt; Frontend::Agent::ViewMyWorkOrdersOverview&quot;:
+                In addition, the My Work Orders Overview can filter the displayed Work
+Orders by various attributes as follows. These can be defined via SysConfig
+&quot;Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview
+-&gt;
+ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Filter::WorkOrderStates&quot;:
             </para>
             <table>
                 <title>

@@ -62,43 +62,43 @@ OTRS::ITSM независимо, делает затруднительным п�
         <sect2 id="otrs-database">
             <title>OTRS Framework</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/master/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
+                For better readability, the diagram can be found at: <ulink
+url="https://github.com/OTRS/otrs/blob/rel-6_0/development/diagrams/Database/OTRSDatabaseDiagram.png">https://github.com/OTRS/otrs/blob/rel-6_0/development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>
             </para>
         </sect2>
         <sect2 id="general-catalog-database">
             <title>GeneralCatalog/Общий каталог</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/master/doc/general-catalog-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-catalog-database.png">https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-catalog-database.png</ulink>
              </para>
         </sect2>
         <sect2 id="itsm-core-database">
             <title>ITSMCore</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/master/doc/itsm-core-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png">https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-configuration-management-database">
             <title>ITSMConfigurationManagement</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/doc/itsm-configuration-management-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-database.png">https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="itsm-change-management-database">
             <title>ITSMChangeManagement</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/master/doc/itsm-change-management-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/itsm-change-management-database.png">https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/itsm-change-management-database.png</ulink>
             </para>
         </sect2>
         <sect2 id="import-export-database">
             <title>ImportExport</title>
             <para>
-                В более наглядном/читаемом виде схемы можно найти в: <ulink
-url="https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/master/doc/import-export-database.png</ulink>
+                For better readability, this diagram can be found at: <ulink
+url="https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-database.png">https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-database.png</ulink>
             </para>
         </sect2>
     </sect1>
@@ -298,12 +298,13 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         <sect2 id="configuration-items-generic-interface">
             <title>GenericInterface для ITSM Configuration Management</title>
             <para>
-                Общий интерфейсЭто GenericInterface для ITSM Configuration Management. Этот
-функционал выполняет операции по созданию, изменению, получению и поиску
-конфигурационных единиц через GenericInterface. Доступны следующие операции:
-ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(),
-ConfigItemSearch(). Более подробно смотрите в WSDL файле: <ulink
-url="https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https://github.com/OTRS/ITSMConfigurationManagement/blob/master/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
+                There is a GenericInterface for ITSM Configuration Management. This feature
+contains operations for creating, changing, retrieving and searching
+configuration items via GenericInterface.  The following operations are
+available: ConfigItemCreate(), ConfigItemGet(), ConfigItemUpdate(),
+ConfigItemSearch().  For more information please take a look at the WSDL
+file: <ulink
+url="https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl">https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>
             </para>
         </sect2>
     </sect1>

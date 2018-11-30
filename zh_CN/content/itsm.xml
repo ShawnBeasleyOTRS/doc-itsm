@@ -31,39 +31,37 @@
         服务台和工单系统解决方案OTRS是ITIL兼容的IT服务管理解决方案OTRS::ITSM的基础，包括OTRS::ITSM的事件管理、问题管理、服务级别管理、变更管理和配置管理模块，以及集成的配置管理数据库。
     </para>
     <para>
-        OTRS::ITSM和OTRS都是免费使用的（没有许可费用），受制于GNU AGPL。
+        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
+subject to GNU GNU GENERAL PUBLIC LICENSE (GPL).
     </para>
     <sect1>
         <title>功能介绍</title>
         <para>
-            OTRS::ITSM 6 is based on OTRS 6.  All functionalities known from OTRS
-continue to be available and the functionalities representing ITIL processes
-can be installed as packages.
+            OTRS::ITSM 6基于OTRS 6，所有OTRS的功能都正常使用，并可通过安装软件包来实现ITIL流程的功能。
         </para>
         <sect2>
             <title>
-                New OTRS::ITSM 6 features
+                OTRS::ITSM 6新功能
             </title>
-            <para>OTRS::ITSM 6 offers:</para>
+            <para>OTRS::ITSM 6提供了以下新功能：</para>
             <para>
                 <itemizedlist>
 
                     <listitem>
                         <para>
-                            Ported code to the OTRS 6 framework.
+                            代码移植到OTRS 6框架；
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            Added new feature for ITSMConfigurationManagement to suppress adding a new
-config item version for special attributes.
+                            添加了ITSM配置管理的新功能，以禁止为特殊属性添加新的配置项版本；
                         </para>
                     </listitem>
 
                     <listitem>
                         <para>
-                            OTRS::ITSM 6 includes many other small bug fixes and improvements.
+                            OTRS::ITSM 6包含了许多其它小BUG的补丁和改进。
                         </para>
                     </listitem>
 

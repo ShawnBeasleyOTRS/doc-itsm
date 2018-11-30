@@ -30,10 +30,10 @@ következőkre:
         </listitem>
     </itemizedlist>
     <para>
-        Azon beállításokról és eljárásokról, amelyek azonosak mind az OTRS, mind az
-OTRS::ITSM esetén, részletes információk találhatók a
-http://otrs.github.io/doc/manual/admin/5.0/en/html/ címen lévő OTRS
-adminisztrátori kézikönyvben, amelyet folyamatosan felülvizsgálnak.
+        Detailed information on the settings and proceedings that are identical in
+both OTRS and OTRS::ITSM are provided at
+https://doc.otrs.com/doc/manual/admin/6.0/en/html/ in the OTRS Admin Manual,
+which is continuously being revised.
     </para>
     <para>
         <figure>

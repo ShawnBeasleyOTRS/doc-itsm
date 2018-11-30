@@ -69,8 +69,8 @@ Management, Problem Management, Service Level Management, Change- und
 Configuration Management Modulen und der integrierten CMDB.
     </para>
     <para>
-        OTRS::ITSM und OTRS sind frei verfügbar (frei von Lizenzgebühren) und sind
-Gegenstand der GNU GNU GENERAL PUBLIC LICENSE (GPL).
+        OTRS::ITSM and OTRS are freely available (no license fees apply)  and are
+subject to GNU GNU GENERAL PUBLIC LICENSE (GPL).
     </para>
     <sect1>
         <title>Features</title>
