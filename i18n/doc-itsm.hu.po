@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Balázs Úr <ur.balazs@fsf.hu>, 2014-2018
+# Balázs Úr <urbalazs@gmail.com>, 2014-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2018-11-30 13:52+0100\n"
-"PO-Revision-Date: 2018-11-30 12:52+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"PO-Revision-Date: 2018-12-03 22:18+0000\n"
+"Last-Translator: Balázs Úr <ur.balazs@fsf.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -322,6 +322,8 @@ msgid ""
 "OTRS::ITSM and OTRS are freely available (no license fees apply)  and are "
 "subject to GNU GNU GENERAL PUBLIC LICENSE (GPL)."
 msgstr ""
+"Az OTRS::ITSM és az OTRS ingyenesen elérhetők (licencdíjak nélkül "
+"használhatók) és a GNU GNU GENERAL PUBLIC LICENSE (GPL) alá tartoznak."
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/itsm.xml:75
@@ -2634,6 +2636,10 @@ msgid ""
 "admin/6.0/en/html/ in the OTRS Admin Manual, which is continuously being "
 "revised."
 msgstr ""
+"Azon beállításokról és eljárásokról, amelyek azonosak mind az OTRS, mind az "
+"OTRS::ITSM esetén, részletes információk találhatók a https://doc.otrs.com/"
+"doc/manual/admin/6.0/en/html/ címen lévő OTRS adminisztrátori kézikönyvben, "
+"amelyet folyamatosan felülvizsgálnak."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/first-steps.xml:37
@@ -2848,6 +2854,10 @@ msgid ""
 "OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/rel-6_0/"
 "development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található:: <ulink "
+"url=\"https://github.com/OTRS/otrs/blob/rel-6_0/development/diagrams/"
+"Database/OTRSDatabaseDiagram.png\">https://github.com/OTRS/otrs/blob/rel-6_0/"
+"development/diagrams/Database/OTRSDatabaseDiagram.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:71
@@ -2857,6 +2867,10 @@ msgid ""
 "\">https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-catalog-"
 "database.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található: <ulink "
+"url=\"https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/doc/general-"
+"catalog-database.png\">https://github.com/OTRS/GeneralCatalog/blob/rel-6_0/"
+"doc/general-catalog-database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:78
@@ -2865,6 +2879,10 @@ msgid ""
 "github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png\">https://"
 "github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található: <ulink "
+"url=\"https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database."
+"png\">https://github.com/OTRS/ITSMCore/blob/rel-6_0/doc/itsm-core-database."
+"png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:85
@@ -2875,6 +2893,11 @@ msgid ""
 "ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-"
 "database.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található: <ulink "
+"url=\"https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/doc/"
+"itsm-configuration-management-database.png\">https://github.com/OTRS/"
+"ITSMConfigurationManagement/blob/rel-6_0/doc/itsm-configuration-management-"
+"database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:92
@@ -2884,6 +2907,11 @@ msgid ""
 "database.png\">https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/"
 "itsm-change-management-database.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található: <ulink "
+"url=\"https://github.com/OTRS/ITSMChangeManagement/blob/rel-6_0/doc/itsm-"
+"change-management-database.png\">https://github.com/OTRS/"
+"ITSMChangeManagement/blob/rel-6_0/doc/itsm-change-management-database.png</"
+"ulink>"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/cmdb.xml:99
@@ -2893,6 +2921,10 @@ msgid ""
 "\">https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-"
 "database.png</ulink>"
 msgstr ""
+"A jobb olvashatóság érdekében a diagram a következő címen található: <ulink "
+"url=\"https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-export-"
+"database.png\">https://github.com/OTRS/ImportExport/blob/rel-6_0/doc/import-"
+"export-database.png</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/cmdb.xml:106
@@ -3254,6 +3286,16 @@ msgid ""
 "\">https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/"
 "development/webservices/GenericConfigItemConnectorSOAP.wsdl</ulink>"
 msgstr ""
+"Létezik egy általános felület az ITSM konfigurációmenedzsmenthez. Ez a "
+"funkció műveleteket tartalmaz a konfigurációelemek létrehozásához, "
+"megváltoztatásához, lekéréséhez és kereséséhez az általános felületen "
+"keresztül. A következő műveletek érhetők el: ConfigItemCreate(), "
+"ConfigItemGet(), ConfigItemUpdate(), ConfigItemSearch(). További "
+"információkért vessen egy pillantást erre a WSDL-fájlra: <ulink url="
+"\"https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/"
+"development/webservices/GenericConfigItemConnectorSOAP.wsdl\">https://github."
+"com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/"
+"GenericConfigItemConnectorSOAP.wsdl</ulink>"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/cmdb.xml:313
@@ -3823,17 +3865,17 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:44
 msgid "OTRS Framework, version 6.0.1 or higher"
-msgstr ""
+msgstr "OTRS keretrendszer, 6.0.1-es verzió vagy magasabb"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:49
 msgid "ITSM &quot;GeneralCatalog&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „GeneralCatalog” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><orderedlist><listitem><para>
 #: en/content/change-management.xml:54
 msgid "ITSM &quot;ITSMCore&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „ITSMCore” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:41
@@ -3852,22 +3894,22 @@ msgstr ""
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:67
 msgid "ITSM &quot;ITSMIncidentProblemManagement&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „ITSMIncidentProblemManagement” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:72
 msgid "ITSM &quot;ITSMServiceLevelManagement&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „ITSMServiceLevelManagement” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:77
 msgid "ITSM &quot;ITSMConfigurationManagement&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „ITSMConfigurationManagement” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:82
 msgid "ITSM &quot;ImportExport&quot; package, version 6.0"
-msgstr ""
+msgstr "ITSM „ImportExport” csomag, 6.0-s verzió"
 
 #. type: Content of: <chapter><sect1><title>
 #: en/content/change-management.xml:91
@@ -4633,16 +4675,18 @@ msgid ""
 "Core -&gt; Ticket -&gt; ACL -&gt; Ticket::Acl::Module###200-Ticket::Acl::"
 "Module"
 msgstr ""
+"Core -&gt; Ticket -&gt; ACL -&gt; Ticket::Acl::Module###200-Ticket::Acl::"
+"Module"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:653
 msgid "Core -&gt; ITSMChange -&gt; ITSMChange::AddChangeLinkTicketTypes"
-msgstr ""
+msgstr "Core -&gt; ITSMChange -&gt; ITSMChange::AddChangeLinkTicketTypes"
 
 #. type: Content of: <chapter><sect1><sect2><para><itemizedlist><listitem><para>
 #: en/content/change-management.xml:658
 msgid "Core -&gt; ITSMChange -&gt; ITSMChange::RestrictTicketTypes::Groups"
-msgstr ""
+msgstr "Core -&gt; ITSMChange -&gt; ITSMChange::RestrictTicketTypes::Groups"
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/change-management.xml:666
@@ -5305,6 +5349,8 @@ msgid ""
 "These settings are defined via SysConfig under &quot;Core -&gt; "
 "LinkObject&quot; and can be extended when desired."
 msgstr ""
+"Ezek a beállítások a rendszerbeállításokon keresztül vannak meghatározva a "
+"„Core -&gt; LinkObject” beállítás alatt, és kiterjeszthetők, ha szükséges."
 
 #. type: Content of: <chapter><sect1><sect2><title>
 #: en/content/change-management.xml:1447
@@ -5416,6 +5462,12 @@ msgid ""
 "Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeZoom -&gt; ITSMChange::"
 "Frontend::AgentITSMChangeZoom###WorkOrderGraph&quot; as required."
 msgstr ""
+"A meghatározott munkamegrendelések a tervezett végrehajtásuk sorrendjében "
+"vannak számozva, és egy idővonalon vannak megjelenítve. Az idővonalon "
+"megjelenített munkamegrendelések színe a típusára utal, és igény szerint "
+"személyre szabhatók a „Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeZoom -"
+"&gt; ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderGraph” "
+"rendszerbeállításon keresztül."
 
 #. type: Content of: <chapter><sect1><para>
 #: en/content/change-management.xml:1512
@@ -5522,6 +5574,10 @@ msgid ""
 "View -&gt; ITSMChangeOverview -&gt; ITSMChange::Frontend::"
 "AgentITSMChange###ShowColumns&quot; with the following available attributes:"
 msgstr ""
+"Az oszlopok a „Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeOverview -"
+"&gt; ITSMChange::Frontend::AgentITSMChange###ShowColumns” "
+"rendszerbeállításon keresztül határozhatók meg a következő elérhető "
+"attribútumokkal:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: en/content/change-management.xml:1588 en/content/change-management.xml:1911
@@ -5773,6 +5829,11 @@ msgid ""
 "ITSMChangeOverview -&gt; ITSMChange::Frontend::AgentITSMChange###Filter::"
 "ChangeStates&quot;:"
 msgstr ""
+"Továbbá a változás áttekintő képes a változásokat különböző attribútumok "
+"szerint szűrni és megjeleníteni. A következő szűrők érhetők el, és a "
+"„Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeOverview -&gt; ITSMChange::"
+"Frontend::AgentITSMChange###Filter::ChangeStates” rendszerbeállításon "
+"keresztül határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:1794
@@ -5924,6 +5985,10 @@ msgid ""
 "Agent -&gt; View -&gt; ITSMChangeScheduleOverview -&gt; ITSMChange::"
 "Frontend::AgentITSMChangeSchedule###ShowColumns&quot;:"
 msgstr ""
+"A megjelenített attribútumok a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangeScheduleOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangeSchedule###ShowColumns” rendszerbeállításon keresztül "
+"határozhatók meg a következő elérhető attribútumokkal:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:1938 en/content/change-management.xml:2170
@@ -5972,6 +6037,10 @@ msgid ""
 "&gt; Agent -&gt; View -&gt; ITSMChangePIROverview -&gt; ITSMChange::"
 "Frontend::AgentITSMChangePIR###ShowColumns&quot;:"
 msgstr ""
+"A megjelenítendő oszlopok a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangePIROverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangePIR###ShowColumns” rendszerbeállításon keresztül határozhatók "
+"meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2329 en/content/change-management.xml:3660
@@ -6066,6 +6135,10 @@ msgid ""
 "&gt; Agent -&gt; View -&gt; ITSMChangeTemplateOverview -&gt; ITSMChange::"
 "Frontend::AgentITSMTemplateOverview###ShowColumns&quot;:"
 msgstr ""
+"A megjelenítendő oszlopok a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangeTemplateOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMTemplateOverview###ShowColumns” rendszerbeállításon keresztül "
+"határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:2440
@@ -6177,6 +6250,11 @@ msgid ""
 "ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::"
 "TemplateTypes&quot;:"
 msgstr ""
+"A változásmenedzsment modul telepítése után a következő sablontípusok "
+"érhetők el a rendszeren. Ezek a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangeTemplateOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMTemplateOverview###Filter::TemplateTypes” rendszerbeállításon "
+"keresztül határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:2561
@@ -6568,6 +6646,11 @@ msgid ""
 "ITSMChangeManagerOverview -&gt; ITSMChange::Frontend::"
 "AgentITSMChangeManager###ShowColumns&quot;:"
 msgstr ""
+"A megjelenített oszlopfejlécek a következő attribútumok szerint növekvő vagy "
+"csökkenő sorrendbe rendezhetők. A megjelenítendő oszlopok a „Frontend -&gt; "
+"Agent -&gt; View -&gt; ITSMChangeManagerOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangeManager###ShowColumns” rendszerbeállításon keresztül "
+"határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:3098
@@ -6578,6 +6661,11 @@ msgid ""
 "ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates&quot; if "
 "desired:"
 msgstr ""
+"Továbbá a változásmenedzser áttekintője képes a megjelenített változások "
+"szűrésére különféle attribútumok szerint a következőképpen. Ezek igény "
+"szerint a „Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeManagerOverview -"
+"&gt; ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates” "
+"rendszerbeállításon keresztül határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:3105
@@ -6621,6 +6709,11 @@ msgid ""
 "Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt; ITSMChange::"
 "Frontend::AgentITSMChangeMyChanges###ShowColumns &quot;:"
 msgstr ""
+"A megjelenítés az oszlopfejlécek szerint növekvő vagy csökkenő sorrendbe "
+"rendezhető. Az attribútumok a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangeMyChangesOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangeMyChanges###ShowColumns” rendszerbeállításon keresztül "
+"határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: en/content/change-management.xml:3213
@@ -6645,6 +6738,11 @@ msgid ""
 "Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt; "
 "ITSMChange::Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates&quot;:"
 msgstr ""
+"Továbbá a saját változások áttekintője képes a megjelenített változások "
+"szűrésére különféle attribútumok szerint a következőképpen. Ezek a „Frontend "
+"-&gt; Agent -&gt; View -&gt; ITSMChangeMyChangesOverview -&gt; ITSMChange::"
+"Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates” "
+"rendszerbeállításon keresztül határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:3392
@@ -6689,6 +6787,11 @@ msgid ""
 "Frontend -&gt; Agent -&gt; View -&gt; ITSMChangeMyWorkOrdersOverview -&gt; "
 "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###ShowColumns&quot;:"
 msgstr ""
+"A megjelenített információk az oszlopfejlécek szerint növekvő vagy csökkenő "
+"sorrendbe rendezhetők. A használt attribútumok a „Frontend -&gt; Agent -&gt; "
+"View -&gt; ITSMChangeMyWorkOrdersOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangeMyWorkOrders###ShowColumns” rendszerbeállításon keresztül "
+"határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><para>
 #: en/content/change-management.xml:3728
@@ -6699,6 +6802,12 @@ msgid ""
 "&gt; ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Filter::"
 "WorkOrderStates&quot;:"
 msgstr ""
+"Továbbá a saját munkamegrendelések áttekintője képes a megjelenített "
+"munkamegrendelések szűrésére különféle attribútumok szerint a "
+"következőképpen. Ezek a „Frontend -&gt; Agent -&gt; View -&gt; "
+"ITSMChangeMyWorkOrdersOverview -&gt; ITSMChange::Frontend::"
+"AgentITSMChangeMyWorkOrders###Filter::WorkOrderStates” rendszerbeállításon "
+"keresztül határozhatók meg:"
 
 #. type: Content of: <chapter><sect1><sect2><table><title>
 #: en/content/change-management.xml:3735
