@@ -29,7 +29,7 @@ HTMLBasename: doc-itsm
 HTMLContext:
   display_github: "True"
   github_user: OTRS
-  github_repo: doc-admin
+  github_repo: doc-itsm
   github_version: master
   conf_py_path: /
 
