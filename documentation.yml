@@ -22,19 +22,19 @@ Extensions:
   - sphinx.ext.autosectionlabel
   - sphinx.ext.extlinks
 
-# basename to be used by HTML help builder
-HTMLBasename: doc-itsm
-
 # enable "Edit on GitHub" link
-HTMLContext:
-  display_github: "True"
-  github_user: OTRS
-  github_repo: doc-itsm
-  github_version: master
-  conf_py_path: /
+DisplayGitHubEditButton: 1
 
 # generate stable link to the current version
-Stable: 0
+Stable: 1
 
 # publish documentation to target repository
 Publish: 1
+
+# PDF output directory path and filename
+PDFOutputPath: doc-itsm/{{Version}}/{{Language}}/pdf/
+PDFFilename: otrs_itsm_manual_{{Version}}_{{Language}}.pdf
+
+# EPub output directory path and filename
+EPUBOutputPath: doc-itsm/{{Version}}/{{Language}}/epub/
+EPUBFilename: otrs_itsm_manual_{{Version}}_{{Language}}.epub
