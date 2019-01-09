@@ -5,4 +5,4 @@ i18n/*.mo
 testbuild
 _build
 _static
-locale/*/LC_MESSAGES/*.mo
+*.mo

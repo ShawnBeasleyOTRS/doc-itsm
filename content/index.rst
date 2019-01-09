@@ -10,11 +10,11 @@ Permission is granted to copy, distribute and/or modify this document under the 
    :maxdepth: 4
    :caption: Contents
 
-   content/introduction
-   content/general-catalog
-   content/itsm-core
-   content/itsm-change-management
-   content/itsm-configuration-management
-   content/itsm-incident-problem-management
-   content/itsm-service-level-management
-   content/import-export
+   introduction
+   general-catalog
+   itsm-core
+   itsm-change-management
+   itsm-configuration-management
+   itsm-incident-problem-management
+   itsm-service-level-management
+   import-export
