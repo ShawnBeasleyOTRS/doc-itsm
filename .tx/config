@@ -1,8 +1,8 @@
-[mainOFF]
+[main]
 host = https://www.transifex.com
 
 [OTRS.doc-itsm]
-file_filter = i18n/doc-itsm.<lang>.po
-source_file = i18n/doc-itsm.pot
+file_filter = locale/<lang>/content.po
+source_file = locale/content.pot
 source_lang = en
 type = PO
