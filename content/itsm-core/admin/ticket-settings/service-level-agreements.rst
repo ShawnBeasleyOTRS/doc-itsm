@@ -15,7 +15,7 @@ Service Level Agreement Settings
 Only those settings are described here, that are added by the package. The explanation of other settings can be found in the administrator manual. The fields marked with an asterisk are mandatory.
 
 Type
-   Select a type for service level agreement. The possible values come from :doc:`../administration/general-catalog` added by the package.
+   Select a type for the service level agreement. The possible values come from :doc:`../administration/general-catalog` added by the package.
 
 Minimum Time Between Incidents (minutes)
    You can define here the minimum time between incidents.

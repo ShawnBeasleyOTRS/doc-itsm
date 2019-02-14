@@ -29,7 +29,7 @@ To add a catalog class:
 
 To add a catalog item:
 
-1. Select a catalog class in the list of catalog classes and click on it.
+1. Select a catalog class in the list of catalog classes.
 2. Click on the *Add Catalog Item* button in the left sidebar.
 3. Fill in the required fields.
 4. Click on the *Save* button.
@@ -45,8 +45,8 @@ To add a catalog item:
 
 To edit a catalog item:
 
-1. Select a catalog class in the list of catalog classes and click on it.
-2. Select a catalog item in the list of catalog items and click on it.
+1. Select a catalog class in the list of catalog classes.
+2. Select a catalog item in the list of catalog items.
 3. Modify the fields.
 4. Click on the *Save* or *Save and finish* button.
 

@@ -112,9 +112,9 @@ Edit
    This menu item opens a new window to edit the change.
 
    .. figure:: images/itsm-changes-edit.png
-      :alt: ITSM Change Edit Screen
+      :alt: Edit ITSM Change Screen
 
-      ITSM Change Edit Screen
+      Edit ITSM Change Screen
 
 Involved Persons
    Use this screen to add persons to the change.
@@ -199,9 +199,9 @@ Add Workorder
       This menu item opens a new window to edit the work order.
 
       .. figure:: images/itsm-changes-work-order-edit.png
-         :alt: Work Order Edit Screen
+         :alt: Edit Work Order Screen
 
-         Work Order Edit Screen
+         Edit Work Order Screen
 
       Move following workorders accordingly
          If this is checked, the subsequent work orders will be moved in time according to times set in *Planned Start Time* and *Planned End Time* fields.
@@ -289,9 +289,9 @@ Edit
    This menu item opens a new window to edit the change.
 
    .. figure:: images/itsm-changes-edit.png
-      :alt: ITSM Change Edit Screen
+      :alt: Edit ITSM Change Screen
 
-      ITSM Change Edit Screen
+      Edit ITSM Change Screen
 
 Add Workorder (from Template)
    Use this screen to add a work order from template.
@@ -339,7 +339,7 @@ Conditions
    1. Click on the trash icon in the list of conditions.
    2. Click on the *OK* button in the confirmation dialog.
 
-   The condition add and edit screens consist of three widgets.
+   *Add Condition* and *Edit Condition* screens consist of three widgets.
 
    .. figure:: images/itsm-changes-condition-add.png
       :alt: Add Condition Screen
@@ -376,9 +376,9 @@ Link
    This menu item opens the standard link screen of OTRS. Changes can be linked to any other objects like FAQ articles, services, tickets or configuration items. Existing links can also be managed here.
 
    .. figure:: images/itsm-changes-link.png
-      :alt: ITSM Change Link Screen
+      :alt: Link ITSM Change Screen
 
-      ITSM Change Link Screen
+      Link ITSM Change Screen
 
 Move Time Slot
    Use this screen to shift the planned change implementation time frame. 

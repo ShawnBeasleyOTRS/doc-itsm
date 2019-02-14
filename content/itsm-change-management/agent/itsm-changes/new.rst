@@ -17,7 +17,7 @@ Description \*
    Longer text description of the change.
 
 Justification \*
-   Text explanation of the reasons behind the change. Answer to the question: *What is the likely consequence if the Change is not implemented?*
+   Text explanation of the reasons behind the change. Answer to the question: *What is the likely consequence if the change is not implemented?*
 
 Category \*
    Defines the type of change.

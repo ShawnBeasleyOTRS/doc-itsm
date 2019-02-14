@@ -42,9 +42,9 @@ Edit
    This menu item opens a new window to edit the configuration item.
 
    .. figure:: images/cmdb-ci-edit.png
-      :alt: ITSM Configuration Item Edit Screen
+      :alt: Edit ITSM Configuration Item Screen
 
-      ITSM Configuration Item Edit Screen
+      Edit ITSM Configuration Item Screen
 
 Print
    This menu item opens a PDF file to show the printer friendly version of the screen. You can save or print this PDF file.
@@ -53,23 +53,23 @@ Link
    This menu item opens the standard link screen of OTRS. Configuration items can be linked to any other objects like FAQ articles, services, tickets or configuration items. Existing links can also be managed here.
 
    .. figure:: images/cmdb-ci-link.png
-      :alt: ITSM Configuration Item Link Screen
+      :alt: Link ITSM Configuration Item Screen
 
-      ITSM Configuration Item Link Screen
+      Link ITSM Configuration Item Screen
 
 Duplicate
    This menu item opens a new window to duplicate the configuration item. This screen is the same as the edit screen, but clicking the *Save* button will create a new configuration item instead of modify the current one.
 
    .. figure:: images/cmdb-ci-edit.png
-      :alt: ITSM Configuration Item Duplicate Screen
+      :alt: Duplicate ITSM Configuration Item Screen
 
-      ITSM Configuration Item Duplicate Screen
+      Duplicate ITSM Configuration Item Screen
 
 Delete 
    This menu item opens a modal dialog to confirm the deletion of configuration item.
 
    .. figure:: images/cmdb-ci-delete.png
-      :alt: ITSM Configuration Item Delete Screen
+      :alt: Delete ITSM Configuration Item Screen
 
-      ITSM Configuration Item Delete Screen
+      Delete ITSM Configuration Item Screen
 

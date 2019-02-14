@@ -1,12 +1,12 @@
 Customer Information Center
 ===========================
 
-After installation of the package a new widget named *Assign CIs* will be available in the *Customer Information Center*.
+After installation of the package a new widget named *Assigned CIs* will be available in the *Customer Information Center*.
 
 .. figure:: images/customers-customer-information-center.png
-   :alt: Assign CIs Widget
+   :alt: Assigned CIs Widget
 
-   Assign CIs Widget
+   Assigned CIs Widget
 
 This widget displays the configuration items that are assigned to the customer.
 

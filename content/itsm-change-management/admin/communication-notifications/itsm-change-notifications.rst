@@ -136,7 +136,9 @@ Add new notification language
 ITSM Change Notification Variables
 ----------------------------------
 
-Using variables in ticket notifications is possible. Variables, known as OTRS tags, are replaced by OTRS when generating the mail. .. TODO: MISSING! Find a list of available tags stems for signatures at the bottom of both add and edit screens.
+Using variables in ticket notifications is possible. Variables, known as OTRS tags, are replaced by OTRS when generating the mail.
+
+ .. TODO: MISSING! Find a list of available tags stems for notifications at the bottom of both add and edit screens.
 
 .. seealso::
 

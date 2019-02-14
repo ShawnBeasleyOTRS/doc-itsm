@@ -29,8 +29,8 @@ Link
    This menu item opens the standard link screen of OTRS. Services can be linked to any other objects like FAQ articles, services, tickets or configuration items. Existing links can also be managed here.
 
    .. figure:: images/services-service-link.png
-      :alt: Service Link Screen
+      :alt: Link Service Screen
 
-      Service Link Screen
+      Link Service Screen
 
 At the bottom of the screen the associated service level agreements are displayed. If you click on a service level agreement, the :doc:`sla` zoom screen will open.

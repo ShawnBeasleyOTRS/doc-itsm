@@ -1,18 +1,18 @@
 Customer User Information Center
 ================================
 
-After installation of the package a new widget named *Assign CIs* will be available in the *Customer User Information Center*.
+After installation of the package a new widget named *Assigned CIs* will be available in the *Customer User Information Center*.
 
 .. figure:: images/customers-customer-user-information-center.png
-   :alt: Assign CIs Widget
+   :alt: Assigned CIs Widget
 
-   Assign CIs Widget
+   Assigned CIs Widget
 
 This widget displays the configuration items that have this customer user as owner.
 
 Configuration items can be filtered by clicking on a class name in the header of the overview widget. There is an option *All* to see all configuration items. The numbers after the class names indicates how many configuration items are in each classes.
 
-The assingment is done via attribute ``Owner``. If the configuration item uses different attribute for linking, you should change it in the system configuration settings.
+The assignment is done via attribute ``Owner`` by default. If the configuration item uses different attribute for linking, you should change it in the system configuration settings.
 
 .. seealso::
 

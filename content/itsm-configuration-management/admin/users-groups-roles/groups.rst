@@ -15,7 +15,7 @@ New Group
 After installation of the package the following group is added to the system:
 
 *itsm-configitem*
-   Group for ITSM ConfigItem mask access in the agent interface.
+   Group for accessing the *ITSM Configuration Item* screen of the agent interface.
 
 .. note::
 

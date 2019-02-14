@@ -12,14 +12,14 @@ After installation of the package some new types are added to the system. The ty
 New Types
 ---------
 
-Incident
+``Incident``
    For tickets that are created for normal incidents.
 
-Incident::Major
+``Incident::Major``
    For tickets that are created for major incidents.
 
-Problem
+``Problem``
    For tickets that are created for problems.
 
-ServiceRequest
+``ServiceRequest``
    For tickets that are created for service requests.

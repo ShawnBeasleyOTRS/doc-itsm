@@ -5,7 +5,7 @@ This package can be installed, updated or uninstalled with the package manager i
 
 .. note::
 
-   You need to be in the *admin* group to access the administrator interface and use the `Package Manager <http://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed.
+   You need to be in the *admin* group to access the administrator interface and use the `Package Manager <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed.
 
 .. note::
 
@@ -98,9 +98,9 @@ Uninstall
 
    If you uninstall this package, all database tables that were created during installation will be deleted. All data from these tables **will be irrevocably lost**!
 
-   The group *itsm-change*, *itsm-change-builder* and *itsm-change-manager* that was created during package installation will be deactivated. You can activate this group again in the administrator interface.
+   The groups *itsm-change*, *itsm-change-builder* and *itsm-change-manager* that were created during package installation will be deactivated. You can activate these groups again in the administrator interface.
 
-   All links to change objects and workorder objects **will be irrevocably deleted**!
+   All links to change objects and work order objects **will be irrevocably deleted**!
 
    The statistics that are associated with this package, will no longer be available if the package is uninstalled.
 

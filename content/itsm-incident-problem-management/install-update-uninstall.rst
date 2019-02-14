@@ -5,7 +5,7 @@ This package can be installed, updated or uninstalled with the package manager i
 
 .. note::
 
-   You need to be in the *admin* group to access the administrator interface and use the `Package Manager <http://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed.
+   You need to be in the *admin* group to access the administrator interface and use the `Package Manager <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed.
 
 .. note::
 

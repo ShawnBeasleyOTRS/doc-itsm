@@ -17,7 +17,7 @@ ITSM::ConfigItem::Class
 
    .. seealso::
 
-      The class definition of configuration item classes can be managed in the :doc:`../cmdb-settings/config-items` module of the *CMDB Settings* group
+      The class definition of configuration item classes can be managed in the :doc:`../cmdb-settings/config-items` module of the *CMDB Settings* group.
 
 ITSM::ConfigItem::Computer::Type
    A class for computer types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type computer.
@@ -35,7 +35,7 @@ ITSM::ConfigItem::Network::Type
    A class for network types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type network.
 
 ITSM::ConfigItem::Software::LicenceType
-   A class for software licence types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type software.
+   A class for software license types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type software.
 
 ITSM::ConfigItem::Software::Type
    A class for software types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type software.

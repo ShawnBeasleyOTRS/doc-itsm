@@ -15,7 +15,7 @@ New Group
 After installation of the package the following group is added to the system:
 
 *itsm-service*
-   Group for ITSM Service mask access in the agent interface.
+   Group for accessing the *ITSM Service* screen of the agent interface.
 
 .. note::
 

@@ -4,9 +4,9 @@ Search
 Use this screen to search for changes.
 
 .. figure:: images/itsm-changes-search.png
-   :alt: ITSM Change Search Screen
+   :alt: Search ITSM Change Screen
 
-   ITSM Change Search Screen
+   Search ITSM Change Screen
 
 To search for changes:
 
