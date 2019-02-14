@@ -1,7 +1,7 @@
 ITSM Core
 =========
 
-This is the introduction of ITSM Core.
+This package adds new objects and basic functionalities needed for common features and processes of ITIL implementation.
 
 .. toctree::
    :maxdepth: 4

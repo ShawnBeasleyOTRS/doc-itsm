@@ -1,7 +1,7 @@
 ITSM Service Level Management
 =============================
 
-This is the introduction of ITSM service level management.
+This package adds new statistics to the system for ensuring that all service level agreements are appropriate and satisfy the agreements, as well as to monitor and report on service levels.
 
 .. toctree::
    :maxdepth: 4
