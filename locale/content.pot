@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS::ITSM Administration Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 02:07+0000\n"
+"POT-Creation-Date: 2019-02-15 02:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:32
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:48
-msgid "Select a catalog class in the list of catalog classes and click on it."
+msgid "Select a catalog class in the list of catalog classes."
 msgstr ""
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:33
@@ -181,7 +181,7 @@ msgid "To edit a catalog item:"
 msgstr ""
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:49
-msgid "Select a catalog item in the list of catalog items and click on it."
+msgid "Select a catalog item in the list of catalog items."
 msgstr ""
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:50
@@ -340,7 +340,7 @@ msgstr ""
 #: ../../content/itsm-core/install-update-uninstall.rst:8
 #: ../../content/itsm-incident-problem-management/install-update-uninstall.rst:8
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:8
-msgid "You need to be in the *admin* group to access the administrator interface and use the `Package Manager <http://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed."
+msgid "You need to be in the *admin* group to access the administrator interface and use the `Package Manager <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed."
 msgstr ""
 
 #: ../../content/general-catalog/install-update-uninstall.rst:12
@@ -1010,11 +1010,11 @@ msgid ":doc:`../itsm-configuration-management` or any other package that provide
 msgstr ""
 
 #: ../../content/index.rst:3
-msgid "|doc-name|"
+msgid "OTRS::ITSM Administration Manual"
 msgstr ""
 
 #: ../../content/index.rst:5
-msgid "This work is copyrighted by |doc-vendor| (|doc-url|), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
+msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
 msgstr ""
 
 #: ../../content/index.rst:7
@@ -1541,18 +1541,18 @@ msgid "ITSM Change Notification Variables"
 msgstr ""
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:139
-msgid "Using variables in ticket notifications is possible. Variables, known as OTRS tags, are replaced by OTRS when generating the mail. .. TODO: MISSING! Find a list of available tags stems for signatures at the bottom of both add and edit screens."
+msgid "Using variables in ticket notifications is possible. Variables, known as OTRS tags, are replaced by OTRS when generating the mail."
 msgstr ""
 
-#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:143
+#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:145
 msgid "Please check the existing notifications for the list of OTRS tags, that can be used in ITSM change notifications."
 msgstr ""
 
-#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:151
+#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:153
 msgid "For example, the variable ``<OTRS_CHANGE_ChangeManager>`` expands to the change manager allowing a template to include something like the following."
 msgstr ""
 
-#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:157
+#: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:159
 msgid "This tag expands, for example to:"
 msgstr ""
 
@@ -1769,7 +1769,7 @@ msgid "Justification \\*"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new.rst:20
-msgid "Text explanation of the reasons behind the change. Answer to the question: *What is the likely consequence if the Change is not implemented?*"
+msgid "Text explanation of the reasons behind the change. Answer to the question: *What is the likely consequence if the change is not implemented?*"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new.rst:23
@@ -2318,7 +2318,7 @@ msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:117
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:294
-msgid "ITSM Change Edit Screen"
+msgid "Edit ITSM Change Screen"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:142
@@ -2448,7 +2448,7 @@ msgid "This menu item opens a new window to edit the work order."
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:204
-msgid "Work Order Edit Screen"
+msgid "Edit Work Order Screen"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:207
@@ -2662,7 +2662,7 @@ msgid "Click on the *OK* button in the confirmation dialog."
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:342
-msgid "The condition add and edit screens consist of three widgets."
+msgid "*Add Condition* and *Edit Condition* screens consist of three widgets."
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:347
@@ -2702,7 +2702,7 @@ msgid "This menu item opens the standard link screen of OTRS. Changes can be lin
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:381
-msgid "ITSM Change Link Screen"
+msgid "Link ITSM Change Screen"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:395
@@ -2879,7 +2879,7 @@ msgid "Use this screen to search for changes."
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:9
-msgid "ITSM Change Search Screen"
+msgid "Search ITSM Change Screen"
 msgstr ""
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:11
@@ -3081,11 +3081,11 @@ msgid ":doc:`../itsm-core` 7.0.x"
 msgstr ""
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:101
-msgid "The group *itsm-change*, *itsm-change-builder* and *itsm-change-manager* that was created during package installation will be deactivated. You can activate this group again in the administrator interface."
+msgid "The groups *itsm-change*, *itsm-change-builder* and *itsm-change-manager* that were created during package installation will be deactivated. You can activate these groups again in the administrator interface."
 msgstr ""
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:103
-msgid "All links to change objects and workorder objects **will be irrevocably deleted**!"
+msgid "All links to change objects and work order objects **will be irrevocably deleted**!"
 msgstr ""
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:105
@@ -3116,7 +3116,7 @@ msgid "A class for configuration item classes."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:20
-msgid "The class definition of configuration item classes can be managed in the :doc:`../cmdb-settings/config-items` module of the *CMDB Settings* group"
+msgid "The class definition of configuration item classes can be managed in the :doc:`../cmdb-settings/config-items` module of the *CMDB Settings* group."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:23
@@ -3164,7 +3164,7 @@ msgid "ITSM::ConfigItem::Software::LicenceType"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:38
-msgid "A class for software licence types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type software."
+msgid "A class for software license types, that can be selected in :doc:`../../agent/cmdb` when adding or editing configuration items of type software."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:41
@@ -3354,7 +3354,7 @@ msgid "*itsm-configitem*"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/users-groups-roles/groups.rst:18
-msgid "Group for ITSM ConfigItem mask access in the agent interface."
+msgid "Group for accessing the *ITSM Configuration Item* screen of the agent interface."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/admin/users-groups-roles/groups.rst:22
@@ -3446,7 +3446,7 @@ msgid "This menu item opens a new window to edit the configuration item."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:47
-msgid "ITSM Configuration Item Edit Screen"
+msgid "Edit ITSM Configuration Item Screen"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:53
@@ -3454,7 +3454,7 @@ msgid "This menu item opens the standard link screen of OTRS. Configuration item
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:58
-msgid "ITSM Configuration Item Link Screen"
+msgid "Link ITSM Configuration Item Screen"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:66
@@ -3466,7 +3466,7 @@ msgid "This menu item opens a new window to duplicate the configuration item. Th
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:66
-msgid "ITSM Configuration Item Duplicate Screen"
+msgid "Duplicate ITSM Configuration Item Screen"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:69
@@ -3474,7 +3474,7 @@ msgid "This menu item opens a modal dialog to confirm the deletion of configurat
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:74
-msgid "ITSM Configuration Item Delete Screen"
+msgid "Delete ITSM Configuration Item Screen"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:4
@@ -3510,12 +3510,12 @@ msgid "Customer Information Center"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:4
-msgid "After installation of the package a new widget named *Assign CIs* will be available in the *Customer Information Center*."
+msgid "After installation of the package a new widget named *Assigned CIs* will be available in the *Customer Information Center*."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:9
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:9
-msgid "Assign CIs Widget"
+msgid "Assigned CIs Widget"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:11
@@ -3548,7 +3548,7 @@ msgid "Customer User Information Center"
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:4
-msgid "After installation of the package a new widget named *Assign CIs* will be available in the *Customer User Information Center*."
+msgid "After installation of the package a new widget named *Assigned CIs* will be available in the *Customer User Information Center*."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:11
@@ -3556,7 +3556,7 @@ msgid "This widget displays the configuration items that have this customer user
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:15
-msgid "The assingment is done via attribute ``Owner``. If the configuration item uses different attribute for linking, you should change it in the system configuration settings."
+msgid "The assignment is done via attribute ``Owner`` by default. If the configuration item uses different attribute for linking, you should change it in the system configuration settings."
 msgstr ""
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:19
@@ -3584,7 +3584,7 @@ msgid "ITSM Core"
 msgstr ""
 
 #: ../../content/itsm-core.rst:4
-msgid "This is the introduction of ITSM Core."
+msgid "This package adds new objects and basic functionalities needed for common features and processes of ITIL implementation."
 msgstr ""
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:4
@@ -3701,7 +3701,7 @@ msgid "Type"
 msgstr ""
 
 #: ../../content/itsm-core/admin/ticket-settings/service-level-agreements.rst:18
-msgid "Select a type for service level agreement. The possible values come from :doc:`../administration/general-catalog` added by the package."
+msgid "Select a type for the service level agreement. The possible values come from :doc:`../administration/general-catalog` added by the package."
 msgstr ""
 
 #: ../../content/itsm-core/admin/ticket-settings/service-level-agreements.rst:20
@@ -3746,7 +3746,7 @@ msgid "*itsm-service*"
 msgstr ""
 
 #: ../../content/itsm-core/admin/users-groups-roles/groups.rst:18
-msgid "Group for ITSM Service mask access in the agent interface."
+msgid "Group for accessing the *ITSM Service* screen of the agent interface."
 msgstr ""
 
 #: ../../content/itsm-core/agent/services.rst:8
@@ -3790,7 +3790,7 @@ msgid "This menu item opens the standard link screen of OTRS. Services can be li
 msgstr ""
 
 #: ../../content/itsm-core/agent/services/service.rst:34
-msgid "Service Link Screen"
+msgid "Link Service Screen"
 msgstr ""
 
 #: ../../content/itsm-core/agent/services/service.rst:36
@@ -4027,7 +4027,7 @@ msgid "States"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/states.rst:4
-msgid "After installation of the package a new state is added to the system.  The state management screen is available in the *States* module of the *Ticket Settings* group."
+msgid "After installation of the package a new state is added to the system. The state management screen is available in the *States* module of the *Ticket Settings* group."
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/states.rst:9
@@ -4055,7 +4055,7 @@ msgid "New Types"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:16
-msgid "Incident"
+msgid "``Incident``"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:16
@@ -4063,7 +4063,7 @@ msgid "For tickets that are created for normal incidents."
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:19
-msgid "Incident::Major"
+msgid "``Incident::Major``"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:19
@@ -4071,7 +4071,7 @@ msgid "For tickets that are created for major incidents."
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:22
-msgid "Problem"
+msgid "``Problem``"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:22
@@ -4079,7 +4079,7 @@ msgid "For tickets that are created for problems."
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:24
-msgid "ServiceRequest"
+msgid "``ServiceRequest``"
 msgstr ""
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:25
@@ -4343,7 +4343,7 @@ msgid "ITSM Service Level Management"
 msgstr ""
 
 #: ../../content/itsm-service-level-management.rst:4
-msgid "This is the introduction of ITSM service level management."
+msgid "This package adds new statistics to the system for ensuring that all service level agreements are appropriate and satisfy the agreements, as well as to monitor and report on service levels."
 msgstr ""
 
 #: ../../content/itsm-service-level-management/admin.rst:4
