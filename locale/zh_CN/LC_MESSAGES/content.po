@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-15 02:07+0000\n"
-"PO-Revision-Date: 2019-03-04 16:30+0000\n"
+"PO-Revision-Date: 2019-03-19 08:05+0000\n"
 "Last-Translator: 汇民 王 <whuim@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "通用目录"
 msgid ""
 "As the name indicates, the general catalog serves for basic ITSM relevant "
 "configurations in OTRS::ITSM."
-msgstr "正如名称指示一样，通用目录用于OTRS::ITSM中基本的ITSM相关配置"
+msgstr "正如名称指示一样，通用目录用于 OTRS::ITSM 中基本的ITSM相关配置"
 
 #: ../../content/general-catalog.rst:6
 #: ../../content/general-catalog/admin.rst:6
@@ -120,7 +120,7 @@ msgid ""
 "(e.g. :doc:`../../../itsm-core`) to add some classes and items to the "
 "catalog. The general catalog management screen is available in the *General "
 "Catalog* module of the *Administration* group."
-msgstr "使用此屏幕可将目录类和项添加到系统中。 如果仅将此软件包安装到系统而没有任何OTRS::ITSM软件包的情况下，则通用目录不包含任何条目。 安装其它的OTRS::ITSM软件包（例如:doc:`../../../itsm-core`），将一些类和项添加到目录中。 通用目录管理屏幕位于* 系统管理 *组的*通用目录*模块中。"
+msgstr "使用此屏幕可将目录类和项添加到系统中。 如果仅将此软件包安装到系统而没有任何 OTRS::ITSM 软件包的情况下，则通用目录不包含任何条目。 安装其它的 OTRS::ITSM 软件包（例如 :doc:`../../../itsm-core`），将一些类和项添加到目录中。 通用目录管理屏幕位于 *系统管理* 组的 *通用目录* 模块中。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:9
 msgid "General Catalog Management Screen"
@@ -136,7 +136,7 @@ msgstr "若要添加一个目录类："
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:17
 msgid "Click on the *Add Catalog Class* button in the left sidebar."
-msgstr "点击左侧边栏的* 添加目录类 *按钮。"
+msgstr "点击左侧边栏的 *添加目录类* 按钮。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:18
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:34
@@ -157,7 +157,7 @@ msgstr "填写必填字段。"
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:27
 #: ../../content/itsm-configuration-management/agent/cmdb/new.rst:15
 msgid "Click on the *Save* button."
-msgstr "点击*保存*按钮。"
+msgstr "点击 *保存* 按钮。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:24
 msgid "Add Catalog Class Screen"
@@ -168,7 +168,7 @@ msgid ""
 "Catalog classes can not be deleted from the system. They can only be "
 "deactivated by setting the *Validity* option to *invalid* or *invalid-"
 "temporarily*."
-msgstr "无法从系统中删除目录类。只能通过将*有效性*选项设置为*无效*或*临时无效*来停用它们。"
+msgstr "无法从系统中删除目录类。只能通过将 *有效性* 选项设置为 *无效* 或 *临时无效* 来停用它们。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:30
 msgid "To add a catalog item:"
@@ -181,7 +181,7 @@ msgstr "从目录类列表中选择一个目录类。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:33
 msgid "Click on the *Add Catalog Item* button in the left sidebar."
-msgstr "点击左侧边栏的* 添加目录项 *按钮。"
+msgstr "点击左侧边栏的 *添加目录项* 按钮。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:40
 msgid "Add Catalog Item Screen"
@@ -192,7 +192,7 @@ msgid ""
 "Catalog items can not be deleted from the system. They can only be "
 "deactivated by setting the *Validity* option to *invalid* or *invalid-"
 "temporarily*."
-msgstr "无法从系统中删除目录项。只能通过将*有效性*选项设置为*无效*或*临时无效*来停用它们。"
+msgstr "无法从系统中删除目录项。只能通过将 *有效性* 选项设置为 *无效* 或 *临时无效* 来停用它们。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:46
 msgid "To edit a catalog item:"
@@ -214,7 +214,7 @@ msgstr "修改字段。"
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:30
 #: ../../content/itsm-configuration-management/admin/cmdb-settings/config-items.rst:16
 msgid "Click on the *Save* or *Save and finish* button."
-msgstr "点击*保存*或*保存并完成*按钮。"
+msgstr "点击 *保存* 或 *保存并完成* 按钮。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:56
 msgid "Edit Catalog Item Screen"
@@ -263,7 +263,7 @@ msgstr "要添加到类中的目录项的名称。 可以在此字段中输入�
 #: ../../content/import-export/admin/administration/import-export.rst:92
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:82
 msgid "Validity \\*"
-msgstr "有效性\\*"
+msgstr "有效性 \\*"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:71
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:89
@@ -276,7 +276,7 @@ msgid ""
 "Set the validity of this resource. Each resource can be used in OTRS only, "
 "if this field is set to *valid*. Setting this field to *invalid* or "
 "*invalid-temporarily* will disable the use of the resource."
-msgstr "设置此资源的有效性。 如果此字段设置为*有效*，则每个资源即可仅在OTRS中使用。 将此字段设置为*无效*或*临时无效*将禁止此资源的使用。"
+msgstr "设置此资源的有效性。 如果此字段设置为 *有效*，则每个资源即可仅在 OTRS 中使用。 将此字段设置为 *无效* 或 *临时无效* 将禁止此资源的使用。"
 
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:75
 #: ../../content/general-catalog/admin/administration/general-catalog.rst:91
@@ -379,7 +379,7 @@ msgid ""
 "<https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration"
 "/package-manager.html>`__, which is described in the administration manual "
 "more detailed."
-msgstr "您需要在* admin *组中访问管理员界面并使用`软件包管理器 <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__，在管理手册中有更详细地说明内容。"
+msgstr "您需要在 *admin* 组中访问管理员界面并使用 `软件包管理器 <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__，在管理手册中有更详细地说明内容。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:12
 #: ../../content/import-export/install-update-uninstall.rst:12
@@ -393,7 +393,7 @@ msgid ""
 " ``/opt/otrs``. If you use different user or install location, you need to "
 "change the install command. For more information about the command line tool"
 " execute this command:"
-msgstr "我们假设为OTRS创建了用户名``otrs``，它被安装到``/opt/otrs``。 如果使用其他用户或安装位置，则需要更改安装命令。 有关命令行工具的更多信息，请执行以下命令："
+msgstr "我们假设为 OTRS 创建了用户名 ``otrs``，它被安装到 ``/opt/otrs``。 如果使用其他用户或安装位置，则需要更改安装命令。 有关命令行工具的更多信息，请执行以下命令："
 
 #: ../../content/general-catalog/install-update-uninstall.rst:18
 #: ../../content/import-export/install-update-uninstall.rst:18
@@ -405,7 +405,7 @@ msgstr "我们假设为OTRS创建了用户名``otrs``，它被安装到``/opt/ot
 msgid ""
 "Then execute the needed command with ``--help`` option to see its "
 "possibilities."
-msgstr "然后使用``--help``选项执行所需的命令以查看其可能的选项。"
+msgstr "然后使用 ``--help`` 选项执行所需的命令以查看其可能的选项。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:22
 #: ../../content/import-export/install-update-uninstall.rst:22
@@ -479,7 +479,7 @@ msgstr "若要从软件包管理器安装本软件包："
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:67
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:101
 msgid "Open the *Package Manager* module in the administrator interface."
-msgstr "在管理员界面中打开*软件包管理器 *模块。"
+msgstr "在管理员界面中打开 *软件包管理器* 模块。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:36
 #: ../../content/general-catalog/install-update-uninstall.rst:65
@@ -496,7 +496,7 @@ msgstr "在管理员界面中打开*软件包管理器 *模块。"
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:39
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:68
 msgid "Click on the *Browse…* button in the left sidebar."
-msgstr "点击左侧边栏的*浏览...*按钮。"
+msgstr "点击左侧边栏的 *浏览...* 按钮。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:37
 #: ../../content/import-export/install-update-uninstall.rst:38
@@ -506,7 +506,7 @@ msgstr "点击左侧边栏的*浏览...*按钮。"
 #: ../../content/itsm-incident-problem-management/install-update-uninstall.rst:40
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:40
 msgid "Select an ``.opm`` file from your local file system."
-msgstr "从本地文件系统中选择一个``.opm``文件。"
+msgstr "从本地文件系统中选择一个 ``.opm`` 文件。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:38
 #: ../../content/general-catalog/install-update-uninstall.rst:67
@@ -523,7 +523,7 @@ msgstr "从本地文件系统中选择一个``.opm``文件。"
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:41
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:70
 msgid "Click on the *Install Package* button."
-msgstr "点击*安装软件包*按钮。"
+msgstr "点击 *安装软件包* 按钮。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:39
 #: ../../content/import-export/install-update-uninstall.rst:40
@@ -545,7 +545,7 @@ msgstr "按照安装说明操作。"
 msgid ""
 "After installation, the package is displayed in the *Local Repository* "
 "widget."
-msgstr "安装后，软件包将显示在*本地软件仓库*小部件中。"
+msgstr "安装后，软件包将显示在  *本地软件仓库*  小部件中。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:44
 #: ../../content/import-export/install-update-uninstall.rst:45
@@ -583,7 +583,7 @@ msgstr "若要从命令行安装本软件包："
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:80
 msgid ""
 "Save the ``.opm`` file to a folder where ``otrs`` user has read permission."
-msgstr "将``.opm``文件保存到``otrs``用户具有读权限的文件夹中。"
+msgstr "将 ``.opm`` 文件保存到 ``otrs`` 用户具有读权限的文件夹中。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:49
 #: ../../content/general-catalog/install-update-uninstall.rst:78
@@ -647,7 +647,7 @@ msgstr "若要从软件包管理器更新本软件包："
 #: ../../content/itsm-incident-problem-management/install-update-uninstall.rst:69
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:69
 msgid "Select an ``.opm`` file which is newer than the installed package."
-msgstr "从本地文件系统中选择一个比已安装软件包新的``.opm``文件。"
+msgstr "从本地文件系统中选择一个比已安装软件包新的 ``.opm`` 文件。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:68
 #: ../../content/import-export/install-update-uninstall.rst:69
@@ -668,7 +668,7 @@ msgstr "按照更新说明操作。"
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:72
 msgid ""
 "After updating, the package is displayed in the *Local Repository* widget."
-msgstr "更新后，软件包将显示在*本地软件仓库*小部件中。"
+msgstr "更新后，软件包将显示在  *本地软件仓库*  小部件中。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:73
 #: ../../content/import-export/install-update-uninstall.rst:74
@@ -709,7 +709,7 @@ msgid ""
 "If you uninstall this package, all database tables that were created during "
 "installation will be deleted. All data from these tables **will be "
 "irrevocably lost**!"
-msgstr "如果卸载本软件包，则将删除在安装期间创建的所有数据库表。 来自这些表的所有数据将**不可避免地丢失**！"
+msgstr "如果卸载本软件包，则将删除在安装期间创建的所有数据库表。 来自这些表的所有数据将 **不可避免地丢失** ！"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:94
 #: ../../content/import-export/install-update-uninstall.rst:95
@@ -739,7 +739,7 @@ msgstr "若要从软件包管理器卸载本软件包："
 #: ../../content/itsm-incident-problem-management/install-update-uninstall.rst:104
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:102
 msgid "Select the package from the *Local Repository* widget."
-msgstr "从*本地软件仓库*小部件中选择该软件包。"
+msgstr "从 *本地软件仓库* 小部件中选择该软件包。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:100
 #: ../../content/import-export/install-update-uninstall.rst:101
@@ -749,7 +749,7 @@ msgstr "从*本地软件仓库*小部件中选择该软件包。"
 #: ../../content/itsm-incident-problem-management/install-update-uninstall.rst:105
 #: ../../content/itsm-service-level-management/install-update-uninstall.rst:103
 msgid "Click on the *Uninstall* link in the *Action* column."
-msgstr "点击*操作*列中的*卸载*链接。"
+msgstr "点击 *操作* 列中的 *卸载* 链接。"
 
 #: ../../content/general-catalog/install-update-uninstall.rst:101
 #: ../../content/import-export/install-update-uninstall.rst:102
@@ -791,21 +791,21 @@ msgid ""
 "This package provides a tool as a generic framework to import and export "
 "objects like tickets or configuration items in several formats like CSV or "
 "XML."
-msgstr "该软件包提供了一个工具作为通用框架，以CSV或XML等多种格式导入和导出工单或配置项等对象。"
+msgstr "该软件包提供了一个工具作为通用框架，以 CSV 或 XML 等多种格式导入和导出工单或配置项等对象。"
 
 #: ../../content/import-export.rst:8
 msgid ""
 "To use this module, you need to install :doc:`itsm-configuration-management`"
 " or any other package that provides back end for objects to be imported and "
 "exported."
-msgstr "要使用此模块，您需要安装 :doc:`itsm-configuration-management`或为要导入和导出的对象提供后端的任何其他软件包。"
+msgstr "要使用此模块，您需要安装 :doc:`itsm-configuration-management` 或为要导入和导出的对象提供后端的任何其他软件包。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:4
 msgid ""
 "Use this screen to create import and export templates. The import/export "
 "template management screen is available in the *Import/Export* module of the"
 " *Administration* group."
-msgstr "使用此屏幕可以创建导入和导出模板。 导入/导出模板管理屏幕位于* 系统管理 *组的* 导入/导出 *模块中。"
+msgstr "使用此屏幕可以创建导入和导出模板。 导入/导出模板管理屏幕位于 *系统管理* 组的 *导入/导出* 模块中。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:9
 msgid "Import/Export Template Management Screen"
@@ -821,7 +821,7 @@ msgstr "若要创建一个新模板："
 
 #: ../../content/import-export/admin/administration/import-export.rst:17
 msgid "Click on the *Add Template* button in the left sidebar."
-msgstr "点击左侧边栏中的*添加模板*按钮。"
+msgstr "点击左侧边栏中的 *添加模板* 按钮。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:18
 msgid "Fill in the required fields in all steps."
@@ -830,7 +830,7 @@ msgstr "填写所有步骤中的必填字段。"
 #: ../../content/import-export/admin/administration/import-export.rst:19
 #: ../../content/import-export/admin/administration/import-export.rst:30
 msgid "Click on the *Finish* button."
-msgstr "点击*完成*按钮。"
+msgstr "点击 *完成* 按钮。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:24
 msgid "Create New Import/Export Template Screen"
@@ -864,7 +864,7 @@ msgstr "点击模板列表中的垃圾桶图标。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:40
 msgid "Click on the *Confirm* button."
-msgstr "点击*确认*按钮。"
+msgstr "点击 *确认* 按钮。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:45
 msgid "Delete Import/Export Template Screen"
@@ -876,15 +876,15 @@ msgstr "若要导入基于一个模板的数据："
 
 #: ../../content/import-export/admin/administration/import-export.rst:49
 msgid "Click on the *Import* link in the list of templates."
-msgstr "点击模板列表中的*导入*链接。"
+msgstr "点击模板列表中的 *导入* 链接。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:50
 msgid "Click on the *Browse…* button and select a CSV file."
-msgstr "点击*浏览...*按钮并选择一个CSV文件。"
+msgstr "点击 *浏览...* 按钮并选择一个 CSV 文件。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:51
 msgid "Click on the *Start Import* button."
-msgstr "点击*开始导入*按钮。"
+msgstr "点击 *开始导入* 按钮。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:56
 msgid "Import Data Screen"
@@ -896,7 +896,7 @@ msgstr "若要导出基于一个模板的数据："
 
 #: ../../content/import-export/admin/administration/import-export.rst:60
 msgid "Click on the *Export* link in the list of templates."
-msgstr "点击模板列表中上*导出*链接。"
+msgstr "点击模板列表中上 *导出* 链接。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:61
 msgid "Choose a location in your computer to save the ``Export.csv`` file."
@@ -971,7 +971,7 @@ msgstr "名称"
 msgid ""
 "This is a read only field from the previous step. Use the *Back* button to "
 "edit it."
-msgstr "这是来自上一步中的只读字段。使用*后退*按钮进行编辑。"
+msgstr "这是来自上一步中的只读字段。使用 *后退* 按钮进行编辑。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:110
 msgid "Object"
@@ -1002,7 +1002,7 @@ msgstr "空字段表示保持当前值"
 msgid ""
 "Select this checkbox if the empty field should keep the data in OTRS. "
 "Otherwise the data will be overwritten with blank value."
-msgstr "如果空字段应将数据保存在OTRS中，则选中此复选框。否则，数据将被空白值覆盖。"
+msgstr "如果空字段应将数据保存在 OTRS 中，则选中此复选框。否则，数据将被空白值覆盖。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:123
 msgid "Edit Format Information"
@@ -1053,7 +1053,7 @@ msgid ""
 "Click on the *Add Mapping Element* button to add element from the class. You"
 " can also specify if this element is an identifier. The order of the "
 "elements is sortable."
-msgstr "点击*添加映射元素*按钮以从类中添加元素。 您还可以指定此元素是否为标识符。 元素的顺序是可排序的。"
+msgstr "点击 *添加映射元素* 按钮以从类中添加元素。 您还可以指定此元素是否为标识符。 元素的顺序是可排序的。"
 
 #: ../../content/import-export/admin/administration/import-export.rst:158
 msgid "Edit Search Information"
@@ -1108,7 +1108,7 @@ msgid ""
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the "
 "license can be found on the `GNU website "
 "<https://www.gnu.org/licenses/fdl-1.3.txt>`__."
-msgstr "根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发和/或修改本文档; 没有不变的部分，没有封面文本，也没有封底文本。 许可证的副本可以在`GNU网站<https://www.gnu.org/licenses/fdl-1.3.txt>`__找到。"
+msgstr "根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发和/或修改本文档; 没有不变的部分，没有封面文本，也没有封底文本。 许可证的副本可以在 `GNU网站 <https://www.gnu.org/licenses/fdl-1.3.txt>`__ 找到。"
 
 #: ../../content/introduction.rst:2
 msgid "Introduction"
@@ -1122,7 +1122,7 @@ msgid ""
 "the installation, configuration and administration of OTRS::ITSM is only "
 "provided if there are differences to the OTRS core product or for functions,"
 " which only exist in OTRS::ITSM."
-msgstr "本手册适用于OTRS::ITSM管理员和用户，以提供有关IT服务经理、IT服务人员和最终用户（客户）对OTRS::ITSM的基本使用的信息。 仅当OTRS核心产品或功能存在差异时才提供有关OTRS::ITSM的安装、配置和管理的信息，这些功能仅存在于OTRS::ITSM中。"
+msgstr "本手册适用于OTRS::ITSM管理员和用户，以提供有关 IT服务经理、IT服务人员和最终用户（客户）对 OTRS::ITSM 的基本使用的信息。 仅当 OTRS 核心产品或功能存在差异时才提供有关 OTRS::ITSM 的安装、配置和管理的信息，这些功能仅存在于 OTRS::ITSM 中。"
 
 #: ../../content/introduction.rst:6
 msgid ""
@@ -1155,7 +1155,7 @@ msgid ""
 "group as possible, it does not or to a little extent address the issue of "
 "how to do things. Therefore, no implementable information is given for "
 "particular industries, companies, or manufacturers."
-msgstr "ITIL在过去几年中已成为事实上的标准，其在IT组织中的流通为IT服务管理的集体意识和一致术语的发展做出了重大贡献。 但是，ITIL只描述**谁应该做什么**以及在此过程中应该考虑什么。 为了覆盖尽可能广泛的用户群，它没有或在一定程度上解决了如何做事的问题。 因此，没有为特定行业，公司或制造商提供可实施的信息。"
+msgstr "ITIL在过去几年中已成为事实上的标准，其在IT组织中的流通为IT服务管理的集体意识和一致术语的发展做出了重大贡献。 但是，ITIL只描述 **谁应该做什么** 以及在此过程中应该考虑什么。 为了覆盖尽可能广泛的用户群，它没有或在一定程度上解决了如何做事的问题。 因此，没有为特定行业，公司或制造商提供可实施的信息。"
 
 #: ../../content/introduction.rst:12
 msgid ""
@@ -1177,21 +1177,21 @@ msgid ""
 "The development of OTRS::ITSM was started as a result of the great success "
 "of the OTRS framework in order to combine the globally accepted, public ITIL"
 " recommendations with the benefits of open-source software."
-msgstr "OTRS::ITSM模块的开发被提上日程，以OTRS框架的极大成功为基础，将全球接受的、公用的ITIL推荐规范与开源软件的好处相结合。"
+msgstr "OTRS::ITSM 模块的开发被提上日程，以 OTRS 框架的极大成功为基础，将全球接受的、公用的 ITIL 推荐规范与开源软件的好处相结合。"
 
 #: ../../content/introduction.rst:18
 msgid ""
 "OTRS::ITSM was the first real-world ITIL compliant IT service management "
 "solution on open-source basis, built on the solid basis of OTRS with its "
 "over thousands known OTRS installations and its community."
-msgstr "OTRS::ITSM是第一个基于开源的符合ITIL的IT服务管理解决方案，建立在OTRS的坚实基础上，拥有数千个已知的OTRS安装及其社区。"
+msgstr "OTRS::ITSM 是第一个基于开源的符合 ITIL 的 IT服务管理解决方案，建立在 OTRS 的坚实基础上，拥有数千个已知的 OTRS 安装及其社区。"
 
 #: ../../content/introduction.rst:20
 msgid ""
 "OTRS::ITSM is practically-oriented. This was accomplished by developing it "
 "in collaboration with ITIL consultants and with some of OTRS Groups' "
 "customers."
-msgstr "OTRS::ITSM是面向事实的，这是通过与ITIL咨询顾问和一些OTRS的客户共同合作开发完成的。"
+msgstr "OTRS::ITSM 是面向事实的，这是通过与 ITIL咨询顾问和一些 OTRS 的客户共同合作开发完成的。"
 
 #: ../../content/introduction.rst:22
 msgid ""
@@ -1199,7 +1199,7 @@ msgid ""
 "compliant IT service management solution OTRS::ITSM, its incident "
 "management, problem management, service level management, change and "
 "configuration management modules, and integrated CMDB."
-msgstr "服务台和工单系统解决方案OTRS是ITIL兼容的IT服务管理解决方案OTRS::ITSM的基础，包括OTRS::ITSM的事件管理、问题管理、服务级别管理、变更管理和配置管理模块，以及集成的配置管理数据库。"
+msgstr "服务台和工单系统解决方案 OTRS 是 ITIL兼容的 IT服务管理解决方案 OTRS::ITSM 的基础，包括 OTRS::ITSM 的事件管理、问题管理、服务级别管理、变更管理和配置管理模块，以及集成的配置管理数据库。"
 
 #: ../../content/introduction.rst:24
 msgid ""
@@ -1208,14 +1208,14 @@ msgid ""
 "fact, supposed to serve as a flexible, stable and easy to understand "
 "information platform that can be adapted to meet the requirements of "
 "virtually every organization."
-msgstr "与ITIL一样，OTRS::ITSM并不声称是针对IT服务管理中出现的所有任务和问题的“开箱即用”解决方案。事实上，它被认为是一个灵活、稳定、易于理解的信息平台，可以适应几乎每个组织的需求。"
+msgstr "与ITIL一样，OTRS::ITSM 并不声称是针对 IT服务管理中出现的所有任务和问题的“开箱即用”解决方案。事实上，它被认为是一个灵活、稳定、易于理解的信息平台，可以适应几乎每个组织的需求。"
 
 #: ../../content/introduction.rst:26
 msgid ""
 "Therefore, please excuse us for bringing the following to your attention: "
 "The use of an ITIL aligned tool such as OTRS::ITSM only makes sense if "
 "processes, people, and products (IT services) are truly ITIL aligned."
-msgstr "因此，请允许我们带来下面的注意信息：只有当流程、人员和产品（IT服务）都能真正对齐ITIL时，使用对齐ITIL的工具如OTRS::ITSM才有意义。"
+msgstr "因此，请允许我们带来下面的注意信息：只有当流程、人员和产品（IT服务）都能真正对齐ITIL时，使用对齐 ITIL 的工具如 OTRS::ITSM 才有意义。"
 
 #: ../../content/introduction.rst:28
 msgid ""
@@ -1223,7 +1223,7 @@ msgid ""
 "requirements of the specific business scenario, OTRS::ITSM will not achieve "
 "a discernible improvement of the key performance indicators of IT service "
 "management."
-msgstr "不对通用ITIL流程做适当剪裁以满足特定商业环境的需求，OTRS::ITSM就不能达到改进IT服务管理的KPI（关键绩效指标）的预期目标。"
+msgstr "不对通用ITIL流程做适当剪裁以满足特定商业环境的需求，OTRS::ITSM 就不能达到改进IT服务管理的KPI（关键绩效指标）的预期目标。"
 
 #: ../../content/introduction.rst:30
 msgid ""
@@ -1239,7 +1239,7 @@ msgstr "您还应该了解这样一个事实：成功的ITIL实施项目通常�
 msgid ""
 "OTRS::ITSM supports the following features and processes, which are usually "
 "designed during the first phase of an ITIL implementation:"
-msgstr "OTRS::ITSM支持以下功能和流程，这些功能和流程通常在ITIL实施的第一阶段设计："
+msgstr "OTRS::ITSM 支持以下功能和流程，这些功能和流程通常在ITIL实施的第一阶段设计："
 
 #: ../../content/introduction.rst:34
 msgid "Incident Management"
@@ -1267,11 +1267,11 @@ msgid ""
 " in the following sections. Please note that the each OTRS::ITSM package can"
 " be installed independently and that their names correspond to their "
 "respective ITIL topics."
-msgstr "更多有关使用和调整系统的详细描述可以在下面的章节找到。请注意每个OTRS::ITSM软件包都能独立安装，软件包的名称与ITIL相应的主题一致。"
+msgstr "更多有关使用和调整系统的详细描述可以在下面的章节找到。请注意每个OTRS::ITSM 软件包都能独立安装，软件包的名称与ITIL相应的主题一致。"
 
 #: ../../content/introduction.rst:44
 msgid "The implementation of OTRS::ITSM is based on ITIL v3."
-msgstr "OTRS::ITSM基于ITIL V3实现。"
+msgstr "OTRS::ITSM 基于ITIL V3实现。"
 
 #: ../../content/itsm-change-management.rst:2
 msgid "ITSM Change Management"
@@ -1294,14 +1294,14 @@ msgid ""
 "metrics or reports, must be defined. The implementation in OTRS::ITSM "
 "defines a change as an alteration of the existing IT landscape, such as the "
 "installation of a new mail server."
-msgstr "OTRS::ITSM的实施需要大量的技术规范和准备。 在技术实施之前，必须定义变更管理流程的关键要素，例如所需的工作流程、指标或报告。 OTRS::ITSM中的实现将变更定义为对现有IT环境的更改，例如安装新的邮件服务器。"
+msgstr "OTRS::ITSM 的实施需要大量的技术规范和准备。 在技术实施之前，必须定义变更管理流程的关键要素，例如所需的工作流程、指标或报告。 OTRS::ITSM 中的实现将变更定义为对现有IT环境的更改，例如安装新的邮件服务器。"
 
 #: ../../content/itsm-change-management.rst:8
 msgid ""
 "As changes typically consist of several sub-tasks, OTRS::ITSM allows any "
 "number of sub-tasks to be defined per change. These are known as *work "
 "orders*."
-msgstr "由于变更通常由多个子任务组成，因此OTRS::ITSM允许每次变量定义任意数量的子任务，这些被称为*工作指令*。"
+msgstr "由于变更通常由多个子任务组成，因此OTRS::ITSM 允许每次变量定义任意数量的子任务，这些被称为 *工作指令*。"
 
 #: ../../content/itsm-change-management/admin/administration.rst:4
 #: ../../content/itsm-configuration-management/admin/administration.rst:4
@@ -1309,14 +1309,14 @@ msgstr "由于变更通常由多个子任务组成，因此OTRS::ITSM允许每�
 msgid ""
 "After installation of the package some new classes will be available in the "
 "*General Catalog*."
-msgstr "安装本软件包后，* 通用目录 *中将提供一些新类。"
+msgstr "安装本软件包后， *通用目录* 中将提供一些新类。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:4
 msgid ""
 "*ITSM Change Management* adds some new classes to the *General Catalog*. The"
 " general catalog management screen is available in the *General Catalog* "
 "module of the *Administration* group."
-msgstr "* ITSM变更管理*在*通用目录 *中添加了一些新类。 通用目录管理屏幕位于* 系统管理*组的* 通用目录 *模块中。"
+msgstr "*ITSM变更管理* 在 *通用目录* 中添加了一些新类。 通用目录管理屏幕位于 *系统管理* 组的 *通用目录* 模块中。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:9
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:9
@@ -1338,7 +1338,7 @@ msgstr "ITSM::ChangeManagement::Category 类别"
 msgid ""
 "This class contains the severity of categories used in the :doc:`../change-"
 "settings/category-impact-priority` matrix."
-msgstr "此类包含 :doc:`../change-settings/category-impact-priority`矩阵中使用的类别的严重性。"
+msgstr "此类包含 :doc:`../change-settings/category-impact-priority` 矩阵中使用的类别的严重性。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:19
 msgid "ITSM::ChangeManagement::Change::State"
@@ -1348,7 +1348,7 @@ msgstr "ITSM::ChangeManagement::Change::State 状态"
 msgid ""
 "This class contains the change states used in the :doc:`../change-settings"
 "/state-machine`."
-msgstr "此类包含在 :doc:`../change-settings/state-machine`中使用的变更状态。"
+msgstr "此类包含在 :doc:`../change-settings/state-machine` 中使用的变更状态。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:22
 msgid "ITSM::ChangeManagement::Impact"
@@ -1358,7 +1358,7 @@ msgstr "ITSM::ChangeManagement::Impact 影响"
 msgid ""
 "This class contains the severity of impacts used in the :doc:`../change-"
 "settings/category-impact-priority` matrix."
-msgstr "此类包含 :doc:`../change-settings/category-impact-priority`矩阵中使用的影响的严重性。"
+msgstr "此类包含 :doc:`../change-settings/category-impact-priority` 矩阵中使用的影响的严重性。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:25
 msgid "ITSM::ChangeManagement::Priority"
@@ -1368,7 +1368,7 @@ msgstr "ITSM::ChangeManagement::Priority 优先级"
 msgid ""
 "This class contains the priorities used in the :doc:`../change-settings"
 "/category-impact-priority` matrix."
-msgstr "此类包含:doc:`../change-settings/category-impact-priority`矩阵中使用的优先级。"
+msgstr "此类包含 :doc:`../change-settings/category-impact-priority` 矩阵中使用的优先级。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:28
 msgid "ITSM::ChangeManagement::WorkOrder::State"
@@ -1378,7 +1378,7 @@ msgstr "ITSM::ChangeManagement::WorkOrder::State"
 msgid ""
 "This class contains the work order states used in the :doc:`../change-"
 "settings/state-machine`."
-msgstr "此类包含:doc:`../change-settings/state-machine`中使用的工作指令状态。"
+msgstr "此类包含 :doc:`../change-settings/state-machine` 中使用的工作指令状态。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:31
 msgid "ITSM::ChangeManagement::WorkOrder::Type"
@@ -1388,11 +1388,11 @@ msgstr "ITSM::ChangeManagement::WorkOrder::Type"
 msgid ""
 "This class contains the work order types used in :doc:`../../agent/itsm-"
 "changes`."
-msgstr "此类包含在:doc:`../../agent/itsm-changes`使用的工作指令类型。"
+msgstr "此类包含在 :doc:`../../agent/itsm-changes` 使用的工作指令类型。"
 
 #: ../../content/itsm-change-management/admin/administration/general-catalog.rst:35
 msgid "The other classes was added by :doc:`../../../itsm-core` package."
-msgstr "其它类由 :doc:`../../../itsm-core`软件包添加。"
+msgstr "其它类由 :doc:`../../../itsm-core` 软件包添加。"
 
 #: ../../content/itsm-change-management/admin/change-settings.rst:2
 msgid "Change Settings"
@@ -1402,7 +1402,7 @@ msgstr "变更设置"
 msgid ""
 "After installation of the package a new group *Change Settings* will be "
 "available with two new modules in the administrator interface."
-msgstr "安装此软件包后，将在管理员界面中提供有两个新模块的新组*变更设置*。"
+msgstr "安装此软件包后，将在管理员界面中提供有两个新模块的新组 *变更设置*。"
 
 #: ../../content/itsm-change-management/admin/change-settings/category-impact-priority.rst:2
 msgid "Category ↔ Impact ↔ Priority"
@@ -1413,7 +1413,7 @@ msgid ""
 "Use this screen to manage the category ↔ impact ↔ priority matrix. The "
 "management screen is available in the *Category ↔ Impact ↔ Priority* module "
 "of the *Change Settings* group."
-msgstr "使用此屏幕管理类别↔影响↔优先级矩阵。 管理屏幕位于*变更设置*组的*类别↔影响↔优先级*模块中。"
+msgstr "使用此屏幕管理类别 ↔ 影响 ↔ 优先级矩阵。 管理屏幕位于 *变更设置* 组的 *类别 ↔ 影响 ↔ 优先级* 模块中。"
 
 #: ../../content/itsm-change-management/admin/change-settings/category-impact-priority.rst:9
 msgid "Category ↔ Impact ↔ Priority Screen"
@@ -1424,7 +1424,7 @@ msgid ""
 "This matrix defines the priority of a change based on the category and "
 "impact. The calculated priority will be used in *Add Change* and *Edit "
 "Change* screens."
-msgstr "此矩阵根据类别和影响定义变更的优先级。 计算出的优先级将用于*添加变更*和*编辑变更*屏幕。"
+msgstr "此矩阵根据类别和影响定义变更的优先级。 计算出的优先级将用于 *添加变更* 和 *编辑变更* 屏幕。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:2
 msgid "State Machine"
@@ -1434,14 +1434,14 @@ msgstr "状态机"
 msgid ""
 "OTRS::ITSM features state machines which define valid statuses and possible "
 "result statuses for a change and for a work order."
-msgstr "OTRS::ITSM具有状态机，可为变更和工作指令定义有效状态和可能的结果状态。"
+msgstr "OTRS::ITSM 具有状态机，可为变更和工作指令定义有效状态和可能的结果状态。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:6
 msgid ""
 "Use this screen to manage the state machines. The state machine management "
 "screen is available in the *State Machine* module of the *Change Settings* "
 "group."
-msgstr "使用此屏幕管理状态机。 状态机管理屏幕位于* 变更设置 *组的* 状态机 *模块中。"
+msgstr "使用此屏幕管理状态机。 状态机管理屏幕位于 *变更设置* 组的 *状态机* 模块中。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:11
 msgid "State Machine Management Screen"
@@ -1455,7 +1455,7 @@ msgstr "管理状态机"
 msgid ""
 "The statuses and possible result statuses should be defined as "
 "*transitions*. In OTRS::ITSM, this is illustrated as a table."
-msgstr "状态和可能的结果状态应定义为* 转换 *。 在OTRS::ITSM中，这被表示为一个表。"
+msgstr "状态和可能的结果状态应定义为 *转换*。 在OTRS::ITSM 中，这被表示为一个表。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:19
 msgid "To add a new transition:"
@@ -1465,7 +1465,7 @@ msgstr "若要添加一个新转换："
 msgid ""
 "Select the state machine to add the new transition to from the *Action* "
 "widget of the left sidebar."
-msgstr "从左侧边栏的* 动作 *小部件中选择要添加新转换的状态机。"
+msgstr "从左侧边栏的 *动作* 小部件中选择要添加新转换的状态机。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:22
 msgid "Select a state from the transition should start."
@@ -1494,7 +1494,7 @@ msgstr "单击一个转换名称。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:35
 msgid "Modify the *Next state*."
-msgstr "修改*下一个状态*。"
+msgstr "修改 *下一个状态*。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:41
 msgid "Edit State Transition Screen"
@@ -1510,7 +1510,7 @@ msgstr "点击转换表最后一列中的垃圾桶图标。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:47
 msgid "Click on the *Yes* button in the confirmation screen."
-msgstr "单击确认屏幕上的*是*按钮。"
+msgstr "单击确认屏幕上的 *是* 按钮。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:52
 msgid "Delete State Transition Screen"
@@ -1535,7 +1535,7 @@ msgstr "变更状态机模型"
 msgid ""
 "To see the state machine transitions, click on the "
 "*ITSM::ChangeManagement::Change::State* item in the list of state machines."
-msgstr "要查看状态机转换，请单击状态机列表中的*ITSM::ChangeManagement::Change::State* 项。"
+msgstr "要查看状态机转换，请单击状态机列表中的 *ITSM::ChangeManagement::Change::State* 项。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:70
 msgid "Change State Machine Transitions"
@@ -1546,7 +1546,7 @@ msgid ""
 "The states of the change state machine are defined in the "
 "*ITSM::ChangeManagement::Change::State* class in the :doc:`../../../general-"
 "catalog`."
-msgstr "变更状态机的状态在:doc:`../../../general-catalog`中的 *ITSM::ChangeManagement::Change::State* 类中定义。"
+msgstr "变更状态机的状态在 :doc:`../../../general-catalog` 中的 *ITSM::ChangeManagement::Change::State* 类中定义。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:78
 msgid "Work Order State Machine"
@@ -1561,7 +1561,7 @@ msgid ""
 "To see the state machine transitions, click on the "
 "*ITSM::ChangeManagement::WorkOrder::State* item in the list of state "
 "machines."
-msgstr "要查看状态机转换，请点击状态机列表中的 *ITSM::ChangeManagement::WorkOrder::State*项。"
+msgstr "要查看状态机转换，请点击状态机列表中的 *ITSM::ChangeManagement::WorkOrder::State* 项。"
 
 #: ../../content/itsm-change-management/admin/change-settings/state-machine.rst:92
 msgid "Work Order State Machine Transitions"
@@ -1572,7 +1572,7 @@ msgid ""
 "The states of the work order state machine are defined in the "
 "*ITSM::ChangeManagement::WorkOrder::State* class in the :doc"
 ":`../../../general-catalog`."
-msgstr "工作指令状态机的状态在 :doc:`../../../general-catalog`中的 *ITSM::ChangeManagement::WorkOrder::State*类中定义。"
+msgstr "工作指令状态机的状态在 :doc:`../../../general-catalog` 中的 *ITSM::ChangeManagement::WorkOrder::State* 类中定义。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications.rst:2
 msgid "Communication & Notifications"
@@ -1582,7 +1582,7 @@ msgstr "通信和通知"
 msgid ""
 "After installation of the package a new module will be available to "
 "*Communication & Notifications* group in the administrator interface."
-msgstr "安装本软件包后，管理员界面中的*通信和通知*组将可以使用一个新模块。"
+msgstr "安装本软件包后，管理员界面中的 *通信和通知* 组将可以使用一个新模块。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:2
 msgid "ITSM Change Notifications"
@@ -1594,7 +1594,7 @@ msgid ""
 "installing the package several notifications are added to the system. The "
 "ITSM change notification management screen is available in the *ITSM Change "
 "Notifications* module of the *Communication & Notifications* group."
-msgstr "使用此屏幕将ITSM变更通知添加到系统。 安装本软件包后，会向系统添加几个通知。 ITSM变更通知管理屏幕位于* 通信和通知 *组的* ITSM变更通知 *模块中。"
+msgstr "使用此屏幕将ITSM变更通知添加到系统。 安装本软件包后，会向系统添加几个通知。 ITSM变更通知管理屏幕位于 *通信和通知* 组的 *ITSM变更通知* 模块中。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:9
 msgid "ITSM Change Notification Management Screen"
@@ -1610,7 +1610,7 @@ msgstr "若要添加一个ITSM变更通知："
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:17
 msgid "Click on the *Add Notification Rule* button in the left sidebar."
-msgstr "点击左侧边栏的* 添加通知规则 *按钮。"
+msgstr "点击左侧边栏的 *添加通知规则* 按钮。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:24
 msgid "Add ITSM Change Notification Screen"
@@ -1640,7 +1640,7 @@ msgstr "点击ITSM变更通知列表中的垃圾桶图标。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:40
 msgid "Click on the *OK* button."
-msgstr "点击*确认*按钮。"
+msgstr "点击 *确认* 按钮。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:45
 msgid "Delete ITSM Change Notification Screen"
@@ -1696,7 +1696,7 @@ msgstr "规则"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:76
 msgid "The content of the field, that are set as *Attribute*."
-msgstr "字段的内容，设置为*属性*。"
+msgstr "字段的内容，设置为 *属性*。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:79
 msgid "Recipients"
@@ -1729,7 +1729,7 @@ msgid ""
 "The main content of a notification can be added for each languages with "
 "localized subject and body text. It is also possible to define static text "
 "content mixed with OTRS smart tags."
-msgstr "可以为具有本地化主题和正文文本的每种语言添加通知的主要内容。还可以定义混合了OTRS智能标记的静态文本内容。"
+msgstr "可以为具有本地化主题和正文文本的每种语言添加通知的主要内容。还可以定义混合了 OTRS 智能标记的静态文本内容。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:99
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:123
@@ -1770,7 +1770,7 @@ msgid ""
 "notification text here will make the notification text unusable. If a "
 "language is not present or enabled on the system, the corresponding "
 "notification text could be deleted if it is not needed anymore."
-msgstr "在:sysconfig:`DefaultUsedLanguages <frontend.html#defaultusedlanguages>` 设置中删除已有通知文本的语言将使通知文本无法使用。 如果系统上没有出现或没有启用某种语言，则可以删除相应的通知文本（如果不再需要）。"
+msgstr "在 :sysconfig:`DefaultUsedLanguages <frontend.html#defaultusedlanguages>` 设置中删除已有通知文本的语言将使通知文本无法使用。 如果系统上没有出现或没有启用某种语言，则可以删除相应的通知文本（如果不再需要）。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:113
 msgid "Notification (Customer)"
@@ -1788,19 +1788,19 @@ msgstr "ITSM变更通知变量"
 msgid ""
 "Using variables in ticket notifications is possible. Variables, known as "
 "OTRS tags, are replaced by OTRS when generating the mail."
-msgstr "可以在工单通知中使用变量。 在生成邮件时，称为OTRS标签的变量将被OTRS替换。"
+msgstr "可以在工单通知中使用变量。 在生成邮件时，称为 OTRS 标签的变量将被 OTRS 替换。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:145
 msgid ""
 "Please check the existing notifications for the list of OTRS tags, that can "
 "be used in ITSM change notifications."
-msgstr "请检查现有通知，以获取可在ITSM变更通知中使用的OTRS标签列表。"
+msgstr "请检查现有通知，以获取可在ITSM变更通知中使用的 OTRS 标签列表。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:153
 msgid ""
 "For example, the variable ``<OTRS_CHANGE_ChangeManager>`` expands to the "
 "change manager allowing a template to include something like the following."
-msgstr "例如，变量``<OTRS_CHANGE_ChangeManager>``扩展为变更经理，允许模板包含如下内容。"
+msgstr "例如，变量 ``<OTRS_CHANGE_ChangeManager>`` 扩展为变更经理，允许模板包含如下内容。"
 
 #: ../../content/itsm-change-management/admin/communication-notifications/itsm-change-notifications.rst:159
 msgid "This tag expands, for example to:"
@@ -1815,7 +1815,7 @@ msgstr "工单设置"
 #: ../../content/itsm-change-management/admin/ticket-settings.rst:4
 msgid ""
 "After installation of the package a new type *RfC* is added to ticket types."
-msgstr "安装本软件包后，会向工单类型添加新类型* RfC *。"
+msgstr "安装本软件包后，会向工单类型添加新类型 *RfC*。"
 
 #: ../../content/itsm-change-management/admin/ticket-settings/types.rst:2
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:2
@@ -1826,7 +1826,7 @@ msgstr "类型"
 msgid ""
 "The type management screen is available in the *Types* module of the *Ticket"
 " Settings* group."
-msgstr "类型管理屏幕位于*工单设置*组的*类型*模块中。"
+msgstr "类型管理屏幕位于 *工单设置* 组的 *类型* 模块中。"
 
 #: ../../content/itsm-change-management/admin/ticket-settings/types.rst:9
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:9
@@ -1868,7 +1868,7 @@ msgid ""
 "concept. After installation of the package some new groups are added to the "
 "system. The group management screen is available in the *Groups* module of "
 "the *Users, Groups & Roles* group."
-msgstr "对变更管理模块的访问管理基于角色的访问概念。 安装本软件包后，系统会添加一些新组。 组管理屏幕位于*用户、组和角色*组的* 组 *模块中。"
+msgstr "对变更管理模块的访问管理基于角色的访问概念。 安装本软件包后，系统会添加一些新组。 组管理屏幕位于 *用户、组和角色* 组的 *组* 模块中。"
 
 #: ../../content/itsm-change-management/admin/users-groups-roles/groups.rst:9
 #: ../../content/itsm-configuration-management/admin/users-groups-roles/groups.rst:9
@@ -1924,7 +1924,7 @@ msgstr "该组的成员可以在系统中创建新的变更和工作指令。此
 msgid ""
 "The primary administrator user (root@localhost) is added to all groups with "
 "permission *rw* by default."
-msgstr "默认情况下，主要管理员用户（root@localhost）被添加到所有组的*rw*权限中。"
+msgstr "默认情况下，主要管理员用户（root@localhost）被添加到所有组的 *rw* 权限中。"
 
 #: ../../content/itsm-change-management/admin/users-groups-roles/groups.rst:32
 #: ../../content/itsm-configuration-management/admin/users-groups-roles/groups.rst:26
@@ -1985,7 +1985,7 @@ msgstr "安装本软件包后，服务人员界面中将提供一个新菜单。
 msgid ""
 "In order to grant users access to the *ITSM Changes* menu, you need to add "
 "them as member to the group *itsm-change*."
-msgstr "为了授予用户访问* ITSM变更*菜单的权限，您需要将他们作为成员添加到组* itsm-change *中。"
+msgstr "为了授予用户访问 *ITSM变更* 菜单的权限，您需要将他们作为成员添加到组 *itsm-change* 中。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes.rst:10
 #: ../../content/itsm-change-management/install-update-uninstall.rst:36
@@ -2082,13 +2082,13 @@ msgstr "优先级 \\*"
 msgid ""
 "Defines the priority of the change from the selected *Category* and "
 "*Impact*."
-msgstr "定义所选* 类别 *和* 影响 *的变更优先级。"
+msgstr "定义所选 *类别* 和 *影响* 的变更优先级。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new.rst:33
 msgid ""
 "See the :doc:`../../admin/change-settings/category-impact-priority` matrix "
 "to define the priority."
-msgstr "请参阅:doc:`../../admin/change-settings/category-impact-priority` 矩阵来定义优先级。"
+msgstr "请参阅 :doc:`../../admin/change-settings/category-impact-priority` 矩阵来定义优先级。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new.rst:40
 msgid "Requested Date"
@@ -2102,7 +2102,7 @@ msgstr "选择客户请求变更的日期。"
 msgid ""
 "This attribute can be deactivated in system configuration under ``Frontend``"
 " → ``Agent`` → ``View``."
-msgstr "可以在系统配置``前端``→``服务人员``→``视图``下停用此属性。"
+msgstr "可以在系统配置 ``前端`` → ``服务人员`` → ``视图`` 下停用此属性。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new.rst:42
 msgid "Attachments"
@@ -2126,7 +2126,7 @@ msgstr "使用此屏幕从模板添加新变更。"
 msgid ""
 "Templates can be saved in the *Change Zoom* screen using the *Template* menu"
 " item."
-msgstr "可以在* 变更详情 *屏幕中使用* 模板 *菜单项保存模板。"
+msgstr "可以在 *变更详情* 屏幕中使用* 模板 *菜单项保存模板。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new-from-template.rst:16
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:305
@@ -2161,7 +2161,7 @@ msgstr "指定上面选择的时间类型的新时间。 此时间将用于变�
 
 #: ../../content/itsm-change-management/agent/itsm-changes/new-from-template.rst:26
 msgid "Templates can be edited in the :doc:`templates` screen."
-msgstr "可以在:doc:`templates` 屏幕中编辑模板。"
+msgstr "可以在 :doc:`templates` 屏幕中编辑模板。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:2
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:2
@@ -2181,14 +2181,14 @@ msgid ""
 "Changes can be filtered by clicking on a state name in the header of the "
 "overview widget. There is an option *All* to see all changes. The numbers "
 "after the state names indicates how many changes are in each states."
-msgstr "可以通过单击概览小部件标题中的状态名称来过滤变更。 有一个选项*所有*来查看所有变更。状态名后面的数字表示每个状态的变更数量。"
+msgstr "可以通过单击概览小部件标题中的状态名称来过滤变更。 有一个选项 *所有* 来查看所有变更。状态名后面的数字表示每个状态的变更数量。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:15
 msgid ""
 "See setting ``ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates``"
 " to define the work order states that will be used as filters in the "
 "overview."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates``以定义将在概览中用作过滤器的工作指令状态。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates`` 以定义将在概览中用作过滤器的工作指令状态。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:17
 #: ../../content/itsm-change-management/agent/itsm-changes/projected-service-availability.rst:17
@@ -2216,7 +2216,7 @@ msgstr "选择每页显示的最大变更数。"
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:21
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:17
 msgid "Click on the *Submit* button."
-msgstr "点击*提交*按钮。"
+msgstr "点击 *提交* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:23
 #: ../../content/itsm-change-management/agent/itsm-changes/pir.rst:32
@@ -2535,7 +2535,7 @@ msgstr "与此变更相关的工作指令数量。"
 msgid ""
 "See setting ``ITSMChange::Frontend::AgentITSMChange###ShowColumns`` to "
 "define the displayed attributes."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChange###ShowColumns``来定义显示的属性。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChange###ShowColumns`` 来定义显示的属性。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:86
 #: ../../content/itsm-change-management/agent/itsm-changes/projected-service-availability.rst:23
@@ -2560,7 +2560,7 @@ msgstr "ITSM变更详情屏幕"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:95
 msgid "The *Change Zoom* screen has an own menu."
-msgstr "*变更详情*屏幕有自己的菜单。"
+msgstr "*变更详情* 屏幕有自己的菜单。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:98
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:185
@@ -2653,7 +2653,7 @@ msgstr "将变更经理权限分配给当前变更的一个服务人员。"
 msgid ""
 "Only those agent can be added as change manager, who is member of group "
 "*itsm-change-manager*."
-msgstr "只有那些属于组* itsm-change-manager *的成员的服务人员可以添加为变更经理。"
+msgstr "只有那些属于组 *itsm-change-manager* 的成员的服务人员可以添加为变更经理。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:139
 msgid "Change Builder \\*"
@@ -2670,7 +2670,7 @@ msgstr "定义处理和定义当前变更的服务人员。 创建新变更时�
 msgid ""
 "Only those agent can be added as change builder, who is member of group "
 "*itsm-change-bulder*."
-msgstr "只有那些属于组* itsm-change-bulder *的成员的服务人员可以添加为变更创建人。"
+msgstr "只有那些属于组 *itsm-change-bulder* 的成员的服务人员可以添加为变更创建人。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:142
 msgid "Change Advisory Board"
@@ -2709,7 +2709,7 @@ msgid ""
 "Select a type for the work order. The types are defined in class "
 "``ITSM::ChangeManagement::WorkOrder::Type`` in the "
 ":doc:`../../admin/administration/general-catalog`."
-msgstr "选择工作指令的类型。 这些类型在:doc:`../../admin/administration/general-catalog`中的类``ITSM::ChangeManagement::WorkOrder::Type``中定义。"
+msgstr "选择工作指令的类型。 这些类型在 :doc:`../../admin/administration/general-catalog` 中的类 ``ITSM::ChangeManagement::WorkOrder::Type`` 中定义。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:164
 msgid "Planned Start Time"
@@ -2744,7 +2744,7 @@ msgstr "附件"
 msgid ""
 "After adding a work order, the *Work Order Zoom* screen will be opened in a "
 "new browser tab."
-msgstr "添加工作指令后，*工作指令详情*屏幕将在新的浏览器选项卡中打开。"
+msgstr "添加工作指令后， *工作指令详情*  屏幕将在新的浏览器选项卡中打开。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:180
 #: ../../content/itsm-change-management/agent/itsm-changes/pir.rst:30
@@ -2753,7 +2753,7 @@ msgstr "工作指令详情屏幕"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:182
 msgid "The *Work Order Zoom* screen has an own menu."
-msgstr "*工作指令详情*屏幕有一个自己的菜单。"
+msgstr " *工作指令详情*  屏幕有一个自己的菜单。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:188
 msgid ""
@@ -2781,7 +2781,7 @@ msgid ""
 "If this is checked, the subsequent work orders will be moved in time "
 "according to times set in *Planned Start Time* and *Planned End Time* "
 "fields."
-msgstr "如果选中此选项，将根据*计划开始时间*和*计划结束时间*字段中设置的时间及时移动后续工作指令。"
+msgstr "如果选中此选项，将根据 *计划开始时间* 和 *计划结束时间* 字段中设置的时间及时移动后续工作指令。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:219
 msgid "Workorder Agent"
@@ -2799,7 +2799,7 @@ msgstr "编辑工作指令服务人员屏幕"
 msgid ""
 "Only those agent can be added as work order agent, who is member of group "
 "*itsm-change*."
-msgstr "只有那些属于组* itsm-change *的成员的服务人员可以添加为工作指令服务人员。"
+msgstr "只有那些属于组 *itsm-change* 的成员的服务人员可以添加为工作指令服务人员。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:243
 msgid "Report"
@@ -2837,7 +2837,7 @@ msgstr "该工作指令的下一状态。"
 msgid ""
 "The possible next states are defined in the work order :doc:`../../admin"
 "/change-settings/state-machine`, but they can be filtered using conditions."
-msgstr "可能的下一个状态在工作指令 :doc:`../../admin/change-settings/state-machine`中定义，但可以使用条件对它们进行过滤。"
+msgstr "可能的下一个状态在工作指令 :doc:`../../admin/change-settings/state-machine` 中定义，但可以使用条件对它们进行过滤。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:240
 msgid "Accounted Time"
@@ -2858,7 +2858,7 @@ msgstr "链接"
 msgid ""
 "This menu item opens the standard link screen of OTRS. Work orders can be "
 "linked to services or tickets. Existing links can also be managed here."
-msgstr "此菜单项打开OTRS的标准链接屏幕。 工作指令可以链接到服务或工单。 现有链接也可以在这里管理。"
+msgstr "此菜单项打开 OTRS 的标准链接屏幕。 工作指令可以链接到服务或工单。 现有链接也可以在这里管理。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:251
 msgid "Link Work Order Screen"
@@ -2902,7 +2902,7 @@ msgstr "重置状态"
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:272
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:416
 msgid "All states are reset if selecting *Yes*."
-msgstr "如果选择*是*，则重置所有状态。"
+msgstr "如果选择 *是*，则重置所有状态。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:275
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:362
@@ -2953,7 +2953,7 @@ msgstr "为上面选择的时间类型指定新时间。"
 msgid ""
 "Work order templates can be created with *Template* menu item in the *Work "
 "Order Zoom* screen."
-msgstr "可以使用*工作指令详情*屏幕中的*模板*菜单项创建工作指令模板。"
+msgstr "可以使用 *工作指令详情* 屏幕中的 *模板* 菜单项创建工作指令模板。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:373
 msgid "Conditions"
@@ -2977,7 +2977,7 @@ msgstr "若要添加一个新条件："
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:331
 msgid "Click on the *Add new condition* button."
-msgstr "点击*添加新条件*按钮。"
+msgstr "点击 *添加新条件* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:333
 msgid "To edit a condition:"
@@ -2997,11 +2997,11 @@ msgstr "点击条件列表中的垃圾桶图标。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:340
 msgid "Click on the *OK* button in the confirmation dialog."
-msgstr "点击确认对话框中的*确认*按钮。"
+msgstr "点击确认对话框中的 *确认* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:342
 msgid "*Add Condition* and *Edit Condition* screens consist of three widgets."
-msgstr "*添加条件*和*编辑条件*屏幕由三个小部件组成。"
+msgstr "*添加条件* 和 *编辑条件* 屏幕由三个小部件组成。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:347
 msgid "Add Condition Screen"
@@ -3009,13 +3009,13 @@ msgstr "添加条件屏幕"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:349
 msgid "In the *Condition* widget:"
-msgstr "在*条件*小部件中："
+msgstr "在 *条件* 小部件中："
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:356
 msgid ""
 "Conditions are sorted by name. Use *100*, *200*, etc. as prefix to set the "
 "sorting order. All conditions will be evaluated regardless of its position."
-msgstr "条件按名称排序。 使用* 100 *、* 200 *等作为前缀来设置排序顺序。 无论其位置如何，都将评估所有条件。"
+msgstr "条件按名称排序。 使用 *100*、*200* 等作为前缀来设置排序顺序。 无论其位置如何，都将评估所有条件。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:359
 msgid "Matching"
@@ -3029,7 +3029,7 @@ msgstr "匹配的表达式类型。"
 msgid ""
 "In the *Expressions* widget the expression can be added. The matching type "
 "of expressions (*OR* or *AND*) can be defined above."
-msgstr "在*表达式*小部件中，可以添加表达式。可以在上面定义匹配类型的表达式（*OR*或*AND*）。"
+msgstr "在 *表达式* 小部件中，可以添加表达式。可以在上面定义匹配类型的表达式（*OR* 或 *AND*）。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:369
 msgid ""
@@ -3038,7 +3038,7 @@ msgid ""
 " set at a specific value, if the defined condition is true. On the other "
 "hand, the operator *lock* freezes the selected attribute, for as long as the"
 " defined condition is true, i.e. a manual change is not possible."
-msgstr "在* 操作 *小部件中，可以添加操作以在满足表达式时执行。 如果定义的条件为真，则运算符* set *允许将所选属性设置为特定值。 另一方面，只要定义的条件为真，操作符* lock *就冻结所选择的属性，即手动改变是不可能的。"
+msgstr "在 *操作* 小部件中，可以添加操作以在满足表达式时执行。 如果定义的条件为真，则运算符 *set* 允许将所选属性设置为特定值。 另一方面，只要定义的条件为真，操作符 *lock* 就冻结所选择的属性，即手动改变是不可能的。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:373
 msgid "Actions are processed in the order they were set."
@@ -3049,7 +3049,7 @@ msgid ""
 "This menu item opens the standard link screen of OTRS. Changes can be linked"
 " to any other objects like FAQ articles, services, tickets or configuration "
 "items. Existing links can also be managed here."
-msgstr "此菜单项打开OTRS的标准链接屏幕。变更可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
+msgstr "此菜单项打开 OTRS 的标准链接屏幕。变更可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:381
 msgid "Link ITSM Change Screen"
@@ -3071,7 +3071,7 @@ msgstr "移动时间轴屏幕"
 msgid ""
 "Use this screen to save the change as template. New changes can be start "
 "from template in :doc:`new-from-template` menu item."
-msgstr "使用此屏幕将变更保存为模板。 通过:doc:`new-from-template` 菜单项可以从模板开始创建新的变更。"
+msgstr "使用此屏幕将变更保存为模板。 通过 :doc:`new-from-template` 菜单项可以从模板开始创建新的变更。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/overview.rst:403
 msgid "Save Change as Template"
@@ -3086,7 +3086,7 @@ msgid ""
 "Use this screen to filter work orders based on certain criteria. This "
 "overview screen is available in the *PIR* menu item of the *ITSM Changes* "
 "menu."
-msgstr "使用此屏幕可根据特定条件筛选工作指令。此概览屏幕在*ITSM变更*菜单的*PIR-实施后评审*菜单项中可用。"
+msgstr "使用此屏幕可根据特定条件筛选工作指令。此概览屏幕在 *ITSM变更* 菜单的 *PIR-实施后评审* 菜单项中可用。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/pir.rst:9
 msgid "Post Implementation Review Screen"
@@ -3104,7 +3104,7 @@ msgid ""
 "See setting "
 "``ITSMChange::Frontend::AgentITSMChangePIR###Filter::WorkOrderStates`` to "
 "define the work order states that will be used as filters in the overview."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChangePIR###Filter::WorkOrderStates``以定义将在概览中用作过滤器的工作指令状态。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangePIR###Filter::WorkOrderStates`` 以定义将在概览中用作过滤器的工作指令状态。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/pir.rst:17
 msgid "To limit the number of displayed work orders per page:"
@@ -3178,7 +3178,7 @@ msgstr "该工作指令的类型。"
 msgid ""
 "See setting ``ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns`` to "
 "define the displayed attributes."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns`` 来定义显示的属性。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns`` 来定义显示的属性。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/projected-service-availability.rst:2
 msgid "Projected Service Availability"
@@ -3189,7 +3189,7 @@ msgid ""
 "Use this screen to filter ITSM changes based on certain criteria. This "
 "overview screen is available in the *Projected Service Availability* menu "
 "item of the *ITSM Changes* menu."
-msgstr "使用此屏幕可根据特定条件过滤ITSM变更。 此概览屏幕位于* ITSM变更*菜单的* 计划服务可用性 *菜单项中。"
+msgstr "使用此屏幕可根据特定条件过滤ITSM变更。 此概览屏幕位于 *ITSM变更* 菜单的 *计划服务可用性* 菜单项中。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/projected-service-availability.rst:9
 msgid "Projected Service Availability Screen"
@@ -3208,7 +3208,7 @@ msgid ""
 "See setting "
 "``ITSMChange::Frontend::AgentITSMChangePSA###Filter::ChangeStates`` to "
 "define the change states that will be used as filters in the overview."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChangePSA###Filter::ChangeStates``以定义将在概览中用作过滤器的变更状态。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangePSA###Filter::ChangeStates`` 以定义将在概览中用作过滤器的变更状态。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/projected-service-availability.rst:68
 #: ../../content/itsm-change-management/agent/itsm-changes/schedule.rst:68
@@ -3231,7 +3231,7 @@ msgid ""
 "Use this screen to filter ITSM changes based on certain criteria. This "
 "overview screen is available in the *Schedule* menu item of the *ITSM "
 "Changes* menu."
-msgstr "使用此屏幕可根据特定条件过滤ITSM变更。 此概览屏幕位于* ITSM变更*菜单的* 计划表 *菜单项中。"
+msgstr "使用此屏幕可根据特定条件过滤ITSM变更。 此概览屏幕位于 *ITSM变更* 菜单的 *计划表* 菜单项中。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/schedule.rst:9
 msgid "ITSM Change Schedule Screen"
@@ -3242,13 +3242,13 @@ msgid ""
 "See setting "
 "``ITSMChange::Frontend::AgentITSMChangeSchedule###Filter::ChangeStates`` to "
 "define the change states that will be used as filters in the overview."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChangeSchedule###Filter::ChangeStates``以定义将在概览中用作过滤器的变更状态。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangeSchedule###Filter::ChangeStates`` 以定义将在概览中用作过滤器的变更状态。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/schedule.rst:93
 msgid ""
 "See setting ``ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns`` "
 "to define the displayed attributes."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns`` 来定义显示的属性。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns`` 来定义显示的属性。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:2
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:2
@@ -3270,12 +3270,12 @@ msgstr "若要搜索变更："
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:13
 msgid "Click on the *Search* menu item in the *ITSM Changes* menu."
-msgstr "点击*ITSM变更*菜单中的*搜索*菜单项。"
+msgstr "点击 *ITSM变更* 菜单中的 *搜索* 菜单项。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:15
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:16
 msgid "Click on the *Run Search* button."
-msgstr "点击*运行搜索*按钮。"
+msgstr "点击 *运行搜索* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/search.rst:16
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:17
@@ -3290,7 +3290,7 @@ msgstr "搜索结果屏幕"
 msgid ""
 "See setting ``ITSMChange::Frontend::AgentITSMChangeSearch###ShowColumns`` to"
 " define the displayed attributes."
-msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangeSearch###ShowColumns``来定义显示的属性。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMChangeSearch###ShowColumns`` 来定义显示的属性。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:2
 msgid "Templates"
@@ -3301,7 +3301,7 @@ msgid ""
 "Use this screen to manage templates for ITSM changes. The template "
 "management screen is available in the *Templates* menu item of the *ITSM "
 "Changes* menu."
-msgstr "使用此屏幕管理ITSM更改的模板。 模板管理屏幕位于* ITSM变更*菜单的* 模板*菜单项中。"
+msgstr "使用此屏幕管理ITSM更改的模板。 模板管理屏幕位于 *ITSM变更* 菜单的 *模板* 菜单项中。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:9
 msgid "Template Management Screen"
@@ -3312,14 +3312,14 @@ msgid ""
 "Templates can be filtered by clicking on a type name in the header of the "
 "overview widget. There is an option *All* to see all templates. The numbers "
 "after the type names indicates how many templates are in each types."
-msgstr "可以通过单击概览小部件标题中的类型名称来过滤模板。 有一个选项* 所有 *可以查看所有模板。 类型名称后面的数字表示每种类型中有多少个模板。"
+msgstr "可以通过单击概览小部件标题中的类型名称来过滤模板。 有一个选项 *所有* 可以查看所有模板。 类型名称后面的数字表示每种类型中有多少个模板。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:15
 msgid ""
 "See setting "
 "``ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes`` "
 "to define the template types that will be used as filters in the overview."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes`` 以定义将在概览中用作过滤器的模板类型。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes`` 以定义将在概览中用作过滤器的模板类型。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:17
 msgid "To add a new template:"
@@ -3327,7 +3327,7 @@ msgstr "若要添加一个新模板："
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:19
 msgid "Go to the :doc:`new` ITSM change screen."
-msgstr "转到:doc:`new`ITSM变更屏幕。"
+msgstr "转到 :doc:`new` ITSM变更屏幕。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:20
 msgid "Create new changes, work orders or CABs."
@@ -3336,7 +3336,7 @@ msgstr "创建新变更、工作指令或CAB。"
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:21
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:39
 msgid "Click on the *Template* menu item to save it as template."
-msgstr "点击*模板*菜单项将其保存为模板。"
+msgstr "点击 *模板* 菜单项将其保存为模板。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:23
 msgid "To edit basic information of a template:"
@@ -3356,11 +3356,11 @@ msgstr "若要编辑一个模板的内容："
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:36
 msgid "Click on the pencil icon in the *Edit Content* column."
-msgstr "点击*编辑内容*列的铅笔图标。"
+msgstr "点击 *编辑内容* 列的铅笔图标。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:37
 msgid "Click on the *Yes* button in the confirmation dialog."
-msgstr "单击确认屏幕上的*是*按钮。"
+msgstr "单击确认屏幕上的 *是* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:38
 msgid "Modify the created change."
@@ -3379,7 +3379,7 @@ msgstr "这将从此模板创建一个新的变更，因此您可以编辑并保
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:53
 msgid "Click on the *Yes* button."
-msgstr "点击*是*按钮。"
+msgstr "点击 *是* 按钮。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:58
 msgid "Delete Template Screen"
@@ -3457,14 +3457,14 @@ msgstr "``Valid有效性``"
 msgid ""
 "Validity of the template. Templates with *invalid* or *invalid-temporarily* "
 "validity cannot be used by change builders."
-msgstr "模板的有效性。*有效性*为*无效*或*临时无效*的模板不能被变更创建人使用。"
+msgstr "模板的有效性。*有效性* 为 *无效* 或 *临时无效* 的模板不能被变更创建人使用。"
 
 #: ../../content/itsm-change-management/agent/itsm-changes/templates.rst:94
 msgid ""
 "See setting "
 "``ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns`` to define "
 "the displayed attributes."
-msgstr "请参阅设置``ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns``来定义显示的属性。"
+msgstr "请参阅设置 ``ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns`` 来定义显示的属性。"
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:25
 #: ../../content/itsm-configuration-management/install-update-uninstall.rst:25
@@ -3486,13 +3486,13 @@ msgid ""
 "The groups *itsm-change*, *itsm-change-builder* and *itsm-change-manager* "
 "that were created during package installation will be deactivated. You can "
 "activate these groups again in the administrator interface."
-msgstr "在软件包安装期间创建的组* itsm-change *、* itsm-change-builder *和* itsm-change-manager *将被停用。 您可以在管理员界面中再次激活这些组。"
+msgstr "在软件包安装期间创建的组 *itsm-change* 、*itsm-change-builder* 和 *itsm-change-manager* 将被停用。 您可以在管理员界面中再次激活这些组。"
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:103
 msgid ""
 "All links to change objects and work order objects **will be irrevocably "
 "deleted**!"
-msgstr "所有变更对象和工作指令对象的链接**都将被不可撤销地删除**！"
+msgstr "所有变更对象和工作指令对象的链接 **都将被不可撤销地删除** ！"
 
 #: ../../content/itsm-change-management/install-update-uninstall.rst:105
 #: ../../content/itsm-configuration-management/install-update-uninstall.rst:105
@@ -3525,7 +3525,7 @@ msgid ""
 "*ITSM configuration management* adds some new classes to the *General "
 "Catalog*. The general catalog management screen is available in the *General"
 " Catalog* module of the *Administration* group."
-msgstr "*ITSM配置管理*向*通用目录*添加了一些新类。“通用目录管理”屏幕位于*系统管理*组的*通用目录*模块中。"
+msgstr "*ITSM配置管理* 向 *通用目录* 添加了一些新类。“通用目录管理”屏幕位于 *系统管理* 组的 *通用目录* 模块中。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:20
 msgid "ITSM::ConfigItem::Class"
@@ -3539,7 +3539,7 @@ msgstr "用于配置项类的类。"
 msgid ""
 "The class definition of configuration item classes can be managed in the "
 ":doc:`../cmdb-settings/config-items` module of the *CMDB Settings* group."
-msgstr "配置项类的类定义可以在*CMDB设置*组的 :doc:`../cmdb-settings/config-items`模块中管理。"
+msgstr "配置项类的类定义可以在 *CMDB设置* 组的 :doc:`../cmdb-settings/config-items` 模块中管理。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:23
 msgid "ITSM::ConfigItem::Computer::Type"
@@ -3559,7 +3559,7 @@ msgstr "ITSM::ConfigItem::DeploymentState"
 msgid ""
 "A class for deployment states, that can be selected in "
 ":doc:`../../agent/cmdb` when adding or editing configuration items."
-msgstr "用于部署状态的类，在添加或编辑配置项时可以在 :doc:`../../agent/cmdb`中选择。"
+msgstr "用于部署状态的类，在添加或编辑配置项时可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:29
 msgid "ITSM::ConfigItem::Hardware::Type"
@@ -3569,7 +3569,7 @@ msgstr "ITSM::ConfigItem::Hardware::Type"
 msgid ""
 "A class for hardware types, that can be selected in :doc:`../../agent/cmdb` "
 "when adding or editing configuration items of type hardware."
-msgstr "硬件类型的类，在添加或编辑硬件类型的配置项时，可以在 :doc:`../../agent/cmdb`中选择。"
+msgstr "硬件类型的类，在添加或编辑硬件类型的配置项时，可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:32
 msgid "ITSM::ConfigItem::Location::Type"
@@ -3579,7 +3579,7 @@ msgstr "ITSM::ConfigItem::Location::Type"
 msgid ""
 "A class for location types, that can be selected in :doc:`../../agent/cmdb` "
 "when adding or editing configuration items of type location."
-msgstr "位置类型的类，在添加或编辑位置类型的配置项时，可以在:doc:`../../agent/cmdb` 中选择。"
+msgstr "位置类型的类，在添加或编辑位置类型的配置项时，可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:35
 msgid "ITSM::ConfigItem::Network::Type"
@@ -3589,7 +3589,7 @@ msgstr "ITSM::ConfigItem::Network::Type"
 msgid ""
 "A class for network types, that can be selected in :doc:`../../agent/cmdb` "
 "when adding or editing configuration items of type network."
-msgstr "网络类型的类，在添加或编辑网络类型的配置项时，可以在:doc:`../../agent/cmdb` 中选择。"
+msgstr "网络类型的类，在添加或编辑网络类型的配置项时，可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:38
 msgid "ITSM::ConfigItem::Software::LicenceType"
@@ -3600,7 +3600,7 @@ msgid ""
 "A class for software license types, that can be selected in "
 ":doc:`../../agent/cmdb` when adding or editing configuration items of type "
 "software."
-msgstr "软件许可证类型的类，在添加或编辑软件类型的配置项时，可以在 :doc:`../../agent/cmdb`中选择。"
+msgstr "软件许可证类型的类，在添加或编辑软件类型的配置项时，可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:41
 msgid "ITSM::ConfigItem::Software::Type"
@@ -3610,7 +3610,7 @@ msgstr "ITSM::ConfigItem::Software::Type"
 msgid ""
 "A class for software types, that can be selected in :doc:`../../agent/cmdb` "
 "when adding or editing configuration items of type software."
-msgstr "软件类型的类，在添加或编辑软件类型的配置项时，可以在:doc:`../../agent/cmdb`中选择。"
+msgstr "软件类型的类，在添加或编辑软件类型的配置项时，可以在 :doc:`../../agent/cmdb` 中选择。"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:43
 msgid "ITSM::ConfigItem::YesNo"
@@ -3618,7 +3618,7 @@ msgstr "ITSM::ConfigItem::YesNo"
 
 #: ../../content/itsm-configuration-management/admin/administration/general-catalog.rst:44
 msgid "This class contains the items *Yes* and *No*."
-msgstr "此类包含项目*是*和*否*。"
+msgstr "此类包含项目 *是* 和 *否*。"
 
 #: ../../content/itsm-configuration-management/admin/cmdb-settings.rst:2
 msgid "CMDB Settings"
@@ -3628,7 +3628,7 @@ msgstr "CMDB设置"
 msgid ""
 "After installation of the package a new group *CMDB Settings* will be "
 "available with a new module in the administrator interface."
-msgstr "安装本软件包后，管理员界面中将在一个新模块中提供一个新的组*CMDB设置*。"
+msgstr "安装本软件包后，管理员界面中将在一个新模块中提供一个新的组 *CMDB设置*。"
 
 #: ../../content/itsm-configuration-management/admin/cmdb-settings/config-items.rst:2
 msgid "Config Items"
@@ -3639,7 +3639,7 @@ msgid ""
 "Use this screen to manage class definition of configuration item classes. "
 "The configuration item class management screen is available in the *Config "
 "Items* module of the *CMDB Settings* group."
-msgstr "使用此屏幕可管理配置项类的类定义。“配置项类管理”屏幕在*CMDB设置*组的*配置项*模块中可用。"
+msgstr "使用此屏幕可管理配置项类的类定义。“配置项类管理”屏幕在 *CMDB设置* 组的 *配置项* 模块中可用。"
 
 #: ../../content/itsm-configuration-management/admin/cmdb-settings/config-items.rst:9
 msgid "Configuration Item Management Screen"
@@ -3655,7 +3655,7 @@ msgstr "从左侧边栏的下拉列表中选择一个类。"
 
 #: ../../content/itsm-configuration-management/admin/cmdb-settings/config-items.rst:14
 msgid "Click on the *Change class definition* button."
-msgstr "点击*修改类定义*按钮。"
+msgstr "点击 *修改类定义* 按钮。"
 
 #: ../../content/itsm-configuration-management/admin/cmdb-settings/config-items.rst:15
 msgid "Add or edit the class definition in JSON format."
@@ -3687,7 +3687,7 @@ msgid ""
 "New configuration item classes can be added in :doc:`../../../general-"
 "catalog/admin/administration/general-catalog` module in the administrator "
 "interface."
-msgstr "新的配置项类可以添加到管理员界面的:doc:`../../../general-catalog/admin/administration/general-catalog` 模块中。"
+msgstr "新的配置项类可以添加到管理员界面的 :doc:`../../../general-catalog/admin/administration/general-catalog` 模块中。"
 
 #: ../../content/itsm-configuration-management/admin/processes-automation.rst:2
 #: ../../content/itsm-core/admin/processes-automation.rst:2
@@ -3737,7 +3737,7 @@ msgid ""
 "For more information please take a look at the WSDL file on `GitHub "
 "<https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-"
 "6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl>`__."
-msgstr "有关详细信息，请查看 `GitHub <https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl>`__上的WSDL文件。"
+msgstr "有关详细信息，请查看 `GitHub <https://github.com/OTRS/ITSMConfigurationManagement/blob/rel-6_0/development/webservices/GenericConfigItemConnectorSOAP.wsdl>`__ 上的WSDL文件。"
 
 #: ../../content/itsm-configuration-management/admin/processes-automation/web-services.rst:18
 msgid "New Operations"
@@ -3747,7 +3747,7 @@ msgstr "新的操作"
 msgid ""
 "These new operations are available in the *Web Services* module of the "
 "*Processes & Automation* group:"
-msgstr "这些新操作可在*流程和自动化*组的*Web服务*模块中获得："
+msgstr "这些新操作可在 *流程和自动化* 组的 *Web服务* 模块中获得："
 
 #: ../../content/itsm-configuration-management/admin/processes-automation/web-services.rst:22
 msgid "``ConfigItem::ConfigItemCreate``"
@@ -3781,13 +3781,13 @@ msgstr "添加或编辑一个Web服务。"
 msgid ""
 "Select a *Network transport* in the *OTRS as provider* widget and save the "
 "web service."
-msgstr "在*OTRS作为提供程序*小部件中选择一个*网络传输*并保存Web服务。"
+msgstr "在 *OTRS作为提供程序* 小部件中选择一个 *网络传输* 并保存Web服务。"
 
 #: ../../content/itsm-configuration-management/admin/processes-automation/web-services.rst:32
 msgid ""
 "The new operations are available in the *Add Operation* field of the *OTRS "
 "as provider* widget."
-msgstr "新的操作可以在*OTRS作为提供程序*小部件的*添加操作*字段中找到。"
+msgstr "新的操作可以在 *OTRS作为提供程序* 小部件的 *添加操作* 字段中找到。"
 
 #: ../../content/itsm-configuration-management/admin/users-groups-roles.rst:4
 #: ../../content/itsm-core/admin/users-groups-roles.rst:4
@@ -3800,7 +3800,7 @@ msgid ""
 "After installation of the package a new group is added to the system. The "
 "group management screen is available in the *Groups* module of the *Users, "
 "Groups & Roles* group."
-msgstr "安装本软件包后，将向系统添加一个新组。“组管理”屏幕在*用户、组和角色*组的*组*模块中可用。"
+msgstr "安装本软件包后，将向系统添加一个新组。“组管理”屏幕在 *用户、组和角色* 组的 *组* 模块中可用。"
 
 #: ../../content/itsm-configuration-management/admin/users-groups-roles/groups.rst:13
 #: ../../content/itsm-core/admin/users-groups-roles/groups.rst:13
@@ -3829,7 +3829,7 @@ msgstr "用于访问服务人员界面的*ITSM配置项*屏幕的组。"
 msgid ""
 "The primary administrator user (root@localhost) is added to the group with "
 "permission *rw* by default."
-msgstr "默认情况下，将主要管理员用户（root@localhost）添加到该组中的*rw*权限。"
+msgstr "默认情况下，将主要管理员用户（root@localhost）添加到该组中的 *rw* 权限。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb.rst:2
 msgid "CMDB"
@@ -3840,7 +3840,7 @@ msgstr "CMDB配置管理数据库"
 msgid ""
 "In order to grant users access to the *CMDB* menu, you need to add them as "
 "member to the group *itsm-configitem*."
-msgstr "要授予用户访问*CMDB*菜单的权限，需要将其作为成员添加到组*itsm-configitem*中。"
+msgstr "要授予用户访问 *CMDB* 菜单的权限，需要将其作为成员添加到组 *itsm-configitem* 中。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/new.rst:4
 msgid ""
@@ -3869,7 +3869,7 @@ msgid ""
 "The fields in the *Add Configuration Item Screen* can be very different on "
 "each classes. To see the available fields, check the :doc:`../../admin/cmdb-"
 "settings/config-items` module in the administrator interface."
-msgstr "在每个类中，*添加配置项屏幕*中的字段可能非常不同。要查看可用字段，请检查管理员界面中的 :doc:`../../admin/cmdb-settings/config-items`模块。"
+msgstr "在每个类中，*添加配置项屏幕* 中的字段可能非常不同。要查看可用字段，请检查管理员界面中的 :doc:`../../admin/cmdb-settings/config-items` 模块。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:4
 msgid "This screen gives an overview of configuration items."
@@ -3887,7 +3887,7 @@ msgid ""
 "header of the overview widget. There is an option *All* to see all "
 "configuration items. The numbers after the class names indicates how many "
 "configuration items are in each classes."
-msgstr "可以通过单击概览小部件标题中的类名来过滤配置项。 有一个选项* 所有 *可以查看所有配置项。 类名后面的数字表示每个类中有多少配置项。"
+msgstr "可以通过单击概览小部件标题中的类名来过滤配置项。 有一个选项 *所有* 可以查看所有配置项。 类名后面的数字表示每个类中有多少配置项。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:13
 msgid "To limit the number of displayed configuration items per page:"
@@ -3911,7 +3911,7 @@ msgstr "ITSM配置项详情屏幕"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:28
 msgid "The *Configuration Item Zoom* screen has an own menu."
-msgstr "*配置项详情*屏幕有一个自己的菜单。"
+msgstr "*配置项详情* 屏幕有一个自己的菜单。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:34
 msgid ""
@@ -3936,7 +3936,7 @@ msgid ""
 "This menu item opens the standard link screen of OTRS. Configuration items "
 "can be linked to any other objects like FAQ articles, services, tickets or "
 "configuration items. Existing links can also be managed here."
-msgstr "此菜单项打开OTRS的标准链接屏幕。配置项可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
+msgstr "此菜单项打开 OTRS 的标准链接屏幕。配置项可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:58
 msgid "Link ITSM Configuration Item Screen"
@@ -3951,7 +3951,7 @@ msgid ""
 "This menu item opens a new window to duplicate the configuration item. This "
 "screen is the same as the edit screen, but clicking the *Save* button will "
 "create a new configuration item instead of modify the current one."
-msgstr "此菜单项打开一个新窗口以复制配置项。 此屏幕与编辑屏幕相同，但单击* 保存 *按钮将创建新配置项而不是修改当前配置项。"
+msgstr "此菜单项打开一个新窗口以复制配置项。 此屏幕与编辑屏幕相同，但单击 *保存* 按钮将创建新配置项而不是修改当前配置项。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/overview.rst:66
 msgid "Duplicate ITSM Configuration Item Screen"
@@ -3981,7 +3981,7 @@ msgstr "若要搜索配置项："
 
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:13
 msgid "Click on the *Search* menu item in the *CMDB* menu."
-msgstr "点击*CMDB*菜单中的*搜索*菜单项。"
+msgstr "点击 *CMDB* 菜单中的 *搜索* 菜单项。"
 
 #: ../../content/itsm-configuration-management/agent/cmdb/search.rst:14
 msgid "Select a class from the drop-down field."
@@ -3995,7 +3995,7 @@ msgstr "客户"
 msgid ""
 "After installation of the package a new widget will be available in the "
 "*Customer Information Center* and *Customer User Information Center*."
-msgstr "安装本软件包后，*客户信息中心*和*客户用户信息中心*将提供一个新的小部件。"
+msgstr "安装本软件包后，*客户信息中心* 和 *客户用户信息中心* 将提供一个新的小部件。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:2
 msgid "Customer Information Center"
@@ -4005,7 +4005,7 @@ msgstr "客户信息中心"
 msgid ""
 "After installation of the package a new widget named *Assigned CIs* will be "
 "available in the *Customer Information Center*."
-msgstr "安装本软件包后，*客户信息中心*中将提供名为*分配的CI*的新的小部件。"
+msgstr "安装本软件包后，*客户信息中心* 中将提供名为 *分配的CI* 的新的小部件。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:9
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:9
@@ -4023,14 +4023,14 @@ msgid ""
 "The assignment is done via attribute ``CustomerID`` by default. If the "
 "configuration item uses different attribute for linking, you should change "
 "it in the system configuration settings."
-msgstr "默认情况下，通过属性``CustomerID``完成CI分配。 如果配置项使用不同的属性进行链接，则应在系统配置设置中更改它。"
+msgstr "默认情况下，通过属性 ``CustomerID`` 完成CI分配。 如果配置项使用不同的属性进行链接，则应在系统配置设置中更改它。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:19
 msgid ""
 "See ``AgentCustomerInformationCenter::Backend###0060-CIC-"
 "ITSMConfigItemCustomerCompany`` system configuration setting for more "
 "information."
-msgstr "有关详细信息，请参阅系统配置设置``AgentCustomerInformationCenter::Backend###0060-CIC-ITSMConfigItemCustomerCompany``。"
+msgstr "有关详细信息，请参阅系统配置设置 ``AgentCustomerInformationCenter::Backend###0060-CIC-ITSMConfigItemCustomerCompany``。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:21
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:21
@@ -4042,13 +4042,13 @@ msgid ""
 "You also need to have this ``CustomerID`` attribute in the class definition "
 "to display the assigned configuration items. Check the existing class "
 "definitions in the :doc:`../../admin/cmdb-settings/config-items` module."
-msgstr "您还需要在类定义中有这个``CustomerID`` 属性来显示分配的配置项。检查:doc:`../../admin/cmdb-settings/config-items` 模块中现有的类定义。"
+msgstr "您还需要在类定义中有这个 ``CustomerID`` 属性来显示分配的配置项。检查 :doc:`../../admin/cmdb-settings/config-items` 模块中现有的类定义。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-information-center.rst:33
 msgid ""
 "If your class definition doesn't contain the ``CustomerID`` attribute, then "
 "you have to add it manually."
-msgstr "如果类定义不包含``CustomerID``属性，则必须手动添加它。"
+msgstr "如果类定义不包含 ``CustomerID`` 属性，则必须手动添加它。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:2
 msgid "Customer User Information Center"
@@ -4058,7 +4058,7 @@ msgstr "客户用户信息中心。"
 msgid ""
 "After installation of the package a new widget named *Assigned CIs* will be "
 "available in the *Customer User Information Center*."
-msgstr "安装本软件包后，*客户用户信息中心*将提供一个名为*分配的CI*的新的小部件。"
+msgstr "安装本软件包后，*客户用户信息中心* 将提供一个名为 *分配的CI* 的新的小部件。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:11
 msgid ""
@@ -4071,7 +4071,7 @@ msgid ""
 "The assignment is done via attribute ``Owner`` by default. If the "
 "configuration item uses different attribute for linking, you should change "
 "it in the system configuration settings."
-msgstr "默认情况下，通过属性``Owner``完成CI分配。 如果配置项使用不同的属性进行链接，则应在系统配置设置中更改它。"
+msgstr "默认情况下，通过属性 ``Owner`` 完成CI分配。 如果配置项使用不同的属性进行链接，则应在系统配置设置中更改它。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:19
 msgid ""
@@ -4085,25 +4085,25 @@ msgid ""
 "You also need to have this ``Owner`` attribute in the class definition to "
 "display the assigned configuration items. Check the existing class "
 "definitions in the :doc:`../../admin/cmdb-settings/config-items` module."
-msgstr "您还需要在类定义中有这个``Owner`` 属性来显示分配的配置项。检查:doc:`../../admin/cmdb-settings/config-items` 模块中现有的类定义。"
+msgstr "您还需要在类定义中有这个 ``Owner`` 属性来显示分配的配置项。检查 :doc:`../../admin/cmdb-settings/config-items` 模块中现有的类定义。"
 
 #: ../../content/itsm-configuration-management/agent/customers/customer-user-information-center.rst:33
 msgid ""
 "If your class definition doesn't contain the ``Owner`` attribute, then you "
 "have to add it manually."
-msgstr "如果类定义不包含``Owner``属性，则必须手动添加它。"
+msgstr "如果类定义不包含 ``Owner`` 属性，则必须手动添加它。"
 
 #: ../../content/itsm-configuration-management/install-update-uninstall.rst:101
 msgid ""
 "The group *itsm-configitem* that was created during package installation "
 "will be deactivated. You can activate this group again in the administrator "
 "interface."
-msgstr "在安装软件包期间创建的组*itsm-configitem*将被停用。您可以在管理员界面中再次激活这个组。"
+msgstr "在安装软件包期间创建的组 *itsm-configitem* 将被停用。您可以在管理员界面中再次激活这个组。"
 
 #: ../../content/itsm-configuration-management/install-update-uninstall.rst:103
 msgid ""
 "All links to configuration item objects **will be irrevocably deleted**!"
-msgstr "所有配置项对象的链接**都将被不可撤销地删除**！"
+msgstr "所有配置项对象的链接 **都将被不可撤销地删除**！"
 
 #: ../../content/itsm-core.rst:2
 msgid "ITSM Core"
@@ -4120,7 +4120,7 @@ msgid ""
 "*ITSM Core* adds some new classes to the *General Catalog*. The general "
 "catalog management screen is available in the *General Catalog* module of "
 "the *Administration* group."
-msgstr "*ITSM核心*在*通用目录*中添加了一些新类。“通用目录管理”屏幕位于*系统管理*组的*通用目录*模块中。"
+msgstr "*ITSM核心* 在 *通用目录* 中添加了一些新类。“通用目录管理”屏幕位于 *系统管理* 组的 *通用目录* 模块中。"
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:16
 msgid "ITSM::Core::IncidentState"
@@ -4128,7 +4128,7 @@ msgstr "ITSM::Core::IncidentState"
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:16
 msgid "This class contains incident states."
-msgstr "This class contains incident states."
+msgstr "此类包含事件状态。"
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:19
 msgid "ITSM::Service::Type"
@@ -4136,7 +4136,7 @@ msgstr "ITSM::Service::Type"
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:19
 msgid "This class contains service types."
-msgstr "This class contains service types."
+msgstr "此类包含服务类型。"
 
 #: ../../content/itsm-core/admin/administration/general-catalog.rst:21
 msgid "ITSM::SLA::Type"
@@ -4164,7 +4164,7 @@ msgid ""
 "After installation of the package some new dynamic fields are added to the "
 "system. The dynamic field management screen is available in the *Dynamic "
 "Fields* module of the *Processes & Automation* group."
-msgstr "安装本软件包之后，一些新的动态字段将添加到系统中。“动态字段管理”屏幕可在*流程与自动化*组的*动态字段*模块中找到。"
+msgstr "安装本软件包之后，一些新的动态字段将添加到系统中。“动态字段管理”屏幕可在 *流程与自动化* 组的 *动态字段* 模块中找到。"
 
 #: ../../content/itsm-core/admin/processes-automation/dynamic-fields.rst:9
 #: ../../content/itsm-incident-problem-management/admin/processes-automation/dynamic-fields.rst:9
@@ -4184,7 +4184,7 @@ msgstr "``ITSMCriticality``"
 msgid ""
 "This is a drop-down dynamic field that contains criticality levels from *1 "
 "very low* to *5 very high*."
-msgstr "这是一个下拉动态字段，包含从*1-极低*到*5-极高*的紧急度级别。"
+msgstr "这是一个下拉动态字段，包含从 *1-极低* 到 *5-极高* 的紧急度级别。"
 
 #: ../../content/itsm-core/admin/processes-automation/dynamic-fields.rst:18
 msgid "``ITSMImpact``"
@@ -4194,7 +4194,7 @@ msgstr "``ITSMImpact``"
 msgid ""
 "This is a drop-down dynamic field that contains impact levels from *1 very "
 "low* to *5 very high*."
-msgstr "这是一个下拉动态字段，包含从*1-极低*到*5-极高*的影响级别。"
+msgstr "这是一个下拉动态字段，包含从 *1-极低* 到 *5-极高* 的影响级别。"
 
 #: ../../content/itsm-core/admin/ticket-settings.rst:4
 msgid ""
@@ -4202,7 +4202,7 @@ msgid ""
 "administrator interface. Furthermore, :doc:`ticket-settings/service-level-"
 "agreements` and :doc:`ticket-settings/services` screens are extended with "
 "some new fields."
-msgstr "安装本软件包后，管理员界面中将提供一个新模块。此外，:doc:`ticket-settings/service-level-agreements`和 :doc:`ticket-settings/services`屏幕还扩展了一些新字段。"
+msgstr "安装本软件包后，管理员界面中将提供一个新模块。此外，:doc:`ticket-settings/service-level-agreements` 和 :doc:`ticket-settings/services` 屏幕还扩展了一些新字段。"
 
 #: ../../content/itsm-core/admin/ticket-settings/criticality-impact-priority.rst:2
 msgid "Criticality ↔ Impact ↔ Priority"
@@ -4213,11 +4213,11 @@ msgid ""
 "Use this screen to manage the criticality ↔ impact ↔ priority matrix. The "
 "management screen is available in the *Criticality ↔ Impact ↔ Priority* "
 "module of the *Ticket Settings* group."
-msgstr "使用此屏幕可管理紧急度↔ 影响↔ 优先级矩阵。管理屏幕位于*工单设置*组的*紧急度↔ 影响↔ 优先级*模块中。"
+msgstr "使用此屏幕可管理紧急度↔ 影响↔ 优先级矩阵。管理屏幕位于 *工单设置* 组的 *紧急度 ↔ 影响 ↔ 优先级* 模块中。"
 
 #: ../../content/itsm-core/admin/ticket-settings/criticality-impact-priority.rst:9
 msgid "Criticality ↔ Impact ↔ Priority Screen"
-msgstr "紧急度↔ 影响↔ 优先级屏幕"
+msgstr "紧急度 ↔ 影响 ↔ 优先级屏幕"
 
 #: ../../content/itsm-core/admin/ticket-settings/service-level-agreements.rst:2
 #: ../../content/itsm-core/agent/services/sla.rst:2
@@ -4228,7 +4228,7 @@ msgstr "服务级别协议"
 msgid ""
 "The service level agreement management screen is available in the *Service "
 "Level Agreements* module of the *Ticket Settings* group."
-msgstr "服务级别协议管理屏幕可在*工单设置*组的*服务级别协议*模块中找到。"
+msgstr "服务级别协议管理屏幕可在 *工单设置* 组的 *服务级别协议* 模块中找到。"
 
 #: ../../content/itsm-core/admin/ticket-settings/service-level-agreements.rst:9
 msgid "Add Service Level Agreement Screen"
@@ -4256,7 +4256,7 @@ msgstr "类型"
 msgid ""
 "Select a type for the service level agreement. The possible values come from"
 " :doc:`../administration/general-catalog` added by the package."
-msgstr "选择服务级别协议的类型。可能的值来自本软件包添加的:doc:`../administration/general-catalog`。"
+msgstr "选择服务级别协议的类型。可能的值来自本软件包添加的 :doc:`../administration/general-catalog`。"
 
 #: ../../content/itsm-core/admin/ticket-settings/service-level-agreements.rst:20
 msgid "Minimum Time Between Incidents (minutes)"
@@ -4275,7 +4275,7 @@ msgstr "服务"
 msgid ""
 "The service management screen is available in the *Services* module of the "
 "*Ticket Settings* group."
-msgstr "服务管理屏幕可在*工单设置*组的*服务*模块中找到。"
+msgstr "服务管理屏幕可在 *工单设置* 组的 *服务* 模块中找到。"
 
 #: ../../content/itsm-core/admin/ticket-settings/services.rst:9
 msgid "Add Service Screen"
@@ -4289,7 +4289,7 @@ msgstr "服务设置"
 msgid ""
 "Select a type for the service. The possible values come from "
 ":doc:`../administration/general-catalog` added by the package."
-msgstr "选择服务的类型。可能的值来自本软件包添加的:doc:`../administration/general-catalog`。"
+msgstr "选择服务的类型。可能的值来自本软件包添加的 :doc:`../administration/general-catalog`。"
 
 #: ../../content/itsm-core/admin/ticket-settings/services.rst:20
 msgid "Criticality"
@@ -4299,7 +4299,7 @@ msgstr "紧急度"
 msgid ""
 "Select a criticality for the service. The possible values come from "
 ":doc:`../administration/general-catalog` added by the package."
-msgstr "选择服务的紧急度。可能的值来自本软件包添加的:doc:`../administration/general-catalog`。"
+msgstr "选择服务的紧急度。可能的值来自本软件包添加的 :doc:`../administration/general-catalog`。"
 
 #: ../../content/itsm-core/admin/users-groups-roles/groups.rst:18
 msgid "*itsm-service*"
@@ -4307,14 +4307,14 @@ msgstr "*itsm-service*"
 
 #: ../../content/itsm-core/admin/users-groups-roles/groups.rst:18
 msgid "Group for accessing the *ITSM Service* screen of the agent interface."
-msgstr "用于访问服务人员界面的*ITSM服务*屏幕的组。"
+msgstr "用于访问服务人员界面的 *ITSM服务* 屏幕的组。"
 
 #: ../../content/itsm-core/agent/services.rst:8
 #: ../../content/itsm-core/install-update-uninstall.rst:33
 msgid ""
 "In order to grant users access to the *Services* menu, you need to add them "
 "as member to the group *itsm-service*."
-msgstr "为了授予用户访问*服务*菜单的权限，您需要将它们作为成员添加到组*itsm-service*中。"
+msgstr "为了授予用户访问 *服务* 菜单的权限，您需要将它们作为成员添加到组 *itsm-service* 中。"
 
 #: ../../content/itsm-core/agent/services/service.rst:2
 #: ../../content/itsm-core/agent/tickets/new-email-ticket.rst:16
@@ -4328,7 +4328,7 @@ msgid ""
 "Use this screen to get a list of services directly in the agent interface. "
 "The *Service* menu item is available in the *Services* menu of the main "
 "navigation bar."
-msgstr "使用此屏幕可直接在服务人员界面中获取服务列表。*服务*菜单项可在主导航栏的*服务*菜单中找到。"
+msgstr "使用此屏幕可直接在服务人员界面中获取服务列表。 *服务* 菜单项可在主导航栏的 *服务* 菜单中找到。"
 
 #: ../../content/itsm-core/agent/services/service.rst:9
 msgid "Service Overview Screen"
@@ -4348,14 +4348,14 @@ msgstr "服务详情屏幕"
 
 #: ../../content/itsm-core/agent/services/service.rst:20
 msgid "The *Service Zoom* screen has an own menu."
-msgstr "*服务详情*屏幕有一个自己的菜单。"
+msgstr "*服务详情* 屏幕有一个自己的菜单。"
 
 #: ../../content/itsm-core/agent/services/service.rst:29
 msgid ""
 "This menu item opens the standard link screen of OTRS. Services can be "
 "linked to any other objects like FAQ articles, services, tickets or "
 "configuration items. Existing links can also be managed here."
-msgstr "此菜单项打开OTRS的标准链接屏幕。服务可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
+msgstr "此菜单项打开 OTRS 的标准链接屏幕。服务可以链接到任何其他对象，如FAQ文章、服务、工单或配置项。也可以在此处管理现有链接。"
 
 #: ../../content/itsm-core/agent/services/service.rst:34
 msgid "Link Service Screen"
@@ -4366,14 +4366,14 @@ msgid ""
 "At the bottom of the screen the associated service level agreements are "
 "displayed. If you click on a service level agreement, the :doc:`sla` zoom "
 "screen will open."
-msgstr "屏幕底部将显示相关的服务级别协议。如果单击服务级别协议，将打开 :doc:`sla`详情屏幕。"
+msgstr "屏幕底部将显示相关的服务级别协议。如果单击服务级别协议，将打开 :doc:`sla` 详情屏幕。"
 
 #: ../../content/itsm-core/agent/services/sla.rst:4
 msgid ""
 "Use this screen to get a list of service level agreements directly in the "
 "agent interface. The *SLA* menu item is available in the *Services* menu of "
 "the main navigation bar."
-msgstr "使用此屏幕可直接在服务人员界面中获取服务级别协议的列表。*SLA*菜单项可在主导航栏的*服务*菜单中找到。"
+msgstr "使用此屏幕可直接在服务人员界面中获取服务级别协议的列表。*SLA* 菜单项可在主导航栏的 *服务* 菜单中找到。"
 
 #: ../../content/itsm-core/agent/services/sla.rst:9
 msgid "SLA Overview Screen"
@@ -4393,13 +4393,13 @@ msgstr "服务级别协议详情屏幕"
 
 #: ../../content/itsm-core/agent/services/sla.rst:20
 msgid "The *Service Level Agreement Zoom* screen has an own menu."
-msgstr "*服务级别协议详情*屏幕有一个自己的菜单。"
+msgstr "*服务级别协议详情* 屏幕有一个自己的菜单。"
 
 #: ../../content/itsm-core/agent/services/sla.rst:28
 msgid ""
 "At the bottom of the screen the associated services are displayed. If you "
 "click on a service, the :doc:`service` zoom screen will open."
-msgstr "在屏幕底部显示关联的服务。如果单击服务，将打开:doc:`service`详情屏幕。"
+msgstr "在屏幕底部显示关联的服务。如果单击服务，将打开 :doc:`service` 详情屏幕。"
 
 #: ../../content/itsm-core/agent/tickets.rst:2
 #: ../../content/itsm-incident-problem-management/agent/tickets.rst:2
@@ -4423,7 +4423,7 @@ msgstr "新的邮件工单"
 msgid ""
 "After installation of the package some new fields will be available in the "
 "*New Email Ticket* screen."
-msgstr "安装本软件包后，一些新的动态字段将在*新建邮件工单*屏幕中可用。"
+msgstr "安装本软件包后，在 *新建邮件工单* 屏幕中可用一些新的动态字段。"
 
 #: ../../content/itsm-core/agent/tickets/new-email-ticket.rst:9
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-email-ticket.rst:9
@@ -4474,19 +4474,19 @@ msgstr "``Ticket::Frontend::AgentTicketEmail###SLAMandatory``"
 #: ../../content/itsm-core/agent/tickets/new-phone-ticket.rst:2
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-phone-ticket.rst:2
 msgid "New Phone Ticket"
-msgstr "新的电话工单"
+msgstr "创建电话工单"
 
 #: ../../content/itsm-core/agent/tickets/new-phone-ticket.rst:4
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-phone-ticket.rst:4
 msgid ""
 "After installation of the package some new fields will be available in the "
 "*New Phone Ticket* screen."
-msgstr "安装本软件包后，一些新的动态字段将在*创建电话工单*屏幕中可用。"
+msgstr "安装本软件包后，一些新的动态字段将在 *创建电话工单* 屏幕中可用。"
 
 #: ../../content/itsm-core/agent/tickets/new-phone-ticket.rst:9
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-phone-ticket.rst:9
 msgid "New Phone Ticket Screen"
-msgstr "新的电话工单屏幕"
+msgstr "创建电话工单屏幕"
 
 #: ../../content/itsm-core/agent/tickets/new-phone-ticket.rst:25
 msgid "``Ticket::Frontend::AgentTicketPhone###ServiceMandatory``"
@@ -4505,7 +4505,7 @@ msgstr "工单详情"
 msgid ""
 "After installation of the package some new fields will be available in the "
 "*Free Fields* window of *Ticket Zoom* screen."
-msgstr "安装本软件包后，一些新的动态字段将在*工单详情*屏幕的*自定义字段*窗口中可用。"
+msgstr "安装本软件包后，在 *工单详情* 屏幕的 *自定义字段* 窗口中可用一些新的动态字段。"
 
 #: ../../content/itsm-core/agent/tickets/ticket-zoom.rst:9
 msgid "Free Fields Window"
@@ -4524,7 +4524,7 @@ msgid ""
 "The group *itsm-service* that was created during package installation will "
 "be deactivated. You can activate this group again in the administrator "
 "interface."
-msgstr "在安装软件包期间创建的组*itsm-service*将被停用。您可以在管理员界面中再次激活这个组。"
+msgstr "在安装软件包期间创建的组 *itsm-service* 将被停用。您可以在管理员界面中再次激活这个组。"
 
 #: ../../content/itsm-incident-problem-management.rst:2
 msgid "ITSM Incident Problem Management"
@@ -4547,7 +4547,7 @@ msgid ""
 " ITIL recommendations and ITIL terminology. At the same time, user comfort "
 "was a main consideration, and terms known from OTRS have been retained as "
 "much as possible."
-msgstr "OTRS::ITSM中的故障管理和问题管理流程基于ITIL推荐和ITIL术语。同时，用户友好也是主要考虑因素，来自OTRS的术语也尽可能保留。"
+msgstr "OTRS::ITSM 中的故障管理和问题管理流程基于ITIL推荐和ITIL术语。同时，用户友好也是主要考虑因素，来自OTRS的术语也尽可能保留。"
 
 #: ../../content/itsm-incident-problem-management/admin/processes-automation/dynamic-fields.rst:16
 msgid "``ITSMReviewRequired``"
@@ -4557,7 +4557,7 @@ msgstr "``ITSMReviewRequired``"
 msgid ""
 "This is a drop-down dynamic field that contains *Yes* and *No* to indicate "
 "if a review is required."
-msgstr "这是一个下拉动态字段，包含*是*和*否*以指示是否需要评审。"
+msgstr "这是一个下拉动态字段，包含 *是* 和 *否* 以指示是否需要评审。"
 
 #: ../../content/itsm-incident-problem-management/admin/processes-automation/dynamic-fields.rst:19
 msgid "``ITSMDecisionResult``"
@@ -4615,13 +4615,13 @@ msgstr "转到系统配置。"
 
 #: ../../content/itsm-incident-problem-management/admin/processes-automation/dynamic-fields.rst:38
 msgid "Filter the settings for ``ITSMIncidentProblemManagement`` group."
-msgstr "过滤``ITSMIncidentProblemManagement``组的设置。"
+msgstr "过滤 ``ITSMIncidentProblemManagement`` 组的设置。"
 
 #: ../../content/itsm-incident-problem-management/admin/processes-automation/dynamic-fields.rst:39
 msgid ""
 "Navigate to ``Frontend`` → ``Agent`` → ``View`` or ``Frontend`` → "
 "``External`` → ``View`` to see the screens."
-msgstr "导航到``Frontend前端`` → ``Agent服务人员`` → ``View视图``或``Frontend前端`` → ``External外部人员`` → ``View视图``来查看该屏幕。"
+msgstr "导航到 ``前端`` → ``服务人员`` → ``视图`` 或 ``前端`` → ``外部人员`` → ``视图`` 来查看该屏幕。"
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings.rst:4
 msgid ""
@@ -4638,7 +4638,7 @@ msgid ""
 "After installation of the package a new state is added to the system. The "
 "state management screen is available in the *States* module of the *Ticket "
 "Settings* group."
-msgstr "安装本软件包后，系统会添加一个新状态。 状态管理屏幕位于*工单设置*组的* 状态*模块中。"
+msgstr "安装本软件包后，系统会添加一个新状态。 状态管理屏幕位于 *工单设置* 组的 *状态* 模块中。"
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/states.rst:9
 msgid "State Management Screen"
@@ -4663,7 +4663,7 @@ msgid ""
 "After installation of the package some new types are added to the system. "
 "The type management screen is available in the *Types* module of the *Ticket"
 " Settings* group."
-msgstr "安装本软件包后，系统会添加一些新类型。 类型管理屏幕位于*工单设置*组的*类型*模块中。"
+msgstr "安装本软件包后，系统会添加一些新类型。 类型管理屏幕位于 *工单设置* 组的 *类型* 模块中。"
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:13
 msgid "New Types"
@@ -4687,7 +4687,7 @@ msgstr "用于为重大事件创建的工单。"
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:22
 msgid "``Problem``"
-msgstr "``Problem``"
+msgstr "``Problem问题``"
 
 #: ../../content/itsm-incident-problem-management/admin/ticket-settings/types.rst:22
 msgid "For tickets that are created for problems."
@@ -4712,7 +4712,7 @@ msgstr "影响"
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-phone-ticket.rst:16
 #: ../../content/itsm-incident-problem-management/agent/tickets/ticket-zoom.rst:23
 msgid "Select the impact level from *1 very low* to *5 very high*."
-msgstr "选择从* 1-非常低*到* 5-非常高*的影响级别。"
+msgstr "选择从 *1-非常低* 到 *5-非常高* 的影响级别。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-email-ticket.rst:18
 #: ../../content/itsm-incident-problem-management/agent/tickets/new-phone-ticket.rst:18
@@ -4729,7 +4729,7 @@ msgstr "选择日期作为新工单的截止日期。"
 msgid ""
 "After installation of the package some new attributes are added to the "
 "*Ticket Search* screen."
-msgstr "安装本软件包后，一些新属性将添加到* 工单搜索 *屏幕。"
+msgstr "安装本软件包后，一些新属性将添加到 *工单搜索* 屏幕。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/search.rst:6
 msgid "To see the new attributes:"
@@ -4737,11 +4737,11 @@ msgstr "若要查看新的属性："
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/search.rst:8
 msgid "Open the *Search* menu item from the *Tickets* menu."
-msgstr "从*工单*菜单打开*搜索*菜单项。"
+msgstr "从 *工单* 菜单打开 *搜索* 菜单项。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/search.rst:9
 msgid "Click on the *Add another attribute* filed."
-msgstr "点击*添加另外的属性*字段。"
+msgstr "点击 *添加另外的属性* 字段。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/search.rst:10
 msgid "Scroll down the list and check the available attributes."
@@ -4802,7 +4802,7 @@ msgstr "状态视图"
 msgid ""
 "After installation of the package some new fields will be available in the "
 "*Status View* screen."
-msgstr "安装本软件包后，一些新的动态字段将在*状态视图*屏幕中可用。"
+msgstr "安装本软件包后，在 *状态视图* 屏幕中可用一些新的动态字段。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/status-view.rst:9
 msgid "Ticket Status View Screen"
@@ -4817,7 +4817,7 @@ msgid ""
 "After installation of the package many new dynamic fields will be available "
 "in the *Ticket Zoom* screen and in its child windows. Additionally, two new "
 "menu items are added to the ticket menu."
-msgstr "安装本软件包后，* 工单详情 *屏幕及其子窗口中将提供许多新的动态字段。 此外，工单菜单中还添加了两个新菜单项。"
+msgstr "安装本软件包后， *工单详情* 屏幕及其子窗口中将提供许多新的动态字段。 此外，工单菜单中还添加了两个新菜单项。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/ticket-zoom.rst:9
 msgid "Ticket Zoom Screen"
@@ -4855,7 +4855,7 @@ msgid ""
 "After installation of the package a new menu item *Additional ITSM Fields* "
 "is displayed in the ticket menu. Clicking on this menu item will open a new "
 "window."
-msgstr "安装本软件包后，将在工单菜单中显示新的菜单项*额外的ITSM字段*。 单击此菜单项将打开一个新窗口。"
+msgstr "安装本软件包后，将在工单菜单中显示新的菜单项 *额外的ITSM字段*。 单击此菜单项将打开一个新窗口。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/ticket-zoom.rst:33
 msgid ""
@@ -4899,7 +4899,7 @@ msgstr "决定"
 msgid ""
 "After installation of the package a new menu item *Decision* is displayed in"
 " the ticket menu. Clicking on this menu item will open a new window."
-msgstr "安装本软件包后，将在工单菜单中显示新的菜单项*决定*。 单击此菜单项将打开一个新窗口。"
+msgstr "安装本软件包后，将在工单菜单中显示新的菜单项 *决定*。 单击此菜单项将打开一个新窗口。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/ticket-zoom.rst:58
 msgid "In this window the decision result and the decision date can be set."
@@ -4913,7 +4913,7 @@ msgstr "工单决定窗口"
 msgid ""
 "Select a possible result for the decision. The available decision results "
 "can be set as :doc:`../../admin/processes-automation/dynamic-fields`."
-msgstr "选择可能的结果作出决定。 可用的决策结果可以设置为:doc:`../../admin/processes-automation/dynamic-fields`。"
+msgstr "选择可能的结果作出决定。 可用的决策结果可以设置为 :doc:`../../admin/processes-automation/dynamic-fields`。"
 
 #: ../../content/itsm-incident-problem-management/agent/tickets/ticket-zoom.rst:69
 msgid "Decision Date"
@@ -5008,7 +5008,7 @@ msgid ""
 "After installation of the package some new statistics are added to the "
 "system. The statistic management screen is available in the *Statistics* "
 "menu item of the *Reports* menu."
-msgstr "安装本软件包后，系统会添加一些新的统计信息。 统计管理屏幕位于* 报表 *菜单的* 统计 *菜单项中。"
+msgstr "安装本软件包后，系统会添加一些新的统计信息。 统计管理屏幕位于 *报表* 菜单的 *统计* 菜单项中。"
 
 #: ../../content/itsm-service-level-management/agent/reports/statistics.rst:9
 msgid "Statistics Overview Screen"
