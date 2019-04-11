@@ -12,7 +12,7 @@ To add or edit the class definition of a configuration item class:
 
 1. Select a class from the drop-down menu in the left sidebar.
 2. Click on the *Change class definition* button.
-3. Add or edit the class definition in JSON format.
+3. Add or edit the class definition in YAML format.
 4. Click on the *Save* or *Save and finish* button.
 
 .. figure:: images/config-item-edit.png
