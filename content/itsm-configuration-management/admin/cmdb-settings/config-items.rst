@@ -27,6 +27,25 @@ To see the class definition of a configuration item class:
 
 .. figure:: images/config-item-class.png
    :alt: Configuration Item Class Versions Screen
+   
+Class Definition
+
+When defining a class, you can use multiple input types. These types are used to generate the edit form for creating new or editing already existing CIs.
+
+.. code::
+   {
+        Key => 'Vendor',
+        Name => Translatable('Vendor'),
+        Searchable => 1,
+        Input => {
+            Type => 'Text',
+            Size => 50,
+            MaxLength => 50,
+
+            # Example for CI attribute syntax check for text and textarea fields
+            #RegEx             => '^ABC.*',
+            #RegExErrorMessage => 'Value must start with "ABC"!',
+        },
 
    Configuration Item Class Versions Screen
 
