@@ -35,6 +35,8 @@ When defining a class, you can use multiple input types. These types are used to
 
 See this block as an example of a form field called Vendor.
 
+Definition example *prior to ITSM 7.0.7*
+
 .. code-block::
  
    {
@@ -50,25 +52,62 @@ See this block as an example of a form field called Vendor.
             #RegEx             => '^ABC.*',
             #RegExErrorMessage => 'Value must start with "ABC"!',
         },
+.. warning::
 
-Elements of the CI definition are:
+   You should always update to the lastest version.
 
-   * Key
-      Key must be machine readable. No whitespace or special charachters allowed. If this changes, data will not be readable from old definitions.
-   * Name
-      Names can be translated by placinng the string in this format. *Translatable('Install Date')*
-   * Searchable
-      Searchable is either 1 or not included.
-   * Inupt
+Current definition example. The definitions are to be written in YAML.
+
+.. code-block::
+
+   - Input:
+       MaxLength: 50
+       Size: 50
+       Type: Text
+     Key: Vendor
+     Name: Vendor
+     Searchable: 1
+
+The basic needed elements of the CI definition are:
+
+* Key
+   Key must be machine readable. No whitespace or special charachters allowed. If this changes, data will not be readable from old definitions.
+* Name
+   Names can be translated by placinng the string in this format. *Translatable('Install Date')*
+* Searchable
+   Searchable is either 1 or not included.
+* Inupt
+   This has one or more sub attirbutes. See below.
    
-Other elements my include:
+For creating multiple instance of the same form field, for example for multiple hard drives in a computer, you must use these elements.
 
-   * CountMin
-      An positive integer to dictate how many of these input types are available at a minimum.
-   * CountMax
-   * CountDefault
-   * Sub
+* Sub
+   This dictactes that the follwing item, a sub item of the parent item is. This is important especially when using CountMin, CountMax, and CountDefault.
+* CountMin
+   An positive integer to dictate how many of these input types are available at a minimum.
+* CountMax
+   An positive integer to dictate how many of these input types are available at a maximum.
+* CountDefault
+   An positive integer to dictate how many of these input types are available per defualt.
    
+Exapmle of using *sub* to define multiple elements.
+
+.. code-block::
+
+   - CountMax: 10
+     Input:
+       MaxLength: 100
+       Size: 50
+       Type: Text
+     Key: HardDisk
+     Name: Hard Disk
+     Sub:
+     - Input:
+         MaxLength: 10
+         Size: 20
+         Type: Text
+       Key: Capacity
+       Name: Capacity
 
 The possible types available for use are:
 
@@ -100,6 +139,18 @@ MaxLength
    
 Class
    Is a set UTF-8 characters. Used with the type *GeneralCatalog*. Gives the name of the class to be used for the dropdown field. **Required** for type *GeneralCatalog*
+   
+An exapmle of a class item.
+
+.. code-block::
+
+  - Input:
+      Class: ITSM::ConfigItem::YesNo
+      Required: 1
+      Translation: 1
+      Type: GeneralCatalog
+    Key: IPoverDHCP
+    Name: IP over DHCP
    
 Required
    Is either 1 or 0. Can be used in any type. Setting this to 1 makes the setting mandatory in the frontend and for importing.
